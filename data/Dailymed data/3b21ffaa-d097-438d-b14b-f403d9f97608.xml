@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3b21ffaa-d097-438d-b14b-f403d9f97608"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20140311"/>
+   <setId root="ea33db56-ad0c-40dc-b880-0458aba22862"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+                        <name>Northwind Pharmceuticals</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-400" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="cc74be2d-71b3-41a2-b363-9e5cc40afbea"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140428"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-400" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ondansetron HCL</name>
+                        <formCode code="C42897" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ondansetron HCL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="63304-458" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="4" unit="mg"/>
+                              <denominator value="3" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="NMH84OZK2B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ONDANSETRON HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4AF302ESOS" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ONDANSETRON</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="3" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-400-43" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140317"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA077851" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">NO;4</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="10" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="oral"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld72727ef-c36b-44bf-9429-a4e786e81894">
+               <id root="d7c43e8e-fddf-4646-ab7d-77f348fccf72"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>NDC: 51655-400-43</paragraph>
+                  <paragraph>MFG: 63304-458-30</paragraph>
+                  <paragraph>Ondansetron 4 MG</paragraph>
+                  <paragraph>3 Tablets</paragraph>
+                  <paragraph>RX Only</paragraph>
+                  <paragraph>Dosage: See package insert</paragraph>
+                  <paragraph>Store at 68 to 77 degrees F.</paragraph>
+                  <paragraph>Keep out of the reach of children.</paragraph>
+                  <paragraph>Each film-coated tablet contains 5 mg of ondansetron hydrochloride, USP equivalent to 4 mg of ondansetron.</paragraph>
+                  <paragraph>Mfg. by Natco Pharma Ltd. Kothur 509 228 A. P. India for Ranbaxy Pharmaceuticals, Jacksonville FL 33257 Lot # 404048</paragraph>
+                  <paragraph>Repackaged by Northwind Pharmaceuticals, Indianapolis, IN 46256</paragraph>
+                  <paragraph>Lot# NW25310001</paragraph>
+                  <paragraph>Exp Date: 07/2015</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Ld24270b1-8653-4602-85c2-2e2f5ad5f55d"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140428"/>
+               <component>
+                  <observationMedia ID="Ld24270b1-8653-4602-85c2-2e2f5ad5f55d">
+                     <text>51655-400-43</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51655-4004 Ondansetron 4MG.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <section ID="L4146a5f1-a9c6-48d6-9e07-b317d4a5a57e">
+                     <id root="19c7ab0c-ee51-4753-a7fe-31f323bd683a"/>
+                     <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>Dosage: see package insert.  Store at 68 to 77 degrees F.  Keep out of reach of children.</paragraph>
+                     </text>
+                     <effectiveTime value="20140311"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld8b05728-c51e-4d9f-821d-55db89b6b2e2">
+               <id root="6f3145c7-a0f2-4f3b-81cc-a09e1eb7e0a6"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140311"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

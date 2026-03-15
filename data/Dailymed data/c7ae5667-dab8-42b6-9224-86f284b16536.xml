@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c7ae5667-dab8-42b6-9224-86f284b16536"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20140619"/>
+   <setId root="5909a843-51d7-4cc2-a2ad-b848463e85b6"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+                        <name>Northwind Pharmaceuticals</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-562" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="657a3fd7-0f63-4422-bd6c-61b60997c838"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140619"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-562" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Metformin hydrochloride<suffix>ER</suffix>
+                        </name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Metformin hydrochloride ER</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="62037-577" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="750" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="786Z46389E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METFORMIN HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9100L32L2N" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METFORMIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-562-52" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA076869" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="20" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">577;750</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L49f952b1-4162-4945-8a4a-970ff5937efb">
+               <id root="9647ae4c-5745-4d1c-9135-ee475cb8cd41"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications and usage</title>
+               <text>
+                  <paragraph>Metformin hydrochloride tablets, USP is indicated as an adjunct to diet and exercise to improve glycemic control in adults and children with type 2 diabetes mellitus. Metformin hydrochloride extended-release tablets, USP is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.</paragraph>
+                  <paragraph>NOTE: PLEASE VISIT THE FDA SITE FOR COMPLETE MANUFACTURER'S DRUG INFORMATION-:<br/>http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6249318a-dd65-4323-b501-386305aad059</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8547aa43-5cf2-45ec-b3b2-bb23b06b7889">
+               <id root="719453b5-4dd9-486b-a947-979070f01d71"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP are contraindicated in patients with:</paragraph>
+                  <paragraph>Renal disease or renal dysfunction (e.g., as suggested by serum creatinine levels ≥ 1.5 mg/dL [males], ≥ 1.4 mg/dL [females] or abnormal creatinine clearance) which may also result from conditions such as cardiovascular collapse (shock), acute myocardial infarction, and septicemia (see WARNINGS and PRECAUTIONS).<br/>Known hypersensitivity to metformin hydrochloride.<br/>Acute or chronic metabolic acidosis, including diabetic ketoacidosis, with or without coma. Diabetic ketoacidosis should be treated with insulin.</paragraph>
+                  <paragraph>Metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP should be temporarily discontinued in patients undergoing radiologic studies involving intravascular administration of iodinated contrast materials, because use of such products may result in acute alteration of renal function. (See also PRECAUTIONS).</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6b2ec4aa-6c77-48c4-8359-a422d1c57766">
+               <id root="4b827faf-5cac-4e7f-b663-b098918750ef"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Lactic Acidosis:</paragraph>
+                  <paragraph>Lactic acidosis is a rare, but serious, metabolic complication that can occur due to metformin accumulation during treatment with metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP; when it occurs, it is fatal in approximately 50% of cases. Lactic acidosis may also occur in association with a number of pathophysiologic conditions, including diabetes mellitus, and whenever there is significant tissue hypoperfusion and hypoxemia. Lactic acidosis is characterized by elevated blood lactate levels (&gt;5 mmol/L), decreased blood pH, electrolyte disturbances with an increased anion gap, and an increased lactate/pyruvate ratio. When metformin is implicated as the cause of lactic acidosis, metformin plasma levels &gt;5 μg/mL are generally found.</paragraph>
+                  <paragraph>The reported incidence of lactic acidosis in patients receiving metformin hydrochloride is very low (approximately 0.03 cases/1000 patient-years, with approximately 0.015 fatal cases/1000 patient-years). In more than 20,000 patient-years exposure to metformin in clinical trials, there were no reports of lactic acidosis. Reported cases have occurred primarily in diabetic patients with significant renal insufficiency, including both intrinsic renal disease and renal hypoperfusion, often in the setting of multiple concomitant medical/surgical problems and multiple concomitant medications. Patients with congestive heart failure requiring pharmacologic management, in particular those with unstable or acute congestive heart failure who are at risk of hypoperfusion and hypoxemia, are at increased risk of lactic acidosis. The risk of lactic acidosis increases with the degree of renal dysfunction and the patient's age. The risk of lactic acidosis may, therefore, be significantly decreased by regular monitoring of renal function in patients taking metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP and by use of the minimum effective dose of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP. In particular, treatment of the elderly should be accompanied by careful monitoring of renal function. Metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP treatment should not be initiated in patients ≥ 80 years of age unless measurement of creatinine clearance demonstrates that renal function is not reduced, as these patients are more susceptible to developing lactic acidosis. In addition, metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP should be promptly withheld in the presence of any condition associated with hypoxemia, dehydration, or sepsis. Because impaired hepatic function may significantly limit the ability to clear lactate, metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP should generally be avoided in patients with clinical or laboratory evidence of hepatic disease. Patients should be cautioned against excessive alcohol intake, either acute or chronic, when taking metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP, since alcohol potentiates the effects of metformin hydrochloride on lactate metabolism. In addition, metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP should be temporarily discontinued prior to any intravascular radiocontrast study and for any surgical procedure (see also PRECAUTIONS).</paragraph>
+                  <paragraph>The onset of lactic acidosis often is subtle, and accompanied only by nonspecific symptoms such as malaise, myalgias, respiratory distress, increasing somnolence, and nonspecific abdominal distress. There may be associated hypothermia, hypotension, and resistant bradyarrhythmias with more marked acidosis. The patient and the patient's physician must be aware of the possible importance of such symptoms and the patient should be instructed to notify the physician immediately if they occur (see also PRECAUTIONS). Metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP should be withdrawn until the situation is clarified. Serum electrolytes, ketones, blood glucose and- if indicated, blood pH, lactate levels, and even blood metformin levels may be useful. Once a patient is stabilized on any dose level of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP, gastrointestinal symptoms, which are common during initiation of therapy, are unlikely to be drug related. Later occurrence of gastrointestinal symptoms could be due to lactic acidosis or other serious disease.</paragraph>
+                  <paragraph>Levels of fasting venous plasma lactate above the upper limit of normal but less than 5 mmol/L in patients taking metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP do not necessarily indicate impending lactic acidosis and may be explainable by other mechanisms, such as poorly controlled diabetes or obesity, vigorous physical activity, or technical problems in sample handling. (See also PRECAUTIONS.)</paragraph>
+                  <paragraph>Lactic acidosis should be suspected in any diabetic patient with metabolic acidosis lacking evidence of ketoacidosis (ketonuria and ketonemia).</paragraph>
+                  <paragraph>Lactic acidosis is a medical emergency that must be treated in a hospital setting. In a patient with lactic acidosis who is taking metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP, the drug should be discontinued immediately and general supportive measures promptly instituted. Because metformin hydrochloride is dialyzable (with a clearance of up to 170 mL/min under good hemodynamic conditions), prompt hemodialysis is recommended to correct the acidosis and remove the accumulated metformin. Such management often results in prompt reversal of symptoms and recovery. (See also CONTRAINDICATIONS and PRECAUTIONS.)</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2517f847-2f43-41fe-be97-198125eb7707">
+               <id root="6e16be4b-542c-49cb-aaea-a5509eb61939"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>Macrovascular Outcomes- There have been no clinical studies establishing conclusive evidence of macrovascular risk reduction with metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP or any other anti-diabetic drug.</paragraph>
+                  <paragraph>Monitoring of renal function — Metformin is known to be substantially excreted by the kidney, and the risk of metformin accumulation and lactic acidosis increases with the degree of impairment of renal function. Thus, patients with serum creatinine levels above the upper limit of normal for their age should not receive metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP. In patients with advanced age, metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP should be carefully titrated to establish the minimum dose for adequate glycemic effect, because aging is associated with reduced renal function. In elderly patients, particularly those ≥ 80 years of age, renal function should be monitored regularly and, generally, metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP should not be titrated to the maximum dose (see WARNINGS and DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Before initiation of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP therapy and at least annually thereafter, renal function should be assessed and verified as normal. In patients in whom development of renal dysfunction is anticipated, renal function should be assessed more frequently and metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP discontinued if evidence of renal impairment is present.</paragraph>
+                  <paragraph>Use of concomitant medications that may affect renal function or metformin disposition — Concomitant medication(s) that may affect renal function or result in significant hemodynamic change or may interfere with the disposition of metformin, such as cationic drugs that are eliminated by renal tubular secretion (See PRECAUTIONS: Drug Interactions), should be used with caution.</paragraph>
+                  <paragraph>Radiologic studies involving the use of intravascular iodinated contrast materials (for example, intravenous urogram, intravenous cholangiography, angiography, and computed tomography (CT) scans with intravascular contrast materials) — Intravascular contrast studies with iodinated materials can lead to acute alteration of renal function and have been associated with lactic acidosis in patients receiving metformin (see CONTRAINDICATIONS). Therefore, in patients in whom any such study is planned, metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP should be temporarily discontinued at the time of or prior to the procedure, and withheld for 48 hours subsequent to the procedure and reinstituted only after renal function has been re-evaluated and found to be normal.</paragraph>
+                  <paragraph>Hypoxic states — Cardiovascular collapse (shock) from whatever cause, acute congestive heart failure, acute myocardial infarction and other conditions characterized by hypoxemia have been associated with lactic acidosis and may also cause prerenal azotemia. When such events occur in patients on metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP therapy, the drug should be promptly discontinued.</paragraph>
+                  <paragraph>Surgical procedures — Metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP therapy should be temporarily suspended for any surgical procedure (except minor procedures not associated with restricted intake of food and fluids) and should not be restarted until the patient's oral intake has resumed and renal function has been evaluated as normal.</paragraph>
+                  <paragraph>Alcohol intake — Alcohol is known to potentiate the effect of metformin on lactate metabolism. Patients, therefore, should be warned against excessive alcohol intake, acute or chronic, while receiving metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP.</paragraph>
+                  <paragraph>Impaired hepatic function — Since impaired hepatic function has been associated with some cases of lactic acidosis, metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP should generally be avoided in patients with clinical or laboratory evidence of hepatic disease.</paragraph>
+                  <paragraph>Vitamin B12levels — In controlled clinical trials of metformin hydrochloride tablets, USP of 29 weeks duration, a decrease to subnormal levels of previously normal serum Vitamin B12 levels, without clinical manifestations, was observed in approximately 7% of patients. Such decrease, possibly due to interference with B12 absorption from the B12 -intrinsic factor complex, is, however, very rarely associated with anemia and appears to be rapidly reversible with discontinuation of metformin hydrochloride tablets, USP or vitamin B12 supplementation. Measurement of hematologic parameters on an annual basis is advised in patients on metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP and any apparent abnormalities should be appropriately investigated and managed (see PRECAUTIONS: Laboratory Tests)</paragraph>
+                  <paragraph>Certain individuals (those with inadequate vitamin B12 or calcium intake or absorption) appear to be predisposed to developing subnormal vitamin B12 levels. In these patients, routine serum Vitamin B12 measurements at two- to three-years intervals may be useful.</paragraph>
+                  <paragraph>Change in clinical status of patients with previously controlled type 2 diabetes — A patient with type 2 diabetes previously well controlled on metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP who develops laboratory abnormalities or clinical illness (especially vague and poorly defined illness) should be evaluated promptly for evidence of ketoacidosis or lactic acidosis. Evaluation should include serum electrolytes and ketones, blood glucose and, if indicated, blood pH, lactate, pyruvate, and metformin levels. If acidosis of either form occurs, metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP must be stopped immediately and other appropriate corrective measures initiated (see also WARNINGS).</paragraph>
+                  <paragraph>Hypoglycemia — Hypoglycemia does not occur in patients receiving metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP alone under usual circumstances of use, but could occur when caloric intake is deficient, when strenuous exercise is not compensated by caloric supplementation, or during concomitant use with other glucose-lowering agents (such as sulfonylureas and insulin) or ethanol. Elderly, debilitated, or malnourished patients, and those with adrenal or pituitary insufficiency or alcohol intoxication are particularly susceptible to hypoglycemic effects. Hypoglycemia may be difficult to recognize in the elderly, and in people who are taking beta-adrenergic blocking drugs.</paragraph>
+                  <paragraph>Loss of control of blood glucose — When a patient stabilized on any diabetic regimen is exposed to stress such as fever, trauma, infection, or surgery, a temporary loss of glycemic control may occur. At such times, it may be necessary to withhold metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP and temporarily administer insulin. Metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP may be reinstituted after the acute episode is resolved.</paragraph>
+                  <paragraph>The effectiveness of oral antidiabetic drugs in lowering blood glucose to a targeted level decreases in many patients over a period of time. This phenomenon, which may be due to progression of the underlying disease or to diminished responsiveness to the drug, is known as secondary failure, to distinguish it from primary failure in which the drug is ineffective during initial therapy. Should secondary failure occur with either metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP or sulfonylurea monotherapy, combined therapy with metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP and sulfonylurea may result in a response. Should secondary failure occur with combined metformin hydrochloride tablets, USP/sulfonylurea therapy or metformin hydrochloride extended-release tablets, USP/sulfonylurea therapy, it may be necessary to consider therapeutic alternatives including initiation of insulin therapy.</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Laf99e424-a25c-4398-8085-860f192fda14">
+               <id root="2d6917c4-7276-467c-bd15-bd9b2b76e277"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>INFORMATION FOR PATIENTS</title>
+               <text>
+                  <paragraph>Patients should be informed of the potential risks and benefits of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP and of alternative modes of therapy. They should also be informed about the importance of adherence to dietary instructions, of a regular exercise program, and of regular testing of blood glucose, glycosylated hemoglobin, renal function and hematologic parameters.</paragraph>
+                  <paragraph>The risks of lactic acidosis, its symptoms, and conditions that predispose to its development, as noted in the WARNINGS and PRECAUTIONS sections, should be explained to patients. Patients should be advised to discontinue metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP immediately and to promptly notify their health practitioner if unexplained hyperventilation, myalgia, malaise, unusual somnolence or other nonspecific symptoms occur. Once a patient is stabilized on any dose level of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP, gastrointestinal symptoms, which are common during initiation of metformin therapy, are unlikely to be drug related. Later occurrence of gastrointestinal symptoms could be due to lactic acidosis or other serious disease.</paragraph>
+                  <paragraph>Patients should be counseled against excessive alcohol intake, either acute or chronic, while receiving metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP.</paragraph>
+                  <paragraph>Metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP alone does not usually cause hypoglycemia, although it may occur when metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP are used in conjunction with oral sulfonylureas and insulin. When initiating combination therapy, the risks of hypoglycemia, its symptoms and treatment, and conditions that predispose to its development should be explained to patients. (See Patient Information Printed Separately.)</paragraph>
+                  <paragraph>Patients should be informed that metformin hydrochloride extended-release tablets, USP must be swallowed whole and not crushed or chewed, and that the inactive ingredients may occasionally be eliminated in the feces as a soft mass that may resemble the original tablet.</paragraph>
+                  <paragraph>Laboratory Tests</paragraph>
+                  <paragraph>Response to all diabetic therapies should be monitored by periodic measurements of fasting blood glucose and glycosylated hemoglobin levels, with a goal of decreasing these levels toward the normal range. During initial dose titration, fasting glucose can be used to determine the therapeutic response. Thereafter, both glucose and glycosylated hemoglobin should be monitored. Measurements of glycosylated hemoglobin may be especially useful for evaluating long-term control (see also DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Initial and periodic monitoring of hematologic parameters (e.g., hemoglobin/hematocrit and red blood cell indices) and renal function (serum creatinine) should be performed, at least on an annual basis. While megaloblastic anemia has rarely been seen with metformin hydrochloride tablets, USP therapy, if this is suspected, Vitamin B12 deficiency should be excluded.</paragraph>
+                  <paragraph>NOTE: THE COMPLETE DRUG INFORMATION FROM THE MANUFACTURER CAN BE FOUND AT THIS FDA SITE:</paragraph>
+                  <paragraph>http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6249318a-dd65-4323-b501-386305aad059</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0b122473-442c-4a71-b6bd-a3765dd17a52">
+               <id root="723a1c03-3816-4ea1-8203-bc8f7197c9ed"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>DRUG INTERACTIONS<br/>
+               </title>
+               <text>
+                  <paragraph>Glyburide: In a single-dose interaction study in type 2 diabetes patients, co-administration of metformin and glyburide did not result in any changes in either metformin pharmacokinetics or pharmacodynamics. Decreases in glyburide AUC and Cmax were observed, but were highly variable. The single-dose nature of this study and the lack of correlation between glyburide blood levels and pharmacodynamic effects, makes the clinical significance of this interaction uncertain (see DOSAGE AND ADMINISTRATION: Concomitant Metformin Hydrochloride Tablets, USP or Metformin Hydrochloride Extended-release Tablets, USP and Oral Sulfonylurea Therapy).</paragraph>
+                  <paragraph>Furosemide: A single-dose, metformin-furosemide drug interaction study in healthy subjects demonstrated that pharmacokinetic parameters of both compounds were affected by coadministration. Furosemide increased the metformin plasma and blood Cmax by 22% and blood AUC by 15%, without any significant change in metformin renal clearance. When administered with metformin, the Cmax and AUC of furosemide were 31% and 12% smaller, respectively, than when administered alone, and the terminal half-life was decreased by 32%, without any significant change in furosemide renal clearance. No information is available about the interaction of metformin and furosemide when co-administered chronically.</paragraph>
+                  <paragraph>Nifedipine: A single-dose, metformin-nifedipine drug interaction study in normal healthy volunteers demonstrated that co-administration of nifedipine increased plasma metformin Cmax and AUC by 20% and 9%, respectively, and increased the amount excreted in the urine. Tmax and half-life were unaffected. Nifedipine appears to enhance the absorption of metformin. Metformin had minimal effects on nifedipine.</paragraph>
+                  <paragraph>Cationic drugs: Cationic drugs (e.g., amiloride, digoxin, morphine, procainamide, quinidine, quinine, ranitidine, triamterene, trimethoprim, or vancomycin) that are eliminated by renal tubular secretion theoretically have the potential for interaction with metformin by competing for common renal tubular transport systems. Such interaction between metformin and oral cimetidine has been observed in normal healthy volunteers in both single- and multiple-dose, metformin-cimetidine drug interaction studies, with a 60% increase in peak metformin plasma and whole blood concentrations and a 40% increase in plasma and whole blood metformin AUC. There was no change in elimination half-life in the single-dose study. Metformin had no effect on cimetidine pharmacokinetics. Although such interactions remain theoretical (except for cimetidine), careful patient monitoring and dose adjustment of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP and/or the interfering drug is recommended in patients who are taking cationic medications that are excreted via the proximal renal tubular secretory system.</paragraph>
+                  <paragraph>Other: Certain drugs tend to produce hyperglycemia and may lead to loss of glycemic control. These drugs include the thiazides and other diuretics, corticosteroids, phenothiazines, thyroid products, estrogens, oral contraceptives, phenytoin, nicotinic acid, sympathomimetics, calcium channel blocking drugs, and isoniazid. When such drugs are administered to a patient receiving metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP, the patient should be closely observed for loss of blood glucose control. When such drugs are withdrawn from a patient receiving metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP, the patient should be observed closely for hypoglycemia.</paragraph>
+                  <paragraph>In healthy volunteers, the pharmacokinetics of metformin and propranolol and metformin and ibuprofen were not affected when co-administered in single-dose interaction studies.</paragraph>
+                  <paragraph>Metformin is negligibly bound to plasma proteins and is, therefore, less likely to interact with highly protein-bound drugs such as salicylates, sulfonamides, chloramphenicol, and probenecid, as compared to the sulfonylureas, which are extensively bound to serum proteins.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>Long-term carcinogenicity studies have been performed in rats (dosing duration of 104 weeks) and mice (dosing duration of 91 weeks) at doses up to and including 900 mg/kg/day and 1500 mg/kg/day, respectively. These doses are both approximately four times the maximum recommended human daily dose of 2000 mg based on body surface area comparisons. No evidence of carcinogenicity with metformin was found in either male or female mice. Similarly, there was no tumorigenic potential observed with metformin in male rats. There was, however, an increased incidence of benign stromal uterine polyps in female rats treated with 900 mg/kg/day.</paragraph>
+                  <paragraph>There was no evidence of a mutagenic potential of metformin in the following in vitro tests: Ames test (S. typhimurium), gene mutation test (mouse lymphoma cells), or chromosomal aberrations test (human lymphocytes). Results in the in vivo mouse micronucleus test were also negative.</paragraph>
+                  <paragraph>Fertility of male or female rats was unaffected by metformin when administered at doses as high as 600 mg/kg/day, which is approximately three times the maximum recommended human daily dose based on body surface area comparisons.</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1c478034-b42f-4b1d-a2a4-fa004145c150">
+               <id root="37dacb66-0449-4113-9f25-e2f4f52f867f"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Teratogenic Effects: Pregnancy Category B.</paragraph>
+                  <paragraph>Recent information strongly suggests that abnormal blood glucose levels during pregnancy are associated with a higher incidence of congenital abnormalities. Most experts recommend that insulin be used during pregnancy to maintain blood glucose levels as close to normal as possible. Because animal reproduction studies are not always predictive of human response, metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP should not be used during pregnancy unless clearly needed.</paragraph>
+                  <paragraph>There are no adequate and well-controlled studies in pregnant women with metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP. Metformin was not teratogenic in rats and rabbits at doses up to 600 mg/kg/day. This represents an exposure of about two and six times the maximum recommended human daily dose of 2000 mg based on body surface area comparisons for rats and rabbits, respectively. Determination of fetal concentrations demonstrated a partial placental barrier to metformin.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>Studies in lactating rats show that metformin is excreted into milk and reaches levels comparable to those in plasma. Similar studies have not been conducted in nursing mothers. Because the potential for hypoglycemia in nursing infants may exist, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother. If metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP are discontinued, and if diet alone is inadequate for controlling blood glucose, insulin therapy should be considered.</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>The safety and effectiveness of metformin hydrochloride tablets, USP for the treatment of type 2 diabetes have been established in pediatric patients ages 10 to 16 years (studies have not been conducted in pediatric patients below the age of 10 years). Use of metformin hydrochloride tablets, USP in this age group is supported by evidence from adequate and well-controlled studies of metformin hydrochloride tablets, USP in adults with additional data from a controlled clinical study in pediatric patients ages 10 to 16 years with type 2 diabetes, which demonstrated a similar response in glycemic control to that seen in adults. (See CLINICAL PHARMACOLOGY: Pediatric Clinical Studies.) In this study, adverse effects were similar to those described in adults. (See ADVERSE REACTIONS: Pediatric Patients.) A maximum daily dose of 2000 mg is recommended. (See DOSAGE AND ADMINISTRATION: Recommended Dosing Schedule: Pediatrics.)</paragraph>
+                  <paragraph>Safety and effectiveness of metformin hydrochloride extended-release tablets, USP in pediatric patients have not been established.</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>Controlled clinical studies of metformin hydrochloride tablets, USP and metformin hydrochloride extended-release tablets, USP did not include sufficient numbers of elderly patients to determine whether they respond differently from younger patients, although other reported clinical experience has not identified differences in responses between the elderly and younger patients. Metformin is known to be substantially excreted by the kidney and because the risk of serious adverse reactions to the drug is greater in patients with impaired renal function, metformin hydrochloride tablets, USP, and metformin hydrochloride extended-release tablets, USP should only be used in patients with normal renal function (see CONTRAINDICATIONS, WARNINGS and CLINICAL PHARMACOLOGY: Pharmacokinetics). Because aging is associated with reduced renal function, metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP should be used with caution as age increases. Care should be taken in dose selection and should be based on careful and regular monitoring of renal function. Generally, elderly patients should not be titrated to the maximum dose of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP (see also WARNINGS and DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Please visit the FDA site for more information regarding using this drug in specific populations: <br/>http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6249318a-dd65-4323-b501-386305aad059</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9909e259-500a-4627-a743-b74b7c74a581">
+               <id root="4f28dfe4-2bdd-4d79-987d-1124838f61fb"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdose of metformin hydrochloride has occurred, including ingestion of amounts greater than 50 grams. Hypoglycemia was reported in approximately 10% of cases, but no causal association with metformin hydrochloride has been established. Lactic acidosis has been reported in approximately 32% of metformin overdose cases (see WARNINGS). Metformin is dialyzable with a clearance of up to 170 mL/min under good hemodynamic conditions. Therefore, hemodialysis may be useful for removal of accumulated drug from patients in whom metformin overdosage is suspected.</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf664993d-c198-49c8-aab6-5779e47c698f">
+               <id root="2b23caff-9289-403b-976b-df4f17ae3a4c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>There is no fixed dosage regimen for the management of hyperglycemia in patients with type 2 diabetes with metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP or any other pharmacologic agent. Dosage of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP must be individualized on the basis of both effectiveness and tolerance, while not exceeding the maximum recommended daily dose. The maximum recommended daily dose of metformin hydrochloride tablets, USP is 2550 mg in adults and 2000 mg in pediatric patients (10-16 years of age); the maximum recommended daily dose of metformin hydrochloride extended-release tablets, USP in adults is 2000 mg.</paragraph>
+                  <paragraph>Metformin hydrochloride tablets, USP should be given in divided doses with meals while metformin hydrochloride extended-release tablets, USP should generally be given once daily with the evening meal. Metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP should be started at a low dose, with gradual dose escalation, both to reduce gastrointestinal side effects and to permit identification of the minimum dose required for adequate glycemic control of the patient. During treatment initiation and dose titration (see Recommended Dosing Schedule), fasting plasma glucose should be used to determine the therapeutic response to metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP and identify the minimum effective dose for the patient. Thereafter, glycosylated hemoglobin should be measured at intervals of approximately three months. The therapeutic goal should be to decrease both fasting plasma glucose and glycosylated hemoglobin levels to normal or near normal by using the lowest effective dose of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP, either when used as monotherapy or in combination with sulfonylurea or insulin.</paragraph>
+                  <paragraph>Monitoring of blood glucose and glycosylated hemoglobin will also permit detection of primary failure, i.e., inadequate lowering of blood glucose at the maximum recommended dose of medication, and secondary failure, i.e., loss of an adequate blood glucose lowering response after an initial period of effectiveness.</paragraph>
+                  <paragraph>Short-term administration of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP may be sufficient during periods of transient loss of control in patients usually well-controlled on diet alone.</paragraph>
+                  <paragraph>Metformin hydrochloride extended-release tablets, USP must be swallowed whole and never crushed or chewed. Occasionally, the inactive ingredients of metformin hydrochloride extended-release will be eliminated in the feces as a soft, hydrated mass. (See Patient Information printed separately.)</paragraph>
+                  <paragraph>Recommended Dosing Schedule</paragraph>
+                  <paragraph>Adults - In general, clinically significant responses are not seen at doses below 1500 mg per day. However, a lower recommended starting dose and gradually increased dosage is advised to minimize gastrointestinal symptoms.</paragraph>
+                  <paragraph>The usual starting dose of metformin hydrochloride tablets, USP is 500 mg twice a day or 850 mg once a day, given with meals. Dosage increases should be made in increment of 500 mg weekly or 850 mg every 2 weeks, up to a total of 2000 mg per day, given in divided doses. Patients can also be titrated from 500 mg twice a day to 850 mg twice a day after 2 weeks. For those patients requiring additional glycemic control, metformin hydrochloride tablets, USP may be given to a maximum daily dose of 2550 mg per day. Doses above 2000 mg may be better tolerated given three times a day with meals.</paragraph>
+                  <paragraph>The usual starting dose of metformin hydrochloride extended-release tablets, USP is 500 mg once daily with the evening meal. Dosage increases should be made in increments of 500 mg weekly, up to a maximum of 2000 mg once daily with the evening meal. If glycemic control is not achieved on metformin hydrochloride extended-release tablets, USP 2000 mg once daily, a trial of metformin hydrochloride extended-release tablets, USP 1000 mg twice daily should be considered. If higher doses of metformin hydrochloride tablets, USP are required, metformin hydrochloride tablets, USP should be used at total daily doses up to 2550 mg administered in divided daily doses, as described above. (See CLINICAL PHARMACOLOGY, Clinical Studies.)</paragraph>
+                  <paragraph>In a randomized trial, patients currently treated with metformin hydrochloride tablets, USP were switched to metformin hydrochloride extended-release tablets, USP. Results of this trial suggest that patients receiving metformin hydrochloride tablets, USP treatment may be safely switched to metformin hydrochloride extended-release tablets, USP once daily at the same total daily dose, up to 2000 mg once daily. Following a switch from metformin hydrochloride tablets, USP to metformin hydrochloride extended-release tablets, USP glycemic control should be closely monitored and dosage adjustments made accordingly (see CLINICAL PHARMACOLOGY, Clinical Studies).</paragraph>
+                  <paragraph>Pediatrics - The usual starting dose of metformin hydrochloride tablets, USP is 500 mg twice a day, given with meals. Dosage increases should be made in increments of 500 mg weekly up to a maximum of 2000 mg per day, given in divided doses. Safety and effectiveness of metformin hydrochloride extended-release tablets, USP in pediatric patients have not been established.</paragraph>
+                  <paragraph>Transfer from Other Antidiabetic Therapy</paragraph>
+                  <paragraph>When transferring patients from standard oral hypoglycemic agents other than chlorpropamide to metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP no transition period generally is necessary. When transferring patients from chlorpropamide, care should be exercised during the first two weeks because of the prolonged retention of chlorpropamide in the body, leading to overlapping drug effects and possible hypoglycemia.</paragraph>
+                  <paragraph>Concomitant Metformin Hydrochloride Tablets, USP or Metformin Hydrochloride Extended-release Tablets, USP and Oral Sulfonylurea Therapy in Adult Patients</paragraph>
+                  <paragraph>If patients have not responded to four weeks of the maximum dose of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP monotherapy, consideration should be given to gradual addition of an oral sulfonylurea while continuing metformin hydrochloride tablets, USP or metformin hydrochloride extendedrelease tablets, USP at the maximum dose, even if prior primary or secondary failure to a sulfonylurea has occurred. Clinical and pharmacokinetic drug-drug interaction data are currently available only for metformin plus glyburide (glibenclamide).</paragraph>
+                  <paragraph>With concomitant metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP and sulfonylurea therapy, the desired control of blood glucose may be obtained by adjusting the dose of each drug. In a clinical trial of patients with type 2 diabetes and prior failure on glyburide, patients started on metformin hydrochloride tablets, USP 500 mg and glyburide 20 mg were titrated to 1000/20mg, 1500/20 mg, 2000/20 mg or 2500/20 mg of metformin hydrochloride tablets, USP and glyburide, respectively, to reach the goal of glycemic control as measured by FPG, HbA1c and plasma glucose response (see CLINICAL PHARMACOLOGY: Clinical Studies). However, attempts should be made to identify the minimum effective dose of each drug to achieve this goal. With concomitant metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP and sulfonylurea therapy, the risk of hypoglycemia associated with sulfonylurea therapy continues and may be increased. Appropriate precautions should be taken. (See Package Insert of the respective sulfonylurea.)</paragraph>
+                  <paragraph>If patients have not satisfactorily responded to one to three months of concomitant therapy with the maximum dose of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP and the maximum dose of an oral sulfonylurea, consider therapeutic alternatives including switching to insulin with or without metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP.</paragraph>
+                  <paragraph>Concomitant Metformin Hydrochloride Tablets, USP or Metformin Hydrochloride Extended-release Tablets, USP and Insulin Therapy in Adult Patients</paragraph>
+                  <paragraph>The current insulin dose should be continued upon initiation of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP therapy. Metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP should be initiated at 500 mg once daily in patients on insulin therapy. For patients not responding adequately, the dose of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP should be increased by 500 mg after approximately 1 week and by 500 mg every week thereafter until adequate glycemic control is achieved. The maximum recommended daily dose is 2500 mg for metformin hydrochloride tablets, USP and 2000 mg for metformin hydrochloride extended-release tablets, USP. It is recommended that the insulin dose be decreased by 10% to 25% when fasting plasma glucose concentrations decrease to less than 120 mg/dL in patients receiving concomitant insulin and metformin hydrochloride tablets, USP or metformin hydrochlorideextended-release tablets, USP. Further adjustment should be individualized based on glucose-lowering response.</paragraph>
+                  <paragraph>Specific Patient Populations</paragraph>
+                  <paragraph>Metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP are not recommended for use in pregnancy. Metformin hydrochloride tablets, USP are not recommended in patients below the age of 10 years. Metformin hydrochloride extended-release tablets, USP are not recommended in pediatric patients (below the age of 17 years).</paragraph>
+                  <paragraph>The initial and maintenance dosing of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP should be conservative in patients with advanced age, due to the potential for decreased renal function in this population. Any dosage adjustment should be based on a careful assessment of renal function. Generally, elderly, debilitated, and malnourished patients should not be titrated to the maximum dose of metformin hydrochloride tablets, USP or metformin hydrochloride extended-release tablets, USP.</paragraph>
+                  <paragraph>Monitoring of renal function is necessary to aid in prevention of lactic acidosis, particularly in the elderly. (See WARNINGS.)</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb0991caa-891d-4b31-b22d-de4521d2592e">
+               <id root="c0fbca3f-f3cc-4a63-9d5a-4756ba24e58a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>LABEL DISPLAY</title>
+               <text>
+                  <paragraph>NDC: 51655-562-52</paragraph>
+                  <paragraph>MFG: 62037-577-10</paragraph>
+                  <paragraph>METFORMIN HCL ER 750MG</paragraph>
+                  <paragraph>30 TABLETS</paragraph>
+                  <paragraph>Rx ONLY</paragraph>
+                  <paragraph>Lot#:</paragraph>
+                  <paragraph>Exp. Date:</paragraph>
+                  <paragraph>Each extended release tablet contains Metformin Hydrochloride 750MG</paragraph>
+                  <paragraph>Dosage: see dispensing document</paragraph>
+                  <paragraph>Store at 68-77 degrees F.</paragraph>
+                  <paragraph>Store in a tight, light-resistant container. Keep out of the reach of children.</paragraph>
+                  <paragraph>Mfg. by: Watson Laboratories, Inc, Corona, CA 92880 USA Lot#      Exp. Date</paragraph>
+                  <paragraph>Repackaged by Northwind Pharmaceuticals, Indianapolis, IN 46256</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lc0e446f3-0029-47d2-a40e-6a2d42bbc31d"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20140619"/>
+               <component>
+                  <observationMedia ID="Lc0e446f3-0029-47d2-a40e-6a2d42bbc31d">
+                     <text>51655-562-52</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51655-562-52.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

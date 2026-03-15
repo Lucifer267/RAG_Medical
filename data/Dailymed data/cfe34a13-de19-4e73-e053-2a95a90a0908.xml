@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="cfe34a13-de19-4e73-e053-2a95a90a0908"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>IXOBA M</title>
+   <effectiveTime value="20211103"/>
+   <setId root="ca7a8de8-9185-e89f-e053-2995a90a5e04"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="117250794"/>
+            <name>Brisk Pharmaceuticals, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="360804194"/>
+                        <name>Unit Dose Solutions, Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="73614-454" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="cfe37768-31e8-97e2-e053-2a95a90a7795"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20211103"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="73614-454" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>IXOBA M</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Moxifloxacin 0.5%, Ketorolac 0.5%, Prednisolone Acetate 1%</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="73614-454-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20210826"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="61314-126" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Ketorolac Tromethamine</name>
+                              <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Ketorolac Tromethamine</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIM">
+                                 <quantity>
+                                    <numerator unit="mg" value="5"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="4EVE5946BQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>KETOROLAC TROMETHAMINE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="YZI5105V0L" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>KETOROLAC</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EDETATE DISODIUM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CHLORIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROCHLORIC ACID</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="F5UM2KM3W7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BENZALKONIUM CHLORIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM HYDROXIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA076583" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20091105"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="60758-119" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Prednisolone Acetate</name>
+                              <formCode code="C60995" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION/ DROPS"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Prednisolone Acetate</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="10"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="8B2807733D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PREDNISOLONE ACETATE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="9PHQ9Y1OLM" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>PREDNISOLONE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POLYSORBATE 80</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CITRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EDETATE DISODIUM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="TZX5469Z6I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM BISULFITE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CHLORIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="F5UM2KM3W7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BENZALKONIUM CHLORIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="R57ZHV85D4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BORIC ACID</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYPROMELLOSES</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="1" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA017011" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73605" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA authorized generic"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19970819"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="3" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="68180-422" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Moxifloxacin</name>
+                              <formCode code="C60992" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION/ DROPS"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Moxifloxacin</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="R57ZHV85D4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BORIC ACID</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROCHLORIC ACID</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CHLORIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM HYDROXIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIM">
+                                 <quantity>
+                                    <numerator unit="mg" value="5"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="B8956S8609" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MOXIFLOXACIN HYDROCHLORIDE MONOHYDRATE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="U188XYD42P" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>MOXIFLOXACIN</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="3" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="1" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA202867" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20170701"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE">
+                                    <originalText>Yellow Colored Transparent</originalText>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210826"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_ca7b39b5-0ffb-46c4-e053-2a95a90a3947">
+               <id root="ca7b39b5-0ffa-46c4-e053-2a95a90a3947"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>NDC 73614-454-03</paragraph>
+                  <paragraph>For Use in Eyes Only</paragraph>
+                  <paragraph>IXOBA M</paragraph>
+                  <paragraph>Each Pack Contains:</paragraph>
+                  <paragraph>Moxifloxacin 0.5% Ophthalmic Solution - 3ml</paragraph>
+                  <paragraph>Ketorolac 0.5% Ophthalmic Solution - 5ml</paragraph>
+                  <paragraph>Prednisolone Acetate 1% Ophthalmic Suspension - 5ml</paragraph>
+                  <paragraph>Brisk Pharmaceuticals</paragraph>
+               </text>
+               <effectiveTime value="20210826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_ca7b3a73-c68b-7f97-e053-2995a90ad99e">
+               <id root="cfe36160-d562-0f5c-e053-2a95a90a92e6"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>See Instructions on the bottom of the package</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is Ixoba M used for:</content> Ixoba M is a convenient pack containing 3 ophthalmic medication bottles.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How Supplied:</content> Ixoba M is supplied as a co-pack containing Moxifloxacin 0.5% Ophthalmic Suspension 3ml bottle, Ketorolac 0.5% Ophthalmic Suspension 5ml bottle, Prednisolone Acetate 1% Ophthalmic Suspen-sion 5ml bottle.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage:</content> Store at 20C to 25C (68F-77F). Protect from light.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Please read the leaflet inside each bottle for ‘full prescribing information’ about that medication.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patient Counseling Information:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Risk of Contamination:</content> Do not touch the dropper tip to any surface to avoid contaminating the contents by common bacteria known to cause ocular infections.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Concomitant Use of Contact Lenses</content>: Do not administer Moxifloxacin Ophthalmic Suspension, Ketorolac Ophthalmic Suspension or Prednisolone Acetate Ophthalmic Suspension while wearing contact lenses.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Concomitant Topical Ocular Therapy:</content> If more than one topical ophthalmic medication is being used, the medications should be administered at least 5 minutes apart.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">For questions on Ixoba M</content>, please call your Ophthalmologist Office or Ixoba Assist at 469-342-1471.
+ </paragraph>
+               </text>
+               <effectiveTime value="20211103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_ca7b4f22-746e-d16f-e053-2a95a90a95cc">
+               <id root="caca23cf-3ba4-4b54-e053-2a95a90a68fe"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of the reach of children.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TAMPER EVIDENT:</content> Do not use the individual eye drops inside the pack if the seal on its carton is broken or missing.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Lot: </content>See the lot number on each individual bottle inside the pack.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Exp: </content>See the expiration date on each individual bottle inside the pack.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Packaged By: Unit Dose Solutions Inc., Morrisville, NC 27560</paragraph>
+                  <paragraph>Packaged for: Brisk Pharmaceuticals, Dallas, TX 75217</paragraph>
+               </text>
+               <effectiveTime value="20210826"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_cfe368b9-f059-63e4-e053-2995a90afa01">
+               <id root="cfe368b9-f058-63e4-e053-2995a90afa01"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_cfe368b9-f057-63e4-e053-2995a90afa01"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_cfe3694d-e2ab-736c-e053-2a95a90a8c13"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20211103"/>
+               <component>
+                  <observationMedia ID="img_cfe368b9-f057-63e4-e053-2995a90afa01">
+                     <text>front</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="IXOBA M insert front.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_cfe3694d-e2ab-736c-e053-2a95a90a8c13">
+                     <text>back</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="IXOBA M insert back.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_ca7b5be4-62d2-936c-e053-2a95a90aa706">
+               <id root="cfe3617d-0862-9b6a-e053-2a95a90a68f8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_cfe36157-fc5a-77c8-e053-2995a90a01d2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210826"/>
+               <component>
+                  <observationMedia ID="img_cfe36157-fc5a-77c8-e053-2995a90a01d2">
+                     <text>IXOBA M box</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="IXOBA M box.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

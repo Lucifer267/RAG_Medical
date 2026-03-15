@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="b3256bb7-338d-4b08-b64c-36b837329a26"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Oxygen</title>
+   <effectiveTime value="20100614"/>
+   <setId root="52ef64bf-43c8-4bb6-b18b-4c2c5eff3d5c"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="026495757" root="1.3.6.1.4.1.519.1"/>
+            <name>Zurcare dba Reliable Medical</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="026495757" root="1.3.6.1.4.1.519.1"/>
+                        <name>Zurcare dba Reliable Medical</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3d8a97a9-8dff-42bf-a338-83511f262fa2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20100614"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50825-001" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Oxygen<suffix/>
+                        </name>
+                        <formCode code="C42933" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GAS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Oxygen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="99" unit="L"/>
+                              <denominator value="100" unit="L"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Oxygen</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Oxygen</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="682" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50825-001-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="170" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50825-001-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19370101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73613" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved medical gas"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8f434f39-64dc-42b2-aca5-ba24eabfa524"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal for Oxygen Product</title>
+               <text>
+                  <renderMultiMedia referencedObject="bfbbd5ab-748e-4d1a-b54d-4b0ece2e022c"/>
+                  <br/>
+                  <renderMultiMedia referencedObject="dc864204-2cfc-4713-9e19-a136cdd63ea4"/>
+                  <br/>
+               </text>
+               <effectiveTime value="20100614"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="bfbbd5ab-748e-4d1a-b54d-4b0ece2e022c">
+                     <text>HP Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="HPLabel.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="dc864204-2cfc-4713-9e19-a136cdd63ea4">
+                     <text>Lot Sticker</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="LotSticker.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

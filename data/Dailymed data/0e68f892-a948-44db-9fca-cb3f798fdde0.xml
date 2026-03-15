@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="0e68f892-a948-44db-9fca-cb3f798fdde0"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20140521"/>
+   <setId root="0a9b26e5-c31c-41a9-addd-9ce9a7878dc0"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+                        <name>Northwind Pharmaceuticals</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-588" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4cf9a210-8c55-47b5-8363-7a0174e5bed8"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140527"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-588" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Promethazine hydrochloride</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Promethazine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="68382-041" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="25" unit="mg"/>
+                              <denominator value="30" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R61ZEH7I1I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROMETHAZINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="FF28EJQ494" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROMETHAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-588-53" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140519"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040596" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="8" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="4" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">ZC02</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="oral"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L75f76967-7235-4996-ae1f-1497c8fddd02">
+               <id root="621cf881-ad4d-42ee-b329-43dcdf98e72d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>NDC: 51655-588-53</paragraph>
+                  <paragraph>MFG: 68382-041-10</paragraph>
+                  <paragraph>Promethazine Hydrochloride 25MG</paragraph>
+                  <paragraph>10 tablets</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>Lot#: NW58820001</paragraph>
+                  <paragraph>Exp. Date: 05/2015</paragraph>
+                  <paragraph>Each tablet contains: Promethazine hydrochloride, USP....25mg</paragraph>
+                  <paragraph>Dosage: See package insert</paragraph>
+                  <paragraph>Store at 68 to 77 degrees F.</paragraph>
+                  <paragraph>Store in a tight, light-resistant container (See USP).</paragraph>
+                  <paragraph>Keep out of the reach of children.</paragraph>
+                  <paragraph>Mfg by: Cadila Healthcare Ltd. India</paragraph>
+                  <paragraph>Distributed by Zydus Pharmaceuticals USA, Inc Pennington, NJ 08534 Lot# MN5816</paragraph>
+                  <paragraph>Repackaged by: Northwind Pharmaceuticals, Indianapolis, IN 46256</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L42c47b3c-0a7f-43e0-a016-0e345b421c21"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140521"/>
+               <component>
+                  <observationMedia ID="L42c47b3c-0a7f-43e0-a016-0e345b421c21">
+                     <text>Promethazine HCL 25mg 51655-588</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Promethazine HCL 51655-588.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L9dbda804-27c0-4e5e-9aa1-13a363bdd671">
+               <id root="c1d73b3f-d9f7-414e-88d4-9ff6adaca6f8"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140521"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

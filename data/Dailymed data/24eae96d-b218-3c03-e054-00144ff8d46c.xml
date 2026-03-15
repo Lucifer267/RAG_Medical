@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="24eae96d-b218-3c03-e054-00144ff8d46c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>DICOPANOL</title>
+   <effectiveTime value="20151119"/>
+   <setId root="76c12e0d-735b-44d1-aa82-73e3f3a09d1b"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="021420944"/>
+            <name>Fusion Pharmaceuticals LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="021420944"/>
+                  <name>Fusion Pharmaceuticals LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="021420944"/>
+                        <name>California Pharmaceuticals LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43093-104" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2617308a-4451-1893-e054-00144ff8d46c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20151119"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="43093-104" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dicopanol</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Diphenhydramine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43093-104-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="0.75" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Diphenhydramine Hydrochloride</name>
+                              <formCode code="C42975" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SUSPENSION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Diphenhydramine Hydrochloride</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="g" value="0.75"/>
+                                    <denominator unit="g" value="0.75"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="TC2D6JAD40" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DIPHENHYDRAMINE HYDROCHLORIDE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="8GTS82S83M" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>DIPHENHYDRAMINE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="0.75" unit="g"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43172" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, GLASS"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20100208"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="150" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Oral Suspension Vehicle</name>
+                              <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Suspension</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCERIN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="VCQ006KQ1E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>XYLITOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3VRD35U26C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCYRRHIZIN, AMMONIATED</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2A88ZO081O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PINEAPPLE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>XANTHAN GUM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="6TC6NN0876" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>STEVIA LEAF</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="5EVU04N5QU" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ORANGE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CITRIC ACID MONOHYDRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CITRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="JL5DK93RCL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MELATONIN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1VPU26JZZ4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POTASSIUM SORBATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="OJ245FE5EU" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM BENZOATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="150" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20100208"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100208"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="24eae96d-b219-3c03-e054-00144ff8d46c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>Do not use if safety seal is broken
+       
+ 
+  <br/>
+                     <br/>NDC 43093-104-01
+       
+ 
+  <br/>
+                     <br/>Rx only
+       
+ 
+  <br/>
+                     <br/>FusePaq™   Oral Suspension Kit
+       
+ 
+  <br/>
+                     <br/>DICOPANOL™
+       
+ 
+  <br/>
+                     <br/>(diphenhydramine hydrochloride 5 mg/mL, in oral suspension kit)
+       
+ 
+  <br/>
+                     <br/>Description:
+       
+ 
+  <br/>This kit contains active and inactive bulk materials to prepare 150 mL of a  diphenhydramine hydrochloride oral suspension containing 5 mg/mL diphenhydramine hydrochloride. This kit may only be used for the extemporaneous combining of these ingredients by an appropriate licensed medical professional in response to a physician's prescription to create a medication tailored to the specialized needs of an individual patient. 
+       
+ 
+  <br/>Active Ingredient:
+       
+ 
+  <br/>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>0.75 g diphenhydramine hydrochloride, USP</item>
+                  </list>
+                  <paragraph>Inactive Ingredients:
+       
+ 
+  <br/>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>150 mL oral suspension vehicle (water, glycerin, xylitol, monoammonium glycyrrhizinate, pineapple flavor, xanthan gum, stevia powder, orange flavor, citric acid, sodium citrate, melatonin, potassium sorbate, sodium benzoate)</item>
+                     <item>Press-in bottle adaptor for oral dispenser</item>
+                     <item>Oral dispenser</item>
+                     <item>Instructions</item>
+                  </list>
+                  <paragraph>
+                     <br/>Store kit at room temperature, 15-30 degrees C (59-86 degrees F)
+       
+ 
+  <br/>
+                     <br/>U.S. Patents Pending   FUSION PHARMACEUTICALS   786 Calle Plano  Camarillo CA 93012
+       
+ 
+  <br/>
+                     <br/>CS68-A1 rev 2
+      
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="PDP1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140911"/>
+               <component>
+                  <observationMedia ID="PDP1">
+                     <text>Dicopanol Box</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="CS68-A1 rev 2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="24eae96d-b21a-3c03-e054-00144ff8d46c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Drug Label</title>
+               <text>
+                  <paragraph>Do not use if safety seal is broken
+       
+ 
+  <br/>
+                  </paragraph>
+                  <paragraph>Diphenhydramine Hydrochloride
+       
+ 
+  <br/>Ethanamine, 2-(diphenylmethoxy)-N,N-dimethyl-, hydrochloride
+       
+ 
+  <br/>
+                     <br/>Rx Only
+       
+ 
+  <br/>
+                     <br/>CAS# 147-24-0
+       
+ 
+  <br/>
+                     <br/>Net contents: 0.75 g
+       
+ 
+  <br/>Repackaged by:
+       
+ 
+  <br/>Fusion Pharmaceuticals, LLC
+       
+ 
+  <br/>Camarillo, CA 93012
+       
+ 
+  <br/>
+                     <br/>CS65-A1 rev 1
+      
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="DL1"/>
+                     <br/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140911"/>
+               <component>
+                  <observationMedia ID="DL1">
+                     <text>Diphenhydramine Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="CS65-A1 rev 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="24eae96d-b21b-3c03-e054-00144ff8d46c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Suspension Label</title>
+               <text>
+                  <paragraph>
+                     <br/>Do not use if safety seal is broken
+       
+ 
+  <br/>
+                     <br/>Oral Suspension Vehicle
+       
+ 
+  <br/>Sugar, dye, and paraben free
+       
+ 
+  <br/>
+                     <br/>Ingredients: water, glycerin, xylitol, monoammonium glycyrrhizinate, pineapple flavor, xanthan gum, stevia powder, orange flavor, citric acid, sodium citrate, melatonin, potassium sorbate, sodium benzoate
+       
+ 
+  <br/>
+                     <br/>Net Contents: 150 mL (5.1 fl oz)
+       
+ 
+  <br/>
+                     <br/>Manufactured for:
+       
+ 
+  <br/>Fusion Pharmaceuticals, LLC
+       
+ 
+  <br/>Camarillo, CA 93012
+       
+ 
+  <br/>
+                     <br/>CS66-A1 rev 1
+      
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="SL1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140911"/>
+               <component>
+                  <observationMedia ID="SL1">
+                     <text>Suspension Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="CS66-A1 rev 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="24eae96d-b21c-3c03-e054-00144ff8d46c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Instructions Insert</title>
+               <text>
+                  <paragraph>
+                     <br/>
+                     <br/>
+                     <br/>NDC 43093-104-01
+       
+ 
+  <br/>Rx Only
+       
+ 
+  <br/>
+                     <br/>FusePaq tm  DICOPANOL tm
+       
+ 
+  <br/>(diphenhydramine hydrochloride 5 mg/mL, oral suspension- kit)
+       
+ 
+  <br/>
+                     <br/>FusePaq tm kits provide a convenient approach to rapidly create prescription medications, as all components are pre-measured. This kit is manufactures according to US FDA current Good Manufacturing Practice (cGMP).
+       
+ 
+  <br/>
+                     <br/>Description:
+       
+ 
+  <br/>
+                     <br/>This kit contains active and inactive bulk materials to create a diphenhydramine hydrochloride oral suspension. These instructions describe how to prepare 150 mL of oral suspension containing 5 mg/mL diphenhydramine hydrochloride. Other concentrations are possible. Exact strength of the resulting final suspension must be defined by the prescriber.
+       
+ 
+  <br/>
+                     <br/>Contents:
+       
+ 
+  <br/>
+                     <br/>- 0.75 g diphenhydramine hydrochloride, USP
+       
+ 
+  <br/>- 150 mL oral suspension vehicle (water, glycerin, xylitol, monoammonium glycyrrhizinate, pineapple flavor, xanthan gum, stevia powder, orange flavor, citric acid, sodium citrate, melatonin, potassium sorbate, sodium benzoate)
+       
+ 
+  <br/>
+                     <br/>
+                     <br/>Instructions for the Pharmacist
+       
+ 
+  <br/>
+                     <br/>Diphenhydramine hydrochloride, 5 mg/mL oral suspension
+       
+ 
+  <br/>
+                     <br/>
+                     <br/>1    Remove and Inspect the Contents of the Kit
+       
+ 
+  <br/>
+                     <br/>Ensure that the safety seals are present and intact on the diphenhydramine hydrochloride and oral suspension vehicle bottles. If the seals are not intact, do not use the kit.
+       
+ 
+  <br/>
+                     <br/>
+                     <br/>2    Prepare for Combining
+       
+ 
+  <br/>
+                     <br/>Wear gloves and eye protection during combining operations. Remove the seal from the oral suspension bottle. Break the perforated seal and remove the cap from the diphenhydramine hydrochloride bottle.
+       
+ 
+  <br/>
+                     <br/>
+                     <br/>3    Transfer Diphenhydramine Hydrochloride to the Suspension Bottle
+       
+ 
+  <br/>
+                     <br/>Uncap the suspension bottle. Pour a small amount of suspension liquid (approximately one-third to one-half the volume of the diphenhydramine hydrochloride bottle) into the diphenhydramine hydrochloride bottle. Cap the diphenhydramine hydrochloride bottle and shake well several times to dissolve the diphenhydramine hydrochloride powder. Empty the contents into the suspension bottle. Cap and combine the suspension bottle. Repeat this step 3 times. Visually ensure that all of the diphenhydramine hydrochloride has been dissolved and transferred to the suspension bottle.
+       
+ 
+  <br/>
+                     <br/>
+                     <br/>4    Complete the Combining Process
+       
+ 
+  <br/>
+                     <br/>Insert the press-in bottle adaptor into the suspension bottle. Recap the suspension bottle. Shake well by inverting repeatedly several times.
+       
+ 
+  <br/>
+                     <br/>
+                     <br/>5    Re-label the Resulting Final Suspension
+       
+ 
+  <br/>
+                     <br/>Label the resulting final suspension per the pharmacy's standard practice. Remove or obscure the oral suspension vehicle label, since the label is no longer accurate once the resulting final suspension is completed. 
+       
+ 
+  <br/>
+                     <br/>
+                     <br/>Store the unused kit at room temperature of 15-30°C (59-86°F). Once prepared, store the resulting final suspension between 15-30°C (59-86°F). The resulting final suspension is stable for at least eight weeks, based upon real-time and accelerated stability studies. 
+       
+ 
+  <br/>
+                     <br/>Each lot of suspension vehicle is tested to meet microbial limits per USP Microbial Limit Test 61. In addition, the suspension vehicle formulation has passed the USP 51 Antimicrobial Effectiveness Test.
+       
+ 
+  <br/>
+                     <br/>An oral dispenser is provided in the kit and may be used to facilitate delivery of the suspension.
+       
+ 
+  <br/>
+                     <br/>
+                     <br/>U.S. Patents Pending
+       
+ 
+  <br/>
+                     <br/>
+                     <br/>Manufactured by:
+       
+ 
+  <br/>Fusion Pharmaceuticals, LLC
+       
+ 
+  <br/>768 Calle Plano
+       
+ 
+  <br/>Camarillo, CA 93012
+       
+ 
+  <br/>
+                     <br/>CS67-A1 rev 1
+      
+
+ </paragraph>
+                  <br/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="IN1"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="IN2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140911"/>
+               <component>
+                  <observationMedia ID="IN1">
+                     <text>Insert Page 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="CS67-A1 rev 1 page 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="IN2">
+                     <text>Insert Page 2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="CS67-A1 rev 1 page 2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

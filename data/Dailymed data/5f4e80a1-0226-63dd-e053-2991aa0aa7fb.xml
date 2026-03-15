@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5f4e80a1-0226-63dd-e053-2991aa0aa7fb"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20171201"/>
+   <setId root="5f4e80a1-0225-63dd-e053-2991aa0aa7fb"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+            <name>H. J. Harkins Company Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+                        <name>H. J. Harkins Company Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="52959-734" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="52959-734" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="52959-734" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5f9ca029-bf53-0c29-e053-2991aa0a461b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20171201"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="52959-734" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>CIPROFLOXACIN</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CIPROFLOXACIN HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="750"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4BA73M5E37" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CIPROFLOXACIN HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5E8K9I0O4U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CIPROFLOXACIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="52959-734-50" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20170103"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA076639" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170103"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="22" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">CR;750</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4e8e1b-51c1-6a15-e053-2a91aa0adf73">
+               <id root="5f4e8e1b-51c0-6a15-e053-2a91aa0adf73"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>Boxed Warning</title>
+               <text>
+                  <paragraph>ARNING: TENDON EFFECTS AND MYASTHENIA GRAVIS</paragraph>
+                  <paragraph>Fluoroquinolones, including ciprofloxacin, are associated with an increased risk of tendinitis and tendon rupture in all ages. This risk is further increased in older patients usually over 60 years of age, in patients taking corticosteroid drugs, and in patients with kidney, heart, or lung transplants [see WARNINGS AND PRECAUTIONS (5.1)]. 
+  <br/>
+Fluoroquinolones, including ciprofloxacin, may exacerbate muscle weakness in persons with myasthenia gravis. Avoid ciprofloxacin in patients with known history of myasthenia gravis [see WARNINGS AND PRECAUTIONS (5.2)].
+ </paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4eb99a-f45e-350d-e053-2991aa0a40d0">
+               <id root="5f4eb99a-f45d-350d-e053-2991aa0a40d0"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications and Usage</title>
+               <text>
+                  <paragraph>Ciprofloxacin is indicated for the treatment of infections caused by susceptible isolates of the designated microorganisms in the conditions and patient populations listed below. </paragraph>
+                  <paragraph>1.1 Urinary Tract Infections</paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adult patients for treatment of urinary tract infections caused by Escherichia coli, Klebsiella pneumoniae, Enterobacter cloacae, Serratia marcescens, Proteus mirabilis, Providencia rettgeri, Morganella morganii, Citrobacter koseri, Citrobacter freundii, Pseudomonas aeruginosa, methicillin-susceptible Staphylococcus epidermidis, Staphylococcus saprophyticus, or Enterococcus faecalis.</paragraph>
+                  <paragraph>1.2 Acute Uncomplicated Cystitis</paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adult female patients for treatment of acute uncomplicated cystitis caused by Escherichia coli or Staphylococcus saprophyticus.</paragraph>
+                  <paragraph>1.3 Chronic Bacterial Prostatitis </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adult patients for treatment of chronic bacterial prostatitis caused by Escherichia coli or Proteus mirabilis. </paragraph>
+                  <paragraph>1.4 Lower Respiratory Tract Infections </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adult patients for treatment of lower respiratory tract infections caused by Escherichia coli, Klebsiella pneumoniae, Enterobacter cloacae, Proteus mirabilis, Pseudomonas aeruginosa, Haemophilus influenzae, Haemophilus parainfluenzae, or Streptococcus pneumoniae. Also, ciprofloxacin is indicated for the treatment of acute exacerbations of chronic bronchitis caused by Moraxella catarrhalis [see INDICATIONS AND USAGE (1.15)]. </paragraph>
+                  <paragraph>1.5 Acute Sinusitis </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adult patients for treatment of acute sinusitis caused by Haemophilus influenzae, Streptococcus pneumoniae, or Moraxella catarrhalis. </paragraph>
+                  <paragraph>1.6 Skin and Skin Structure Infections </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adult patients for treatment of skin and skin structure infections caused by Escherichia coli, Klebsiella pneumoniae, Enterobacter cloacae, Proteus mirabilis, Proteus vulgaris, Providencia stuartii, Morganella morganii, Citrobacter freundii, Pseudomonas aeruginosa, methicillin-susceptible Staphylococcus aureus, methicillin-susceptible Staphylococcus epidermidis, or Streptococcus pyogenes. </paragraph>
+                  <paragraph>1.7 Bone and Joint Infections </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adult patients for treatment of bone and joint infections caused by Enterobacter cloacae, Serratia marcescens, or Pseudomonas aeruginosa. </paragraph>
+                  <paragraph>1.8 Complicated Intra-Abdominal Infections </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adult patients for treatment of complicated intra-abdominal infections (used in combination with metronidazole) caused by Escherichia coli, Pseudomonas aeruginosa, Proteus mirabilis, Klebsiella pneumoniae, or Bacteroides fragilis. </paragraph>
+                  <paragraph>1.9 Infectious Diarrhea </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adult patients for treatment of infectious diarrhea caused by Escherichia coli (enterotoxigenic isolates), Campylobacter jejuni, Shigella boydii † , Shigella dysenteriae, Shigella flexneri or Shigella sonnei† when antibacterial therapy is indicated. </paragraph>
+                  <paragraph>†Although treatment of infections due to this organism in this organ system demonstrated a clinically significant outcome, efficacy was studied in fewer than 10 patients. </paragraph>
+                  <paragraph>1.10 Typhoid Fever (Enteric Fever) </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adult patients for treatment of typhoid fever (enteric fever) caused by Salmonella typhi. The efficacy of ciprofloxacin in the eradication of the chronic typhoid carrier state has not been demonstrated. </paragraph>
+                  <paragraph>1.11 Uncomplicated Cervical and Urethral Gonorrhea </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adult patients for treatment of uncomplicated cervical and urethral gonorrhea due to Neisseria gonorrhoeae [see WARNINGS AND PRECAUTIONS (5.16)]. </paragraph>
+                  <paragraph>1.12 Complicated Urinary Tract Infections and Pyelonephritis </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in pediatric patients one to 17 years of age for treatment of complicated urinary tract infections (cUTI) and pyelonephritis due to Escherichia coli [see INDICATIONS AND USAGE (1.15) and USE IN SPECIFIC POPULATIONS (8.4)]. </paragraph>
+                  <paragraph>1.13 Inhalational Anthrax (post-exposure) </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in adults and pediatric patients from birth to 17 years of age for inhalational anthrax (post-exposure) to reduce the incidence or progression of disease following exposure to aerosolized Bacillus anthracis. </paragraph>
+                  <paragraph>Ciprofloxacin serum concentrations achieved in humans served as a surrogate endpoint reasonably likely to predict clinical benefit and provided the initial basis for approval of this indication.1Supportive clinical information for ciprofloxacin for anthrax post-exposure prophylaxis was obtained during the anthrax bioterror attacks of October 2001. [See CLINICAL STUDIES (14.2).]</paragraph>
+                  <paragraph>1.14 Plague </paragraph>
+                  <paragraph>Ciprofloxacin is indicated for treatment of plague, including pneumonic and septicemic plague, due to Yersinia pestis (Y. pestis) and prophylaxis for plague in adults and pediatric patients from birth to 17 years of age. Efficacy studies of ciprofloxacin could not be conducted in humans with plague for feasibility reasons. Therefore this indication is based on an efficacy study conducted in animals only [see CLINICAL STUDIES (14.3) ].</paragraph>
+                  <paragraph>1.15 Limitation of Use </paragraph>
+                  <paragraph>Use in Pediatric Patients</paragraph>
+                  <paragraph>Although effective in clinical trials, ciprofloxacin is not a drug of first choice in the pediatric population due to an increased incidence of adverse events compared to controls, including events related to joints and/or surrounding tissues. Ciprofloxacin, like other fluoroquinolones, is associated with arthropathy and histopathological changes in weight-bearing joints of juvenile animals [see WARNINGS AND PRECAUTIONS (5.11), ADVERSE REACTIONS (6.1), USE IN SPECIFIC POPULATIONS (8.4) and NONCLINICAL TOXICOLOGY (13.2)]. </paragraph>
+                  <paragraph>Lower Respiratory Tract Infections</paragraph>
+                  <paragraph>Ciprofloxacin is not a drug of first choice in the treatment of presumed or confirmed pneumonia secondary to Streptococcus pneumoniae [see INDICATIONS AND USAGE (1.4)]. </paragraph>
+                  <paragraph>1.16 Usage </paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of ciprofloxacin and other antibacterial drugs ciprofloxacin should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy. </paragraph>
+                  <paragraph>If anaerobic organisms are suspected of contributing to the infection, appropriate therapy should be administered. Appropriate culture and susceptibility tests should be performed before treatment in order to isolate and identify organisms causing infection and to determine their susceptibility to ciprofloxacin. Therapy with ciprofloxacin may be initiated before results of these tests are known; once results become available appropriate therapy should be continued. As with other drugs, some isolates of Pseudomonas aeruginosa may develop resistance fairly rapidly during treatment with ciprofloxacin. Culture and susceptibility testing performed periodically during therapy will provide information not only on the therapeutic effect of the antimicrobial agent but also on the possible emergence of bacterial resistance.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4e63fe-1d13-ee8e-e053-2991aa0aa423">
+               <id root="5f4e63fe-1d12-ee8e-e053-2991aa0aa423"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Doseage and Administration</title>
+               <text>
+                  <paragraph>Ciprofloxacin should be administered orally as described in the appropriate Dosage Guidelines tables.</paragraph>
+                  <paragraph>2.1 Dosage in Adults</paragraph>
+                  <paragraph>The determination of dosage and duration for any particular patient must take into consideration the severity and nature of the infection, the susceptibility of the causative microorganism, the integrity of the patient’s host-defense mechanisms, and the status of renal and hepatic function.</paragraph>
+                  <paragraph>Table 1: Adult Dosage Guidelines </paragraph>
+                  <paragraph>*
+  <br/>
+Generally ciprofloxacin should be continued for at least 2 days after the signs and symptoms of infection have disappeared, except for inhalational anthrax (post-exposure). 
+  <br/>
+†
+  <br/>
+Used in conjunction with metronidazole.
+  <br/>
+‡
+  <br/>
+Begin drug administration as soon as possible after suspected or confirmed exposure.
+ </paragraph>
+                  <paragraph>Infection </paragraph>
+                  <paragraph>Dose</paragraph>
+                  <paragraph>Frequency</paragraph>
+                  <paragraph>Usual Durations*</paragraph>
+                  <paragraph>Urinary Tract </paragraph>
+                  <paragraph>250 mg- 500 mg</paragraph>
+                  <paragraph>every 12 hours</paragraph>
+                  <paragraph>7 to 14 days</paragraph>
+                  <paragraph>Acute Uncomplicated Cystitis </paragraph>
+                  <paragraph>250 mg</paragraph>
+                  <paragraph>every 12 hours</paragraph>
+                  <paragraph>3 days</paragraph>
+                  <paragraph>Chronic Bacterial Prostatitis </paragraph>
+                  <paragraph>500 mg</paragraph>
+                  <paragraph>every 12 hours</paragraph>
+                  <paragraph>28 days</paragraph>
+                  <paragraph>Lower Respiratory Tract </paragraph>
+                  <paragraph>500 mg -750 mg</paragraph>
+                  <paragraph>every 12 hours</paragraph>
+                  <paragraph>7 to 14 days</paragraph>
+                  <paragraph>Acute Sinusitis </paragraph>
+                  <paragraph>500 mg</paragraph>
+                  <paragraph>every 12 hours</paragraph>
+                  <paragraph>10 days</paragraph>
+                  <paragraph>Skin and Skin Structure </paragraph>
+                  <paragraph>500 mg -750 mg</paragraph>
+                  <paragraph>every 12 hours</paragraph>
+                  <paragraph>7 to 14 days</paragraph>
+                  <paragraph>Bone and Joint </paragraph>
+                  <paragraph>500 mg -750 mg</paragraph>
+                  <paragraph>every 12 hours</paragraph>
+                  <paragraph>4 to 8 weeks</paragraph>
+                  <paragraph>Complicated Intra–Abdominal†</paragraph>
+                  <paragraph>500 mg</paragraph>
+                  <paragraph>every 12 hours</paragraph>
+                  <paragraph>7 to 14 days</paragraph>
+                  <paragraph>Infectious Diarrhea </paragraph>
+                  <paragraph>500 mg</paragraph>
+                  <paragraph>every 12 hours</paragraph>
+                  <paragraph>5 to 7 days</paragraph>
+                  <paragraph>Typhoid Fever </paragraph>
+                  <paragraph>500 mg</paragraph>
+                  <paragraph>every 12 hours</paragraph>
+                  <paragraph>10 days</paragraph>
+                  <paragraph>Uncomplicated Urethral and Cervical Gonococcal Infections </paragraph>
+                  <paragraph>250 mg</paragraph>
+                  <paragraph>single dose</paragraph>
+                  <paragraph>single dose</paragraph>
+                  <paragraph>Inhalational Anthrax (Post-Exposure)‡</paragraph>
+                  <paragraph>500 mg</paragraph>
+                  <paragraph>every 12 hours</paragraph>
+                  <paragraph>60 days</paragraph>
+                  <paragraph>Plague‡</paragraph>
+                  <paragraph>500 mg - 750 mg</paragraph>
+                  <paragraph>every 12 hours </paragraph>
+                  <paragraph>14 days</paragraph>
+                  <paragraph>Conversion of IV to Oral Dosing in Adults</paragraph>
+                  <paragraph>Patients whose therapy is started with ciprofloxacin IV may be switched to ciprofloxacin tablets or Oral Suspension when clinically indicated at the discretion of the physician (Table 2) [see CLINICAL PHARMACOLOGY (12.3)]. </paragraph>
+                  <paragraph>Table 2: Equivalent AUC Dosing Regimens </paragraph>
+                  <paragraph>Ciprofloxacin Oral Dosage </paragraph>
+                  <paragraph>Equivalent Ciprofloxacin IV Dosage </paragraph>
+                  <paragraph>250 mg Tablet every 12 hours </paragraph>
+                  <paragraph>200 mg intravenous every 12 hours </paragraph>
+                  <paragraph>500 mg Tablet every 12 hours </paragraph>
+                  <paragraph>400 mg intravenous every 12 hours </paragraph>
+                  <paragraph>750 mg Tablet every 12 hours </paragraph>
+                  <paragraph>400 mg intravenous every 8 hours </paragraph>
+                  <paragraph>2.2 Dosage in Pediatric Patients </paragraph>
+                  <paragraph>Dosing and initial route of therapy (that is, IV or oral) for cUTI or pyelonephritis should be determined by the severity of the infection. Ciprofloxacin should be administered as described in Table 3. </paragraph>
+                  <paragraph>Table 3: Pediatric Dosage Guidelines </paragraph>
+                  <paragraph>*
+  <br/>
+The total duration of therapy for cUTI and pyelonephritis in the clinical trial was determined by the physician. The mean duration of treatment was 11 days (range 10 to 21 days). 
+  <br/>
+†
+  <br/>
+Begin drug administration as soon as possible after suspected or confirmed exposure. 
+  <br/>
+‡
+  <br/>
+Begin drug administration as soon as possible after suspected or confirmed exposure to Y. pestis. 
+ </paragraph>
+                  <paragraph>Infection </paragraph>
+                  <paragraph>Dose </paragraph>
+                  <paragraph>Frequency </paragraph>
+                  <paragraph>Total Duration </paragraph>
+                  <paragraph>Complicated Urinary Tract or Pyelonephritis (patients from 1 to 17 years of age) </paragraph>
+                  <paragraph>10 mg/kg to 20 mg/kg (maximum 750 mg per dose; not to be exceeded even in patients weighing more than 51 kg) </paragraph>
+                  <paragraph>Every 12 hours </paragraph>
+                  <paragraph>10 to 21 days *</paragraph>
+                  <paragraph>Inhalational Anthrax (Post-Exposure) †</paragraph>
+                  <paragraph>15 mg/kg (maximum 500 mg per dose) </paragraph>
+                  <paragraph>Every 12 hours </paragraph>
+                  <paragraph>60 days </paragraph>
+                  <paragraph>Plague † , ‡</paragraph>
+                  <paragraph>15 mg/kg (maximum 500 mg per dose) </paragraph>
+                  <paragraph>Every 12 to 8 hours</paragraph>
+                  <paragraph>10 -21 days </paragraph>
+                  <paragraph>2.3 Dosage Modifications in Patients with Renal Impairment </paragraph>
+                  <paragraph>Ciprofloxacin is eliminated primarily by renal excretion; however, the drug is also metabolized and partially cleared through the biliary system of the liver and through the intestine. These alternative pathways of drug elimination appear to compensate for the reduced renal excretion in patients with renal impairment. Nonetheless, some modification of dosage is recommended, particularly for patients with severe renal dysfunction. Dosage guidelines for use in patients with renal impairment are shown in Table 4. </paragraph>
+                  <paragraph>Table 4: Recommended Starting and Maintenance Doses for Adult Patients with Impaired Renal Function </paragraph>
+                  <paragraph>Creatinine Clearance (mL/min) </paragraph>
+                  <paragraph>Dose </paragraph>
+                  <paragraph>&gt; 50 </paragraph>
+                  <paragraph>See Usual Dosage. </paragraph>
+                  <paragraph>30 - 50 </paragraph>
+                  <paragraph>250 mg - 500 mg every 12 hours </paragraph>
+                  <paragraph>5 - 29 </paragraph>
+                  <paragraph>250 mg - 500 mg every 18 hours </paragraph>
+                  <paragraph>Patients on hemodialysis or Peritoneal dialysis </paragraph>
+                  <paragraph>250 mg - 500 mg every 24 hours (after dialysis) </paragraph>
+                  <paragraph>When only the serum creatinine concentration is known, the following formulas may be used to estimate creatinine clearance: </paragraph>
+                  <paragraph>Men -Creatinine clearance (mL/min)= Weight (kg) x (140-age) 
+  <br/>
+             72 x serum creatinine (mg/dL) 
+ </paragraph>
+                  <paragraph>Women -0.85 x the value calculated for men.</paragraph>
+                  <paragraph>The serum creatinine should represent a steady state of renal function. </paragraph>
+                  <paragraph>In patients with severe infections and severe renal impairment, a unit dose of 750 mg may be administered at the intervals noted above. Patients should be carefully monitored. </paragraph>
+                  <paragraph>Pediatric patients with moderate to severe renal insufficiency were excluded from the clinical trial of cUTI and pyelonephritis. No information is available on dosing adjustments necessary for pediatric patients with moderate to severe renal insufficiency (that is, creatinine clearance of &lt; 50 mL/min/1.73m2).</paragraph>
+                  <paragraph>2.4 Important Administration Instructions </paragraph>
+                  <paragraph>With Multivalent Cations</paragraph>
+                  <paragraph>Administer ciprofloxacin at least 2 hours before or 6 hours after magnesium/aluminum antacids; polymeric phosphate binders (for example, sevelamer, lanthanum carbonate) or sucralfate; Videx® (didanosine) chewable/buffered tablets or pediatric powder for oral solution; other highly buffered drugs; or other products containing calcium, iron or zinc. </paragraph>
+                  <paragraph>With Dairy Products</paragraph>
+                  <paragraph>Concomitant administration of ciprofloxacin with dairy products (like milk or yogurt) or calcium-fortified juices alone should be avoided since decreased absorption is possible; however, ciprofloxacin may be taken with a meal that contains these products. </paragraph>
+                  <paragraph>Hydration of Patients Receiving Ciprofloxacin</paragraph>
+                  <paragraph>Assure adequate hydration of patients receiving ciprofloxacin to prevent the formation of highly concentrated urine. Crystalluria has been reported with quinolones. </paragraph>
+                  <paragraph>Instruct the patient of the appropriate ciprofloxacin administration [see PATIENT COUNSELING INFORMATION (17)]. </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4e63fe-1d15-ee8e-e053-2991aa0aa423">
+               <id root="5f4e63fe-1d14-ee8e-e053-2991aa0aa423"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>Doseage Forms and Strengths</title>
+               <text>
+                  <paragraph>3.1 Tablets </paragraph>
+                  <paragraph>250 mg white to slightly yellowish, film-coated, round, biconvex, embossed with word “P” on one side and 250 on reverse side
+  <br/>
+500 mg white to slightly yellowish, film-coated, capsule shaped, embossed with the word “P” on one side and “500” on reverse side
+  <br/>
+750 mg white to slightly yellowish, film-coated, capsule shaped, embossed with the word “P” on one side and “750” on reverse side
+ </paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4eb389-e8ff-dc97-e053-2a91aa0a0607">
+               <id root="5f4eb389-e8fe-dc97-e053-2a91aa0a0607"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>Contraindictaions</title>
+               <text>
+                  <paragraph>4.1 Hypersensitivity </paragraph>
+                  <paragraph>Ciprofloxacin is contraindicated in persons with a history of hypersensitivity to ciprofloxacin, any member of the quinolone class of antibacterials, or any of the product components [see WARNINGS AND PRECAUTIONS (5.3)]. </paragraph>
+                  <paragraph>4.2 Tizanidine </paragraph>
+                  <paragraph>Concomitant administration with tizanidine is contraindicated [see DRUG INTERACTIONS (7)]. </paragraph>
+                  <paragraph>CLOSE</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4eb99a-f464-350d-e053-2991aa0a40d0">
+               <id root="5f4eb99a-f463-350d-e053-2991aa0a40d0"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>Warnings and Precautions</title>
+               <text>
+                  <paragraph>5.1 Tendinopathy and Tendon Rupture </paragraph>
+                  <paragraph>Fluoroquinolones, including ciprofloxacin, are associated with an increased risk of tendinitis and tendon rupture in all ages. This adverse reaction most frequently involves the Achilles tendon, and rupture of the Achilles tendon may require surgical repair. Tendinitis and tendon rupture in the rotator cuff (the shoulder), the hand, the biceps, the thumb, and other tendon sites have also been reported. The risk of developing fluoroquinolone-associated tendinitis and tendon rupture is further increased in older patients usually over 60 years of age, in patients taking corticosteroid drugs, and in patients with kidney, heart or lung transplants. Factors, in addition to age and corticosteroid use, that may independently increase the risk of tendon rupture include strenuous physical activity, renal failure, and previous tendon disorders such as rheumatoid arthritis. Tendinitis and tendon rupture have also occurred in patients taking fluoroquinolones who do not have the above risk factors. Inflammation and tendon rupture can occur, sometimes bilaterally, even within the first 48 hours, during or after completion of therapy; cases occurring up to several months after completion of therapy have been reported. Ciprofloxacin should be used with caution in patients with a history of tendon disorders, ciprofloxacin should be discontinued if the patient experiences pain, swelling, inflammation or rupture of a tendon[see ADVERSE REACTIONS (6.2)</paragraph>
+                  <paragraph>5.2 Exacerbation of Myasthenia Gravis </paragraph>
+                  <paragraph>Fluoroquinolones, including ciprofloxacin, have neuromuscular blocking activity and may exacerbate muscle weakness in persons with myasthenia gravis. Postmarketing serious adverse events, including deaths and requirement for ventilatory support, have been associated with fluoroquinolone use in persons with myasthenia gravis. Avoid ciprofloxacin in patients with known history of myasthenia gravis. [see ADVERSE REACTIONS (6.2).]</paragraph>
+                  <paragraph>5.3 Hypersensitivity Reactions </paragraph>
+                  <paragraph>Serious and occasionally fatal hypersensitivity (anaphylactic) reactions, some following the first dose, have been reported in patients receiving quinolone therapy, including ciprofloxacin. Some reactions were accompanied by cardiovascular collapse, loss of consciousness, tingling, pharyngeal or facial edema, dyspnea, urticaria, and itching. Only a few patients had a history of hypersensitivity reactions. Serious anaphylactic reactions require immediate emergency treatment with epinephrine and other resuscitation measures, including oxygen, intravenous fluids, intravenous antihistamines, corticosteroids, pressor amines, and airway management, including intubation, as indicated. [see ADVERSE REACTIONS (6.1).]</paragraph>
+                  <paragraph>5.4 Other Serious and Sometimes Fatal Reactions </paragraph>
+                  <paragraph>Other serious and sometimes fatal events, some due to hypersensitivity, and some due to uncertain etiology, have been reported in patients receiving therapy with quinolones, including ciprofloxacin. These events may be severe and generally occur following the administration of multiple doses. Clinical manifestations may include one or more of the following: </paragraph>
+                  <paragraph>Fever, rash, or severe dermatologic reactions (for example, toxic epidermal necrolysis, Stevens-Johnson syndrome); 
+  <br/>
+Vasculitis; arthralgia; myalgia; serum sickness; 
+  <br/>
+Allergic pneumonitis; 
+  <br/>
+Interstitial nephritis; acute renal insufficiency or failure; 
+  <br/>
+Hepatitis; jaundice; acute hepatic necrosis or failure; 
+  <br/>
+Anemia, including hemolytic and aplastic; thrombocytopenia, including thrombotic thrombocytopenic purpura; leukopenia; agranulocytosis; pancytopenia; and/or other hematologic abnormalities. 
+ </paragraph>
+                  <paragraph>Discontinue ciprofloxacin immediately at the first appearance of a skin rash, jaundice, or any other sign of hypersensitivity and supportive measures instituted [see ADVERSE REACTIONS (6.1, 6.2)]. </paragraph>
+                  <paragraph>5.5 Hepatotoxicity </paragraph>
+                  <paragraph>Cases of severe hepatotoxicity, including hepatic necrosis, life-threatening hepatic failure, and fatal events, have been reported with ciprofloxacin. Acute liver injury is rapid in onset (range 1 -39 days), and is often associated with hypersensitivity. The pattern of injury can be hepatocellular, cholestatic, or mixed. Most patients with fatal outcomes were older than 55 years old. In the event of any signs and symptoms of hepatitis (such as anorexia, jaundice, dark urine, pruritus, or tender abdomen), discontinue treatment immediately. </paragraph>
+                  <paragraph>There can be a temporary increase in transaminases, alkaline phosphatase, or cholestatic jaundice, especially in patients with previous liver damage, who are treated with ciprofloxacin. [see ADVERSE REACTIONS (6.2, 6.3).]</paragraph>
+                  <paragraph>5.6 Serious Adverse Reactions with Concomitant Theophylline</paragraph>
+                  <paragraph>Serious and fatal reactions have been reported in patients receiving concurrent administration of ciprofloxacin and theophylline. These reactions have included cardiac arrest, seizure, status epilepticus, and respiratory failure. Instances of nausea, vomiting, tremor, irritability, or palpitation have also occurred. </paragraph>
+                  <paragraph>Although similar serious adverse reactions have been reported in patients receiving theophylline alone, the possibility that these reactions may be potentiated by ciprofloxacin cannot be eliminated. If concomitant use cannot be avoided, monitor serum levels of theophylline and adjust dosage as appropriate. [see DRUG INTERACTIONS (7).]</paragraph>
+                  <paragraph>5.7 Central Nervous System Effects </paragraph>
+                  <paragraph>Convulsions, increased intracranial pressure (including pseudotumor cerebri), and toxic psychosis have been reported in patients receiving fluoroquinolones, including ciprofloxacin. Ciprofloxacin may also cause central nervous system (CNS) events including: nervousness, agitation, insomnia, anxiety, nightmares, paranoia, dizziness, confusion, tremors, hallucinations, depression, and psychotic reactions have progressed to suicidal ideations/thoughts and self-injurious behavior such as attempted or completed suicide. These reactions may occur following the first dose. Advise patients receiving ciprofloxacin to inform their healthcare provider immediately if these reactions occur, discontinue the drug, and institute appropriate care. Ciprofloxacin, like other fluoroquinolones, is known to trigger seizures or lower the seizure threshold. As with all fluoroquinolones, use ciprofloxacin with caution in epileptic patients and patients with known or suspected CNS disorders that may predispose to seizures or lower the seizure threshold (for example, severe cerebral arteriosclerosis, previous history of convulsion, reduced cerebral blood flow, altered brain structure, or stroke), or in the presence of other risk factors that may predispose to seizures or lower the seizure threshold (for example, certain drug therapy, renal dysfunction). Use ciprofloxacin when the benefits of treatment exceed the risks, since these patients are endangered because of possible undesirable CNS side effects. Cases of status epilepticus have been reported. If seizures occur, discontinue ciprofloxacin. [see ADVERSE REACTIONS (6.1) and DRUG INTERACTIONS (7).]</paragraph>
+                  <paragraph>5.8 Clostridium Difficile -Associated Diarrhea </paragraph>
+                  <paragraph>Clostridium difficile (C. difficile)-associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including ciprofloxacin, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of C. difficile. </paragraph>
+                  <paragraph>C. difficile produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing isolates of C. difficile cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents. </paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibacterial use not directed against C. difficile may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibacterial treatment of C. difficile, and institute surgical evaluation as clinically indicated. [see ADVERSE REACTIONS (6.1).]</paragraph>
+                  <paragraph>5.9 Peripheral Neuropathy </paragraph>
+                  <paragraph>Cases of sensory or sensorimotor axonal polyneuropathy affecting small and/or large axons resulting in paresthesias, hypoesthesias, dysesthesias and weakness have been reported in patients receiving fluoroquinolones, including ciprofloxacin. Symptoms may occur soon after initiation of ciprofloxacin and may be irreversible. Discontinue ciprofloxacin immediately if the patient experiences symptoms of peripheral neuropathy including pain, burning, tingling, numbness, and/or weakness, or other alterations in sensations including light touch, pain, temperature, position sense and vibratory sensation, and/or motor strength in order to minimize the development of an irreversible condition. [see ADVERSE REACTIONS (6.1, 6.2).]</paragraph>
+                  <paragraph>5.10 Prolongation of the QT Interval </paragraph>
+                  <paragraph>Some fluoroquinolones, including ciprofloxacin, have been associated with prolongation of the QT interval on the electrocardiogram and cases of arrhythmia. Cases of torsade de pointes have been reported during postmarketing surveillance in patients receiving fluoroquinolones, including ciprofloxacin. Avoid ciprofloxacin in patients with known prolongation of the QT interval, risk factors for QT prolongation or torsade de pointes (for example, congenital long QT syndrome, uncorrected electrolyte imbalance, such as hypokalemia or hypomagnesemia and cardiac disease, such as heart failure, myocardial infarction, or bradycardia), and patients receiving Class IA antiarrhythmic agents (quinidine, procainamide), or Class III antiarrhythmic agents (amiodarone, sotalol), tricyclic antidepressants, macrolides, and antipsychotics. Elderly patients may also be more susceptible to drug-associated effects on the QT interval. [see ADVERSE REACTIONS (6.2), USE IN SPECIFIC POPULATIONS (8.5).]</paragraph>
+                  <paragraph>5.11 Musculoskeletal Disorders in Pediatric Patients and Arthropathic Effects in Animals </paragraph>
+                  <paragraph>Ciprofloxacin is indicated in pediatric patients (less than 18 years of age) only for cUTI, prevention of inhalational anthrax (post exposure), and plague [see INDICATIONS AND USAGE (1.12, 1.13, 1.14)]. An increased incidence of adverse reactions compared to controls, including reactions related to joints and/or surrounding tissues, has been observed [see ADVERSE REACTIONS (6.1)]. </paragraph>
+                  <paragraph>In pre-clinical studies, oral administration of ciprofloxacin caused lameness in immature dogs. Histopathological examination of the weight-bearing joints of these dogs revealed permanent lesions of the cartilage. Related quinolone-class drugs also produce erosions of cartilage of weight-bearing joints and other signs of arthropathy in immature animals of various species. [see USE IN SPECIFIC POPULATIONS (8.4) and NONCLINICAL TOXICOLOGY (13.2).]</paragraph>
+                  <paragraph>5.12 Crystalluria </paragraph>
+                  <paragraph>Crystals of ciprofloxacin have been observed rarely in the urine of human subjects but more frequently in the urine of laboratory animals, which is usually alkaline [see NONCLINICAL TOXICOLOGY (13.2)]. Crystalluria related to ciprofloxacin has been reported only rarely in humans because human urine is usually acidic. Avoid alkalinity of the urine in patients receiving ciprofloxacin. Hydrate patients well to prevent the formation of highly concentrated urine [see DOSAGE AND ADMINISTRATION (2.4)]. </paragraph>
+                  <paragraph>5.13 Photosensitivity/Phototoxicity </paragraph>
+                  <paragraph>Moderate to severe photosensitivity/phototoxicity reactions, the latter of which may manifest as exaggerated sunburn reactions (for example, burning, erythema, exudation, vesicles, blistering, edema) involving areas exposed to light (typically the face, “V” area of the neck, extensor surfaces of the forearms, dorsa of the hands), can be associated with the use of quinolones including ciprofloxacin after sun or UV light exposure. Therefore, avoid excessive exposure to these sources of light. Discontinue ciprofloxacin if phototoxicity occurs. [see ADVERSE REACTIONS (6.1).]</paragraph>
+                  <paragraph>5.14 Development of Drug Resistant Bacteria </paragraph>
+                  <paragraph>Prescribing ciprofloxacin tablets in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria. </paragraph>
+                  <paragraph>5.15 Potential Risks with Concomitant Use of Drugs Metabolized by Cytochrome P450 1A2 Enzymes </paragraph>
+                  <paragraph>Ciprofloxacin is an inhibitor of the hepatic CYP1A2 enzyme pathway. Co-administration of ciprofloxacin and other drugs primarily metabolized by CYP1A2 (for example, theophylline, methylxanthines, caffeine, tizanidine, ropinirole, clozapine, olanzapine) results in increased plasma concentrations of the co-administered drug and could lead to clinically significant pharmacodynamic adverse reactions of the co-administered drug. [see DRUG INTERACTIONS (7) and CLINICAL PHARMACOLOGY (12.3).]</paragraph>
+                  <paragraph>5.16 Interference with Timely Diagnosis of Syphilis </paragraph>
+                  <paragraph>Ciprofloxacin has not been shown to be effective in the treatment of syphilis. Antimicrobial agents used in high dose for short periods of time to treat gonorrhea may mask or delay the symptoms of incubating syphilis. Perform a serologic test for syphilis in all patients with gonorrhea at the time of diagnosis. Perform follow-up serologic test for syphilis three months after ciprofloxacin treatment.</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4eb99a-f4a3-350d-e053-2991aa0a40d0">
+               <id root="5f4eb99a-f4a2-350d-e053-2991aa0a40d0"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions</title>
+               <text>
+                  <paragraph>he following serious and otherwise important adverse drug reactions are discussed in greater detail in other sections of labeling: </paragraph>
+                  <paragraph>Tendon Effects [see WARNINGS AND PRECAUTIONS (5.1)] 
+  <br/>
+Exacerbation of Myasthenia Gravis [see WARNINGS AND PRECAUTIONS (5.2)] 
+  <br/>
+Hypersensitivity Reactions [see WARNINGS AND PRECAUTIONS (5.3)] 
+  <br/>
+Other Serious and Sometimes Fatal Reactions [see WARNINGS AND PRECAUTIONS (5.4)] 
+  <br/>
+Hepatotoxicity [see WARNINGS AND PRECAUTIONS (5.5)] 
+  <br/>
+Serious Adverse Reactions with Concomitant Theophylline [see WARNINGS AND PRECAUTIONS (5.6)] 
+  <br/>
+Central Nervous System Effects [see WARNINGS AND PRECAUTIONS (5.7)] 
+  <br/>
+Clostridium difficile-Associated Diarrhea [see WARNINGS AND PRECAUTIONS (5.8)] 
+  <br/>
+Peripheral Neuropathy [see WARNINGS AND PRECAUTIONS (5.9)] 
+  <br/>
+Prolongation of the QT Interval [see WARNINGS AND PRECAUTIONS (5.10)] 
+  <br/>
+Musculoskeletal Disorders in Pediatric Patients [see WARNINGS AND PRECAUTIONS (5.11)] 
+  <br/>
+Photosensitivity/Phototoxicity [see WARNINGS AND PRECAUTIONS (5.13)] 
+  <br/>
+Development of Drug Resistant Bacteria [see WARNINGS AND PRECAUTIONS (5.14)] 
+ </paragraph>
+                  <paragraph>6.1 Clinical Trials Experience </paragraph>
+                  <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. </paragraph>
+                  <paragraph>Adult Patients</paragraph>
+                  <paragraph>During clinical investigations with oral and parenteral ciprofloxacin, 49,038 patients received courses of the drug.</paragraph>
+                  <paragraph>The most frequently reported adverse reactions, from clinical trials of all formulations, all dosages, all drug-therapy durations, and for all indications of ciprofloxacin therapy were nausea (2.5%), diarrhea (1.6%), liver function tests abnormal (1.3%), vomiting (1%), and rash (1%).</paragraph>
+                  <paragraph>Table 6: Medically Important Adverse Reactions That Occurred In less than 1% of Ciprofloxacin Patients</paragraph>
+                  <paragraph>System Organ Class</paragraph>
+                  <paragraph>Adverse Reactions</paragraph>
+                  <paragraph>Body as a Whole </paragraph>
+                  <paragraph>Headache </paragraph>
+                  <paragraph>Abdominal Pain/Discomfort </paragraph>
+                  <paragraph>Pain </paragraph>
+                  <paragraph>Cardiovascular </paragraph>
+                  <paragraph>Syncope </paragraph>
+                  <paragraph>Angina Pectoris </paragraph>
+                  <paragraph>Myocardial Infarction </paragraph>
+                  <paragraph>Cardiopulmonary Arrest </paragraph>
+                  <paragraph>Tachycardia </paragraph>
+                  <paragraph>Hypotension </paragraph>
+                  <paragraph>Central Nervous System </paragraph>
+                  <paragraph>Restlessness </paragraph>
+                  <paragraph>Dizziness </paragraph>
+                  <paragraph>Insomnia </paragraph>
+                  <paragraph>Nightmares </paragraph>
+                  <paragraph>Hallucinations </paragraph>
+                  <paragraph>Paranoia </paragraph>
+                  <paragraph>Psychosis (toxic) </paragraph>
+                  <paragraph>Manic Reaction </paragraph>
+                  <paragraph>Irritability </paragraph>
+                  <paragraph>Tremor </paragraph>
+                  <paragraph>Ataxia </paragraph>
+                  <paragraph>Seizures (including Status Epilepticus) </paragraph>
+                  <paragraph>Malaise </paragraph>
+                  <paragraph>Anorexia Phobia </paragraph>
+                  <paragraph>Depersonalization </paragraph>
+                  <paragraph>Depression (potentially culminating in self-injurious behavior (such as suicidal ideations/thoughts and attempted or completed suicide) </paragraph>
+                  <paragraph>Paresthesia </paragraph>
+                  <paragraph>Abnormal Gait </paragraph>
+                  <paragraph>Migraine </paragraph>
+                  <paragraph>Gastrointestinal </paragraph>
+                  <paragraph>Intestinal Perforation </paragraph>
+                  <paragraph>Gastrointestinal Bleeding </paragraph>
+                  <paragraph>Cholestatic Jaundice </paragraph>
+                  <paragraph>Hepatitis </paragraph>
+                  <paragraph>Pancreatitis </paragraph>
+                  <paragraph>Hemic/Lymphatic </paragraph>
+                  <paragraph>Petechia </paragraph>
+                  <paragraph>Metabolic/Nutritional </paragraph>
+                  <paragraph>Hyperglycemia </paragraph>
+                  <paragraph>Hypoglycemia </paragraph>
+                  <paragraph>Musculoskeletal </paragraph>
+                  <paragraph>Arthralgia </paragraph>
+                  <paragraph>Joint Stiffness </paragraph>
+                  <paragraph>Muscle Weakness </paragraph>
+                  <paragraph>Renal/Urogenital </paragraph>
+                  <paragraph>Interstitial Nephritis </paragraph>
+                  <paragraph>Renal Failure </paragraph>
+                  <paragraph>Respiratory </paragraph>
+                  <paragraph>Dyspnea </paragraph>
+                  <paragraph>Laryngeal Edema </paragraph>
+                  <paragraph>Hemoptysis </paragraph>
+                  <paragraph>Bronchospasm </paragraph>
+                  <paragraph>Skin/Hypersensitivity </paragraph>
+                  <paragraph>Anaphylactic Reactions including life-threatening anaphylactic shock </paragraph>
+                  <paragraph>Erythema Multiforme/Stevens-Johnson Syndrome </paragraph>
+                  <paragraph>Exfoliative Dermatitis </paragraph>
+                  <paragraph>Toxic Epidermal Necrolysis </paragraph>
+                  <paragraph>Pruritus </paragraph>
+                  <paragraph>Urticaria </paragraph>
+                  <paragraph>Photosensitivity/Phototoxicity reaction </paragraph>
+                  <paragraph>Flushing </paragraph>
+                  <paragraph>Fever </paragraph>
+                  <paragraph>Angioedema </paragraph>
+                  <paragraph>Erythema Nodosum </paragraph>
+                  <paragraph>Sweating </paragraph>
+                  <paragraph>Special Senses </paragraph>
+                  <paragraph>Blurred Vision </paragraph>
+                  <paragraph>Disturbed Vision (chromatopsia and photopsia) </paragraph>
+                  <paragraph>Decreased Visual Acuity </paragraph>
+                  <paragraph>Diplopia </paragraph>
+                  <paragraph>Tinnitus </paragraph>
+                  <paragraph>Hearing Loss </paragraph>
+                  <paragraph>Bad Taste </paragraph>
+                  <paragraph>In randomized, double-blind controlled clinical trials comparing ciprofloxacin tablets [500 mg two times daily (BID)] to cefuroxime axetil (250 mg - 500 mg BID) and to clarithromycin (500 mg BID) in patients with respiratory tract infections, ciprofloxacin demonstrated a CNS adverse reaction profile comparable to the control drugs.</paragraph>
+                  <paragraph>Pediatric Patients</paragraph>
+                  <paragraph>Short (6 weeks) and long term (1 year) musculoskeletal and neurological safety of oral/intravenous ciprofloxacin, was compared to a cephalosporin for treatment of cUTI or pyelonephritis in pediatric patients 1 to 17 years of age (mean age of 6 ± 4 years) in an international multicenter trial. The duration of therapy was 10 to 21 days (mean duration of treatment was 11 days with a range of 1 to 88 days). A total of 335 ciprofloxacin-and 349 comparator-treated patients were enrolled.</paragraph>
+                  <paragraph>An Independent Pediatric Safety Committee (IPSC) reviewed all cases of musculoskeletal adverse reactions including abnormal gait or abnormal joint exam (baseline or treatment-emergent). Within 6 weeks of treatment initiation, the rates of musculoskeletal adverse reactions were 9.3% (31/335) in the ciprofloxacin-treated group versus 6% (21/349) in comparator-treated patients. All musculoskeletal adverse reactions occurring by 6 weeks resolved (clinical resolution of signs and symptoms), usually within 30 days of end of treatment. Radiological evaluations were not routinely used to confirm resolution of the adverse reactions. Ciprofloxacin-treated patients were more likely to report more than one adverse reaction and on more than one occasion compared to control patients. The rate of musculoskeletal adverse reactions was consistently higher in the ciprofloxacin group compared to the control group across all age subgroups. At the end of 1 year, the rate of these adverse reactions reported at any time during that period was 13.7% (46/335) in the ciprofloxacin-treated group versus 9.5% (33/349) in the comparator-treated patients (Table 7).</paragraph>
+                  <paragraph>Table 7: Musculoskeletal Adverse Reactions* as Assessed by the IPSC </paragraph>
+                  <paragraph>*
+  <br/>
+Included: arthralgia, abnormal gait, abnormal joint exam, joint sprains, leg pain, back pain, arthrosis, bone pain, pain, myalgia, arm pain, and decreased range of motion in a joint (knee, elbow, ankle, hip, wrist, and shoulder)
+  <br/>
+†
+  <br/>
+The study was designed to demonstrate that the arthropathy rate for the ciprofloxacin group did not exceed that of the control group by more than + 6%. At both the 6 week and 1 year evaluations, the 95% confidence interval indicated that it could not be concluded that the ciprofloxacin group had findings comparable to the control group.
+ </paragraph>
+                  <paragraph>Ciprofloxacin Tablets</paragraph>
+                  <paragraph>Comparator</paragraph>
+                  <paragraph>All Patients (within 6 weeks) </paragraph>
+                  <paragraph>31/335 (9.3%)</paragraph>
+                  <paragraph>21/349 (6%)</paragraph>
+                  <paragraph>95% Confidence Interval†</paragraph>
+                  <paragraph>(-0.8%, +7.2%)</paragraph>
+                  <paragraph>Age Group</paragraph>
+                  <paragraph>12 months &lt; 24 months </paragraph>
+                  <paragraph>1/36 (2.8%)</paragraph>
+                  <paragraph>0/41</paragraph>
+                  <paragraph>2 years &lt; 6 years </paragraph>
+                  <paragraph>5/124 (4%)</paragraph>
+                  <paragraph>3/118 (2.5%)</paragraph>
+                  <paragraph>6 years &lt; 12 years </paragraph>
+                  <paragraph>18/143 (12.6%)</paragraph>
+                  <paragraph>12/153 (7.8%)</paragraph>
+                  <paragraph>12 years to 17 years </paragraph>
+                  <paragraph>7/32 (21.9%)</paragraph>
+                  <paragraph>6/37 (16.2%)</paragraph>
+                  <paragraph>All Patients (within 1 year) </paragraph>
+                  <paragraph>46/335 (13.7%)</paragraph>
+                  <paragraph>33/349 (9.5%)</paragraph>
+                  <paragraph>95% Confidence Interval*</paragraph>
+                  <paragraph>(-0.6%, + 9.1%)</paragraph>
+                  <paragraph>The incidence rates of neurological adverse reactions within 6 weeks of treatment initiation were 3% (9/335) in the ciprofloxacin group versus 2% (7/349) in the comparator group and included dizziness, nervousness, insomnia, and somnolence. </paragraph>
+                  <paragraph>In this trial, the overall incidence rates of adverse reactions within 6 weeks of treatment initiation were 41% (138/335) in the ciprofloxacin group versus 31% (109/349) in the comparator group. The most frequent adverse reactions were gastrointestinal: 15% (50/335) of ciprofloxacin patients compared to 9% (31/349) of comparator patients. Serious adverse reactions were seen in 7.5% (25/335) of ciprofloxacin treated patients compared to 5.7% (20/349) of control patients. Discontinuation of drug due to an adverse reaction was observed in 3% (10/335) of ciprofloxacin-treated patients versus 1.4% (5/349) of comparator patients. Other adverse reactions that occurred in at least 1% of ciprofloxacin patients were diarrhea 4.8%, vomiting 4.8%, abdominal pain 3.3%, dyspepsia 2.7%, nausea 2.7%, fever 2.1%, asthma 1.8% and rash 1.8%. </paragraph>
+                  <paragraph>Short-term safety data for ciprofloxacin was also collected in a randomized, double-blind clinical trial for the treatment of acute pulmonary exacerbations in cystic fibrosis patients (ages 5 - 17 years). Sixty seven patients received ciprofloxacin IV 10 mg/kg/dose every 8 hours for one week followed by ciprofloxacin tablets 20 mg/kg/dose every 12 hours to complete 10 -21 days treatment and 62 patients received the combination of ceftazidime intravenous 50 mg/kg/dose every 8 hours and tobramycin intravenous 3 mg/kg/dose every 8 hours for a total of 10 - 21 days. Periodic musculoskeletal assessments were conducted by treatment-blinded examiners. Patients were followed for an average of 23 days after completing treatment (range 0 - 93 days). Musculoskeletal adverse reactions were reported in 22% of the patients in the ciprofloxacin group and 21% in the comparison group. Decreased range of motion was reported in 12% of the subjects in the ciprofloxacin group and 16% in the comparison group. Arthralgia was reported in 10% of the patients in the ciprofloxacin group and 11% in the comparison group. Other adverse reactions were similar in nature and frequency between treatment arms. The efficacy of ciprofloxacin tablets for the treatment of acute pulmonary exacerbations in pediatric cystic fibrosis patients has not been established.</paragraph>
+                  <paragraph>In addition to the adverse reactions reported in pediatric patients in clinical trials, it should be expected that adverse reactions reported in adults during clinical trials or postmarketing experience may also occur in pediatric patients.</paragraph>
+                  <paragraph>6.2 Postmarketing Experience </paragraph>
+                  <paragraph>The following adverse reactions have been reported from worldwide marketing experience with fluoroquinolones, including ciprofloxacin tablets. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure (Table 8). </paragraph>
+                  <paragraph>Table 8: Postmarketing Reports of Adverse Drug Reactions </paragraph>
+                  <paragraph>System Organ Class </paragraph>
+                  <paragraph>Adverse Reactions </paragraph>
+                  <paragraph>Cardiovascular </paragraph>
+                  <paragraph>QT prolongation </paragraph>
+                  <paragraph>Torsade de Pointes </paragraph>
+                  <paragraph>Vasculitis and ventricular arrhythmia </paragraph>
+                  <paragraph>Central Nervous System </paragraph>
+                  <paragraph>Hypertonia </paragraph>
+                  <paragraph>Myasthenia </paragraph>
+                  <paragraph>Exacerbation of myasthenia gravis </paragraph>
+                  <paragraph>Peripheral neuropathy </paragraph>
+                  <paragraph>Polyneuropathy </paragraph>
+                  <paragraph>Twitching </paragraph>
+                  <paragraph>Eye Disorders </paragraph>
+                  <paragraph>Nystagmus </paragraph>
+                  <paragraph>Gastrointestinal </paragraph>
+                  <paragraph>Pseudomembranous colitis </paragraph>
+                  <paragraph>Hemic/Lymphatic </paragraph>
+                  <paragraph>Pancytopenia (life threatening or fatal outcome) </paragraph>
+                  <paragraph>Methemoglobinemia </paragraph>
+                  <paragraph>Hepatobiliary </paragraph>
+                  <paragraph>Hepatic failure (including fatal cases) </paragraph>
+                  <paragraph>Infections and Infestations </paragraph>
+                  <paragraph>Candidiasis (oral, gastrointestinal, vaginal) </paragraph>
+                  <paragraph>Investigations </paragraph>
+                  <paragraph>Prothrombin time prolongation or decrease Cholesterol elevation (serum) </paragraph>
+                  <paragraph>Potassium elevation (serum) </paragraph>
+                  <paragraph>Musculoskeletal </paragraph>
+                  <paragraph>Myalgia </paragraph>
+                  <paragraph>Myoclonus </paragraph>
+                  <paragraph>Tendinitis </paragraph>
+                  <paragraph>Tendon rupture </paragraph>
+                  <paragraph>Psychiatric Disorders </paragraph>
+                  <paragraph>Agitation </paragraph>
+                  <paragraph>Confusion </paragraph>
+                  <paragraph>Delirium </paragraph>
+                  <paragraph>Skin/Hypersensitivity </paragraph>
+                  <paragraph>Acute generalized exanthematous pustulosis (AGEP) </paragraph>
+                  <paragraph>Fixed eruption </paragraph>
+                  <paragraph>Serum sickness-like reaction </paragraph>
+                  <paragraph>Special Senses </paragraph>
+                  <paragraph>Anosmia </paragraph>
+                  <paragraph>Hyperesthesia </paragraph>
+                  <paragraph>Hypesthesia </paragraph>
+                  <paragraph>Taste loss </paragraph>
+                  <paragraph>6.3 Adverse Laboratory Changes </paragraph>
+                  <paragraph>Changes in laboratory parameters while on ciprofloxacin are listed below: Hepatic –Elevations of ALT (SGPT), AST (SGOT), alkaline phosphatase, LDH, serum bilirubin. Hematologic–Eosinophilia, leukopenia, decreased blood platelets, elevated blood platelets, pancytopenia. Renal–Elevations of serum creatinine, BUN, crystalluria, cylindruria, and hematuria have been reported. Other changes occurring were: elevation of serum gammaglutamyl transferase, elevation of serum amylase, reduction in blood glucose, elevated uric acid, decrease in hemoglobin, anemia, bleeding diathesis, increase in blood monocytes, and leukocytosis.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4eaa02-2afb-d84e-e053-2a91aa0ab08f">
+               <id root="5f4eaa02-2afa-d84e-e053-2a91aa0ab08f"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>Drug interactions</title>
+               <text>
+                  <paragraph>Ciprofloxacin is an inhibitor of human cytochrome P450 1A2 (CYP1A2) mediated metabolism. Co-administration of ciprofloxacin with other drugs primarily metabolized by CYP1A2 results in increased plasma concentrations of these drugs and could lead to clinically significant adverse events of the co-administered drug. </paragraph>
+                  <paragraph>Table 9: Drugs That are Affected by and Affecting Ciprofloxacin</paragraph>
+                  <paragraph>Drugs That are Affected by Ciprofloxacin</paragraph>
+                  <paragraph>Drug(s) </paragraph>
+                  <paragraph>Recommendation </paragraph>
+                  <paragraph>Comments </paragraph>
+                  <paragraph>Tizanidine </paragraph>
+                  <paragraph>Contraindicated </paragraph>
+                  <paragraph>Concomitant administration of tizanidine and ciprofloxacin is contraindicated due to the potentiation of hypotensive and sedative effects of tizanidine [see CONTRAINDICATIONS (4.2)]. </paragraph>
+                  <paragraph>Theophylline </paragraph>
+                  <paragraph>Avoid Use </paragraph>
+                  <paragraph>(Plasma Exposure Likely to be Increased and Prolonged) </paragraph>
+                  <paragraph>Concurrent administration of ciprofloxacin with theophylline may result in increased risk of a patient developing central nervous system (CNS) or other adverse reactions. If concomitant use cannot be avoided, monitor serum levels of theophylline and adjust dosage as appropriate[see WARNINGS AND PRECAUTIONS (5.6).]</paragraph>
+                  <paragraph>Drugs Known to Prolong QT Interval </paragraph>
+                  <paragraph>Avoid Use </paragraph>
+                  <paragraph>Ciprofloxacin may further prolong the QT interval in patients receiving drugs known to prolong the QT interval (for example, class IA or III antiarrhythmics, tricyclic antidepressants, macrolides, antipsychotics) [see WARNINGS AND PRECAUTIONS (5.10) and USE IN SPECIFIC POPULATIONS (8.5)]. </paragraph>
+                  <paragraph>Oral antidiabetic drugs </paragraph>
+                  <paragraph>Use with caution </paragraph>
+                  <paragraph>Glucose-lowering effect potentiated </paragraph>
+                  <paragraph>Hypoglycemia sometimes severe has been reported when ciprofloxacin and oral antidiabetic agents, mainly sulfonylureas (for example, glyburide, glimepiride), were co-administered, presumably by intensifying the action of the oral antidiabetic agent. Fatalities have been reported. Monitor blood glucose when ciprofloxacin is co-administered with oral antidiabetic drugs. [see ADVERSE REACTIONS (6.1).]</paragraph>
+                  <paragraph>Phenytoin </paragraph>
+                  <paragraph>Use with caution </paragraph>
+                  <paragraph>Altered serum levels of phenytoin (increased and decreased)</paragraph>
+                  <paragraph>To avoid the loss of seizure control associated with decreased phenytoin levels and to prevent phenytoin overdose-related adverse reactions upon ciprofloxacin discontinuation in patients receiving both agents, monitor phenytoin therapy, including phenytoin serum concentration during and shortly after coadministration of ciprofloxacin with phenytoin.</paragraph>
+                  <paragraph>Cyclosporine </paragraph>
+                  <paragraph>Use with caution </paragraph>
+                  <paragraph>(transient elevations in serum creatinine) </paragraph>
+                  <paragraph>Monitor renal function (in particular serum creatinine) when ciprofloxacin is co-administered with cyclosporine. </paragraph>
+                  <paragraph>Anti-coagulant drugs </paragraph>
+                  <paragraph>Use with caution </paragraph>
+                  <paragraph>(Increase in anticoagulant effect) </paragraph>
+                  <paragraph>The risk may vary with the underlying infection, age and general status of the patient so that the contribution of ciprofloxacin to the increase in INR (international normalized ratio) is difficult to assess. Monitor prothrombin time and INR frequently during and shortly after co-administration of ciprofloxacin with an oral anti-coagulant (for example, warfarin). </paragraph>
+                  <paragraph>Methotrexate </paragraph>
+                  <paragraph>Use with caution </paragraph>
+                  <paragraph>Inhibition of methotrexate renal tubular transport potentially leading to increased methotrexate plasma levels </paragraph>
+                  <paragraph>Potential increase in the risk of methotrexate associated toxic reactions. Therefore, carefully monitor patients under methotrexate therapy when concomitant ciprofloxacin therapy is indicated. </paragraph>
+                  <paragraph>Ropinirole </paragraph>
+                  <paragraph>Use with caution </paragraph>
+                  <paragraph>Monitoring for ropinirole-related adverse reactions and appropriate dose adjustment of ropinirole is recommended during and shortly after coadministration with ciprofloxacin [see WARNINGS AND PRECAUTIONS (5.15)]. </paragraph>
+                  <paragraph>Clozapine </paragraph>
+                  <paragraph>Use with caution </paragraph>
+                  <paragraph>Careful monitoring of clozapine associated adverse reactions and appropriate adjustment of clozapine dosage during and shortly after co-administration with ciprofloxacin are advised. </paragraph>
+                  <paragraph>NSAIDs </paragraph>
+                  <paragraph>Use with caution </paragraph>
+                  <paragraph>Non-steroidal anti-inflammatory drugs (but not acetyl salicylic acid) in combination of very high doses of quinolones have been shown to provoke convulsions in pre-clinical studies and in postmarketing. </paragraph>
+                  <paragraph>Sildenafil </paragraph>
+                  <paragraph>Use with caution </paragraph>
+                  <paragraph>2-fold increase in exposure </paragraph>
+                  <paragraph>Monitor for sildenafil toxicity (see PHARMACOKINETICS -(12.3)-]. </paragraph>
+                  <paragraph>Duloxetine </paragraph>
+                  <paragraph>Avoid Use </paragraph>
+                  <paragraph>5-fold increase in duloxetine exposure </paragraph>
+                  <paragraph>If unavoidable, monitor for duloxetine toxicity </paragraph>
+                  <paragraph>Caffeine/Xanthine Derivatives </paragraph>
+                  <paragraph>Use with caution </paragraph>
+                  <paragraph>Reduced clearance resulting in elevated levels and prolongation of serum half-life </paragraph>
+                  <paragraph>Ciprofloxacin inhibits the formation of paraxanthine after caffeine administration (or pentoxifylline containing products). Monitor for xanthine toxicity and adjust dose as necessary. </paragraph>
+                  <paragraph>Drug(s) Affecting Pharmacokinetics of Ciprofloxacin </paragraph>
+                  <paragraph>Antacids, Sucralfate, Multivitamins and Other Products Containing Multivalent Cations (magnesium/aluminum antacids; polymeric phosphate binders (for example, sevelamer, lanthanum carbonate); sucralfate; Videx®(didanosine) chewable/buffered tablets or pediatric powder; other highly buffered drugs; or products containing calcium, iron, or zinc and dairy products)</paragraph>
+                  <paragraph>Ciprofloxacin should be taken at least two hours before or six hours after Multivalent cation-containing products administration [see DOSAGE AND ADMINISTRATION (2)].</paragraph>
+                  <paragraph>Decrease ciprofloxacin absorption, resulting in lower serum and urine levels</paragraph>
+                  <paragraph>Probenecid </paragraph>
+                  <paragraph>Use with caution</paragraph>
+                  <paragraph>(interferes with renal tubular secretion of ciprofloxacin and increases ciprofloxacin serum levels)</paragraph>
+                  <paragraph>Potentiation of ciprofloxacin toxicity may occur.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4eb389-e901-dc97-e053-2a91aa0a0607">
+               <id root="5f4eb389-e900-dc97-e053-2a91aa0a0607"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>Use in Specfic Populations</title>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph>Teratogenic Effects. Pregnancy Category C</paragraph>
+                  <paragraph>There are no adequate and well-controlled studies in pregnant women. Ciprofloxacin should not be used during pregnancy unless the potential benefit justifies the potential risk to both fetus and mother. An expert review of published data on experiences with ciprofloxacin use during pregnancy by TERIS–the Teratogen Information System–concluded that therapeutic doses during pregnancy are unlikely to pose a substantial teratogenic risk (quantity and quality of data = fair), but the data are insufficient to state that there is no risk.2</paragraph>
+                  <paragraph>A controlled prospective observational study followed 200 women exposed to fluoroquinolones (52.5% exposed to ciprofloxacin and 68% first trimester exposures) during gestation.3In utero exposure to fluoroquinolones during embryogenesis was not associated with increased risk of major malformations. The reported rates of major congenital malformations were 2.2% for the fluoroquinolone group and 2.6% for the control group (background incidence of major malformations is 1% - 5%). Rates of spontaneous abortions, prematurity and low birth weight did not differ between the groups and there were no clinically significant musculoskeletal dysfunctions up to one year of age in the ciprofloxacin exposed children. </paragraph>
+                  <paragraph>Another prospective follow-up study reported on 549 pregnancies with fluoroquinolone exposure (93% first trimester exposures).4 There were 70 ciprofloxacin exposures, all within the first trimester. The malformation rates among live-born babies exposed to ciprofloxacin and to fluoroquinolones overall were both within background incidence ranges. No specific patterns of congenital abnormalities were found. The study did not reveal any clear adverse reactions due to in utero exposure to ciprofloxacin.</paragraph>
+                  <paragraph>No differences in the rates of prematurity, spontaneous abortions, or birth weight were seen in women exposed to ciprofloxacin during pregnancy.2,3 However, these small postmarketing epidemiology studies, of which most experience is from short term, first trimester exposure, are insufficient to evaluate the risk for less common defects or to permit reliable and definitive conclusions regarding the safety of ciprofloxacin in pregnant women and their developing fetuses. </paragraph>
+                  <paragraph>Reproduction studies have been performed in rats and mice using oral doses up to 100 mg/kg (0.6 and 0.3 times the maximum daily human dose based upon body surface area, respectively) and have revealed no evidence of harm to the fetus due to ciprofloxacin. In rabbits, oral ciprofloxacin dose levels of 30 and 100 mg/kg (approximately 0.4-and 1.3-times the highest recommended therapeutic dose based upon body surface area) produced gastrointestinal toxicity resulting in maternal weight loss and an increased incidence of abortion, but no teratogenicity was observed at either dose level. After intravenous administration of doses up to 20 mg/kg (approximately 0.3-times the highest recommended therapeutic dose based upon body surface area), no maternal toxicity was produced and no embryotoxicity or teratogenicity was observed. </paragraph>
+                  <paragraph>8.3 Nursing Mothers</paragraph>
+                  <paragraph>Ciprofloxacin is excreted in human milk. The amount of ciprofloxacin absorbed by the nursing infant is unknown. Because of the potential risk of serious adverse reactions (including articular damage) in infants nursing from mothers taking ciprofloxacin, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother. </paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>Although effective in clinical trials, ciprofloxacin is not a drug of first choice in the pediatric population due to an increased incidence of adverse reactions compared to controls. Quinolones, including ciprofloxacin, cause arthropathy in juvenile animals [see WARNINGS AND PRECAUTIONS (5.11) and NONCLINICAL TOXICOLOGY (13.2)]. </paragraph>
+                  <paragraph>Complicated Urinary Tract Infection and Pyelonephritis</paragraph>
+                  <paragraph>Ciprofloxacin is indicated for the treatment of cUTI and pyelonephritis due to Escherichia coli in pediatric patients 1 to 17 years of age. Although effective in clinical trials, ciprofloxacin is not a drug of first choice in the pediatric population due to an increased incidence of adverse reactions compared to the controls, including events related to joints and/or surrounding tissues. [See ADVERSE REACTIONS (6.1) and CLINICAL STUDIES (14.1).]</paragraph>
+                  <paragraph>Inhalational Anthrax (Post-Exposure)</paragraph>
+                  <paragraph>Ciprofloxacin is indicated in pediatric patients from birth to 17 years of age, for inhalational anthrax (postexposure). The risk-benefit assessment indicates that administration of ciprofloxacin to pediatric patients is appropriate [see DOSAGE AND ADMINISTRATION (2.2) and CLINICAL STUDIES (14.2)]. </paragraph>
+                  <paragraph>Plague</paragraph>
+                  <paragraph>Ciprofloxacin is indicated in pediatric patients from birth to 17 years of age, for treatment of plague, including pneumonic and septicemic plague due to Yersinia pestis (Y. pestis) and prophylaxis for plague. Efficacy studies of ciprofloxacin could not be conducted in humans with pneumonic plague for feasibility reasons. Therefore, approval of this indication was based on an efficacy study conducted in animals. The risk-benefit assessment indicates that administration of ciprofloxacin to pediatric patients is appropriate [See INDICATIONS AND USAGE (1.14), DOSAGE AND ADMINISTRATION (2.2) and CLINICAL STUDIES (14.3).]</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>Geriatric patients are at increased risk for developing severe tendon disorders including tendon rupture when being treated with a fluoroquinolone such as ciprofloxacin. This risk is further increased in patients receiving concomitant corticosteroid therapy. Tendinitis or tendon rupture can involve the Achilles, hand, shoulder, or other tendon sites and can occur during or after completion of therapy; cases occurring up to several months after fluoroquinolone treatment have been reported. Caution should be used when prescribing ciprofloxacin to elderly patients especially those on corticosteroids. Patients should be informed of this potential adverse reaction and advised to discontinue ciprofloxacin and contact their healthcare provider if any symptoms of tendinitis or tendon rupture occur. [see BOXED WARNING, WARNINGS AND PRECAUTIONS (5.1), and ADVERSE REACTIONS (6.2).]</paragraph>
+                  <paragraph>In a retrospective analysis of 23 multiple-dose controlled clinical trials of ciprofloxacin encompassing over 3500 ciprofloxacin-treated patients, 25% of patients were greater than or equal to 65 years of age and 10% were greater than or equal to 75 years of age. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals on any drug therapy cannot be ruled out. Ciprofloxacin is known to be substantially excreted by the kidney, and the risk of adverse reactions may be greater in patients with impaired renal function. No alteration of dosage is necessary for patients greater than 65 years of age with normal renal function. However, since some older individuals experience reduced renal function by virtue of their advanced age, care should be taken in dose selection for elderly patients, and renal function monitoring may be useful in these patients .[see DOSAGE AND ADMINISTRATION (2.3)and CLINICAL PHARMACOLOGY (12.3).]</paragraph>
+                  <paragraph>In general, elderly patients may be more susceptible to drug-associated effects on the QT interval. Therefore, precaution should be taken when using ciprofloxacin with concomitant drugs that can result in prolongation of the QT interval (for example, class IA or class III antiarrhythmics) or in patients with risk factors for torsade de pointes (for example, known QT prolongation, uncorrected hypokalemia) .[see WARNINGS AND PRECAUTIONS (5.10).]</paragraph>
+                  <paragraph>8.6 Renal Impairment </paragraph>
+                  <paragraph>Ciprofloxacin is eliminated primarily by renal excretion; however, the drug is also metabolized and partially cleared through the biliary system of the liver and through the intestine. These alternative pathways of drug elimination appear to compensate for the reduced renal excretion in patients with renal impairment. Nonetheless, some modification of dosage is recommended, particularly for patients with severe renal dysfunction. [see DOSAGE AND ADMINISTRATION (2, 2.1) and CLINICAL PHARMACOLOGY (12.3).]</paragraph>
+                  <paragraph>8.7 Hepatic Impairment </paragraph>
+                  <paragraph>In preliminary studies in patients with stable chronic liver cirrhosis, no significant changes in ciprofloxacin pharmacokinetics have been observed. The pharmacokinetics of ciprofloxacin in patients with acute hepatic insufficiency, have not been studied. </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4eb389-e903-dc97-e053-2a91aa0a0607">
+               <id root="5f4eb389-e902-dc97-e053-2a91aa0a0607"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>Overdosage</title>
+               <text>
+                  <paragraph>In the event of acute overdosage, reversible renal toxicity has been reported in some cases. Empty the stomach by inducing vomiting or by gastric lavage. Observe the patient carefully and give supportive treatment, including monitoring of renal function, urinary pH and acidify, if required, to prevent crystalluria and administration of magnesium, aluminum, or calcium containing antacids which can reduce the absorption of ciprofloxacin. Adequate hydration must be maintained. Only a small amount of ciprofloxacin (less than 10%) is removed from the body after hemodialysis or peritoneal dialysis.</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4eaa02-2b00-d84e-e053-2a91aa0ab08f">
+               <id root="5f4eaa02-2aff-d84e-e053-2a91aa0ab08f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>Description</title>
+               <text>
+                  <paragraph>Ciprofloxacin (ciprofloxacin hydrochloride) Tablets USP are synthetic antimicrobial agents for oral administration. Ciprofloxacin hydrochloride, USP, a fluoroquinolone, is the monohydrochloride monohydrate salt of 1-cyclopropyl-6-fluoro-1, 4-dihydro-4-oxo-7-(1-piperazinyl)-3quinolinecarboxylic acid. It is a faintly yellowish to light yellow crystalline substance with a molecular weight of 385.8. Its empirical formula is C17H18FN3O3 •HCl •H2O and its chemical structure is as follows:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_5f4eaa02-2afe-d84e-e053-2a91aa0ab08f"/>
+                  </paragraph>
+                  <paragraph>Ciprofloxacin film-coated Tablets are available in 250 mg, 500 mg and 750 mg (ciprofloxacin equivalent) strengths. </paragraph>
+                  <paragraph>Ciprofloxacin tablets USP are white to slightly yellowish. The inactive ingredients are pregelatinized starch, microcrystalline cellulose, colloidal silicon dioxide, crospovidone, magnesium stearate, hypromellose, titanium dioxide, polyethylene glycol, and purified water.</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+               <component>
+                  <observationMedia ID="img_5f4eaa02-2afe-d84e-e053-2a91aa0ab08f">
+                     <text>cipro 750mg.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="cipro 750mg.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4efa1b-a8ec-d84c-e053-2a91aa0ad3d1">
+               <id root="5f4efa1b-a8eb-d84c-e053-2a91aa0ad3d1"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>Clinical Pharmacology</title>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>Ciprofloxacin is a member of the fluoroquinolone class of antibacterial agents [see MICROBIOLOGY (12.4)]. </paragraph>
+                  <paragraph>12.3 Pharmacokinetics</paragraph>
+                  <paragraph>Absorption </paragraph>
+                  <paragraph>The absolute bioavailability of ciprofloxacin when given as an oral tablet is approximately 70% with no substantial loss by first pass metabolism. Ciprofloxacin maximum serum concentrations and area under the curve are shown in the chart for the 250 mg to 1000 mg dose range (Table 10).</paragraph>
+                  <paragraph>Table 10: Maximum Serum Concentrations and Areas Under the Curve</paragraph>
+                  <paragraph>Dose (mg)</paragraph>
+                  <paragraph>Maximum Serum Concentration (mcg/mL)</paragraph>
+                  <paragraph>Area Under Curve (AUC) (mcg•hr/mL)</paragraph>
+                  <paragraph>250</paragraph>
+                  <paragraph>1.2</paragraph>
+                  <paragraph>4.8</paragraph>
+                  <paragraph>500</paragraph>
+                  <paragraph>2.4</paragraph>
+                  <paragraph>11.6</paragraph>
+                  <paragraph>750</paragraph>
+                  <paragraph>4.3</paragraph>
+                  <paragraph>20.2</paragraph>
+                  <paragraph>1000</paragraph>
+                  <paragraph>5.4</paragraph>
+                  <paragraph>30.8</paragraph>
+                  <paragraph>Maximum serum concentrations are attained 1 to 2 hours after oral dosing. Mean concentrations 12 hours after dosing with 250, 500, or 750 mg are 0.1, 0.2, and 0.4 mcg/mL, respectively. The serum elimination half-life in subjects with normal renal function is approximately 4 hours. Serum concentrations increase proportionately with doses up to 1000 mg.</paragraph>
+                  <paragraph>A 500 mg oral dose given every 12 hours has been shown to produce an area under the serum concentration time curve (AUC) equivalent to that produced by an intravenous infusion of 400 mg ciprofloxacin given over 60 minutes every 12 hours. A 750 mg oral dose given every 12 hours has been shown to produce an AUC at steady-state equivalent to that produced by an intravenous infusion of 400 mg given over 60 minutes every 8 hours. A 750 mg oral dose results in a Cmax similar to that observed with a 400 mg intravenous dose. A 250 mg oral dose given every 12 hours produces an AUC equivalent to that produced by an infusion of 200 mg ciprofloxacin given every 12 hours (Table 11).</paragraph>
+                  <paragraph>Table 11: Steady-state Pharmacokinetic Parameters Following Multiple Oral and IV Doses</paragraph>
+                  <paragraph>*
+  <br/>
+AUC 0 to 12h
+  <br/>
+†
+  <br/>
+AUC 24h = AUC 0 to 12h x 2
+  <br/>
+‡
+  <br/>
+AUC 24h = AUC 0 to 8h x 3
+ </paragraph>
+                  <paragraph>Parameters</paragraph>
+                  <paragraph>500 mg</paragraph>
+                  <paragraph>400 mg</paragraph>
+                  <paragraph>750 mg</paragraph>
+                  <paragraph>400 mg</paragraph>
+                  <paragraph>Every 12 hours, orally</paragraph>
+                  <paragraph>Every 12 hours, intravenous</paragraph>
+                  <paragraph>Every 12 hours, orally</paragraph>
+                  <paragraph>Every 8 hours, IV</paragraph>
+                  <paragraph>AUC (mcg•hr/mL)</paragraph>
+                  <paragraph>13.7*</paragraph>
+                  <paragraph>12.7*</paragraph>
+                  <paragraph>31.6†</paragraph>
+                  <paragraph>32.9‡</paragraph>
+                  <paragraph>Cmax (mcg/mL)</paragraph>
+                  <paragraph>2.97</paragraph>
+                  <paragraph>4.56</paragraph>
+                  <paragraph>3.59</paragraph>
+                  <paragraph>4.07</paragraph>
+                  <paragraph>Food</paragraph>
+                  <paragraph>When ciprofloxacin tablet is given concomitantly with food, there is a delay in the absorption of the drug, resulting in peak concentrations that occur closer to 2 hours after dosing rather than 1 hour. The overall absorption of ciprofloxacin tablets, however, is not substantially affected. Avoid concomitant administration of ciprofloxacin with dairy products (like milk or yogurt) or calcium-fortified juices alone since decreased absorption is possible; however, ciprofloxacin may be taken with a meal that contains these products</paragraph>
+                  <paragraph>With oral administration, a 500 mg dose, given as 10 mL of the 5% ciprofloxacin suspension (containing 250 mg ciprofloxacin/5mL) is bioequivalent to the 500 mg tablet. </paragraph>
+                  <paragraph>Distribution</paragraph>
+                  <paragraph>The binding of ciprofloxacin to serum proteins is 20% to 40% which is not likely to be high enough to cause significant protein binding interactions with other drugs.</paragraph>
+                  <paragraph>After oral administration, ciprofloxacin is widely distributed throughout the body. Tissue concentrations often exceed serum concentrations in both men and women, particularly in genital tissue including the prostate. Ciprofloxacin is present in active form in the saliva, nasal and bronchial secretions, mucosa of the sinuses, sputum, skin blister fluid, lymph, peritoneal fluid, bile, and prostatic secretions. Ciprofloxacin has also been detected in lung, skin, fat, muscle, cartilage, and bone. The drug diffuses into the cerebrospinal fluid (CSF); however, CSF concentrations are generally less than 10% of peak serum concentrations. Low levels of the drug have been detected in the aqueous and vitreous humors of the eye.</paragraph>
+                  <paragraph>Metabolism</paragraph>
+                  <paragraph>Four metabolites have been identified in human urine which together account for approximately 15% of an oral dose. The metabolites have antimicrobial activity, but are less active than unchanged ciprofloxacin. Ciprofloxacin is an inhibitor of human cytochrome P450 1A2 (CYP1A2) mediated metabolism. Co-administration of ciprofloxacin with other drugs primarily metabolized by CYP1A2 results in increased plasma concentrations of these drugs and could lead to clinically significant adverse events of the co-administered drug [see CONTRAINDICATIONS (4.2), WARNINGS AND PRECAUTIONS (5.6, 5.15), and DRUG INTERACTIONS (7)]. </paragraph>
+                  <paragraph>Excretion</paragraph>
+                  <paragraph>The serum elimination half-life in subjects with normal renal function is approximately 4 hours. Approximately 40 to 50% of an orally administered dose is excreted in the urine as unchanged drug. After a 250 mg oral dose, urine concentrations of ciprofloxacin usually exceed 200 mcg/mL during the first two hours and are approximately 30 mcg/mL at 8 to 12 hours after dosing. The urinary excretion of ciprofloxacin is virtually complete within 24 hours after dosing. The renal clearance of ciprofloxacin, which is approximately 300 mL/minute, exceeds the normal glomerular filtration rate of 120 mL/minute. Thus, active tubular secretion would seem to play a significant role in its elimination. Coadministration of probenecid with ciprofloxacin results in about a 50% reduction in the ciprofloxacin renal clearance and a 50% increase in its concentration in the systemic circulation.</paragraph>
+                  <paragraph>Although bile concentrations of ciprofloxacin are several fold higher than serum concentrations after oral dosing, only a small amount of the dose administered is recovered from the bile as unchanged drug. An additional 1% to 2% of the dose is recovered from the bile in the form of metabolites. Approximately 20% to 35% of an oral dose is recovered from the feces within 5 days after dosing. This may arise from either biliary clearance or transintestinal elimination.</paragraph>
+                  <paragraph>Specific Populations</paragraph>
+                  <paragraph>Elderly</paragraph>
+                  <paragraph>Pharmacokinetic studies of the oral (single dose) and intravenous (single and multiple dose) forms of ciprofloxacin indicate that plasma concentrations of ciprofloxacin are higher in elderly subjects (older than 65 years) as compared to young adults. Although the Cmax is increased 16% to 40%, the increase in mean AUC is approximately 30%, and can be at least partially attributed to decreased renal clearance in the elderly. Elimination half-life is only slightly (~20%) prolonged in the elderly. These differences are not considered clinically significant. [see USE IN SPECIFIC POPULATIONS (8.5).]</paragraph>
+                  <paragraph>Renal Impairment</paragraph>
+                  <paragraph>In patients with reduced renal function, the half-life of ciprofloxacin is slightly prolonged. Dosage adjustments may be required [see USE IN SPECIFIC POPULATIONS (8.6) and DOSAGE AND ADMINISTRATION (2.3)]. </paragraph>
+                  <paragraph>Hepatic Impairment</paragraph>
+                  <paragraph>In preliminary studies in patients with stable chronic liver cirrhosis, no significant changes in ciprofloxacin pharmacokinetics have been observed. The kinetics of ciprofloxacin in patients with acute hepatic insufficiency, have not been fully studied.</paragraph>
+                  <paragraph>Pediatrics</paragraph>
+                  <paragraph>Following a single oral dose of 10 mg/kg ciprofloxacin suspension to 16 children ranging in age from 4 months to 7 years, the mean Cmax was 2.4 mcg/mL (range: 1.5 mcg/mL to 3.4 mcg/mL) and the mean AUC was 9.2 mcg*hr/mL (range: 5.8 mcg*hr/mL to 14.9 mcg*h/mL). There was no apparent age-dependence, and no notable increase in Cmax or AUC upon multiple dosing (10 mg/kg three times a day). In children with severe sepsis who were given ciprofloxacin IV (10 mg/kg as a 1-hour intravenous infusion), the mean Cmax was 6.1 mcg/mL (range: 4.6 mcg/mL to 8.3 mcg/mL) in 10 children less than 1 year of age; and 7.2 mcg/mL (range: 4.7 mcg/mL to 11.8 mcg/mL) in 10 children between 1 year and 5 years of age. The AUC values were 17.4 mcg*hr/mL (range: 11.8 mcg*hr/mL to 32 mcg*hr/mL) and 16.5 mcg*hr/mL (range: 11 mcg*hr/mL to 23.8 mcg*hr/mL) in the respective age groups. These values are within the range reported for adults at therapeutic doses. Based on population pharmacokinetic analysis of pediatric patients with various infections, the predicted mean half-life in children is approximately 4 hours to 5 hours, and the bioavailability of the oral suspension is approximately 60%.</paragraph>
+                  <paragraph>Drug-Drug Interactions</paragraph>
+                  <paragraph>Antacids</paragraph>
+                  <paragraph>Concurrent administration of antacids containing magnesium hydroxide or aluminum hydroxide may reduce the bioavailability of ciprofloxacin by as much as 90% [see DOSAGE AND ADMINISTRATION (2.1)and DRUG INTERACTIONS (7)]. </paragraph>
+                  <paragraph>Histamine H2-receptor antagonists</paragraph>
+                  <paragraph>Histamine H2-receptor antagonists appear to have no significant effect on the bioavailability of ciprofloxacin. </paragraph>
+                  <paragraph>Metronidazole</paragraph>
+                  <paragraph>The serum concentrations of ciprofloxacin and metronidazole were not altered when these two drugs were given concomitantly. </paragraph>
+                  <paragraph>Tizanidine</paragraph>
+                  <paragraph>In a pharmacokinetic study, systemic exposure of tizanidine (4 mg single dose) was significantly increased (Cmax 7-fold, AUC 10-fold) when the drug was given concomitantly with ciprofloxacin (500 mg twice a day for 3 days). Concomitant administration of tizanidine and ciprofloxacin is contraindicated due to the potentiation of hypotensive and sedative effects of tizanidine [see CONTRAINDICATIONS (4.2)]. </paragraph>
+                  <paragraph>Ropinirole</paragraph>
+                  <paragraph>In a study conducted in 12 patients with Parkinson’s disease who were administered 6 mg ropinirole once daily with 500 mg ciprofloxacin twice-daily, the mean Cmax and mean AUC of ropinirole were increased by 60% and 84%, respectively. Monitoring for ropinirole-related adverse reactions and appropriate dose adjustment of ropinirole is recommended during and shortly after co-administration with ciprofloxacin [see WARNINGS AND PRECAUTIONS (5.6)]. </paragraph>
+                  <paragraph>Clozapine</paragraph>
+                  <paragraph>Following concomitant administration of 250 mg ciprofloxacin with 304 mg clozapine for 7 days, serum concentrations of clozapine and N-desmethylclozapine were increased by 29% and 31%, respectively. Careful monitoring of clozapine associated adverse reactions and appropriate adjustment of clozapine dosage during and shortly after co-administration with ciprofloxacin are advised. </paragraph>
+                  <paragraph>Sildenafil</paragraph>
+                  <paragraph>Following concomitant administration of a single oral dose of 50 mg sildenafil with 500 mg ciprofloxacin to healthy subjects, the mean Cmax and mean AUC of sildenafil were both increased approximately two-fold. Use sildenafil with caution when co-administered with ciprofloxacin due to the expected two-fold increase in the exposure of sildenafil upon coadministration of ciprofloxacin. </paragraph>
+                  <paragraph>Duloxetine</paragraph>
+                  <paragraph>In clinical studies it was demonstrated that concomitant use of duloxetine with strong inhibitors of the CYP450 1A2 isozyme such as fluvoxamine, may result in a 5-fold increase in mean AUC and a 2.5-fold increase in mean Cmax of duloxetine. </paragraph>
+                  <paragraph>Lidocaine</paragraph>
+                  <paragraph>In a study conducted in 9 healthy volunteers, concomitant use of 1.5 mg/kg IV lidocaine with ciprofloxacin 500 mg twice daily resulted in an increase of lidocaine Cmax and AUC by 12% and 26%, respectively. Although lidocaine treatment was well tolerated at this elevated exposure, a possible interaction with ciprofloxacin and an increase in adverse reactions related to lidocaine may occur upon concomitant administration. </paragraph>
+                  <paragraph>Metoclopramide</paragraph>
+                  <paragraph>Metoclopramide significantly accelerates the absorption of oral ciprofloxacin resulting in a shorter time to reach maximum plasma concentrations. No significant effect was observed on the bioavailability of ciprofloxacin. </paragraph>
+                  <paragraph>Omeprazole</paragraph>
+                  <paragraph>When ciprofloxacin was administered as a single 1000 mg dose concomitantly with omeprazole (40 mg once daily for three days) to 18 healthy volunteers, the mean AUC and Cmax of ciprofloxacin were reduced by 20% and 23%, respectively. The clinical significance of this interaction has not been determined.</paragraph>
+                  <paragraph>12.4 Microbiology </paragraph>
+                  <paragraph>Mechanism of Action</paragraph>
+                  <paragraph>The bactericidal action of ciprofloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV (both Type II topoisomerases), which are required for bacterial DNA replication, transcription, repair, and recombination. </paragraph>
+                  <paragraph>Mechanism of Resistance</paragraph>
+                  <paragraph>The mechanism of action of fluoroquinolones, including ciprofloxacin, is different from that of penicillins, cephalosporins, aminoglycosides, macrolides, and tetracyclines; therefore, microorganisms resistant to these classes of drugs may be susceptible to ciprofloxacin. Resistance to fluoroquinolones occurs primarily by either mutations in the DNA gyrases, decreased outer membrane permeability, or drug efflux. In vitro resistance to ciprofloxacin develops slowly by multiple step mutations. Resistance to ciprofloxacin due to spontaneous mutations occurs at a general frequency of between &lt; 10-9 to 1x10-6 . </paragraph>
+                  <paragraph>Cross Resistance</paragraph>
+                  <paragraph>There is no known cross-resistance between ciprofloxacin and other classes of antimicrobials. </paragraph>
+                  <paragraph>Ciprofloxacin has been shown to be active against most isolates of the following bacteria, both in vitro and in clinical infections [see INDICATIONS AND USAGE (1)]. </paragraph>
+                  <paragraph>Gram-positive bacteria 
+  <br/>
+Bacillus anthracis 
+  <br/>
+Enterococcus faecalis 
+  <br/>
+Staphylococcus aureus (methicillin-susceptible isolates only)
+  <br/>
+Staphylococcus epidermidis (methicillin-susceptible isolates only)
+  <br/>
+Staphylococcus saprophyticus 
+  <br/>
+Streptococcus pneumoniae 
+  <br/>
+Streptococcus pyogenes
+ </paragraph>
+                  <paragraph>Gram-negative bacteria 
+  <br/>
+Campylobacter jejuni 
+  <br/>
+Citrobacter koseri 
+  <br/>
+Citrobacter freundii 
+  <br/>
+Enterobacter cloacae 
+  <br/>
+Escherichia coli 
+  <br/>
+Haemophilus influenzae 
+  <br/>
+Haemophilus parainfluenzae 
+  <br/>
+Klebsiella pneumoniae 
+  <br/>
+Moraxella catarrhalis 
+  <br/>
+Morganella morganii 
+  <br/>
+Neisseria gonorrhoeae 
+  <br/>
+Proteus mirabilis 
+  <br/>
+Proteus vulgaris 
+  <br/>
+Providencia rettgeri 
+  <br/>
+Providencia stuartii 
+  <br/>
+Pseudomonas aeruginosa 
+  <br/>
+Salmonella typhi 
+  <br/>
+Serratia marcescens 
+  <br/>
+Shigella boydii 
+  <br/>
+Shigella dysenteriae 
+  <br/>
+Shigella flexneri 
+  <br/>
+Shigella sonnei 
+  <br/>
+Yersinia pestis
+ </paragraph>
+                  <paragraph>The following in vitro data are available, but their clinical significance is unknown. At least 90 percent of the following bacteria exhibit an in vitro minimum inhibitory concentration (MIC) less than or equal to the susceptible breakpoint for ciprofloxacin (≤ 1 mcg/mL). However, the efficacy of ciprofloxacin in treating clinical infections due to these bacteria has not been established in adequate and well-controlled clinical trials. </paragraph>
+                  <paragraph>Gram-positive bacteria 
+  <br/>
+Staphylococcus haemolyticus (methicillin-susceptible isolates only)
+  <br/>
+Staphylococcus hominis (methicillin-susceptible isolates only)
+ </paragraph>
+                  <paragraph>Gram-negative bacteria 
+  <br/>
+Acinetobacter lwoffi 
+  <br/>
+Aeromonas hydrophila 
+  <br/>
+Edwardsiella tarda 
+  <br/>
+Enterobacter aerogenes 
+  <br/>
+Klebsiella oxytoca 
+  <br/>
+Legionella pneumophila 
+  <br/>
+Pasteurella multocida 
+  <br/>
+Salmonella enteritidis 
+  <br/>
+Vibrio cholera 
+  <br/>
+Vibrio parahaemolyticus 
+  <br/>
+Vibrio vulnificus 
+  <br/>
+Yersinia enterocolitica
+ </paragraph>
+                  <paragraph>Susceptibility Test Methods</paragraph>
+                  <paragraph>When available, the clinical microbiology laboratory should provide the results of in vitro susceptibility test results for antimicrobial drug products used in resident hospitals to the physician as periodic reports that describe the susceptibility profile of nosocomial and community-acquired pathogens. These reports should aid the physician in selecting an antibacterial drug product for treatment. </paragraph>
+                  <paragraph>Dilution Techniques</paragraph>
+                  <paragraph>Quantitative methods are used to determine antimicrobial minimum inhibitory concentrations (MICs). These MICs provide estimates of the susceptibility of bacteria to antimicrobial compounds. The MICs should be determined using a standardized test method (broth and/or agar).5,6,7 The MIC values should be interpreted according to criteria provided in Table 11. </paragraph>
+                  <paragraph>Diffusion Techniques</paragraph>
+                  <paragraph>Quantitative methods that require measurement of zone diameters can also provide reproducible estimates of the susceptibility of bacteria to antimicrobial compounds. The zone size provides an estimate of the susceptibility of bacteria to antimicrobial compounds. The zone size should be determined using a standardized test method.6,7,8 This procedure uses paper disks impregnated with 5 mcg ciprofloxacin to test the susceptibility of bacteria to ciprofloxacin. The disc diffusion interpretive criteria are provided in Table 12. </paragraph>
+                  <paragraph>Table 12: Susceptibility Test Interpretive Criteria for Ciprofloxacin
+  <br/>
+S=Susceptible, I=Intermediate, and R=Resistant.
+ </paragraph>
+                  <paragraph>*
+  <br/>
+The current absence of data on resistant isolates precludes defining any results other than “Susceptible.” If isolates yield MIC results other than susceptible, they should be submitted to a reference laboratory for further testing.
+  <br/>
+†
+  <br/>
+MIC is determined by the agar dilution method
+ </paragraph>
+                  <paragraph>MIC (mcg/mL)</paragraph>
+                  <paragraph>Zone Diameter (mm)</paragraph>
+                  <paragraph>Bacteria</paragraph>
+                  <paragraph>S</paragraph>
+                  <paragraph>I</paragraph>
+                  <paragraph>R</paragraph>
+                  <paragraph>S</paragraph>
+                  <paragraph>I</paragraph>
+                  <paragraph>R</paragraph>
+                  <paragraph>Enterobacteriaceae </paragraph>
+                  <paragraph>≤ 1</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>≥ 4</paragraph>
+                  <paragraph>≥ 21</paragraph>
+                  <paragraph>16 - 20</paragraph>
+                  <paragraph>≤ 15</paragraph>
+                  <paragraph>Enterococcus faecalis </paragraph>
+                  <paragraph>≤ 1</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>≥ 4</paragraph>
+                  <paragraph>≥ 21</paragraph>
+                  <paragraph>16 - 20</paragraph>
+                  <paragraph>≤ 15</paragraph>
+                  <paragraph>Staphylococcus aureus</paragraph>
+                  <paragraph>≤ 1</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>≥ 4</paragraph>
+                  <paragraph>≥ 21</paragraph>
+                  <paragraph>16 -20</paragraph>
+                  <paragraph>≤ 15</paragraph>
+                  <paragraph>Staphylococcus epidermidis</paragraph>
+                  <paragraph>≤ 1</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>≥ 4</paragraph>
+                  <paragraph>≥ 21</paragraph>
+                  <paragraph>16 - 20</paragraph>
+                  <paragraph>≤ 15</paragraph>
+                  <paragraph>Staphylococcus saprophyticus</paragraph>
+                  <paragraph>≤ 1</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>≥ 4</paragraph>
+                  <paragraph>≥ 21</paragraph>
+                  <paragraph>16 - 20</paragraph>
+                  <paragraph>≤ 15</paragraph>
+                  <paragraph>Pseudomonas aeruginosa</paragraph>
+                  <paragraph>≤ 1</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>≥ 4</paragraph>
+                  <paragraph>≥ 21</paragraph>
+                  <paragraph>16 - 20</paragraph>
+                  <paragraph>≤ 15</paragraph>
+                  <paragraph>Haemophilus influenzae*</paragraph>
+                  <paragraph>≤ 1</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>≥ 21</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>Haemophilus parainfluenzae*</paragraph>
+                  <paragraph>≤ 1</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>≥ 21</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>Salmonella typhi</paragraph>
+                  <paragraph>≤ 0.06</paragraph>
+                  <paragraph>0.12 - 0.5</paragraph>
+                  <paragraph>≥ 1</paragraph>
+                  <paragraph>≥ 31</paragraph>
+                  <paragraph>21 - 30</paragraph>
+                  <paragraph>≤ 20</paragraph>
+                  <paragraph>Streptococcus pneumoniae</paragraph>
+                  <paragraph>≤ 1</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>≥ 4</paragraph>
+                  <paragraph>≥ 21</paragraph>
+                  <paragraph>16- 20</paragraph>
+                  <paragraph>≤ 15</paragraph>
+                  <paragraph>Streptococcus pyogenes</paragraph>
+                  <paragraph>≤ 1</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>≥ 4</paragraph>
+                  <paragraph>≥ 21</paragraph>
+                  <paragraph>16 - 20</paragraph>
+                  <paragraph>≤ 15</paragraph>
+                  <paragraph>Neisseria gonorrhoeae†</paragraph>
+                  <paragraph>≤ 0.06</paragraph>
+                  <paragraph>0.12 - 0.5</paragraph>
+                  <paragraph>≥ 1</paragraph>
+                  <paragraph>≥ 41</paragraph>
+                  <paragraph>28- 40</paragraph>
+                  <paragraph>≤ 27</paragraph>
+                  <paragraph>Bacillus anthracis*</paragraph>
+                  <paragraph>≤ 0.25</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>Yersinia pestis*</paragraph>
+                  <paragraph>≤ 0.25</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>A report of “Susceptible” indicates that the antimicrobial is likely to inhibit growth of the pathogen if the antimicrobial compound reaches the concentrations at the site of infection necessary to inhibit growth of the pathogen. A report of “Intermediate” indicates that the result should be considered equivocal, and, if the microorganism is not fully susceptible to alternative, clinically feasible drugs, the test should be repeated. This category implies possible clinical applicability in body sites where the drug is physiologically concentrated or in situations where high dosage of drug can be used. This category also provides a buffer zone that prevents small uncontrolled technical factors from causing major discrepancies in interpretation. A report of “Resistant” indicates that the antimicrobial is not likely to inhibit growth of the pathogen if the antimicrobial compound reaches the concentrations usually achievable at the infection site; other therapy should be selected. </paragraph>
+                  <paragraph>Quality Control</paragraph>
+                  <paragraph>Standardized susceptibility test procedures require the use of laboratory controls to monitor the accuracy and precision of supplies and reagents used in the assay, and the techniques of the individuals performing the test.5,6,7,8 Standard ciprofloxacin powder should provide the following range of MIC values noted in Table 13. For the diffusion technique using the ciprofloxacin 5 mcg disk the criteria in Table 11 should be achieved. </paragraph>
+                  <paragraph>Table 13: Acceptable Quality Control Ranges for Ciprofloxacin</paragraph>
+                  <paragraph>*
+  <br/>
+MIC is determined by the agar dilution method
+ </paragraph>
+                  <paragraph>Bacteria </paragraph>
+                  <paragraph>MIC range (mcg/mL)</paragraph>
+                  <paragraph>Zone Diameter (mm)</paragraph>
+                  <paragraph>Enterococcus faecalis ATCC 29212 </paragraph>
+                  <paragraph>0.25 - 2</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>Escherichia coli ATCC 25922 </paragraph>
+                  <paragraph>0.004 - 0.015</paragraph>
+                  <paragraph>30 - 40</paragraph>
+                  <paragraph>Haemophilus influenzae ATCC 49247</paragraph>
+                  <paragraph>0.004 - 0.03</paragraph>
+                  <paragraph>34 - 42</paragraph>
+                  <paragraph>Pseudomonas aeruginosa ATCC 27853 </paragraph>
+                  <paragraph>0.25- 1</paragraph>
+                  <paragraph>25- 33</paragraph>
+                  <paragraph>Staphylococcus aureus ATCC 29213 </paragraph>
+                  <paragraph>0.12 - 0.5</paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>Staphylococcus aureus ATCC 25923 </paragraph>
+                  <paragraph>-</paragraph>
+                  <paragraph>22 - 30</paragraph>
+                  <paragraph>Neisseria gonorrhoeae ATCC 49226*</paragraph>
+                  <paragraph>0.001 - 0.008</paragraph>
+                  <paragraph>48 - 58</paragraph>
+                  <paragraph>Campylobacter jejuni ATCC 33560</paragraph>
+                  <paragraph>0.06- 0.25 and 0.03 - 0.12</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4e1caa-a4af-9eef-e053-2991aa0a8135">
+               <id root="5f4e1caa-a4ae-9eef-e053-2991aa0a8135"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>Nonclinical Toxicology</title>
+               <text>
+                  <paragraph>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>Eight in vitro mutagenicity tests have been conducted with ciprofloxacin, and the test results are listed below: </paragraph>
+                  <paragraph>Salmonella/Microsome Test (Negative) 
+  <br/>
+E. coli DNA Repair Assay (Negative) 
+  <br/>
+Mouse Lymphoma Cell Forward Mutation Assay (Positive) 
+  <br/>
+Chinese Hamster V79 Cell HGPRT Test (Negative) 
+  <br/>
+Syrian Hamster Embryo Cell Transformation Assay (Negative) 
+  <br/>
+Saccharomyces cerevisiae Point Mutation Assay (Negative) 
+  <br/>
+Saccharomyces cerevisiae Mitotic Crossover and Gene Conversion Assay (Negative) 
+  <br/>
+Rat Hepatocyte DNA Repair Assay (Positive) 
+ </paragraph>
+                  <paragraph>Thus, 2 of the 8 tests were positive, but results of the following 3 in vivo test systems gave negative results: </paragraph>
+                  <paragraph>Rat Hepatocyte DNA Repair Assay 
+  <br/>
+Micronucleus Test (Mice) 
+  <br/>
+Dominant Lethal Test (Mice) 
+ </paragraph>
+                  <paragraph>Long-term carcinogenicity studies in rats and mice resulted in no carcinogenic or tumorigenic effects due to ciprofloxacin at daily oral dose levels up to 250 mg/kg and 750 mg/kg to rats and mice, respectively (approximately 1.7-and 2.5-times the highest recommended therapeutic dose based upon body surface area, respectively).</paragraph>
+                  <paragraph>Results from photo co-carcinogenicity testing indicate that ciprofloxacin does not reduce the time to appearance of UV-induced skin tumors as compared to vehicle control. Hairless (Skh-1) mice were exposed to UVA light for 3.5 hours five times every two weeks for up to 78 weeks while concurrently being administered ciprofloxacin tablets. The time to development of the first skin tumors was 50 weeks in mice treated concomitantly with UVA and ciprofloxacin tablets (mouse dose approximately equal to the maximum recommended human dose based upon body surface area), as opposed to 34 weeks when animals were treated with both UVA and vehicle. The times to development of skin tumors ranged from 16 weeks to 32 weeks in mice treated concomitantly with UVA and other quinolones.9</paragraph>
+                  <paragraph>In this model, mice treated with ciprofloxacin alone did not develop skin or systemic tumors. There are no data from similar models using pigmented mice and/or fully haired mice. The clinical significance of these findings to humans is unknown. </paragraph>
+                  <paragraph>Fertility studies performed in rats at oral doses of ciprofloxacin up to 100 mg/kg (approximately 0.7-times the highest recommended therapeutic dose based upon body surface area) revealed no evidence of impairment. </paragraph>
+                  <paragraph>13.2 Animal Toxicology and/or Pharmacology</paragraph>
+                  <paragraph>Ciprofloxacin and other quinolones have been shown to cause arthropathy in immature animals of most species tested [see WARNINGS AND PRECAUTIONS (5.11)]. Damage of weight bearing joints was observed in juvenile dogs and rats. In young beagles, 100 mg/kg ciprofloxacin, given daily for 4 weeks, caused degenerative articular changes of the knee joint. At 30 mg/kg, the effect on the joint was minimal. In a subsequent study in young beagle dogs, oral ciprofloxacin doses of 30 mg/kg and 90 mg/kg ciprofloxacin (approximately 1.3-times and 3.5-times the pediatric dose based upon comparative plasma AUCs) given daily for 2 weeks caused articular changes which were still observed by histopathology after a treatment-free period of 5 months. At 10 mg/kg (approximately 0.6-times the pediatric dose based upon comparative plasma AUCs), no effects on joints were observed. This dose was also not associated with arthrotoxicity after an additional treatment-free period of 5 months. In another study, removal of weight bearing from the joint reduced the lesions but did not totally prevent them. </paragraph>
+                  <paragraph>Crystalluria, sometimes associated with secondary nephropathy, occurs in laboratory animals dosed with ciprofloxacin. This is primarily related to the reduced solubility of ciprofloxacin under alkaline conditions, which predominate in the urine of test animals; in man, crystalluria is rare since human urine is typically acidic. In rhesus monkeys, crystalluria without nephropathy was noted after single oral doses as low as 5 mg/kg. (approximately 0.07-times the highest recommended therapeutic dose based upon body surface area). After 6 months of intravenous dosing at 10 mg/kg/day, no nephropathological changes were noted; however, nephropathy was observed after dosing at 20 mg/kg/day for the same duration (approximately 0.2-times the highest recommended therapeutic dose based upon body surface area). </paragraph>
+                  <paragraph>In dogs, ciprofloxacin at 3 mg/kg and 10 mg/kg by rapid intravenous injection (15 sec.) produces pronounced hypotensive effects. These effects are considered to be related to histamine release, since they are partially antagonized by pyrilamine, an antihistamine. In rhesus monkeys, rapid intravenous injection also produces hypotension but the effect in this species is inconsistent and less pronounced. </paragraph>
+                  <paragraph>In mice, concomitant administration of nonsteroidal anti-inflammatory drugs such as phenylbutazone and indomethacin with quinolones has been reported to enhance the CNS stimulatory effect of quinolones. </paragraph>
+                  <paragraph>Ocular toxicity seen with some related drugs has not been observed in ciprofloxacin-treated animals</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4e2d0b-b1d6-ec59-e053-2991aa0ad1d7">
+               <id root="5f4e2d0b-b1d5-ec59-e053-2991aa0ad1d7"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>Clinical Studies</title>
+               <text>
+                  <paragraph>14.1 Complicated Urinary Tract Infection and Pyelonephritis–Efficacy in Pediatric Patients</paragraph>
+                  <paragraph>Ciprofloxacin administered intravenously and/or orally was compared to a cephalosporin for treatment of cUTI and pyelonephritis in pediatric patients 1 to 17 years of age (mean age of 6 ± 4 years). The trial was conducted in the US, Canada, Argentina, Peru, Costa Rica, Mexico, South Africa, and Germany. The duration of therapy was 10 to 21 days (mean duration of treatment was 11 days with a range of 1 to 88 days). The primary objective of the study was to assess musculoskeletal and neurological safety.</paragraph>
+                  <paragraph>Patients were evaluated for clinical success and bacteriological eradication of the baseline organism(s) with no new infection or superinfection at 5 to 9 days post-therapy (Test of Cure or TOC). The Per Protocol population had a causative organism(s) with protocol specified colony count(s) at baseline, no protocol violation, and no premature discontinuation or loss to follow-up (among other criteria).</paragraph>
+                  <paragraph>The clinical success and bacteriologic eradication rates in the Per Protocol population were similar between ciprofloxacin and the comparator group as shown below.</paragraph>
+                  <paragraph>Table 14: Clinical Success and Bacteriologic Eradication at Test of Cure (5 to 9 Days Post-Therapy)</paragraph>
+                  <paragraph>*
+  <br/>
+Patients with baseline pathogen(s) eradicated and no new infections or superinfections/total number of patients. There were 5.5% (6/211) ciprofloxacin and 9.5% (22/231) comparator patients with superinfections or new infections.
+ </paragraph>
+                  <paragraph>Ciprofloxacin</paragraph>
+                  <paragraph>Comparator</paragraph>
+                  <paragraph>Randomized Patients </paragraph>
+                  <paragraph>337</paragraph>
+                  <paragraph>352</paragraph>
+                  <paragraph>Per Protocol Patients</paragraph>
+                  <paragraph>211</paragraph>
+                  <paragraph>231</paragraph>
+                  <paragraph>Clinical Response at 5 to 9 Days Post-Treatment</paragraph>
+                  <paragraph>95.7% (202/211)</paragraph>
+                  <paragraph>92.6% (214/231)</paragraph>
+                  <paragraph>95% CI [-1.3%, 7.3%]</paragraph>
+                  <paragraph>Bacteriologic Eradication by Patient at 5 to 9 Days Post-Treatment*</paragraph>
+                  <paragraph>84.4% (178/211)</paragraph>
+                  <paragraph>78.3% (181/231)</paragraph>
+                  <paragraph>95% CI [-1.3%, 13.1%]</paragraph>
+                  <paragraph>Bacteriologic Eradication of the Baseline Pathogen at 5 to 9 Days Post-Treatment</paragraph>
+                  <paragraph>Escherichia coli</paragraph>
+                  <paragraph>156/178 (88%)</paragraph>
+                  <paragraph>161/179 (90%)</paragraph>
+                  <paragraph>14.2 Inhalational Anthrax in Adults and Pediatrics</paragraph>
+                  <paragraph>The mean serum concentrations of ciprofloxacin associated with a statistically significant improvement in survival in the rhesus monkey model of inhalational anthrax are reached or exceeded in adult and pediatric patients receiving oral and intravenous regimens. Ciprofloxacin pharmacokinetics have been evaluated in various human populations. The mean peak serum concentration achieved at steady-state in human adults receiving 500 mg orally every 12 hours is 2.97 mcg/mL, and 4.56 mcg/mL following 400 mg intravenously every 12 hours. The mean trough serum concentration at steady-state for both of these regimens is 0.2 mcg/mL. In a study of 10 pediatric patients between 6 and 16 years of age, the mean peak plasma concentration achieved is 8.3 mcg/mL and trough concentrations range from 0.09 mcg/mL to 0.26 mcg/mL, following two 30-minute intravenous infusions of 10 mg/kg administered 12 hours apart. After the second intravenous infusion patients switched to 15 mg/kg orally every 12 hours achieve a mean peak concentration of 3.6 mcg/mL after the initial oral dose. Long-term safety data, including effects on cartilage, following the administration of ciprofloxacin to pediatric patients are limited. Ciprofloxacin serum concentrations achieved in humans serve as a surrogate endpoint reasonably likely to predict clinical benefit and provide the basis for this indication.1</paragraph>
+                  <paragraph>A placebo-controlled animal study in rhesus monkeys exposed to an inhaled mean dose of 11 LD50(~5.5 x 105 spores (range 5 -30 LD50) of B. anthracis was conducted. The minimal inhibitory concentration (MIC) of ciprofloxacin for the anthrax strain used in this study was 0.08 mcg/mL. In the animals studied, mean serum concentrations of ciprofloxacin achieved at expected Tmax (1 hour post-dose) following oral dosing to steady-state ranged from 0.98 mcg/mL to 1.69 mcg/mL. Mean steady-state trough concentrations at 12 hours post-dose ranged from 0.12 mcg/mL to 0.19 mcg/mL.10Mortality due to anthrax for animals that received a 30-day regimen of oral ciprofloxacin beginning 24 hours post-exposure was significantly lower (1/9), compared to the placebo group (9/10) [p= 0.001]. The one ciprofloxacin-treated animal that died of anthrax did so following the 30-day drug administration period.11</paragraph>
+                  <paragraph>More than 9300 persons were recommended to complete a minimum of 60 days of antibacterial prophylaxis against possible inhalational exposure to B. anthracis during 2001. Ciprofloxacin was recommended to most of those individuals for all or part of the prophylaxis regimen. Some persons were also given anthrax vaccine or were switched to alternative antibacterial drugs. No one who received ciprofloxacin or other therapies as prophylactic treatment subsequently developed inhalational anthrax. The number of persons who received ciprofloxacin as all or part of their post-exposure prophylaxis regimen is unknown.</paragraph>
+                  <paragraph>14.3 Plague</paragraph>
+                  <paragraph>A placebo-controlled animal study in African green monkeys exposed to an inhaled mean dose of 110 LD50 (range 92 to 127 LD50) of Yersinia pestis (CO92 strain) was conducted. The minimal inhibitory concentration (MIC) of ciprofloxacin for the Y. pestis strain used in this study was 0.015 mcg/mL. Mean peak serum concentrations of ciprofloxacin achieved at the end of a single 60 minute infusion were 3.49 ± mcg/mL 0.55 mcg/mL, 3.91 mcg/mL ± 0.58 mcg/mL and 4.03 mcg/mL ± 1.22 mcg/mL on Day 2, Day 6 and Day 10 of treatment in African green monkeys, respectively All trough concentrations (Day 2, Day 6 and Day 10) were &lt;0.5 mcg /mL. Animals were randomized to receive either a 10-day regimen of intravenous ciprofloxacin 15 mg/kg, or placebo beginning when animals were found to be febrile (a body temperature greater than 1.5°C over baseline for two hours), or at 76 hours post-challenge, whichever occurred sooner. Mortality in the ciprofloxacin group was significantly lower (1/10) compared to the placebo group (2/2) [difference: -90.0%, 95% exact confidence interval: -99.8% to -5.8%]. The one ciprofloxacin-treated animal that died did not receive the proposed dose of ciprofloxacin due to a failure of the administration catheter. Circulating ciprofloxacin concentration was below 0.5 mcg/mL at all timepoints tested in this animal. It became culture negative on Day 2 of treatment, but had a resurgence of low grade bacteremia on Day 6 after treatment initiation. Terminal blood culture in this animal was negative.12</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4f0e1e-3133-b875-e053-2991aa0a048d">
+               <id root="5f4f0e1e-3132-b875-e053-2991aa0a048d"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>How Supplied</title>
+               <text>
+                  <paragraph>iprofloxacin (ciprofloxacin hydrochloride) Tablets USP are available as round, biconvex white to slightly yellowish film coated tablets containing 250 mg of ciprofloxacin. The 250 mg tablet is embossed with the word “P” on one side and “250” on reverse side. </paragraph>
+                  <paragraph>Ciprofloxacin (ciprofloxacin hydrochloride) Tablets USP is also available as capsule shaped, white to slightly yellowish film coated tablets containing 500mg of ciprofloxacin. The 500 mg tablet is embossed with the word “P” on one side and “500” on reverse side.</paragraph>
+                  <paragraph>Ciprofloxacin (ciprofloxacin hydrochloride) Tablets USP is also available as capsule shaped, white to slightly yellowish film coated tablets containing 750 mg of ciprofloxacin. The 750 mg tablet is embossed with the word “P” on one side and “750” on reverse side.</paragraph>
+                  <paragraph>Strength </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4e2d0b-b1d8-ec59-e053-2991aa0ad1d7">
+               <id root="5f4e2d0b-b1d7-ec59-e053-2991aa0ad1d7"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <title>MEDICATION GUIDE</title>
+               <text>
+                  <paragraph>Medication Guide for 
+  <br/>
+Ciprofloxacin Tablets USP, 250 mg, 500 mg and 750 mg
+ </paragraph>
+                  <paragraph>Read this Medication Guide before you start taking ciprofloxacin and each time you get a refill. There may be new information. This information does not take the place of talking to your healthcare provider about your medical condition or your treatment. </paragraph>
+                  <paragraph>What is the most important information I should know about ciprofloxacin? </paragraph>
+                  <paragraph>Ciprofloxacin a fluoroquinolone antibacterial medicine, can cause serious side effects. Some of these serious side effects could result in death. </paragraph>
+                  <paragraph>If you get any of the following serious side effects while you take ciprofloxacin, get medical help right away. Talk with your healthcare provider about whether you should continue to take ciprofloxacin. </paragraph>
+                  <paragraph>Tendon rupture or swelling of the tendon (tendinitis). </paragraph>
+                  <paragraph>Tendon problems can happen in people of all ages who take ciprofloxacin. Tendons are tough cords of tissue that connect muscles to bones.
+  <br/>
+Symptoms of tendon problems may include: 
+ </paragraph>
+                  <paragraph>pain 
+  <br/>
+swelling 
+  <br/>
+tears and inflammation of tendons including the back of the ankle (Achilles), shoulder, hand, or other tendon sites. 
+ </paragraph>
+                  <paragraph>The risk of getting tendon problems while you take ciprofloxacin is higher if you: </paragraph>
+                  <paragraph>are over 60 years of age 
+  <br/>
+are taking steroids (corticosteroids) 
+  <br/>
+have had a kidney, heart or lung transplant 
+ </paragraph>
+                  <paragraph>Tendon problems can happen in people who do not have the above risk factors when they take ciprofloxacin. 
+  <br/>
+Other reasons that can increase your risk of tendon problems can include: 
+ </paragraph>
+                  <paragraph>physical activity or exercise 
+  <br/>
+kidney failure 
+  <br/>
+tendon problems in the past, such as in people with rheumatoid arthritis (RA) 
+ </paragraph>
+                  <paragraph>Call your healthcare provider right away at the first sign of tendon pain, swelling or inflammation. Stop taking ciprofloxacin until tendinitis or tendon rupture has been ruled out by your healthcare provider. Avoid exercise and using the affected area. 
+  <br/>
+The most common area of pain and swelling is the Achilles tendon at the back of your ankle. This can also happen with other tendons. Talk to your healthcare provider about the risk of tendon rupture with continued use of ciprofloxacin. You may need a different antibiotic that is not a fluoroquinolone to treat your infection. 
+  <br/>
+Tendon rupture can happen while you are taking or after you have finished taking ciprofloxacin. Tendon ruptures have happened up to several months after people have finished taking their fluoroquinolone. 
+  <br/>
+Get medical help right away if you get any of the following signs or symptoms of a tendon rupture: 
+ </paragraph>
+                  <paragraph>hear or feel a snap or pop in a tendon area 
+  <br/>
+bruising right after an injury in a tendon area 
+  <br/>
+unable to move the affected area or bear weight 
+ </paragraph>
+                  <paragraph>Worsening of myasthenia gravis (a problem that causes muscle weakness). </paragraph>
+                  <paragraph>Fluoroquinolones like ciprofloxacin may cause worsening of myasthenia gravis symptoms, including muscle weakness and breathing problems. Call your healthcare provider right away if you have any worsening muscle weakness or breathing problems. </paragraph>
+                  <paragraph>See “What are the possible side effects of ciprofloxacin?” </paragraph>
+                  <paragraph>What is ciprofloxacin? </paragraph>
+                  <paragraph>Ciprofloxacin is a fluoroquinolone antibacterial medicine used in adults age 18 years and older to treat certain infections caused by certain germs called bacteria. These bacterial infection include: </paragraph>
+                  <paragraph>urinary tract infection 
+  <br/>
+chronic prostate infection 
+  <br/>
+lower respiratory tract infection 
+  <br/>
+sinus infection 
+  <br/>
+skin infection 
+  <br/>
+bone and joint infection 
+  <br/>
+nosocomial pneumonia 
+  <br/>
+intra-abdominal infection, complicated 
+  <br/>
+infectious diarrhea 
+  <br/>
+typhoid (enteric) fever 
+  <br/>
+cervical and urethral gonorrhea, uncomplicated 
+  <br/>
+people with a low white blood cell count and a fever 
+  <br/>
+inhalational anthrax 
+  <br/>
+plague 
+ </paragraph>
+                  <paragraph>Studies of ciprofloxacin for use in the treatment of plague and anthrax were done in animals only, because plague and anthrax could not be studied in people. 
+  <br/>
+Ciprofloxacin is also used in children younger than 18 years of age to treat complicated urinary tract and kidney infectionsand who may have breathed in anthrax germs, have plague or have been exposed to plague germs. 
+  <br/>
+Children younger than 18 years of age have a higher chances of getting bone, joint, or tendon (musculoskeletal) problems such as pain or swelling while taking ciprofloxacin. Ciprofloxacin should not be used as the first choice of antibacterial medicine in children under 18 years of age. 
+ </paragraph>
+                  <paragraph>Who should not take ciprofloxacin? </paragraph>
+                  <paragraph>Do not take ciprofloxacin if you: </paragraph>
+                  <paragraph>Have ever had a severe allergic reaction to an antibacterial medicine known as a fluoroquinolone, or are allergic to ciprofloxacin hydrochloride or any of the ingredients in ciprofloxacin. See the end of this Medication Guide for a complete list of ingredients in ciprofloxacin. 
+  <br/>
+Also take a medicine called tizanidine (Zanaflex®).
+  <br/>
+Ask your healthcare provider if you are not sure. 
+ </paragraph>
+                  <paragraph>What should I tell my healthcare provider before taking ciprofloxacin? </paragraph>
+                  <paragraph>Before you take ciprofloxacin, tell your healthcare provider if you: </paragraph>
+                  <paragraph>have tendon problems 
+  <br/>
+have a disease that causes muscle weakness (myasthenia gravis)
+  <br/>
+have liver problems 
+  <br/>
+have central nervous system problems (such as epilepsy) 
+  <br/>
+have nerve problems 
+  <br/>
+have or anyone in your family has an irregular heartbeat, especially a condition called “QT prolongation” 
+  <br/>
+have or have had seizures 
+  <br/>
+have kidney problems. You may need a lower dose of ciprofloxacin tablets if your kidneys do not work well. 
+  <br/>
+have joint problems including rheumatoid arthritis (RA) 
+  <br/>
+have trouble swallowing pills 
+  <br/>
+have any other medical conditions 
+  <br/>
+are pregnant or plan to become pregnant. It is not known if ciprofloxacin will harm your unborn baby. 
+  <br/>
+are breastfeeding or plan to breastfeed. Ciprofloxacin passes into breast milk. You and your healthcare provider should decide whether you will take ciprofloxacin or breastfeed. You should not do both. 
+ </paragraph>
+                  <paragraph>Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. Ciprofloxacin and other medicines can affect each other causing side effects.</paragraph>
+                  <paragraph>Especially tell your healthcare provider if you take: </paragraph>
+                  <paragraph>a steroid medicine 
+  <br/>
+an anti-psychotic medicine 
+  <br/>
+a tricyclic antidepressant 
+  <br/>
+a water pill (diuretic) 
+  <br/>
+theophylline (such as Theo-24®, Elixophyllin®, Theochron®, Uniphyl®, Theolair®) 
+  <br/>
+a medicine to control your heart rate or rhythm (antiarrhythmics) 
+  <br/>
+an oral anti-diabetes medicine 
+  <br/>
+phenytoin (Fosphenytoin Sodium®, Cerebyx®, Dilantin-125®, Dilantin® , Extended Phenytoin Sodium®, Prompt Phenytoin Sodium®, Phenytek®) 
+  <br/>
+cyclosporine (Gengraf®, Neoral®, Sandimmune®, Sangcya®). 
+  <br/>
+a blood thinner (such as warfarin, Coumadin®, Jantoven®) 
+  <br/>
+methotrexate (Trexall®) 
+  <br/>
+ropinirole (Requip®) 
+  <br/>
+clozapine (Clozaril®, Fazaclo® ODT®) 
+  <br/>
+a Non-Steroidal Anti-Inflammatory Drug (NSAID). Many common medicines for pain relief are NSAIDs. Taking an NSAID while you take ciprofloxacin or other fluoroquinolones may increase your risk of central nervous system effects and seizures. 
+  <br/>
+sildenafil (Viagra®, Revatio®) 
+  <br/>
+duloxetine 
+  <br/>
+products that contain caffeine 
+  <br/>
+probenecid (Probalan®, Col-probenecid®) 
+  <br/>
+certain medicines may keep ciprofloxacin from working correctly. Take ciprofloxacin either 2 hours before or 6 hours after taking these medicines, vitamins, or supplements: 
+ </paragraph>
+                  <paragraph>an antacid, multivitamin, or other medicine or supplements that has magnesium, calcium, aluminum, iron, or zinc 
+  <br/>
+sucralfate (Carafate®) 
+  <br/>
+didanosine (Videx®, Videx EC®) 
+ </paragraph>
+                  <paragraph>Ask your healthcare provider for a list of these medicines if you are not sure. </paragraph>
+                  <paragraph>Know the medicines you take. Keep a list of them to show your healthcare provider and pharmacist when you get a new medicine. </paragraph>
+                  <paragraph>How should I take ciprofloxacin tablets? </paragraph>
+                  <paragraph>Take ciprofloxacin tablets exactly as your healthcare provider tells you to take it. 
+  <br/>
+Your healthcare provider will tell you how much ciprofloxacin to take and when to take it. 
+  <br/>
+Take ciprofloxacin tablets in the morning and evening at about the same time each day. Swallow the tablet whole. Do not split, crush or chew the tablet. Tell your healthcare provider if you cannot swallow the tablet whole.
+  <br/>
+Ciprofloxacin can be taken with or without food. 
+  <br/>
+Ciprofloxacin should not be taken with dairy products (like milk or yogurt) or calcium-fortified juices alone, but may be taken with a meal that contains these products. 
+  <br/>
+Drink plenty of fluids while taking ciprofloxacin. 
+  <br/>
+Do not skip any doses of ciprofloxacin, or stop taking it, even if you begin to feel better, until you finish your prescribed treatment unless: 
+ </paragraph>
+                  <paragraph>you have tendon problems. See “What is the most important information I should know about ciprofloxacin?” 
+  <br/>
+you have a serious allergic reaction. See “What are the possible side effects of ciprofloxacin?” 
+  <br/>
+your healthcare provider tells you to stop taking ciprofloxacin 
+ </paragraph>
+                  <paragraph>Taking all of your ciprofloxacin doses will help make sure that all of the bacteria are killed. Taking all of your ciprofloxacin doses will help lower the chance that the bacteria will become resistant to ciprofloxacin. If you become resistant to ciprofloxacin, ciprofloxacin and other antibacterial medicines may not work for you in the future. 
+  <br/>
+If you take too much ciprofloxacin, call your healthcare provider or get medical help right away. 
+ </paragraph>
+                  <paragraph>What should I avoid while taking ciprofloxacin? </paragraph>
+                  <paragraph>Ciprofloxacin can make you feel dizzy and lightheaded. Do not drive, operate machinery, or do other activities that require mental alertness or coordination until you know how ciprofloxacin affects you. 
+  <br/>
+Avoid sunlamps, tanning beds, and try to limit your time in the sun. Ciprofloxacin can make your skin sensitive to the sun (photosensitivity) and the light from sunlamps and tanning beds. You could get severe sunburn, blisters or swelling of your skin. If you get any of these symptoms while you take ciprofloxacin, call your healthcare provider right away. You should use a sunscreen and wear a hat and clothes that cover your skin if you have to be in sunlight. 
+ </paragraph>
+                  <paragraph>What are the possible side effects of ciprofloxacin? </paragraph>
+                  <paragraph>Ciprofloxacin may cause serious side effects, including: </paragraph>
+                  <paragraph>See, “What is the most important information I should know about ciprofloxacin ?” 
+  <br/>
+Serious allergic reactions. Serious allergic reactions, including death, can happen in people taking fluoroquinolones, including ciprofloxacin, even after only 1 dose. Stop taking ciprofloxacin and get emergency medical help right away if you get any of the following symptoms of a severe allergic reaction: 
+ </paragraph>
+                  <paragraph>hives 
+  <br/>
+trouble breathing or swallowing 
+  <br/>
+swelling of the lips, tongue, face 
+  <br/>
+throat tightness, hoarseness 
+  <br/>
+rapid heartbeat 
+  <br/>
+faint 
+  <br/>
+Skin rash 
+ </paragraph>
+                  <paragraph>Skin rash may happen in people taking ciprofloxacin even after only 1 dose. Stop taking ciprofloxacin at the first sign of a skin rash and call your healthcare provider. Skin rash may be a sign of a more serious reaction to ciprofloxacin. 
+  <br/>
+Liver damage (hepatotoxicity). Hepatotoxicity can happen in people who take ciprofloxacin. Call your healthcare provider right away if you have unexplained symptoms such as: 
+ </paragraph>
+                  <paragraph>nausea or vomiting
+  <br/>
+stomach pain
+  <br/>
+fever
+  <br/>
+weakness 
+  <br/>
+abdominal pain or tenderness 
+  <br/>
+itching 
+  <br/>
+unusual tiredness
+  <br/>
+loss of appetite
+  <br/>
+light colored bowel movements
+  <br/>
+dark colored urine 
+  <br/>
+yellowing of your skin or the whites of your eyes 
+ </paragraph>
+                  <paragraph>Stop taking ciprofloxacin and tell your healthcare provider right away if you have yellowing of your skin or white part of your eyes, or if you have dark urine. These can be signs of a serious reaction to ciprofloxacin (a liver problem). </paragraph>
+                  <paragraph>Central Nervous System (CNS) effects. Seizures have been reported in people who take fluoroquinolone antibacterial medicines, including ciprofloxacin. Tell your healthcare provider if you have a history of seizures. Ask your healthcare provider whether taking ciprofloxacin will change your risk of having a seizure. 
+  <br/>
+CNS side effects may happen as soon as after taking the first dose of ciprofloxacin. Talk to your healthcare provider right away if you get any of these side effects, or other changes in mood or behavior: 
+ </paragraph>
+                  <paragraph>seizures 
+  <br/>
+hear voices, see things, or sense things that are not there (hallucinations) 
+  <br/>
+feel restless 
+  <br/>
+tremors 
+  <br/>
+feel anxious or nervous 
+  <br/>
+confusion 
+  <br/>
+depression 
+  <br/>
+trouble sleeping 
+  <br/>
+nightmares
+  <br/>
+feel lightheaded or dizzy 
+  <br/>
+feel more suspicious (paranoia) 
+  <br/>
+suicidal thoughts or acts 
+  <br/>
+headaches that will not go away, with or without blurred vision 
+ </paragraph>
+                  <paragraph>Intestine infection (Pseudomembranous colitis). Pseudomembranous colitis can happen with many antibacterial medicine, including ciprofloxacin. Call your healthcare provider right away if you get watery diarrhea, diarrhea that does not go away, or bloody stools. You may have stomach cramps and a fever. 
+  <br/>
+Pseudomembranous colitis can happen 2 or more months after you have finished your antibacterial medicine. 
+  <br/>
+Changes in sensation and possible nerve damage (Peripheral Neuropathy) Damage to the nerves in arms, hands, legs, or feet can happen in people who take fluoroquinolones, including ciprofloxacin. Talk with your healthcare provider right away if you get any of the following symptoms of peripheral neuropathy in your arms, hands, legs, or feet: 
+ </paragraph>
+                  <paragraph>pain 
+  <br/>
+burning 
+  <br/>
+tingling 
+  <br/>
+numbness 
+  <br/>
+weakness 
+ </paragraph>
+                  <paragraph>Ciprofloxacin may need to be stopped to prevent permanent nerve damage. 
+  <br/>
+Serious heart rhythm changes (QT prolongation and torsade de pointes). Tell your healthcare provider right away if you have a change in your heart beat (a fast or irregular heartbeat), or if you faint. Ciprofloxacin may cause a rare heart problem known as prolongation of the QT interval. This condition can cause an abnormal heartbeat and can be very dangerous. The chances of this event are higher in people: 
+ </paragraph>
+                  <paragraph>who are elderly 
+  <br/>
+with a family history of prolonged QT interval 
+  <br/>
+with low blood potassium (hypokalemia) 
+  <br/>
+who take certain medicines to control heart rhythm (antiarrhythmics) 
+ </paragraph>
+                  <paragraph>Joint Problems. Increased chance of problems with joints and tissues around joints in children under 18 years old can happen. Tell your child’s healthcare provider if your child has any joint problems during or after treatment with ciprofloxacin. 
+  <br/>
+Sensitivity to sunlight (photosensitivity). See “What should I avoid while taking ciprofloxacin?” 
+  <br/>
+The most common side effects of ciprofloxacin include: 
+ </paragraph>
+                  <paragraph>nausea 
+  <br/>
+diarrhea 
+  <br/>
+changes in liver function tests 
+  <br/>
+vomiting 
+  <br/>
+rash 
+ </paragraph>
+                  <paragraph>Tell your healthcare provider about any side effect that bothers you, or that does not go away.</paragraph>
+                  <paragraph>These are not all the possible side effects of ciprofloxacin. For more information, ask your healthcare provider or pharmacist. </paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088 or Rising Pharmaceuticals,Inc.at 1-866-562-4597. </paragraph>
+                  <paragraph>How should I store ciprofloxacin tablets? </paragraph>
+                  <paragraph>Store ciprofloxacin tablets at 20° to 25°C (68° to 77°F). </paragraph>
+                  <paragraph>Keep ciprofloxacin tablets and all medicines out of the reach of children. </paragraph>
+                  <paragraph>General Information about the safe &amp; effective use of ciprofloxacin. </paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use ciprofloxacin for a condition for which it is not prescribed. Do not give ciprofloxacin to other people, even if they have the same symptoms that you have. It may harm them. </paragraph>
+                  <paragraph>This Medication Guide summarizes the most important information about ciprofloxacin. If you would like more information about ciprofloxacin, talk with your healthcare provider. You can ask your healthcare provider or pharmacist for information about ciprofloxacin that is written for healthcare professionals. </paragraph>
+                  <paragraph>For more information, call 1-866-562-4597</paragraph>
+                  <paragraph>What are the ingredients in ciprofloxacin tablets? </paragraph>
+                  <paragraph>Active ingredient: Ciprofloxacin Hydrochloride USP 
+  <br/>
+Inactive ingredients: pregelatinized starch, microcrystalline cellulose, colloidal silicon dioxide, crospovidone, magnesium stearate, hypromellose, titanium dioxide, polyethylene glycol, and purified water
+ </paragraph>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration. </paragraph>
+                  <paragraph>Manufactured by:
+  <br/>
+Unique Pharmaceutical Laboratories 
+  <br/>
+(A Div. of J. B. Chemicals &amp; Pharmaceuticals Ltd)
+  <br/>
+Mumbai 400 030, India
+ </paragraph>
+                  <paragraph>Manufactured for:
+  <br/>
+Rising Pharmaceuticals, Inc. 
+  <br/>
+Allendale, NJ 07401
+ </paragraph>
+                  <paragraph>Revised: April 2015 xxxxxx</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f4f19df-2400-63c3-e053-2a91aa0ad6fc">
+               <id root="5f4f19df-23ff-63c3-e053-2a91aa0ad6fc"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package Label.Principal Display Panel</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_5f4f0e1e-3134-b875-e053-2991aa0a048d"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+               <component>
+                  <observationMedia ID="img_5f4f0e1e-3134-b875-e053-2991aa0a048d">
+                     <text>CIPRO HCL 750mg.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="CIPRO HCL 750mg.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

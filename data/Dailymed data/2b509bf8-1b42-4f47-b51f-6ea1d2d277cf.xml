@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2b509bf8-1b42-4f47-b51f-6ea1d2d277cf"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Drug Facts</title>
+   <effectiveTime value="20151015"/>
+   <setId root="cbd9ff1d-ad79-4f44-9db8-4796016bb967"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="079670828" root="1.3.6.1.4.1.519.1"/>
+            <name>Alivio Medical Products, LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="0db0bc36-d950-4ac0-8dea-8ff933a612db"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20151016"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69512-190" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Naproxen</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Naproxen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="500" unit="mg"/>
+                              <denominator value="500" unit="mg"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="57Y76R9ATQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NAPROXEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="57Y76R9ATQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NAPROXEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="mg"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C92708" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="100" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="69512-190-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20151001"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075927" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>White</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">IP190;500</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="16" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="44919d6d-b915-4a88-997b-fcd3aca984ae"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Each capsule contains</content>:</paragraph>
+                  <paragraph>Naxproxen, ESP ..........500 mg<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d0f85121-d840-4430-a1da-bf40e48cba98"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dosage and Use</content>: For dosage recommendations</paragraph>
+                  <paragraph>and other important prescribing information, read accompanying insert.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c8342ab4-4868-4fd5-81c5-9a7e2173e57c"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Store at 20 to 25 C (68 to 77 F); excursions</paragraph>
+                  <paragraph>permitted to 15 to 30 C (59 to 86 F)[See</paragraph>
+                  <paragraph>USP Controlled Room Temperature]</paragraph>
+                  <paragraph>Dispense in well-closed, light-resistant containers</paragraph>
+                  <paragraph>as defined in the USP.    <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="42ee774a-409f-4ab9-a466-1cdfa2b51b00"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">BOXED WARNING</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular Risk</content>
+                  </paragraph>
+                  <paragraph>-NSAIDs may cause an increased risk of serious cardiovascular thrombotic events,</paragraph>
+                  <paragraph>myocardial infarction, and stroke, which can be fatal.</paragraph>
+                  <paragraph>-Naproxen as Naproxen Tablets, USP is contraindicated for the treatment of peri-operative</paragraph>
+                  <paragraph>pain in the setting of coronary artery bypass graft (CABG) surgery (see WARNINGS).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal Risk</content>
+                  </paragraph>
+                  <paragraph>-NSAIDs may cause an increased risk of serious gastrointestinal adverse events including</paragraph>
+                  <paragraph>bleeding, ulceration. and perforation of the stomach or intestines, which can be fatal.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="acc634f4-03a2-43f5-815d-0170255748de"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">DESCRIPTION</content>
+                  </paragraph>
+                  <paragraph>Naproxen, USP is a proprionic acid derivative related to the arylacetic acid group of nonsteroidal anti-inflammatory drugs.</paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3c0c428d-cf0d-4a24-abcb-aa930e59acd8"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+                  </paragraph>
+                  <paragraph>Pharmacodynamics - Naproxen is a nonsteroidal anti-inflammatory drug (NSAID) with analgesic and</paragraph>
+                  <paragraph>antipyretic properties. <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fa4945c4-ef00-4414-83ce-985a719d14bc"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CLINICAL STUDIES</content>
+                  </paragraph>
+                  <paragraph>General Information - Naproxen has been studied in patients with rheumatoid arthritis, osteoarthritis,</paragraph>
+                  <paragraph>juvenile arthritis, ankylosing spondylitis, tendonitis and bursitis, and acute gout.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5e9af8eb-de4d-4989-9503-6cecbc0fa6c4"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">INDICATIONS AND USAGE</content>
+                  </paragraph>
+                  <paragraph>Carefully consider the potential benefits and risks of naproxen tablets, USP and other treatments</paragraph>
+                  <paragraph>before deciding to sue naproxen tablets, USP.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a3191cc0-c7a3-46ea-9dec-aa33c5bf191f"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CONTRAINDICATIONS</content>
+                  </paragraph>
+                  <paragraph>Naproxen tablets, USP are contraindicated in patients with known hypersensitivity to naproxen, USP.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7e804db5-5f4b-402c-8149-9a447a465b49"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNINGS</content>
+                  </paragraph>
+                  <paragraph>Cardiovascular Effects - Cardiovascular Thrombotic Events Clinical trials of several COX-2 selective</paragraph>
+                  <paragraph>and non-selective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) <br/>
+                  </paragraph>
+                  <paragraph>thrombotic events, myocardial infarction, and stroke, which can be fatal. <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d1b3c03c-4552-48c4-8c1a-80aa9685126a"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRECAUTIONS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General - Naproxen - containing products such as naproxen tablets, and other naproxen products should</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">not be used concomitantly since they all circulate in the plasma as the naproxin anion</content>.</paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="dd28928b-8faf-4fd5-a669-2c7aa21fe877"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ADVERSE REACTIONS</content>
+                  </paragraph>
+                  <paragraph>Adverse reactions reported in controlled clinical trials in 960 patients treated for rheumatoid arthritis</paragraph>
+                  <paragraph>or osteoarthritis are listed below. <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="55b2a484-647d-4407-89ed-bed58e83c0c8"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">OVERDOSAGE</content>
+                  </paragraph>
+                  <paragraph>Symptoms and Signs   Significant naproxen overdosage may be characterized by lethargy, dizziness,</paragraph>
+                  <paragraph>drowsiness, epigastric pain, abdominal discomfort, heartburn, indigestion, nausea, transient alterations in liver function,</paragraph>
+                  <paragraph>hypoprothrombinemia, renal dysfunction, metabolic acidosis, apnea, disorientation or vomiting.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="76998891-cf0f-46cd-ba75-aaa0b8dd0556"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+                  </paragraph>
+                  <paragraph>Carefully consider the potential benefits and risks of naproxen tablets, USP and other treatment</paragraph>
+                  <paragraph>options before deciding to use naproxen tablets, USP.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d7f55b83-69f3-4c0e-85f7-f2550f8a494c"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">MEDICATION GUIDE FOR NONSTEROIDAL ANTI-INFLAMMATORY DRUGS (NSAIDS)</content>
+                  </paragraph>
+                  <paragraph>(See the end  of this Medication Guide for a list of prescription NSAID medicines.)<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7235a898-1dbb-4dc0-ac21-fe5175076a0d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20151015"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM1">
+                     <text>copy of label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Naproxen_label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="552a998c-bfa3-0288-e054-00144ff88e88"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>AlloPAX</title>
+   <effectiveTime value="20170725"/>
+   <setId root="18438de2-cd75-50fa-e054-00144ff8d46c"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079713987"/>
+            <name>PharmaGenetico LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="927726893"/>
+                        <name>Mission Pharmacal Company</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69817-0201" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="552ac676-c8f6-08d5-e054-00144ff88e88"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20170725"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69817-0201" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>AlloPAX</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Levocetirizine dihydrochloride 5%, Loratadine 5%</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="69817-0201-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20150630"/>
+                                    <high value="20161123"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="3" unit="g"/>
+                              <denominator value="3"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Loratadine</name>
+                              <formCode code="C42975" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SUSPENSION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Loratadine</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="g" value="3"/>
+                                    <denominator unit="g" value="3"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="7AJO3BO7QN" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LORATADINE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="7AJO3BO7QN" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>LORATADINE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="3" unit="g"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="3" unit="g"/>
+                              <denominator value="3"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Levocetirizine dihydrochloride</name>
+                              <formCode code="C42975" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SUSPENSION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Levocetirizine dihydrochloride</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="g" value="3"/>
+                                    <denominator unit="g" value="3"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="SOD6A38AGA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEVOCETIRIZINE DIHYDROCHLORIDE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="6U5EA9RT2O" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>LEVOCETIRIZINE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="3" unit="g"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="54" unit="g"/>
+                              <denominator value="54"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Cream Base</name>
+                              <formCode code="C28944" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CREAM"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Cream Base</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="0RE8K4LNJS" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ISOPROPYL MYRISTATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1DI56QDM62" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LECITHIN, SOYBEAN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2DMT128M1S" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CETOSTEARYL ALCOHOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="14C97E680P" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WHEAT GERM OIL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="936JST6JCN" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CETYL ALCOHOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2KR89I4H1Y" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>STEARYL ALCOHOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="YRC528SWUY" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POLYOXYL 20 CETOSTEARYL ETHER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCERIN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DIMETHICONE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="E4F12ROE70" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>C13-14 ISOPARAFFIN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="Z95S6G8201" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LAURETH-7</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>XANTHAN GUM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="6M3P64V0NC" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM ALUMINUM SILICATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EDETATE DISODIUM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1P9D0Z171K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BUTYLATED HYDROXYTOLUENE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="HIE492ZZ3T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENOXYETHANOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="229D0E1QFA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHYLISOTHIAZOLINONE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="DEL7T5QRPN" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHYLCHLOROISOTHIAZOLINONE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="E2KR9C9V2I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POLYACRYLAMIDE (10000 MW)</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="C9H2L21V7U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MEDIUM-CHAIN TRIGLYCERIDES</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="54" unit="g"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43195" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="JAR"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150630"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_18a5e004-909a-2bd2-e054-00144ff8d46c">
+               <id root="552a998c-bfa7-0288-e054-00144ff88e88"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Each Allo•PAX provides 3 grams of Levocetirizine dihydrochloride, 3 grams Loratadine USP, and 54 grams of Base. The resulting mixture is intended for transdermal use.</paragraph>
+               </text>
+               <effectiveTime value="20150630"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_18b792e8-730f-4b30-e054-00144ff8d46c">
+               <id root="552a998c-bfa6-0288-e054-00144ff88e88"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>For Prescription Use Only</paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>PharmaGenetico LLC</paragraph>
+                  <paragraph>San Antonio, TX 78257</paragraph>
+               </text>
+               <effectiveTime value="20150630"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_18a59c8a-6d89-2ad0-e054-00144ff88e88">
+               <id root="552a998c-bfa4-0288-e054-00144ff88e88"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_1ad6cde3-dc93-2862-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150630"/>
+               <component>
+                  <observationMedia ID="img_1ad6cde3-dc93-2862-e054-00144ff8d46c">
+                     <text>AlloPAX Insert</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="AlloPAXInsert.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_18b792e8-7315-4b30-e054-00144ff8d46c">
+               <id root="552a998c-bfa5-0288-e054-00144ff88e88"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_22787716-1a03-6001-e054-00144ff88e88"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20150630"/>
+               <component>
+                  <observationMedia ID="img_22787716-1a03-6001-e054-00144ff88e88">
+                     <text>AlloPAX Labels</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="AlloPAX Label 101915.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

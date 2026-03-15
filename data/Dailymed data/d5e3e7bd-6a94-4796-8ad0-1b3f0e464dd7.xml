@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="d5e3e7bd-6a94-4796-8ad0-1b3f0e464dd7"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20181213"/>
+   <setId root="5cb4c9b2-a01d-474b-aa70-cf8dd8c81cd9"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="006309355" root="1.3.6.1.4.1.519.1"/>
+            <name>Young Dental Manufacturing I, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="006309355"/>
+                  <name>Young Dental Manufacturing I, LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="002290302"/>
+                        <name>Medical Products Laboratories, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0273-8012" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3b61b585-e84c-4d8f-b8da-d5f07937af39"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20181213"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0273-8012" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NAFRINSE PACKETS VERY BERRY</name>
+                        <formCode code="C42972" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sodium Fluoride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="1" unit="g"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8ZYQ1474W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Fluoride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q80VPU408O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Fluoride Ion</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SACCHARIN SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1VPU26JZZ4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Potassium Sorbate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43199" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKET"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="50" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0273-8012-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" displayName="PACKAGE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170921"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73365" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BERRY" xsi:type="CE">
+                              <originalText>very berry</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170921"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DENTAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="56131f9a-8247-48ff-99f1-367a10412970"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactives  </title>
+               <text>
+                  <paragraph>Saccharin Sodium, Potassium Sorbate, Citric Acid, Flavoring</paragraph>
+                  <paragraph>Dye </paragraph>
+               </text>
+               <effectiveTime value="20181213"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="cdf2dab5-733d-4806-91a5-027049c815b0"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warning:</title>
+               <text>
+                  <paragraph styleCode="first">This Packet contains sodium fluoride powder, contents poisonous if swallowed. keep away from children. Store in a dry place at controlled room temperature. For professional use only.</paragraph>
+                  <paragraph>DO NOT SWALLOW</paragraph>
+                  <paragraph>MISSUSE If child swallows dispensed amount of mouth rinse in a cup:</paragraph>
+                  <paragraph>1. Do not panic -this amount should not hurt the child</paragraph>
+                  <paragraph>2. In rare cases the child may feel slightly nauseous.</paragraph>
+                  <paragraph>The child may have a serving of milk or ice cream to relieve the nausea. EMERGENCY TREATMENT If a child swallows more than one dispensed amount in a cup or powder contents of the fluoride mouth rinse packet call the Poison Control Center at 800-222-1222</paragraph>
+               </text>
+               <effectiveTime value="20181213"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d732157f-8452-444a-9b92-dec72b0f6dcd"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <paragraph>Mix contents with stated amount of tap water until dissolved (read directions on jug label) Makes an 0.2 % solution of sodium fluoride mouthrisne aftert dilution. Swish 10 ml (2 teaspoons) around vigorously in the mouth for one minute and then spit out. To be used once a week.</paragraph>
+               </text>
+               <effectiveTime value="20181213"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5de0faef-690c-45fe-8bc8-dcd63988def6">
+               <id root="905e65b1-13e7-48a0-9bdd-5bbec9a8c52e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L14cb9ff2-f111-4a0c-b3aa-346c949f57ce"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181213"/>
+               <component>
+                  <observationMedia ID="L14cb9ff2-f111-4a0c-b3aa-346c949f57ce">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="packet.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

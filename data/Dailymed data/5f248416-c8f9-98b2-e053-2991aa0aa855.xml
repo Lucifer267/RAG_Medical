@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5f248416-c8f9-98b2-e053-2991aa0aa855"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20171129"/>
+   <setId root="5f248416-c8f8-98b2-e053-2991aa0aa855"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+            <name>H. J. Harkins Company Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+                        <name>H. J. Harkins Company Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="76519-1162" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="76519-1162" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="76519-1162" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5f37991c-aeb0-3fa2-e053-2a91aa0ac33b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20171129"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="76519-1162" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ROSUVASTATIN CALCIUM</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ROSUVASTATIN CALCIUM</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="83MVU38M7Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ROSUVASTATIN CALCIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="413KH5ZJ73" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ROSUVASTATIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76519-1162-9" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20170103"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA079171" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170103"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value nullFlavor="OTH" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="7" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">RSV10</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="brown" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24a5c1-27c9-f604-e053-2a91aa0a557b">
+               <id root="5f24a5c1-27c8-f604-e053-2a91aa0a557b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications &amp; Usage</title>
+               <text>
+                  <paragraph>Pediatric use information for patients 7 to 17 years of age is approved for AstraZeneca’s CRESTOR (rosuvastatin calcium) tablets. However, due to AstraZeneca’s marketing exclusivity rights, this drug product is not labeled with that pediatric information.</paragraph>
+                  <paragraph>1.3 Hypertriglyceridemia</paragraph>
+                  <paragraph>Rosuvastatin calcium tablets are indicated as adjunctive therapy to diet for the treatment of adult patients with hypertriglyceridemia.</paragraph>
+                  <paragraph>1.4 Primary Dysbetalipoproteinemia (Type III Hyperlipoproteinemia)</paragraph>
+                  <paragraph>Rosuvastatin calcium tablets are indicated as an adjunct to diet for the treatment of adult patients with primary dysbetalipoproteinemia (Type III Hyperlipoproteinemia).</paragraph>
+                  <paragraph>1.5 Adult Patients with Homozygous Familial Hypercholesterolemia</paragraph>
+                  <paragraph>Rosuvastatin calcium tablets are indicated as adjunctive therapy to other lipid-lowering treatments (e.g., LDL apheresis) or alone if such treatments are unavailable to reduce LDL‑C, Total‑C, and ApoB in adult patients with homozygous familial hypercholesterolemia.</paragraph>
+                  <paragraph>1.8 Limitations of Use</paragraph>
+                  <paragraph>Rosuvastatin calcium tablets have not been studied in Fredrickson Type I and V dyslipidemias.</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24a5c1-27dc-f604-e053-2a91aa0a557b">
+               <id root="5f24a5c1-27db-f604-e053-2a91aa0a557b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage and Administration</title>
+               <text>
+                  <paragraph>2.1 General Dosing Information</paragraph>
+                  <paragraph>The dose range for rosuvastatin calcium tablets in adults is 5 to 40 mg orally once daily. The usual starting dose is 10 to 20 mg once daily. The usual starting dose in adult patients with homozygous familial hypercholesterolemia is 20 mg once daily.</paragraph>
+                  <paragraph>The maximum rosuvastatin calcium tablets dose of 40 mg should be used only for those patients who have not achieved their LDL-C goal utilizing the 20 mg dose [see WARNINGS AND PRECAUTIONS (5.1)].</paragraph>
+                  <paragraph>Rosuvastatin calcium tablets can be administered as a single dose at any time of day, with or without food. The tablet should be swallowed whole.</paragraph>
+                  <paragraph>When initiating rosuvastatin calcium tablets therapy or switching from another HMG‑CoA reductase inhibitor therapy, the appropriate rosuvastatin calcium tablets starting dose should first be utilized, and only then titrated according to the patient’s response and individualized goal of therapy. </paragraph>
+                  <paragraph>After initiation or upon titration of rosuvastatin calcium tablets, lipid levels should be analyzed within 2 to 4 weeks and the dosage adjusted accordingly.</paragraph>
+                  <paragraph>Pediatric use information for patients 7 to 17 years of age is approved for AstraZeneca’s CRESTOR (rosuvastatin calcium) tablets. However, due to AstraZeneca’s marketing exclusivity rights, this drug product is not labeled with that pediatric information.</paragraph>
+                  <paragraph>2.3 Dosing in Asian Patients</paragraph>
+                  <paragraph>In Asian patients, consider initiation of rosuvastatin calcium tablets therapy with 5 mg once daily due to increased rosuvastatin plasma concentrations. The increased systemic exposure should be taken into consideration when treating Asian patients not adequately controlled at doses up to 20 mg/day [see USE IN SPECIFIC POPULATIONS (8.8) and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>2.4 Use with Concomitant Therapy </paragraph>
+                  <paragraph>Patients taking cyclosporine</paragraph>
+                  <paragraph>The dose of rosuvastatin calcium tablets should not exceed 5 mg once daily [see WARNINGS AND PRECAUTIONS (5.1), DRUG INTERACTIONS (7.1), and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>Patients taking gemfibrozil</paragraph>
+                  <paragraph>Avoid concomitant use of rosuvastatin calcium tablets with gemfibrozil. If concomitant use cannot be avoided, initiate rosuvastatin calcium tablets at 5 mg once daily. The dose of rosuvastatin calcium tablets should not exceed 10 mg once daily [see WARNINGS AND PRECAUTIONS (5.1), DRUG INTERACTIONS (7.2), and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>Patients taking atazanavir and ritonavir, lopinavir and ritonavir, or simeprevir </paragraph>
+                  <paragraph>Initiate rosuvastatin calcium tablets therapy with 5 mg once daily. The dose of rosuvastatin calcium tablets should not exceed 10 mg once daily [see WARNINGS AND PRECAUTIONS (5.1), DRUG INTERACTIONS (7.3), and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>2.5 Dosing in Patients with Severe Renal Impairment</paragraph>
+                  <paragraph>For patients with severe renal impairment (CLcr &lt;30 mL/min/1.73 m2) not on hemodialysis, dosing of rosuvastatin calcium tablets should be started at 5 mg once daily and not exceed 10 mg once daily [see USE IN SPECIFIC POPULATIONS (8.6) and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24721e-a93b-276f-e053-2991aa0a19bb">
+               <id root="5f24721e-a93a-276f-e053-2991aa0a19bb"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>Dosage Forms &amp; Strengths</title>
+               <text>
+                  <paragraph>5 mg: Light brown, round, film-coated tablets with "RSV 5" debossed on one side. </paragraph>
+                  <paragraph>10 mg: Brown, round, film-coated tablets with "RSV 10" debossed on one side.</paragraph>
+                  <paragraph>20 mg: Brown, round, film-coated tablets with "RSV 20" debossed on one side.</paragraph>
+                  <paragraph>40 mg: Brown, round, film-coated tablets with "RSV 40" debossed on one side.</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f246f0f-5ce7-80c5-e053-2991aa0aa62d">
+               <id root="5f246f0f-5ce6-80c5-e053-2991aa0aa62d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>Contraindications</title>
+               <text>
+                  <paragraph>Rosuvastatin calcium tablets are contraindicated in the following conditions:</paragraph>
+                  <paragraph>•
+  <br/>
+Patients with a known hypersensitivity to any component of this product. Hypersensitivity reactions including rash, pruritus, urticaria, and angioedema have been reported with rosuvastatin calcium tablets [see ADVERSE REACTIONS (6.1)].
+  <br/>
+•
+  <br/>
+Patients with active liver disease, which may include unexplained persistent elevations of hepatic transaminase levels [see WARNINGS AND PRECAUTIONS (5.2)].
+  <br/>
+•
+  <br/>
+Pregnancy [see USE IN SPECIFIC POPULATIONS (8.1, 8.3)].
+  <br/>
+•
+  <br/>
+Lactation. Limited data indicate that rosuvastatin calcium is present in human milk. Because statins have the potential for serious adverse reactions in nursing infants, women who require rosuvastatin calcium treatment should not breastfeed their infants [see USE IN SPECIFIC POPULATIONS 
+ </paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f248cb7-ba05-00b5-e053-2a91aa0a1a12">
+               <id root="5f248cb7-ba04-00b5-e053-2a91aa0a1a12"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>Warnings &amp; Precautions</title>
+               <text>
+                  <paragraph>5.1 Skeletal Muscle Effects</paragraph>
+                  <paragraph>Cases of myopathy and rhabdomyolysis with acute renal failure secondary to myoglobinuria have been reported with HMG-CoA reductase inhibitors, including rosuvastatin. These risks can occur at any dose level, but are increased at the highest dose (40 mg). </paragraph>
+                  <paragraph>Rosuvastatin should be prescribed with caution in patients with predisposing factors for myopathy (e.g., age ≥ 65 years, inadequately treated hypothyroidism, renal impairment). </paragraph>
+                  <paragraph>The risk of myopathy during treatment with rosuvastatin may be increased with concurrent administration of some other lipid-lowering therapies (fibrates or niacin), gemfibrozil, cyclosporine, atazanavir/ritonavir, lopinavir/ritonavir, or simeprevir [see DOSAGE AND ADMINISTRATION (2) and DRUG INTERACTIONS (7)]. Cases of myopathy, including rhabdomyolysis, have been reported with HMG-CoA reductase inhibitors, including rosuvastatin, coadministered with colchicine, and caution should be exercised when prescribing rosuvastatin with colchicine [see DRUG INTERACTIONS (7.7)].</paragraph>
+                  <paragraph>Rosuvastatin therapy should be discontinued if markedly elevated creatine kinase levels occur or myopathy is diagnosed or suspected. Rosuvastatin therapy should also be temporarily withheld in any patient with an acute, serious condition suggestive of myopathy or predisposing to the development of renal failure secondary to rhabdomyolysis (e.g., sepsis, hypotension, dehydration, major surgery, trauma, severe metabolic, endocrine, and electrolyte disorders, or uncontrolled seizures).</paragraph>
+                  <paragraph>There have been rare reports of immune-mediated necrotizing myopathy (IMNM), an autoimmune myopathy, associated with statin use. IMNM is characterized by: proximal muscle weakness and elevated serum creatine kinase, which persist despite discontinuation of statin treatment; muscle biopsy showing necrotizing myopathy without significant inflammation; improvement with immunosuppressive agents. </paragraph>
+                  <paragraph>All patients should be advised to promptly report to their physician unexplained muscle pain, tenderness, or weakness, particularly if accompanied by malaise or fever or if muscle signs and symptoms persist after discontinuing rosuvastatin. </paragraph>
+                  <paragraph>5.2 Liver Enzyme Abnormalities</paragraph>
+                  <paragraph>It is recommended that liver enzyme tests be performed before the initiation of rosuvastatin, and if signs or symptoms of liver injury occur.</paragraph>
+                  <paragraph>Increases in serum transaminases [AST (SGOT) or ALT (SGPT)] have been reported with HMG‑CoA reductase inhibitors, including rosuvastatin. In most cases, the elevations were transient and resolved or improved on continued therapy or after a brief interruption in therapy. There were two cases of jaundice, for which a relationship to rosuvastatin therapy could not be determined, which resolved after discontinuation of therapy. There were no cases of liver failure or irreversible liver disease in these trials. </paragraph>
+                  <paragraph>In a pooled analysis of placebo-controlled trials, increases in serum transaminases to &gt;3 times the upper limit of normal occurred in 1.1% of patients taking rosuvastatin versus 0.5% of patients treated with placebo. </paragraph>
+                  <paragraph>There have been rare postmarketing reports of fatal and non-fatal hepatic failure in patients taking statins, including rosuvastatin. If serious liver injury with clinical symptoms and/or hyperbilirubinemia or jaundice occurs during treatment with rosuvastatin, promptly interrupt therapy. If an alternate etiology is not found, do not restart rosuvastatin. </paragraph>
+                  <paragraph>Rosuvastatin should be used with caution in patients who consume substantial quantities of alcohol and/or have a history of chronic liver disease [see CLINICAL PHARMACOLOGY (12.3)]. Active liver disease, which may include unexplained persistent transaminase elevations, is a contraindication to the use of rosuvastatin [see CONTRAINDICATIONS (4)].</paragraph>
+                  <paragraph>5.3 Concomitant Coumarin Anticoagulants</paragraph>
+                  <paragraph>Caution should be exercised when anticoagulants are given in conjunction with rosuvastatin because of its potentiation of the effect of coumarin-type anticoagulants in prolonging the prothrombin time/INR. In patients taking coumarin anticoagulants and rosuvastatin concomitantly, INR should be determined before starting rosuvastatin and frequently enough during early therapy to ensure that no significant alteration of INR occurs [see DRUG INTERACTIONS (7.4)].</paragraph>
+                  <paragraph>5.4 Proteinuria and Hematuria</paragraph>
+                  <paragraph>In the rosuvastatin clinical trial program, dipstick-positive proteinuria and microscopic hematuria were observed among rosuvastatin treated patients. These findings were more frequent in patients taking rosuvastatin 40 mg, when compared to lower doses of rosuvastatin or comparator HMG‑CoA reductase inhibitors, though it was generally transient and was not associated with worsening renal function. Although the clinical significance of this finding is unknown, a dose reduction should be considered for patients on rosuvastatin therapy with unexplained persistent proteinuria and/or hematuria during routine urinalysis testing.</paragraph>
+                  <paragraph>5.5 Endocrine Effects</paragraph>
+                  <paragraph>Increases in HbA1c and fasting serum glucose levels have been reported with HMG‑CoA reductase inhibitors, including rosuvastatin. Based on clinical trial data with rosuvastatin, in some instances these increases may exceed the threshold for the diagnosis of diabetes mellitus [see ADVERSE REACTIONS (6.1)].</paragraph>
+                  <paragraph>Although clinical studies have shown that rosuvastatin alone does not reduce basal plasma cortisol concentration or impair adrenal reserve, caution should be exercised if rosuvastatin is administered concomitantly with drugs that may decrease the levels or activity of endogenous steroid hormones such as ketoconazole, spironolactone, and cimetidine.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24c2c1-be4c-f0b8-e053-2991aa0a22e3">
+               <id root="5f24c2c1-be4b-f0b8-e053-2991aa0a22e3"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions</title>
+               <text>
+                  <paragraph>The following serious adverse reactions are discussed in greater detail in other sections of the label: </paragraph>
+                  <paragraph>•
+  <br/>
+Rhabdomyolysis with myoglobinuria and acute renal failure and myopathy (including myositis) [see WARNINGS AND PRECAUTIONS (5.1)].
+  <br/>
+•
+  <br/>
+Liver enzyme abnormalities [see WARNINGS AND PRECAUTIONS (5.2)].
+ </paragraph>
+                  <paragraph>6.1 Clinical Studies Experience</paragraph>
+                  <paragraph>Because clinical studies are conducted under widely varying conditions, adverse reaction rates observed in the clinical studies of a drug cannot be directly compared to rates in the clinical studies of another drug and may not reflect the rates observed in clinical practice. </paragraph>
+                  <paragraph>In the rosuvastatin controlled clinical trials database (placebo or active-controlled) of 5,394 patients with a mean treatment duration of 15 weeks, 1.4% of patients discontinued due to adverse reactions. The most common adverse reactions that led to treatment discontinuation were:</paragraph>
+                  <paragraph>•
+  <br/>
+myalgia
+  <br/>
+•
+  <br/>
+abdominal pain
+  <br/>
+•
+  <br/>
+nausea 
+ </paragraph>
+                  <paragraph>The most commonly reported adverse reactions (incidence ≥2%) in the rosuvastatin controlled clinical trial database of 5,394 patients were: </paragraph>
+                  <paragraph>•
+  <br/>
+headache 
+  <br/>
+•
+  <br/>
+myalgia 
+  <br/>
+•
+  <br/>
+abdominal pain 
+  <br/>
+•
+  <br/>
+asthenia
+  <br/>
+•
+  <br/>
+nausea
+ </paragraph>
+                  <paragraph>Adverse reactions reported in ≥2% of patients in placebo-controlled clinical studies and at a rate greater than placebo are shown in Table 1. These studies had a treatment duration of up to 12 weeks. </paragraph>
+                  <paragraph>Table 1. Adverse Reactions* Reported in ≥2% of Patients Treated with Rosuvastatin and &gt; Placebo in Placebo-Controlled Trials (% of Patients)</paragraph>
+                  <paragraph>*
+  <br/>
+Adverse reactions by COSTART preferred term.
+ </paragraph>
+                  <paragraph>Adverse Reactions</paragraph>
+                  <paragraph>      Rosuvastatin 5 mg  Rosuvastatin 10 mg  Rosuvastatin 20 mg   Rosuvastatin 40 mg     Total Rosuvastatin 5 mg to 40 mg.   Placebo</paragraph>
+                  <paragraph>      N=291.                                      N=283.             N=64                         N-106                               N=744                                     N=382 </paragraph>
+                  <paragraph/>
+                  <paragraph>Headache</paragraph>
+                  <paragraph>               5.5                                   4.9.                    3.1                               8.5                                    5.5                                        5</paragraph>
+                  <paragraph>Nausea</paragraph>
+                  <paragraph>               3.8                                   3.5                     6.3                                 0                                    3.4                                      3.1</paragraph>
+                  <paragraph>Myalgia</paragraph>
+                  <paragraph>              3.1                                    2.1                     6.3                              1.9                                    2.8                                      1.3</paragraph>
+                  <paragraph>Asthenia</paragraph>
+                  <paragraph>              2.4                                    3.2                    4.7                               0.9                                    2.7                                      2.6</paragraph>
+                  <paragraph>Constipation</paragraph>
+                  <paragraph>               2.1                                   2.1                     4.7                              2.8                                    2.4                                      2.4</paragraph>
+                  <paragraph>Other adverse reactions reported in clinical studies were abdominal pain, dizziness, hypersensitivity (including rash, pruritus, urticaria, and angioedema) and pancreatitis. The following laboratory abnormalities have also been reported: dipstick-positive proteinuria and microscopic hematuria [see WARNINGS AND PRECAUTIONS (5.4)]; elevated creatine phosphokinase, transaminases, glucose, glutamyl transpeptidase, alkaline phosphatase, and bilirubin; and thyroid function abnormalities. </paragraph>
+                  <paragraph>In a clinical trial, involving 981 participants treated with rosuvastatin 40 mg (n=700) or placebo (n=281) with a mean treatment duration of 1.7 years, 5.6% of subjects treated with rosuvastatin versus 2.8% of placebo-treated subjects discontinued due to adverse reactions. The most common adverse reactions that led to treatment discontinuation were: myalgia, hepatic enzyme increased, headache, and nausea.</paragraph>
+                  <paragraph>Adverse reactions reported in ≥ 2% of patients and at a rate greater than placebo are shown in Table 2.</paragraph>
+                  <paragraph>Table 2. Adverse Reactions* Reported in ≥2% of Patients Treated with Rosuvastatin and &gt; Placebo in a Trial (% of Patients)
+  <br/>
+Adverse Reactions Rosuvastatin 40 mg 
+  <br/>
+N=700 Placebo 
+  <br/>
+N=281
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Adverse reactions by MedDRA preferred term.
+  <br/>
+†
+  <br/>
+Frequency recorded as abnormal laboratory value.
+ </paragraph>
+                  <paragraph>Myalgia </paragraph>
+                  <paragraph>12.7</paragraph>
+                  <paragraph>12.1</paragraph>
+                  <paragraph>Arthralgia</paragraph>
+                  <paragraph>10.1</paragraph>
+                  <paragraph>7.1</paragraph>
+                  <paragraph>Headache</paragraph>
+                  <paragraph>6.4</paragraph>
+                  <paragraph>5.3</paragraph>
+                  <paragraph>Dizziness</paragraph>
+                  <paragraph>4</paragraph>
+                  <paragraph>2.8</paragraph>
+                  <paragraph>Increased CPK</paragraph>
+                  <paragraph>2.6</paragraph>
+                  <paragraph>0.7</paragraph>
+                  <paragraph>Abdominal pain</paragraph>
+                  <paragraph>2.4</paragraph>
+                  <paragraph>1.8</paragraph>
+                  <paragraph>ALT &gt;3x ULN†</paragraph>
+                  <paragraph>2.2</paragraph>
+                  <paragraph>0.7</paragraph>
+                  <paragraph>In a clinical trial, 17,802 participants were treated with rosuvastatin 20 mg (n=8901) or placebo (n=8901) for a mean duration of 2 years. A higher percentage of rosuvastatin-treated patients versus placebo-treated patients, 6.6% and 6.2%, respectively, discontinued study medication due to an adverse event, irrespective of treatment causality. Myalgia was the most common adverse reaction that led to treatment discontinuation. </paragraph>
+                  <paragraph>There was a significantly higher frequency of diabetes mellitus reported in patients taking rosuvastatin (2.8%) versus patients taking placebo (2.3%). Mean HbA1c was significantly increased by 0.1% in rosuvastatin-treated patients compared to placebo-treated patients. The number of patients with a HbA1c &gt; 6.5% at the end of the trial was significantly higher in rosuvastatin-treated versus placebo-treated patients [see WARNINGS AND PRECAUTIONS (5.5)].</paragraph>
+                  <paragraph>Adverse reactions reported in ≥ 2% of patients and at a rate greater than placebo are shown in Table 3.</paragraph>
+                  <paragraph>Table 3. Adverse Reactions* Reported in ≥ 2% of Patients Treated with Rosuvastatin and &gt; Placebo in a Trial (% of Patients)</paragraph>
+                  <paragraph>*
+  <br/>
+Treatment-emergent adverse reactions by MedDRA preferred term.
+ </paragraph>
+                  <paragraph>Adverse Reactions</paragraph>
+                  <paragraph>Rosuvastatin 20 mg</paragraph>
+                  <paragraph>N=8901</paragraph>
+                  <paragraph>Placebo</paragraph>
+                  <paragraph>N=8901</paragraph>
+                  <paragraph>Myalgia</paragraph>
+                  <paragraph>7.6</paragraph>
+                  <paragraph>6.6</paragraph>
+                  <paragraph>Arthralgia</paragraph>
+                  <paragraph>3.8</paragraph>
+                  <paragraph>3.2</paragraph>
+                  <paragraph>Constipation</paragraph>
+                  <paragraph>3.3</paragraph>
+                  <paragraph>3</paragraph>
+                  <paragraph>Diabetes mellitus</paragraph>
+                  <paragraph>2.8</paragraph>
+                  <paragraph>2.3</paragraph>
+                  <paragraph>Nausea</paragraph>
+                  <paragraph>2.4</paragraph>
+                  <paragraph>2.3</paragraph>
+                  <paragraph>6.2 Postmarketing Experience</paragraph>
+                  <paragraph>The following adverse reactions have been identified during postapproval use of rosuvastatin: arthralgia, fatal and non-fatal hepatic failure, hepatitis, jaundice, thrombocytopenia, depression, sleep disorders (including insomnia and nightmares), peripheral neuropathy and gynecomastia. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. </paragraph>
+                  <paragraph>There have been rare reports of immune-mediated necrotizing myopathy associated with statin use [see WARNINGS AND PRECAUTIONS (5.1)].</paragraph>
+                  <paragraph>There have been rare postmarketing reports of cognitive impairment (e.g., memory loss, forgetfulness, amnesia, memory impairment, confusion) associated with statin use. These cognitive issues have been reported for all statins. The reports are generally nonserious, and reversible upon statin discontinuation, with variable times to symptom onset (1 day to years) and symptom resolution (median of 3 weeks).</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24bda3-40e5-ed0c-e053-2991aa0afa65">
+               <id root="5f24bda3-40e4-ed0c-e053-2991aa0afa65"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>Drug Interactions</title>
+               <text>
+                  <paragraph>7.1 Cyclosporine</paragraph>
+                  <paragraph>Cyclosporine increased rosuvastatin exposure (AUC) 7‑fold. Therefore, in patients taking cyclosporine, the dose of rosuvastatin should not exceed 5 mg once daily [see DOSAGE AND ADMINISTRATION (2.4), WARNINGS AND PRECAUTIONS (5.1), and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>7.2 Gemfibrozil</paragraph>
+                  <paragraph>Gemfibrozil significantly increased rosuvastatin exposure. Due to an observed increased risk of myopathy/rhabdomyolysis, combination therapy with rosuvastatin and gemfibrozil should be avoided. If used together, the dose of rosuvastatin should not exceed 10 mg once daily [see CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>7.3 Protease Inhibitors</paragraph>
+                  <paragraph>Coadministration of rosuvastatin with certain protease inhibitors has differing effects on rosuvastatin exposure. Simeprevir, which is a hepatitis C virus (HCV) protease inhibitor, or combinations of atazanavir/ritonavir or lopinavir/ritonavir, which are HIV-1 protease inhibitors, increase rosuvastatin exposure (AUC) up to threefold [see Table 4 – CLINICAL PHARMACOLOGY (12.3)]. For these protease inhibitors, the dose of rosuvastatin should not exceed 10 mg once daily. The combinations of fosamprenavir/ritonavir or tipranavir/ritonavir, which are HIV-1 protease inhibitors, produce little or no change in rosuvastatin exposure. Caution should be exercised when rosuvastatin is coadministered with protease inhibitors [see DOSAGE AND ADMINISTRATION (2.4),WARNINGS AND PRECAUTIONS (5.1), and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>7.4 Coumarin Anticoagulants</paragraph>
+                  <paragraph>Rosuvastatin significantly increased INR in patients receiving coumarin anticoagulants. Therefore, caution should be exercised when coumarin anticoagulants are given in conjunction with rosuvastatin. In patients taking coumarin anticoagulants and rosuvastatin concomitantly, INR should be determined before starting rosuvastatin and frequently enough during early therapy to ensure that no significant alteration of INR occurs [see WARNINGS AND PRECAUTIONS (5.3) and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>7.5 Niacin</paragraph>
+                  <paragraph>The risk of skeletal muscle effects may be enhanced when rosuvastatin is used in combination with lipid-modifying doses (≥1 g/day) of niacin; caution should be used when prescribing with rosuvastatin [see WARNINGS AND PRECAUTIONS (5.1)].</paragraph>
+                  <paragraph>7.6 Fenofibrate</paragraph>
+                  <paragraph>When rosuvastatin was coadministered with fenofibrate, no clinically significant increase in the AUC of rosuvastatin or fenofibrate was observed. Because it is known that the risk of myopathy during treatment with HMG-CoA reductase inhibitors is increased with concomitant use of fenofibrates, caution should be used when prescribing fenofibrates with rosuvastatin [see WARNINGS AND PRECAUTIONS (5.1) and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>7.7 Colchicine</paragraph>
+                  <paragraph>Cases of myopathy, including rhabdomyolysis, have been reported with HMG‑CoA reductase inhibitors, including rosuvastatin, coadministered with colchicine, and caution should be exercised when prescribing rosuvastatin with colchicine [see WARNINGS AND PRECAUTIONS (5.1)].</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24de2d-6fe9-2273-e053-2991aa0a4eb4">
+               <id root="5f24de2d-6fe8-2273-e053-2991aa0a4eb4"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>Used In specific populations</title>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph>Risk Summary </paragraph>
+                  <paragraph>Rosuvastatin is contraindicated for use in pregnant women since safety in pregnant women has not been established and there is no apparent benefit to therapy with rosuvastatin during pregnancy. Because HMG-CoA reductase inhibitors decrease cholesterol synthesis and possibly the synthesis of other biologically active substances derived from cholesterol, rosuvastatin may cause fetal harm when administered to pregnant women. Rosuvastatin should be discontinued as soon as pregnancy is recognized [see CONTRAINDICATIONS (4)]. Limited published data on the use of rosuvastatin are insufficient to determine a drug-associated risk of major congenital malformations or miscarriage. In animal reproduction studies, there were no adverse developmental effects with oral administration of rosuvastatin during organogenesis at systemic exposures equivalent to a maximum recommended human dose (MRHD) of 40 mg/day in rats or rabbits (based on AUC and body surface area, respectively). In rats and rabbits, decreased pup/fetal survival occurred at 12 times and equivalent, respectively, to the MRHD of 40 mg/day [see Data].</paragraph>
+                  <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively.</paragraph>
+                  <paragraph>Data </paragraph>
+                  <paragraph>Human Data </paragraph>
+                  <paragraph>Limited published data on rosuvastatin have not shown an increased risk of major congenital malformations or miscarriage. Rare reports of congenital anomalies have been received following intrauterine exposure to other statins. In a review of approximately 100 prospectively followed pregnancies in women exposed to simvastatin or lovastatin, the incidences of congenital anomalies, spontaneous abortions, and fetal deaths/stillbirths did not exceed what would be expected in the general population. The number of cases is adequate to exclude a ≥3 to 4-fold increase in congenital anomalies over the background incidence. In 89% of the prospectively followed pregnancies, drug treatment was initiated prior to pregnancy and was discontinued at some point in the first trimester when pregnancy was identified. </paragraph>
+                  <paragraph>Animal Data </paragraph>
+                  <paragraph>Rosuvastatin crosses the placenta in rats and rabbits and is found in fetal tissue and amniotic fluid at 3% and 20%, respectively, of the maternal plasma concentration following a single 25 mg/kg oral gavage dose on gestation day 16 in rats. A higher fetal tissue distribution (25% maternal plasma concentration) was observed in rabbits after a single oral gavage dose of 1 mg/kg on gestation day 18.</paragraph>
+                  <paragraph>Rosuvastatin administration did not indicate a teratogenic effect in rats at ≤25 mg/kg/day or in rabbits ≤3 mg/kg/day (doses equivalent to the MRHD of 40 mg/day based on AUC and body surface area, respectively). </paragraph>
+                  <paragraph>In female rats given 5, 15 and 50 mg/kg/day before mating and continuing through to gestation day 7 resulted in decreased fetal body weight (female pups) and delayed ossification at 50 mg/kg/day (10 times the human exposure at the MRHD dose of 40 mg/day based on AUC). </paragraph>
+                  <paragraph>In pregnant rats given 2, 10 and 50 mg/kg/day of rosuvastatin from gestation day 7 through lactation day 21 (weaning), decreased pup survival occurred at 50 mg/kg/day (dose equivalent to 12 times the MRHD of 40 mg/day based body surface area).</paragraph>
+                  <paragraph>In pregnant rabbits given 0.3, 1, and 3 mg/kg/day of rosuvastatin from gestation day 6 to day 18, decreased fetal viability and maternal mortality was observed at 3 mg/kg/day (dose equivalent to the MRHD of 40 mg/day based on body surface area).</paragraph>
+                  <paragraph>8.2 Lactation </paragraph>
+                  <paragraph>Risk Summary </paragraph>
+                  <paragraph>Rosuvastatin use is contraindicated during breastfeeding [see CONTRAINDICATIONS (4)]. Limited data indicate that rosuvastatin is present in human milk. There is no available information on the effects of the drug on the breastfed infant or the effects of the drug on milk production. Because of the potential for serious adverse reactions in a breastfed infant, advise patients that breastfeeding is not recommended during treatment with rosuvastatin. </paragraph>
+                  <paragraph>8.3 Females and Males of Reproductive Potential </paragraph>
+                  <paragraph>Contraception </paragraph>
+                  <paragraph>Rosuvastatin may cause fetal harm when administered to a pregnant woman [see USE IN SPECIFIC POPULATIONS (8.1)]. Advise females of reproductive potential to use effective contraception during treatment with rosuvastatin.</paragraph>
+                  <paragraph>8.4 Pediatric Use </paragraph>
+                  <paragraph>Pediatric use information for patients 7 to 17 years of age is approved for AstraZeneca’s CRESTOR (rosuvastatin calcium) tablets. However, due to AstraZeneca’s marketing exclusivity rights, this drug product is not labeled with that pediatric information. </paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>Of the 10,275 patients in clinical studies with rosuvastatin, 3,159 (31%) were 65 years and older, and 698 (6.8%) were 75 years and older. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out. </paragraph>
+                  <paragraph>Elderly patients are at higher risk of myopathy and rosuvastatin should be prescribed with caution in the elderly [see WARNINGS AND PRECAUTIONS (5.1) and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>8.6 Renal Impairment</paragraph>
+                  <paragraph>Rosuvastatin exposure is not influenced by mild to moderate renal impairment (CLcr ≥30 mL/min/1.73 m2). Exposure to rosuvastatin is increased to a clinically significant extent in patients with severe renal impairment (CLcr &lt;30 mL/min/1.73 m2) who are not receiving hemodialysis and dose adjustment is required [see DOSAGE AND ADMINISTRATION (2.5), WARNINGS AND PRECAUTIONS (5.1) and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>8.7 Hepatic Impairment</paragraph>
+                  <paragraph>Rosuvastatin is contraindicated in patients with active liver disease, which may include unexplained persistent elevations of hepatic transaminase levels. Chronic alcohol liver disease is known to increase rosuvastatin exposure; rosuvastatin should be used with caution in these patients [see CONTRAINDICATIONS (4), WARNINGS AND PRECAUTIONS (5.2), and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>8.8 Asian Patients</paragraph>
+                  <paragraph>Pharmacokinetic studies have demonstrated an approximate 2‑fold increase in median exposure to rosuvastatin in Asian subjects when compared with Caucasian controls. Rosuvastatin dosage should be adjusted in Asian patients [see DOSAGE AND ADMINISTRATION (2.3) and CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24c48e-15af-fe59-e053-2991aa0abf42">
+               <id root="5f24c48e-15ae-fe59-e053-2991aa0abf42"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>Overdosage</title>
+               <text>
+                  <paragraph>There is no specific treatment in the event of overdose. In the event of overdose, the patient should be treated symptomatically and supportive measures instituted as required. Hemodialysis does not significantly enhance clearance of rosuvastatin.</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24a5c1-27e1-f604-e053-2a91aa0a557b">
+               <id root="5f24a5c1-27e0-f604-e053-2a91aa0a557b"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>Description</title>
+               <text>
+                  <paragraph>Rosuvastatin calcium is a synthetic lipid-lowering agent for oral administration. </paragraph>
+                  <paragraph>The chemical name for rosuvastatin calcium is bis[(E)-7-[4-(4-fluorophenyl)-6-isopropyl-2-[methyl(methylsulfonyl)amino] pyrimidin-5-yl](3R,5S)-3,5-dihydroxyhept-6-enoic acid] calcium salt with the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_5f24a5c1-27df-f604-e053-2a91aa0a557b"/>
+                  </paragraph>
+                  <paragraph>The molecular formula for rosuvastatin calcium is (C22H27FN3O6S)2Ca and the molecular weight is 1001.14. Rosuvastatin calcium is a white amorphous powder that is sparingly soluble in water and methanol, and slightly soluble in ethanol. Rosuvastatin calcium is a hydrophilic compound with a partition coefficient (octanol/water) of  0.13 at pH of 7.0</paragraph>
+                  <paragraph>Rosuvastatin calcium tablets for oral administration contain rosuvastatin calcium equivalent to 5 mg, 10 mg, 20 mg and 40 mg of rosuvastatin and the following inactive ingredients: anhydrous lactose, colloidal silicon dioxide, corn starch, ferric oxide red, ferric oxide yellow, hypromellose, mannitol, polyethylene glycol 6000, silicified microcrystalline cellulose, sodium stearyl fumarate, talc, and titanium dioxide.</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+               <component>
+                  <observationMedia ID="img_5f24a5c1-27df-f604-e053-2a91aa0a557b">
+                     <text>Rosuvastatin cal.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Rosuvastatin cal.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24bda3-40f2-ed0c-e053-2991aa0afa65">
+               <id root="5f24bda3-40f1-ed0c-e053-2991aa0afa65"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>Clinical Pharmacology</title>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>Rosuvastatin is a selective and competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol. In vivostudies in animals, and in vitro studies in cultured animal and human cells have shown rosuvastatin to have a high uptake into, and selectivity for, action in the liver, the target organ for cholesterol lowering. In in vivo and in vitro studies, rosuvastatin produces its lipid-modifying effects in two ways. First, it increases the number of hepatic LDL receptors on the cell-surface to enhance uptake and catabolism of LDL. Second, rosuvastatin inhibits hepatic synthesis of VLDL, which reduces the total number of VLDL and LDL particles.</paragraph>
+                  <paragraph>12.3 Pharmacokinetics</paragraph>
+                  <paragraph>Absorption</paragraph>
+                  <paragraph>In clinical pharmacology studies in man, peak plasma concentrations of rosuvastatin were reached 3 to 5 hours following oral dosing. Both Cmax and AUC increased in approximate proportion to rosuvastatin dose. The absolute bioavailability of rosuvastatin is approximately 20%. </paragraph>
+                  <paragraph>Administration of rosuvastatin with food did not affect the AUC of rosuvastatin.</paragraph>
+                  <paragraph>The AUC of rosuvastatin does not differ following evening or morning drug administration.</paragraph>
+                  <paragraph>Distribution</paragraph>
+                  <paragraph>Mean volume of distribution at steady-state of rosuvastatin is approximately 134 liters. Rosuvastatin is 88% bound to plasma proteins, mostly albumin. This binding is reversible and independent of plasma concentrations.</paragraph>
+                  <paragraph>Metabolism</paragraph>
+                  <paragraph>Rosuvastatin is not extensively metabolized; approximately 10% of a radiolabeled dose is recovered as metabolite. The major metabolite is N-desmethyl rosuvastatin, which is formed principally by cytochrome P450 \ 2C9, and in vitro studies have demonstrated that N-desmethyl rosuvastatin has approximately one-sixth to one-half the HMG‑CoA reductase inhibitory activity of the parent compound. Overall, greater than 90% of active plasma HMG‑CoA reductase inhibitory activity is accounted for by the parent compound.</paragraph>
+                  <paragraph>Excretion</paragraph>
+                  <paragraph>Following oral administration, rosuvastatin and its metabolites are primarily excreted in the feces (90%). The elimination half-life (t1/2) of rosuvastatin is approximately 19 hours. 
+  <br/>
+After an intravenous dose, approximately 28% of total body clearance was via the renal route, and 72% by the hepatic route.
+ </paragraph>
+                  <paragraph>Specific Populations</paragraph>
+                  <paragraph>Race</paragraph>
+                  <paragraph>A population pharmacokinetic analysis revealed no clinically relevant differences in pharmacokinetics among Caucasian, Hispanic, and Black or Afro-Caribbean groups. However, pharmacokinetic studies, including one conducted in the US, have demonstrated an approximate 2‑fold elevation in median exposure (AUC and Cmax) in Asian subjects when compared with a Caucasian control group.</paragraph>
+                  <paragraph>Gender</paragraph>
+                  <paragraph>There were no differences in plasma concentrations of rosuvastatin between men and women.</paragraph>
+                  <paragraph>Pediatric use information for patients ages 8 to less than 10 years is approved for AstraZeneca’s CRESTOR (rosuvastatin calcium) tablets. However, due to AstraZeneca’s marketing exclusivity rights, this drug product is not labeled with that pediatric information.</paragraph>
+                  <paragraph>Geriatric</paragraph>
+                  <paragraph>There were no differences in plasma concentrations of rosuvastatin between the nonelderly and elderly populations (age ≥65 years).</paragraph>
+                  <paragraph>Renal Impairment</paragraph>
+                  <paragraph>Mild to moderate renal impairment (CLcr ≥ 30 mL/min/1.73 m2) had no influence on plasma concentrations of rosuvastatin. However, plasma concentrations of rosuvastatin increased to a clinically significant extent (about 3‑fold) in patients with severe renal impairment (CLcr &lt; 30 mL/min/1.73 m2) not receiving hemodialysis compared with healthy subjects (CLcr &gt; 80 mL/min/1.73 m2).</paragraph>
+                  <paragraph>Hemodialysis</paragraph>
+                  <paragraph>Steady-state plasma concentrations of rosuvastatin in patients on chronic hemodialysis were approximately 50% greater compared with healthy volunteer subjects with normal renal function.</paragraph>
+                  <paragraph>Hepatic Impairment</paragraph>
+                  <paragraph>In patients with chronic alcohol liver disease, plasma concentrations of rosuvastatin were modestly increased.
+  <br/>
+In patients with Child‑Pugh A disease, Cmax and AUC were increased by 60% and 5%, respectively, as compared with patients with normal liver function. In patients with Child‑Pugh B disease, Cmax and AUC were increased 100% and 21%, respectively, compared with patients with normal liver function.
+ </paragraph>
+                  <paragraph>Drug-Drug Interactions </paragraph>
+                  <paragraph>Rosuvastatin clearance is not dependent on metabolism by cytochrome P450 3A4 to a clinically significant extent.</paragraph>
+                  <paragraph>Rosuvastatin is a substrate for certain transporter proteins including the hepatic uptake transporter organic anion-transporting polyprotein 1B1 (OATP1B1) and efflux transporter breast cancer resistance protein (BCRP). Concomitant administration of rosuvastatin with medications that are inhibitors of these transporter proteins (e.g. cyclosporine, certain HIV protease inhibitors) may result in increased rosuvastatin plasma concentrations and an increased risk of myopathy [see DOSAGE AND ADMINISTRATION (2.4)]. It is recommended that prescribers consult the relevant product information when considering administration of such products together with rosuvastatin.</paragraph>
+                  <paragraph>Table 4. Effect of Coadministered Drugs on Rosuvastatin Systemic Exposure</paragraph>
+                  <paragraph>*
+  <br/>
+Single dose unless otherwise noted.
+  <br/>
+†
+  <br/>
+Clinically significant [see DOSAGE AND ADMINISTRATION (2) and WARNINGS AND PRECAUTIONS (5)]
+  <br/>
+‡
+  <br/>
+Mean ratio with 90% CI (with/without coadministered drug, e.g., 1 = no change, 0.7 = 30% decrease, 11 = 11 fold increase in exposure)
+ </paragraph>
+                  <paragraph>Coadministered drug and dosing regimen</paragraph>
+                  <paragraph>Rosuvastatin</paragraph>
+                  <paragraph>Mean Ratio (ratio with/without coadministered drug) No Effect=1</paragraph>
+                  <paragraph>Dose (mg)*</paragraph>
+                  <paragraph>Change in AUC</paragraph>
+                  <paragraph>Change in Cmax</paragraph>
+                  <paragraph>Cyclosporine – stable dose required (75 mg to 200 mg BID)</paragraph>
+                  <paragraph>10 mg QD for 10 days</paragraph>
+                  <paragraph>7.1†</paragraph>
+                  <paragraph>
+                     <br/>
+11 †
+ </paragraph>
+                  <paragraph>Atazanavir/ritonavir combination 300 mg/100 mg QD for 8 days</paragraph>
+                  <paragraph>10 mg</paragraph>
+                  <paragraph>3.1†</paragraph>
+                  <paragraph>
+                     <br/>
+7 †
+ </paragraph>
+                  <paragraph>Simeprevir 150 mg QD, 7 days</paragraph>
+                  <paragraph>10 mg, single dose</paragraph>
+                  <paragraph>2.8† 
+  <br/>
+(2.3-3.4)‡
+ </paragraph>
+                  <paragraph>
+                     <br/>
+3.2 †
+  <br/>
+                     <br/>
+(2.6-3.9) ‡
+ </paragraph>
+                  <paragraph>Lopinavir/ritonavir combination 400 mg/100 mg BID for 17 days</paragraph>
+                  <paragraph>20 mg QD for 7 days</paragraph>
+                  <paragraph>2.1†</paragraph>
+                  <paragraph>(1.7-2.6)‡</paragraph>
+                  <paragraph>
+                     <br/>
+5 †
+  <br/>
+                     <br/>
+(3.4-6.4) ‡
+ </paragraph>
+                  <paragraph>Gemfibrozil 600 mg BID for 7 days</paragraph>
+                  <paragraph>80 mg</paragraph>
+                  <paragraph>1.9† 
+  <br/>
+(1.6-2.2)‡
+ </paragraph>
+                  <paragraph>
+                     <br/>
+2.2 †
+  <br/>
+                     <br/>
+(1.8-2.7) ‡
+ </paragraph>
+                  <paragraph>Eltrombopag 75 mg QD, 5 days</paragraph>
+                  <paragraph>10 mg</paragraph>
+                  <paragraph>1.6</paragraph>
+                  <paragraph>(1.4-1.7)‡</paragraph>
+                  <paragraph>
+                     <br/>
+2
+  <br/>
+                     <br/>
+(1.8-2.3) ‡
+ </paragraph>
+                  <paragraph>Darunavir 600 mg/ritonavir 100 mg BID, 7 days</paragraph>
+                  <paragraph>10 mg QD for 7 days</paragraph>
+                  <paragraph>1.5</paragraph>
+                  <paragraph>(1-2.1)‡</paragraph>
+                  <paragraph>
+                     <br/>
+2.4
+  <br/>
+                     <br/>
+(1.6-3.6) ‡
+ </paragraph>
+                  <paragraph>Tipranavir/ritonavir combination 500 mg/200mg BID for 11 days</paragraph>
+                  <paragraph>10 mg</paragraph>
+                  <paragraph>1.4</paragraph>
+                  <paragraph>(1.2-1.6)‡</paragraph>
+                  <paragraph>
+                     <br/>
+2.2
+  <br/>
+                     <br/>
+(1.8-2.7) ‡
+ </paragraph>
+                  <paragraph>Dronedarone 400 mg BID</paragraph>
+                  <paragraph>10 mg</paragraph>
+                  <paragraph>1.4</paragraph>
+                  <paragraph>Itraconazole 200 mg QD, 5 days</paragraph>
+                  <paragraph>10 mg or 80 mg</paragraph>
+                  <paragraph>1.4</paragraph>
+                  <paragraph>(1.2-1.6)‡</paragraph>
+                  <paragraph>1.3</paragraph>
+                  <paragraph>(1.1-1.4)‡</paragraph>
+                  <paragraph>
+                     <br/>
+1.4
+  <br/>
+                     <br/>
+(1.2-1.5) ‡
+  <br/>
+                     <br/>
+1.2
+  <br/>
+                     <br/>
+(0.9-1.4) ‡
+ </paragraph>
+                  <paragraph>Ezetimibe 10 mg QD, 14 days</paragraph>
+                  <paragraph>10 mg QD for 14 days</paragraph>
+                  <paragraph>
+                     <br/>
+1.2
+  <br/>
+                     <br/>
+(0.9-1.6)‡
+ </paragraph>
+                  <paragraph>
+                     <br/>
+1.2
+  <br/>
+                     <br/>
+(0.8-1.6) ‡
+ </paragraph>
+                  <paragraph>Fosamprenavir/ritonavir 700 mg/100 mg BID for 7 days</paragraph>
+                  <paragraph>10 mg</paragraph>
+                  <paragraph>1.1</paragraph>
+                  <paragraph>
+                     <br/>
+1.5
+ </paragraph>
+                  <paragraph>Fenofibrate 67 mg TID for 7 days</paragraph>
+                  <paragraph>10 mg</paragraph>
+                  <paragraph>↔</paragraph>
+                  <paragraph>
+                     <br/>
+1.2
+  <br/>
+                     <br/>
+(1.1-1.3) ‡
+ </paragraph>
+                  <paragraph>Rifampicin 450 mg QD, 7 days</paragraph>
+                  <paragraph>20 mg</paragraph>
+                  <paragraph>↔</paragraph>
+                  <paragraph>Aluminum &amp; magnesium hydroxide combination antacid</paragraph>
+                  <paragraph>Administered simultaneously
+  <br/>
+Administered 2 hours apart
+ </paragraph>
+                  <paragraph>40 mg
+  <br/>
+40 mg
+ </paragraph>
+                  <paragraph>0.5†</paragraph>
+                  <paragraph>(0.4-0.5)‡</paragraph>
+                  <paragraph>0.8</paragraph>
+                  <paragraph>(0.7-0.9)‡</paragraph>
+                  <paragraph>
+                     <br/>
+0.5 †
+  <br/>
+                     <br/>
+(0.4-0.6) ‡
+  <br/>
+                     <br/>
+0.8
+  <br/>
+                     <br/>
+(0.7-1) ‡
+ </paragraph>
+                  <paragraph>Ketoconazole 200 mg BID for 7 days</paragraph>
+                  <paragraph>80 mg</paragraph>
+                  <paragraph>1</paragraph>
+                  <paragraph>(0.8-1.2)‡</paragraph>
+                  <paragraph>
+                     <br/>
+1
+  <br/>
+                     <br/>
+(0.7-1.3) ‡
+ </paragraph>
+                  <paragraph>Fluconazole 200 mg QD for 11 days</paragraph>
+                  <paragraph>80 mg</paragraph>
+                  <paragraph>1.1</paragraph>
+                  <paragraph>(1-1.3)‡</paragraph>
+                  <paragraph>
+                     <br/>
+1.1
+  <br/>
+                     <br/>
+(0.9-1.4) ‡
+ </paragraph>
+                  <paragraph>Erythromycin 500 mg QID for 7 days</paragraph>
+                  <paragraph>80 mg</paragraph>
+                  <paragraph>0.8</paragraph>
+                  <paragraph>(0.7-0.9)‡</paragraph>
+                  <paragraph>
+                     <br/>
+0.7
+  <br/>
+                     <br/>
+(0.5-0.9) ‡
+ </paragraph>
+                  <paragraph>Table 5. Effect of Rosuvastatin Coadministration on Systemic Exposure to Other Drugs
+  <br/>
+Rosuvastatin Dosage Regimen Coadministered Drug
+  <br/>
+Mean Ratio (ratio with/without coadministered drug) No Effect=1
+  <br/>
+Name and Dose Change in AUC Change in Cmax
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Clinically significant pharmacodynamic effects [see WARNINGS AND PRECAUTIONS (5.3)]
+  <br/>
+†
+  <br/>
+Mean ratio with 90% CI (with/without coadministered drug, e.g., 1= no change, 0.7=30% decrease, 11=11-fold increase in exposure)
+ </paragraph>
+                  <paragraph>40 mg QD for 10 days</paragraph>
+                  <paragraph>Warfarin*</paragraph>
+                  <paragraph>25 mg single dose </paragraph>
+                  <paragraph>R- Warfarin 1</paragraph>
+                  <paragraph>(1-1.1)†</paragraph>
+                  <paragraph>S-Warfarin 1.1</paragraph>
+                  <paragraph>(1-1.1)†</paragraph>
+                  <paragraph>R-Warfarin 1</paragraph>
+                  <paragraph>(0.9-1)†</paragraph>
+                  <paragraph>S-Warfarin 1</paragraph>
+                  <paragraph>(0.9-1.1)†</paragraph>
+                  <paragraph>40 mg QD for 12 days</paragraph>
+                  <paragraph>Digoxin </paragraph>
+                  <paragraph>0.5 mg single dose</paragraph>
+                  <paragraph>1</paragraph>
+                  <paragraph>(0.9-1.2)†</paragraph>
+                  <paragraph>1</paragraph>
+                  <paragraph>(0.9-1.2)†</paragraph>
+                  <paragraph>40 mg QD for 28 days</paragraph>
+                  <paragraph>Oral Contraceptive</paragraph>
+                  <paragraph>(ethinyl estradiol 0.035 mg &amp; norgestrel 0.180, 0.215 and 0.250 mg) QD for 21 Days</paragraph>
+                  <paragraph>EE 1.3</paragraph>
+                  <paragraph>(1.2-1.3)†</paragraph>
+                  <paragraph>NG 1.3</paragraph>
+                  <paragraph>(1.3-1.4)†</paragraph>
+                  <paragraph>EE 1.3</paragraph>
+                  <paragraph>(1.2-1.3)†</paragraph>
+                  <paragraph>NG 1.2</paragraph>
+                  <paragraph>(1.1-1.3)†</paragraph>
+                  <paragraph>EE = ethinyl estradiol, NG = norgestrel</paragraph>
+                  <paragraph>12.5 Pharmacogenomics </paragraph>
+                  <paragraph>Disposition of HMG-CoA reductase inhibitors, including rosuvastatin, involves OATP1B1 and other transporter proteins. Higher plasma concentrations of rosuvastatin have been reported in very small groups of patients (n=3 to 5) who have two reduced function alleles of the gene that encodes OATP1B1 (SLCO1B1 521T &gt; C). The frequency of this genotype (i.e., SLCO1B1 521 C/C) is generally lower than 5% in most racial/ethnic groups. The impact of this polymorphism on efficacy and/or safety of rosuvastatin has not been clearly established.</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24ca6c-f3f1-f4f7-e053-2a91aa0acad3">
+               <id root="5f24ca6c-f3f0-f4f7-e053-2a91aa0acad3"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>Nonclinical Toxicology</title>
+               <text>
+                  <paragraph>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>In a 104-week carcinogenicity study in rats at dose levels of 2, 20, 60, or 80 mg/kg/day by oral gavage, the incidence of uterine stromal polyps was significantly increased in females at 80 mg/kg/day at systemic exposure 20 times the human exposure at 40 mg/day based on AUC. Increased incidence of polyps was not seen at lower doses. </paragraph>
+                  <paragraph>In a 107-week carcinogenicity study in mice given 10, 60, or 200 mg/kg/day by oral gavage, an increased incidence of hepatocellular adenoma/carcinoma was observed at 200 mg/kg/day at systemic exposures 20 times the human exposure at 40 mg/day based on AUC. An increased incidence of hepatocellular tumors was not seen at lower doses. </paragraph>
+                  <paragraph>Rosuvastatin was not mutagenic or clastogenic with or without metabolic activation in the Ames test with Salmonella typhimurium and Escherichia coli, the mouse lymphoma assay, and the chromosomal aberration assay in Chinese hamster lung cells. Rosuvastatin was negative in the in vivo mouse micronucleus test. </paragraph>
+                  <paragraph>In rat fertility studies with oral gavage doses of 5, 15, 50 mg/kg/day, males were treated for 9 weeks prior to and throughout mating and females were treated 2 weeks prior to mating and throughout mating until gestation day 7. No adverse effect on fertility was observed at 50 mg/kg/day (systemic exposures up to 10 times the human exposure at 40 mg/day based on AUC). In testicles of dogs treated with rosuvastatin at 30 mg/kg/day for one month, spermatidic giant cells were seen. Spermatidic giant cells were observed in monkeys after 6‑month treatment at 30 mg/kg/day in addition to vacuolation of seminiferous tubular epithelium. Exposures in the dog were 20 times and in the monkey 10 times the human exposure at 40 mg/day based on body surface area. Similar findings have been seen with other drugs in this class.</paragraph>
+                  <paragraph>13.2 Animal Toxicology and/or Pharmacology </paragraph>
+                  <paragraph>Central Nervous System Toxicity</paragraph>
+                  <paragraph>CNS vascular lesions, characterized by perivascular hemorrhages, edema, and mononuclear cell infiltration of perivascular spaces, have been observed in dogs treated with several other members of this drug class. A chemically similar drug in this class produced dose-dependent optic nerve degeneration (Wallerian degeneration of retinogeniculate fibers) in dogs, at a dose that produced plasma drug levels about 30 times higher than the mean drug level in humans taking the highest recommended dose. Edema, hemorrhage, and partial necrosis in the interstitium of the choroid plexus was observed in a female dog sacrificed moribund at day 24 at 90 mg/kg/day by oral gavage (systemic exposures 100 times the human exposure at 40 mg/day based on AUC). Corneal opacity was seen in dogs treated for 52 weeks at 6 mg/kg/day by oral gavage (systemic exposures 20 times the human exposure at 40 mg/day based on AUC). Cataracts were seen in dogs treated for 12 weeks by oral gavage at 30 mg/kg/day (systemic exposures 60 times the human exposure at 40 mg/day based on AUC). Retinal dysplasia and retinal loss were seen in dogs treated for 4 weeks by oral gavage at 90 mg/kg/day (systemic exposures 100 times the human exposure at 40 mg/day based on AUC). Doses ≤30 mg/kg/day (systemic exposures ≤60 times the human exposure at 40 mg/day based on AUC) did not reveal retinal findings during treatment for up to one year.</paragraph>
+                  <paragraph>Juvenile Toxicology Study </paragraph>
+                  <paragraph>In a juvenile study, rats were dosed by oral gavage with 10 or 50 mg/kg/day from weaning for 9 weeks prior to pairing, throughout pairing and up to the day before necropsy for males or up to gestation day 7 for females. No effects on sexual development, testicular and epididymal appearance or fertility were observed at either dose level.</paragraph>
+                  <paragraph>Pediatric information is approved for AstraZeneca’s CRESTOR (rosuvastatin calcium) tablets. However, due to AstraZeneca’s marketing exclusivity rights, this drug product is not labeled with that pediatric information.</paragraph>
+                  <paragraph>CLOSE</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24de2d-7001-2273-e053-2991aa0a4eb4">
+               <id root="5f24de2d-7000-2273-e053-2991aa0a4eb4"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>Clinical Studies</title>
+               <text>
+                  <paragraph>14.3 Hypertriglyceridemia </paragraph>
+                  <paragraph>Dose-Response Study</paragraph>
+                  <paragraph>In a double-blind, placebo-controlled dose-response study in patients with baseline TG levels from 273 to 817 mg/dL, rosuvastatin given as a single daily dose (5 to 40 mg) over 6 weeks significantly reduced serum TG levels (Table 9).</paragraph>
+                  <paragraph>Table 9. Dose-Response in Patients with Primary Hypertriglyceridemia over 6 weeks Dosing Median (Min, Max) Percent Change from Baseline
+  <br/>
+Dose Placebo 
+  <br/>
+(n=26) Rosuvastatin 
+  <br/>
+5 mg 
+  <br/>
+(n=25) Rosuvastatin 
+  <br/>
+10 mg 
+  <br/>
+(n=23) Rosuvastatin 
+  <br/>
+20 mg 
+  <br/>
+(n=27) Rosuvastatin 
+  <br/>
+40 mg 
+  <br/>
+(n=25)
+ </paragraph>
+                  <paragraph>Triglycerides</paragraph>
+                  <paragraph>1 (-40, 72)</paragraph>
+                  <paragraph>-21 (-58, 38)</paragraph>
+                  <paragraph>-37 (-65, 5)</paragraph>
+                  <paragraph>-37 (-72, 11)</paragraph>
+                  <paragraph>-43 (-80, -7)</paragraph>
+                  <paragraph>nonHDL-C</paragraph>
+                  <paragraph>2 (-13, 19)</paragraph>
+                  <paragraph>-29 (-43, -8)</paragraph>
+                  <paragraph>-49 (-59, -20)</paragraph>
+                  <paragraph>-43 (-74, 12)</paragraph>
+                  <paragraph>-51 (-62, -6)</paragraph>
+                  <paragraph>VLDL-C</paragraph>
+                  <paragraph>2 (-36, 53)</paragraph>
+                  <paragraph>-25 (-62, 49)</paragraph>
+                  <paragraph>-48 (-72, 14)</paragraph>
+                  <paragraph>-49 (-83, 20)</paragraph>
+                  <paragraph>-56 (-83, 10)</paragraph>
+                  <paragraph>Total-C</paragraph>
+                  <paragraph>1 (-13, 17)</paragraph>
+                  <paragraph>-24 (-40, -4)</paragraph>
+                  <paragraph>-40 (-51, -14)</paragraph>
+                  <paragraph>-34 (-61, -11)</paragraph>
+                  <paragraph>-40 (-51, -4)</paragraph>
+                  <paragraph>LDL-C</paragraph>
+                  <paragraph>5 (-30, 52)</paragraph>
+                  <paragraph>-28 (-71, 2)</paragraph>
+                  <paragraph>-45 (-59, 7)</paragraph>
+                  <paragraph>-31 (-66, 34)</paragraph>
+                  <paragraph>-43 (-61, -3)</paragraph>
+                  <paragraph>HDL-C</paragraph>
+                  <paragraph>-3 (-25, 18)</paragraph>
+                  <paragraph> 3 (-38, 33)</paragraph>
+                  <paragraph>8 (-8, 24)</paragraph>
+                  <paragraph>22 (-5, 50)</paragraph>
+                  <paragraph>17 (-14, 63)</paragraph>
+                  <paragraph>14.4 Primary Dysbetalipoproteinemia (Type III Hyperlipoproteinemia)</paragraph>
+                  <paragraph>In a randomized, multicenter, double-blind crossover study, 32 patients (27 with є2/є2 and 4 with apo E mutation [Arg145Cys] with primary dysbetalipoproteinemia (Type III Hyperlipoproteinemia) entered a 6-week dietary lead-in period on the NCEP Therapeutic Lifestyle Change (TLC) diet. Following dietary lead-in, patients were randomized to a sequence of treatments in conjunction with the TLC diet for 6 weeks each: rosuvastatin 10 mg followed by rosuvastatin 20 mg or rosuvastatin 20 mg followed by rosuvastatin 10 mg. Rosuvastatin reduced non HDL‑C (primary end point) and circulating remnant lipoprotein levels. Results are shown in the table below.</paragraph>
+                  <paragraph>Table 10. Lipid-modifying Effects of Rosuvastatin 10 mg and 20 mg in Primary Dysbetalipoproteinemia (Type III hyperlipoproteinemia) After Six Weeks by Median Percent Change (95% CI) from Baseline (N=32)
+  <br/>
+Median at Baseline (mg/dL) Median percent change from baseline (95% CI) 
+  <br/>
+Rosuvastatin 10 mg Median percent change from baseline (95% CI) 
+  <br/>
+Rosuvastatin 20 mg
+ </paragraph>
+                  <paragraph>Total-C</paragraph>
+                  <paragraph>342.5</paragraph>
+                  <paragraph>– 43.3</paragraph>
+                  <paragraph>(-46.9, – 37.5)</paragraph>
+                  <paragraph>-47.6</paragraph>
+                  <paragraph>(-51.6,-42.8)</paragraph>
+                  <paragraph>Triglycerides</paragraph>
+                  <paragraph>503.5</paragraph>
+                  <paragraph>-40.1</paragraph>
+                  <paragraph>(-44.9, -33.6)</paragraph>
+                  <paragraph>-43</paragraph>
+                  <paragraph>(-52.5, -33.1)</paragraph>
+                  <paragraph>NonHDL-C</paragraph>
+                  <paragraph>294.5</paragraph>
+                  <paragraph>-48.2</paragraph>
+                  <paragraph>(-56.7, -45.6)</paragraph>
+                  <paragraph>-56.4</paragraph>
+                  <paragraph>(-61.4, -48.5)</paragraph>
+                  <paragraph>VLDL-C + IDL-C</paragraph>
+                  <paragraph>209.5</paragraph>
+                  <paragraph>-46.8</paragraph>
+                  <paragraph>(-53.7, -39.4)</paragraph>
+                  <paragraph>-56.2</paragraph>
+                  <paragraph>(-67.7, -43.7)</paragraph>
+                  <paragraph>LDL-C</paragraph>
+                  <paragraph>112.5</paragraph>
+                  <paragraph>-54.4</paragraph>
+                  <paragraph>(-59.1, -47.3)</paragraph>
+                  <paragraph>-57.3</paragraph>
+                  <paragraph>(-59.4, -52.1)</paragraph>
+                  <paragraph>HDL-C</paragraph>
+                  <paragraph>35.5</paragraph>
+                  <paragraph>10.2</paragraph>
+                  <paragraph>(1.9, 12.3)</paragraph>
+                  <paragraph>11.2</paragraph>
+                  <paragraph>(8.3, 20.5)</paragraph>
+                  <paragraph>RLP-C</paragraph>
+                  <paragraph>82</paragraph>
+                  <paragraph>-56.4</paragraph>
+                  <paragraph>(-67.1, -49)</paragraph>
+                  <paragraph>-64.9</paragraph>
+                  <paragraph>(-74, -56.6)</paragraph>
+                  <paragraph>Apo-E</paragraph>
+                  <paragraph>16</paragraph>
+                  <paragraph>-42.9</paragraph>
+                  <paragraph>(-46.3, -33.3)</paragraph>
+                  <paragraph>-42.5</paragraph>
+                  <paragraph>(-47.1, -35.6)</paragraph>
+                  <paragraph>14.5 Homozygous Familial Hypercholesterolemia</paragraph>
+                  <paragraph>Dose-Titration Study: In an open-label, forced-titration study, homozygous FH patients (n=40, 8 to 63 years) were evaluated for their response to rosuvastatin 20 to 40 mg titrated at a 6‑week interval. In the overall population, the mean LDL‑C reduction from baseline was 22%. About one-third of the patients benefited from increasing their dose from 20 mg to 40 mg with further LDL lowering of greater than 6%. In the 27 patients with at least a 15% reduction in LDL‑C, the mean LDL-C reduction was 30% (median 28% reduction). Among 13 patients with an LDL‑C reduction of &lt;15%, 3 had no change or an increase in LDL‑C. Reductions in LDL‑C of 15% or greater were observed in 3 of 5 patients with known receptor negative status.</paragraph>
+                  <paragraph>Pediatric use information for patients 7 to 17 years of age is approved for AstraZeneca’s CRESTOR (rosuvastatin calcium) tablets. However, due to AstraZeneca’s marketing exclusivity rights, this drug product is not labeled with that pediatric information.</paragraph>
+                  <paragraph>CLOSE</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24c48e-15bb-fe59-e053-2991aa0abf42">
+               <id root="5f24c48e-15ba-fe59-e053-2991aa0abf42"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>How Supplied</title>
+               <text>
+                  <paragraph>Rosuvastatin calcium tablets are supplied as:</paragraph>
+                  <paragraph/>
+                  <paragraph>10 mg: Brown, round, film-coated tablets with "RSV 10" debossed on one side.</paragraph>
+                  <paragraph>NDC 76519-1162-03, bottles of 30 tablets</paragraph>
+                  <paragraph>NDC 76519-1162-09, bottles of 90 tablets</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Storage</paragraph>
+                  <paragraph>Store at 20º to 25ºC (68º to 77ºF) [see USP Controlled Room Temperature]. Protect from moisture.</paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f24e55d-af9f-4629-e053-2a91aa0a0685">
+               <id root="5f24e55d-af9e-4629-e053-2a91aa0a0685"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <title>Patient Information</title>
+               <effectiveTime value="20170103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5f250748-b4b6-571c-e053-2991aa0ae218">
+               <id root="5f250748-b4b5-571c-e053-2991aa0ae218"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package Label. Principal Display Panel</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_5f250748-b4b4-571c-e053-2991aa0ae218"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170103"/>
+               <component>
+                  <observationMedia ID="img_5f250748-b4b4-571c-e053-2991aa0ae218">
+                     <text>76519 1162.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="76519 1162.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

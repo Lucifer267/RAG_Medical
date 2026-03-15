@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="60132265-446f-7e66-e053-2991aa0a8237"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>DTI APF - Strawberry</title>
+   <effectiveTime value="20171211"/>
+   <setId root="efe3646d-9eb1-4a49-aeb4-c4c224056851"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="148312838"/>
+            <name>Dental Technologies, Inc.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="6025689d-263e-356d-e053-2991aa0ae949"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20171211"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55346-0942" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Alpha-Pro</name>
+                        <formCode code="C42934" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GEL"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sodium Fluoride and Hydrofluoric Acid</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="7.9"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8ZYQ1474W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM FLUORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q80VPU408O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLUORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="4.4"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RGL5YE86CZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROFLUORIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q80VPU408O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLUORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="497" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55346-0942-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20130401"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73417" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRAWBERRY" xsi:type="CE">
+                              <originalText>Strawberry</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DENTAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6013756e-6b4d-e5a7-e053-2a91aa0abcbe">
+               <id root="6013756e-6b4c-e5a7-e053-2a91aa0abcbe"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">Indications and Usage:</content>
+               </title>
+               <text>
+                  <paragraph>Topical application of APF gel is indicated in the prevention of dental caries. This treatment is normally used two times per year and should not exceed four times a year.</paragraph>
+               </text>
+               <effectiveTime value="20150417"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6013756e-6b56-e5a7-e053-2a91aa0abcbe">
+               <id root="6013756e-6b57-e5a7-e053-2a91aa0abcbe"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">Contraindications:</content>
+               </title>
+               <text>
+                  <paragraph>Hypersensitivity to fluoride.</paragraph>
+               </text>
+               <effectiveTime value="20150417"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6013134f-777b-0f80-e053-2991aa0a45fd">
+               <id root="6013134f-777a-0f80-e053-2991aa0a45fd"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">Warning:</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children. Do not swallow. </content>
+                  </paragraph>
+                  <paragraph>If swallowed during treatment, administer milk, limewater, or antacid. If larger dose is ingested (more than 1/4 ounce), contact poison control and immediately seek medical help. Contains FD&amp;C Red No. 40.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20150417"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6013756e-6b79-e5a7-e053-2a91aa0abcbe">
+               <id root="6013756e-6b78-e5a7-e053-2a91aa0abcbe"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">Precautions:</content>
+               </title>
+               <text>
+                  <paragraph>For professional use only. This product is not intended for home or unsupervised consumer use. Repeated use may cause dulling of porcelain and ceramic restorations.</paragraph>
+               </text>
+               <effectiveTime value="20150417"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_60137b9c-c807-4f10-e053-2a91aa0aa27e">
+               <id root="60137b9c-c806-4f10-e053-2a91aa0aa27e"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">Adverse Reactions:</content>
+               </title>
+               <text>
+                  <paragraph>Developing teeth of children under age 6 may become permanently discolored if excessive amounts are repeatedly swallowed. The following adverse reactions are possible in individuals hypersensitive to fluoride: eczema, atopic dermatitis, urticaria, gastric distress, headache, and weakness.</paragraph>
+               </text>
+               <effectiveTime value="20150417"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6013b3b4-7867-3220-e053-2a91aa0a8e20">
+               <id root="6013b3b4-7866-3220-e053-2a91aa0a8e20"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">Dosage and Administration:</content>
+               </title>
+               <text>
+                  <paragraph>After thorough prophylaxis, place gel in applicator tray (not more than 1/3 full). Throughly air-dry teeth and insert tray(s) in mouth. Gel may also be swab applied. Instruct patient to bite down slightly but firmly for one to four minutes. A slight chewing motion enhances coverage interproximally. Remove tray(s) and have patient expectorate excess gel. Instruct patient not to eat, drink or rinse for at least 30 minutes.</paragraph>
+               </text>
+               <effectiveTime value="20150417"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6013919c-820d-0984-e053-2a91aa0aa487">
+               <id root="6013919c-820c-0984-e053-2a91aa0aa487"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">How Supplied:</content>
+               </title>
+               <text>
+                  <paragraph>A gel, one bottle contains up to 68 individual applications. Store at controlled room temperature 20°- 25°C (68°-77°F).</paragraph>
+                  <paragraph>Do not allow to freeze.</paragraph>
+               </text>
+               <effectiveTime value="20150417"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6013b3b4-7878-3220-e053-2a91aa0a8e20">
+               <id root="6013b3b4-7877-3220-e053-2a91aa0a8e20"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">Active Ingredients:</content>
+               </title>
+               <text>
+                  <paragraph>1.23% w/w Fluoride Ion (0.79% from Sodium Fluoride and 0.44% from Hydrogen Fluoirde) in 0.1 Molar Phosphoric Acid.</paragraph>
+                  <paragraph/>
+                  <paragraph>DENTAL TECHNOLOGIES</paragraph>
+                  <paragraph>LINCOLNWOOD, ILLINOIS 60712 USA</paragraph>
+                  <paragraph>
+                     <linkHtml href="http://www.dentaltech.com/">www.dentaltech.com</linkHtml>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Questions or Comments?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Call: 1-800-835-0885 (US) or 1-847-677-5500</content>
+                  </paragraph>
+                  <paragraph>PM-5097 Rev002</paragraph>
+               </text>
+               <effectiveTime value="20150417"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6013104b-3f62-687c-e053-2991aa0a383b">
+               <id root="6013b3b4-7879-3220-e053-2a91aa0a8e20"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>DENTAL TECHNOLOGIES</paragraph>
+                  <paragraph>www.dentaltech.com</paragraph>
+                  <paragraph>ALPHA-PRO® APF</paragraph>
+                  <paragraph>TOPICAL GEL</paragraph>
+                  <paragraph>60 SECOND TREATMENT</paragraph>
+                  <paragraph>Acidulated Phosphate Fluoride</paragraph>
+                  <paragraph>1.23% Fluoride Ion</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>Strawberry</paragraph>
+                  <paragraph>REF No. 009-4201-002</paragraph>
+                  <paragraph>NET WEIGHT: 17.5 oz. (497g)</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_60131388-2d8d-70d3-e053-2a91aa0a1766"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20150417"/>
+               <component>
+                  <observationMedia ID="img_60131388-2d8d-70d3-e053-2a91aa0a1766">
+                     <text>APF_Strawberry</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="5097.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="6bd7c19e-73cc-7905-3fc8-cac5a42c8fec"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Liquid Oxygen</title>
+   <effectiveTime value="20100810"/>
+   <setId root="06a08941-538c-3ea4-b68e-1fcd4adf4eaa"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="622418390" root="1.3.6.1.4.1.519.1"/>
+            <name>Pedi Stat Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="622418390" root="1.3.6.1.4.1.519.1"/>
+                        <name>Pedi Stat Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="003297942" root="1.3.6.1.4.1.519.1"/>
+                        <name>AIRGAS - SOUTH, INC.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="ID_5e290e9f-438d-c184-8ca6-61ed1e081703">
+               <id root="bfa8fbf3-701c-735e-0e27-f1b96819cdb3"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20100811"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="60317-123" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Liquid Oxygen </name>
+                        <formCode code="C42933" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GAS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Liquid Oxygen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mL" value="995"/>
+                              <denominator unit="L" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Oxygen</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Oxygen</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="L" value="24950"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="60317-123-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43181" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CANISTER"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19900810"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73613" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved medical gas"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5C7521AC-2855-04DD-FC7A-34FADA1598DB">
+               <id root="5960322e-2b8f-3abf-26c7-bf98d2c01b51"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>COMPANION<sup>®</sup>
+                     <br/>OXYGEN,<br/>REFRIGERATED<br/>LIQUID-USP<br/>UN1073<br/>C.A.S. NO. 7782-44-7<br/>
+                     <br/>BY AIR LIQUEFACTION<br/>
+                     <br/>PART No<br/>776252<br/>REV. C</paragraph>
+                  <renderMultiMedia referencedObject="MM7198"/>
+               </text>
+               <effectiveTime value="20100810"/>
+               <component>
+                  <observationMedia ID="MM7198">
+                     <text>Liquid Oxygen Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="LiquidOxygenCanisterLabel.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

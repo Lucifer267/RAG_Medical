@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="601678b4-0feb-47f3-bf95-4e226ef5e6a5"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title mediaType="text/x-hl7-title+xml">
+      <content styleCode="bold">TobraDex®</content>
+      <br/>
+      <content styleCode="bold">(tobramycin and dexamethasone ophthalmic suspension) </content>Sterile
+</title>
+   <effectiveTime value="20120830"/>
+   <setId root="2a2259ee-05e4-4785-ba75-5946132debf3"/>
+   <versionNumber value="1"/>
+   <author>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="786036330"/>
+            <name>STAT Rx USA LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="101822682"/>
+                  <name>PSS World Medical Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="786036330"/>
+                        <name>STAT Rx USA LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="16590-223" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="16590-223" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="60f71c8a-d991-4c6d-be8c-f59df4e47efc"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20120830"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="16590-223" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TOBRADEX<suffix/>
+                        </name>
+                        <formCode code="C42994" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>TOBRAMYCIN and DEXAMETHASONE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0065-0647" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="3" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="VZ8RRZ51VK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TOBRAMYCIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VZ8RRZ51VK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TOBRAMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7S5I7G3JQL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXAMETHASONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7S5I7G3JQL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DEXAMETHASONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="F5UM2KM3W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZALKONIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Y27PUL9H56" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TYLOXAPOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="S38J6RZN16" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROXYETHYL CELLULOSE (2000 CPS AT 1%)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0YPR65R21J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O40UQP6WCF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SULFURIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2.5" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="16590-223-25" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA050592" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19880915"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionDescription">
+               <id root="4587dccc-b79e-464f-92c5-0c087a297c4f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+DESCRIPTION
+</title>
+               <text>
+                  <paragraph>TOBRADEX® (tobramycin and dexamethasone ophthalmic suspension) is a sterile, multiple dose antibiotic and steroid combination for topical ophthalmic use.</paragraph>
+                  <paragraph>The chemical structures for tobramycin and dexamethasone are presented below:</paragraph>
+                  <renderMultiMedia referencedObject="chemical"/>
+                  <paragraph>Tobramycin</paragraph>
+                  <paragraph>Empirical Formula: C<sub>18</sub>H<sub>37</sub>N<sub>5</sub>O<sub>9</sub>
+                  </paragraph>
+                  <paragraph>Chemical Name: <content styleCode="italics">O</content>-3-Amino-3-deoxy-α-D-glucopyranosyl-(1→4)-<content styleCode="italics">O</content>-[2,6-diamino-2,3,6-trideoxy-α-D-<content styleCode="italics">ribo</content>-hexopyranosyl-(1→6)]-2-deoxy-L-streptamine</paragraph>
+                  <paragraph>Dexamethasone</paragraph>
+                  <paragraph>Empirical Formula: C<sub>22</sub>H<sub>29</sub>FO<sub>5</sub>
+                  </paragraph>
+                  <paragraph>Chemical Name: 9-Fluoro-11β,17,21-trihydroxy-16α-methylpregna-1,4-diene-3,20-dione</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each mL of TOBRADEX® </content>(tobramycin and dexamethasone ophthalmic suspension) <content styleCode="bold">contains: Actives: </content>tobramycin 0.3% (3 mg) and dexamethasone 0.1% (1 mg). <content styleCode="bold">Preservative: </content>benzalkonium chloride 0.01%. <content styleCode="bold">Inactives: </content>tyloxapol, edetate disodium, sodium chloride, hydroxyethyl cellulose, sodium sulfate, sulfuric acid and/or sodium hydroxide (to adjust pH) and purified water.</paragraph>
+               </text>
+               <effectiveTime value="20110727"/>
+               <component>
+                  <observationMedia ID="chemical">
+                     <text>
+chemical
+</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="chemical.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionClinicalPharmacology">
+               <id root="f9d86e7b-71b5-4119-af21-72b908db3502"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+CLINICAL PHARMACOLOGY
+</title>
+               <text>
+                  <paragraph>Corticoids suppress the inflammatory response to a variety of agents and they probably delay or slow healing. Since corticoids may inhibit the body's defense mechanism against infection, a concomitant antimicrobial drug may be used when this inhibition is considered to be clinically significant. Dexamethasone is a potent corticoid.</paragraph>
+                  <paragraph>The antibiotic component in the combination (tobramycin) is included to provide action against susceptible organisms. <content styleCode="italics">In vitro </content>studies have demonstrated that tobramycin is active against susceptible strains of the following microorganisms:</paragraph>
+                  <paragraph>Staphylococci, including <content styleCode="italics">S. aureus </content>and <content styleCode="italics">S. epidermidis </content>(coagulase-positive and coagulase-negative), including penicillin-resistant strains.</paragraph>
+                  <paragraph>Streptococci, including some of the Group A-beta-hemolytic species, some nonhemolytic species, and some <content styleCode="italics">Streptococcus pneumoniae.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Pseudomonas aeruginosa, Escherichia coli, Klebsiella pneumoniae, Enterobacter aerogenes, Proteus mirabilis, Morganella morganii, </content>most <content styleCode="italics">Proteus vulgaris </content>strains, <content styleCode="italics">Haemophilus influenzae </content>and <content styleCode="italics">H. aegyptius, Moraxella lacunata, Acinetobacter calcoaceticus </content>and some <content styleCode="italics">Neisseria </content>species.</paragraph>
+                  <paragraph>Bacterial susceptibility studies demonstrate that in some cases microorganisms resistant to gentamicin remain susceptible to tobramycin.</paragraph>
+                  <paragraph>No data are available on the extent of systemic absorption from TOBRADEX® (tobramycin and dexamethasone ophthalmic suspension); however, it is known that some systemic absorption can occur with ocularly applied drugs. If the maximum dose of TOBRADEX® (tobramycin and dexamethasone ophthalmic suspension) is given for the first 48 hours (two drops in each eye every 2 hours) and complete systemic absorption occurs, which is highly unlikely, the daily dose of dexamethasone would be 2.4 mg. The usual physiologic replacement dose is 0.75 mg daily. If TOBRADEX® (tobramycin and dexamethasone ophthalmic suspension) is given after the first 48 hours as two drops in each eye every 4 hours, the administered dose of dexamethasone would be 1.2 mg daily.</paragraph>
+               </text>
+               <effectiveTime value="20110727"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionIndicationsUsage">
+               <id root="3c4fb1c5-3a18-4b37-9896-695873966ddb"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>TOBRADEX® (tobramycin and dexamethasone ophthalmic suspension) is indicated for steroid-responsive inflammatory ocular conditions for which a corticosteroid is indicated and where superficial bacterial ocular infection or a risk of bacterial ocular infection exists.</paragraph>
+                  <paragraph>Ocular steroids are indicated in inflammatory conditions of the palpebral and bulbar conjunctiva, cornea and anterior segment of the globe where the inherent risk of steroid use in certain infective conjunctivitides is accepted to obtain a diminution in edema and inflammation. They are also indicated in chronic anterior uveitis and corneal injury from chemical, radiation or thermal burns, or penetration of foreign bodies.</paragraph>
+                  <paragraph>The use of a combination drug with an anti-infective component is indicated where the risk of superficial ocular infection is high or where there is an expectation that potentially dangerous numbers of bacteria will be present in the eye.</paragraph>
+                  <paragraph>The particular anti-infective drug in this product is active against the following common bacterial eye pathogens:</paragraph>
+                  <paragraph>Staphylococci, including <content styleCode="italics">S. aureus </content>and <content styleCode="italics">S. epidermidis </content>(coagulase-positive and coagulase-negative), including penicillin-resistant strains.</paragraph>
+                  <paragraph>Streptococci, including some of the Group A-beta-hemolytic species, some nonhemolytic species, and some <content styleCode="italics">Streptococcus pneumoniae.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Pseudomonas aeruginosa, Escherichia coli, Klebsiella pneumoniae, Enterobacter aerogenes, Proteus mirabilis, Morganella morganii, </content>most <content styleCode="italics">Proteus vulgaris </content>strains, <content styleCode="italics">Haemophilus influenzae </content>and <content styleCode="italics">H. aegyptius, Moraxella lacunata, Acinetobacter calcoaceticus </content>and some <content styleCode="italics">Neisseria </content>species.</paragraph>
+               </text>
+               <effectiveTime value="20110727"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionContraindications">
+               <id root="bd065728-a506-42b3-9eec-ecb9d4b189a6"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>Epithelial herpes simplex keratitis (dendritic keratitis), vaccinia, varicella, and many other viral diseases of the cornea and conjunctiva. Mycobacterial infection of the eye. Fungal diseases of ocular structures. Hypersensitivity to a component of the medication.</paragraph>
+               </text>
+               <effectiveTime value="20110727"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionWarnings">
+               <id root="7be85865-81f8-40ac-a526-52effbff2b88"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+WARNINGS
+</title>
+               <text>
+                  <paragraph>FOR TOPICAL OPHTHALMIC USE ONLY. NOT FOR INJECTION INTO THE EYE. Sensitivity to topically applied aminoglycosides may occur in some patients. If a sensitivity reaction does occur, discontinue use.</paragraph>
+                  <paragraph>Prolonged use of steroids may result in glaucoma, with damage to the optic nerve, defects in visual acuity and fields of vision, and posterior subcapsular cataract formation. Intraocular pressure should be routinely monitored even though it may be difficult in pediatric patients and uncooperative patients. Prolonged use may suppress the host response and thus increase the hazard of secondary ocular infections. In those diseases causing thinning of the cornea or sclera, perforations have been known to occur with the use of topical steroids. In acute purulent conditions of the eye, steroids may mask infection or enhance existing infection.</paragraph>
+               </text>
+               <effectiveTime value="20110727"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionPrecautions">
+               <id root="6ab9a9cf-2832-46af-afec-bbdc42bc4c13"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+PRECAUTIONS
+</title>
+               <effectiveTime value="20110727"/>
+               <component>
+                  <section ID="splSectionPrecautionsGeneral">
+                     <id root="efe6087d-89b2-4589-9a8e-ac60302a1644"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+General
+</title>
+                     <text>
+                        <paragraph>The possibility of fungal infections of the cornea should be considered after long-term steroid dosing. As with other antibiotic preparations, prolonged use may result in overgrowth of nonsusceptible organisms, including fungi. If superinfection occurs, appropriate therapy should be initiated. When multiple prescriptions are required, or whenever clinical judgement dictates, the patient should be examined with the aid of magnification, such as slit lamp biomicroscopy and, where appropriate, fluorescein staining.</paragraph>
+                        <paragraph>Cross-sensitivity to other aminoglycoside antibiotics may occur; if hypersensitivity develops with this product, discontinue use and institute appropriate therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20110727"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsPatientInfo">
+                     <id root="ba69dc4a-bd8f-4736-9c65-2ef6daf68ce0"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Information for Patients
+</title>
+                     <text>
+                        <paragraph>Do not touch dropper tip to any surface, as this may contaminate the contents. Contact lenses should not be worn during the use of this product.</paragraph>
+                     </text>
+                     <effectiveTime value="20110727"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsCarcinogen">
+                     <id root="18fe3c2e-646a-46e8-9f47-3f509ced5c22"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>No studies have been conducted to evaluate the carcinogenic or mutagenic potential. No impairment of fertility was noted in studies of subcutaneous tobramycin in rats at doses of 50 and 100 mg/kg/day.</paragraph>
+                     </text>
+                     <effectiveTime value="20110727"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsPregnancy">
+                     <id root="20d6ae07-167b-42e6-82d9-67a2eed25a02"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Pregnancy Category C
+</title>
+                     <text>
+                        <paragraph>Corticosteroids have been found to be teratogenic in animal studies. Ocular administration of 0.1% dexamethasone resulted in 15.6% and 32.3% incidence of fetal anomalies in two groups of pregnant rabbits. Fetal growth retardation and increased mortality rates have been observed in rats with chronic dexamethasone therapy. Reproduction studies have been performed in rats and rabbits with tobramycin at doses up to 100 mg/kg/day parenterally and have revealed no evidence of impaired fertility or harm to the fetus. There are no adequate and well controlled studies in pregnant women. TOBRADEX® (tobramycin and dexamethasone ophthalmic suspension) should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20110727"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsPregnancyNursing">
+                     <id root="6c92c8ac-2976-42a0-8f64-46a09291f86d"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Nursing Mothers
+</title>
+                     <text>
+                        <paragraph>Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in human milk. Because many drugs are excreted in human milk, caution should be exercised when TOBRADEX® (tobramycin and dexamethasone ophthalmic suspension) is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20110727"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsPediatric">
+                     <id root="72768ecf-de96-40f8-9940-33cfa047a384"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Pediatric Use
+</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients below the age of 2 years have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20110727"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="splSectionPrecautionsGeriatric">
+                     <id root="31fd6d17-b303-45ee-a4ef-0a86830c14e4"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+Geriatric Use
+</title>
+                     <text>
+                        <paragraph>No overall differences in safety or effectiveness have been observed between elderly and younger patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20110727"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionAdverseReactions">
+               <id root="d8b5565a-5d7e-48b0-aa8d-b783c2c4b54b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>Adverse reactions have occurred with steroid/anti-infective combination drugs which can be attributed to the steroid component, the anti-infective component, or the combination. Exact incidence figures are not available. The most frequent adverse reactions to topical ocular tobramycin [TOBREX® (tobramycin ophthalmic solution)] are hypersensitivity and localized ocular toxicity, including lid itching and swelling, and conjunctival erythema. These reactions occur in less than 4% of patients. Similar reactions may occur with the topical use of other aminoglycoside antibiotics. Other adverse reactions have not been reported; however, if topical ocular tobramycin is administered concomitantly with systemic aminoglycoside antibiotics, care should be taken to monitor the total serum concentration. The reactions due to the steroid component are: elevation of intraocular pressure (IOP) with possible development of glaucoma, and infrequent optic nerve damage; posterior subcapsular cataract formation; and delayed wound healing.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Secondary Infection. </content>The development of secondary infection has occurred after use of combinations containing steroids and antimicrobials. Fungal infections of the cornea are particularly prone to develop coincidentally with long-term applications of steroids. The possibility of fungal invasion must be considered in any persistent corneal ulceration where steroid treatment has been used. Secondary bacterial ocular infection following suppression of host responses also occurs.</paragraph>
+               </text>
+               <effectiveTime value="20110727"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionOverdose">
+               <id root="21ed252b-3a0a-4ae9-bd2b-3d506e76656c"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+OVERDOSAGE
+</title>
+               <text>
+                  <paragraph>Clinically apparent signs and symptoms of an overdosage of TOBRADEX® (tobramycin and dexamethasone ophthalmic suspension) punctate keratitis, erythema, increased lacrimation, edema and lid itching may be similar to adverse reaction effects seen in some patients.</paragraph>
+               </text>
+               <effectiveTime value="20110727"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionDosageAdministration">
+               <id root="83c5ca22-78b2-4565-bb7f-cd6b5b1c4444"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+DOSAGE AND ADMINISTRATION
+</title>
+               <text>
+                  <paragraph>One or two drops instilled into the conjunctival sac(s) every four to six hours. During the initial 24 to 48 hours, the dosage may be increased to one or two drops every two (2) hours. Frequency should be decreased gradually as warranted by improvement in clinical signs. Care should be taken not to discontinue therapy prematurely.</paragraph>
+                  <paragraph>Not more than 20 mL should be prescribed initially and the prescription should not be refilled without further evaluation as outlined in PRECAUTIONS above.</paragraph>
+               </text>
+               <effectiveTime value="20110727"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSectionHowSupplied">
+               <id root="ab7e6407-bb55-48e8-b20a-12e66cede657"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">
+HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>Sterile ophthalmic suspension in 2.5 mL - <content styleCode="bold">NDC </content>16590-223-25</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STORAGE: </content>Store at 8°-27°C (46°-80°F).</paragraph>
+                  <paragraph>Store suspension upright and shake well before using.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120830"/>
+            </section>
+         </component>
+         <component>
+            <section ID="splSection1">
+               <id root="5c91829f-9a16-4b7d-a20c-2bda1c9ee288"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>©2002, 2006, 2010 Alcon, Inc.</paragraph>
+                  <paragraph>ALCON LABORATORIES, INC.</paragraph>
+                  <paragraph>Fort Worth, Texas 76134 USA</paragraph>
+                  <paragraph>Printed in USA</paragraph>
+                  <paragraph>Revised: April 2010</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">9001599-0410</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Relabeling by:</content>
+                  </paragraph>
+                  <paragraph>STAT Rx USA LLC</paragraph>
+                  <paragraph>Gainesville, GA  30501</paragraph>
+               </text>
+               <effectiveTime value="20120830"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5ac922ee-3fd7-4030-8030-842cab955918">
+               <id root="15aec0bc-1d83-45dd-9b33-f5138c49d876"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL - TOBRADEX  0.3% / 0.1%  OPTH SUSP</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L7d26384d-7daa-4b17-826a-b2243a9c32ef"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120830"/>
+               <component>
+                  <observationMedia ID="L7d26384d-7daa-4b17-826a-b2243a9c32ef">
+                     <text>TOBRADEX SUSP 2.5 mL LABEL Image</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="TOBRADEX SUSP 2.5 mL LABEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

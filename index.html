@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraphFlux | Medical QA</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="app-wrapper">
+        <!-- SIDEBAR: History + Win Stat -->
+        <aside class="sidebar">
+            <div class="history-section">
+                <div class="sidebar-header">
+                    <h2>History 🕒</h2>
+                </div>
+                <div id="historyList" class="history-list">
+                    <p class="empty-msg">No questions yet.</p>
+                </div>
+                <button class="clear-btn" onclick="clearHistory()">Clear All</button>
+            </div>
+
+            <!-- Win Stat Graph (Bottom of Sidebar) -->
+            <div class="sidebar-footer">
+                <h3>🏆 Best Mode Stats</h3>
+                <div class="chart-container-sidebar">
+                    <canvas id="winChart"></canvas>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            
+            <!-- TOP DASHBOARD: Title/Input (Left) + Time Graph (Right) -->
+            <div class="dashboard-header">
+                
+                <div class="header-left">
+                    <header>
+                        <h1>GraphFlux 🏥</h1>
+                        <p class="subtitle">Hybrid Graph-RAG Medical Reasoning System</p>
+                    </header>
+
+                    <div class="search-container">
+                        <input type="text" id="questionInput" placeholder="Ask a medical question (e.g., 'Side effects of Aspirin')..." />
+                        <button id="askBtn" onclick="askQuestion()">Ask</button>
+                    </div>
+
+                    <div id="loading" class="hidden">
+                        <div class="spinner"></div>
+                        <span>Consulting Medical Sources...</span>
+                    </div>
+
+                    <div id="winnerBox" class="winner-box hidden">
+                        <span>🏆 Best Result Selected:</span> <strong id="winnerText">Hybrid</strong>
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    <div class="time-chart-card">
+                        <h3>⚡ Response Time (Seconds)</h3>
+                        <div class="chart-container-header">
+                            <canvas id="timeChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="divider">
+
+            <!-- RESULTS GRID -->
+            <div id="resultsGrid" class="grid-container hidden">
+                
+                <!-- LLM Only -->
+                <div class="card border-llm">
+                    <div class="card-header text-llm">
+                        🧠 LLM Only
+                        <span class="time-badge" id="time-llm">0s</span>
+                    </div>
+                    <div class="card-body" id="res-llm">...</div>
+                </div>
+
+                <!-- Vector Only -->
+                <div class="card border-vec">
+                    <div class="card-header text-vec">
+                        📚 Vector (Chroma)
+                        <span class="time-badge" id="time-vec">0s</span>
+                    </div>
+                    <div class="card-body" id="res-vec">...</div>
+                </div>
+
+                <!-- Hybrid -->
+                <div class="card border-hyb">
+                    <div class="card-header text-hyb">
+                        🔗 Hybrid RAG
+                        <span class="time-badge" id="time-hyb">0s</span>
+                    </div>
+                    <div class="card-body" id="res-hyb">...</div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

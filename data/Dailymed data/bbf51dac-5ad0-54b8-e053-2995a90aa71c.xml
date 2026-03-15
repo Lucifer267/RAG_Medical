@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="bbf51dac-5ad0-54b8-e053-2995a90aa71c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20210222"/>
+   <setId root="bbf509e1-a8c2-56b8-e053-2995a90ae5c7"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+            <name>Central Packaging</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+                        <name>Central Packaging, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="80175-0142" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="bc18f4fb-ef0d-77ae-e053-2a95a90af1f7"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20210222"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="80175-0142" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>celecoxib</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>celecoxib</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="62332-142" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="200"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JCX84Q7J1L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELECOXIB</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="JCX84Q7J1L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CELECOXIB</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="80175-0142-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20151201"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA204519" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20151201"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">A;136</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="19" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bbf53476-8ac4-5103-e053-2995a90acdb7">
+               <id root="bbf53476-8ac3-5103-e053-2995a90acdb7"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Celecoxib is contraindicated in the following patients: ·               Known hypersensitivity (e.g., anaphylactic reactions and serious skin reactions)to celecoxib, any components of the drug product [see Warnings and Precautions (5.7,   5.9)].·               History of asthma, urticaria, or other allergic-type reactions after taking aspirin or other   NSAIDs. Severe, sometimes fatal, anaphylactic reactions to NSAIDs, have been        reported in such patients [see Warnings and Precautions (5.7, 5.8)]. ·               In the setting of coronary artery bypass graft (CABG) surgery [see Warnings and  Precautions (5.1)].·               In patients who have demonstrated allergic-type reactions to sulfonamides.</paragraph>
+               </text>
+               <effectiveTime value="20210222"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bbf52284-8b4a-575d-e053-2995a90aac74">
+               <id root="bbf52284-8b49-575d-e053-2995a90aac74"/>
+               <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+               <text>
+                  <paragraph>Because serious GI bleeding, hepatotoxicity, and renal injury can occur without warning symptoms or signs, consider monitoring patients on long-term NSAID treatment with a CBC and a chemistry profile periodically [see Warnings and Precautions (5.2, 5.3, 5.6)]. In controlled clinical trials, elevated BUN occurred more frequently in patients receiving celecoxib compared with patients on placebo. This laboratory abnormality was also seen in patients who received comparator NSAIDs in these studies. The clinical significance of this abnormality has not been established.</paragraph>
+               </text>
+               <effectiveTime value="20210222"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bbf53476-8ac6-5103-e053-2995a90acdb7">
+               <id root="bbf53476-8ac5-5103-e053-2995a90acdb7"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <text>
+                  <paragraph>Celecoxib capsules: 50 mg are opaque white/opaque white hard gelatin capsules size “5” having imprinting “134” on body with red ink and “A” on cap with red ink filled with white to off-white colored granular powder. 100 mg are opaque white/opaque white hard gelatin capsules size “3” having imprinting “135” on body with blue ink and “A” on cap with blue ink filled with white to off-white colored granular powder. 200 mg are opaque white/opaque white hard gelatin capsules size “1” having imprinting “136” on body with golden yellow ink and “A” on cap with golden yellow ink filled with white to off-white colored granular powder. 400 mg are opaque white/opaque white hard gelatin capsules size “00” having imprinting “137” on body with green ink and “A” on cap with green ink filled with white to off-white colored granular powder.</paragraph>
+               </text>
+               <effectiveTime value="20210222"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bc18e2bc-f5c7-4eb5-e053-2995a90a3c5c">
+               <id root="bc18e2bc-f5c6-4eb5-e053-2995a90a3c5c"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <paragraph>Medication Guide
+  <br/>
+for
+  <br/>
+Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)
+  <br/>
+(See the end of this Medication Guide for a list of prescription NSAID medicines.)
+ </paragraph>
+                  <paragraph>What is the most important information I should know about medicines called Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</paragraph>
+                  <paragraph>NSAID medicines may increase the chance of a heart attack or stroke that can lead to death.</paragraph>
+                  <paragraph>This chance increases:</paragraph>
+                  <paragraph>with longer use of NSAID medicines
+  <br/>
+in people who have heart disease
+ </paragraph>
+                  <paragraph>NSAID medicines should never be used right before or after a heart surgery called a "coronary artery bypass graft (CABG)."</paragraph>
+                  <paragraph>NSAID medicines can cause ulcers and bleeding in the stomach and intestines at any time during treatment. Ulcers and bleeding:</paragraph>
+                  <paragraph>can happen without warning symptoms
+  <br/>
+may cause death
+ </paragraph>
+                  <paragraph>The chance of a person getting an ulcer or bleeding increases with:</paragraph>
+                  <paragraph>taking medicines called "corticosteroids" and "anticoagulants"
+  <br/>
+longer use
+  <br/>
+smoking
+  <br/>
+drinking alcohol
+  <br/>
+older age
+  <br/>
+having poor health
+ </paragraph>
+                  <paragraph>NSAID medicines should only be used:</paragraph>
+                  <paragraph>exactly as prescribed
+  <br/>
+at the lowest dose possible for your treatment
+  <br/>
+for the shortest time needed
+ </paragraph>
+                  <paragraph>What are Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</paragraph>
+                  <paragraph>NSAID medicines are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as:</paragraph>
+                  <paragraph>different types of arthritis
+  <br/>
+menstrual cramps and other types of short-term pain
+ </paragraph>
+                  <paragraph>Who should not take a Non-Steroidal Anti-Inflammatory Drug (NSAID)?</paragraph>
+                  <paragraph>Do not take an NSAID medicine:</paragraph>
+                  <paragraph>if you had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAID medicine
+  <br/>
+for pain right before or after heart bypass surgery
+ </paragraph>
+                  <paragraph>Tell your healthcare provider:</paragraph>
+                  <paragraph>about all of your medical conditions.
+  <br/>
+about all of the medicines you take. NSAIDs and some other medicines can interact with each other and cause serious side effects. Keep a list of your medicines to show to your healthcare provider and pharmacist.
+  <br/>
+if you are pregnant. NSAID medicines should not be used by pregnant women late in their pregnancy.
+  <br/>
+if you are breastfeeding. Talk to your doctor.
+ </paragraph>
+                  <paragraph>What are the possible side effects of Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</paragraph>
+                  <paragraph>Serious side effects include: Other side effects include:</paragraph>
+                  <paragraph>heart attack
+  <br/>
+stroke
+  <br/>
+high blood pressure
+  <br/>
+heart failure from body swelling (fluid retention)
+  <br/>
+kidney problems including kidney failure
+  <br/>
+bleeding and ulcers in the stomach and intestine
+  <br/>
+low red blood cells (anemia)
+  <br/>
+life-threatening skin reactions
+  <br/>
+life-threatening allergic reactions
+  <br/>
+liver problems including liver failure
+  <br/>
+asthma attacks in people who have asthma
+ </paragraph>
+                  <paragraph>stomach pain
+  <br/>
+constipation
+  <br/>
+diarrhea
+  <br/>
+gas
+  <br/>
+heartburn
+  <br/>
+nausea
+  <br/>
+vomiting
+  <br/>
+dizziness
+ </paragraph>
+                  <paragraph>Get emergency help right away if you have any of the following symptoms:</paragraph>
+                  <paragraph>shortness of breath or trouble breathing
+  <br/>
+chest pain
+  <br/>
+weakness in one part or side of your body
+ </paragraph>
+                  <paragraph>slurred speech
+  <br/>
+swelling of the face or throat
+ </paragraph>
+                  <paragraph>Stop your NSAID medicine and call your healthcare provider right away if you have any of the following symptoms:</paragraph>
+                  <paragraph>nausea
+  <br/>
+more tired or weaker than usual
+  <br/>
+itching
+  <br/>
+your skin or eyes look yellow
+  <br/>
+stomach pain
+  <br/>
+flu-like symptoms
+ </paragraph>
+                  <paragraph>vomit blood
+  <br/>
+there is blood in your bowel movement or it is black and sticky like tar
+  <br/>
+skin rash or blisters with fever
+  <br/>
+unusual weight gain
+  <br/>
+swelling of the arms and legs, hands and feet
+ </paragraph>
+                  <paragraph>These are not all the side effects with NSAID medicines. Talk to your healthcare provider or pharmacist for more information about NSAID medicines.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph>Other information about Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)</paragraph>
+                  <paragraph>Aspirin is an NSAID medicine but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.
+  <br/>
+Some of these NSAID medicines are sold in lower doses without a prescription (over –the –counter). Talk to your healthcare provider before using over –the –counter NSAIDs for more than 10 days.
+ </paragraph>
+                  <paragraph>NSAID medicines that need a prescription
+  <br/>
+Generic Name Tradename
+  <br/>
+*Vicoprofen contains the same dose of ibuprofen as over-the-counter (OTC) NSAIDs, and is usually used for less than 10 days to treat pain. The OTC NSAID label warns that long term continuous use may increase the risk of heart attack or stroke.
+ </paragraph>
+               </text>
+               <effectiveTime value="20210223"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bbf52284-8b42-575d-e053-2995a90aac74">
+               <id root="bbf52284-8b41-575d-e053-2995a90aac74"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_bbf52b65-38c7-9c35-e053-2995a90a04f2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210222"/>
+               <component>
+                  <observationMedia ID="img_bbf52b65-38c7-9c35-e053-2995a90a04f2">
+                     <text>Celecoxib</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="celecoxib.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

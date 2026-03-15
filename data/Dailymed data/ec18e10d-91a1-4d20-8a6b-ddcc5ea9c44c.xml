@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ec18e10d-91a1-4d20-8a6b-ddcc5ea9c44c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>BENZONATATE</title>
+   <effectiveTime value="20150506"/>
+   <setId root="b8b7c363-b87d-41e2-8145-7f8004c166db"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+                        <name>Northwind Pharmaceuticals</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-773" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1935bda3-7fee-4c93-af4c-f8532388ef8c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20150506"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-773" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BENZONATATE</name>
+                        <formCode code="C42954" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE, LIQUID FILLED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>BENZONATATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="65162-537" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="200" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5P4DHS6ENR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZONATATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5P4DHS6ENR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BENZONATATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-773-52" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-773-20" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150312"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040682" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="capsule" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="16" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">A2</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Le99443c8-2149-429f-98c2-a162dc780b38">
+               <id root="6c5833b5-d571-49ce-9463-2e77d24de118"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>BOXED WARNING</title>
+               <text>
+                  <paragraph>BOXED WARNING</paragraph>
+                  <paragraph>Hypersensitivity</paragraph>
+                  <paragraph>Severe hypersensitivity reactions (including bronchospasm, laryngospasm and cardiovascular collapse) have been reported which are possibly related to local anesthesia from sucking or chewing the capsule instead of swallowing it. Severe reactions have required intervention with vasopressor agents and supportive measures.</paragraph>
+                  <paragraph>Psychiatric Effects</paragraph>
+                  <paragraph>Isolated instances of bizarre behavior, including mental confusion and visual hallucinations, have also been reported in patients taking benzonatate in combination with other prescribed drugs.</paragraph>
+                  <paragraph>Accidental Ingestion and Death in Children</paragraph>
+                  <paragraph>Keep benzonatate out of reach of children. Accidental ingestion of benzonatate resulting in death has been reported in children below age 10. Signs and symptoms of overdose have been reported within 15 to 20 minutes and death has been reported within one hour of ingestion. If accidental ingestion occurs, seek medical attention immediately (see OVERDOSAGE).</paragraph>
+               </text>
+               <effectiveTime value="20150323"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L04eacfd4-d42e-4cd8-9f92-07e3e7ec81ab">
+               <id root="9601bae3-ff76-4a77-a609-9e88fd0d71e9"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Benzonatate, a non-narcotic antitussive agent, is 2, 5, 8, 11, 14, 17, 20, 23, 26-nonaoxaoctacosan-28-yl p-(butylamino) benzoate; with a molecular weight of 603.7.</paragraph>
+                  <paragraph>Benzonatate Capsules, USP contain 100 mg or 200 mg of benzonatate, USP.</paragraph>
+                  <paragraph>Benzonatate Capsules also contain: D&amp;C Yellow No. 10, gelatin, glycerin, methylparaben sodium and propylparaben sodium.</paragraph>
+               </text>
+               <effectiveTime value="20150323"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le3bb05d2-b4ee-41bd-8ff4-b6dfddcb0d35">
+               <id root="b546a9e1-4030-449d-bcc3-c94bda5a4afb"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Benzonatate acts peripherally by anesthetizing the stretch receptors located in the respiratory passages, lungs, and pleura by dampening their activity and thereby reducing the cough reflex at its source. It begins to act within 15 to 20 minutes and its effect lasts for 3 to 8 hours. Benzonatate has no inhibitory effect on the respiratory center in recommended dosage.</paragraph>
+               </text>
+               <effectiveTime value="20150323"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0953ba12-7d9a-4656-a8f6-7d7cecc08ade">
+               <id root="b5d715fd-fc92-490c-8c09-fd94cfd42f61"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS &amp; USAGE</title>
+               <text>
+                  <paragraph>Benzonatate is indicated for the symptomatic relief of cough.</paragraph>
+               </text>
+               <effectiveTime value="20150323"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1e79c4cf-4872-4e59-a3a0-b694b3372748">
+               <id root="189fecb3-a45f-4d29-ad89-114918ce1a13"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Hypersensitivity to benzonatate or related compounds.</paragraph>
+               </text>
+               <effectiveTime value="20150323"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L05c2c1f5-27de-43fb-b98f-f3a754f029f4">
+               <id root="4833bd82-5567-4e50-9407-2a6c137961bb"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Benzonatate is chemically related to anesthetic agents of the para-amino-benzoic acid class (e.g., procaine; tetracaine) and has been associated with adverse CNS effects possibly related to a prior sensitivity to related agents or interaction with concomitant medication.</paragraph>
+                  <paragraph>Information for Patients:</paragraph>
+                  <paragraph>Swallow benzonatate capsules whole. Do not break, chew, dissolve, cut, or crush benzonatate capsules. Release of benzonatate from the capsule in the mouth can produce a temporary local anesthesia of the oral mucosa and choking could occur. If numbness or tingling of the tongue, mouth, throat, or face occurs, refrain from oral ingestion of food or liquids until the numbness has resolved. If the symptoms worsen or persist, seek medical attention.</paragraph>
+                  <paragraph>Keep benzonatate out of reach of children. Accidental ingestion resulting in death has been reported in children. Signs and symptoms of overdose have been reported within 15 to 20 minutes and death has been reported within one hour of ingestion. Signs and symptoms may include restlessness, tremors, convulsions, coma and cardiac arrest. If accidental ingestion occurs, seek medical attention immediately.</paragraph>
+                  <paragraph>Overdosage resulting in death may occur in adults.</paragraph>
+                  <paragraph>Do not exceed a single dose of 200 mg and a total daily dose of 600 mg. If you miss a dose of benzonatate, skip that dose and take the next dose at the next scheduled time. Do not take 2 doses of benzonatate at one time.</paragraph>
+                  <paragraph>Usage in Pregnancy:</paragraph>
+                  <paragraph>Pregnancy Category C.</paragraph>
+                  <paragraph>Animal reproduction studies have not been conducted with benzonatate. It is also not known whether benzonatate can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Benzonatate should be given to a pregnant woman only if clearly needed.</paragraph>
+                  <paragraph>Nursing Mothers:</paragraph>
+                  <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when benzonatate is administered to a nursing woman.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility:</paragraph>
+                  <paragraph>Carcinogenicity, mutagenicity, and reproduction studies have not been conducted with benzonatate.</paragraph>
+                  <paragraph>Pediatric Use:</paragraph>
+                  <paragraph>Safety and effectiveness in children below the age of 10 has not been established. Accidental ingestion resulting in death has been reported in children below age 10. Keep out of reach of children.</paragraph>
+               </text>
+               <effectiveTime value="20150323"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2685e1c2-db36-4212-bf15-5be9a4439f25">
+               <id root="e84585ae-f418-479d-8b7c-d7fe1d02e9cb"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Potential Adverse Reactions to benzonatate may include:</paragraph>
+                  <paragraph>Hypersensitivity reactions including bronchospasm, laryngospasm, cardiovascular collapse possibly related to local anesthesia from chewing or sucking the capsule.</paragraph>
+                  <paragraph>CNS: sedation; headache; dizziness; mental confusion; visual hallucinations.</paragraph>
+                  <paragraph>GI: constipation, nausea, GI upset.</paragraph>
+                  <paragraph>Dermatologic: pruritus; skin eruptions.</paragraph>
+                  <paragraph>Other: nasal congestion; sensation of burning in the eyes; vague “chilly” sensation; numbness of the chest; hypersensitivity.</paragraph>
+                  <paragraph>Deliberate or accidental overdose has resulted in death, particularly in children.</paragraph>
+               </text>
+               <effectiveTime value="20150323"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3d5d524f-154d-41e6-b860-ce0f72759b37">
+               <id root="32e791d7-c44a-4591-a862-03e53df2f41d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Intentional and unintentional overdose may result in death, particularly in children.</paragraph>
+                  <paragraph>The drug is chemically related to tetracaine and other topical anesthetics and shares various aspects of their pharmacology and toxicology. Drugs of this type are generally well absorbed after ingestion.</paragraph>
+                  <paragraph>Signs and Symptoms:</paragraph>
+                  <paragraph>The signs and symptoms of overdose of benzonatate have been reported within 15 to 20 minutes. If capsules are chewed or dissolved in the mouth, oropharyngeal anesthesia will develop rapidly, which may cause choking and airway compromise.</paragraph>
+                  <paragraph>CNS stimulation may cause restlessness and tremors, which may proceed to clonic convulsions followed by profound CNS depression. Convulsions, coma, cerebral edema and cardiac arrest leading to death have been reported within 1 hour of ingestion.</paragraph>
+                  <paragraph>Treatment:</paragraph>
+                  <paragraph>In case of overdose, seek medical attention immediately. Evacuate gastric contents and administer copious amounts of activated charcoal slurry. Even in the conscious patient, cough and gag refluxes may be so depressed as to necessitate special attention to protection against aspiration of gastric contents and orally administered materials. Convulsions should be treated with a short-acting barbiturate given intravenously and carefully titrated for the smallest effective dosage. Intensive support of respiration and cardiovascular-renal function is an essential feature of the treatment of severe intoxication from overdosage.</paragraph>
+                  <paragraph>Do not use CNS stimulants.</paragraph>
+               </text>
+               <effectiveTime value="20150323"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6e821e15-c04b-41bf-b877-98f4b9e57161">
+               <id root="a0decbf0-1037-455e-a6eb-0766cee2cfb0"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE &amp; ADMINISTRATION</title>
+               <text>
+                  <paragraph>Adults and Children over 10 years of age:</paragraph>
+                  <paragraph>Usual dose is one 100 mg or 200 mg capsule three times a day as needed for cough. If necessary to control cough, up to 600 mg daily in three divided doses may be given. Benzonatate should be swallowed whole. Benzonatate Capsules are not to be broken, chewed, dissolved, cut or crushed.</paragraph>
+               </text>
+               <effectiveTime value="20150323"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L80b9bd74-7c3a-458d-8c6c-6c044e8c7285">
+               <id root="c271c915-b053-468e-800f-ed1eb793525d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC: 51655-773-52</paragraph>
+                  <paragraph>MFG: 65162-537-50</paragraph>
+                  <paragraph>Benzonatate 200 MG</paragraph>
+                  <paragraph>30 Capsules</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>Lot#</paragraph>
+                  <paragraph>Exp. Date:</paragraph>
+                  <paragraph>Each soft gelatin capsule contains Benzonatate, USP...200 MG</paragraph>
+                  <paragraph>Dosage: See accompanying prescribing information.</paragraph>
+                  <paragraph>Store at 68 to 77 degrees F.</paragraph>
+                  <paragraph>Keep tightly closed.  Protect from light.  Keep out of the reach of children.</paragraph>
+                  <paragraph>Medication guide is found at www.fda.gov/drugs/drugsafety/ucm085729</paragraph>
+                  <paragraph>Mfg. by Amneal Pharmaceuticals of NY, Hauppauge, NY 11788</paragraph>
+                  <paragraph>Mfg for Amneal Pharmaceuticals, Glasgow, KY 42141 Lot#</paragraph>
+                  <paragraph>Repackaged by Northwind Pharmaceuticals, Indianapolis, IN 46256</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L974be2d3-9d9b-431e-9bea-128345830944"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150323"/>
+               <component>
+                  <observationMedia ID="L974be2d3-9d9b-431e-9bea-128345830944">
+                     <text>51655-773-52</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51655-773-52.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L7894ce25-4b2c-498a-bf56-670fe0904280">
+               <id root="24288b55-7eb6-4cb0-add2-9a17b53b47e0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package Label.Principal Display</title>
+               <text>
+                  <paragraph>NDC: 51655-773-20</paragraph>
+                  <paragraph>MFG: 65162-537-50</paragraph>
+                  <paragraph>Benzonatate 200MG</paragraph>
+                  <paragraph>20 Capsules</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>Lot #: </paragraph>
+                  <paragraph>Exp. Date:</paragraph>
+                  <paragraph>Each capsule contains: Benzonatate, USP..... 200MG</paragraph>
+                  <paragraph>Dosage: See accompanying prescribing information</paragraph>
+                  <paragraph>Store at 68 to 77 degrees F.</paragraph>
+                  <paragraph>Keept tightly closed. Protect form light. Keep out of the reach of children.</paragraph>
+                  <paragraph>Medication guide is found at www.fda.gov/drugs/drugsafety/ucm085729</paragraph>
+                  <paragraph>Mfg. by: Amneal Pharmaceuticals of NY Hauppauge, NY 11788</paragraph>
+                  <paragraph>Dist. by: Amneal Pharmaceuticals Glasgow, KY 42141 Lot#</paragraph>
+                  <paragraph>Repackaged By: Northwind Pharmaceuticals, Indianapolis, IN 46256</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L02c66d7e-4032-49a7-88fc-79e189e57191"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150506"/>
+               <component>
+                  <observationMedia ID="L02c66d7e-4032-49a7-88fc-79e189e57191">
+                     <text>51655-773-20</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51655-773-20.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

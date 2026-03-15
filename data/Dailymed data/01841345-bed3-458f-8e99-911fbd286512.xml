@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="01841345-bed3-458f-8e99-911fbd286512"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>Sodium Nitroprusside Injection<br/> Rx Only<br/>
+   </title>
+   <effectiveTime value="20210722"/>
+   <setId root="01841345-bed3-458f-8e99-911fbd286512"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="081499296" root="1.3.6.1.4.1.519.1"/>
+            <name>BE Pharmaceuticals Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="871410645" root="1.3.6.1.4.1.519.1"/>
+                        <name>Biological E. Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="71839-120" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="71839-120" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2fa3873b-df39-46a6-b911-df106426e101"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20210722"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71839-120" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Nitroprusside<suffix/>
+                        </name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sodium Nitroprusside</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="2" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="EAO03PE1TC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Nitroprusside</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="169D1260KM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Nitroprusside</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="71839-120-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210712"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA214971" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210712"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_0">
+               <id root="5bafabe7-ca8e-4418-9daf-0f2b517e5982"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>BOXED WARNING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Sodium nitroprusside injection is not suitable for direct injection. The solution must be further diluted in sterile 5% dextrose injection before infusion.<br/> Sodium nitroprusside injection can cause precipitous decreases in blood pressure (see <content styleCode="italics">DOSAGE AND ADMINISTRATION</content>). In patients not properly monitored, these decreases can lead to irreversible ischemic injuries or death. Sodium nitroprusside should be used only when available equipment and personnel allow blood pressure to be continuously monitored.<br/> Except when used briefly or at low (&lt; 2 mcg/kg/min) infusion rates, sodium nitroprusside gives rise to important quantities of cyanide ion, which can reach toxic, potentially lethal levels (see <content styleCode="italics">WARNINGS</content>). The usual dose rate is 0.5 to 10 mcg/kg/min, but infusion at the maximum dose rate should never last more than 10 minutes. If blood pressure has not been adequately controlled after 10 minutes of infusion at the maximum rate, administration of sodium nitroprusside should be terminated immediately.<br/> Although acid-base balance and venous oxygen concentration should be monitored and may indicate cyanide toxicity, these laboratory tests provide imperfect guidance.</content>
+                  </paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20210722"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="4535a8b0-1c8e-4c34-9fa1-3a3c9455b538"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <br/>
+                  <paragraph>Sodium nitroprusside is disodium pentacyanonitrosylferrate(2-) dihydrate, a hypotensive agent whose structural formula is</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <br/>
+                  <paragraph>whose molecular formula is Na<sub>2</sub>[Fe(CN)<sub>5</sub>NO] 2H<sub>2</sub>O, and whose molecular weight is 297.95. Dry sodium nitroprusside, USP available as reddish-brown powder or crystals, freely soluble in water and slightly soluble in alcohol. In an aqueous solution infused intravenously, sodium nitroprusside is a rapid-acting vasodilator, active on both arteries and veins.</paragraph>
+                  <br/>
+                  <paragraph>Sodium nitroprusside solution is rapidly degraded by trace contaminants, often with resulting color changes. (See <content styleCode="italics">
+                        <content styleCode="bold">DOSAGE AND ADMINISTRATION </content>
+                     </content>section.) The solution is also sensitive to certain wavelengths of light, and it must be protected from light in clinical use.</paragraph>
+                  <br/>
+                  <paragraph>Sodium nitroprusside injection is available as:<br/> 50 mg Fliptop Vial – Each 2 mL vial contains the equivalent of 50 mg sodium nitroprusside dihydrate in sterile water for injection.</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20210722"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="9f5db6ac-16da-459f-821f-1aee24a030a2"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <br/>
+                  <paragraph>The principal pharmacological action of sodium nitroprusside is relaxation of vascular smooth muscle and consequent dilatation of peripheral arteries and veins. Other smooth muscle (e.g., uterus, duodenum) is not affected. Sodium nitroprusside is more active on veins than on arteries, but this selectivity is much less marked than that of nitroglycerin. Dilatation of the veins promotes peripheral pooling of blood and decreases venous return to the heart, thereby reducing left ventricular end diastolic pressure and pulmonary capillary wedge pressure (preload). Arteriolar relaxation reduces systemic vascular resistance, systolic arterial pressure, and mean arterial pressure (afterload). Dilatation of the coronary arteries also occurs.</paragraph>
+                  <br/>
+                  <paragraph>In association with the decrease in blood pressure, sodium nitroprusside administered intravenously to hypertensive and normotensive patients produces slight increases in heart rate and a variable effect on cardiac output. In hypertensive patients, moderate doses induce renal vasodilatation roughly proportional to the decrease in systemic blood pressure, so there is no appreciable change in renal blood flow or glomerular filtration rate. </paragraph>
+                  <br/>
+                  <paragraph>In normotensive subjects, acute reduction of mean arterial pressure to 60 to 75 mm Hg by infusion of sodium nitroprusside caused a significant increase in renin activity. In the same study, ten renovascular-hypertensive patients given sodium nitroprusside had significant increases in renin release from the involved kidney at mean arterial pressures of 90 to 137 mm Hg. </paragraph>
+                  <br/>
+                  <paragraph>The hypotensive effect of sodium nitroprusside is seen within a minute or two after the start of an adequate infusion, and it dissipates almost as rapidly after an infusion is discontinued. The effect is augmented by ganglionic blocking agents and inhaled anesthetics. </paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics and Metabolism:</content> Infused sodium nitroprusside is rapidly distributed to a volume that is approximately coextensive with the extracellular space. The drug is cleared from this volume by intraerythrocytic reaction with hemoglobin (Hgb), and sodium nitroprusside’s resulting circulatory half-life is about 2 minutes.</paragraph>
+                  <br/>
+                  <paragraph>The products of the nitroprusside/hemoglobin reaction are cyanmethemoglobin (cyanmetHgb) and cyanide ion (CN<sup>–</sup>). Safe use of sodium nitroprusside injection must be guided by knowledge of the further metabolism of these products. </paragraph>
+                  <br/>
+                  <paragraph> As shown in the diagram below, the essential features of nitroprusside metabolism are</paragraph>
+                  <br/>
+                  <paragraph>• one molecule of sodium nitroprusside is metabolized by combination with hemoglobin to produce one molecule of cyanmethemoglobin and four CN<sup>– </sup>ions;<br/> • methemoglobin, obtained from hemoglobin, can sequester cyanide as cyanmethemoglobin;<br/> • thiosulfate reacts with cyanide to produce thiocyanate;<br/> • thiocyanate is eliminated in the urine;<br/> • cyanide not otherwise removed binds to cytochromes; and<br/> • cyanide is much more toxic than methemoglobin or thiocyanate. </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+                  <paragraph>Cyanide ion is normally found in serum; it is derived from dietary substrates and from tobacco smoke. Cyanide binds avidly (but reversibly) to ferric ion (Fe+++), most body stores of which are found in erythrocyte methemoglobin (metHgb) and in mitochondrial cytochromes. When CN<sup>–</sup> is infused or generated within the bloodstream, essentially all of it is bound to methemoglobin until intraerythrocytic methemoglobin has been saturated.</paragraph>
+                  <br/>
+                  <paragraph>When the Fe+++ of cytochromes is bound to cyanide, the cytochromes are unable to participate in oxidative metabolism. In this situation, cells may be able to provide for their energy needs by utilizing anaerobic pathways, but they thereby generate an increasing body burden of lactic acid. Other cells may be unable to utilize these alternative pathways, and they may die hypoxic deaths.</paragraph>
+                  <br/>
+                  <paragraph>CN<sup>–</sup> levels in packed erythrocytes are typically less than 1 <content styleCode="italics">μ</content>mol/L (less than 25 mcg/L); levels are roughly doubled in heavy smokers. </paragraph>
+                  <br/>
+                  <paragraph>At healthy steady state, most people have less than 1% of their hemoglobin in the form of methemoglobin. Nitroprusside metabolism can lead to methemoglobin formation (a) through dissociation of cyanmethemoglobin formed in the original reaction of sodium nitroprusside with Hgb and (b) by direct oxidation of Hgb by the released nitroso group. Relatively large quantities of sodium nitroprusside, however, are required to produce significant methemoglobinemia.</paragraph>
+                  <br/>
+                  <paragraph>At physiologic methemoglobin levels, the CN<sup>–</sup> binding capacity of packed red cells is a little less than 200 <content styleCode="italics">μ</content>mol/L (5 mg/L). Cytochrome toxicity is seen at levels only slightly higher, and death has been reported at levels from 300 to 3000 <content styleCode="italics">μ</content>mol/L (8 to 80 mg/L). Put another way, a patient with a normal red-cell mass (35 mL/kg) and normal methemoglobin levels can buffer about 175 mcg/kg of CN<sup>–</sup>, corresponding to a little less than 500 mcg/kg of infused sodium nitroprusside.</paragraph>
+                  <br/>
+                  <paragraph>Some cyanide is eliminated from the body as expired hydrogen cyanide, but most is enzymatically converted to thiocyanate (SCN<sup>–</sup>) by thiosulfate-cyanide sulfur transferase (rhodanase, EC 2.8.1.1), a mitochondrial enzyme. The enzyme is normally present in great excess, so the reaction is rate-limited by the availability of sulfur donors, especially thiosulfate, cystine, and cysteine.</paragraph>
+                  <br/>
+                  <paragraph>Thiosulfate is a normal constituent of serum, produced from cysteine by way of β-mercaptopyruvate. Physiological levels of thiosulfate are typically about 0.1 mmol/L (11 mg/L), but they are approximately twice this level in pediatric and adult patients who are not eating. Infused thiosulfate is cleared from the body (primarily by the kidneys) with a half-life of about 20 minutes.</paragraph>
+                  <br/>
+                  <paragraph>When thiosulfate is being supplied only by normal physiologic mechanisms, conversion of CN<sup>–</sup> to SCN<sup>–</sup> generally proceeds at about 1 mcg/kg/min. This rate of CN<sup>–</sup> clearance corresponds to steady-state processing of a sodium nitroprusside infusion of slightly more than 2 mcg/kg/min. CN<sup>–</sup> begins to accumulate when sodium nitroprusside infusions exceed this rate.</paragraph>
+                  <br/>
+                  <paragraph>Thiocyanate (SCN<sup>–</sup>) is also a normal physiological constituent of serum, with normal levels typically in the range of 50 to 250 <content styleCode="italics">μ</content>mol/L (3 to 15 mg/L). Clearance of SCN<sup>–</sup> is primarily renal, with a half-life of about 3 days. In renal failure, the half-life can be doubled or tripled.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Clinical Trials:</content> Baseline-controlled clinical trials have uniformly shown that sodium nitroprusside has a prompt hypotensive effect, at least initially, in all populations. With increasing rates of infusion, sodium nitroprusside has been able to lower blood pressure without an observed limit of effect.</paragraph>
+                  <br/>
+                  <paragraph>Clinical trials have also shown that the hypotensive effect of sodium nitroprusside is associated with reduced blood loss in a variety of major surgical procedures.</paragraph>
+                  <br/>
+                  <paragraph>In patients with acute congestive heart failure and increased peripheral vascular resistance, administration of sodium nitroprusside causes reductions in peripheral resistance, increases in cardiac output, and reductions in left ventricular filling pressure.</paragraph>
+                  <br/>
+                  <paragraph>Many trials have verified the clinical significance of the metabolic pathways described above. In patients receiving unopposed infusions of sodium nitroprusside, cyanide and thiocyanate levels have increased with increasing rates of sodium nitroprusside infusion. Mild to moderate metabolic acidosis has usually accompanied higher cyanide levels, but peak base deficits have lagged behind the peak cyanide levels by an hour or more.</paragraph>
+                  <br/>
+                  <paragraph>Progressive tachyphylaxis to the hypotensive effects of sodium nitroprusside has been reported in several trials and numerous case reports. This tachyphylaxis has frequently been attributed to concomitant cyanide toxicity, but the only evidence adduced for this assertion has been the observation that in patients treated with sodium nitroprusside and found to be resistant to its hypotensive effects, cyanide levels are often found to be elevated. In the only reported comparisons of cyanide levels in resistant and nonresistant patients, cyanide levels did not correlate with tachyphylaxis. The mechanism of tachyphylaxis to sodium nitroprusside remains unknown.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric:</content> The effects of sodium nitroprusside to induce hypotension were evaluated in two trials in pediatric patients less than 17 years of age. In both trials, at least 50% of the patients were pre-pubertal, and about 50% of these pre-pubertal patients were less than 2 years of age, including 4 neonates. The primary efficacy variable was the mean arterial pressure (MAP).</paragraph>
+                  <br/>
+                  <paragraph>There were 203 pediatric patients in a parallel, dose-ranging study (Study 1). During the 30 minute blinded phase, patients were randomized 1:1:1:1 to receive sodium nitroprusside 0.3, 1, 2, or 3 mcg/kg/min. The infusion rate was increased step-wise to the target dose rate (i.e., 1/3 of the full rate for the first 5 minutes, 2/3 of the full rate for the next 5 minutes, and the full dose rate for the last 20 minutes). If the investigator believed that an increase to the next higher dose rate would be unsafe, the infusion remained at the current rate for the remainder of the blinded infusion. Since there was no placebo group, the change from baseline likely overestimates the true magnitude of blood pressure effect. Nevertheless, MAP decreased 11 to 20 mmHg from baseline across the four doses (Table 1).</paragraph>
+                  <br/>
+                  <paragraph>There were 63 pediatric patients in a long-term infusion trial (Study 2). During an open-label phase (12 to 24 hours), sodium nitroprusside was started at ≤0.3 mcg/kg/min and titrated according to the BP response.</paragraph>
+                  <br/>
+                  <paragraph>Patients were then randomized to placebo or to continuing the same dose of sodium nitroprusside. The average MAP was greater in the control group than in the sodium nitroprusside group for every time point during the blinded withdrawal phase, demonstrating that sodium nitroprusside is effective for at least 12 hours.</paragraph>
+                  <br/>
+                  <paragraph>In both studies, similar effects on MAP were seen in all age groups.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Table 1: Change from Baseline in MAP (mmHg) After 30 Minutes Double-Blind Infusion (Study 1)</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>                                 </paragraph>
+                  <table cellspacing="0" cellpadding="0" border="0" width="599.564">
+                     <colgroup>
+                        <col width="19.9977817213842%"/>
+                        <col width="19.9977817213842%"/>
+                        <col width="19.9977817213842%"/>
+                        <col width="19.9977817213842%"/>
+                        <col width="20.0088731144632%"/>
+                     </colgroup>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="5" align="center" valign="middle"> Treatment<br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle"> Endpoint<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 0.3 mcg/kg/min<br/> (N = 50)<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 1 mcg/kg/min<br/> (N = 49)<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 2 mcg/kg/min<br/> (N = 53)<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 3 mcg/kg/min<br/> (N = 51)<br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle"> Baseline<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 76 ± 11<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 77 ± 15<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 74 ± 12<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 76 ± 12<br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle"> 30 Min<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 65 ± 13<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 60 ± 15<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 54 ± 12<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> 60 ± 18<br/> </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="center" valign="middle"> Change from Baseline<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> -11 ± 16<br/> (-15, -6.5)<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> -17 ± 13<br/> (-21, -13)<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> -20 ± 16<br/> (-24, -16)<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle"> -17 ±19<br/> (-22, -11)<br/> </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Mean ± SD (95% CI)</paragraph>
+               </text>
+               <effectiveTime value="20210722"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>sodmet</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sodmet.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="4523a893-584c-4c23-a2b8-bf9e92c9b567"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS &amp; USAGE</title>
+               <text>
+                  <br/>
+                  <paragraph>Sodium nitroprusside is indicated for the immediate reduction of blood pressure of adult and pediatric patients in hypertensive crises. Concomitant longer-acting antihypertensive medication should be administered so that the duration of treatment with sodium nitroprusside can be minimized.<br/>Sodium nitroprusside is also indicated for producing controlled hypotension in order to reduce bleeding during surgery.<br/>Sodium nitroprusside is also indicated for the treatment of acute congestive heart failure.</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20210722"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="c10f7479-9cdf-40f5-971a-5d9eaf048960"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <br/>
+                  <paragraph>Sodium nitroprusside should not be used in the treatment of compensatory hypertension, where the primary hemodynamic lesion is aortic coarctation or arteriovenous shunting.</paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph>Sodium nitroprusside should not be used to produce hypotension during surgery in patients with known inadequate cerebral circulation, or in moribund patients (A.S.A. Class 5E) coming to emergency surgery.</paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph>Patients with congenital (Leber’s) optic atrophy or with tobacco amblyopia have unusually high cyanide/thiocyanate ratios. These rare conditions are probably associated with defective or absent rhodanase, and sodium nitroprusside should be avoided in these patients.</paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph>Sodium nitroprusside should not be used for the treatment of acute congestive heart failure associated with reduced peripheral vascular resistance such as high-output heart failure that may be seen in endotoxic sepsis. </paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20210722"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="fc7bc080-c815-460e-996f-9cff0563cf2b"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <br/>
+                  <paragraph>(See also the boxed warning at the beginning of this insert.)</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>The principal hazards of sodium nitroprusside injection administration are excessive hypotension and excessive accumulation of cyanide (see also <content styleCode="bold">
+                        <content styleCode="italics">OVERDOSAGE </content>
+                     </content>and <content styleCode="italics">
+                        <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+                     </content>).</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Excessive Hypotension: </content>Small transient excesses in the infusion rate of sodium nitroprusside can result in excessive hypotension, sometimes to levels so low as to compromise the perfusion of vital organs. These hemodynamic changes may lead to a variety of associated symptoms; see <content styleCode="bold">
+                        <content styleCode="italics">ADVERSE REACTIONS</content>
+                     </content>. Nitroprusside-induced hypotension will be self-limited within 1 to 10 minutes after discontinuation of the nitroprusside infusion; during these few minutes, it may be helpful to put the patient into a head-down (Trendelenburg) position to maximize venous return. If hypotension persists more than a few minutes after discontinuation of the infusion of sodium nitroprusside injection, sodium nitroprusside injection is not the cause, and the true cause must be sought.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Cyanide Toxicity:</content> As described in <content styleCode="bold">
+                        <content styleCode="italics">CLINICAL PHARMACOLOGY </content>
+                     </content>above, sodium nitroprusside infusions at rates above 2 mcg/kg/min generate cyanide ion (CN<sup>–</sup>) faster than the body can normally dispose of it. (When sodium thiosulfate is given, as described under <content styleCode="bold">
+                        <content styleCode="italics">DOSAGE AND ADMINISTRATION</content>
+                     </content>, the body’s capacity for CN<sup>– </sup>elimination is greatly increased.) Methemoglobin normally present in the body can buffer a certain amount of CN–, but the capacity of this system is exhausted by the CN<sup>– </sup>produced from about 500 mcg/kg of sodium nitroprusside. This amount of sodium nitroprusside is administered in less than an hour when the drug is administered at 10 mcg/kg/min (the maximum recommended rate). Thereafter, the toxic effects of CN<sup>– </sup>may be rapid, serious, and even lethal.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>The true rates of clinically important cyanide toxicity cannot be assessed from spontaneous reports or published data. Most patients reported to have experienced such toxicity have received relatively prolonged infusions, and the only patients whose deaths have been unequivocally attributed to nitroprusside-induced cyanide toxicity have been patients who had received nitroprusside infusions at rates (30 to 120 mcg/kg/min) much greater than those now recommended. Elevated cyanide levels, metabolic acidosis, and marked clinical deterioration, however, have occasionally been reported in patients who received infusions at recommended rates for only a few hours and even, in one case, for only 35 minutes. In some of these cases, infusion of sodium thiosulfate caused dramatic clinical improvement, supporting the diagnosis of cyanide toxicity.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Cyanide toxicity may manifest itself as venous hyperoxemia with bright red venous blood, as cells become unable to extract the oxygen delivered to them; metabolic (lactic) acidosis; air hunger; confusion; and death. Cyanide toxicity due to causes other than nitroprusside has been associated with angina pectoris and myocardial infarction; ataxia, seizures, and stroke; and other diffuse ischemic damage.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Hypertensive patients, and patients concomitantly receiving other antihypertensive medications, may be more sensitive to the effects of sodium nitroprusside than normal subjects.</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20210722"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="71a87e93-25d2-400a-b6a6-66118e1d4712"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20210722"/>
+               <component>
+                  <section ID="Section_6.1">
+                     <id root="66441982-a619-4f08-bc6d-e622be51272f"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>GENERAL PRECAUTIONS</title>
+                     <text>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">General:</content> Like other vasodilators, sodium nitroprusside can cause increases in intracranial pressure. In patients whose intracranial pressure is already elevated, sodium nitroprusside should be used only with extreme caution.<br/>
+                           <content styleCode="bold">Hepatic:</content> Use caution when administering nitroprusside to patients with hepatic insufficiency.<br/>
+                           <content styleCode="bold">Use in Anesthesia: </content>When sodium nitroprusside (or any other vasodilator) is used for controlled hypotension during anesthesia, the patient’s capacity to compensate for anemia and hypovolemia may be diminished. If possible, pre-existing anemia and hypovolemia should be corrected prior to administration of sodium nitroprusside injection. <br/>Hypotensive anesthetic techniques may also cause abnormalities of the pulmonary ventilation/perfusion ratio. Patients intolerant of these abnormalities may require a higher fraction of inspired oxygen.<br/>Extreme caution should be exercised in patients who are especially poor surgical risks (A.S.A. Class 4 and 4E). </paragraph>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20210722"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.3">
+                     <id root="70815cea-25ae-4c14-a38d-9bd7f6469415"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>LABORATORY TESTS</title>
+                     <text>
+                        <br/>
+                        <paragraph>The cyanide-level assay is technically difficult, and cyanide levels in body fluids other than packed red blood cells are difficult to interpret. Cyanide toxicity will lead to lactic acidosis and venous hyperoxemia, but these findings may not be present until an hour or more after the cyanide capacity of the body’s red-cell mass has been exhausted.</paragraph>
+                     </text>
+                     <effectiveTime value="20210722"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.4">
+                     <id root="4d6fb281-828a-488a-be59-749504376104"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>DRUG INTERACTIONS</title>
+                     <text>
+                        <paragraph>The hypotensive effect of sodium nitroprusside is augmented by that of most other hypotensive drugs, including ganglionic blocking agents, negative inotropic agents, and inhaled anesthetics.</paragraph>
+                     </text>
+                     <effectiveTime value="20210722"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.6">
+                     <id root="265549fe-0053-403f-a37c-017d76b426a4"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY</title>
+                     <text>
+                        <br/>
+                        <paragraph>Animal studies assessing sodium nitroprusside’s carcinogenicity and mutagenicity have not been conducted. Similarly, sodium nitroprusside has not been tested for effects on fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20210722"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.7">
+                     <id root="1936bfe0-bbba-4e12-8b12-f999e58c5c5c"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>PREGNANCY</title>
+                     <text>
+                        <br/>
+                        <paragraph>Teratogenic effects: Pregnancy Category C.</paragraph>
+                        <br/>
+                        <br/>
+                        <paragraph>There are no adequate, well-controlled studies of sodium nitroprusside injection in either laboratory animals or pregnant women. It is not known whether sodium nitroprusside injection can cause fetal harm when administered to a pregnant woman or can affect reproductive capacity. Sodium nitroprusside injection should be given to a pregnant woman only if clearly needed.</paragraph>
+                        <br/>
+                        <br/>
+                        <paragraph>Nonteratogenic effects: In three studies in pregnant ewes, nitroprusside was shown to cross the placental barrier. Fetal cyanide levels were shown to be dose-related to maternal levels of nitroprusside. The metabolic transformation of sodium nitroprusside given to pregnant ewes led to fatal levels of cyanide in the fetuses. The infusion of 25 mcg/kg/min of sodium nitroprusside for one hour in pregnant ewes resulted in the death of all fetuses. Pregnant ewes infused with 1 mcg/kg/min of sodium nitroprusside for one hour delivered normal lambs.</paragraph>
+                        <br/>
+                        <br/>
+                        <paragraph>According to one investigator, a pregnant woman at 24 weeks gestation was given sodium nitroprusside to control gestational hypertension secondary to mitral valve disease. Sodium nitroprusside was infused at 3.9 mcg/kg/min for a total of 3.5 mg/kg over 15 hours prior to delivery of a 478 gram stillborn infant without any obvious anomalies. Cyanide levels in the fetal liver were less than 10 mcg/mL. Toxic levels have been reported to be more than 30 to 40 mcg/mL. The mother demonstrated no cyanide toxicity.</paragraph>
+                        <br/>
+                        <br/>
+                        <paragraph>The effects of administering sodium thiosulfate in pregnancy, either by itself or as a co-infusion with sodium nitroprusside, are completely unknown.</paragraph>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20210722"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.9">
+                     <id root="9eed0635-e74c-4437-9dc6-4ab7974b2230"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>NURSING MOTHERS</title>
+                     <text>
+                        <br/>
+                        <paragraph>It is not known whether sodium nitroprusside and its metabolites are excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from sodium nitroprusside, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20210722"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.10">
+                     <id root="f92d79ce-f93c-4daa-9005-04db6b04f66a"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>PEDIATRIC USE</title>
+                     <text>
+                        <br/>
+                        <paragraph>Efficacy in the pediatric population was established based on adult trials and supported by the dose-ranging trial (Study 1) and an open label trial of at least 12 hour infusion at a rate that achieved adequate MAP control (Study 2) with pediatric patients on sodium nitroprusside. No novel safety issues were seen in these studies in pediatric patients. See <content styleCode="italics">
+                              <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+                           </content> and <content styleCode="italics">
+                              <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20210722"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="cd63c63f-477b-4522-a74d-8c4df6f45635"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <br/>
+                  <paragraph>The most important adverse reactions to sodium nitroprusside are the avoidable ones of excessive hypotension and cyanide toxicity, described above under <content styleCode="italics">
+                        <content styleCode="bold">WARNINGS</content>
+                     </content>. The adverse reactions described in this section develop less rapidly and, as it happens, less commonly.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Methemoglobinemia:</content> As described in <content styleCode="bold">
+                        <content styleCode="italics">CLINICAL PHARMACOLOGY </content>
+                     </content>above, sodium nitroprusside infusions can cause sequestration of hemoglobin as methemoglobin. The back-conversion process is normally rapid, and clinically significant methemoglobinemia (&gt;10%) is seen only rarely in patients receiving sodium nitroprusside injection. Even patients congenitally incapable of back-converting methemoglobin should demonstrate 10% methemoglobinemia only after they have received about 10 mg/kg of sodium nitroprusside, and a patient receiving sodium nitroprusside at the maximum recommended rate (10 mcg/kg/min) would take over 16 hours to reach this total accumulated dose.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Methemoglobin levels can be measured by most clinical laboratories. The diagnosis should be suspected in patients who have received &gt;10 mg/kg of sodium nitroprusside and who exhibit signs of impaired oxygen delivery despite adequate cardiac output and adequate arterial pO2. Classically, methemoglobinemic blood is described as chocolate brown, without color change on exposure to air.<br/>When methemoglobinemia is diagnosed, the treatment of choice is 1 to 2 mg/kg of methylene blue, administered intravenously over several minutes. In patients likely to have substantial amounts of cyanide bound to methemoglobin as cyanmethemoglobin, treatment of methemoglobinemia with methylene blue must be undertaken with extreme caution.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Thiocyanate Toxicity:</content> As described in <content styleCode="bold">
+                        <content styleCode="italics">CLINICAL PHARMACOLOGY </content>
+                     </content>above, most of the cyanide produced during metabolism of sodium nitroprusside is eliminated in the form of thiocyanate. When cyanide elimination is accelerated by the co-infusion of thiosulfate, thiocyanate production is increased.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Thiocyanate is mildly neurotoxic (tinnitus, miosis, hyperreflexia) at serum levels of 1   mmol/L (60 mg/L). Thiocyanate toxicity is life-threatening when levels are 3 or 4 times higher (200 mg/L). </paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>The steady-state thiocyanate level after prolonged infusions of sodium nitroprusside is increased with increased infusion rate, and the half-time of accumulation is 3 to 4 days. To keep the steady-state thiocyanate level below 1 mmol/L, a prolonged infusion of sodium nitroprusside should not be more rapid than 3 mcg/kg/min; in anuric patients, the corresponding limit is just 1 mcg/kg/min. When prolonged infusions are more rapid than these, thiocyanate levels should be measured daily. </paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Physiologic maneuvers (e.g., those that alter the pH of the urine) are not known to increase the elimination of thiocyanate. Thiocyanate clearance rates during dialysis, on the other hand, can approach the blood flow rate of the dialyzer.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph> Thiocyanate interferes with iodine uptake by the thyroid.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Abdominal pain, apprehension, diaphoresis, “dizziness,” headache, muscle twitching, nausea, palpitations, restlessness, retching, and retrosternal discomfort have been noted when the blood pressure was too rapidly reduced. These symptoms quickly disappeared when the infusion was slowed or discontinued, and they did not reappear with a continued (or resumed) slower infusion.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Other adverse reactions reported are:<br/>
+                     <content styleCode="bold">Cardiovascular</content>: Bradycardia, electrocardiographic changes, tachycardia.<br/>
+                     <content styleCode="bold">Dermatologic</content>: Rash.<br/>
+                     <content styleCode="bold">Endocrine</content>: Hypothyroidism.<br/>
+                     <content styleCode="bold">Gastrointestinal</content>: Ileus.<br/>
+                     <content styleCode="bold">Hematologic</content>: Decreased platelet aggregation.<br/>
+                     <content styleCode="bold">Neurologic</content>: Increased intracranial pressure.<br/>
+                     <content styleCode="bold">Miscellaneous</content>: Flushing, venous streaking, irritation at the infusion site.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact BE Pharmaceuticals Inc. at 1-877-648-9517 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. </content>
+                  </paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20210722"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="2a0bcc2a-09b4-4d95-abfe-ce09f0847f5d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <br/>
+                  <paragraph>Overdosage of nitroprusside can be manifested as excessive hypotension or cyanide toxicity (see <content styleCode="bold">
+                        <content styleCode="italics">WARNINGS</content>
+                     </content>) or as thiocyanate toxicity (see <content styleCode="bold">
+                        <content styleCode="italics">ADVERSE REACTIONS</content>
+                     </content>).</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>The acute intravenous mean lethal doses (LD50) of nitroprusside in rabbits, dogs, mice, and rats are 2.8, 5.0, 8.4, and 11.2 mg/kg, respectively.  </paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Treatment of cyanide toxicity:</content> Cyanide levels can be measured by many laboratories, and blood-gas studies that can detect venous hyperoxemia or acidosis are widely available. <content styleCode="bold">Acidosis may not appear until more than an hour after the appearance of dangerous cyanide levels, and laboratory tests should not be awaited. Reasonable suspicion of cyanide toxicity is adequate grounds for initiation of treatment.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>Treatment of cyanide toxicity consists of<br/>• discontinuing the administration of sodium nitroprusside;<br/> • providing a buffer for cyanide by using sodium nitrite to convert as much hemoglobin into methemoglobin as the patient can safely tolerate; and then<br/> • infusing sodium thiosulfate in sufficient quantity to convert the cyanide into thiocyanate.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>The necessary medications for this treatment are contained in commercially available Cyanide Antidote Kits. Alternatively, discrete stocks of medications can be used.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Hemodialysis is ineffective in removal of cyanide, but it will eliminate most thiocyanate.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Cyanide Antidote Kits contain both amyl nitrite and sodium nitrite for induction of methemoglobinemia. The amyl nitrite is supplied in the form of inhalant ampoules, for administration in environments where intravenous administration of sodium nitrite may be delayed. In a patient who already has a patent intravenous line, use of amyl nitrite confers no benefit that is not provided by infusion of sodium nitrite.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Sodium nitrite is available in a 3% solution, and 4 to 6 mg/kg (about 0.2 mL/kg) should be injected over 2 to 4 minutes. This dose can be expected to convert about 10% of the patient’s hemoglobin into methemoglobin; this level of methemoglobinemia is not associated with any important hazard of its own. The nitrite infusion may cause transient vasodilatation and hypotension, and this hypotension must, if it occurs, be routinely managed.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Immediately after infusion of the sodium nitrite, sodium thiosulfate should be infused. This agent is available in 10% and 25% solutions, and the recommended dose is 150 to 200 mg/kg; a typical adult dose is 50 mL of the 25% solution. Thiosulfate treatment of an acutely cyanide-toxic patient will raise thiocyanate levels, but not to a dangerous degree.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>The nitrite/thiosulfate regimen may be repeated, at half the original doses, after two hours.</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20210722"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="419a1e9b-c1c3-4d3d-b189-4f6680d43bff"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE &amp; ADMINISTRATION</title>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Dilution to proper strength for infusion:</content> Depending on the desired concentration, the solution containing 50 mg of sodium nitroprusside injection must be further diluted in 250 to 1000 mL of sterile 5% dextrose injection. The diluted solution should be protected from light, using the supplied opaque sleeve, aluminum foil, or other opaque material. It is not necessary to cover the infusion drip chamber or the tubing.<br/>
+                     <br/>
+                     <content styleCode="bold">Verification of the chemical integrity of the product:</content> Sodium nitroprusside solution can be inactivated by reactions with trace contaminants. The products of these reactions are often blue, green, or red, much brighter than the faint brownish color of unreacted sodium nitroprusside injection. Discolored solutions, or solutions in which particulate matter is visible, should not be used. If properly protected from light, the freshly diluted solution is stable for 24 hours.</paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">No other drugs should be administered in the same solution with sodium nitroprusside.</content>
+                     <br/>
+                     <content styleCode="bold">
+                        <br/> Avoidance of excessive hypotension:</content> While the average effective rate in adult and pediatric patients is about 3 mcg/kg/min, some patients will become dangerously hypotensive when they receive sodium nitroprusside injection at this rate. Infusion of sodium nitroprusside should therefore be started at a very low rate (0.3 mcg/kg/min), with upward titration every few minutes until the desired effect is achieved or the maximum recommended infusion rate (10 mcg/kg/min) has been reached.<br/>
+                     <br/>Because sodium nitroprusside’s hypotensive effect is very rapid in onset and in dissipation, small variations in infusion rate can lead to wide, undesirable variations in blood pressure. Since there is inherent variation in blood pressure measurement, confirm the drug effect at any infusion rate after an additional 5 minutes before titrating to a higher dose to achieve the desired blood pressure. <content styleCode="bold">Sodium nitroprusside should not be infused through ordinary I.V. apparatus, regulated only by gravity and mechanical clamps. Only an infusion pump, preferably a volumetric pump, should be used.</content>
+                     <br/>
+                     <br/>Because sodium nitroprusside can induce essentially unlimited blood-pressure reduction,<content styleCode="bold"> the blood pressure of a patient receiving this drug must be continuously monitored</content>, using either a continually reinflated sphygmomanometer or (preferably) an intra-arterial pressure sensor. Special caution should be used in elderly patients, since they may be more sensitive to the hypotensive effects of the drug. <br/>
+                     <br/>When sodium nitroprusside is used in the treatment of acute congestive heart failure, titration of the infusion rate must be guided by the results of invasive hemodynamic monitoring with simultaneous monitoring of urine output. Sodium nitroprusside can be titrated by increasing the infusion rate until:<br/> • measured cardiac output is no longer increasing,<br/> • systemic blood pressure cannot be further reduced without compromising the perfusion of vital organs, or<br/> • the maximum recommended infusion rate has been reached, whichever comes earliest. Specific hemodynamic goals must be tailored to the clinical situation, but improvements in cardiac output and left ventricular filling pressure must not be purchased at the price of undue hypotension and consequent hypoperfusion.<br/>
+                     <br/>Table 2 below shows the infusion rates corresponding to the recommended initial and maximal doses (0.3 mcg/kg/min and 10 mcg/kg/min, respectively) for both adult and pediatric patients of various weights. This infusion rate may be lower than indicated in the table for patients less than 10 kg. Note that when the concentration used in a given patient is changed, the tubing is still filled with a solution at the previous concentration. <br/>
+                     <br/>
+                     <content styleCode="bold">Table 2: Infusion Rates (mL/hours) to Achieve Initial (0.3 mcg/kg/min) and Maximal (10 mcg/kg/min) Dosing of Sodium Nitroprusside Injection</content>
+                  </paragraph>
+                  <table cellspacing="0" cellpadding="0" border="0" width="599.564">
+                     <colgroup>
+                        <col width="12.5%"/>
+                        <col width="12.5%"/>
+                        <col width="12.5%"/>
+                        <col width="12.5%"/>
+                        <col width="12.5%"/>
+                        <col width="12.5%"/>
+                        <col width="12.5%"/>
+                        <col width="12.5%"/>
+                     </colgroup>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2" align="justify" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">Volume</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">250 mL</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">500 mL</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">1000 mL</content>
+                              <br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">Sodium Nitroprusside Injection</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">50 mg</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">50 mg</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">50 mg</content>
+                              <br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">Concentration</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">200 mcg/mL</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">100 mcg/mL</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">50 mcg/mL</content>
+                              <br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">Pt</content>
+                              <br/> <br/>
+                              <content styleCode="bold">kg</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">Weight</content>
+                              <br/> <br/>
+                              <content styleCode="bold">Lbs</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">init</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">max</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">init</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">max</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">init</content>
+                              <br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>
+                              <content styleCode="bold">max</content>
+                              <br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/> <br/>10<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>22<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>1<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>30<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>2<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>60<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>4<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>120<br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/> <br/>20<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>44<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>2<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>60<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>4<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>120<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>7<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>240<br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/> <br/>30<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>66<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>3<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>90<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>5<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>180<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>11<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>360<br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/> <br/>40<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>88<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>4<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>120<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>7<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>240<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>14<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>480<br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/> <br/>50<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>110<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>5<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>150<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>9<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>300<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>18<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>600<br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/> <br/>60<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>132<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>5<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>180<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>11<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>360<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>22<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>720<br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/> <br/>70<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>154<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>6<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>210<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>13<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>420<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>25<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>840<br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/> <br/>80<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>176<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>7<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>240<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>14<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>480<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>29<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>960<br/> </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/> <br/>90<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>198<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>8<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>270<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>16<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>540<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>32<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>1080<br/> </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="center" valign="middle">
+                              <br/> <br/>100<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>220<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>9<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>300<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>18<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>600<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>36<br/> </td>
+                           <td styleCode="Rrule" align="center" valign="middle">
+                              <br/> <br/>1200<br/> </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                     <br/>
+                     <content styleCode="bold">Avoidance of cyanide toxicity: </content>As described in <content styleCode="bold">
+                        <content styleCode="italics">CLINICAL PHARMACOLOGY </content>
+                     </content>above, when more than 500 mcg/kg of sodium nitroprusside is administered faster than 2 mcg/kg/min, cyanide is generated faster than the unaided patient can eliminate it. Administration of sodium thiosulfate has been shown to increase the rate of cyanide processing, reducing the hazard of cyanide toxicity. Although toxic reactions to sodium thiosulfate have not been reported, the co-infusion regimen has not been extensively studied, and it cannot be recommended without reservation. In one study, sodium thiosulfate appeared to potentiate the hypotensive effects of sodium nitroprusside.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Co-infusions of sodium thiosulfate have been administered at rates of 5 to 10 times that of sodium nitroprusside. Care must be taken to avoid the indiscriminate use of prolonged or high doses of sodium nitroprusside with sodium thiosulfate as this may result in thiocyanate toxicity and hypovolemia. Incautious administration of sodium nitroprusside must still be avoided, and all of the precautions concerning sodium nitroprusside administration must still be observed. </paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Consideration of methemoglobinemia and thiocyanate toxicity:</content> Rare patients receiving more than 10 mg/kg of sodium nitroprusside will develop methemoglobinemia; other patients, especially those with impaired renal function, will predictably develop thiocyanate toxicity after prolonged, rapid infusions. In accordance with the descriptions in <content styleCode="bold">
+                        <content styleCode="italics">ADVERSE REACTIONS </content>
+                     </content>above, patients with suggestive findings should be tested for these toxicities.</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">WARNING:</content> Do not use flexible container in series connections.</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20210722"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="1346a21f-1104-4430-a750-00d31404368e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <br/>
+                  <paragraph>Sodium nitroprusside injection is supplied in amber-colored, single-dose 50 mg/2 mL Fliptop Vials (NDC 71839-120-01). </paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.]</paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph>To protect Sodium nitroprusside injection from light, it should be stored in its carton until it is used.</paragraph>
+                  <br/>
+                  <paragraph>Distributed by:<br/>
+                     <content styleCode="bold">BE Pharmaceuticals Inc.</content>
+                     <br/> 203 New Edition Court<br/> Cary, NC 27511</paragraph>
+                  <br/>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Biological E. Limited</content>
+                     </content>
+                     <br/> Plot No. 4, Survey no. 542/P, Biotech Park Phase-II,<br/> Kolthur Village, Shameerpet Mandal,<br/> Medchal, Telangana 500078, India.</paragraph>
+                  <br/>
+                  <paragraph>Revised: July 2021</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20210722"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>belogo</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="belogo.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="15aa1280-6c2f-48bc-8fee-a76f402f9613"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Sodium Nitroprusside Injection 50mg/2mL (25mg/mL) - Vial Label</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <br/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Sodium Nitroprusside Injection 50mg/2mL (25mg/mL) - Carton Label</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold"> </content> </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sodium Nitroprusside Injection 50mg/2mL (25mg/mL) - Sleeve Box Label</content>
+                  </paragraph>
+                  <paragraph>  </paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sodium Nitroprusside Injection 50mg/2mL (25mg/mL) - Light Protective Sleeve Label</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM7"/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210722"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>nitroprussideviallabel</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nitroprussideviallabel.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>nitroprussidecartonlabel</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nitroprussidecartonlabel.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>nitroprussidesleevecarton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nitroprussidesleevecarton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>nitroprussidesleevelabel</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nitroprussidesleevelabel.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="87fde6db-944e-e50d-e053-2a95a90a52a4"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>NIACINAMIDE 4% / TRETINOIN 0.05%</title>
+   <effectiveTime value="20190503"/>
+   <setId root="87fde6db-944d-e50d-e053-2a95a90a52a4"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="080105003"/>
+            <name>Sincerus Florida, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="080105003"/>
+                        <name>Sincerus Florida, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72934-1164" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="87fe3c54-eeb7-8299-e053-2a95a90a7b14"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20190503"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72934-1164" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NIACINAMIDE 4% / TRETINOIN 0.05%</name>
+                        <formCode code="C42934" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GEL"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>NIACINAMIDE 4% / TRETINOIN 0.05%</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.05"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5688UTC01R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRETINOIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5688UTC01R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRETINOIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="4"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="25X51I8RD4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NIACINAMIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="25X51I8RD4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NIACINAMIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72934-1164-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43174" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PUMP"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190504"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190504"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_87fe35d2-c159-6f92-e053-2a95a90a6f39">
+               <id root="87fe35d2-c158-6f92-e053-2a95a90a6f39"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title>Directions for use</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_87fe2c8f-02a9-48c8-e053-2995a90aebe7"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190504"/>
+               <component>
+                  <observationMedia ID="img_87fe2c8f-02a9-48c8-e053-2995a90aebe7">
+                     <text>w</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="1164 end.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_87fe35d2-c15c-6f92-e053-2a95a90a6f39">
+               <id root="87fe35d2-c15b-6f92-e053-2a95a90a6f39"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Sincerus Florida, adverse reactions</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_87fe36a9-6a8e-1dab-e053-2995a90a1455"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190504"/>
+               <component>
+                  <observationMedia ID="img_87fe36a9-6a8e-1dab-e053-2995a90a1455">
+                     <text>ff</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="1164 end.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_87fe35d2-c160-6f92-e053-2a95a90a6f39">
+               <id root="87fe35d2-c15f-6f92-e053-2a95a90a6f39"/>
+               <code code="60559-2" codeSystem="2.16.840.1.113883.6.1" displayName="COMPONENTS"/>
+               <title>Active, inactives</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_87fe35d2-c15e-6f92-e053-2a95a90a6f39"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190504"/>
+               <component>
+                  <observationMedia ID="img_87fe35d2-c15e-6f92-e053-2a95a90a6f39">
+                     <text>w</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="1164 middle.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_87fe2c8f-02a8-48c8-e053-2995a90aebe7">
+               <id root="87fe2c8f-02a7-48c8-e053-2995a90aebe7"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>NDC 72934-1164-2 NIACINAMIDE USP 4% / TRETINOIN USP 0.05%. Gel 30gm</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_87fe1230-bb4e-0450-e053-2995a90abf38"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190504"/>
+               <component>
+                  <observationMedia ID="img_87fe1230-bb4e-0450-e053-2995a90abf38">
+                     <text>sx</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="1164 front.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

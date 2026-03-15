@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="cfc4383a-4c3c-69a0-e053-2a95a90a268a"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>VASOSTRICT(TM) (VASOPRESSIN INJECTION, USP) 20 UNITS PER mL</title>
+   <effectiveTime value="20211101"/>
+   <setId root="7ae1c8c9-7d75-55a8-e053-2991aa0af05b"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+            <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                  <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                        <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51662-1314" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="cfc45e5b-8e5b-b785-e053-2a95a90a0370"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20211101"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51662-1314" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>VASOPRESSIN</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>VASOPRESSIN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="42023-164" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[USP'U]" value="20"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Y87Y826H08" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VASOPRESSIN, UNSPECIFIED</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Y87Y826H08" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>VASOPRESSIN, UNSPECIFIED</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4550K0SC9B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM ACETATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51662-1314-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20181117"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="51662-1314-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20211101"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA204485" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20181117"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae27c08-0916-1e3e-e053-2a91aa0a2ade">
+               <id root="9f21a505-ccd9-86b6-e053-2a95a90abea9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>HIGHLIGHTS OF PRESCRIBING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <br/>
+These highlights do not include all the information needed to use VASOSTRICT ® safely and effectively. See full prescribing information for VASOSTRICT ®.
+  <br/>
+                     <br/>
+Vasostrict ® (vasopressin injection) for intravenous use
+  <br/>
+Initial U.S. Approval: 2014
+ </paragraph>
+                  <paragraph>INDICATIONS AND USAGE</paragraph>
+                  <paragraph>Vasostrict® is indicated to increase blood pressure in adults with vasodilatory shock (e.g., post-cardiotomy or sepsis) who remain hypotensive despite fluids and catecholamines. (
+  <linkHtml href="#id_link_7ae27c08-091a-1e3e-e053-2a91aa0a2ade">1</linkHtml>)
+ </paragraph>
+                  <paragraph>DOSAGE AND ADMINISTRATION</paragraph>
+                  <paragraph>Dilute Vasostrict® with normal saline (0.9% sodium chloride) or 5% dextrose in water (D5W) to either 0.1 units/mL or 1 unit/mL for intravenous administration. Discard unused diluted solution after 18 hours at room temperature or 24 hours under refrigeration. (
+  <linkHtml href="#id_link_7ae2b09b-d6b1-b0a3-e053-2991aa0a10b1">2-</linkHtml>2.1)
+  <br/>
+Post-cardiotomy shock: 0.03 to 0.1 units/minute (
+  <linkHtml href="#id_link_7ae2b09b-d6b1-b0a3-e053-2991aa0a10b1">2-</linkHtml>2.2)
+  <br/>
+Septic shock: 0.01 to 0.07 units/minute (
+  <linkHtml href="#id_link_7ae2b09b-d6b1-b0a3-e053-2991aa0a10b1">2-</linkHtml>2.2)
+ </paragraph>
+                  <paragraph>DOSAGE FORMS AND STRENGTHS</paragraph>
+                  <paragraph>Injection: 20 units per mL (
+  <linkHtml href="#id_link_7ae2ef17-a841-6b22-e053-2a91aa0aadb6">3</linkHtml>)
+ </paragraph>
+                  <paragraph>CONTRAINDICATIONS</paragraph>
+                  <paragraph>Vasostrict® is contraindicated in patients with known allergy or hypersensitivity to 8-L-arginine vasopressin or chlorobutanol. (
+  <linkHtml href="#id_link_7ae2ef17-a843-6b22-e053-2a91aa0aadb6">4</linkHtml>)
+ </paragraph>
+                  <paragraph>WARNINGS AND PRECAUTIONS</paragraph>
+                  <paragraph>Can worsen cardiac function. (
+  <linkHtml href="#id_link_7ae2ef17-a845-6b22-e053-2a91aa0aadb6">5-</linkHtml>5.1)
+ </paragraph>
+                  <paragraph>ADVERSE REACTIONS</paragraph>
+                  <paragraph>The most common adverse reactions include decreased cardiac output, bradycardia, tachyarrhythmias, hyponatremia and ischemia (coronary, mesenteric, skin, digital). (
+  <linkHtml href="#id_link_7ae2ef17-a847-6b22-e053-2a91aa0aadb6">6</linkHtml>)
+ </paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Par Pharmaceutical at 1-800-828-9393 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+                  <paragraph>DRUG INTERACTIONS</paragraph>
+                  <paragraph>Pressor effects of catecholamines and Vasostrict® are expected to be additive. (
+  <linkHtml href="#id_link_7ae2b09b-d6b3-b0a3-e053-2991aa0a10b1">7-</linkHtml>7.1)
+  <br/>
+Indomethacin may prolong effects of Vasostrict®. (
+  <linkHtml href="#id_link_7ae2b09b-d6b3-b0a3-e053-2991aa0a10b1">7-</linkHtml>7.2)
+  <br/>
+Co-administration of ganglionic blockers or drugs causing SIADH may increase the pressor response. (
+  <linkHtml href="#id_link_7ae2b09b-d6b3-b0a3-e053-2991aa0a10b1">7-</linkHtml>7.3, 
+  <linkHtml href="#id_link_7ae2b09b-d6b3-b0a3-e053-2991aa0a10b1">7-</linkHtml>7.5)
+  <br/>
+Co-administration of drugs causing diabetes insipidus may decrease the pressor response. (
+  <linkHtml href="#id_link_7ae2b09b-d6b3-b0a3-e053-2991aa0a10b1">7-</linkHtml>7.6)
+ </paragraph>
+                  <paragraph>USE IN SPECIFIC POPULATIONS</paragraph>
+                  <paragraph>Pregnancy: May induce uterine contractions. (
+  <linkHtml href="#id_link_7ae2ef17-a849-6b22-e053-2a91aa0aadb6">8-</linkHtml>8.1)
+  <br/>
+Pediatric Use: Safety and effectiveness have not been established. (
+  <linkHtml href="#id_link_7ae2ef17-a849-6b22-e053-2a91aa0aadb6">8-</linkHtml>8.4)
+  <br/>
+Geriatric Use: No safety issues have been identified in older patients. (
+  <linkHtml href="#id_link_7ae2ef17-a849-6b22-e053-2a91aa0aadb6">8-</linkHtml>8.5)
+ </paragraph>
+                  <paragraph>Revised: 12/2016</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae27c08-0918-1e3e-e053-2a91aa0a2ade">
+               <id root="9f21a505-ccda-86b6-e053-2a95a90abea9"/>
+               <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL INDEXING DATA ELEMENTS SECTION"/>
+               <title>FULL PRESCRIBING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <linkHtml href="#id_link_7ae27c08-091a-1e3e-e053-2a91aa0a2ade">1</linkHtml> INDICATIONS AND USAGE
+  <br/>
+                     <linkHtml href="#id_link_7ae2b09b-d6b1-b0a3-e053-2991aa0a10b1">2</linkHtml> DOSAGE AND ADMINISTRATION
+  <br/>
+2.1 Preparation of Diluted Solutions
+  <br/>
+2.2 Administration
+  <br/>
+                     <linkHtml href="#id_link_7ae2ef17-a841-6b22-e053-2a91aa0aadb6">3</linkHtml> DOSAGE FORMS AND STRENGTHS
+  <br/>
+                     <linkHtml href="#id_link_7ae2ef17-a843-6b22-e053-2a91aa0aadb6">4 </linkHtml>CONTRAINDICATIONS
+  <br/>
+                     <linkHtml href="#id_link_7ae2ef17-a845-6b22-e053-2a91aa0aadb6">5</linkHtml> WARNINGS AND PRECAUTIONS
+  <br/>
+5.1 Worsening Cardiac Function
+  <br/>
+                     <linkHtml href="#id_link_7ae2ef17-a847-6b22-e053-2a91aa0aadb6">6</linkHtml> ADVERSE REACTIONS
+  <br/>
+                     <linkHtml href="#id_link_7ae2b09b-d6b3-b0a3-e053-2991aa0a10b1">7</linkHtml> DRUG INTERACTIONS
+  <br/>
+7.1 Catecholamines
+  <br/>
+7.2 Indomethacin
+  <br/>
+7.3 Ganglionic Blocking Agents
+  <br/>
+7.4 Furosemide
+  <br/>
+7.5 Drugs Suspected of Causing SIADH
+  <br/>
+7.6 Drugs Suspected of Causing Diabetes Insipidus
+  <br/>
+                     <linkHtml href="#id_link_7ae2ef17-a849-6b22-e053-2a91aa0aadb6">8 </linkHtml> USE IN SPECIFIC POPULATIONS
+  <br/>
+8.1 Pregnancy
+  <br/>
+8.3 Nursing Mothers
+  <br/>
+8.4 Pediatric Use
+  <br/>
+8.5 Geriatric Use
+  <br/>
+                     <linkHtml href="#id_link_7ae302a9-1f21-33a1-e053-2991aa0a650b">10</linkHtml> OVERDOSAGE
+  <br/>
+                     <linkHtml href="#id_link_7ae2ef17-a84c-6b22-e053-2a91aa0aadb6">11</linkHtml> DESCRIPTION
+  <br/>
+                     <linkHtml href="#id_link_7ae2ef17-a85a-6b22-e053-2a91aa0aadb6">12</linkHtml> CLINICAL PHARMACOLOGY
+  <br/>
+12.1 Mechanism of Action
+  <br/>
+12.2 Pharmacodynamics
+  <br/>
+12.3 Pharmacokinetics
+  <br/>
+                     <linkHtml href="#id_link_7ae2ef17-a85c-6b22-e053-2a91aa0aadb6">13</linkHtml> NONCLINICAL TOXICOLOGY
+  <br/>
+13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility
+  <br/>
+                     <linkHtml href="#id_link_7ae31aed-f355-01fa-e053-2a91aa0adff9">14</linkHtml> CLINICAL STUDIES
+  <br/>
+                     <linkHtml href="#id_link_7ae31aed-f379-01fa-e053-2a91aa0adff9">16</linkHtml> HOW SUPPLIED/STORAGE AND HANDLING
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Sections or subsections omitted from the full prescribing information are not listed.
+ </paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae27c08-091a-1e3e-e053-2a91aa0a2ade">
+               <id root="9f21a505-ccdb-86b6-e053-2a95a90abea9"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1  INDICATIONS &amp; USAGE</title>
+               <text>
+                  <paragraph>Vasostrict® is indicated to increase blood pressure in adults with vasodilatory shock (e.g., post-cardiotomy or sepsis) who remain hypotensive despite fluids and catecholamines.</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae2b09b-d6b1-b0a3-e053-2991aa0a10b1">
+               <id root="9f21a505-ccdc-86b6-e053-2a95a90abea9"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2  DOSAGE &amp; ADMINISTRATION</title>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>2.1 Preparation of Diluted Solutions</paragraph>
+                  <paragraph>Dilute Vasostrict® in normal saline (0.9% sodium chloride) or 5% dextrose in water (D5W) prior to use for intravenous administration. Discard unused diluted solution after 18 hours at room temperature or 24 hours under refrigeration.</paragraph>
+                  <paragraph/>
+                  <paragraph>Table 1 Preparation of diluted solutions</paragraph>
+                  <paragraph>Fluid restriction?      Final concentration                                Mix</paragraph>
+                  <paragraph>                                                                         Vasostrict®               Diluent</paragraph>
+                  <paragraph/>
+                  <paragraph>No                                  0.1 units/mL           2.5 mL (50 units)           500 mL</paragraph>
+                  <paragraph/>
+                  <paragraph>Yes                                    1 unit/mL             5 mL (100 units)           100 mL</paragraph>
+                  <paragraph/>
+                  <paragraph>Inspect parenteral drug products for particulate matter and discoloration prior to use, whenever solution and container permit.</paragraph>
+                  <paragraph>2.2 Administration</paragraph>
+                  <paragraph>The goal of treatment is optimization of perfusion to critical organs, but aggressive treatment can compromise perfusion of organs, like the gastrointestinal tract, whose function is difficult to monitor. The following advice is empirical. In general, titrate to the lowest dose compatible with a clinically acceptable response.</paragraph>
+                  <paragraph>For post-cardiotomy shock, start with a dose of 0.03 units/minute. For septic shock, start with a dose of 0.01 units/minute. If the target blood pressure response is not achieved, titrate up by 0.005 units/minute at 10- to 15-minute intervals. The maximum dose for post-cardiotomy shock is 0.1 units/minute and for septic shock 0.07 units/minute. After target blood pressure has been maintained for 8 hours without the use of catecholamines, taper Vasostrict® by 0.005 units/minute every hour as tolerated to maintain target blood pressure.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae2ef17-a841-6b22-e053-2a91aa0aadb6">
+               <id root="9f21a505-ccde-86b6-e053-2a95a90abea9"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3  DOSAGE FORMS &amp; STRENGTHS</title>
+               <text>
+                  <paragraph>Vasostrict® (vasopressin injection, USP) is a clear, practically colorless solution for intravenous administration available as 20 units/mL in a single dose vial and 200 units/10 mL (20 units/mL) in a multiple dose vial.</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae2ef17-a843-6b22-e053-2a91aa0aadb6">
+               <id root="9f21a505-ccdf-86b6-e053-2a95a90abea9"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4  CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Vasostrict® is contraindicated in patients with known allergy or hypersensitivity to 8-L-arginine vasopressin or chlorobutanol.</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae2ef17-a845-6b22-e053-2a91aa0aadb6">
+               <id root="9f21a505-cce0-86b6-e053-2a95a90abea9"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5  WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph>5.1 Worsening Cardiac Function</paragraph>
+                  <paragraph>Use in patients with impaired cardiac response may worsen cardiac output.</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae2ef17-a847-6b22-e053-2a91aa0aadb6">
+               <id root="9f21a505-cce2-86b6-e053-2a95a90abea9"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6  ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions associated with the use of vasopressin were identified in the literature. Because these reactions are reported voluntarily from a population of uncertain size, it is not possible to estimate their frequency reliably or to establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>Bleeding/lymphatic system disorders: Hemorrhagic shock, decreased platelets, intractable bleeding</paragraph>
+                  <paragraph>Cardiac disorders: Right heart failure, atrial fibrillation, bradycardia, myocardial ischemia</paragraph>
+                  <paragraph>Gastrointestinal disorders: Mesenteric ischemia</paragraph>
+                  <paragraph>Hepatobiliary: Increased bilirubin levels</paragraph>
+                  <paragraph>Renal/urinary disorders: Acute renal insufficiency</paragraph>
+                  <paragraph>Vascular disorders: Distal limb ischemia</paragraph>
+                  <paragraph>Metabolic: Hyponatremia</paragraph>
+                  <paragraph>Skin: Ischemic lesions</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae2b09b-d6b3-b0a3-e053-2991aa0a10b1">
+               <id root="9f21a505-cce3-86b6-e053-2a95a90abea9"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>7.1 Catecholamines</paragraph>
+                  <paragraph>Use with catecholamines is expected to result in an additive effect on mean arterial blood pressure and other hemodynamic parameters.</paragraph>
+                  <paragraph>7.2 Indomethacin</paragraph>
+                  <paragraph>Use with indomethacin may prolong the effect of Vasostrict® on cardiac index and systemic vascular resistance [see Clinical Pharmacology (
+  <linkHtml href="#id_link_7ae2ef17-a85a-6b22-e053-2a91aa0aadb6">12-</linkHtml>12.3)].
+ </paragraph>
+                  <paragraph>7.3 Ganglionic Blocking Agents</paragraph>
+                  <paragraph>Use with ganglionic blocking agents may increase the effect of Vasostrict® on mean arterial blood pressure [see Clinical Pharmacology (
+  <linkHtml href="#id_link_7ae2ef17-a85a-6b22-e053-2a91aa0aadb6">12-</linkHtml>12.3)].
+ </paragraph>
+                  <paragraph>7.4 Furosemide</paragraph>
+                  <paragraph>Use with furosemide increases the effect of Vasostrict® on osmolar clearance and urine flow [see Clinical Pharmacology (
+  <linkHtml href="#id_link_7ae2ef17-a85a-6b22-e053-2a91aa0aadb6">12-</linkHtml>12.3)].
+ </paragraph>
+                  <paragraph>7.5 Drugs Suspected of Causing SIADH</paragraph>
+                  <paragraph>Use with drugs suspected of causing SIADH (e.g., SSRIs, tricyclic antidepressants, haloperidol, chlorpropamide, enalapril, methyldopa, pentamidine, vincristine, cyclophosphamide, ifosfamide, felbamate) may increase the pressor effect in addition to the antidiuretic effect of Vasostrict®.</paragraph>
+                  <paragraph>7.6 Drugs Suspected of Causing Diabetes Insipidus</paragraph>
+                  <paragraph>Use with drugs suspected of causing diabetes insipidus (e.g., demeclocycline, lithium, foscarnet, clozapine) may decrease the pressor effect in addition to the antidiuretic effect of Vasostrict®.</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae2ef17-a849-6b22-e053-2a91aa0aadb6">
+               <id root="9f21a505-cce4-86b6-e053-2a95a90abea9"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph>Pregnancy Category C</paragraph>
+                  <paragraph>Risk Summary: There are no adequate or well-controlled studies of Vasostrict® in pregnant women. It is not known whether vasopressin can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Animal reproduction studies have not been conducted with vasopressin [see Clinical Pharmacology (
+  <linkHtml href="#id_link_7ae2ef17-a85a-6b22-e053-2a91aa0aadb6">12-</linkHtml>12.3)].
+ </paragraph>
+                  <paragraph>Clinical Considerations: Because of increased clearance of vasopressin in the second and third trimester, the dose of Vasostrict® may need to be up-titrated to doses exceeding 0.1 units/minute in post-cardiotomy shock and 0.07 units/minute in septic shock.</paragraph>
+                  <paragraph>Vasostrict® may produce tonic uterine contractions that could threaten the continuation of pregnancy.</paragraph>
+                  <paragraph>8.3 Nursing Mothers</paragraph>
+                  <paragraph>It is not known whether vasopressin is present in human milk. However, oral absorption by a nursing infant is unlikely because vasopressin is rapidly destroyed in the gastrointestinal tract. Consider advising a lactating woman to pump and discard breast milk for 1.5 hours after receiving vasopressin to minimize potential exposure to the breastfed infant.</paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>Safety and effectiveness of Vasostrict® in pediatric patients with vasodilatory shock have not been established.</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>Clinical studies of vasopressin did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy [see Warnings and Precautions (
+  <linkHtml href="#id_link_7ae2ef17-a845-6b22-e053-2a91aa0aadb6">5</linkHtml>), Adverse Reactions (
+  <linkHtml href="#id_link_7ae2ef17-a847-6b22-e053-2a91aa0aadb6">6</linkHtml>), and Clinical Pharmacology (
+  <linkHtml href="#id_link_7ae2ef17-a85a-6b22-e053-2a91aa0aadb6">12-</linkHtml>12.3)].
+ </paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae302a9-1f21-33a1-e053-2991aa0a650b">
+               <id root="9f21a505-cce6-86b6-e053-2a95a90abea9"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10  OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdosage with Vasostrict® can be expected to manifest as consequences of vasoconstriction of various vascular beds (peripheral, mesenteric, and coronary) and as hyponatremia. In addition, overdosage may lead less commonly to ventricular tachyarrhythmias (including Torsade de Pointes), rhabdomyolysis, and non-specific gastrointestinal symptoms.</paragraph>
+                  <paragraph>Direct effects will resolve within minutes of withdrawal of treatment.</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae2ef17-a84c-6b22-e053-2a91aa0aadb6">
+               <id root="9f21a505-cce5-86b6-e053-2a95a90abea9"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11  DESCRIPTION</title>
+               <text>
+                  <paragraph>Vasopressin is a polypeptide hormone that causes contraction of vascular and other smooth muscles and antidiuresis. Vasostrict® is a sterile, aqueous solution of synthetic arginine vasopressin for intravenous administration. The 1 mL solution contains vasopressin 20 units/mL, Water for Injection, USP, and sodium acetate buffer adjusted to a pH of 3.8.  The 10 mL solution contains vasopressin 20 units/mL, chlorobutanol, NF 0.5% as a preservative, and Water for Injection, USP and, sodium acetate buffer adjusted to a pH of 3.8.</paragraph>
+                  <paragraph>The chemical name of vasopressin is Cyclo (1-6) L-Cysteinyl-L-Tyrosyl-L-Phenylalanyl-L-Glutaminyl-L-Asparaginyl-L-Cysteinyl-L-Prolyl-L-Arginyl-L-Glycinamide. It is a white to off-white amorphous powder, freely soluble in water. The structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_7ae2ef17-a84a-6b22-e053-2a91aa0aadb6"/>
+                  </paragraph>
+                  <paragraph>Molecular Formula: C46H65N15O12S2                 Molecular Weight: 1084.23</paragraph>
+                  <paragraph>One mg is equivalent to 530 units.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20181117"/>
+               <component>
+                  <observationMedia ID="img_7ae2ef17-a84a-6b22-e053-2a91aa0aadb6">
+                     <text>STRUCTURE</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae2ef17-a85a-6b22-e053-2a91aa0aadb6">
+               <id root="9f21a505-cce1-86b6-e053-2a95a90abea9"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>The vasoconstrictive effects of vasopressin are mediated by vascular V1 receptors. Vascular V1 receptors are directly coupled to phopholipase C, resulting in release of calcium, leading to vasoconstriction. In addition, vasopressin stimulates antidiuresis via stimulation of V2 receptors which are coupled to adenyl cyclase.</paragraph>
+                  <paragraph>12.2 Pharmacodynamics</paragraph>
+                  <paragraph>At therapeutic doses exogenous vasopressin elicits a vasoconstrictive effect in most vascular beds including the splanchnic, renal and cutaneous circulation. In addition, vasopressin at pressor doses triggers contractions of smooth muscles in the gastrointestinal tract mediated by muscular V1-receptors and release of prolactin and ACTH via V3 receptors. At lower concentrations typical for the antidiuretic hormone vasopressin inhibits water diuresis via renal V2 receptors.</paragraph>
+                  <paragraph>In patients with vasodilatory shock vasopressin in therapeutic doses increases systemic vascular resistance and mean arterial blood pressure and reduces the dose requirements for norepinephrine. Vasopressin tends to decrease heart rate and cardiac output. The pressor effect is proportional to the infusion rate of exogenous vasopressin. Onset of the pressor effect of vasopressin is rapid, and the peak effect occurs within 15 minutes. After stopping the infusion the pressor effect fades within 20 minutes. There is no evidence for tachyphylaxis or tolerance to the pressor effect of vasopressin in patients.</paragraph>
+                  <paragraph>12.3 Pharmacokinetics</paragraph>
+                  <paragraph>At infusion rates used in vasodilatory shock (0.01-0.1 units/minute) the clearance of vasopressin is 9 to 25 mL/min/kg in patients with vasodilatory shock. The apparent t1/2 of vasopressin at these levels is ≤10 minutes. Vasopressin is predominantly metabolized and only about 6% of the dose is excreted unchanged in urine. Animal experiments suggest that the metabolism of vasopressin is primarily by liver and kidney. Serine protease, carboxipeptidase and disulfide oxido-reductase cleave vasopressin at sites relevant for the pharmacological activity of the hormone. Thus, the generated metabolites are not expected to retain important pharmacological activity.</paragraph>
+                  <paragraph>Drug-Drug Interactions</paragraph>
+                  <paragraph>Indomethacin more than doubles the time to offset for vasopressin's effect on peripheral vascular resistance and cardiac output in healthy subjects [see Drug Interactions (
+  <linkHtml href="#id_link_7ae2b09b-d6b3-b0a3-e053-2991aa0a10b1">7-</linkHtml>7.2)].
+ </paragraph>
+                  <paragraph>The ganglionic blocking agent tetra-ethylammonium increases the pressor effect of vasopressin by 20% in healthy subjects [see Drug Interactions (
+  <linkHtml href="#id_link_7ae2b09b-d6b3-b0a3-e053-2991aa0a10b1">7-</linkHtml>7.3)].
+ </paragraph>
+                  <paragraph>Furosemide increases osmolar clearance 4-fold and urine flow 9-fold when co-administered with exogenous vasopressin in healthy subjects [see Drug Interactions (
+  <linkHtml href="#id_link_7ae2b09b-d6b3-b0a3-e053-2991aa0a10b1">7-</linkHtml>7.4)].
+ </paragraph>
+                  <paragraph>Halothane, morphine, fentanyl, alfentanyl and sufentanyl do not impact exposure to endogenous vasopressin.</paragraph>
+                  <paragraph>Special Populations</paragraph>
+                  <paragraph>Pregnancy: Because of a spillover into blood of placental vasopressinase the clearance of exogenous and endogenous vasopressin increases gradually over the course of a pregnancy. During the first trimester of pregnancy the clearance is only slightly increased. However, by the third trimester the clearance of vasopressin is increased about 4-fold and at term up to 5-fold. After delivery the clearance of vasopressin returns to pre-conception baseline within two weeks.</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae2ef17-a85c-6b22-e053-2a91aa0aadb6">
+               <id root="9f21a505-cce7-86b6-e053-2a95a90abea9"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13  NONCLINICAL TOXICOLOGY</title>
+               <text>
+                  <paragraph>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>No formal carcinogenicity or fertility studies with vasopressin have been conducted in animals. Vasopressin was found to be negative in the in vitro bacterial mutagenicity (Ames) test and the in vitro Chinese hamster ovary (CHO) cell chromosome aberration test. In mice, vasopressin has been reported to have an effect on function and fertilizing ability of spermatozoa.</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae31aed-f355-01fa-e053-2a91aa0adff9">
+               <id root="9f21a505-cce8-86b6-e053-2a95a90abea9"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14  CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>Increases in systolic and mean blood pressure following administration of vasopressin were observed in 7 studies in septic shock and 8 in post-cardiotomy vasodilatory shock.</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae31aed-f379-01fa-e053-2a91aa0adff9">
+               <id root="cfc45dad-b01a-6f79-e053-2a95a90a05f5"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDELING</title>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>VASOSTRICT(TM) (VASOPRESSIN INJECTION, USP) is supplied in the following dosage forms.
+  <br/>
+NDC 51662-1314-1
+  <br/>
+VASOSTRICT(TM) (VASOPRESSIN INJECTION, USP) 20 UNITS PER mL 1mL VIAL
+ </paragraph>
+                  <paragraph>NDC 51662-1314-2</paragraph>
+                  <paragraph>VASOSTRICT(TM) (VASOPRESSIN INJECTION, USP) 20 UNITS PER mL 1mL VIAL in 1 pouch</paragraph>
+                  <paragraph>HF Acquisition Co LLC, DBA HealthFirst
+  <br/>
+Mukilteo, WA 98275
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Also supplied in the following manufacture supplied dosage forms</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Vasostrict® (vasopressin injection, USP) is a clear, practically colorless solution for intravenous administration available as:</paragraph>
+                  <paragraph>NDC 42023-164-25: A carton of 25 single dose vials each containing vasopressin 1 mL at 20 units/mL.</paragraph>
+                  <paragraph>NDC 42023-190-01: A carton of 1 multiple dose vial containing vasopressin 10 mL at 200 units/10 mL (20 units/mL).</paragraph>
+                  <paragraph>Store between 2°C and 8°C (36°F and 46°F). Do not freeze.</paragraph>
+                  <paragraph>Vials may be held up to 12 months upon removal from refrigeration to room temperature storage conditions (20°C to 25°C [68°F to 77°F], USP Controlled Room Temperature), anytime within the labeled shelf life. Once removed from refrigeration, unopened vial should be marked to indicate the revised 12 month expiration date. If the manufacturer’s original expiration date is shorter than the revised expiration date, then the shorter date must be used. Do not use Vasostrict® beyond the manufacturer’s expiration date stamped on the vial.</paragraph>
+                  <paragraph>After initial entry into the 10 mL vial, the remaining contents must be refrigerated. Discard the refrigerated 10 mL vial after 30 days after first puncture.</paragraph>
+                  <paragraph>The storage conditions and expiration periods are summarized in the following table.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_7ae31aed-f377-01fa-e053-2a91aa0adff9"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20181117"/>
+               <component>
+                  <observationMedia ID="img_7ae31aed-f377-01fa-e053-2a91aa0adff9">
+                     <text>HOW SUPPLIED-STORAGE</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="How Supplied-Storage.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae31aed-f37b-01fa-e053-2a91aa0adff9">
+               <id root="cfc45784-3cdf-d270-e053-2a95a90af7d1"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>SPL UNCLASSIFIED</title>
+               <text>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>HF Acquisition Co LLC, DBA HealthFirst</paragraph>
+                  <paragraph>Mukilteo, WA 98275</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Also distributed by the manufacture in the following manufacture supplied dosage forms</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Distributed by:
+  <br/>
+Par Pharmaceutical
+  <br/>
+Chestnut Ridge, NY 10977
+ </paragraph>
+                  <paragraph>R12/16
+  <br/>
+OS164J-01-90-08
+ </paragraph>
+                  <paragraph>Vasostrict® is a registered trademark of Par Pharmaceutical Companies, Inc.</paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae31aed-f39b-01fa-e053-2a91aa0adff9">
+               <id root="9f21a505-ccec-86b6-e053-2a95a90abea9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL, VIAL FRONT</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_7ae31aed-f399-01fa-e053-2a91aa0adff9"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+               <component>
+                  <observationMedia ID="img_7ae31aed-f399-01fa-e053-2a91aa0adff9">
+                     <text>VIAL FRONT</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Vial Label Front.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae31aed-f39e-01fa-e053-2a91aa0adff9">
+               <id root="9f21a505-cce9-86b6-e053-2a95a90abea9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL, VIAL BACK</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_7ae31aed-f39c-01fa-e053-2a91aa0adff9"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+               <component>
+                  <observationMedia ID="img_7ae31aed-f39c-01fa-e053-2a91aa0adff9">
+                     <text>VIAL BACK</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Vial Label Back.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae31aed-f3a1-01fa-e053-2a91aa0adff9">
+               <id root="9f21a505-cced-86b6-e053-2a95a90abea9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL, SERIALIZED VIAL</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_7ae31aed-f39f-01fa-e053-2a91aa0adff9"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+               <component>
+                  <observationMedia ID="img_7ae31aed-f39f-01fa-e053-2a91aa0adff9">
+                     <text>SERIALIZED VIAL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="1314-1 Serialized Label on Labeled Vial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7ae31aed-f3a4-01fa-e053-2a91aa0adff9">
+               <id root="9f21a505-ccdd-86b6-e053-2a95a90abea9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL,  SERIALIZED LABEL ONLY</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_7ae31aed-f3a2-01fa-e053-2a91aa0adff9"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20181117"/>
+               <component>
+                  <observationMedia ID="img_7ae31aed-f3a2-01fa-e053-2a91aa0adff9">
+                     <text>SERIALIZED LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Serialized Label Only.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_cfc41342-dc86-754b-e053-2995a90a277a">
+               <id root="cfc41342-dc85-754b-e053-2995a90a277a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - SERIALIZED POUCH 51662-1314-2</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_cfc41342-dc84-754b-e053-2995a90a277a"/>
+                     <renderMultiMedia referencedObject="img_cfc4195e-f22a-310b-e053-2a95a90ab0d5"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20211101"/>
+               <component>
+                  <observationMedia ID="img_cfc41342-dc84-754b-e053-2995a90a277a">
+                     <text>SERIALIZED POUCH</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1314-2 Pouch Labeling.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_cfc4195e-f22a-310b-e053-2a95a90ab0d5">
+                     <text>SERIALIZED RFID LABELING</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Serialized Labeling 51662-1314-2 .jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

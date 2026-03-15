@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="28c87785-4554-4172-9b11-f6a9d72923a8"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20130627"/>
+   <setId root="a1741a0b-3d4c-42dc-880d-a06e96cce9ef"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005232743" root="1.3.6.1.4.1.519.1"/>
+            <name>Slate Pharma</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="001561174" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bartor Pharmacal</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43773-1001" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="49eec45f-20df-4e3b-81e1-bf382946ec4d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20130627"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="43773-1001" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Testopel</name>
+                        <formCode code="C42969" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PELLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>TESTOSTERONE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="75"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3XMK78S47O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TESTOSTERONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3XMK78S47O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TESTOSTERONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.97"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="2"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="U725QWY32X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE K30</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43165" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMPULE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="43773-1001-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43165" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMPULE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="100"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="43773-1001-3" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA080911" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20090721"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48676" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CIII"/>
+                        </policy>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="9" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48335" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BULLET" xsi:type="CE">
+                              <originalText>Cylindrical</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="e47dd450-6ee3-4de9-9430-bf6de7a2f367"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">TESTOPEL<sup>®</sup>
+                     </content> Pellets (testosterone) are cylindrically shaped pellets 3.2mm (1/8 inch) in diameter and approximately 9mm in length. Each sterile pellet weighs approximately 78mg (75mg testosterone) and is ready for implantation.</paragraph>
+                  <paragraph>Androgens are steroids that develop and maintain primary and secondary male sex characteristics. Testosterone is a member of this class.</paragraph>
+                  <paragraph>
+                     <br/>Structural formula for testosterone follows:<br/>              <br/>
+                  </paragraph>
+                  <renderMultiMedia ID="id236" referencedObject="ID_96b7decb-cdfc-476d-b417-5639963e6575"/>
+                  <paragraph> <br/>              <br/>
+                     <content styleCode="bold">INGREDIENTS</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Each <content styleCode="bold">TESTOPEL<sup>®</sup>
+                     </content> Pellet (testosterone) for subcutaneous implantation contains 75mg testosterone. In addition each pellet contains the following inactive ingredients: stearic acid NF 0.97mg and polyvinylpyrrolidone USP 2mg.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TESTOPEL<sup>®</sup>
+                     </content> Pellets (testosterone) consist of crystalline testosterone. When implanted subcutaneously, the pellets slowly release the hormone for a long acting androgenic effect.</paragraph>
+               </text>
+               <effectiveTime value="20130627"/>
+               <component>
+                  <observationMedia ID="ID_96b7decb-cdfc-476d-b417-5639963e6575">
+                     <text>stucture</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="28c87785-4554-4172-9b11-f6a9d72923a8-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="08612f7c-36f6-42fa-89f1-6e2c29972660"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Endogenous androgens are responsible for the normal growth and development of the male sex organs and for maintenance of secondary sex characteristics. These effects include the growth and maturation of prostate, seminal vesicles, penis and scrotum; the development of male hair distribution such as beard, pubic, chest and axillary hair, laryngeal enlargements, vocal cord thickening, alterations in body musculature and fat distribution. Drugs in this class can also cause retention of nitrogen, sodium, potassium, phosphorus, and decreased urinary excretion of calcium.</paragraph>
+                  <paragraph>Androgens have been reported to increase protein anabolism and decrease protein catabolism.</paragraph>
+                  <paragraph>Nitrogen balance is improved only when there is sufficient intake of calories and protein.</paragraph>
+                  <paragraph>Androgens are responsible for the growth spurt of adolescence and for the eventual termination of linear growth which is brought about by the fusion of the epiphyseal growth centers. In children, exogenous androgens accelerate linear growth rates, but may cause a disproportionate advancement in bone maturation. Use over long periods may result in fusion of the epiphyseal growth centers and termination of growth process. Androgens have been reported to stimulate the production of red blood cells by enhancing the production of erythropoietic stimulating factor.</paragraph>
+                  <paragraph>During exogenous administration of androgens, endogenous testosterone release is inhibited through feedback inhibition of pituitary luteinizing hormone (LH). At large doses of exogenous androgens, spermatogenesis may also be suppressed through feedback inhibition of pituitary follicle stimulating hormone (FSH).</paragraph>
+                  <paragraph>There is a lack of substantial evidence that androgens are effective in fractures, surgery, convalescence, and functional uterine bleeding.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">PHARMACOKINETICS</content>
+                  </paragraph>
+                  <paragraph>Testosterone in plasma is 98 percent bound to a specific testosterone-estradiol binding globulin, and about 2 percent is free. Generally, the amount of this sex-hormone binding globulin in the plasma will determine the distribution of testosterone between the free and bound forms, and the free testosterone concentration will determine its half-life.</paragraph>
+                  <paragraph>About 90 percent of a dose of testosterone is excreted as glucuronic and sulfuric acid conjugates of testosterone and its metabolites; about 6 percent of a dose is excreted in feces, mostly in the unconjugated form. Inactivation of testosterone occurs primarily in the liver. Testosterone is metabolized to various 17-keto steroids through two different pathways. There are considerable variations of the half-life as reported in the literature, ranging from 10-100 minutes.</paragraph>
+                  <paragraph>In many tissues the activity of testosterone appears to depend on reduction to dihydrotestosterone, which binds to cytosol receptor proteins. The steroid-receptor complex is transported to the nucleus where it initiates transcription events and cellular changes related to androgen action.</paragraph>
+               </text>
+               <effectiveTime value="20130627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="9984366a-5a85-470c-b6bd-ab606b17939b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">MALES</content>
+                  </paragraph>
+                  <paragraph>Androgens are indicated for replacement therapy in conditions associated with a deficiency or absence of endogenous testosterone.             </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>a.</caption>Primary hypogonadism (congenital or acquired) - testicular failure due to cryptorchidism, bilateral torsion, orchitis, vanishing testes syndrome; or orchiectomy.</item>
+                     <item>
+                        <caption>b.</caption>Hypogonadotrophic hypogonadism (congenital or acquired) - idiopathic or gonadotropic LHRH deficiency, or pituitary - hypothalamic injury from tumors, trauma or radiation.</item>
+                  </list>
+                  <paragraph>If the above conditions occur prior to puberty, androgen replacement therapy will be needed during the adolescent years for development of secondary sex characteristics. Prolonged androgen treatment will be required to maintain sexual characteristics in these and other males who develop testosterone deficiency after puberty.</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>c.</caption>Androgens may be used to stimulate puberty in carefully selected males with clearly delayed puberty. These patients usually have a familial pattern of delayed puberty that is not secondary to a pathological disorder; puberty is expected to occur spontaneously at a relatively late date. Brief treatment with conservative doses may occasionally be justified in these patients if they do not respond to psychological support. The potential adverse effect on bone maturation should be discussed with the patient and parents prior to androgen administration. An x-ray of the hand and wrist to determine bone age should be taken every 6 months to assess the effect of treatment on epiphyseal centers (see <linkHtml href="#Section_5">WARNINGS</linkHtml>).</item>
+                  </list>
+               </text>
+               <effectiveTime value="20130627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="5a108915-5ff6-4d0a-b139-daf8c0740c61"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Androgens are contraindicated in men with carcinomas of the breast or with known or suspected carcinomas of the prostate. If administered to pregnant women, androgens cause virilization of the external genitalia of the female fetus. The virilization includes clitoromegaly, abnormal vaginal development, and fusion of genital folds to form a scrotal-like structure. The degree of masculinization is related to the amount of drug given and the age of the fetus, and is most likely to occur in the female fetus when the drugs are given in the first trimester. If the patient becomes pregnant while taking these drugs she should be apprised of the potential hazard to the fetus.</paragraph>
+               </text>
+               <effectiveTime value="20130627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="fd7dbf45-59e3-46ab-8e9b-97ac162dbf8d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>In patients with breast cancer, androgen therapy may cause hypercalcemia by stimulating osteolysis. In this case, the drug should be discontinued.</paragraph>
+                  <paragraph>Prolonged use of high doses of androgens has been associated with the development of peliosis hepatitis and hepatic neoplasms including hepatocellular carcinoma (see <linkHtml href="#Section_6">PRECAUTIONS</linkHtml> - <linkHtml href="#_RefSection_6.6">Carcinogenesis, Mutagenesis, Impairment of Fertility</linkHtml>). Peliosis hepatitis can be a life-threatening or fatal complication.</paragraph>
+                  <paragraph>Men treated with androgens may be at an increased risk for the development of prostatic hypertrophy and prostatic carcinoma.</paragraph>
+                  <paragraph>Edema with or without congestive heart failure may be a serious complication in patients with preexisting cardiac, renal, or hepatic disease. In addition to discontinuation of the drug, diuretic therapy may be required.</paragraph>
+                  <paragraph>Gynecomastia frequently develops in patients and occasionally persists in patients being treated for hypogonadism.</paragraph>
+                  <paragraph>Androgen therapy should be used cautiously in healthy males with delayed puberty. The effect on bone maturation should be monitored by assessing bone age of the wrist and hand every 6 months. In children, androgen treatment may accelerate bone maturation without producing compensatory gain in linear growth. This adverse effect may result in compromised adult stature. The younger the child the greater the risk of compromising final mature height.</paragraph>
+                  <paragraph>                </paragraph>
+                  <paragraph>This drug has not been shown to be safe and effective for the enhancement of athletic performance. Because of the potential risk for serious adverse health effects, this drug should not be used for such purpose.</paragraph>
+               </text>
+               <effectiveTime value="20130627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="b97a79d0-892f-4c3e-8a6f-3168b76b885b"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">GENERAL</content>
+                  </paragraph>
+                  <paragraph>Pellet implantation is much less flexible for dosage adjustment than is oral administration of or intramuscular injections of oil solutions or aqueous suspensions. Therefore, great care should be used when estimating the amount of testosterone needed.<br/>
+                     <br/>In the face of complications where the effects of testosterone should be discontinued, the pellets would have to be removed. In addition, there are times when the pellets may slough out. This accident is usually traceable to superficial implantation or neglect in regard to aseptic precautions.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">INFORMATION FOR THE PATIENT</content>
+                  </paragraph>
+                  <paragraph>The physician should instruct patients to report any of the following side effects of androgens:</paragraph>
+                  <paragraph>Adult or adolescent males: Too frequent or persistent erections of the penis. Any nausea, vomiting, changes in skin color, ankle swelling.</paragraph>
+                  <paragraph>Any male adolescent patient receiving androgens for delayed puberty should have bone development checked every 6 months.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">LABORATORY TESTS</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Because of the hepatotoxicity associated with the use of 17-alpha-alkylated androgens, liver function tests should be obtained periodically.</item>
+                     <item>
+                        <caption>2.</caption>Periodic (every 6 months) x-ray examinations of the bone age should be made during treatment of prepubertal males to determine the rate of bone maturation and the effects of androgen therapy on the epiphyseal centers.</item>
+                     <item>
+                        <caption>3.</caption>Hemoglobin and hematocrit should be checked periodically for polycythemia in patients who are receiving high doses of androgens.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="italics">DRUG INTERACTIONS</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Anticoagulants. C-17 substituted derivatives of testosterone, such as methandrostenolone have been reported to decrease the anticoagulant requirements of patients receiving oral anticoagulants. Patients receiving oral anticoagulant therapy require close monitoring, especially when androgens are started or stopped.</item>
+                     <item>
+                        <caption>2.</caption>Oxyphenbutazone. Concurrent administration of oxyphenbutazone and androgens may result in elevated serum levels of oxyphenbutazone.</item>
+                     <item>
+                        <caption>3.</caption>Insulin. In diabetic patients the metabolic effects of androgens may decrease blood glucose and insulin requirements.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="italics">DRUG/LABORATORY TEST INTERFERENCES</content>
+                  </paragraph>
+                  <paragraph>Androgens may decrease levels of thyroxine-binding globulin, resulting in decreased total T<sub>4</sub> serum levels and increased resin uptake of T<sub>3 </sub>and T<sub>4</sub>. Free thyroid hormone levels remain unchanged, however, and there is no clinical evidence of thyroid dysfunction.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">CARCINOGENESIS, MUTAGENESIS, IMPAIRMENT OF FERTILITY</content>
+                  </paragraph>
+                  <paragraph>Animal Data. Testosterone has been tested by subcutaneous injection and implantation in mice and rats. The implant induced cervical-uterine tumors in mice, which metastasized in some cases. There is suggestive evidence that injection of testosterone into some strains of female mice increases their susceptibility to hepatoma. Testosterone is also known to increase the number of tumors and decrease the degree of differentiation of chemically induced carcinomas of liver in rats.</paragraph>
+                  <paragraph>Human Data. There are rare reports of hepatocellular carcinoma in patients receiving long-term therapy with androgens in high doses. Withdrawal of the drugs did not lead to regression of the tumors in all cases.</paragraph>
+                  <paragraph>Geriatric patients treated with androgens may be at an increased risk for the development of prostatic hypertrophy and prostatic carcinoma.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">PREGNANCY</content>
+                  </paragraph>
+                  <paragraph>Teratogenic Effects. Pregnancy Category X (see <linkHtml href="#_Ref">CONTRAINDICATIONS</linkHtml>).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">NURSING MOTHERS</content>
+                  </paragraph>
+                  <paragraph>It is not known whether androgens are excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from androgens, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">PEDIATRIC USE</content>
+                  </paragraph>
+                  <paragraph>Androgen therapy should be used very cautiously in children and only by specialists who are aware of the adverse effects on bone maturation. Skeletal maturation must be monitored every 6 months by an x-ray of the hand and wrist (see <linkHtml href="#Section_3">INDICATIONS AND USAGE </linkHtml> and <linkHtml href="#Section_5">WARNINGS</linkHtml>).</paragraph>
+               </text>
+               <effectiveTime value="20130627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="9ef72788-6324-4c49-8603-2c70bc3472e2"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Endocrine and Urogenital<br/>Male. Gynecomastia and excessive frequency and duration of penile erections. Oligospermia may occur at high dosages (see <linkHtml href="#Section_2">CLINICAL PHARMACOLOGY</linkHtml>).<br/>
+                     <br/>Skin and Appendages. Hirsutism, male pattern of baldness, and acne.<br/>
+                     <br/>Fluid and Electrolyte Disturbances. Retention of sodium, chloride, water, potassium, calcium and inorganic phosphates.<br/>
+                     <br/>Gastrointestinal. Nausea, cholestatic jaundice, alterations in liver function tests, rarely hepatocellular neoplasms and peliosis hepatitis (see <linkHtml href="#Section_5">WARNINGS</linkHtml>).<br/>
+                     <br/>Hematologic. Suppression of clotting factors II, V, VII, and X, bleeding in patients on concomitant anticoagulant therapy, and polycythemia.<br/>
+                     <br/>Nervous System. Increased or decreased libido, headache, anxiety, depression, and generalized paresthesia.<br/>
+                     <br/>Metabolic. Increased serum cholesterol.<br/>
+                     <br/>Miscellaneous. Inflammation and pain at the site of subcutaneous implantation of testosterone containing pellets, and rarely anaphylactoid reactions.</paragraph>
+               </text>
+               <effectiveTime value="20130627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_8">
+               <id root="c623233d-7b58-4244-8d02-f4c6877f3484"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph>Testosterone pellets are classified as a Schedule III controlled substance under the Anabolic Steroids Act of 1990.</paragraph>
+               </text>
+               <effectiveTime value="20130627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="9c070dd5-dd23-4a6c-988a-dafccc3aa7fe"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>There have been no reports of acute overdosage with the androgens.</paragraph>
+               </text>
+               <effectiveTime value="20130627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="5fcba265-12ea-421e-9df5-ea2820fbb261"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The suggested dosage for androgens varies depending on the age, and diagnosis of the individual patient. Dosage is adjusted according to the patient’s response and the appearance of adverse reactions. The dosage guideline for the testosterone pellets for replacement therapy in androgen-deficient males is 150mg to 450mg subcutaneously every 3 to 6 months. Various dosage regimens have been used to induce pubertal changes in hypogonadal males; some experts have advocated lower doses initially, gradually increasing the dose as puberty progresses, with or without a decrease in maintenance levels. Other experts emphasize that higher dosages are needed to induce pubertal changes and lower dosages can be used for maintenance after puberty. The chronological and skeletal ages must be taken into consideration, both in determining the initial dose and in adjusting the dose.</paragraph>
+                  <paragraph>Dosages in delayed puberty generally are in the lower range of that listed above and, for a limited duration, for example 4 to 6 months.</paragraph>
+                  <paragraph>The number of pellets to be implanted depends upon the minimal daily requirements of testosterone propionate determined by a gradual reduction of the amount administered parenterally. The usual dosage is as follows: implant two 75mg pellets for each 25mg testosterone propionate required weekly. Thus when a patient requires injections of 75mg per week, it is usually necessary to implant 450mg (6 pellets). With injections of 50mg per week, implantation of 300mg (4 pellets) may suffice for approximately three months. With lower requirements by injection, correspondingly lower amounts may be implanted. It has been found that approximately one-third of the material is absorbed in the first month, one-fourth in the second month and one-sixth in the third month. Adequate effect of the pellets ordinarily continues for three to four months, sometimes as long as six months.</paragraph>
+               </text>
+               <effectiveTime value="20130627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="cf9728af-371e-4467-9dbb-c8dddbf37949"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Testosterone pellets of 75mg. One pellet per vial in boxes of 10 (NDC: 43773-1001-2) and 100 (NDC: 43773-1001-3). Store in a cool dry place.</paragraph>
+                  <paragraph>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">Rx Only</content>
+                     <br/>
+                     <br/>Manufactured by <content styleCode="bold">Bartor Pharmacal</content>
+                     <br/>70 High St., Rye, N.Y. 10580<br/>
+                     <br/>Rev. 3     1/2013</paragraph>
+               </text>
+               <effectiveTime value="20130627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5623b05b-becf-48a8-b4e9-64984bd1ade0">
+               <id root="d0a698b8-bd9a-4ee8-8ff1-dff5b61c71de"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – 100 Pellets</title>
+               <text>
+                  <paragraph>100 Pellets                                                                    NDC 43773-1001-3<br/>Sterile <br/>
+                     <br/>
+                  </paragraph>
+                  <paragraph>TESTOPEL<sup>®</sup> 75mg<br/>
+                     <content styleCode="bold">(testosterone pellets) CIII<br/>
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>For subcutaneous implantation<br/>Each pellet contains:<br/>75mg testosterone<br/>In addition, each pellet contains the following inactive ingredients:<br/>Stearic Acid NF 0.97mg and Polyvinylpyrrolidone USP 2mg. <br/>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Dosage: </content>See package insert.<br/>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only.<br/>
+                     </content>75mg Brand of Testosterone<br/>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Manufactured by <content styleCode="bold">Bartor Pharmacal<br/>
+                     </content>70 High St., Rye N.Y. 10580<br/>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Marketed by:<br/>Slate pharmaceuticals, Inc. </paragraph>
+                  <renderMultiMedia ID="id-7522426" referencedObject="ID_70da5b72-df59-41cd-84c0-726221ce2913"/>
+               </text>
+               <effectiveTime value="20130627"/>
+               <component>
+                  <observationMedia ID="ID_70da5b72-df59-41cd-84c0-726221ce2913">
+                     <text>TESTOPEL (testosterone pellets) label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="28c87785-4554-4172-9b11-f6a9d72923a8-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

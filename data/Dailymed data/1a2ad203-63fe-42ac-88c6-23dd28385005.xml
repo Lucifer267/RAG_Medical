@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1a2ad203-63fe-42ac-88c6-23dd28385005"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Anticoagulant Sodium Citrate Solution, USP</content>
+   </title>
+   <effectiveTime value="20150209"/>
+   <setId root="1a2ad203-63fe-42ac-88c6-23dd28385005"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="078598396" root="1.3.6.1.4.1.519.1"/>
+            <name>Haemonetics Manufacturing Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="078598396" root="1.3.6.1.4.1.519.1"/>
+                  <name>Haemonetics Manufacturing Inc</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="078598396" root="1.3.6.1.4.1.519.1"/>
+                        <name>Haemonetics Manufacturing Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="53157-798" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="53157-798" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="53157-798" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3ebd7938-b349-47c8-8957-4463577781f2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20150209"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="53157-798" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Citrate</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Anticoagulant Sodium Citrate Solution</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="10.0"/>
+                              <denominator unit="mL" value="250"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS CITRIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="250"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="36"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="53157-798-60" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA760305" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19780630"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_035e2df3-b00d-4050-8abf-126e7349c759">
+               <id root="035e2df3-b00d-4050-8abf-126e7349c759"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION<content styleCode="italics"/>
+               </title>
+               <text>
+                  <paragraph>Re-Order Product Code:  798-60</paragraph>
+                  <paragraph>250 mL volume.  Single use container. </paragraph>
+                  <paragraph>Sterile, nonpyrogenic fluid path. Sterilized by steam.</paragraph>
+                  <paragraph>Store at room temperature.</paragraph>
+               </text>
+               <effectiveTime value="20150209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_13fd727d-6286-4666-b7f4-f196acded446">
+               <id root="13fd727d-6286-4666-b7f4-f196acded446"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>For use with automated plasmapheresis equipment only. Use according to equipment manufacturer’s instructions. This unit should be used for plasmapheresis only.</paragraph>
+               </text>
+               <effectiveTime value="20150209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e96b7253-3702-4b3c-9a2c-7cdb0b929c58">
+               <id root="e96b7253-3702-4b3c-9a2c-7cdb0b929c58"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Not for direct intravenous infusion.</paragraph>
+               </text>
+               <effectiveTime value="20150209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b844c67a-5710-4a96-9ba7-66a4373fab5b">
+               <id root="b844c67a-5710-4a96-9ba7-66a4373fab5b"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Avoid excessive heat. Protect from freezing.  Do NOT vent.</paragraph>
+               </text>
+               <effectiveTime value="20150209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b48749b8-332a-4186-8ee1-82f2607a1123">
+               <id root="b48749b8-332a-4186-8ee1-82f2607a1123"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Do not use unless solution is clear and no leaks detected.</paragraph>
+               </text>
+               <effectiveTime value="20150209"/>
+               <component>
+                  <section ID="ID_812f87e1-96ec-457a-ba50-46e052be3f3d">
+                     <id root="812f87e1-96ec-457a-ba50-46e052be3f3d"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Rx only.  Discard unused portion.</paragraph>
+                        <paragraph>Recommended Storage:  Store at room temperature (25°C / 77°F).</paragraph>
+                     </text>
+                     <effectiveTime value="20150209"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e9783853-ec93-414a-8b5d-c2544c7b1538">
+               <id root="e9783853-ec93-414a-8b5d-c2544c7b1538"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>250 mL volume bag.  </paragraph>
+                  <paragraph>Each 250 ml contains:</paragraph>
+                  <paragraph>10.0 g sodium citrate (dihydrate), USP</paragraph>
+               </text>
+               <effectiveTime value="20150209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_699e8745-16c2-428f-952a-6037ffe07fe8">
+               <id root="699e8745-16c2-428f-952a-6037ffe07fe8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>Bag Label</paragraph>
+                  <renderMultiMedia ID="id2039089454" referencedObject="ID_419f5fb5-48d5-4beb-a9c0-2ba37f8c47e5"/>
+                  <paragraph>Envelope Label</paragraph>
+                  <renderMultiMedia ID="id-213736468" referencedObject="ID_11eabc09-5a1f-44ab-990f-b433ce3d1e24"/>
+               </text>
+               <effectiveTime value="20150209"/>
+               <component>
+                  <observationMedia ID="ID_419f5fb5-48d5-4beb-a9c0-2ba37f8c47e5">
+                     <text>798-60 Bag Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Hot Stamped Bag.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_11eabc09-5a1f-44ab-990f-b433ce3d1e24">
+                     <text>798-60 Envelope Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="796-08 Envelope Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_59a4afaa-0bbb-43f8-a5d7-474ea7d9dc1d">
+               <id root="59a4afaa-0bbb-43f8-a5d7-474ea7d9dc1d"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>References</title>
+               <text>
+                  <paragraph>HAEMONETICS and THE Blood Management Company are trademarks of Haemonetics Corporation.</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>Haemonetics Corporation</paragraph>
+                  <paragraph>400 Wood Road</paragraph>
+                  <paragraph>Braintree, MA 02184, USA</paragraph>
+                  <paragraph>By: Haemonetics Manufacturing Inc.</paragraph>
+                  <paragraph>1630 Industrial Park Street</paragraph>
+                  <paragraph>Covina, CA 91722, USA</paragraph>
+               </text>
+               <effectiveTime value="20150209"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

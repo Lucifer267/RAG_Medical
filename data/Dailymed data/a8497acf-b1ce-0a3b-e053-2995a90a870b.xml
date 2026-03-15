@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="a8497acf-b1ce-0a3b-e053-2995a90a870b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>VENTOLIN HFA</title>
+   <effectiveTime value="20200617"/>
+   <setId root="a8497acf-b1cd-0a3b-e053-2995a90a870b"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>DIRECT RX</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                  <name>DIRECT RX</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>DIRECT RX</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72189-016" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a84a37d1-ac94-d149-e053-2a95a90aee4e"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200617"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72189-016" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>VENTOLIN HFA</name>
+                        <formCode code="C42960" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AEROSOL, METERED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>albuterol sulfate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0173-0682" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="DH9E53K1Y8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NORFLURANE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="ug" value="90"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="021SEF3731" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALBUTEROL SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="QF8SVZ843E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALBUTEROL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-016-08" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20200617"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020983" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200617"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a8498743-860e-10f8-e053-2a95a90add15">
+               <id root="a8498743-860d-10f8-e053-2a95a90add15"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>1.1 Bronchospasm</paragraph>
+                  <paragraph>VENTOLIN HFA Inhalation Aerosol is indicated for the treatment or prevention of bronchospasm in patients aged 4 years and older with reversible obstructive airway disease.</paragraph>
+                  <paragraph>1.2 Exercise-Induced Bronchospasm</paragraph>
+                  <paragraph>VENTOLIN HFA is indicated for the prevention of exercise-induced bronchospasm in patients aged 4 years and older.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a849908b-51c2-a84a-e053-2995a90ab47f">
+               <id root="a849908b-51c1-a84a-e053-2995a90ab47f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>2.1 Bronchospasm</paragraph>
+                  <paragraph>For treatment of acute episodes of bronchospasm or prevention of symptoms associated with bronchospasm, the usual dosage for adults and children is 2 inhalations repeated every 4 to 6 hours; in some patients, 1 inhalation every 4 hours may be sufficient. More frequent administration or a greater number of inhalations is not recommended.</paragraph>
+                  <paragraph>2.2 Exercise-Induced Bronchospasm</paragraph>
+                  <paragraph>For prevention of exercise-induced bronchospasm, the usual dosage for adults and children aged 4 years and older is 2 inhalations 15 to 30 minutes before exercise.</paragraph>
+                  <paragraph>2.3 Administration Information</paragraph>
+                  <paragraph>VENTOLIN HFA should be administered by the orally inhaled route only.</paragraph>
+                  <paragraph>Priming</paragraph>
+                  <paragraph>Priming VENTOLIN HFA is essential to ensure appropriate albuterol content in each actuation. Prime VENTOLIN HFA before using for the first time, when the inhaler has not been used for more than 2 weeks, or when the inhaler has been dropped. To prime VENTOLIN HFA, release 4 sprays into the air away from the face, shaking well before each spray.</paragraph>
+                  <paragraph>Cleaning</paragraph>
+                  <paragraph>To ensure proper dosing and to prevent actuator orifice blockage, wash the actuator with warm water and let it air-dry completely at least once a week.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a8499258-054c-116f-e053-2a95a90a3e7b">
+               <id root="a8499258-054b-116f-e053-2a95a90a3e7b"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <text>
+                  <paragraph>Inhalation aerosol: Blue plastic inhaler with a blue strapcap containing a pressurized metered-dose aerosol canister containing 60 or 200 metered inhalations and fitted with a counter. Each actuation delivers 108 mcg of albuterol sulfate (90 mcg of albuterol base) from the mouthpiece.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a8498c5d-5796-0a45-e053-2995a90af602">
+               <id root="a8498c5d-5795-0a45-e053-2995a90af602"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>VENTOLIN HFA is contraindicated in patients with a history of hypersensitivity to any of the ingredients [see Warnings and Precautions (5.6), Description (11)].</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a8499258-054e-116f-e053-2a95a90a3e7b">
+               <id root="a8499258-054d-116f-e053-2a95a90a3e7b"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>5.1 Paradoxical Bronchospasm</paragraph>
+                  <paragraph>VENTOLIN HFA can produce paradoxical bronchospasm, which may be life threatening. If paradoxical bronchospasm occurs following dosing with VENTOLIN HFA, it should be discontinued immediately and alternative therapy should be instituted. It should be recognized that paradoxical bronchospasm, when associated with inhaled formulations, frequently occurs with the first use of a new canister.</paragraph>
+                  <paragraph>5.2 Deterioration of Asthma</paragraph>
+                  <paragraph>Asthma may deteriorate acutely over a period of hours or chronically over several days or longer. If the patient needs more doses of VENTOLIN HFA than usual, this may be a marker of destabilization of asthma and requires reevaluation of the patient and treatment regimen, giving special consideration to the possible need for anti-inflammatory treatment, e.g., corticosteroids.</paragraph>
+                  <paragraph>5.3 Use of Anti-inflammatory Agents</paragraph>
+                  <paragraph>The use of beta-adrenergic agonist bronchodilators alone may not be adequate to control asthma in many patients. Early consideration should be given to adding anti-inflammatory agents, e.g., corticosteroids, to the therapeutic regimen.</paragraph>
+                  <paragraph>5.4 Cardiovascular Effects</paragraph>
+                  <paragraph>VENTOLIN HFA, like all other beta2-adrenergic agonists, can produce clinically significant cardiovascular effects in some patients such as changes in pulse rate or blood pressure. If such effects occur, VENTOLIN HFA may need to be discontinued. In addition, beta-agonists have been reported to produce electrocardiogram (ECG) changes, such as flattening of the T wave, prolongation of the QTc interval, and ST segment depression. The clinical relevance of these findings is unknown. Therefore, VENTOLIN HFA, like all other sympathomimetic amines, should be used with caution in patients with underlying cardiovascular disorders, especially coronary insufficiency, cardiac arrhythmias, and hypertension.</paragraph>
+                  <paragraph>5.5 Do Not Exceed Recommended Dose</paragraph>
+                  <paragraph>Fatalities have been reported in association with excessive use of inhaled sympathomimetic drugs in patients with asthma. The exact cause of death is unknown, but cardiac arrest following an unexpected development of a severe acute asthmatic crisis and subsequent hypoxia is suspected.</paragraph>
+                  <paragraph>5.6 Immediate Hypersensitivity Reactions</paragraph>
+                  <paragraph>Immediate hypersensitivity reactions (e.g., urticaria, angioedema, rash, bronchospasm, hypotension), including anaphylaxis, may occur after administration of VENTOLIN HFA [see Contraindications (4)].</paragraph>
+                  <paragraph>5.7 Coexisting Conditions</paragraph>
+                  <paragraph>VENTOLIN HFA, like other sympathomimetic amines, should be used with caution in patients with convulsive disorders, hyperthyroidism, or diabetes mellitus and in patients who are unusually responsive to sympathomimetic amines. Large doses of intravenous albuterol have been reported to aggravate preexisting diabetes mellitus and ketoacidosis.</paragraph>
+                  <paragraph>5.8 Hypokalemia</paragraph>
+                  <paragraph>Beta-adrenergic agonist medicines may produce significant hypokalemia in some patients, possibly through intracellular shunting, which has the potential to produce adverse cardiovascular effects [see Clinical Pharmacology (12.1)]. The decrease in serum potassium is usually transient, not requiring supplementation.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a8499258-0552-116f-e053-2a95a90a3e7b">
+               <id root="a8499258-0551-116f-e053-2a95a90a3e7b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>Use of VENTOLIN HFA may be associated with the following:</paragraph>
+                  <paragraph>•
+  <br/>
+Paradoxical bronchospasm [see Warnings and Precautions (5.1)]
+  <br/>
+•
+  <br/>
+Cardiovascular effects [see Warnings and Precautions (5.4)]
+  <br/>
+•
+  <br/>
+Immediate hypersensitivity reactions [see Warnings and Precautions (5.6)]
+  <br/>
+•
+  <br/>
+Hypokalemia [see Warnings and Precautions (5.8)]
+  <br/>
+6.1 Clinical Trials Experience
+  <br/>
+Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared with rates in the clinical trials of another drug and may not reflect the rates observed in practice.
+ </paragraph>
+                  <paragraph>The safety data described below reflects exposure to VENTOLIN HFA in 248 subjects treated with VENTOLIN HFA in 3 placebo-controlled clinical trials of 2 to 12 weeks’ duration. The data from adults and adolescents is based upon 2 clinical trials in which 202 subjects with asthma aged 12 years and older were treated with VENTOLIN HFA 2 inhalations 4 times daily for 12 weeks’ duration. The adult/adolescent population was 92 female, 110 male and 163 white, 19 black, 18 Hispanic, 2 other. The data from pediatric subjects are based upon 1 clinical trial in which 46 subjects with asthma aged 4 to 11 years were treated with VENTOLIN HFA 2 inhalations 4 times daily for 2 weeks’ duration. The population was 21 female, 25 male and 25 white, 17 black, 3 Hispanic, 1 other.</paragraph>
+                  <paragraph>Adult and Adolescent Subjects Aged 12 Years and Older</paragraph>
+                  <paragraph>The two 12-week, randomized, double-blind trials in 610 adult and adolescent subjects with asthma that compared VENTOLIN HFA, a CFC 11/12-propelled albuterol inhaler, and an HFA-134a placebo inhaler. Overall, the incidence and nature of the adverse reactions reported for VENTOLIN HFA and a CFC 11/12-propelled albuterol inhaler were comparable. TABLE 1 lists the incidence of all adverse reactions (whether considered by the investigator to be related or unrelated to drug) from these trials that occurred at a rate of ≥3% in the group treated with VENTOLIN HFA and more frequently in the group treated with VENTOLIN HFA than in the HFA-134a placebo inhaler group.</paragraph>
+                  <paragraph>Table 1. Adverse Reactions with VENTOLIN HFA with ≥3% Incidence and More Common than Placebo in Adult and Adolescent Subjects
+  <br/>
+Adverse Reaction
+ </paragraph>
+                  <paragraph>Percent of Subjects</paragraph>
+                  <paragraph>VENTOLIN HFA</paragraph>
+                  <paragraph>(n = 202)</paragraph>
+                  <paragraph>%</paragraph>
+                  <paragraph>CFC 11/12-Propelled</paragraph>
+                  <paragraph>Albuterol Inhaler</paragraph>
+                  <paragraph>(n = 207)</paragraph>
+                  <paragraph>%</paragraph>
+                  <paragraph>Placebo HFA-134a</paragraph>
+                  <paragraph>(n = 201)</paragraph>
+                  <paragraph>%</paragraph>
+                  <paragraph>Ear, nose, and throat</paragraph>
+                  <paragraph>    Throat irritation</paragraph>
+                  <paragraph>10</paragraph>
+                  <paragraph>6</paragraph>
+                  <paragraph>7</paragraph>
+                  <paragraph>    Upper respiratory inflammation</paragraph>
+                  <paragraph>5</paragraph>
+                  <paragraph>5</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>Lower respiratory</paragraph>
+                  <paragraph>    Viral respiratory infections</paragraph>
+                  <paragraph>7</paragraph>
+                  <paragraph>4</paragraph>
+                  <paragraph>4</paragraph>
+                  <paragraph>    Cough</paragraph>
+                  <paragraph>5</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>Musculoskeletal</paragraph>
+                  <paragraph>    Musculoskeletal pain</paragraph>
+                  <paragraph>5</paragraph>
+                  <paragraph>5</paragraph>
+                  <paragraph>4</paragraph>
+                  <paragraph>Adverse reactions reported by &lt;3% of the adult and adolescent subjects receiving VENTOLIN HFA and by a greater proportion of subjects receiving VENTOLIN HFA than receiving HFA-134a placebo inhaler and that have the potential to be related to VENTOLIN HFA include diarrhea, laryngitis, oropharyngeal edema, cough, lung disorders, tachycardia, and extrasystoles. Palpitations and dizziness have also been observed with VENTOLIN HFA.</paragraph>
+                  <paragraph>Pediatric Subjects Aged 4 to 11 Years</paragraph>
+                  <paragraph>Results from the 2-week clinical trial in pediatric subjects with asthma aged 4 to 11 years showed that this pediatric population had an adverse reaction profile similar to that of the adult and adolescent populations.</paragraph>
+                  <paragraph>Three trials have been conducted to evaluate the safety and efficacy of VENTOLIN HFA in subjects between birth and 4 years of age. The results of these trials did not establish the efficacy of VENTOLIN HFA in this age group [see Use in Specific Populations (8.4)]. Since the efficacy of VENTOLIN HFA has not been demonstrated in children between birth and 48 months of age, the safety of VENTOLIN HFA in this age group cannot be established. However, the safety profile observed in the pediatric population younger than 4 years was comparable to that observed in the older pediatric subjects and in adults and adolescents. Where adverse reaction incidence rates were greater in subjects younger than 4 years compared with older subjects, the higher incidence rates were noted in all treatment arms, including placebo. These adverse reactions included upper respiratory tract infection, nasopharyngitis, pyrexia, and tachycardia.</paragraph>
+                  <paragraph>6.2 Postmarketing Experience
+  <br/>
+In addition to adverse reactions reported from clinical trials, the following adverse reactions have been identified during postapproval use of albuterol sulfate. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. These events have been chosen for inclusion due to either their seriousness, frequency of reporting, or causal connection to albuterol or a combination of these factors.
+ </paragraph>
+                  <paragraph>Cases of paradoxical bronchospasm, hoarseness, arrhythmias (including atrial fibrillation, supraventricular tachycardia), and hypersensitivity reactions (including urticaria, angioedema, rash) have been reported after the use of VENTOLIN HFA.</paragraph>
+                  <paragraph>In addition, albuterol, like other sympathomimetic agents, can cause adverse reactions such as hypokalemia, hypertension, peripheral vasodilatation, angina, tremor, central nervous system stimulation, hyperactivity, sleeplessness, headache, muscle cramps, drying or irritation of the oropharynx, and metabolic acidosis.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a849908b-51d9-a84a-e053-2995a90ab47f">
+               <id root="a849908b-51d8-a84a-e053-2995a90ab47f"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <text>
+                  <paragraph>Other short-acting sympathomimetic aerosol bronchodilators should not be used concomitantly with albuterol. If additional adrenergic drugs are to be administered by any route, they should be used with caution to avoid deleterious cardiovascular effects.</paragraph>
+                  <paragraph>7.1 Beta-Adrenergic Receptor Blocking Agents</paragraph>
+                  <paragraph>Beta-blockers not only block the pulmonary effect of beta-agonists, such as VENTOLIN HFA, but may also produce severe bronchospasm in patients with asthma. Therefore, patients with asthma should not normally be treated with beta-blockers. However, under certain circumstances, there may be no acceptable alternatives to the use of beta-adrenergic blocking agents for these patients; cardioselective beta-blockers could be considered, although they should be administered with caution.</paragraph>
+                  <paragraph>7.2 Non–Potassium-Sparing Diuretics</paragraph>
+                  <paragraph>The ECG changes and/or hypokalemia that may result from the administration of non‑potassium-sparing diuretics (such as loop or thiazide diuretics) can be acutely worsened by beta-agonists, especially when the recommended dose of the beta-agonist is exceeded. Although the clinical significance of these effects is not known, caution is advised in the coadministration of VENTOLIN HFA with non–potassium-sparing diuretics.</paragraph>
+                  <paragraph>7.3 Digoxin</paragraph>
+                  <paragraph>Mean decreases of 16% to 22% in serum digoxin levels were demonstrated after single-dose intravenous and oral administration of albuterol, respectively, to normal volunteers who had received digoxin for 10 days. The clinical relevance of these findings for patients with obstructive airway disease who are receiving inhaled albuterol and digoxin on a chronic basis is unclear. Nevertheless, it would be prudent to carefully evaluate the serum digoxin levels in patients who are currently receiving digoxin and albuterol.</paragraph>
+                  <paragraph>7.4 Monoamine Oxidase Inhibitors and Tricyclic Antidepressants</paragraph>
+                  <paragraph>VENTOLIN HFA should be administered with extreme caution to patients being treated with monoamine oxidase inhibitors or tricyclic antidepressants, or within 2 weeks of discontinuation of such agents, because the action of albuterol on the vascular system may be potentiated.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a849908b-51db-a84a-e053-2995a90ab47f">
+               <id root="a849908b-51da-a84a-e053-2995a90ab47f"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph>Pregnancy Exposure Registry</paragraph>
+                  <paragraph>There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to asthma medications during pregnancy. For more information, contact the MotherToBaby Pregnancy Studies conducted by the Organization of Teratology Information Specialists at 1‑877-311-8972 or visit https://mothertobaby.org/ongoing-study/asthma/.</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>There are no randomized clinical studies of use of albuterol sulfate during pregnancy. Available data from epidemiological studies and postmarketing case reports of pregnancy outcomes following inhaled albuterol use do not consistently demonstrate a risk of major birth defects or miscarriage. There are, however, clinical considerations in pregnant women with asthma. (See Clinical Considerations.)</paragraph>
+                  <paragraph>Administration of VENTOLIN HFA to mice and rabbits during the period of organogenesis revealed evidence of adverse developmental outcomes (cleft palate in mice, delayed ossification in rabbits) at less than the maximum recommended human daily inhaled dose (MRHDID). (See Data.)</paragraph>
+                  <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population(s) is unknown. In the U.S. general population, the estimated risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                  <paragraph>Clinical Considerations</paragraph>
+                  <paragraph>Disease-Associated Maternal and/or Embryofetal Risk: In women with poorly or moderately controlled asthma, there is an increased risk of several perinatal adverse outcomes such as preeclampsia in the mother and prematurity, low birth weight, and small for gestational age in the neonate. Pregnant women with asthma should be closely monitored and medication adjusted as necessary to maintain optimal asthma control.</paragraph>
+                  <paragraph>Labor or Delivery: Because of the potential for beta-agonist interference with uterine contractility, use of VENTOLIN HFA during labor should be restricted to those patients in whom the benefits clearly outweigh the risk. VENTOLIN HFA has not been approved for the management of pre-term labor. Serious adverse reactions, including pulmonary edema, have been reported during or following treatment of premature labor with beta2-agonists, including albuterol.</paragraph>
+                  <paragraph>Data</paragraph>
+                  <paragraph>Human Data: While available studies cannot definitively establish the absence of risk, published data from epidemiological studies and case reports have not consistently demonstrated an association with use of VENTOLIN HFA during pregnancy and major birth defects, specific birth defects, or miscarriage. The available studies have methodologic limitations, including inconsistent comparator groups, definitions of outcomes, and assessment of disease impact.</paragraph>
+                  <paragraph>Animal Data: In a study in pregnant mice, subcutaneously administered albuterol sulfate produced cleft palate formation in 5 of 111 (4.5%) fetuses at an exposure less than the MRHDID for adults (on a mg/m2 basis at a maternal dose of 0.25 mg/kg) and in 10 of 108 (9.3%) fetuses at approximately 9 times the MRHDID (on a mg/m2 basis at a maternal dose of 2.5 mg/kg). Cleft palate also occurred in 22 of 72 (30.5%) fetuses from females treated subcutaneously with isoproterenol, another beta2-agonist.</paragraph>
+                  <paragraph>In a study in pregnant rabbits, orally administered albuterol sulfate produced cranioschisis in 7 of 19 fetuses (37%) at approximately 750 times the MRHDID (on a mg/m2 basis at a maternal dose of 50 mg/kg).</paragraph>
+                  <paragraph>In a study in pregnant rabbits, an albuterol/HFA-134a formulation administered by inhalation produced enlargement of the frontal portion of the fetal fontanelles at approximately one third of the MRHDID on a mg/m2 basis.</paragraph>
+                  <paragraph>A study in which pregnant rats were dosed with radiolabeled albuterol sulfate demonstrated that drug-related material is transferred from the maternal circulation to the fetus.</paragraph>
+                  <paragraph>8.2 Lactation</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>There are no available data on the presence of albuterol or the components of VENTOLIN HFA in human milk, the effects on the breastfed child, or the effects on milk production. However, plasma levels of albuterol after inhaled therapeutic doses are low in humans, and if present in breast milk, are likely to be correspondingly low [see Clinical Pharmacology (12.3)]. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for VENTOLIN HFA and any potential adverse effects on the breastfed child from VENTOLIN HFA or from the underlying maternal condition.</paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>The safety and effectiveness of VENTOLIN HFA in children aged 4 years and older have been established based upon two 12-week clinical trials in subjects aged 12 years and older with asthma and one 2-week clinical trial in subjects aged 4 to 11 years with asthma [see Adverse Reactions (6.1), Clinical Studies (14.1)]. The safety and effectiveness of VENTOLIN HFA in children younger than 4 years have not been established. Three trials have been conducted to evaluate the safety and efficacy of VENTOLIN HFA in subjects younger than 4 years and the findings are described below.</paragraph>
+                  <paragraph>Two 4-week randomized, double-blind, placebo-controlled trials were conducted in 163 pediatric subjects aged from birth to 48 months with symptoms of bronchospasm associated with obstructive airway disease (presenting symptoms included: wheeze, cough, dyspnea, or chest tightness). VENTOLIN HFA or placebo HFA was delivered with either an AeroChamber Plus Valved Holding Chamber or an Optichamber Valved Holding Chamber with mask 3 times daily. In one trial, VENTOLIN HFA 90 mcg (n = 26), VENTOLIN HFA 180 mcg (n = 25), and placebo HFA (n = 26) were administered to children aged between 24 and 48 months. In the second trial, VENTOLIN HFA 90 mcg (n = 29), VENTOLIN HFA 180 mcg (n = 29), and placebo HFA (n = 28) were administered to children aged between birth and 24 months. Over the 4-week treatment period, there were no treatment differences in asthma symptom scores between the groups receiving VENTOLIN HFA 90 mcg, VENTOLIN HFA 180 mcg, and placebo in either trial.</paragraph>
+                  <paragraph>In a third trial, VENTOLIN HFA was evaluated in 87 pediatric subjects younger than 24 months for the treatment of acute wheezing. VENTOLIN HFA was delivered with an AeroChamber Plus Valved Holding Chamber in this trial. There were no significant differences in asthma symptom scores and mean change from baseline in an asthma symptom score between VENTOLIN HFA 180 mcg and VENTOLIN HFA 360 mcg.</paragraph>
+                  <paragraph>In vitro dose characterization studies were performed to evaluate the delivery of VENTOLIN HFA via holding chambers with attached masks. The studies were conducted with 2 different holding chambers with masks (small and medium size). The in vitro study data when simulating patient breathing suggest that the dose of VENTOLIN HFA presented for inhalation via a valved holding chamber with mask will be comparable to the dose delivered in adults without a spacer and mask per kilogram of body weight (TABLE 2). However, clinical trials in children younger than 4 years described above suggest that either the optimal dose of VENTOLIN HFA has not been defined in this age group or VENTOLIN HFA is not effective in this age group. The safety and effectiveness of VENTOLIN HFA administered with or without a spacer device in children younger than 4 years have not been demonstrated.</paragraph>
+                  <paragraph>Table 2. In Vitro Medication Delivery through AeroChamber Plus Valved Holding Chamber with a Mask
+  <br/>
+a Centers for Disease Control growth charts, developed by the National Center for Health Statistics in collaboration with the National Center for Chronic Disease Prevention and Health Promotion (2000). Ranges correspond to the average of the 50th percentile weight for boys and girls at the ages indicated.
+  <br/>
+b A single inhalation of VENTOLIN HFA in a 70-kg adult without use of a valved holding chamber and mask delivers approximately 90 mcg, or 1.3 mcg/kg.
+ </paragraph>
+                  <paragraph>Age</paragraph>
+                  <paragraph>Mask</paragraph>
+                  <paragraph>Flow Rate (L/min)</paragraph>
+                  <paragraph>Holding Time (seconds)</paragraph>
+                  <paragraph>Mean Medication Delivery through AeroChamber Plus (mcg/actuation)</paragraph>
+                  <paragraph>Body Weight 50th Percentile (kg)a</paragraph>
+                  <paragraph>Medication Delivered
+  <br/>
+per Actuation (mcg/kg)b
+ </paragraph>
+                  <paragraph>6 to 12 Months</paragraph>
+                  <paragraph>Small</paragraph>
+                  <paragraph>4.9</paragraph>
+                  <paragraph>0</paragraph>
+                  <paragraph>18.2</paragraph>
+                  <paragraph>7.5-9.9</paragraph>
+                  <paragraph>1.8-2.4</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>19.8</paragraph>
+                  <paragraph>2.0-2.6</paragraph>
+                  <paragraph>5</paragraph>
+                  <paragraph>13.8</paragraph>
+                  <paragraph>1.4-1.8</paragraph>
+                  <paragraph>10</paragraph>
+                  <paragraph>15.4</paragraph>
+                  <paragraph>1.6-2.1</paragraph>
+                  <paragraph>2 to 5 Years</paragraph>
+                  <paragraph>Small</paragraph>
+                  <paragraph>8.0</paragraph>
+                  <paragraph>0</paragraph>
+                  <paragraph>17.8</paragraph>
+                  <paragraph>12.3-18.0</paragraph>
+                  <paragraph>1.0-1.4</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>16.0</paragraph>
+                  <paragraph>0.9-1.3</paragraph>
+                  <paragraph>5</paragraph>
+                  <paragraph>16.3</paragraph>
+                  <paragraph>0.9-1.3</paragraph>
+                  <paragraph>10</paragraph>
+                  <paragraph>18.3</paragraph>
+                  <paragraph>1.0-1.5</paragraph>
+                  <paragraph>2 to 5 Years</paragraph>
+                  <paragraph>Medium</paragraph>
+                  <paragraph>8.0</paragraph>
+                  <paragraph>0</paragraph>
+                  <paragraph>21.1</paragraph>
+                  <paragraph>12.3-18.0</paragraph>
+                  <paragraph>1.2-1.7</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>15.3</paragraph>
+                  <paragraph>0.8-1.2</paragraph>
+                  <paragraph>5</paragraph>
+                  <paragraph>18.3</paragraph>
+                  <paragraph>1.0-1.5</paragraph>
+                  <paragraph>10</paragraph>
+                  <paragraph>18.2</paragraph>
+                  <paragraph>1.0-1.5</paragraph>
+                  <paragraph>&gt;5 Years</paragraph>
+                  <paragraph>Medium</paragraph>
+                  <paragraph>12.0</paragraph>
+                  <paragraph>0</paragraph>
+                  <paragraph>26.8</paragraph>
+                  <paragraph>18.0</paragraph>
+                  <paragraph>1.5</paragraph>
+                  <paragraph>2</paragraph>
+                  <paragraph>20.9</paragraph>
+                  <paragraph>1.2</paragraph>
+                  <paragraph>5</paragraph>
+                  <paragraph>19.6</paragraph>
+                  <paragraph>1.1</paragraph>
+                  <paragraph>10</paragraph>
+                  <paragraph>20.3</paragraph>
+                  <paragraph>1.1</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>Clinical trials of VENTOLIN HFA did not include sufficient numbers of subjects aged 65 years and older to determine whether older subjects respond differently than younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a849908b-51dd-a84a-e053-2995a90ab47f">
+               <id root="a849908b-51dc-a84a-e053-2995a90ab47f"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>The expected signs and symptoms with overdosage of albuterol are those of excessive beta-adrenergic stimulation and/or occurrence or exaggeration of any of the signs and symptoms of beta-adrenergic stimulation (e.g., seizures, angina, hypertension or hypotension, tachycardia with rates up to 200 beats/min, arrhythmias, nervousness, headache, tremor, muscle cramps, dry mouth, palpitation, nausea, dizziness, fatigue, malaise, insomnia, hyperglycemia, hypokalemia, metabolic acidosis).</paragraph>
+                  <paragraph>As with all inhaled sympathomimetic medicines, cardiac arrest and even death may be associated with an overdose of VENTOLIN HFA Inhalation Aerosol.</paragraph>
+                  <paragraph>Treatment consists of discontinuation of VENTOLIN HFA together with appropriate symptomatic therapy. The judicious use of a cardioselective beta-receptor blocker may be considered, bearing in mind that such medication can produce bronchospasm. There is insufficient evidence to determine if dialysis is beneficial for overdosage of VENTOLIN HFA.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a8498c5d-5799-0a45-e053-2995a90af602">
+               <id root="a8498c5d-5798-0a45-e053-2995a90af602"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>The active component of VENTOLIN HFA is albuterol sulfate, USP, the racemic form of albuterol and a relatively selective beta2-adrenergic bronchodilator. Albuterol sulfate has the chemical name α1-[(tert-butylamino)methyl]-4-hydroxy-m-xylene-α, α′-diol sulfate (2:1)(salt) and the following chemical structure:</paragraph>
+                  <paragraph>[Albuterol sulfate chemical structure]</paragraph>
+                  <paragraph>Albuterol sulfate is a white crystalline powder with a molecular weight of 576.7, and the empirical formula is (C13H21NO3)2•H2SO4. It is soluble in water and slightly soluble in ethanol.</paragraph>
+                  <paragraph>The World Health Organization recommended name for albuterol base is salbutamol.</paragraph>
+                  <paragraph>VENTOLIN HFA is a blue plastic inhaler with a blue strapcap containing a pressurized metered-dose aerosol canister fitted with a counter. Each canister contains a microcrystalline suspension of albuterol sulfate in propellant HFA-134a (1,1,1,2-tetrafluoroethane). It contains no other excipients.</paragraph>
+                  <paragraph>After priming, each actuation of the inhaler delivers 120 mcg of albuterol sulfate, USP in 75 mg of suspension from the valve and 108 mcg of albuterol sulfate, USP from the mouthpiece (equivalent to 90 mcg of albuterol base from the mouthpiece).</paragraph>
+                  <paragraph>Prime VENTOLIN HFA before using for the first time, when the inhaler has not been used for more than 2 weeks, or when the inhaler has been dropped. To prime VENTOLIN HFA, release 4 sprays into the air away from the face, shaking well before each spray.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a8498c5d-579b-0a45-e053-2995a90af602">
+               <id root="a8498c5d-579a-0a45-e053-2995a90af602"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>In vitro studies and in vivo pharmacologic studies have demonstrated that albuterol has a preferential effect on beta2-adrenergic receptors compared with isoproterenol. Although beta2-adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta1-adrenoceptors are the predominant receptors in the heart, there are also beta2-adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors. The precise function of these receptors has not been established, but their presence raises the possibility that even selective beta2-agonists may have cardiac effects.</paragraph>
+                  <paragraph>Activation of beta2-adrenergic receptors on airway smooth muscle leads to the activation of adenyl cyclase and to an increase in the intracellular concentration of cyclic-3′,5′-adenosine monophosphate (cyclic AMP). This increase of cyclic AMP leads to the activation of protein kinase A, which inhibits the phosphorylation of myosin and lowers intracellular ionic calcium concentrations, resulting in relaxation. Albuterol relaxes the smooth muscles of all airways, from the trachea to the terminal bronchioles. Albuterol acts as a functional antagonist to relax the airway irrespective of the spasmogen involved, thus protecting against all bronchoconstrictor challenges. Increased cyclic AMP concentrations are also associated with the inhibition of release of mediators from mast cells in the airway.</paragraph>
+                  <paragraph>Albuterol has been shown in most controlled clinical trials to have more effect on the respiratory tract, in the form of bronchial smooth muscle relaxation, than isoproterenol at comparable doses while producing fewer cardiovascular effects. Controlled clinical studies and other clinical experience have shown that inhaled albuterol, like other beta-adrenergic agonist drugs, can produce a significant cardiovascular effect in some patients, as measured by pulse rate, blood pressure, symptoms, and/or electrocardiographic changes [see Warnings and Precautions (5.4)].</paragraph>
+                  <paragraph>12.3 Pharmacokinetics</paragraph>
+                  <paragraph>The systemic levels of albuterol are low after inhalation of recommended doses. A trial conducted in 12 healthy male and female subjects using a higher dose (1,080 mcg of albuterol base) showed that mean peak plasma concentrations of approximately 3 ng/mL occurred after dosing when albuterol was delivered using propellant HFA-134a. The mean time to peak concentrations (Tmax) was delayed after administration of VENTOLIN HFA (Tmax = 0.42 hours) as compared with CFC-propelled albuterol inhaler (Tmax = 0.17 hours). Apparent terminal plasma half-life of albuterol is approximately 4.6 hours. No further pharmacokinetic trials for VENTOLIN HFA were conducted in neonates, children, or elderly subjects.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a849908b-51df-a84a-e053-2995a90ab47f">
+               <id root="a849908b-51de-a84a-e053-2995a90ab47f"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <text>
+                  <paragraph>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>In a 2-year study in Sprague-Dawley rats, albuterol sulfate caused a dose-related increase in the incidence of benign leiomyomas of the mesovarium at and above dietary doses of 2 mg/kg (approximately 15 and 6 times the MRHDID for adults and children, respectively, on a mg/m2 basis). In another study this effect was blocked by the coadministration of propranolol, a non‑selective beta-adrenergic antagonist. In an 18-month study in CD-1 mice, albuterol sulfate showed no evidence of tumorigenicity at dietary doses of up to 500 mg/kg (approximately 1,900 and 740 times the MRHDID for adults and children, respectively, on a mg/m2 basis). In a 22-month study in Golden hamsters, albuterol sulfate showed no evidence of tumorigenicity at dietary doses of up to 50 mg/kg (approximately 250 and 100 times the MRHDID for adults and children, respectively, on a mg/m2 basis).</paragraph>
+                  <paragraph>Albuterol sulfate was not mutagenic in the Ames test or a mutation test in yeast. Albuterol sulfate was not clastogenic in a human peripheral lymphocyte assay or in an AH1 strain mouse micronucleus assay.</paragraph>
+                  <paragraph>Fertility and reproductive performance in rats demonstrated no evidence of impaired fertility at oral doses up to 50 mg/kg (approximately 380 times the MRHDID for adults on a mg/m2 basis).</paragraph>
+                  <paragraph>13.2 Animal Toxicology and/or Pharmacology</paragraph>
+                  <paragraph>Preclinical</paragraph>
+                  <paragraph>Intravenous studies in rats with albuterol sulfate have demonstrated that albuterol crosses the blood-brain barrier and reaches brain concentrations amounting to approximately 5% of the plasma concentrations. In structures outside the blood-brain barrier (pineal and pituitary glands), albuterol concentrations were found to be 100 times those in the whole brain.</paragraph>
+                  <paragraph>Studies in laboratory animals (minipigs, rodents, and dogs) have demonstrated the occurrence of cardiac arrhythmias and sudden death (with histologic evidence of myocardial necrosis) when beta-agonists and methylxanthines are administered concurrently. The clinical relevance of these findings is unknown.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a849908b-51e1-a84a-e053-2995a90ab47f">
+               <id root="a849908b-51e0-a84a-e053-2995a90ab47f"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <text>
+                  <paragraph>14.1 Bronchospasm Associated with Asthma</paragraph>
+                  <paragraph>Adult and Adolescent Subjects Aged 12 Years and Older</paragraph>
+                  <paragraph>The efficacy of VENTOLIN HFA was evaluated in two 12-week, randomized, double-blind, placebo controlled trials in subjects aged 12 years and older with mild to moderate asthma. These trials included a total of 610 subjects (323 males, 287 females). In each trial, subjects received 2 inhalations of VENTOLIN HFA, CFC 11/12-propelled albuterol, or HFA-134a placebo 4 times daily for 12 weeks’ duration. Subjects taking the HFA-134a placebo inhaler also took VENTOLIN HFA for asthma symptom relief on an as-needed basis. Some subjects who participated in these clinical trials were using concomitant inhaled steroid therapy. Efficacy was assessed by serial forced expiratory volume in 1 second (FEV1). In each of these trials, 2 inhalations of VENTOLIN HFA produced significantly greater improvement in FEV1 over the pretreatment value than placebo. Results from the 2 clinical trials are described below.</paragraph>
+                  <paragraph>In a 12-week, randomized, double-blind trial, VENTOLIN HFA (101 subjects) was compared with CFC 11/12-propelled albuterol (99 subjects) and an HFA-134a placebo inhaler (97 subjects) in adolescent and adult subjects aged 12 to 76 years with mild to moderate asthma. Serial FEV1 measurements [shown below as percent change from test-day baseline at Day 1 (n = 297) and at Week 12 (n = 249)] demonstrated that 2 inhalations of VENTOLIN HFA produced significantly greater improvement in FEV1 over the pretreatment value than placebo.</paragraph>
+                  <paragraph>FEV1 as Percent Change from Predose in a Large, 12-Week Clinical Trial</paragraph>
+                  <paragraph>Day 1</paragraph>
+                  <paragraph>[FEV1 as Percent Change from Predose in a Large, 12-Week Clinical Trial - Day 1]</paragraph>
+                  <paragraph>Week 12</paragraph>
+                  <paragraph>[FEV1 as Percent Change from Predose in a Large, 12-Week Clinical Trial - Week 12]</paragraph>
+                  <paragraph>In the responder population (≥15% increase in FEV1 within 30 minutes postdose) treated with VENTOLIN HFA, the mean time to onset of a 15% increase in FEV1 over the pretreatment value was 5.4 minutes, and the mean time to peak effect was 56 minutes. The mean duration of effect as measured by a 15% increase in FEV1 over the pretreatment value was approximately 4 hours. In some subjects, duration of effect was as long as 6 hours.</paragraph>
+                  <paragraph>The second 12-week randomized, double-blind trial was conducted to evaluate the efficacy and safety of switching subjects from CFC 11/12-propelled albuterol to VENTOLIN HFA. During the 3-week run-in phase of the trial, all subjects received CFC 11/12-propelled albuterol. During the double-blind treatment phase, VENTOLIN HFA (91 subjects) was compared to CFC 11/12-propelled albuterol (100 subjects) and an HFA-134a placebo inhaler (95 subjects) in adult and adolescent subjects with mild to moderate asthma. Serial FEV1 measurements demonstrated that 2 inhalations of VENTOLIN HFA produced significantly greater improvement in pulmonary function than placebo. The switching from CFC 11/12-propelled albuterol inhaler to VENTOLIN HFA did not reveal any clinically significant changes in the efficacy profile.</paragraph>
+                  <paragraph>In the 2 adult trials, the efficacy results from VENTOLIN HFA were significantly greater than placebo and were clinically comparable to those achieved with CFC 11/12-propelled albuterol, although small numerical differences in mean FEV1 response and other measures were observed. Physicians should recognize that individual responses to beta-adrenergic agonists administered via different propellants may vary and that equivalent responses in individual patients should not be assumed.</paragraph>
+                  <paragraph>Pediatric Subjects Aged 4 to 11 Years</paragraph>
+                  <paragraph>The efficacy of VENTOLIN HFA was evaluated in one 2-week, randomized, double-blind, placebo-controlled trial in 135 pediatric subjects aged 4 to 11 years with mild to moderate asthma. In this trial, subjects received VENTOLIN HFA, CFC 11/12-propelled albuterol, or HFA-134a placebo. Serial pulmonary function measurements demonstrated that 2 inhalations of VENTOLIN HFA produced significantly greater improvement in pulmonary function than placebo and that there were no significant differences between the groups treated with VENTOLIN HFA and CFC 11/12-propelled albuterol. In the responder population treated with VENTOLIN HFA, the mean time to onset of a 15% increase in peak expiratory flow rate (PEFR) over the pretreatment value was 7.8 minutes, and the mean time to peak effect was approximately 90 minutes. The mean duration of effect as measured by a 15% increase in PEFR over the pretreatment value was greater than 3 hours. In some subjects, duration of effect was as long as 6 hours.</paragraph>
+                  <paragraph>14.2 Exercise-Induced Bronchospasm</paragraph>
+                  <paragraph>One controlled clinical trial in adult subjects with asthma (N = 24) demonstrated that 2 inhalations of VENTOLIN HFA taken approximately 30 minutes prior to exercise significantly prevented exercise-induced bronchospasm (as measured by maximum percentage fall in FEV1 following exercise) compared with an HFA-134a placebo inhaler. In addition, VENTOLIN HFA was shown to be clinically comparable to a CFC 11/12-propelled albuterol inhaler for this indication.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a8498c5d-57a1-0a45-e053-2995a90af602">
+               <id root="a8498c5d-57a0-0a45-e053-2995a90af602"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>VENTOLIN HFA Inhalation Aerosol is supplied in the following boxes of 1 as a pressurized aluminum canister fitted with a counter and supplied with a blue plastic actuator with a blue strapcap:</paragraph>
+                  <paragraph/>
+                  <paragraph>Each inhaler is sealed in a moisture-protective foil pouch with a desiccant that should be discarded when the pouch is opened. Each inhaler is packaged with a Patient Information leaflet.</paragraph>
+                  <paragraph>The blue actuator supplied with VENTOLIN HFA should not be used with any other product canisters, and actuators from other products should not be used with a VENTOLIN HFA canister.</paragraph>
+                  <paragraph>VENTOLIN HFA has a counter attached to the canister. The counter starts at 204 or 64 and counts down each time a spray is released. The correct amount of medication in each actuation cannot be assured after the counter reads 000, even though the canister is not completely empty and will continue to operate. The inhaler should be discarded when the counter reads 000 or 12 months after removal from the moisture-protective foil pouch, whichever comes first.</paragraph>
+                  <paragraph>Keep out of reach of children. Avoid spraying in eyes.</paragraph>
+                  <paragraph>Contents Under Pressure: Do not puncture. Do not use or store near heat or open flame. Exposure to temperatures above 120°F may cause bursting. Never throw canister into fire or incinerator.</paragraph>
+                  <paragraph>Store at room temperature between 68°F and 77°F (20°C and 25°C); excursions permitted from 59°F to 86°F (15°C to 30°C) [See USP Controlled Room Temperature]. Store the inhaler with the mouthpiece down. For best results, the inhaler should be at room temperature before use. SHAKE WELL BEFORE EACH SPRAY.</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a8498c5d-57a4-0a45-e053-2995a90af602">
+               <id root="a8498c5d-57a3-0a45-e053-2995a90af602"/>
+               <code code="88436-1" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT COUNSELING INFORMATION"/>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Patient Information and Instructions for Use).</paragraph>
+                  <paragraph>Frequency of Use</paragraph>
+                  <paragraph>Inform patients that the action of VENTOLIN HFA should last up to 4 to 6 hours. Do not use VENTOLIN HFA more frequently than recommended. Instruct patients not to increase the dose or frequency of doses of VENTOLIN HFA without consulting the physician. Instruct patients to seek medical attention immediately if treatment with VENTOLIN HFA becomes less effective for symptomatic relief, symptoms become worse, and/or they need to use the product more frequently than usual.</paragraph>
+                  <paragraph>Priming</paragraph>
+                  <paragraph>Instruct patients to prime VENTOLIN HFA before using for the first time, when the inhaler has not been used for more than 2 weeks, or when the inhaler has been dropped. To prime VENTOLIN HFA, release 4 sprays into the air away from the face, shaking well before each spray.</paragraph>
+                  <paragraph>Cleaning</paragraph>
+                  <paragraph>To ensure proper dosing and to prevent actuator orifice blockage, instruct patients to wash the actuator with warm water and let it air-dry completely at least once a week. Inform patients that detailed cleaning instructions are included in the Patient Information leaflet.</paragraph>
+                  <paragraph>Paradoxical Bronchospasm</paragraph>
+                  <paragraph>Inform patients that VENTOLIN HFA can produce paradoxical bronchospasm. Instruct them to discontinue VENTOLIN HFA if paradoxical bronchospasm occurs.</paragraph>
+                  <paragraph>Concomitant Drug Use</paragraph>
+                  <paragraph>Advise patients that while they are using VENTOLIN HFA, other inhaled drugs and asthma medications should be taken only as directed by the physician.</paragraph>
+                  <paragraph>Common Adverse Effects</paragraph>
+                  <paragraph>Common adverse effects of treatment with inhaled albuterol include palpitations, chest pain, rapid heart rate, tremor, and nervousness.</paragraph>
+                  <paragraph>Pregnancy Exposure Registry</paragraph>
+                  <paragraph>Inform women there is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to asthma medications, including VENTOLIN HFA, during pregnancy and that they can enroll in the Pregnancy Exposure Registry by calling 1-877-311-8972 or by visiting https://mothertobaby.org/ongoing-study/asthma [see Use in Specific Populations (8.1)].</paragraph>
+                  <paragraph>VENTOLIN is owned by or licensed to the GSK group of companies.</paragraph>
+                  <paragraph>The other brands listed are trademarks owned by or licensed to their respective owners and are not owned by or licensed to the GSK group of companies. The makers of these brands are not affiliated with and do not endorse the GSK group of companies or its products.</paragraph>
+                  <paragraph>GlaxoSmithKline</paragraph>
+                  <paragraph>Research Triangle Park, NC 27709</paragraph>
+                  <paragraph>©2019 GSK group of companies or its licensor.</paragraph>
+                  <paragraph>VNT:11PI</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a8498743-8613-10f8-e053-2a95a90add15">
+               <id root="a8498743-8612-10f8-e053-2a95a90add15"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <text>
+                  <paragraph>PATIENT INFORMATION</paragraph>
+                  <paragraph>VENTOLIN (VENT o lin) HFA</paragraph>
+                  <paragraph>(albuterol sulfate)</paragraph>
+                  <paragraph>Inhalation Aerosol</paragraph>
+                  <paragraph>for oral inhalation use</paragraph>
+                  <paragraph>What is VENTOLIN HFA?</paragraph>
+                  <paragraph>•
+  <br/>
+VENTOLIN HFA is a prescription inhaled medicine used in people aged 4 years and older to:
+ </paragraph>
+                  <paragraph>o
+  <br/>
+treat or prevent bronchospasm in people who have reversible obstructive airway disease.
+  <br/>
+o
+  <br/>
+prevent exercise-induced bronchospasm.
+ </paragraph>
+                  <paragraph>•
+  <br/>
+It is not known if VENTOLIN HFA is safe and effective in children younger than 4 years of age.
+ </paragraph>
+                  <paragraph>Do not use VENTOLIN HFA:</paragraph>
+                  <paragraph>•
+  <br/>
+if you are allergic to albuterol sulfate propionate or any of the ingredients in VENTOLIN HFA. See the end of this Patient Information for a complete list of ingredients in VENTOLIN HFA.
+ </paragraph>
+                  <paragraph>Before using VENTOLIN HFA, tell your healthcare provider about all of your medical conditions, including if you:</paragraph>
+                  <paragraph>•
+  <br/>
+have heart problems.
+  <br/>
+•
+  <br/>
+have high blood pressure.
+  <br/>
+•
+  <br/>
+have seizures.
+  <br/>
+•
+  <br/>
+have thyroid problems.
+  <br/>
+•
+  <br/>
+have diabetes.
+  <br/>
+•
+  <br/>
+have low potassium levels in your blood.
+  <br/>
+•
+  <br/>
+are pregnant or plan to become pregnant. It is not known if VENTOLIN HFA may harm your unborn baby.
+ </paragraph>
+                  <paragraph>o
+  <br/>
+Pregnancy Registry. There is a pregnancy registry for women with asthma who receive asthma medications, including VENTOLIN HFA, while pregnant. The purpose of the registry is to collect information about the health of you and your baby. You can talk to your healthcare provider about how to take part in this registry or you can get more information and register by calling 1-877-311-8972 or go to https://mothertobaby.org/ongoing-study/asthma.
+ </paragraph>
+                  <paragraph>•
+  <br/>
+are breastfeeding. It is not known if the medicine in VENTOLIN HFA passes into your milk and if it can harm your baby.
+ </paragraph>
+                  <paragraph>Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. VENTOLIN HFA and certain other medicines may interact with each other. This may cause serious side effects. Especially tell your healthcare provider if you take:</paragraph>
+                  <paragraph>•
+  <br/>
+other inhaled medicines or asthma medicines
+  <br/>
+•
+  <br/>
+beta-blocker medicines
+  <br/>
+•
+  <br/>
+diuretics
+  <br/>
+•
+  <br/>
+digoxin
+  <br/>
+•
+  <br/>
+monoamine oxidase inhibitors
+  <br/>
+•
+  <br/>
+tricyclic antidepressants
+ </paragraph>
+                  <paragraph>Know the medicines you take. Keep a list of them to show your healthcare provider and pharmacist when you get a new medicine.</paragraph>
+                  <paragraph>How should I use VENTOLIN HFA?</paragraph>
+                  <paragraph>Read the step-by-step instructions for using VENTOLIN HFA at the end of this Patient Information.</paragraph>
+                  <paragraph>•
+  <br/>
+Do not use VENTOLIN HFA unless your healthcare provider has taught you how to use the inhaler and you understand how to use it correctly.
+  <br/>
+•
+  <br/>
+Children should use VENTOLIN HFA with an adult’s help, as instructed by the child’s healthcare provider.
+  <br/>
+•
+  <br/>
+Use VENTOLIN HFA exactly as your healthcare provider tells you to use it. Do not use VENTOLIN HFA more often than prescribed.
+  <br/>
+•
+  <br/>
+Do not increase your dose or take extra doses of VENTOLIN HFA without first talking to your healthcare provider.
+  <br/>
+•
+  <br/>
+Each dose of VENTOLIN HFA should last up to 4 hours to 6 hours.
+  <br/>
+•
+  <br/>
+Get medical help right away if VENTOLIN HFA no longer helps your symptoms.
+  <br/>
+•
+  <br/>
+Get medical help right away if your symptoms get worse or if you need to use your inhaler more often.
+  <br/>
+•
+  <br/>
+While you are using VENTOLIN HFA, use other inhaled medicines and asthma medicines only as directed by your healthcare provider.
+  <br/>
+•
+  <br/>
+Call your healthcare provider if your asthma symptoms like wheezing and trouble breathing become worse over a few hours or days. Your healthcare provider may need to give you another medicine to treat your symptoms.
+ </paragraph>
+                  <paragraph>What are the possible side effects of VENTOLIN HFA?</paragraph>
+                  <paragraph>VENTOLIN HFA can cause serious side effects, including:</paragraph>
+                  <paragraph>•
+  <br/>
+worsening trouble breathing, coughing, and wheezing (paradoxical bronchospasm). If this happens, stop using VENTOLIN HFA and call your healthcare provider or get emergency help right away. Paradoxical bronchospasm is more likely to happen with your first use of a new canister of medicine.
+  <br/>
+•
+  <br/>
+heart problems, including faster heart rate and higher blood pressure.
+  <br/>
+•
+  <br/>
+possible death in people with asthma who use too much VENTOLIN HFA.
+  <br/>
+•
+  <br/>
+serious allergic reactions. Call your healthcare provider or get emergency medical care if you get any of the following symptoms of a serious allergic reaction:
+ </paragraph>
+                  <paragraph>o
+  <br/>
+rash
+  <br/>
+o
+  <br/>
+hives
+ </paragraph>
+                  <paragraph>o
+  <br/>
+swelling of your face, mouth, and tongue
+  <br/>
+o
+  <br/>
+breathing problems
+ </paragraph>
+                  <paragraph>•
+  <br/>
+changes in laboratory blood levels (sugar, potassium).
+ </paragraph>
+                  <paragraph>Common side effects of VENTOLIN HFA include:</paragraph>
+                  <paragraph>•
+  <br/>
+sore throat
+  <br/>
+•
+  <br/>
+upper respiratory tract infection, including viral infection
+  <br/>
+•
+  <br/>
+cough
+  <br/>
+•
+  <br/>
+muscle pain
+  <br/>
+•
+  <br/>
+your heart feels like it is pounding or racing (palpitations)
+ </paragraph>
+                  <paragraph>•
+  <br/>
+chest pain
+  <br/>
+•
+  <br/>
+fast heart rate
+  <br/>
+•
+  <br/>
+shakiness
+  <br/>
+•
+  <br/>
+nervousness
+  <br/>
+•
+  <br/>
+dizziness
+ </paragraph>
+                  <paragraph>These are not all the possible side effects of VENTOLIN HFA.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph>How should I store VENTOLIN HFA?</paragraph>
+                  <paragraph>•
+  <br/>
+Store VENTOLIN HFA at room temperature between 68°F and 77°F (20°C and 25°C) with the mouthpiece down.
+  <br/>
+•
+  <br/>
+The contents of your VENTOLIN HFA are under pressure: Do not puncture. Do not use or store near heat or open flame. Temperatures above 120°F may cause the canister to burst.
+  <br/>
+•
+  <br/>
+Do not throw into fire or an incinerator.
+  <br/>
+•
+  <br/>
+Store VENTOLIN HFA in the unopened foil pouch and only open when ready for use.
+ </paragraph>
+                  <paragraph>Keep VENTOLIN HFA and all medicines out of the reach of children.</paragraph>
+                  <paragraph>General information about the safe and effective use of VENTOLIN HFA.</paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. Do not use VENTOLIN HFA for a condition for which it was not prescribed. Do not give VENTOLIN HFA to other people, even if they have the same symptoms that you have. It may harm them.</paragraph>
+                  <paragraph>You can ask your healthcare provider or pharmacist for information about VENTOLIN HFA that was written for health professionals.</paragraph>
+                  <paragraph>What are the ingredients in VENTOLIN HFA?</paragraph>
+                  <paragraph>Active ingredient: albuterol sulfate</paragraph>
+                  <paragraph>Inactive ingredient: propellant HFA-134a</paragraph>
+                  <paragraph>For more information about VENTOLIN HFA, call 1-888-825-5249 or visit our website at www.ventolin.com.</paragraph>
+                  <paragraph>Trademarks are owned by or licensed to the GSK group of companies.</paragraph>
+                  <paragraph>GlaxoSmithKline, Research Triangle Park, NC 27709</paragraph>
+                  <paragraph>©2019 GSK group of companies or its licensor.</paragraph>
+                  <paragraph>VNT:11PIL</paragraph>
+                  <paragraph>       This Patient Information has been approved by the U.S. Food and Drug Administration       Revised: December 2019</paragraph>
+                  <paragraph>INSTRUCTIONS FOR USE</paragraph>
+                  <paragraph>VENTOLIN (VENT o lin) HFA</paragraph>
+                  <paragraph>(albuterol sulfate)</paragraph>
+                  <paragraph>Inhalation Aerosol</paragraph>
+                  <paragraph>for oral inhalation use</paragraph>
+                  <paragraph>Your VENTOLIN HFA inhaler</paragraph>
+                  <paragraph>[Figure A]
+  <br/>
+Figure A
+ </paragraph>
+                  <paragraph>[Figure B]
+  <br/>
+Figure B
+ </paragraph>
+                  <paragraph>•
+  <br/>
+The metal canister holds the medicine. See Figure A.
+  <br/>
+•
+  <br/>
+The metal canister has a counter to show how many sprays of medicine you have left. The number shows through a window in the back of the plastic actuator. See Figure B.
+  <br/>
+•
+  <br/>
+The counter starts at either 204 or 064, depending on which size inhaler you have. The number will count down by 1 each time you spray the inhaler. The counter will stop counting at 000.
+  <br/>
+•
+  <br/>
+Do not try to change the numbers or take the counter off the metal canister. The counter cannot be reset, and it is permanently attached to the metal canister.
+  <br/>
+•
+  <br/>
+The blue plastic actuator sprays the medicine from the metal canister. The plastic actuator has a protective cap that covers the mouthpiece. See Figure A. Keep the protective cap on the mouthpiece when the metal canister is not in use. The strap keeps the cap attached to the plastic actuator.
+  <br/>
+•
+  <br/>
+Do not use the plastic actuator with a canister of medicine from any other inhaler.
+  <br/>
+•
+  <br/>
+Do not use a VENTOLIN HFA metal canister with an actuator from any other inhaler.
+ </paragraph>
+                  <paragraph>Before using your VENTOLIN HFA inhaler</paragraph>
+                  <paragraph>•
+  <br/>
+Take VENTOLIN HFA out of the foil pouch just before you use it for the first time. Safely throw away the pouch and the drying packet that comes inside the pouch.
+  <br/>
+•
+  <br/>
+The inhaler should be at room temperature before you use it.
+  <br/>
+•
+  <br/>
+If your child needs to use VENTOLIN HFA, watch your child closely to make sure your child uses the inhaler correctly. Your healthcare provider will show you how your child should use VENTOLIN HFA.
+ </paragraph>
+                  <paragraph>Priming your VENTOLIN HFA inhaler</paragraph>
+                  <paragraph>[Figure C]
+  <br/>
+Figure C
+ </paragraph>
+                  <paragraph>[Figure D]
+  <br/>
+Figure D
+ </paragraph>
+                  <paragraph>•
+  <br/>
+Before you use VENTOLIN HFA for the first time, you must prime the inhaler so that you will get the right amount of medicine when you use it.
+  <br/>
+•
+  <br/>
+To prime the inhaler, take the cap off the mouthpiece and shake the inhaler well. Then spray the inhaler 1 time into the air away from your face. See Figure C. Avoid spraying in eyes.
+  <br/>
+•
+  <br/>
+Shake and spray the inhaler like this 3 more times to finish priming it. The counter should now read 200 or 060, depending on which size inhaler you have. See Figure D.
+  <br/>
+•
+  <br/>
+You must prime your inhaler again if you have not used it in more than 14 days or if you drop it. Take the cap off the mouthpiece and shake and spray the inhaler 4 more times into the air away from your face.
+ </paragraph>
+                  <paragraph>How to use your VENTOLIN HFA inhaler</paragraph>
+                  <paragraph>Follow these steps every time you use VENTOLIN HFA.</paragraph>
+                  <paragraph>[Figure E]
+  <br/>
+Figure E
+ </paragraph>
+                  <paragraph>[Figure F]
+  <br/>
+Figure F
+ </paragraph>
+                  <paragraph>Step 1.</paragraph>
+                  <paragraph>Make sure the metal canister fits firmly in the plastic actuator. The counter should show through the window in the actuator.</paragraph>
+                  <paragraph>Shake the inhaler well before each spray.</paragraph>
+                  <paragraph>Take the cap off the mouthpiece of the plastic actuator. Look inside the mouthpiece for foreign objects and take out any you see.</paragraph>
+                  <paragraph>Step 2.</paragraph>
+                  <paragraph>Hold the inhaler with the mouthpiece down. See Figure E.</paragraph>
+                  <paragraph>Step 3.</paragraph>
+                  <paragraph>Breathe out through your mouth and push as much air from your lungs as you can. Put the mouthpiece in your mouth and close your lips around it. See Figure F.</paragraph>
+                  <paragraph>Step 4.</paragraph>
+                  <paragraph>Push the top of the metal canister all the way down while you breathe in deeply and slowly through your mouth. See Figure F.</paragraph>
+                  <paragraph>Step 5.</paragraph>
+                  <paragraph>After the spray comes out, take your finger off the metal canister. After you have breathed in all the way, take the inhaler out of your mouth and close your mouth.</paragraph>
+                  <paragraph>Step 6.</paragraph>
+                  <paragraph>Hold your breath for about 10 seconds, or for as long as is comfortable. Breathe out slowly as long as you can.</paragraph>
+                  <paragraph>If your healthcare provider has told you to use more sprays, wait 1 minute and shake the inhaler again. Repeat Steps 2 through Step 6.</paragraph>
+                  <paragraph>Step 7.</paragraph>
+                  <paragraph>Put the cap back on the mouthpiece after every time you use the inhaler. Make sure it snaps firmly into place.</paragraph>
+                  <paragraph>Cleaning your VENTOLIN HFA inhaler</paragraph>
+                  <paragraph>[Figure G]
+  <br/>
+Figure G
+ </paragraph>
+                  <paragraph>[Figure H]
+  <br/>
+Figure H
+ </paragraph>
+                  <paragraph>[Figure I]
+  <br/>
+Figure I
+ </paragraph>
+                  <paragraph>[Figure J]
+  <br/>
+Figure J
+ </paragraph>
+                  <paragraph>Clean your inhaler at least 1 time each week. You may not see any medicine build-up on the inhaler, but it is important to keep it clean so medicine build-up will not block the spray. See Figure G.</paragraph>
+                  <paragraph>Step 8.</paragraph>
+                  <paragraph>Take the canister out of the actuator and take the cap off the mouthpiece. The strap on the cap will stay attached to the actuator.</paragraph>
+                  <paragraph>Step 9.</paragraph>
+                  <paragraph>Hold the actuator under the faucet and run warm water through it for about 30 seconds. See Figure H.</paragraph>
+                  <paragraph>Step 10.</paragraph>
+                  <paragraph>Turn the actuator upside down and run warm water through the mouthpiece for about 30 seconds. See Figure I.</paragraph>
+                  <paragraph>Step 11.</paragraph>
+                  <paragraph>Shake off as much water from the actuator as you can. Look into the mouthpiece to make sure any medicine build-up has been completely washed away. If there is any build-up, repeat Steps 9 and 10.</paragraph>
+                  <paragraph>Step 12.</paragraph>
+                  <paragraph>Let the actuator air-dry overnight. See Figure J.</paragraph>
+                  <paragraph>Step 13.</paragraph>
+                  <paragraph>When the actuator is dry, put the protective cap on the mouthpiece and then put the canister in the actuator and make sure it fits firmly. Shake the inhaler well, remove the cap, and spray the inhaler once into the air away from your face. (The counter will count down by 1 number.) Put the cap back on the mouthpiece.</paragraph>
+                  <paragraph>If you need to use your inhaler before the actuator is completely dry:</paragraph>
+                  <paragraph>•
+  <br/>
+Shake as much water off the actuator as you can.
+  <br/>
+•
+  <br/>
+Put the cap on the mouthpiece and then put the canister in the actuator and make sure it fits firmly.
+  <br/>
+•
+  <br/>
+Shake the inhaler well and spray it 1 time into the air away from your face.
+  <br/>
+•
+  <br/>
+Take your VENTOLIN HFA dose as prescribed.
+  <br/>
+•
+  <br/>
+Follow cleaning Steps 8 through 13 above.
+ </paragraph>
+                  <paragraph>Replacing your VENTOLIN HFA inhaler</paragraph>
+                  <paragraph>•
+  <br/>
+When the counter reads 020, you should refill your prescription or ask your healthcare provider if you need another prescription for VENTOLIN HFA.
+  <br/>
+•
+  <br/>
+Throw the inhaler away when the counter reads 000 or 12 months after you opened the foil pouch, whichever comes first. You should not keep using the inhaler when the counter reads 000 because you will not receive the right amount of medicine.
+  <br/>
+•
+  <br/>
+Do not use the inhaler after the expiration date, which is on the packaging it comes in.
+ </paragraph>
+                  <paragraph>For correct use of your VENTOLIN HFA inhaler, remember:</paragraph>
+                  <paragraph>•
+  <br/>
+The metal canister should always fit firmly in the plastic actuator.
+  <br/>
+•
+  <br/>
+Breathe in deeply and slowly to make sure you get all the medicine.
+  <br/>
+•
+  <br/>
+Hold your breath for about 10 seconds after breathing in the medicine. Then breathe out fully.
+  <br/>
+•
+  <br/>
+Always keep the protective cap on the mouthpiece when your inhaler is not in use.
+  <br/>
+•
+  <br/>
+Always store your inhaler with the mouthpiece pointing down.
+  <br/>
+•
+  <br/>
+Clean your inhaler at least 1 time each week.
+ </paragraph>
+                  <paragraph>For more information about VENTOLIN HFA or how to use your inhaler, call 1-888-825-5249 or visit our website at www.ventolin.com.</paragraph>
+                  <paragraph>Trademarks are owned by or licensed to the GSK group of companies.</paragraph>
+                  <paragraph>GlaxoSmithKline, Research Triangle Park, NC 27709</paragraph>
+                  <paragraph>©2019 GSK group of companies or its licensor.</paragraph>
+                  <paragraph>VNT:1IFU</paragraph>
+                  <paragraph>      This Instructions for Use has been approved by the U.S. Food and Drug Administration      Revised: December 2019</paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a8496359-0270-bc4a-e053-2995a90a87a8">
+               <id root="a8496359-026f-bc4a-e053-2995a90a87a8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_a8498743-8616-10f8-e053-2a95a90add15"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200617"/>
+               <component>
+                  <observationMedia ID="img_a8498743-8616-10f8-e053-2a95a90add15">
+                     <text>016</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-016-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

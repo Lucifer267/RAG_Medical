@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="028e6f14-34f2-49f4-99a5-83c457d4e96f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20140929"/>
+   <setId root="028e6f14-34f2-49f4-99a5-83c457d4e96f"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="078598396" root="1.3.6.1.4.1.519.1"/>
+            <name>Haemonetics Manufacturing Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="078598396" root="1.3.6.1.4.1.519.1"/>
+                        <name>Haemonetics Manufacturing Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="53157-129" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5e875bb1-3178-4713-9f75-532b8b299acd"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20140929"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="53157-129" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Leukotrap</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Blood Collection System</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="18"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="53157-129-63" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="70"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>CP2D</name>
+                              <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>CP2D</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="g" value="3.57"/>
+                                    <denominator unit="mL" value="70"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="IY9XDZ35W2" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DEXTROSE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="IY9XDZ35W2" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>DEXTROSE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="70"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic classCode="OBS">
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA820915" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19830922"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <policy classCode="DEADrugSchedule">
+                                 <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                              </policy>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="110"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>AS3</name>
+                              <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>AS3</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="g" value="0.033"/>
+                                    <denominator unit="mL" value="110"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="JAC85A2161" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ADENINE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="JAC85A2161" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ADENINE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="g" value="1.21"/>
+                                    <denominator unit="mL" value="110"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="IY9XDZ35W2" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DEXTROSE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="IY9XDZ35W2" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>DEXTROSE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="110"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic classCode="OBS">
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA820915" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19830922"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <policy classCode="DEADrugSchedule">
+                                 <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                              </policy>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA820915" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19830922"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6be724d8-2270-4d26-a124-23f9acc0d65f">
+               <id root="95a5e88e-1598-4ebf-8a71-0e2e2eed9c01"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>LEUKOTRAP® RC SYSTEM DESCRIPTION<content styleCode="italics"/>
+               </title>
+               <text>
+                  <paragraph>The Leukotrap® RC System CP2D/AS-3 Blood Bag Unit with In-Line RC2D Filter and Sampling System is intended for the collection of whole blood and preparation of red blood cells and plasma or red blood cells, plasma, and platelets with pre-storage leukocyte reduction of red blood cells. The fluid pathway is sterile and non-pyrogenic. Steam Sterilized. RX only.</paragraph>
+               </text>
+               <effectiveTime value="20140929"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_56379bac-831f-40f0-821b-461abafe81b7">
+               <id root="65238925-dfe3-4978-81b3-09dc69dcf042"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Instructions for Use for Systems Containing a Y Sampling Site (YSS) with or without a pre-attached Vacuum Tube Holder or Sample Diversion Pouch (SDP) with a pre-attached Vacuum Tube Holder. See unit foil envelope for specific product code/description being used.</paragraph>
+                  <renderMultiMedia ID="id1987045873" referencedObject="C7402221-8D6C-48FD-A4B0-F4A54AC1A33F"/>
+                  <paragraph>Figure 1- Diagram of the Complete Product Set</paragraph>
+               </text>
+               <effectiveTime value="20140929"/>
+               <component>
+                  <section ID="ID_46ebeaa1-43de-4b30-9929-1eb81ee88101">
+                     <id root="b2c122eb-7a4b-47c4-a8f1-326138d48998"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>I. BLOOD COLLECTION INSTRUCTIONS FORSYSTEMS CONTAINING A Y SAMPLING SITE (YSS) ONLY  </title>
+                     <text>
+                        <content styleCode="bold">
+                           <renderMultiMedia ID="id1501387751" referencedObject="C90337DD-EE13-4B98-867B-93D62B80E98D"/>
+                        </content>
+                        <paragraph>Figure 2- Donor Line with Y Sampling Site Only</paragraph>
+                     </text>
+                     <effectiveTime value="20140929"/>
+                     <component>
+                        <section ID="ID_edbdef47-09f9-4b45-935a-ad3a500ee754">
+                           <id root="22bf1d18-56aa-4995-958e-7e1a58cc3833"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>ACCOMPLISHING PHLEBOTOMY</title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>Load blood collection mixer or suspend blood bag on donor scale.  Adjust to desired collection volume or weight as per operating instructions for whichever equipment is being used. Place collection bag on blood collection mixer or donor scale as far below donor arm as possible. </item>
+                                 <item>
+                                    <caption>2.</caption>If not previously performed, place a temporary clamp on the donor tubing between the donor needle and Y-connector.</item>
+                                 <item>
+                                    <caption>3.</caption>Disinfect site of phlebotomy and apply pressure to donor arm.  If using a blood pressure cuff, inflate to not more than 60 mm Hg. If desired, secure the tubing to the donor’s arm with tape below Phlebotomist Protection Device (PPD). Note:<content styleCode="bold"/>Steps 1 through 3 can be performed in any order.</item>
+                                 <item>
+                                    <caption>4.</caption>Remove donor needle cover by first twisting the cover at the base to break the seal, and then remove cover carefully.</item>
+                                 <item>
+                                    <caption>5.</caption>Perform phlebotomy. Remove the temporary clamp, if used, and ensure there is blood flow.</item>
+                                 <item>
+                                    <caption>6.</caption>Stabilize the donor needle with tape.  </item>
+                                 <item>
+                                    <caption>7.</caption>If not previously performed, further stabilize the donor needle by taping the tubing below the PPD.</item>
+                                 <item>
+                                    <caption>8.</caption>Reduce pressure on donor’s arm as needed.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_c6ecc947-7bd0-4a1a-ae35-a69470677a5e">
+                           <id root="9fb16ee6-251d-4d8c-ab7e-327528f6cb49"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>COLLECTING BLOOD</title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>Collect appropriate volume of blood into collection bag, as indicated on packaging. Notes: If blood collection mixer is used, follow manufacturer's operating instructions. Mix blood and anticoagulant frequently during collection; for example, once every 45 seconds and immediately after collection.</item>
+                                 <item>
+                                    <caption>2.</caption>After required amount of blood has been collected, seal donor tubing between the Y Sampling Site and the collection bag.* Note: If pre-filtration quality control (QC) is to be performed, use the QC tubing attached to the collection bag.  If additional tubing is needed, leave the desired amount of tubing containing anticoagulated blood attached to the collection bag.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_97166ff5-3ac0-4434-adad-e0c80751e8bf">
+                           <id root="4428b34f-cf51-48e7-8a4e-15a7c0d6bc57"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>COLLECTING SAMPLES FROM Y SAMPLING SITE</title>
+                           <text>
+                              <paragraph>Note: When using YSS systems with a pre-attached vacuum tube holder, go to Section II.</paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>For blood sampling, remove the Y Sampling Site needle cover. Ensure the protective sheath is in place over the sampling needle.</item>
+                                 <item>
+                                    <caption>2.</caption>Fasten a vacuum tube holder onto the base of the sampling needle and collect samples. </item>
+                              </list>
+                              <paragraph>Precautions:<content styleCode="bold"/>During sample collection ensure the vacuum tubes are centered within the vacuum tube holder and maintain forward pressure on the vacuum tube. Note:<content styleCode="bold"/>After the last tube is collected, it is recommended that the vacuum tube holder be left in place.</paragraph>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_1a6d41a0-c872-43ea-8af6-ce3e1eb179d6">
+                           <id root="c177dede-6b17-4771-b7c0-752eac837668"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>DISCONTINUING PHLEBOTOMY</title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>After blood samples are collected, release any remaining pressure from donor’s arm.</item>
+                                 <item>
+                                    <caption>2.</caption>Remove the tape stabilizing the donor needle and tubing.  Advance PPD over the donor needle hub. </item>
+                                 <item>
+                                    <caption>3.</caption>If desired, clamp tubing behind the PPD. Note: Steps 1 through 3 can be performed in any order.</item>
+                                 <item>
+                                    <caption>4.</caption>While holding the top of the PPD, grasp the tubing below the PPD and pull the donor needle into the PPD with a continuous motion until the needle is completely withdrawn and secured into place. </item>
+                                 <item>
+                                    <caption>5.</caption>If desired, insert the PPD into the vacuum tube holder.</item>
+                                 <item>
+                                    <caption>6.</caption>Detach and discard the donor/needle assembly (e.g. needle, PPD, sample diversion pouch, and tubing) in the usual manner.*</item>
+                                 <item>
+                                    <caption>7.</caption>Strip the tubing between seal and collection bag, gently mix the whole blood and allow the tubing to refill OR seal off the tubing, detach and discard in the usual manner.</item>
+                              </list>
+                              <paragraph>Continue to "Centrifugation", Section IV, Step 1.<content styleCode="bold"/>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <observationMedia ID="C90337DD-EE13-4B98-867B-93D62B80E98D">
+                           <text>Donor Line with Y Sampling Site Only</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-05.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_92bd4f74-d79d-4053-8968-7494bc52b890">
+                     <id root="20073a87-5959-4c32-895c-52c2a8642926"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>II. BLOOD COLLECTION INSTRUCTIONS FORSYSTEMS CONTAINING A Y SAMPLING SITE (YSS) WITH A PRE-ATTACHED VACUUM TUBE HOLDER  </title>
+                     <text>
+                        <renderMultiMedia ID="id-379626553" referencedObject="E312F86D-9DFD-436D-8526-1A3D96009477"/>
+                        <paragraph>Figure 3- Donor Line with Y Sampling Site and Pre-attached Vacuum Tube Holder with Lid</paragraph>
+                     </text>
+                     <effectiveTime value="20140929"/>
+                     <component>
+                        <section ID="ID_221f05ce-bbf0-43a1-bcdb-38d8a8c0d37c">
+                           <id root="33ea4d7c-c929-475f-9203-93f88edf9080"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>ACCOMPLISHING PHLEBOTOMY </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>Load blood collection mixer or suspend blood bag on donor scale.  Adjust to desired collection volume or weight as per operating instructions for whichever equipment is being used. Place collection bag on blood collection mixer or donor scale as far below donor arm as possible.</item>
+                                 <item>
+                                    <caption>2.</caption>If not previously performed,<content styleCode="bold"/>place a temporary clamp on the donor tubing between the<content styleCode="bold"/>donor needle and Y-connector.</item>
+                                 <item>
+                                    <caption>3.</caption>Disinfect site of phlebotomy and apply pressure to donor arm.  If using a blood pressure cuff, inflate to not more than 60 mm Hg. If desired, secure the tubing to the donor’s arm with tape below Phlebotomist Protection Device (PPD).  Note:<content styleCode="bold"/>Steps 1 through 3 can be performed in any order.</item>
+                                 <item>
+                                    <caption>4.</caption>Remove donor needle cover by first twisting the cover at the base to break the seal, and then remove cover carefully.</item>
+                                 <item>
+                                    <caption>5.</caption>Perform phlebotomy. Remove the temporary clamp, if used, and ensure there is blood flow.</item>
+                                 <item>
+                                    <caption>6.</caption>Stabilize the donor needle with tape.   </item>
+                                 <item>
+                                    <caption>7.</caption>If not previously performed, further stabilize the donor needle by taping the tubing below the PPD.</item>
+                                 <item>
+                                    <caption>8.</caption>Reduce pressure on donor’s arm as needed.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_590637cd-0762-4d95-af74-3940401a5fcf">
+                           <id root="c1afeabc-2318-4787-835d-a4b138d32b5d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>COLLECTING BLOOD</title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>Collect appropriate volume of blood into collection bag, as indicated on packaging. Notes: If blood collection mixer is used, follow manufacturer's operating instructions. Mix blood and anticoagulant frequently during collection; for example, once every 45 seconds and immediately after collection.</item>
+                                 <item>
+                                    <caption>2.</caption>After required amount of blood has been collected, seal donor tubing between the Y Sampling Site and the collection bag.* Note: If pre-filtration quality control (QC) is to be performed, use the QC tubing attached to the collection bag.  If additional tubing is needed, leave the desired amount of tubing containing anticoagulated blood attached to the collection bag.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_7ff9c01b-2c77-44d5-a920-de2391264b7b">
+                           <id root="90d817fa-c927-4583-b057-acaed7b2a624"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>COLLECTING SAMPLES FROM Y SAMPLING SITE SYSTEMS WITH A PRE-ATTACHED VACUUM TUBE HOLDER</title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>Open lid of the vacuum tube holder and collect samples. Precautions: During sample collection ensure the vacuum tubes are centered within the vacuum tube holder and maintain forward pressure on the vacuum tube.</item>
+                                 <item>
+                                    <caption>2.</caption>After the final sample collection, close the lid on the vacuum tube holder.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_9d8f552d-b43e-469b-aa15-dd99d8a2af1a">
+                           <id root="95aab61e-57ea-492c-b4c1-08c0f7cb6273"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>DISCONTINUING PHLEBOTOMY</title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>After blood samples are collected, release any remaining pressure from donor’s arm.</item>
+                                 <item>
+                                    <caption>2.</caption>Remove the tape stabilizing the donor needle and tubing.  Advance PPD over the donor needle hub. </item>
+                                 <item>
+                                    <caption>3.</caption>If desired, clamp tubing behind the PPD. Note: Steps 1 through 3 can be performed in any order.</item>
+                                 <item>
+                                    <caption>4.</caption>While holding the top of the PPD, grasp the tubing below the PPD and pull the donor needle into the PPD with a continuous motion until the needle is completely withdrawn and secured into place.</item>
+                                 <item>
+                                    <caption>5.</caption>If desired, insert the PPD into the vacuum tube holder.</item>
+                                 <item>
+                                    <caption>6.</caption>Detach and discard the donor/needle assembly (e.g. needle, PPD, sample diversion pouch, and tubing) in the usual manner.*</item>
+                                 <item>
+                                    <caption>7.</caption>Strip the tubing between seal and collection bag, gently mix the whole blood and allow the tubing to refill OR seal off the tubing, detach and discard in the usual manner.</item>
+                                 <item>
+                                    <caption>8.</caption>Continue to "Centrifugation", Section IV, Step 1.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <observationMedia ID="E312F86D-9DFD-436D-8526-1A3D96009477">
+                           <text>Donor Line with Y Sampling Site and Pre-attached Vacuum Tube Holder with Lid</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-04.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_45373173-f86d-47a1-81dd-633b1d98d7eb">
+                     <id root="3d2d2209-6af2-4537-9ca4-2d26e1f24c52"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>III. BLOOD COLLECTION INSTRUCTIONS FOR SYSTEMS CONTAINING A SAMPLE DIVERSION POUCH WITH A PRE-ATTACHED VACUUM TUBE HOLDER </title>
+                     <text>
+                        <renderMultiMedia ID="id1702591007" referencedObject="E0AF38B0-C820-4CA6-B618-AAF73DC2CB49"/>
+                        <paragraph>Figure 4- Donor Line with Sample Diversion Pouch with a Pre-attached Vacuum Tube Holder</paragraph>
+                     </text>
+                     <effectiveTime value="20140929"/>
+                     <component>
+                        <section ID="ID_38729427-acc2-463f-8599-d4dcf79dc2f9">
+                           <id root="a72ea6f1-5425-4e17-b26a-b4860ab16e4b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>ACCOMPLISHING PHLEBOTOMY: </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>Load blood collection mixer or suspend blood bag on donor scale.  Adjust to desired collection volume or weight as per operating instructions for whichever equipment is being used. Place collection bag on blood collection mixer or donor scale as far below donor arm as possible.</item>
+                                 <item>
+                                    <caption>1.</caption>If not previously performed, place a temporary clamp on the donor tubing between the donor needle and Y-connector, if required.  </item>
+                                 <item>
+                                    <caption>2.</caption>Disinfect site of phlebotomy and apply pressure to donor arm.  If using a blood pressure cuff, inflate to not more than 60 mm Hg. If desired, secure the tubing to the donor’s arm with tape below Phlebotomist Protection Device (PPD). Note: Steps 1 through 3 can be performed in any order.<br/>
+                                 </item>
+                                 <item>
+                                    <caption>3.</caption>Remove donor needle cover by first twisting the cover at the base to break the seal, and then remove cover carefully.</item>
+                                 <item>
+                                    <caption>4.</caption>Perform phlebotomy. Remove the temporary clamp, if used, and ensure there is blood flow.  The donor’s blood will automatically flow into the sample diversion pouch.</item>
+                                 <item>
+                                    <caption>5.</caption>Stabilize the donor needle with tape. Warning: To avoid risk of air embolism to donor, do not squeeze sample diversion pouch while tubing to the pouch is open. Ensure sample diversion pouch remains below the donor arm while tubing to the pouch is open. Note: Do not reduce pressure on donor’s arm until the snap-open closure has been opened (see Step 10). </item>
+                                 <item>
+                                    <caption>6.</caption>If not previously performed, further stabilize the donor needle by taping the tubing below the PPD.</item>
+                                 <item>
+                                    <caption>7.</caption>Once the sample diversion pouch is filled with the desired amount of blood, close clamp immediately on tubing between the sample diversion pouch and Y connector.</item>
+                                 <item>
+                                    <caption>8.</caption>Seal tubing between the sample diversion pouch and Y connector to maintain sterility of the system prior to sample collection.*</item>
+                                 <item>
+                                    <caption>9.</caption>Open snap-open closure on the Y connector to initiate blood flow into the collection bag. Reduce pressure on donor’s arm as needed.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_d59d4cf3-7b11-48d6-a8b1-7b729486b842">
+                           <id root="35595ca6-b9fa-4236-a51b-daf88d55f4f6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>COLLECTING SAMPLES FROM SAMPLE DIVERSION POUCH: </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>Position the sample diversion pouch so that the air rises to the top of the pouch (away from the vacuum tube holder).</item>
+                                 <item>
+                                    <caption>2.</caption>Open lid of the vacuum tube holder and collect samples. Precautions: During sample collection ensure the vacuum tubes are centered within the vacuum tube holder and maintain forward pressure on the vacuum tube. Collect blood samples from the sample diversion pouch into vacuum tube(s) within approximately four minutes to avoid possible clot formation. Drawing air into a vacuum tube may cause hemolysis.</item>
+                                 <item>
+                                    <caption>3.</caption>After the final sample collection, close the lid on the vacuum tube holder.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_e97a97a9-f336-41b5-a6b9-939ae8b4a529">
+                           <id root="42010349-e46d-4990-a1d7-acce43654357"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>COLLECTING BLOOD: </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>Collect appropriate volume of blood into collection bag as indicated on packaging. Notes: If blood collection mixer is used, follow manufacturer's operating instructions. Mix blood and anticoagulant frequently during collection; for example, once every 45 seconds and immediately after collection. </item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_4c940859-a1ca-4fdf-8eec-14ef6da53db1">
+                           <id root="407bef58-69d6-4460-8756-af943cca487d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>DISCONTINUING PHLEBOTOMY:</title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>1.</caption>After required amount of blood has been collected, seal donor tubing between snap-open closure and collection bag.*</item>
+                                 <item>
+                                    <caption>2.</caption>Note: If pre-filtration quality control (QC) is to be performed, use the QC tubing attached to the collection bag. If additional tubing is needed, leave the desired amount of tubing containing anticoagulated blood attached to the collection bag.  </item>
+                                 <item>
+                                    <caption>3.</caption>Release any remaining pressure from donor’s arm.</item>
+                                 <item>
+                                    <caption>4.</caption>Remove the tape stabilizing the donor needle and tubing.  Advance PPD over the donor needle hub. </item>
+                                 <item>
+                                    <caption>5.</caption>If desired, clamp tubing behind the PPD.<paragraph>Note: Steps 1 through 4 can be performed in any order.</paragraph>
+                                    <paragraph>While holding the top of the PPD, grasp the tubing below the PPD and pull the donor needle into the PPD with a continuous motion until the needle is completely withdrawn and secured into place. </paragraph>
+                                 </item>
+                                 <item>
+                                    <caption>6.</caption>While holding the top of the PPD, grasp the tubing below the PPD and pull the donor needle into the PPD with a continuous motion until the needle is completely withdrawn and secured into place. </item>
+                                 <item>
+                                    <caption>7.</caption>If desired, insert the PPD into the vacuum tube holder.</item>
+                                 <item>
+                                    <caption>8.</caption>Detach and discard the donor/needle assembly (e.g. needle, PPD, sample diversion pouch, and tubing) in the usual manner.*</item>
+                                 <item>
+                                    <caption>9.</caption>Strip the tubing between seal and collection bag, gently mix the whole blood and allow the tubing to refill OR seal off the tubing, detach and discard in the usual manner.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20140929"/>
+                        </section>
+                     </component>
+                     <component>
+                        <observationMedia ID="E0AF38B0-C820-4CA6-B618-AAF73DC2CB49">
+                           <text>Donor Line with Sample Diversion Pouch with a Pre-attached Vacuum Tube Holder</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-06.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_4443ccf6-835c-4deb-aa99-8ace93c99e50">
+                     <id root="04d8259c-5a30-405b-9b9e-a3f9bfa56515"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>IV. BLOOD PROCESSING INSTRUCTIONS:CENTRIFUGATION </title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>1.</caption>Load unit into centrifuge bucket, ensuring that the tubing stays in the top half of the bucket. When bags and tubing are positioned in the bucket, place the red blood cell filter in a horizontal position on top of the entire assembly and secure with tape, band, or Leukotrap® Strap.</item>
+                           <item>
+                              <caption>2.</caption>Centrifuge at appropriate conditions to produce desired components. </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20140929"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_63e82c2f-f90c-4a1a-b9a3-52f9a8301799">
+                     <id root="00e4b7fe-b9b8-47a5-bd85-34b20c21ee4d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>V. BLOOD PROCESSING INSTRUCTIONS: PREPARING SET</title>
+                     <text>
+                        <paragraph>Note:<content styleCode="bold"/>Prior to expression, ensure tubing between the Y-connector and the filter (non-numbered tubing) is clamped.  For efficient processing, the tubing may be clamped prior to removing the unit from the centrifuge bucket. </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>1.</caption>Carefully remove the unit from the centrifuge and place the bag containing red cells in the plasma expressor.</item>
+                           <item>
+                              <caption>2.</caption>Gently apply expressor pressure.</item>
+                           <item>
+                              <caption>3.</caption>If not previously clamped, clamp the non-numbered tubing between the Y-connector and the filter.</item>
+                           <item>
+                              <caption>4.</caption>Clamp tubing to extra satellite bag, if present.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20140929"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_af0cc013-c565-4af0-8c5d-967e466fb342">
+                     <id root="563f36a1-9a60-4ded-ba5f-25955420f7c8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>VI. BLOOD PROCESSING INSTRUCTIONS: EXPRESSING PLASMA</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>1.</caption>Open snap-open closure of the bag containing red cells and express plasma or platelet-rich plasma into a satellite bag.</item>
+                           <item>
+                              <caption>2.</caption>Stop expression by clamping or sealing the tubing leading to satellite bag(s) and release expressor pressure. </item>
+                           <item>
+                              <caption>3.</caption>If not already sealed, seal tubing below the Y-connector leading to all satellite bags.* Detach and set aside the plasma or platelet-rich plasma for further processing.  </item>
+                        </list>
+                        <paragraph>Notes: If preparing a platelet concentrate, the platelet-rich plasma should be separated from the red blood cells within 8 hours after collection. If preparing Fresh Frozen Plasma, the plasma should be separated from the red blood cells and placed in the freezer at –18 °C or colder within 8 hours after blood collection. If preparing Plasma Frozen within 24 Hours after Phlebotomy, the plasma should be separated from the red blood cells and placed in the freezer at –18 °C or colder within 24 hours after blood collection. </paragraph>
+                     </text>
+                     <effectiveTime value="20140929"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_91a3c917-a3fe-4c8c-85b7-7518311df080">
+                     <id root="c1905017-e30e-4383-984c-679c4c42798c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>VII. BLOOD PROCESSING INSTRUCTIONS: TRANSFERRING ADDITIVE</title>
+                     <text>
+                        <paragraph>Note:<content styleCode="bold"/>The snap-open closure may be opened prior to hanging the bag containing the AS-3 additive solution for additive transfer, provided the non-numbered tubing between the bag containing the red cells and the filter is clamped.  </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>1.</caption>Hang the bag containing the AS-3 additive solution so that the numbered tubing is fully extended and ensure the filter is in a vertical position and above the bag. </item>
+                           <item>
+                              <caption>2.</caption>Open clamp or snap-open closure of the bag containing the AS-3 additive solution, and transfer to the bag containing red blood cells. Note: AS-3 additive solution should be added to the bag containing the red blood cells immediately after plasma or platelet-rich plasma removal. </item>
+                           <item>
+                              <caption>3.</caption>Transfer AS-3 additive solution under one of the following conditions: </item>
+                           <item>
+                              <caption>A.</caption>Within 8 hours of collection if blood is held at room temperature.</item>
+                           <item>
+                              <caption>B.</caption>Within 72 hours of collection if blood is refrigerated after collection.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20140929"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_10534e31-e3f7-4319-9bd6-37033eeeb2ad">
+                     <id root="e528324c-ee60-4360-ae13-b245e09a7b7a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>VIII. BLOOD FILTRATION INSTRUCTIONS</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>1.</caption>Clamp the non-numbered tubing prior to raising the bag containing red blood cells and AS-3 additive solution for mixing in order to avoid the introduction of air into the filter.</item>
+                           <item>
+                              <caption>2.</caption>Mix red cells gently and thoroughly.</item>
+                           <item>
+                              <caption>3.</caption>Hang the collection bag at one of the following heights:</item>
+                           <item>
+                              <caption>A.</caption>60 ± 2 inches for blood stored and filtered at room temperature.</item>
+                           <item>
+                              <caption>B.</caption>60 to 72 inches for blood stored and filtered at 1—6 °C.</item>
+                           <item>
+                              <caption>4.</caption>Ensure filter is vertical and remove clamp to allow red blood cells to gravity flow through the filter and into the red cell storage bag. Notes: Do not apply mechanical or manual pressure to increase flow rate.  Filtration can begin at room temperature up to 8 hours or at 1—6 °C up to 72 hours post-collection. If unit has not completely filtered by 8 hours post-collection at room temperature, filtration must be completed at 1—6 °C. Filtration at maximum head height may shorten filtration times.  “Head height” is the distance from the top of the bag containing the blood to be filtered to the horizontal plane where the filtered blood bag rests. Filtration can be unattended.  Filtration times can be influenced by collection and processing conditions and biological variability of donors. Experimental data with some filter products indicate that a prolonged filtration can be an indication of sub-optimal leukocyte reduction.</item>
+                           <item>
+                              <caption>5.</caption>Filtration is complete when the collection bag is empty. To maximize red blood cell recovery, allow the tubing above the filter to empty. </item>
+                           <item>
+                              <caption>6.</caption>Clamp and seal tubing below the filter.* The numbered tubing downstream of the filter will not drain. Notes: If the numbered tubing below the filter has drained (emptied) after filtration, it is recommended to perform a residual white blood cell count on the unit. Do not strip tubing prior to sealing the tubing below the filter.  If it is desired to strip blood from numbered tubing, do so only after tubing has been sealed close to the filter and detached. If it is necessary to strip blood from numbered tubing, care should be taken when stripping is performed. Increased (mechanical) hemolysis has been associated with stripping when blood is cold and has a higher hematocrit. Do not strip forcefully or frequently against a snap-open closure.</item>
+                           <item>
+                              <caption>7.</caption>Detach and discard collection bag and filter.* </item>
+                           <item>
+                              <caption>8.</caption>If desired, seal at or adjacent to "X" marks on tubing to provide numbered segments of anticoagulated blood for typing or crossmatching.*  If quality control is to be performed on post-filtration sample, use the attached QC line on the bag containing red cells.</item>
+                           <item>
+                              <caption>9.</caption>Store CP2D/AS-3 preserved red blood cells at 1—6 °C for up to 42 days and use as indicated. Note: If AS-3 additive solution is not used, whole blood or red blood cells in CP2D alone may be stored at 1—6 °C for up to 21 days. </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20140929"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_ac363586-daa9-4ff4-99de-90fd79b58e4a">
+                     <id root="609bbb1d-40f8-444a-b819-062302cde29a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>IX. QUALITY CONTROL TESTING</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption> </caption>Percent red cell recovery should be determined by following FDA Guidance entitled “ Guidance for Industry - Pre-Storage Leukocyte Reduction of Whole Blood and Blood Components Intended for Transfusion”, published in September 2012. </item>
+                           <item>
+                              <caption> </caption>During processing, always observe the following precautions:</item>
+                        </list>
+                        <list listType="unordered">
+                           <item>
+                              <caption>1.</caption>Sealing should be done in a manner that avoids fluid splatter.</item>
+                           <item>
+                              <caption>2.</caption>Always dispose of blood-contaminated products in a manner consistent with established BIOHAZARD safety procedures.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20140929"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="C7402221-8D6C-48FD-A4B0-F4A54AC1A33F">
+                     <text>Diagram of the Complete Product Set</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e6395f5a-b744-4339-8a99-ffa2199229d9">
+               <id root="d3560359-6b0c-4735-984d-6b0d57f1fefa"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption> </caption>Failure to achieve and maintain a closed system during processing will result in a product that must be transfused within 24 hours.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20140929"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d4a2e447-d2ae-42ee-9724-282651ccc5a3">
+               <id root="eb1488d7-21d8-4edb-adc7-780bb17d327c"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20140929"/>
+               <component>
+                  <section ID="ID_b4214f92-26cd-455e-9010-0a92b2433cf7">
+                     <id root="4c1fdabb-fde6-4ab8-b45e-c05454d9685e"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>1.</caption>Use aseptic technique.</item>
+                           <item>
+                              <caption>2.</caption>Use only if solutions are clear.</item>
+                           <item>
+                              <caption>3.</caption>If moisture is observed on the outside of the collection system when removed from the cellophane pouch, subsequent handling and storage of an unused set within the foil pouch could encourage the growth of mold on the base label.  Unused bags in opened foil pouches may be kept 30 days by folding and SECURING open end of pouch to prevent possible loss of moisture.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20140929"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8ae909d2-7dcc-480f-ba9b-8bdfb8b4cd76">
+               <id root="20371d95-0c97-47a7-8af4-a3de1f4d341d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>There are no known potential adverse reactions associated specifically with theLeukotrap® RC System CP2D/AS-3 Blood Bag Unit with In-Line RC2D Filter and Sampling System.</paragraph>
+               </text>
+               <effectiveTime value="20140929"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_1591c4bf-4aa6-4921-964b-2db7d5428d7d">
+               <id root="e1124683-d4d6-48c3-91b4-27870c5557c5"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption>1.</caption>Filter and process whole blood within 72 hours of collection. </item>
+                     <item>
+                        <caption>2.</caption>When whole blood is at room temperature, filter within 8 hours of collection.  </item>
+                     <item>
+                        <caption>3.</caption>When whole blood is at 1 – 6 °C, filter within 72 hours of collection.</item>
+                     <item>
+                        <caption>4.</caption>Follow AABB recommended guidelines for heavy spin centrifugation for component preparation.  For optimal red blood cell (RBC) quality do not exceed 5000g.</item>
+                     <item>
+                        <caption>5.</caption>This product is not made with natural rubber latex.</item>
+                     <item>
+                        <caption>6.</caption>Tubing Specifications: <list listType="ordered">
+                           <item>
+                              <caption>a.</caption>OD = 0.163”  </item>
+                           <item>
+                              <caption>b.</caption>ID = 0.114”   </item>
+                           <item>
+                              <caption>c.</caption>Wall = 0.0245”</item>
+                        </list>
+                     </item>
+                     <item>
+                        <caption>7.</caption>Fill line only: <list listType="ordered">
+                           <item>
+                              <caption>d.</caption>OD = 0.160”</item>
+                           <item>
+                              <caption>e.</caption>ID = 0.114”</item>
+                           <item>
+                              <caption>f.</caption>Wall = 0.0245”</item>
+                        </list>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20140929"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_321cb7a0-7e1f-4a7a-a098-275d7d03576f">
+               <id root="4ee74cb1-569a-433c-bd5d-50433bea4691"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Each unit consists of:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>1.</caption>Collection Bag with 70ml of CP2D solution.</item>
+                     <item>
+                        <caption>2.</caption>Additive Bag with 110 ml of AS-3 solution.</item>
+                     <item>
+                        <caption>3.</caption>Two empty CLX® Satellite Bags</item>
+                  </list>
+               </text>
+               <effectiveTime value="20140929"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0d024689-e903-492e-ae8f-d66dce40a34a">
+               <id root="2fd9d116-e60d-43ec-b876-6886f7caca0d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <renderMultiMedia ID="id-540905634" referencedObject="ID_5d4fc10b-8d34-409b-bfd5-77e442896354"/>
+                  <paragraph>Figure 5 - Envelope Label</paragraph>
+                  <renderMultiMedia ID="id704604010" referencedObject="ID_70c150f8-61e1-49f8-b6ec-f413ef011f82"/>
+                  <paragraph>Figure 6 - Collection Bag Label</paragraph>
+                  <renderMultiMedia ID="id-1505435206" referencedObject="ID_510fdfdd-46e9-47fc-a02a-1f326aca8f93"/>
+                  <paragraph>Figure 7 - Additive/Storage Bag Label</paragraph>
+                  <renderMultiMedia ID="id-1402129826" referencedObject="C4DA5A47-ACEB-47DC-B793-141BD9867C6D"/>
+                  <paragraph>Figure 8 – Platelet/Plasma CLX Bag Label</paragraph>
+               </text>
+               <effectiveTime value="20140929"/>
+               <component>
+                  <observationMedia ID="ID_5d4fc10b-8d34-409b-bfd5-77e442896354">
+                     <text>Envelope Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_70c150f8-61e1-49f8-b6ec-f413ef011f82">
+                     <text>Collection Bag Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_510fdfdd-46e9-47fc-a02a-1f326aca8f93">
+                     <text>Additive/Storage Bag Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="C4DA5A47-ACEB-47DC-B793-141BD9867C6D">
+                     <text>Platelet/Plasma CLX Bag Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Plasma CLX Bag Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d8d41f92-a01c-438f-b815-0e40bd62b31b">
+               <id root="b6bd4dfa-691b-4115-92cf-6bdba5f936c6"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <paragraph>Haemonetics®, Haemonetics The Blood Management Company® and Leukotrap® are trademarks or registered trademarks of Haemonetics Corporation in the US, other countries or both.</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>Haemonetics Corporation</paragraph>
+                  <paragraph>400 Wood Road</paragraph>
+                  <paragraph>Braintree, MA 02184, USA</paragraph>
+                  <paragraph>By: Haemonetics Manufacturing Inc.</paragraph>
+                  <paragraph>1630 Industrial Park Street</paragraph>
+                  <paragraph>Covina, CA 91722, USA</paragraph>
+                  <paragraph>www.haemonetics.com</paragraph>
+                  <paragraph>800-537-2802</paragraph>
+                  <paragraph>IFU P/N 147129621 (AA)</paragraph>
+               </text>
+               <effectiveTime value="20140929"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

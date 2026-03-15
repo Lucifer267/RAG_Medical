@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="fc8f1ca0-251a-493a-ad8e-defe2a5c7141"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold"/>
+   </title>
+   <effectiveTime value="20220211"/>
+   <setId root="22805f0d-ba58-41ea-b245-19980abcda22"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="794519020" root="1.3.6.1.4.1.519.1"/>
+            <name>Fenwal, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="794519020" root="1.3.6.1.4.1.519.1"/>
+                  <name>Fenwal, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="059140764" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0942-0641" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="dd9b725b-8e32-4107-9b6d-cee21b09a618"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20220211"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0942-0641" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ACD-A</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Anticoagulant Citrate Dextrose Solution Formula A</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="12.25"/>
+                              <denominator unit="mL" value="500"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Dextrose Monohydrate</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="11"/>
+                              <denominator unit="mL" value="500"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE, UNSPECIFIED FORM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Anhydrous Citric Acid</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="3.65"/>
+                              <denominator unit="mL" value="500"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Anhydrous Citric Acid</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Anhydrous Citric Acid</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0942-0641-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BN160918" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20070301"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0f584137-1c10-489b-8201-94dd1f6a2c88">
+               <id root="aa5e326b-6d06-424b-99db-7bf8fa5763a9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Anticoagulant Citrate Dextrose Solution USP (ACD) Formula A</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION– </content>
+                  </paragraph>
+                  <paragraph>DO NOT REMOVE UNIT FROM OVERWRAP UNTIL READY FOR USE <br/>THE OVERWRAP IS A MOISTURE BARRIER <br/>THE INNER BAG MAINTAINS THE STERILITY OF THE PRODUCT <br/>STORE AT CONTROLLED ROOM TEMPERATURE</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CODE 4B7898Q</content>
+                     <br/>
+                     <content styleCode="bold">NDC 0942-0641-03</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">500 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Fenwal™</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Anticoagulant Citrate Dextrose Solution USP (ACD) Formula A</content>
+                  </paragraph>
+                  <paragraph>EACH 100 mL CONTAINS 2.45 g DEXTROSE (MONOHYDRATE) USP 2.2 g SODIUM CITRATE (DIHYDRATE) USP 730 mg CITRIC ACID (ANHYDROUS) USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STERILE ,</content> NONPYROGENIC </paragraph>
+                  <paragraph>STERILIZED BY STEAM</paragraph>
+                  <paragraph>SINGLE USE CONTAINER </paragraph>
+                  <paragraph>DISCARD UNUSED PORTION</paragraph>
+                  <paragraph>FOR USE WITH CYTAPHERESIS DEVICE ONLY</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NOT FOR DIRECT INTRAVENOUS INFUSION</content>
+                  </paragraph>
+                  <paragraph>DO NOT USE UNLESS SOLUTION IS CLEAR AND NO LEAKS ARE DETECTED</paragraph>
+                  <paragraph>AFTER REMOVING OVERWRAP CHECK FOR MINUTE LEAKS BY SQUEEZING INNER BAG FIRMLY </paragraph>
+                  <paragraph>IF LEAKS ARE FOUND DISCARD SOLUTION AS STERILITY MAY BE IMPAIRED</paragraph>
+                  <paragraph>DISPOSE OF CONTAINER APPROPRIATELY</paragraph>
+                  <paragraph>SEE CARTON FOR ADDITIONAL PRODUCT AND COUNTRY SPECIFIC INFORMATION</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>PL 146 PLASTIC</paragraph>
+                  <paragraph>Manufactured by:<br/>Baxter Healthcare Corporation<br/>65 Pitts Station Road<br/>Marion, North Carolina 28752</paragraph>
+                  <paragraph>MADE IN USA 07-25-57-867 REV: B</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia ID="id248" referencedObject="MM1"/>Fenwal, Inc.<br/>Lake Zurich, IL 60047 USA</paragraph>
+               </text>
+               <effectiveTime value="20220211"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a0481770-2018-4d8a-8219-315729500e76">
+               <id root="3933cd6a-dc71-410d-ad3a-2b97ce6c38ab"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia ID="id264" referencedObject="MM2"/> [Enter Package/Label Display Panel here]</paragraph>
+               </text>
+               <effectiveTime value="20220211"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Anticoagulant Citrate Dextrose Solution USP (ACD) Formula A label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="6fa06fbd-1f94-4829-bc7d-9b4aebefa917"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20190206"/>
+   <setId root="d5e2e8c0-48b3-4666-95a2-d9aef29f1a1c"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="965352896" root="1.3.6.1.4.1.519.1"/>
+            <name>Two Hip Consulting, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="965352896" root="1.3.6.1.4.1.519.1"/>
+                  <name>Two Hip Consulting, LLC</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="7f828957-4183-4895-b045-bcdfe59b8a5f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20190130"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="76074-135" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>LIDOCAINE</name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>LIDOCAINE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="5" unit="g"/>
+                              <denominator value="100" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="98PI200987" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIDOCAINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="98PI200987" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LIDOCAINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5655G9Y8AQ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 300</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OJ4Z5Z32L4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL 1450</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="AV092KU4JH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PEPPERMINT OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76074-135-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160325"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160325"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="597ad6e5-e24b-4c40-a1ba-f80124cc7665"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>USES: For temporary relief of minor aches and muscle pains associated with arthritis, simple backache, strains, muscle soreness, and stiffness.</paragraph>
+               </text>
+               <effectiveTime value="20160325"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c4bbda66-9b0c-4950-ad68-5630510f240a"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>WARNING: KEEP THIS AND ALL DRUGS OUT OF THE REACH OF CHILDREN</paragraph>
+               </text>
+               <effectiveTime value="20160325"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="065f2625-c40c-47d4-a01c-5d70d763f02c"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <text>
+                  <paragraph>Store at 20 to 25 degrees C (68 to 77 degrees F): Protect from freezing. See crimp of tube and/or carton for lot number and expiration date.</paragraph>
+               </text>
+               <effectiveTime value="20160325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lfcbb8408-02bd-46b9-9c66-40ebb422058f">
+               <id root="28713c61-2a2e-49c7-a49b-ea33ab205324"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Ldf0dcbb8-7186-4e86-a7ee-be5502ae0475"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160325"/>
+               <component>
+                  <observationMedia ID="Ldf0dcbb8-7186-4e86-a7ee-be5502ae0475">
+                     <text>Medi-Sulting-Lidocaine Ointment Label Rx NDC</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Medi-Sulting-Lidocaine Ointment Label Rx NDC.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

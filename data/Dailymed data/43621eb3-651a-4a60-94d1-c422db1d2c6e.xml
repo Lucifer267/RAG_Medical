@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="43621eb3-651a-4a60-94d1-c422db1d2c6e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20140507"/>
+   <setId root="130c94bb-e079-4318-b3d2-919a821155d0"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+                        <name>Northwind Pharmaceuticals</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-581" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d5d04776-9ebc-4a58-86fc-4b1320d566da"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140507"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-581" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Metoprolol succinate</name>
+                        <formCode code="C42930" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED, EXTENDED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Metoprolol succinate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="62037-830" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIR">
+                           <quantity>
+                              <numerator value="25" unit="mg"/>
+                              <denominator value="30" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TH25PD4CCB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METOPROLOL SUCCINATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="GEB06NHM23" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METOPROLOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <asEquivalentSubstance>
+                                 <definingSubstance>
+                                    <code code="W5S57Y3A5L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METOPROLOL TARTRATE</name>
+                                 </definingSubstance>
+                              </asEquivalentSubstance>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-581-52" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140506"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA077118" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="11" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">M</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="oral"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="La0f61349-f874-4619-aebe-616b5b1650bc">
+               <id root="28a41fba-68d4-40f5-8d45-ce82b5416655"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>NDC: 51655-581-52</paragraph>
+                  <paragraph>MFG: 62037-830-10</paragraph>
+                  <paragraph>Metoprolol Succinate ER 25mg</paragraph>
+                  <paragraph>30 Tablets</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Lot# NW45890001</paragraph>
+                  <paragraph>Exp Date: 07/2015</paragraph>
+                  <paragraph>Each tablet contains 23.75 mg metoprolol succinate</paragraph>
+                  <paragraph>equivalent to 25mg metoprolol tartate, USP</paragraph>
+                  <paragraph>Dosage: See package insert</paragraph>
+                  <paragraph>Store at 68 to 77 degrees F.</paragraph>
+                  <paragraph>Store in a tight, light-resistant container (See USP)</paragraph>
+                  <paragraph>Keep out of reach of children.</paragraph>
+                  <paragraph>Mfg by: Watson Laboratories, Inc Corona, CA 92880 USA</paragraph>
+                  <paragraph>Distributed by: Watson Pharma, Inc Lot: 859661M</paragraph>
+                  <paragraph>Repackaged by Northwind Pharmaceuticals, Indianapolis, IN 46256</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lb0a4e987-29ea-4a3c-a6fe-42b8e1124614"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140507"/>
+               <component>
+                  <observationMedia ID="Lb0a4e987-29ea-4a3c-a6fe-42b8e1124614">
+                     <text>Metoprolol Succ 51655-581</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="MEtoprolol Succ 51655-581.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L92bb495b-a043-40db-b503-66e397ddeaeb">
+               <id root="9b048f9e-63cd-4d6d-9cb2-551949826059"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140507"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

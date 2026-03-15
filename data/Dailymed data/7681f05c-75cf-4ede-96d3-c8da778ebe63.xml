@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7681f05c-75cf-4ede-96d3-c8da778ebe63"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Gaseous Oxygen Fill Label</title>
+   <effectiveTime value="20191218"/>
+   <setId root="f7483c87-439b-4fe2-872e-ebb2b0d5cdbc"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="118653638" root="1.3.6.1.4.1.519.1"/>
+            <name>AIRSERVE, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="118653638" root="1.3.6.1.4.1.519.1"/>
+                  <name>AIRSERVE, LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="118653638" root="1.3.6.1.4.1.519.1"/>
+                        <name>AIRSERVE, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67711-001" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a86abb08-88d4-49ac-af44-90ccdffa80e7"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20191218"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67711-001" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>OXYGEN</name>
+                        <formCode code="C42933" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GAS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>OXYGEN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="991" unit="mL"/>
+                              <denominator value="1" unit="L"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OXYGEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OXYGEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="400" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="170" unit="L"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" displayName="CYLINDER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="240" unit="L"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" displayName="CYLINDER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="682" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="7108" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="3455" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-06" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="170" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-07" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="115" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-08" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1723" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-09" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="40" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="33500" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="24950" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-12" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="16750" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-13" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="37619" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-14" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="29069" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-15" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="49200" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-16" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="38300" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-17" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="17780" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-18" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="8881" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67711-001-19" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20030101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73613" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved medical gas"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9e8527a5-abbc-4504-94b3-0858b9b3d7af"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Gaseous Oxygen Fill Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Warning:</content> For emergency use only when administered by properly trained personnel for oxygen deficiency and resuscitation. For all other medical applications<content styleCode="bold"> Rx only.</content>
+                  </paragraph>
+                  <paragraph>Uninterrupted use of high concentration of oxygen over a long duration, without monitoring its effects on oxygen content of arterial blood, may be harmful.  Use only with pressure reducing equipment and apparatus designed for oxygen.  Do not attempt to use on patients who have stopped breathing, unless use in conjunction with resuscitative equipment.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: HIGH PRESSURE OXIDIZING GAS. VIGOROUSLY ACCELERATES COMBUSTION.</content>
+                  </paragraph>
+                  <paragraph>Keep away from oil, grease and all potential sources of ignition. Open valve slowly and close after each use and when empty. Store and use with adequate ventilation. Cylinder temperature should not exceed 125F (52C).  Use only with equipment cleaned rated for cylinder pressure. <content styleCode="bold">
+                        <content styleCode="underline">Use a  back flow preventative device in the piping.</content>
+                     </content>
+                     <content styleCode="bold">  Use this product in accordance with its specific Material Safety Data Sheet</content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>CAS 7782-44-7</paragraph>
+                  <paragraph>PRODUCED BY AIR LIQUIFICATION</paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DO NOT REMOVE THIS LABEL</content>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">AIRSERVE, LLC 26770 LIBERAL CENTER LINE, MI 48015 (586) 427-5349</content>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>A 115 LITERS  ML6 170 LITERS   B 170 LITERS  C/F 240 LITERS  D 400 LITERS   E 682 LITERS  M60/Q 1723 LITERS   M 3455 LITERS   H 7108 LITERS   OTHER  ___________ LITERS</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160114"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM1">
+                     <text>image of gaseous fill label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="img101.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="54d88b89-b077-421a-981f-d876cb593164"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Liquid Oxygen Fill Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">OXYGEN, REFRIGERATED LIQUID</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">UN1073</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ALWAYS KEEP CONTAINER IN UPRIGHT POSITION</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WARNING</content>:    For emergency use only when administered by properly trained personnel for oxygen deficiency and resuscitation. For all other medical applications, <content styleCode="bold">RX only</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION:    Federal Law prohibits dispensing without prescription</content>.  Uninterrupted use of high concentrations of oxygen over a long duration, without monitoring its effect on oxygen content of arterial blood, may be harmful. Use only with pressure reducing equipment and apparatus designed for oxygen. Do not attempt to use on patients who have stopped breathing, unless in conjunction with resuscitative equipment. Produced by Air Liquefaction.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WARNING:</content>    EXTREMELY COLD OXIDIZING LIQUID AND GAS UNDER PRESSURE.  VIGOROUSLY ACCELERATES COMBUSTION. COMBUSTIBLES IN CONTACT WITH LIQUID OXYGEN MAY EXPLODE ON IGNITION OR IMPACT. CAN CAUSE SEVERE FROSTBITE.</paragraph>
+                  <paragraph>Keep oil, grease, and combustibles away. use only equipment cleaned for oxygen service. store and use with adequate ventilation. Do not get liquid in eyes, wear a face shield and gloves.  Do not drop. Use suitable hand truck for container movement. Avoid spills. Do not walk on or roll equipment over spills.  Cylinder temperature should not exceed 52C (125F).  Close valve after each use and when empty.  Use in accordance with the Material Safety Data Sheet (MSDS).<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FIRST AID: IN CASE OF FROSTBITE</content>, obtain medical treatment immediately.</paragraph>
+                  <br/>
+                  <content styleCode="bold">DO NOT REMOVE LABEL<br/>
+                     <br/>AIRSERVE, LLC<br/>26770 LIBERAL AVE, CENTER LINE, MI 48015<br/>(586) 427-5349</content>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <content styleCode="bold"/>
+               </text>
+               <effectiveTime value="20160113"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM2">
+                     <text>image of liquid fill label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="img102.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

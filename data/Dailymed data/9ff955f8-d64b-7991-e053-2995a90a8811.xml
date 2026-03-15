@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9ff955f8-d64b-7991-e053-2995a90a8811"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20200303"/>
+   <setId root="9ff95904-783d-2929-e053-2995a90a49ec"/>
+   <versionNumber value="11"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="080431967"/>
+            <name>Imprimis NJOF, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="080431967"/>
+                  <name>Imprimis NJOF, LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="080431967"/>
+                        <name>Imprimis NJOF, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="71384-511" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9ff985b3-be4d-65ea-e053-2a95a90a372f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200303"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71384-511" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Moxifloxacin PF</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Moxifloxacin PF</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="B8956S8609" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MOXIFLOXACIN HYDROCHLORIDE MONOHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="U188XYD42P" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MOXIFLOXACIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="20" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="71384-511-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20180105"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180105"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_62fde226-6155-2364-e053-2a91aa0a68bb">
+               <id root="9ff95904-783c-2929-e053-2995a90a49ec"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">20
+   <sup>0 </sup>to 25
+   <sup>0 </sup>C (*68
+   <sup>0 </sup>to 77
+   <sup>0</sup> F)
+  </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20180105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_62fde226-6153-2364-e053-2a91aa0a68bb">
+               <id root="9ff95904-783b-2929-e053-2995a90a49ec"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Vial Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_62fe5334-6c2a-4720-e053-2a91aa0a6463"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20180105"/>
+               <component>
+                  <observationMedia ID="img_62fe5334-6c2a-4720-e053-2a91aa0a6463">
+                     <text>Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Moxifloxacin.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

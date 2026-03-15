@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="bc06d982-d671-ef05-e053-2a95a90a973a"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20210223"/>
+   <setId root="bc06d982-d670-ef05-e053-2a95a90a973a"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+            <name>Central Packaging</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+                        <name>Central Packaging, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="80175-0321" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="bc188a01-72fe-e722-e053-2995a90ad1df"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20210223"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="80175-0321" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ibuprofen</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ibuprofen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="67877-321" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="800"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="80175-0321-9" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20151221"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA091625" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20151221"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">I;10</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="19" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bc09f768-c1ab-5a32-e053-2a95a90a63b7">
+               <id root="bc0a34e2-4927-afa2-e053-2995a90ac699"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <paragraph>Medication Guide for Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)</paragraph>
+                  <paragraph>(See the end of this Medication Guide for a list of prescription NSAID medicines.)
+  <br/>
+                  </paragraph>
+                  <paragraph>What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?  </paragraph>
+                  <paragraph>NSAIDs can cause serious side effects, including:  </paragraph>
+                  <paragraph/>
+                  <paragraph>·         Increased risk of a heart attack or stroke that can lead to death. This risk may happen early in treatment and may increase:</paragraph>
+                  <paragraph>·      with increasing doses of NSAIDs</paragraph>
+                  <paragraph>·      with longer use of NSAIDs</paragraph>
+                  <paragraph/>
+                  <paragraph>Do not take NSAIDs right before or after a heart surgery called a “coronary artery bypass graft (CABG)."  </paragraph>
+                  <paragraph>Avoid taking NSAIDs after a recent heart attack, unless your healthcare provider tells you to. You may have an increased risk of another heart attack if you take NSAIDs after a recent heart attack.  </paragraph>
+                  <paragraph/>
+                  <paragraph>·         Increased risk of bleeding, ulcers, and tears (perforation) of the esophagus (tube leading from the mouth to the stomach), stomach and intestines:  </paragraph>
+                  <paragraph>·           anytime during use</paragraph>
+                  <paragraph>·           without warning symptoms</paragraph>
+                  <paragraph>·           that may cause death</paragraph>
+                  <paragraph/>
+                  <paragraph>The risk of getting an ulcer or bleeding increases with: </paragraph>
+                  <paragraph>·         past history of stomach ulcers, or stomach or intestinal bleeding with use of NSAIDs</paragraph>
+                  <paragraph>·         taking medicines called “corticosteroids”, “anticoagulants”, “SSRIs”, or “SNRIs”</paragraph>
+                  <paragraph>·         increasing doses of NSAIDs</paragraph>
+                  <paragraph>·         longer use of NSAIDs</paragraph>
+                  <paragraph>·         smoking</paragraph>
+                  <paragraph>·         drinking alcohol</paragraph>
+                  <paragraph>·         older age</paragraph>
+                  <paragraph>·         poor health</paragraph>
+                  <paragraph>·         advanced liver disease</paragraph>
+                  <paragraph>·         bleeding problems</paragraph>
+                  <paragraph/>
+                  <paragraph>NSAIDs should only be used:  </paragraph>
+                  <paragraph>·         exactly as prescribed</paragraph>
+                  <paragraph>·         at the lowest dose possible for your treatment</paragraph>
+                  <paragraph>·         for the shortest time needed</paragraph>
+                  <paragraph/>
+                  <paragraph>What are NSAIDs?</paragraph>
+                  <paragraph>NSAIDs are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as different types of arthritis, menstrual cramps, and other types of short-term pain.</paragraph>
+                  <paragraph/>
+                  <paragraph>Who should not take NSAIDs?  </paragraph>
+                  <paragraph>Do not take NSAIDs:  </paragraph>
+                  <paragraph>·         if you have had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAIDs.</paragraph>
+                  <paragraph>·         right before or after heart bypass surgery.</paragraph>
+                  <paragraph/>
+                  <paragraph>Before taking NSAIDS, tell your healthcare provider about all of your medical conditions, including if you:  </paragraph>
+                  <paragraph>·         have liver or kidney problems</paragraph>
+                  <paragraph>·         have high blood pressure</paragraph>
+                  <paragraph>·         have asthma</paragraph>
+                  <paragraph>·         are pregnant or plan to become pregnant. Talk to your healthcare provider if you are considering taking NSAIDs during pregnancy. You should not take NSAIDs after 29 weeks of pregnancy.</paragraph>
+                  <paragraph>·         are breastfeeding or plan to breast feed.</paragraph>
+                  <paragraph/>
+                  <paragraph>Tell your healthcare provider about all of the medicines you take, including prescription or over-the-counter medicines, vitamins or herbal supplements. NSAIDs and some other medicines can interact with each other and cause serious side effects. Do not start taking any new medicine without talking to your healthcare provider first.</paragraph>
+                  <paragraph/>
+                  <paragraph>What are the possible side effects of NSAIDs?  </paragraph>
+                  <paragraph>NSAIDs can cause serious side effects, including:  </paragraph>
+                  <paragraph/>
+                  <paragraph>See “What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?  </paragraph>
+                  <paragraph>·         new or worse high blood pressure</paragraph>
+                  <paragraph>·         heart failure</paragraph>
+                  <paragraph>·         liver problems including liver failure</paragraph>
+                  <paragraph>·         kidney problems including kidney failure</paragraph>
+                  <paragraph>·         low red blood cells (anemia)</paragraph>
+                  <paragraph>·         life-threatening skin reactions</paragraph>
+                  <paragraph>·         life threatening allergic reactions</paragraph>
+                  <paragraph>·         Other side effects of NSAIDs include: stomach pain, constipation, diarrhea, gas, heartburn, nausea, vomiting, and dizziness.</paragraph>
+                  <paragraph>Get emergency help right away if you get any of the following symptoms:</paragraph>
+                  <paragraph>·         shortness of breath or trouble breathing</paragraph>
+                  <paragraph>·         chest pain</paragraph>
+                  <paragraph>·         weakness in one part or side of your body</paragraph>
+                  <paragraph>·         slurred speech</paragraph>
+                  <paragraph>·         swelling of the face or throat</paragraph>
+                  <paragraph>Stop taking your NSAID and call your healthcare provider right away if you get any of the following symptoms:</paragraph>
+                  <paragraph>·         nausea</paragraph>
+                  <paragraph>·         more tired or weaker than usual</paragraph>
+                  <paragraph>·         diarrhea</paragraph>
+                  <paragraph>·         itching</paragraph>
+                  <paragraph>·         your skin or eyes look yellow</paragraph>
+                  <paragraph>·         indigestion or stomach pain</paragraph>
+                  <paragraph>·         flu-like symptoms</paragraph>
+                  <paragraph>·         vomit blood</paragraph>
+                  <paragraph>·         there is blood in your bowel movement or it is black and sticky like tar</paragraph>
+                  <paragraph>·         unusual weight gain</paragraph>
+                  <paragraph>·         skin rash or blisters with fever</paragraph>
+                  <paragraph>·         swelling of the arms, legs, hands and feet</paragraph>
+                  <paragraph/>
+                  <paragraph>If you take too much of your NSAID, call your healthcare provider or get medical help right away.  </paragraph>
+                  <paragraph>These are not all the possible side effects of NSAIDs. For more information, ask your healthcare provider or pharmacist about NSAIDs.</paragraph>
+                  <paragraph/>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph/>
+                  <paragraph>Other information about NSAIDs  </paragraph>
+                  <paragraph>·         Aspirin is an NSAID but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.</paragraph>
+                  <paragraph>·         Some NSAIDs are sold in lower doses without a prescription (over-the-counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days.</paragraph>
+                  <paragraph/>
+                  <paragraph>General information about the safe and effective use of NSAIDs</paragraph>
+                  <paragraph/>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use NSAIDs for a condition for which it was not prescribed. Do not give NSAIDs to other people, even if they have the same symptoms that you have. It may harm them.</paragraph>
+                  <paragraph>If you would like more information about NSAIDs, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about NSAIDs that is written for health professionals.</paragraph>
+                  <paragraph/>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph/>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>Granules India Limited</paragraph>
+                  <paragraph>Hyderabad-500 081, India</paragraph>
+                  <paragraph/>
+                  <paragraph>MADE IN INDIA</paragraph>
+                  <paragraph/>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>Ascend Laboratories, LLC</paragraph>
+                  <paragraph>Parsippany, NJ 07054</paragraph>
+                  <paragraph>Toll-Free No.: 1-877-272-7901</paragraph>
+                  <paragraph/>
+                  <paragraph>Issued: October 2016</paragraph>
+                  <paragraph>For more information, please call to 1-877-770-3183.</paragraph>
+               </text>
+               <effectiveTime value="20210223"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bc079e4a-0416-4102-e053-2a95a90ab435">
+               <id root="bc09f136-013a-dd10-e053-2a95a90acd67"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_bc09f33f-d39b-479c-e053-2995a90a52b2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210223"/>
+               <component>
+                  <observationMedia ID="img_bc09f33f-d39b-479c-e053-2995a90a52b2">
+                     <text>ibuprofen 800mg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Ibuprofen 800mg - Ascend.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

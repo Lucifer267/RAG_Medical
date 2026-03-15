@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="69c4836e-6de5-4525-8689-b81c3fd807cd"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20140603"/>
+   <setId root="5a0f574e-df84-4682-83eb-87272a7f5294"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+                        <name>Northwind Pharmaceuticals</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-162" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="af7ca106-45b1-4411-a92b-7d6601a20afc"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140617"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-162" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Metaxalone</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Metaxalone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="65162-553" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="800" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1NMA9J598Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METAXALONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1NMA9J598Y" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METAXALONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-162-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-162-20" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140212"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA203399" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48328" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pink" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="capsule" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="19" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">AN;553</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb7ce3e0a-0110-4ad3-ac60-03eee5f0a807">
+               <id root="dd31b4bb-47d5-43ee-a074-6ba0484d183a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>NDC: 51655-0162-10</paragraph>
+                  <paragraph>MFG: 65162-553-10</paragraph>
+                  <paragraph>Metaxalone, USP</paragraph>
+                  <paragraph>800mg</paragraph>
+                  <paragraph>10 tablets </paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>Dosage: See Package insert</paragraph>
+                  <paragraph>Store below 77 degrees F. (25 degrees C)</paragraph>
+                  <paragraph>Store in a tight, light resistant container (See USP).</paragraph>
+                  <paragraph>Keep out of the reach of children.</paragraph>
+                  <paragraph>Each tablet contains Metaxalone, USP...800mg</paragraph>
+                  <paragraph>Mfg. By Amneal Pharmaceuticals Co. Pvt. Ltd Ahmedabad, India 38220</paragraph>
+                  <paragraph>Repackaged by Northwind Pharmaceuticals, Indianapolis, IN 46256</paragraph>
+                  <paragraph>Lot#:</paragraph>
+                  <paragraph>Exp. Date: </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Le20dae74-f0a6-485f-9d01-ad7b2902a942"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140603"/>
+               <component>
+                  <observationMedia ID="Le20dae74-f0a6-485f-9d01-ad7b2902a942">
+                     <text>Metaxalone 51655-162-10</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Metaxalone 51655-162-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L5702d39b-55ad-423b-a5be-41ff8fad8df9">
+               <id root="618ffdb9-a03e-46b8-aa3b-35022567f943"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>NDC: 51655-162-20</paragraph>
+                  <paragraph>MFG: 65162-553-10</paragraph>
+                  <paragraph>Metaxalone Tablets, USP</paragraph>
+                  <paragraph>800 mg</paragraph>
+                  <paragraph>20 Tablets</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Dosage: See package insert</paragraph>
+                  <paragraph>Store below 77 degrees F.</paragraph>
+                  <paragraph>Store in a tight, light resistant container (See USP)  Keep out of the reach of children.</paragraph>
+                  <paragraph>Mfg by: Amneal Pharmaceuticals Co. Pvt. Ltd. Ahmedabad, India 38220</paragraph>
+                  <paragraph>Repackaged by: Northwind Pharmaceuticals, Indianapolis, IN 46256</paragraph>
+                  <paragraph>Lot #:</paragraph>
+                  <paragraph>Exp. Date:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lff36031f-49f5-429e-9558-2db0d8cd5035"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140603"/>
+               <component>
+                  <observationMedia ID="Lff36031f-49f5-429e-9558-2db0d8cd5035">
+                     <text>Metaxalone 51655-162-20</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51655-162-20.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L5616979c-c29d-4b79-ba8c-8421eede7e01">
+               <id root="117966c2-4b4d-47d9-87e5-d7063346029a"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>WARNINGS</paragraph>
+                  <paragraph>Metaxalone may enhance the effects of alcohol and other CNS depressants.</paragraph>
+                  <paragraph>PRECAUTIONS</paragraph>
+                  <paragraph>Metaxalone should be administered with great care to patients with pre-existing liver damage. Serial liver function studies should be performed in these patients.</paragraph>
+                  <paragraph>False-positive Benedict’s tests, due to an unknown reducing substance, have been noted. A glucose-specific test will differentiate findings.</paragraph>
+                  <paragraph>Taking metaxalone with food may enhance general CNS depression; elderly patients may be especially susceptible to this CNS effect. (See CLINICAL PHARMACOLOGY: Pharmacokinetics and PRECAUTIONS: Information for Patients section).</paragraph>
+                  <paragraph>Information for Patients</paragraph>
+                  <paragraph>Metaxalone may impair mental and/or physical abilities required for performance of hazardous tasks, such as operating machinery or driving a motor vehicle, especially when used with alcohol or other CNS depressants.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>The sedative effects of metaxalone and other CNS depressants (e.g., alcohol, alcohol, benzodiazepines, opioids, tricyclic antidepressants) may be additive. Therefore, caution should be exercised with patients who take more than one of these CNS depressants simultaneously.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>The carcinogenic potential of metaxalone has not been determined.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Reproduction studies in rats have not revealed evidence of impaired fertility or harm to the fetus due to metaxalone. Post marketing experience has not revealed evidence of fetal injury, but such experience cannot exclude the possibility of infrequent or subtle damage to the human fetus. Safe use of metaxalone has not been established with regard to possible adverse effects upon fetal development. Therefore, metaxalone tablets should not be used in women who are or may become pregnant and particularly during early pregnancy unless, in the judgement of the physician, the potential benefits outweigh the possible hazards.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>It is not known whether this drug is secreted in human milk. As a general rule, nursing should not be undertaken while a patient is on a drug since many drugs are excreted in human milk.</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>Safety and effectiveness in children 12 years of age and below have not been established.</paragraph>
+               </text>
+               <effectiveTime value="20140617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L32f1fa12-4a19-4ef2-af0c-4ba92118d524">
+               <id root="48e7d99c-e88c-470f-a36c-21da804eedec"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions</title>
+               <text>
+                  <paragraph>ADVERSE REACTIONS</paragraph>
+                  <paragraph>The most frequent reactions to metaxalone include:</paragraph>
+                  <paragraph>CNS: drowsiness, dizziness, headache, and nervousness or “irritability”;</paragraph>
+                  <paragraph>Digestive: nausea, vomiting, gastrointestinal upset.</paragraph>
+                  <paragraph>Other adverse reactions are:</paragraph>
+                  <paragraph>Immune System: hypersensitivity reaction, rash with or without pruritus;</paragraph>
+                  <paragraph>Hematologic: leukopenia; hemolytic anemia;</paragraph>
+                  <paragraph>Hepatobiliary: jaundice.</paragraph>
+                  <paragraph>Though rare, anaphylactoid reactions have been reported with metaxalone.</paragraph>
+               </text>
+               <effectiveTime value="20140617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L4af1a235-fada-434c-9d0c-a9057e4efb50">
+               <id root="d9765c43-3c92-4c2b-b95c-e945215b728b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage and Administration</title>
+               <text>
+                  <paragraph>DOSAGE AND ADMINISTRATION</paragraph>
+                  <paragraph>The recommended dose for adults and children over 12 years of age is one 800 mg tablet three to four times a day.</paragraph>
+               </text>
+               <effectiveTime value="20140617"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La2d58a7f-cd7c-412f-947a-8a76ee7a42e6">
+               <id root="638a514c-92a5-4afa-a069-f48e65c8ff61"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <title>Online drug information link</title>
+               <text>
+                  <paragraph>For more information regarding this drug please see the manufacturer's information online at:</paragraph>
+                  <paragraph>Permanent Link:</paragraph>
+                  <paragraph>http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa9dba9-29b0-4520-a0f7-66d19d52c6bc </paragraph>
+               </text>
+               <effectiveTime value="20140617"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

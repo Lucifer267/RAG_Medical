@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2c1e32b8-7d04-46a2-bffe-e5d541bb087a"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20140825"/>
+   <setId root="4ebbe139-4f30-48c6-8c2d-334679186f2d"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="087757167" root="1.3.6.1.4.1.519.1"/>
+            <name>Air Liquide Healthcare America Corporation</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="087757167" root="1.3.6.1.4.1.519.1"/>
+                  <name>Air Liquide Healthcare America Corporation</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="067631762" root="1.3.6.1.4.1.519.1"/>
+                        <name>Air Liquide Healthcare America Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64735-070" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="831995829" root="1.3.6.1.4.1.519.1"/>
+                        <name>Air Liquide Industrial U.S. LP</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64735-070" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a2e4db43-f80a-434b-bb4e-230a265ff4e9"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20140825"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="64735-070" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>COMPRESSED GAS, OXIDIZING, N.O.S.<suffix/>
+                        </name>
+                        <formCode code="C42933" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GAS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>OXYGEN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="40" unit="L"/>
+                              <denominator value="100" unit="L"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OXYGEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OXYGEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="206GF3GB41" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HELIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="708" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64735-070-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19600101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA205712" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1239ccce-4f99-4f9e-b641-952f71607bd8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Compressed Gas, Oxidizing, N.O.S.
+(OXYGEN, HELIUM) Label</title>
+               <text>
+                  <paragraph>WARNING: DO NOT HANDLE CYLINDER OR USE CONTENTS UNTIL: 1) YOU HAVE READ AND UNDERSTAND THE MATERIAL SAFETY DATA SHEET FOR THIS PRODUCT.  CALL 1-800-231-1366 FOR MORE COPIES. 2) YOU ARE TRAINED TO USE CYLINDER AND CONTENTS, INCLUDING EMERGENCY PROCEDURES.</paragraph>
+                  <paragraph>COMPRESSED GAS, OXIDIZING, N.O.S. (OXYGEN, HELIUM)   UN 3156</paragraph>
+                  <paragraph>NON-FLAMMABLE 2   OXIDIZER 5.1</paragraph>
+                  <paragraph>_________ % Oxygen USP    ________ % Helium USP</paragraph>
+                  <paragraph>Only for Oxygen contents above 23.5%<br/>
+                  </paragraph>
+                  <paragraph>WARNING: HIGH PRESSURE, OXIDIZING GAS, VIGOROUSLY ACCELERATES COMBUSTION.  Secure cylinder and provide adequate ventilation in storage and use.  Keep oil and grease away.  No smoking in cylinder area.  Do not use or store near heat or open flame.  Use only with equipment cleaned for oxygen service and rated for cylinder pressure.  Use a back flow preventive device in the piping.  Cylinder temperatures should not exceed 125°F (52°C).  Open valve slowly.  Close valve after each use and when empty.  Return with at least 25 PSIG pressure.  Use in accordance with Material Safety Data Sheet and Compressed Gas Association Publication P-1.<br/>
+                     <br/>FIRST AID: IF INHALED, remove to fresh air.  If not breathing, give artificial respiration.  If breathing is difficult, give oxygen.  Call a physician.<br/>
+                     <br/>CAUTION: USE NO OIL ON VALVE OR CONNECTIONS.  TRANSFILLING OF THIS GAS IS PROHIBITED.<br/>
+                     <br/>DO NOT REMOVE THIS PRODUCT LABEL.</paragraph>
+                  <paragraph>AIR LIQUIDE HEALTHCARE AMERICA CORP.<br/>P. O. BOX 460229<br/>Houston, TX 77056</paragraph>
+                  <paragraph>M73H-3  L10</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="OxygenHelium"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140422"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="OxygenHelium">
+                     <text>OxygenHelium Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="M73H-3_HeO2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

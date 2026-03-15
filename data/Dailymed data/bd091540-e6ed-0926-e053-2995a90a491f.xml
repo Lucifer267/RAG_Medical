@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="bd091540-e6ed-0926-e053-2995a90a491f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20210308"/>
+   <setId root="bcd11524-8111-5c7f-e053-2995a90a457a"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+            <name>Central Packaging</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+                        <name>Central Packaging, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="80175-0582" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="bd099994-b587-6d44-e053-2a95a90ae86b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20210308"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="80175-0582" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>duloxetine</name>
+                        <formCode code="C42902" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE, DELAYED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>duloxetine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="31722-582" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="30"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9044SC542W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DULOXETINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="O5TNM5N07U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DULOXETINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="80175-0582-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160811"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA204343" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160811"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48333" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="blue" xsi:type="CE">
+                              <originalText>white opaque and blue opaque</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="16" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">H;191</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bcd127a6-9801-09fe-e053-2a95a90a7b5b">
+               <id root="bcd127a6-9800-09fe-e053-2a95a90a7b5b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Duloxetine delayed-release capsules are indicated for the treatment of:• Major Depressive Disorder [see Clinical Studies (14.1)]• Generalized Anxiety Disorder [see Clinical Studies (14.2)]• Diabetic Peripheral Neuropathy [see Clinical Studies (14.3)]• Chronic Musculoskeletal Pain [see Clinical Studies (14.5)]</paragraph>
+               </text>
+               <effectiveTime value="20210305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bcd21072-69e2-4922-e053-2a95a90a4437">
+               <id root="bcd21072-69e1-4922-e053-2a95a90a4437"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <paragraph>Medication Guide
+  <br/>
+                     <br/>
+Duloxetine Delayed-release Capsules
+  <br/>
+                     <br/>
+(doh-LOCKS-ah-teen)
+  <br/>
+                     <br/>
+Read this Medication Guide before you start taking duloxetine delayed-release capsules and each time you get a refill. There may be new information. This information does not take the place of talking to your healthcare provider about your medical condition or treatment.
+  <br/>
+                     <br/>
+Talk to your healthcare provider about:
+  <br/>
+                     <br/>
+• all risks and benefits of treatment with antidepressant medicines
+  <br/>
+                     <br/>
+• all treatment choices for depression or other serious mental illness
+  <br/>
+What is the most important information I should know about antidepressant medicines, depression, other serious mental illnesses, and suicidal thoughts or actions?
+  <br/>
+                     <br/>
+1. Duloxetine delayed-release capsules and other antidepressant medicines may increase suicidal thoughts or actions in some children, teenagers, or young adults within the first few months of treatment or when the dose is changed.
+  <br/>
+                     <br/>
+                     <br/>
+2. Depression and other serious mental illnesses are the most important causes of suicidal thoughts or actions. Some people may have a particularly high risk of having suicidal thoughts or actions. These include people who have (or have a family history of) bipolar illness (also called manic-depressive illness).
+  <br/>
+                     <br/>
+3. How can I watch for and try to prevent suicidal thoughts and actions?
+  <br/>
+                     <br/>
+• Pay close attention to any changes in mood, behavior, actions, thoughts, or feelings, especially sudden changes. This is very important when an antidepressant medicine is started or when the dose is changed.
+  <br/>
+                     <br/>
+• Call your healthcare provider right away to report new or sudden changes in mood, behavior, thoughts, or feelings.
+  <br/>
+                     <br/>
+• Keep all follow-up visits with your healthcare provider as scheduled. Call your healthcare provider between visits as needed, especially if you have concerns about symptoms.
+  <br/>
+                     <br/>
+Call your healthcare provider right away if you have any of the following symptoms or feelings, especially if they are new, worse, or worry you. In an emergency, call 911.
+  <br/>
+                     <br/>
+• attempts to commit suicide
+  <br/>
+                     <br/>
+• acting on dangerous impulses
+  <br/>
+                     <br/>
+• acting aggressive , being angry, or violent
+  <br/>
+                     <br/>
+• thoughts about suicide or dying
+  <br/>
+                     <br/>
+• new or worse depression
+  <br/>
+                     <br/>
+• new or worse anxiety
+  <br/>
+                     <br/>
+• panic attacks
+  <br/>
+                     <br/>
+• feeling  very agitated or restless
+  <br/>
+                     <br/>
+• new or worse irritability
+  <br/>
+                     <br/>
+• trouble sleeping
+  <br/>
+                     <br/>
+• an extreme increase in activity or talking (mania)
+  <br/>
+                     <br/>
+• other unusual changes in behavior or mood
+  <br/>
+                     <br/>
+What else do I need to know about antidepressant medicines?
+  <br/>
+                     <br/>
+• Never stop an antidepressant medicine without first talking to a healthcare provider. Stopping an antidepressant medicine suddenly can cause other symptoms.
+  <br/>
+                     <br/>
+• Antidepressants are medicines used to treat depression and other illnesses. It is important to discuss all the risks of treating depression and also the risks of not treating it. Patients should discuss all treatment choices with your healthcare provider, not just the use of antidepressants.
+  <br/>
+                     <br/>
+• Antidepressant medicines have other side effects. Talk to your healthcare provider about the side effects of the medicine prescribed for you or your family member.
+  <br/>
+                     <br/>
+• Antidepressant medicines can interact with other medicines. Know all of the medicines that you or your family member takes. Keep a list of all medicines to show your healthcare provider. Do not start new medicines without first checking with your healthcare provider.
+  <br/>
+                     <br/>
+What are duloxetine delayed-release capsules?
+  <br/>
+                     <br/>
+Duloxetine delayed-release capsule is a prescription medicine used to treat certain type of depression called Major Depressive Disorder (MDD). Duloxetine delayed-release capsule belongs to a class of medicines known as SNRIs (or serotonin-norepinephrine reuptake inhibitors).
+  <br/>
+                     <br/>
+Duloxetine delayed-release capsule is also used to treat or manage:
+  <br/>
+                     <br/>
+• Generalized Anxiety Disorder (GAD)
+  <br/>
+                     <br/>
+• Diabetic Peripheral Neuropathic Pain (DPNP)
+  <br/>
+                     <br/>
+• Chronic Musculoskeletal Pain
+  <br/>
+                     <br/>
+Who should not take duloxetine delayed-release capsules?
+  <br/>
+                     <br/>
+Do Not take duloxetine delayed-release capsules if you:
+  <br/>
+                     <br/>
+• take a Monoamine Oxidase Inhibitor (MAOI). Ask your healthcare provider or pharmacist if you are not sure if you take an MAOI, including the antibiotic linezolid or intravenous methylene blue.
+  <br/>
+                     <br/>
+• Do not take an MAOI within 5 days of stopping duloxetine delayed-release capsules unless directed to do so by your healthcare provider.
+  <br/>
+                     <br/>
+• Do not start duloxetine delayed-release capsules if you stopped taking an MAOI in the last 14 days unless directed to do so by your healthcare provider.
+ </paragraph>
+                  <paragraph>People who take duloxetine delayed-release capsules close in time to an MAOI may have a serious problem called Serotonin Syndrome (see “What are the possible side effects of duloxetine delayed-release capsules?”).
+  <br/>
+                     <br/>
+                     <br/>
+What should I tell my healthcare provider before taking duloxetine delayed-release capsules?
+  <br/>
+                     <br/>
+Before starting duloxetine delayed-release capsules, tell your healthcare provider if you:
+  <br/>
+                     <br/>
+• have heart problems or high blood pressure
+  <br/>
+                     <br/>
+• have diabetes (Duloxetine delayed-release capsules treatment makes it harder for some people with diabetes to control their blood sugar)
+  <br/>
+                     <br/>
+• have liver problems
+  <br/>
+                     <br/>
+• have kidney problems
+  <br/>
+                     <br/>
+• have glaucoma
+  <br/>
+                     <br/>
+• have or had seizures or convulsions
+  <br/>
+                     <br/>
+• have bipolar disorder or mania
+  <br/>
+                     <br/>
+• have low sodium levels in your blood
+  <br/>
+                     <br/>
+• have delayed stomach emptying
+  <br/>
+                     <br/>
+• have or had bleeding problems
+  <br/>
+                     <br/>
+• are pregnant or plan to become pregnant. It is not known if duloxetine delayed-release capsules will harm your unborn baby. Talk to your healthcare provider about the benefits and risks of treating depression or other conditions with duloxetine delayed-release capsules during pregnancy.
+  <br/>
+                     <br/>
+• are breastfeeding or plan to breastfeed. Duloxetine can pass into your breast milk. Talk to your healthcare provider about the best way to feed your baby while taking duloxetine delayed-release capsules.
+  <br/>
+                     <br/>
+Tell your healthcare provider about all the medicines that you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. Duloxetine delayed-release capsules and some medicines may interact with each other, may not work as well, or may cause serious side effects.
+  <br/>
+                     <br/>
+Especially tell your healthcare provider if you take:
+  <br/>
+                     <br/>
+• triptans used to treat migraine headache
+  <br/>
+                     <br/>
+• medicines used to treat mood, anxiety, psychotic or thought disorders, including tricyclics, lithium, buspirone, SSRIs, SNRIs or MAOIs
+  <br/>
+                     <br/>
+• tramadol and fentanyl
+  <br/>
+                     <br/>
+• cimetidine
+  <br/>
+                     <br/>
+• the antibiotics ciprofloxacin, enoxacin
+  <br/>
+                     <br/>
+• medicine to treat irregular heart rate ( like propafenone, flecainide, quinidine)
+  <br/>
+                     <br/>
+• theophylline 
+  <br/>
+                     <br/>
+• the blood thinner warfarin (Coumadin, Jantoven)
+  <br/>
+                     <br/>
+• non-steroidal anti-inflammatory drug (NSAID) (like ibuprofen, naproxen or aspirin).
+  <br/>
+                     <br/>
+• over-the-counter supplements such as tryptophan or St. John’s Wort
+  <br/>
+                     <br/>
+• thioridazine (Mellaril). Mellaril together with duloxetine can cause serious heart rhythm problems or sudden death.
+  <br/>
+                     <br/>
+                     <br/>
+ Ask your healthcare provider for a list of these medicines if you are not sure.
+  <br/>
+                     <br/>
+Do not take duloxetine delayed-release capsules with any other medicine that contain duloxetine.
+  <br/>
+                     <br/>
+                     <br/>
+How should I take duloxetine delayed-release capsules?
+  <br/>
+                     <br/>
+• Take duloxetine delayed-release capsules exactly as your healthcare provider tells you to take it. Your healthcare provider may need to change the dose of duloxetine delayed-release capsules until it is the right dose for you.
+  <br/>
+                     <br/>
+• Swallow duloxetine delayed-release capsules whole. Do not chew or crush duloxetine delayed-release capsules.
+  <br/>
+                     <br/>
+• Do not open the capsule and sprinkle on food or mix with liquids. Opening the capsule may affect how well duloxetine delayed-release capsule works.
+  <br/>
+                     <br/>
+• Duloxetine delayed-release capsules may be taken with or without food.
+  <br/>
+                     <br/>
+• If you miss a dose of duloxetine delayed-release capsules, take the missed dose as soon as you remember. If it is almost time for the next dose, skip the missed dose and take your next dose at the regular time. Do not take two doses of duloxetine delayed-release capsules at the same time.
+  <br/>
+                     <br/>
+• If you take too much duloxetine delayed-release capsules, call your healthcare provider or poison control center at 1-800-222-1222 right away, or get emergency treatment.
+  <br/>
+                     <br/>
+• When switching from another antidepressant to duloxetine delayed-release capsules your healthcare provider may want to lower the dose of the initial antidepressant first to potentially avoid side effects.
+  <br/>
+                     <br/>
+What should I avoid while taking duloxetine delayed-release capsules?
+  <br/>
+                     <br/>
+• Duloxetine delayed-release capsules can cause sleepiness or may affect your ability to make decisions, think clearly, or react quickly. You should not drive, operate heavy machinery, or do other dangerous activities until you know how duloxetine delayed-release capsule affects you.
+  <br/>
+                     <br/>
+• Use of duloxetine delayed-release capsules concomitantly with heavy alcohol intake may be associated with severe liver injury. Avoid heavy alcohol use while taking duloxetine delayed-release capsules.
+ </paragraph>
+                  <paragraph>What are the possible side effects of duloxetine delayed-release capsules?
+  <br/>
+                     <br/>
+Duloxetine delayed-release capsules may cause serious side effects, including: See “What is the most important information I should know about duloxetine delayed-release capsules?”
+  <br/>
+                     <br/>
+Common possible side effects in people who take duloxetine delayed-release capsules include:
+  <br/>
+                     <br/>
+1. liver damage. Symptoms may include:
+  <br/>
+                     <br/>
+•  itching
+  <br/>
+                     <br/>
+•  right upper abdominal pain
+  <br/>
+                     <br/>
+•  dark urine
+  <br/>
+                     <br/>
+•  yellow skin or eyes
+  <br/>
+                     <br/>
+•  enlarged liver
+  <br/>
+                     <br/>
+•  increased liver enzymes
+  <br/>
+                     <br/>
+2. changes in blood pressure and falls. Monitor your blood pressure before starting and throughout treatment. Duloxetine delayed-release capsules may:
+  <br/>
+                     <br/>
+• increase your blood pressure.
+  <br/>
+                     <br/>
+• decrease your blood pressure when standing and cause dizziness or fainting, mostly when first starting duloxetine delayed-release capsules or when increasing the dose.
+  <br/>
+                     <br/>
+• increase risk of falls, especially in elderly.
+  <br/>
+                     <br/>
+3. Serotonin Syndrome: This condition can be life-threatening and symptoms may include:
+  <br/>
+                     <br/>
+• agitation, hallucinations, coma or other changes in mental status
+  <br/>
+                     <br/>
+• coordination problems or muscle twitching (overactive reflexes)
+  <br/>
+                     <br/>
+• racing heartbeat, high or low blood pressure
+  <br/>
+                     <br/>
+• sweating or fever
+  <br/>
+                     <br/>
+• nausea, vomiting, or diarrhea
+  <br/>
+                     <br/>
+• muscle rigidity
+  <br/>
+                     <br/>
+• dizziness
+  <br/>
+                     <br/>
+• flushing
+  <br/>
+                     <br/>
+• tremor
+  <br/>
+                     <br/>
+• seizures
+  <br/>
+                     <br/>
+                     <br/>
+4. abnormal bleeding: Duloxetine delayed-release capsules and other antidepressant medicines may increase your risk of bleeding or bruising, especially if  you take the blood thinner warfarin (Coumadin, Jantoven), a non-steroidal anti- inflammatory drug (NSAIDs, like ibuprofen or naproxen), or aspirin.
+ </paragraph>
+                  <paragraph>5. severe skin reactions: Duloxetine delayed-release capsules may cause serious skin reactions that may require stopping its use. This may need to be treated in a hospital and may be life-threatening. Call your health care provider right away or get emergency help if you have skin blisters, peeling rash, sores in the mouth, hives or any other allergic reactions.
+  <br/>
+                     <br/>
+6. discontinuation symptoms: Do not stop duloxetine delayed-release capsules without first talking to your healthcare provider. Stopping duloxetine delayed-release capsules too quickly or changing from another antidepressant too quickly may result in serious symptoms including:
+  <br/>
+                     <br/>
+• anxiety
+  <br/>
+                     <br/>
+• irritability
+  <br/>
+                     <br/>
+• feeling tired or problems sleeping
+  <br/>
+                     <br/>
+• headache
+  <br/>
+                     <br/>
+• sweating
+  <br/>
+                     <br/>
+• dizziness
+  <br/>
+                     <br/>
+• electric shock-like sensations
+  <br/>
+                     <br/>
+• vomiting or nausea
+  <br/>
+                     <br/>
+• diarrhea
+  <br/>
+                     <br/>
+7. manic episodes:
+  <br/>
+                     <br/>
+• greatly increased energy
+  <br/>
+                     <br/>
+• severe trouble sleeping
+  <br/>
+                     <br/>
+• racing thoughts
+  <br/>
+                     <br/>
+• reckless behavior
+  <br/>
+                     <br/>
+• unusually grand ideas
+  <br/>
+                     <br/>
+• excessive happiness or irritability
+  <br/>
+                     <br/>
+• talking more or faster than usual
+  <br/>
+                     <br/>
+8. visual problems:
+  <br/>
+                     <br/>
+• eye pain
+  <br/>
+                     <br/>
+• changes in vision
+  <br/>
+                     <br/>
+• swelling or redness in or around the eye
+  <br/>
+                     <br/>
+Only some people are at risk for these problems. You may want to undergo an eye examination to see if you are at risk and receive preventative treatment if you are.
+  <br/>
+                     <br/>
+                     <br/>
+9. seizures or convulsions
+  <br/>
+                     <br/>
+10. low salt (sodium) levels in the blood. Elderly people may be at greater risk for this. Symptoms may include:
+  <br/>
+                     <br/>
+• headache
+  <br/>
+                     <br/>
+• weakness or feeling unsteady
+  <br/>
+                     <br/>
+• confusion, problems concentrating or thinking or memory problems
+  <br/>
+                     <br/>
+11. problems with urination. Symptoms may include:
+  <br/>
+                     <br/>
+• decreased urine flow
+  <br/>
+                     <br/>
+• unable to pass any urine
+  <br/>
+                     <br/>
+                     <br/>
+The most common side effects of duloxetine delayed-release capsules include:
+  <br/>
+                     <br/>
+• nausea
+  <br/>
+                     <br/>
+• dry mouth
+  <br/>
+                     <br/>
+• sleepiness
+  <br/>
+                     <br/>
+• fatigue
+  <br/>
+                     <br/>
+• constipation
+  <br/>
+                     <br/>
+• loss of appetite
+  <br/>
+                     <br/>
+• increased sweating
+  <br/>
+                     <br/>
+• dizziness
+  <br/>
+                     <br/>
+                     <br/>
+                     <br/>
+Common possible side effects in children and adolescents who take duloxetine delayed-release capsules include:
+  <br/>
+                     <br/>
+• nausea
+  <br/>
+                     <br/>
+• decreased weight
+  <br/>
+                     <br/>
+• dizziness
+  <br/>
+                     <br/>
+Side effects in adults may also occur in children and adolescents who take duloxetine delayed-release capsules. Children and adolescents should have height and weight monitored during treatment.
+  <br/>
+                     <br/>
+Tell your healthcare provider if you have any side effect that bothers you or that does not go away.
+  <br/>
+                     <br/>
+These are not all the possible side effects of duloxetine delayed-release capsules. For more information, ask your healthcare provider or pharmacist.
+  <br/>
+                     <br/>
+Call your doctor for medical advice about side effects. You may report side effects to 1-800-FDA--1088.
+  <br/>
+                     <br/>
+                     <br/>
+How should I store duloxetine delayed-release capsules?
+  <br/>
+                     <br/>
+Store duloxetine delayed-release capsules at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].
+  <br/>
+                     <br/>
+Keep duloxetine delayed-release capsules and all medicines out of the reach of children.
+  <br/>
+                     <br/>
+General information about the safe and effective use of duloxetine delayed-release capsules
+  <br/>
+                     <br/>
+Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use duloxetine delayed-release capsules for a condition for which it was not prescribed. Do not give duloxetine delayed-release capsules to other people, even if they have the same symptoms that you have. It may harm them.
+  <br/>
+                     <br/>
+This Medication Guide summarizes the most important information about duloxetine delayed-release capsules. If you would like more information, talk with your healthcare provider. You may ask your healthcare provider or pharmacist for information about duloxetine delayed-release capsules that is written for healthcare professionals.
+  <br/>
+                     <br/>
+For more information, call 1-866-495-1995.
+  <br/>
+                     <br/>
+                     <br/>
+                     <br/>
+What are the ingredients in duloxetine delayed-release capsules?
+  <br/>
+                     <br/>
+Active ingredient: duloxetine hydrochloride, USP
+  <br/>
+                     <br/>
+Inactive ingredients: carboxy methyl ethyl cellulose, crospovidone, FD &amp; C Blue 2, gelatin, hypromellose, isopropyl alcohol, polyethylene glycol, polysorbate 80, povidone, sodium lauryl sulfate, sucrose, sugar spheres, talc and titanium dioxide. In addition, the 20 mg and 60 mg capsules also contain iron oxide yellow.
+  <br/>
+                     <br/>
+          The imprinting ink contains, butyl alcohol, dehydrated alcohol, isopropyl alcohol, propylene glycol, shellac, and strong ammonia solution. The 20 mg capsule also contains black iron oxide and potassium hydroxide. The 30 mg capsule also contains yellow iron oxide. The 60 mg capsule also contains potassium hydroxide and titanium dioxide.
+  <br/>
+                     <br/>
+                     <br/>
+This Medication Guide has been approved by the U.S. Food and Drug Administration
+  <br/>
+                     <br/>
+                     <br/>
+*The brands listed are trademarks of their respective owners and not trademarks of Hetero Labs Limited.
+  <br/>
+                     <br/>
+Medication Guide available at http://camberpharma.com/medication-guides
+ </paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph/>
+                  <paragraph>[duloxetinedraddress2]  </paragraph>
+                  <paragraph>Camber Pharmaceuticals, Inc.</paragraph>
+                  <paragraph>Piscataway, NJ 08854</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>Hetero Labs Limited
+  <br/>
+Jeedimetla,
+  <br/>
+Hyderabad - 500 055, India
+ </paragraph>
+               </text>
+               <effectiveTime value="20210305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bcd127a6-97fe-09fe-e053-2a95a90a7b5b">
+               <id root="bd098ada-d4db-32c2-e053-2a95a90aa274"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_bd0970bf-cbc7-4ce9-e053-2a95a90a6ef7"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210305"/>
+               <component>
+                  <observationMedia ID="img_bd0970bf-cbc7-4ce9-e053-2a95a90a6ef7">
+                     <text>duloxetine 30</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="DUlox 30.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

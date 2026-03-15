@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e3126250-9571-4f0c-b9f0-457ecf035f12"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20220203"/>
+   <setId root="13c546ed-8f8c-4888-bcd7-7efc9e39e411"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="117696770" root="1.3.6.1.4.1.519.1"/>
+            <name>Akorn</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="117693100" root="1.3.6.1.4.1.519.1"/>
+                  <name>Akorn Operating Company LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="117696840" root="1.3.6.1.4.1.519.1"/>
+                        <name>Akorn</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-105" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-105" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-105" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-105" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="17478-105" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="2cd88960-3cfc-4e70-9e01-074f8857a661"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20170112"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="17478-105" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Olopatadine</name>
+                        <formCode code="C60992" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION/ DROPS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Olopatadine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2XG66W44KF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Olopatadine Hydrochloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="D27V6190PM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Olopatadine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Phosphate, Dibasic</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Hydrochloric Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Hydroxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="F5UM2KM3W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Benzalkonium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="17478-105-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170110"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170110"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA204532" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="32bf7885-254a-4988-8891-5b7cd5084b8e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1% is a sterile ophthalmic solution containing Olopatadine, a relatively selective H<sub>1</sub>-receptor antagonist and inhibitor of histamine release from the mast cell for topical administration to the eyes. Olopatadine Hydrochloride is a white, crystalline, water-soluble powder with a molecular weight of 373.88. The chemical structure is presented below:
+</paragraph>
+                  <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  <paragraph>Chemical Name: 11-[(Z)-3-(Dimethylamino)propylidene]-6-11dihydrodibenz[b,e] oxepin-2-acetic acid hydrochloride
+</paragraph>
+                  <paragraph>Each mL of Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1% contains: Active: 1.11 mg Olopatadine Hydrochloride equivalent to 1 mg Olopatadine. Inactives: Dibasic Sodium Phosphate; Sodium Chloride; Hydrochloric Acid/Sodium Hydroxide (adjust pH); and Water for Injection. Preservative: Benzalkonium Chloride 0.01%. It has a pH of approximately 7 and an osmolality of approximately 300 mOsm/kg.
+</paragraph>
+               </text>
+               <effectiveTime value="20220203"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="olo01-0003-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="a8b806d5-49c1-4123-a3c9-4bb9a2b33046"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <text>
+                  <paragraph>Olopatadine is an inhibitor of the release of histamine from the mast cell and a relatively selective histamine H<sub>1</sub>-antagonist that inhibits the <content styleCode="italics">in vivo</content> and <content styleCode="italics">in vitro</content> type 1 immediate hypersensitivity reaction including inhibition of histamine induced effects on human conjunctival epithelial cells. Olopatadine is devoid of effects on alpha-adrenergic, dopamine and muscarinic type 1 and 2 receptors. Following topical ocular administration in man, Olopatadine was shown to have low systemic exposure. Two studies in normal volunteers (totaling 24 subjects) dosed bilaterally with olopatadine 0.15% ophthalmic solution once every 12 hours for 2 weeks demonstrated plasma concentrations to be generally below the quantitation limit of the assay (&lt;0.5 ng/mL). Samples in which olopatadine was quantifiable were typically found within 2 hours of dosing and ranged from 0.5 to 1.3 ng/mL. The half-life in plasma was approximately 3 hours, and elimination was predominantly through renal excretion. Approximately 60 to 70% of the dose was recovered in the urine as parent drug. Two metabolites, the mono-desmethyl and the N-oxide, were detected at low concentrations in the urine.
+</paragraph>
+                  <paragraph>Results from an environmental study demonstrated that Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1% was effective in the treatment of the signs and symptoms of allergic conjunctivitis when dosed twice daily for up to 6 weeks. Results from conjunctival antigen challenge studies demonstrated that Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1%, when subjects were challenged with antigen both initially and up to 8 hours after dosing, was significantly more effective than its vehicle in preventing ocular itching associated with allergic conjunctivitis.
+</paragraph>
+               </text>
+               <effectiveTime value="20170112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="107ba917-4395-4d86-9133-677573889c8b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1% is indicated for the treatment of the signs and symptoms of allergic conjunctivitis.
+</paragraph>
+               </text>
+               <effectiveTime value="20170112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="c824b3b4-e7e7-48ad-8cbe-e247c535102b"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1% is contraindicated in persons with a known hypersensitivity to Olopatadine Hydrochloride or any components of Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1%.
+</paragraph>
+               </text>
+               <effectiveTime value="20170112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="4977274c-f6b8-41a1-b24b-d1ae2bbed095"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <text>
+                  <paragraph>Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1% is for topical use only and not for injection or oral use.
+</paragraph>
+               </text>
+               <effectiveTime value="20170112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="52c58d8e-f931-4fd9-90e8-708757d405aa"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20170112"/>
+               <component>
+                  <section ID="s7">
+                     <id root="cfd8e9df-ecf0-4849-bfc8-2fa2c537bfce"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Information for Patients:</content> To prevent contaminating the dropper tip and solution, care should be taken not to touch the eyelids or surrounding areas with the dropper tip of the bottle. Keep bottle tightly closed when not in use.
+</paragraph>
+                        <paragraph>Patients should be advised not to wear a contact lens if their eye is red. Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1% should not be used to treat contact lens related irritation. The preservative in Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1%, benzalkonium chloride, may be absorbed by soft contact lenses. Patients who wear soft contact lenses and <content styleCode="bold">whose eyes are not red</content> should be instructed to wait at least ten minutes after instilling Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1% before they insert their contact lenses.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170112"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8">
+                     <id root="bf8296d9-f7e3-443a-818a-d7b370748db5"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility:</content> Olopatadine administered orally was not carcinogenic in mice and rats in doses up to 500 mg/kg/day and 200 mg/kg/day, respectively. Based on a 40 μL drop size, these doses were 78,125 and 31,250 times higher than the maximum recommended ocular human dose (MROHD). No mutagenic potential was observed when olopatadine was tested in an <content styleCode="italics">in vitro</content> bacterial reverse mutation (Ames) test, an <content styleCode="italics">in vitro</content> mammalian chromosome aberration assay or an <content styleCode="italics">in vivo</content> mouse micronucleus test. Olopatadine administered to male and female rats at oral doses of 62,500 times MROHD level resulted in a slight decrease in the fertility index and reduced implantation rate; no effects on reproductive function were observed at doses of 7,800 times the maximum recommended ocular human use level.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170112"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="c5912c80-7bb7-4111-9a5f-643e4c5f4a29"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy: Pregnancy Category C.</content> Olopatadine was found not to be teratogenic in rats and rabbits. However, rats treated at 600 mg/kg/day, or 93,750 times the MROHD and rabbits treated at 400 mg/kg/day, or 62,500 times the MROHD, during organogenesis showed a decrease in live fetuses. There are, however, no adequate and well controlled studies in pregnant women. Because animal studies are not always predictive of human responses, this drug should be used in pregnant women only if the potential benefit to the mother justifies the potential risk to the embryo or fetus.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170112"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="f129c66f-8b83-414f-9ef3-c8f3102e6c80"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Nursing Mothers:</content> Olopatadine has been identified in the milk of nursing rats following oral administration. It is not known whether topical ocular administration could result in sufficient systemic absorption to produce detectable quantities in the human breast milk. Nevertheless, caution should be exercised when Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1% is administered to a nursing mother.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170112"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="19293f44-7bb7-4e73-80c7-be4c020b463e"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Use:</content> Safety and effectiveness in pediatric patients below the age of 3 years have not been established.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170112"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="66f0dac9-ba8b-4a6e-a783-48f3dd00b450"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Geriatric Use:</content> No overall differences in safety or effectiveness have been observed between elderly and younger patients.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170112"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s13">
+               <id root="019fee1b-10f5-4975-8efd-a845de6d2d76"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>Headaches have been reported at an incidence of 7%. The following adverse experiences have been reported in less than 5% of patients: asthenia, blurred vision, burning or stinging, cold syndrome, dry eye, foreign body sensation, hyperemia, hypersensitivity, keratitis, lid edema, nausea, pharyngitis, pruritus, rhinitis, sinusitis, and taste perversion. Some of these events were similar to the underlying disease being studied.
+</paragraph>
+               </text>
+               <effectiveTime value="20170112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s14">
+               <id root="3786686a-42ce-4aab-9fa8-83ec86315cff"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <text>
+                  <paragraph>The recommended dose is one drop in each affected eye two times per day at an interval of 6 to 8 hours.
+</paragraph>
+               </text>
+               <effectiveTime value="20170112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s15">
+               <id root="0081d62f-664a-4e89-9a4d-b39d96af6aa6"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>Olopatadine Hydrochloride Ophthalmic Solution USP, 0.1% is supplied in a 10 mL white, low density polyethylene (LDPE) bottle with a dropper tip, and a white polypropylene cap in the following size:
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC:</content> 17478-105-05                          5 mL in 10 mL bottle
+</paragraph>
+               </text>
+               <effectiveTime value="20170112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s16">
+               <id root="93115520-c031-42eb-9d00-668d3b4f05c7"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE
+</title>
+               <text>
+                  <paragraph>Store at 4° to 25°C (39° to 77°F).
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">AKORN<br/>
+                     </content>Manufactured by: <content styleCode="bold">Akorn, Inc.<br/>
+                     </content>Lake Forest, IL 60045
+</paragraph>
+                  <paragraph>OLPA0N         Rev. 01/17
+</paragraph>
+               </text>
+               <effectiveTime value="20170112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s17">
+               <id root="6c8e1fab-4e53-4ef9-9678-be53966e3596"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Principal Display Panel Text for Container Label:
+</paragraph>
+                  <paragraph>NDC 17478-105-05
+</paragraph>
+                  <paragraph>Olopatadine HCl
+</paragraph>
+                  <paragraph>Ophthalmic Solution, USP
+</paragraph>
+                  <paragraph>0.1%
+</paragraph>
+                  <paragraph>FOR USE IN THE EYES ONLY
+</paragraph>
+                  <paragraph>Rx only 5 mL
+</paragraph>
+                  <renderMultiMedia ID="f02" referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20220203"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>Principal Display Panel Text for Container Label:
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="olo01-0003-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s18">
+               <id root="132464a6-8cc6-4680-8e93-577ac785132c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Principal Display Panel Text for Carton Label:
+</paragraph>
+                  <paragraph>NDC 17478-105-05
+</paragraph>
+                  <paragraph>Olopatadine
+</paragraph>
+                  <paragraph>HCl
+</paragraph>
+                  <paragraph>Ophthalmic
+</paragraph>
+                  <paragraph>Solution, USP
+</paragraph>
+                  <paragraph>0.1%
+</paragraph>
+                  <paragraph>FOR USE IN THE EYES
+</paragraph>
+                  <paragraph>ONLY
+</paragraph>
+                  <paragraph>5 mL
+</paragraph>
+                  <paragraph>Rx only  Akorn Logo
+</paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20220203"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>Principal Display Panel Text for Carton Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="olo01-0003-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

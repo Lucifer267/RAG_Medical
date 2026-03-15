@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:voc="urn:hl7-org:v3/voc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4f20be6a-a417-406d-ab50-1a462ba6078d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20211214"/>
+   <setId root="1c6968cf-337e-058b-e8b3-610b26167045"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="805568339" root="1.3.6.1.4.1.519.1"/>
+            <name>Linde Gas &amp; Equipment Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="805568339" root="1.3.6.1.4.1.519.1"/>
+                  <name>Linde Gas &amp; Equipment Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="833132561" root="1.3.6.1.4.1.519.1"/>
+                        <name>Linde Gas &amp; Equipment Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="25373-703" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="ID_E9A667FD-7B19-22D7-7DB5-F13153683AAE">
+               <id root="f612155b-abb9-47e5-8d72-34106ec632d1"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20171018"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="25373-703" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nitrous Oxide Sedara </name>
+                        <formCode code="C42933" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GAS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Nitrous Oxide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mL" value="990"/>
+                              <denominator unit="L" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="K50XQU1029" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Nitrous Oxide</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="K50XQU1029" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Nitrous Oxide</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="L" value="115"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="25373-703-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20120618"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20120618"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73613" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved medical gas"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM52933">
+                     <text>Sedara Label LPH040E</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Sedara N2O LPH040E.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_83e5d33e-9d93-c75a-83e8-34103e4de5c9">
+               <id root="42ca60de-22c4-4404-afc5-33d18112ade4"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <title>OTHER SAFETY INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">FIRST AID: </content>
+                     <content styleCode="bold">IF INHALED,</content> Remove person to fresh air and keep comfortable for breathing. Call a POISON CENTER or doctor/physician if you feel unwell.<content styleCode="bold"> IF ON SKIN: </content>Thaw frosted parts with lukewarm water. Do not rub affected area. Get immediate medical advice/attention.<br/>
+                     <content styleCode="bold">WARNING: </content>This product contains a chemical known to the state of California to cause birth defects or other reproductive harm.  <br/>
+                     <content styleCode="bold">
+                        <br/>RX ONLY</content>                                  <br/>LPH040E<br/>U.S. patent pending  </paragraph>
+               </text>
+               <effectiveTime value="20171013"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_52ABAAF6-8CCA-AACA-4845-16A9891C5D61">
+               <id root="ea8a81a6-5932-45f6-8ccb-d5da428ef53d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="bold">WARNING: Administration of Nitrous Oxide may be hazardous or contraindicated.  For use only by or under the supervision of a licensed practitioner who is experienced in the use and administration of Nitrous Oxide and is familiar with the indications, effects, dosages, methods and frequency and duration of administration, and with the hazards, contraindications and side effects, and precautions to be taken. </content>
+                     <br/>
+                     <content styleCode="bold">
+                        <br/>DANGER: </content>MAY CAUSE OR INTENSIFY FIRE; OXIDIZER. CONTAINS GAS UNDER PRESSURE; MAY EXPLODE IF HEATED. MAY CAUSE DROWSINESS OR DIZZINESS. MAY DISPLACE OXYGEN AND CAUSE RAPID SUFFOCATION. MAY CAUSE FROSTBITE. Do not handle until all safety precautions have been read and understood. Keep and store away from clothing and other combustible materials. Keep valves and fittings free from grease and oil. Avoid breathing gas. Do not get in eyes, on skin, or on clothing. Use and store only outdoors or in a well-ventilated place. In case of fire: Stop leak if safe to do so. Use a back flow preventive device in the piping. Use only with equipment of compatible materials of construction and rated for cylinder pressure. Use only with equipment cleaned for oxygen service. Open valve slowly. Close valve after each use and when empty. Protect from sunlight when ambient temperature exceeds 52°C (125°F). Read and follow the Safety Data Sheet (SDS) before use. <br/>
+                     <br/>THE LINDE GROUP <br/>LINDE <br/>Distributed by: <br/>Linde Gas North America LLC<br/>200 Somerset Corporate Blvd.<br/>Suite 7000<br/>Bridgewater, NJ 08807<br/>866.543.3427<br/>
+                     <br/>MEDICAL GAS <br/>For Use With SEDARA® Gas Mixer<br/>
+                     <br/>
+                     <content styleCode="bold">NITROUS OXIDE</content>
+                     <content styleCode="bold">                                <br/>
+                     </content>USP<br/>UN 1070<br/>CAS 10024-97-2<br/>Content: 115 liters <br/>Do Not Remove this Label <br/>
+                     <br/>Batch Code<br/>
+                     <content styleCode="bold">NON-FLAMMABLE GAS 2<br/>
+                     </content>
+                     <content styleCode="bold">OXIDIZER 5.1<br/>
+                     </content>!<br/>Use in accordance with the <content styleCode="bold">Safety Data Sheet</content> for this product. <content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM52933"/>
+               </text>
+               <effectiveTime value="20171018"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

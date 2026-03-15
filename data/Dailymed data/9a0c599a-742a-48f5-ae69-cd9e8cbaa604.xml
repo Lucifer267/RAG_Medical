@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9a0c599a-742a-48f5-ae69-cd9e8cbaa604"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">PRESCRIBING INFORMATION</content>
+      <br/>
+   </title>
+   <effectiveTime value="20201031"/>
+   <setId root="b360a808-a24d-4f3c-89a7-9941422d17d6"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119723554" root="1.3.6.1.4.1.519.1"/>
+            <name>ACTAVIS PHARMA, INC.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="245141858" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bausch Health Companies Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0591-1159" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0591-1159" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="509bd805-5d0f-4e99-94af-41ba59e56c57"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20201031"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0591-1159" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Acyclovir</name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>acyclovir</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="50"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="X4HES1O11F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>acyclovir</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="X4HES1O11F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>acyclovir</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0591-1159-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20140411"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018604" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73605" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA authorized generic"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140411"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f3e246fc-49bb-4ef0-800d-450b9a26a0ba">
+               <id root="03325feb-6478-43ed-bd75-fd3b6f87ba70"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Acyclovir<br/>Ointment 5%</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20201031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d62b6e26-7388-48a6-91c6-cdc7a18066bc">
+               <id root="ebc462ed-4ea3-43b8-a889-0da777afb687"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Acyclovir is a synthetic nucleoside analogue active against herpes viruses. Acyclovir Ointment 5% is a formulation for topical administration. Each gram of Acyclovir Ointment 5% contains 50 mg of acyclovir in a polyethylene glycol (PEG) base.</paragraph>
+                  <paragraph>Acyclovir is a white to off-white crystalline powder with the molecular formula C<sub>8</sub>H<sub>11</sub>N<sub>5</sub>O<sub>3</sub> and a molecular weight of 225.20. The maximum solubility in water at 37°C is 2.5 mg/mL. The pka’s of acyclovir are 2.27 and 9.25.</paragraph>
+                  <paragraph>The chemical name of acyclovir is 2-amino-1,9-dihydro-9-[(2-hydroxyethoxy)methyl]-6<content styleCode="italics">H</content>-purin-6-one; it has the following structural formula:</paragraph>
+                  <renderMultiMedia ID="id212" referencedObject="A50621FC-6170-4C3F-A140-4F2A3C0298-2"/>
+               </text>
+               <effectiveTime value="20201031"/>
+               <component>
+                  <observationMedia ID="A50621FC-6170-4C3F-A140-4F2A3C0298-2">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="a285e2bc-3622-43f6-be37-81f701a84bf1-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f09cec77-b333-4add-af77-c931636411c4">
+               <id root="c987870f-7af1-4f48-a47e-269f8dba7455"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>VIROLOGY</title>
+               <effectiveTime value="20201031"/>
+               <component>
+                  <section ID="ID_56fe3305-bc9b-413f-b459-16f8c8f9076f">
+                     <id root="92a52dee-8d80-4084-b315-725c92277607"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Mechanism of Antiviral Action:</content> Acyclovir is a synthetic purine nucleoside analogue with in vitro and in vivo inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella zoster virus (VZV).</paragraph>
+                        <paragraph>The inhibitory activity of acyclovir is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV. This viral enzyme converts acyclovir into acyclovir monophosphate, a nucleotide analogue. The monophosphate is further converted into diphosphate by cellular guanylate kinase and into triphosphate by a number of cellular enzymes. In vitro, acyclovir triphosphate stops replication of herpes viral DNA. This is accomplished in three ways: 1) competitive inhibition of viral DNA polymerase, 2) incorporation into and termination of the growing viral DNA chain, and 3) inactivation of the viral DNA polymerase. The greater antiviral activity of acyclovir against HSV compared to VZV is due to its more efficient phosphorylation by the viral TK.</paragraph>
+                     </text>
+                     <effectiveTime value="20201031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_9bb90b0f-830c-42f5-a96a-4867f24ad11e">
+                     <id root="dd1815c5-f7c4-4c72-bf47-768001d7d577"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Antiviral Activities:</content> The quantitative relationship between the in vitro susceptibility of herpes viruses to antivirals and the clinical response to therapy has not been established in humans, and virus sensitivity testing has not been standardized. Sensitivity testing results, expressed as the concentration of drug required to inhibit by 50% the growth of virus in cell culture (IC<sub>50</sub>), vary greatly depending upon a number of factors. Using plaque-reduction assays, the IC<sub>50</sub> against HSV isolates ranges from 0.02 to 13.5 mcg/mL for HSV-1 and from 0.01 to 9.9 mcg/mL for HSV-2. The IC<sub>50</sub> for acyclovir against most laboratory strains and clinical isolates of VZV ranges from 0.12 to 10.8 mcg/mL. Acyclovir also demonstrates activity against the Oka vaccine strain of VZV with a mean IC<sub>50</sub> of 1.35 mcg/mL.</paragraph>
+                     </text>
+                     <effectiveTime value="20201031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_edc0f427-2d69-4a42-b339-4a5d48e38090">
+                     <id root="464a512b-b8bd-437f-a368-053e71b4c99b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Drug Resistance:</content> Resistance of HSV and VZV to acyclovir can result from qualitative and quantitative changes in the viral TK and/or DNA polymerase. Clinical isolates of HSV and VZV with reduced susceptibility to acyclovir have been recovered from immunocompromised patients, especially with advanced HIV infection. While most of the acyclovir-resistant mutants isolated thus far from immunocompromised patients have been found to be TK-deficient mutants, other mutants involving the viral TK gene (TK partial and TK altered) and DNA polymerase have been isolated. TK-negative mutants may cause severe disease in infants and immunocompromised adults. The possibility of viral resistance to acyclovir should be considered in patients who show poor clinical response during therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20201031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="CP">
+               <id root="6aafe572-28ba-4726-8bdf-cbc745f98e99"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Two clinical pharmacology studies were performed with acyclovir ointment 5% in immunocompromised adults at risk of developing mucocutaneous HSV infections or with localized varicella zoster infections. These studies were designed to evaluate the dermal tolerance, systemic toxicity, and percutaneous absorption of acyclovir.</paragraph>
+                  <paragraph>In one of these studies, which included 16 inpatients, the complete ointment or its vehicle were randomly administered in a dose of 1-cm strips (25 mg acyclovir) 4 times a day for 7 days to an intact skin surface area of 4.5 square inches. No local intolerance, systemic toxicity, or contact dermatitis were observed. In addition, no drug was detected in blood and urine by radioimmunoassay (sensitivity, 0.01 mcg/mL).</paragraph>
+                  <paragraph>The other study included 11 patients with localized varicella zoster infections. In this uncontrolled study, acyclovir was detected in the blood of 9 patients and in the urine of all patients tested. Acyclovir levels in plasma ranged from &lt;0.01 to 0.28 mcg/mL in 8 patients with normal renal function, and from &lt;0.01 to 0.78 mcg/mL in one patient with impaired renal function. Acyclovir excreted in the urine ranged from &lt;0.02% to 9.4% of the daily dose. Therefore, systemic absorption of acyclovir after topical application is minimal.</paragraph>
+               </text>
+               <effectiveTime value="20201031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6dd08dc4-b002-4f8e-bb4d-20a286223454">
+               <id root="f9c78002-4014-48a6-bb76-70203c213371"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL TRIALS</title>
+               <text>
+                  <paragraph>In clinical trials of initial genital herpes infections, Acyclovir Ointment 5% has shown a decrease in healing time and, in some cases, a decrease in duration of viral shedding and duration of pain. In studies in immunocompromised patients primarily with herpes labialis, there was a decrease in duration of viral shedding and a slight decrease in duration of pain.</paragraph>
+                  <paragraph>In studies of recurrent genital herpes and of herpes labialis in nonimmunocompromised patients, there was no evidence of clinical benefit; there was some decrease in duration of viral shedding.</paragraph>
+               </text>
+               <effectiveTime value="20201031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_9d93cf0a-a52c-48ff-978a-dd14cbf13af2">
+               <id root="845a52be-603c-456d-bbf9-63f5e4b57129"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Acyclovir Ointment 5% is indicated in the management of initial genital herpes and in limited non-lifethreatening mucocutaneous HSV infections in immunocompromised patients.</paragraph>
+               </text>
+               <effectiveTime value="20201031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_3b55ecfe-0e8d-4288-83f6-2ee64366cb13">
+               <id root="15488c04-6d2f-424d-ace6-9bb2aff6eada"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Acyclovir Ointment 5% is contraindicated in patients who develop hypersensitivity to the components of the formulation.</paragraph>
+               </text>
+               <effectiveTime value="20201031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2638e62f-01d9-42e5-8ea4-9cb197e7b349">
+               <id root="dc693cc9-cc2e-40b9-99c6-bd455b3d4b67"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Acyclovir Ointment 5% is intended for cutaneous use only and should not be used in the eye.</paragraph>
+               </text>
+               <effectiveTime value="20201031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a46dbbb3-81ec-4d5a-825d-98f586c4f135">
+               <id root="561af4cc-c2fd-4ac0-9ca0-52424e9c6bf8"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20201031"/>
+               <component>
+                  <section ID="ID_12716918-8f83-45f3-aa6f-9d21fd39dd70">
+                     <id root="cd991b0a-d422-4d5a-9bb1-18c600a49af0"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">General:</content> The recommended dosage, frequency of applications, and length of treatment should not be exceeded (see <content styleCode="bold">
+                              <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>). There are no data to support the use of Acyclovir Ointment 5% to prevent transmission of infection to other persons or prevent recurrent infections when applied in the absence of signs and symptoms. Acyclovir Ointment 5% should not be used for the prevention of recurrent HSV infections. Although clinically significant viral resistance associated with the use of Acyclovir Ointment 5% has not been observed, this possibility exists.</paragraph>
+                     </text>
+                     <effectiveTime value="20201031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_0a5d9590-72e3-4e73-91e8-5d96d5426ec4">
+                     <id root="6fdb5c83-0bdb-4d04-bdb2-f4751d1ef5c4"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Drug Interactions:</content> Clinical experience has identified no interactions resulting from topical or systemic administration of other drugs concomitantly with Acyclovir Ointment 5%.</paragraph>
+                     </text>
+                     <effectiveTime value="20201031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b3fd8c3d-b02b-4ade-98c8-3724486bd037">
+                     <id root="9ad4a3d7-d9ac-48b6-9fd9-60b61d2eb2d2"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility:</content> Systemic exposure following topical administration of acyclovir is minimal. Dermal carcinogenicity studies were not conducted. Results from the studies of carcinogenesis, mutagenesis, and fertility are not included in the full prescribing information for Acyclovir Ointment 5% due to the minimal exposures of acyclovir that result from dermal application. Information on these studies is available in the full prescribing information for ZOVIRAX<sup>®</sup> Capsules, Tablets, and Suspension and ZOVIRAX<sup>®</sup> for Injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20201031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_782c99b0-9031-49a2-81fb-eb484bbf3a41">
+                     <id root="e720dc87-831d-46df-be9c-b3bedf78aa60"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <effectiveTime value="20201031"/>
+                     <component>
+                        <section ID="ID_eaab7c2c-fd8d-4f0d-9b6c-5cc8801132a6">
+                           <id root="70c0dda9-2c35-43af-900c-f61e8927f170"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Pregnancy: <content styleCode="italics">Teratogenic Effects:</content>
+                                 </content> Acyclovir was not teratogenic in the mouse, rabbit, or rat at exposures greatly in excess of human exposure. There are no adequate and well-controlled studies of systemic acyclovir in pregnant women. A prospective epidemiologic registry of acyclovir use during pregnancy was established in 1984 and completed in April 1999. There were 749 pregnancies followed in women exposed to <content styleCode="underline">systemic</content> acyclovir during the first trimester of pregnancy resulting in 756 outcomes. The occurrence rate of birth defects approximates that found in the general population. However, the small size of the registry is insufficient to evaluate the risk for less common defects or to permit reliable or definitive conclusions regarding the safety of acyclovir in pregnant women and their developing fetuses. Systemic acyclovir should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                           </text>
+                           <effectiveTime value="20201031"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b39681a5-2974-445b-a4ca-6356fe567577">
+                     <id root="4e4d35ec-cbc8-4887-be8b-d784c9c990c4"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Nursing Mothers:</content> It is not known whether topically applied acyclovir is excreted in breast milk. Systemic exposure following <content styleCode="underline">topical</content> administration is minimal. After <content styleCode="underline">oral</content> administration of Acyclovir, acyclovir concentrations have been documented in breast milk in two women and ranged from 0.6 to 4.1 times the corresponding plasma levels. These concentrations would potentially expose the nursing infant to a dose of acyclovir up to 0.3 mg/kg/day. Nursing mothers who have active herpetic lesions near or on the breast should avoid nursing.</paragraph>
+                     </text>
+                     <effectiveTime value="20201031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c5bec04c-e2bc-42b6-b492-b38606314fbe">
+                     <id root="f62d8cff-87b5-4336-8960-cfec3451a6d8"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Geriatric Use:</content> Clinical studies of Acyclovir Ointment did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. Systemic absorption of acyclovir after topical administration is minimal (see <content styleCode="bold">
+                              <linkHtml href="#CP">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20201031"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_abba1320-aeb1-437f-857b-ef97e86f57b5">
+                     <id root="a40e78a4-1b6d-44c5-b596-5332f0e6e9d4"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Use:</content> Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20201031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_863d9bec-0351-4c5d-a5f1-fdc9e47fadc2">
+               <id root="fd3ed055-c3d9-453c-9b60-9843a3acd6f8"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>In the controlled clinical trials, mild pain (including transient burning and stinging) was reported by about 30% of patients in both the active and placebo arms; treatment was discontinued in two of these patients. Local pruritus occurred in 4% of these patients. In all studies, there was no significant difference between the drug and placebo group in the rate or type of reported adverse reactions nor were there any differences in abnormal clinical laboratory findings.</paragraph>
+               </text>
+               <effectiveTime value="20201031"/>
+               <component>
+                  <section ID="ID_d4485e6f-46af-497e-89a1-601ec68ec7af">
+                     <id root="8b31a0f1-38ea-466a-b6df-6e2577493822"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Observed During Clinical Practice:</content> Based on clinical practice experience in patients treated with Acyclovir Ointment in the U.S., spontaneously reported adverse events are uncommon. Data are insufficient to support an estimate of their incidence or to establish causation. These events may also occur as part of the underlying disease process. Voluntary reports of adverse events that have been received since market introduction include:</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">General:</content>
+                           </content> Edema and/or pain at the application site.<br/>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Skin:</content>
+                           </content> Pruritus, rash.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Actavis at 1-888-838-2872 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20201031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_39b5e5c9-6056-4f38-9cc9-652709fc133c">
+               <id root="ee844f64-0b01-4bd5-96bd-25a49aece695"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdosage by topical application of Acyclovir Ointment 5% is unlikely because of limited transcutaneous absorption (see <content styleCode="bold">
+                        <linkHtml href="#CP">CLINICAL PHARMACOLOGY</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20201031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DA">
+               <id root="901b0950-66d4-4b25-9e67-011fde6d65e7"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Apply sufficient quantity to adequately cover all lesions every 3 hours, 6 times per day for 7 days. The dose size per application will vary depending upon the total lesion area but should approximate a one-half inch ribbon of ointment per 4 square inches of surface area. A finger cot or rubber glove should be used when applying acyclovir to prevent autoinoculation of other body sites and transmission of infection to other persons. <content styleCode="bold">Therapy should be initiated as early as possible following onset of signs and symptoms.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20201031"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_86513063-7a50-4343-b4cd-ae131897cb47">
+               <id root="516cb33f-e728-4aa2-9634-b392eff6917b"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Each gram of Acyclovir Ointment 5% contains 50 mg acyclovir in a polyethylene glycol base. It is supplied as follows:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption> </caption>30 g tubes           NDC 0591-1159-30</item>
+                  </list>
+               </text>
+               <effectiveTime value="20201031"/>
+               <component>
+                  <section ID="ID_654aca72-dca0-4d14-af00-022d4ce2e797">
+                     <id root="82a42a71-a0fa-4bb9-a8a7-8ccfbf18b1f8"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Store at 15° to 25°C (59° to 77°F) in a dry place.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20201031"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_9ee63473-8009-4bef-9fc5-98ff5af35b0e">
+               <id root="b6a10720-e027-4687-a970-f88530099116"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                     <br/>Actavis Pharma, Inc.<br/>Parsippany, NJ 07054 USA</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                     <br/>Bausch Health Companies Inc.<br/>Laval, Quebec H7L 4A8, Canada</paragraph>
+                  <renderMultiMedia ID="id1116637716" referencedObject="ID_1a6b4bb0-2ac7-4554-8db6-8e4e0c0b068f"/>
+                  <paragraph>ZOVIRAX is a trademark of GlaxoSmithKline LLC used under license.</paragraph>
+                  <paragraph>Rev. 10/2020</paragraph>
+                  <paragraph>9510402</paragraph>
+               </text>
+               <effectiveTime value="20201031"/>
+               <component>
+                  <observationMedia ID="ID_1a6b4bb0-2ac7-4554-8db6-8e4e0c0b068f">
+                     <text>actavis logo.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="actavis logo.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2b264bf4-9e70-4365-80ec-7602af4a0ef3">
+               <id root="5d1be8fb-a31c-46cc-911b-74af92808405"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 30 g Tube Carton</title>
+               <text>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Net Wt. 30 g</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ACYCLOVIR OINTMENT</content>
+                     <br/>
+                     <content styleCode="bold">5%</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR CUTANEOUS USE ONLY</content>
+                  </paragraph>
+                  <paragraph>NDC 0591-1159-30</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each gram contains:</content>
+                     <br/>50 mg acyclovir<br/>in a polyethylene<br/>glycol base.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Actavis</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id550971850" referencedObject="ID_2363548d-4a16-433b-98c1-ccc18e8cbd61"/>
+               </text>
+               <effectiveTime value="20201031"/>
+               <component>
+                  <observationMedia ID="ID_2363548d-4a16-433b-98c1-ccc18e8cbd61">
+                     <text>carton30g</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

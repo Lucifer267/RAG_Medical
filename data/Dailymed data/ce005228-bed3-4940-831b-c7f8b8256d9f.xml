@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ce005228-bed3-4940-831b-c7f8b8256d9f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title mediaType="text/x-hl7-title+xml">BETAMETHASONE VALERATE CREAM USP, 0.1% <br/>BETAMETHASONE VALERATE OINTMENT USP, 0.1% <br/>BETAMETHASONE VALERATE LOTION USP, 0.1% <br/>(Potency expressed as betamethasone)</title>
+   <effectiveTime value="20091023"/>
+   <setId root="72bcd320-39d6-49db-bc7b-d140d200076a"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="194123980" root="1.3.6.1.4.1.519.1"/>
+            <name>Physicians Total Care, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="194123980" root="1.3.6.1.4.1.519.1"/>
+                        <name>Physicians Total Care, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="relabel"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="fb38210c-598a-42c8-804d-176580893845"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20100816"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54868-0520" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Betamethasone Valerate<suffix/>
+                        </name>
+                        <formCode code="C28944" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CREAM"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>betamethasone valerate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0168-0040" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9IFA5XM7R2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BETAMETHASONE VALERATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9IFA5XM7R2" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BETAMETHASONE VALERATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="36W53O7109" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CHLOROCRESOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="I835H2IHHX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CETETH-20</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2DMT128M1S" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CETOSTEARYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="593YOG76RN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, MONOBASIC, MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="T5L8T28FGP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="E4GA8884NN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHOSPHORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="45" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1">
+                                       <translation code="C48549" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="54868-0520-0" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1">
+                                       <translation code="C48549" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="54868-0520-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19951016"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA018861" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54868-2994" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Betamethasone Valerate<suffix/>
+                        </name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>betamethasone valerate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0168-0033" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9IFA5XM7R2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BETAMETHASONE VALERATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9IFA5XM7R2" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BETAMETHASONE VALERATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="T5L8T28FGP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1">
+                                       <translation code="C48549" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="54868-2994-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="45" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1">
+                                       <translation code="C48549" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="54868-2994-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19970502"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA018865" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54868-5002" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Betamethasone Valerate<suffix/>
+                        </name>
+                        <formCode code="C29167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LOTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>betamethasone valerate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0168-0041" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9IFA5XM7R2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BETAMETHASONE VALERATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9IFA5XM7R2" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BETAMETHASONE VALERATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="54868-5002-0" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20041109"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA018866" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="6e038cb0-7d2b-4633-bf5c-fc13ee31a548"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>For Dermatologic Use Only<br/>Not for Ophthalmic Use</paragraph>
+               </text>
+               <effectiveTime value="20091023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="4ea357f3-414a-4aa1-b741-bd8eda6048f0"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">DESCRIPTION</title>
+               <text>
+                  <paragraph>Betamethasone Valerate Cream, Ointment and Lotion contain betamethasone valerate USP, a synthetic adrenocortico-steroid for dermatologic use. Betamethasone, an analog of prednisolone, has a high degree of glucocorticoid activity and a slight degree of mineralocorticoid activity.</paragraph>
+                  <paragraph>Betamethasone valerate is a white to practically white odorless crystalline powder practically insoluble in water, freely soluble in acetone and chloroform, soluble in alcohol, and slightly soluble in benzene and ether. Chemically, it is 9-fluoro-11β,17,21-trihydroxy-16β-methylpregna-1,4-diene-3,20-dione 17-valerate. The structural formula is: </paragraph>
+                  <renderMultiMedia ID="f1" referencedObject="mm1"/>
+                  <paragraph>Each gram of the 0.1% Cream contains 1.2 mg betamethasone valerate (equivalent to 1 mg betamethasone) in a soft, white, hydrophilic cream of purified water, mineral oil, white petrolatum, polyethylene glycol 1000 monocetyl ether, cetostearyl alcohol, monobasic sodium phosphate and phosphoric acid or sodium hydroxide; chlorocresol is present as a preservative.</paragraph>
+                  <paragraph>Each gram of the 0.1% Ointment contains 1.2 mg betamethasone valerate (equivalent to 1 mg betamethasone) in an ointment base of white petrolatum and mineral oil.</paragraph>
+                  <paragraph>Each gram of the 0.1% Lotion contains 1.2 mg betamethasone valerate (equivalent to 1 mg betamethasone) in a vehicle of isopropyl alcohol and water slightly thickened with carbomer 934P. Phosphoric acid or sodium hydroxide is used to adjust pH.</paragraph>
+               </text>
+               <effectiveTime value="20091023"/>
+               <component>
+                  <observationMedia ID="mm1">
+                     <text>structural formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="betamethasone-val-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="c384a3ab-cac0-4730-aa71-557efab18cf3"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Topical corticosteroids share anti-inflammatory, anti-pruritic and vasoconstrictive actions.</paragraph>
+                  <paragraph>The mechanism of anti-inflammatory activity of the topical corticosteroids is unclear. Various laboratory methods, including vasoconstrictor assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between vasoconstrictor potency and therapeutic efficacy in man.</paragraph>
+               </text>
+               <effectiveTime value="20091023"/>
+               <component>
+                  <section ID="s4">
+                     <id root="61c4a64c-1844-4b77-b07e-365f888ec4ec"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pharmacokinetics:</content> The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle, the integrity of the epidermal barrier, and the use of occlusive dressings.</paragraph>
+                        <paragraph>Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin increase percutaneous absorption. Occlusive dressings substantially increase the percutaneous absorption of topical corticosteroids. Thus, occlusive dressings may be a valuable therapeutic adjunct for treatment of resistant dermatoses.</paragraph>
+                        <paragraph>Once absorbed through the skin, topical corticosteroids are handled through pharmacokinetic pathways similar to systemically administered corticosteroids. Corticosteroids are bound to plasma proteins in varying degrees. Corticosteroids are metabolized primarily in the liver and are then excreted by the kidneys. Some of the topical corticosteroids and their metabolites are also excreted into the bile.</paragraph>
+                     </text>
+                     <effectiveTime value="20091023"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="54b164fe-ef32-4c82-94ca-b7f9f1cf1553"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Topical corticosteroids are indicated for the relief of the inflammatory and pruritic manifestations of cortico-steroid-responsive dermatoses.</paragraph>
+               </text>
+               <effectiveTime value="20091023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="44f78a02-2ede-4404-9e94-32af84d5560c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Topical corticosteroids are contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation.</paragraph>
+               </text>
+               <effectiveTime value="20091023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="3d530b1d-3cf9-4340-b638-52ce4ceaf466"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">PRECAUTIONS</title>
+               <effectiveTime value="20091023"/>
+               <component>
+                  <section ID="s8">
+                     <id root="b161c411-98c1-49dd-9f23-fe4165c122da"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">General:</content> Systemic absorption of topical corticosteroids has produced reversible hypothalamic-pituitary-adrenal (HPA) axis suppression, manifestations of Cushing's syndrome, hyperglycemia, and glucosuria in some patients.</paragraph>
+                        <paragraph>Conditions which augment systemic absorption include the application of the more potent steroids, use over large surface areas, prolonged use, and the addition of occlusive dressings.</paragraph>
+                        <paragraph>Therefore, patients receiving a large dose of a potent topical steroid applied to a large surface area should be evaluated periodically for evidence of HPA axis suppression by using the urinary free cortisol and ACTH stimulation tests. If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent steroid.</paragraph>
+                        <paragraph>Recovery of HPA axis function is generally prompt and complete upon discontinuation of the drug. Infrequently, signs and symptoms of steroid withdrawal may occur, requiring supplemental systemic corticosteroids.</paragraph>
+                        <paragraph>Children may absorb proportionally larger amounts of topical corticosteroids and thus be more susceptible to systemic toxicity (See <content styleCode="bold">
+                              <linkHtml href="#e13">PRECAUTIONS—Pediatric Use</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>If irritation develops, topical corticosteroids should be discontinued and appropriate therapy instituted.</paragraph>
+                        <paragraph>In the presence of dermatological infections, the use of an appropriate antifungal or antibacterial agent should be instituted. If a favorable response does not occur promptly, the corticosteroid should be discontinued until the infection has been adequately controlled.</paragraph>
+                     </text>
+                     <effectiveTime value="20091023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="821053cf-e926-45cb-b2f9-443f6e410974"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Information for Patients:</content> Patients using topical corticosteroids should receive the following information and instructions:</paragraph>
+                        <list listType="ordered" styleCode="Arabic" ID="i6196dae7-d655-4fd1-8653-80ab42cc5574">
+                           <item>This medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes.</item>
+                           <item>Patients should be advised not to use this medication for any disorder other than that for which it was prescribed.</item>
+                           <item>The treated skin area should not be bandaged or otherwise covered or wrapped as to be occlusive unless directed by the physician.</item>
+                           <item>Patients should report any signs of local adverse reactions especially under occlusive dressing.</item>
+                           <item>Parents of pediatric patients should be advised not to use tight-fitting diapers or plastic pants on a child being treated in the diaper area, as these garments may constitute occlusive dressings.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20091023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="bbce7a77-f194-408f-8a39-e1a9e01a047c"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Laboratory tests:</content> The following tests may be helpful in evaluating the HPA axis suppression:</paragraph>
+                        <list listType="unordered" styleCode="disc" ID="id98ebdcf-8f88-4c7d-8fb4-7c5e51110e8a">
+                           <item>
+                              <caption> </caption>Urinary free cortisol test</item>
+                           <item>
+                              <caption> </caption>
+ACTH stimulation test</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20091023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="ba7f9183-4fe4-41a4-8506-d791da57bc36"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Carcinogenesis, Mutagenesis and Impairment of Fertility:</content> Long-term animal studies have not been performed to evaluate the carcinogenic potential or the effect on fertility of topical corticosteroids.</paragraph>
+                        <paragraph>Studies to determine mutagenicity with prednisolone and hydrocortisone have revealed negative results.</paragraph>
+                     </text>
+                     <effectiveTime value="20091023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="1c1340de-7753-4ac8-b8fc-563ef247fdc0"/>
+                     <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy: </content>
+                           <content styleCode="underline">Teratogenic Effects</content>—<content styleCode="italics">Pregnancy Category C.</content> Corticosteroids are generally teratogenic in laboratory animals when administered systemically at relatively low dosage levels. The more potent corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. There are no adequate and well-controlled studies in pregnant women on teratogenic effects from topically applied corticosteroids. Therefore, topical corticosteroids should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Drugs of this class should not be used extensively on pregnant patients, in large amounts, or for prolonged periods of time.</paragraph>
+                     </text>
+                     <effectiveTime value="20091023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="803b0c2d-4011-47ef-af7d-4684eb81c29b"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Nursing Mothers:</content> It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in breast milk. Systemically administered corticosteroids are secreted into breast milk in quantities <content styleCode="italics">not</content> likely to have a deleterious effect on the infant. Nevertheless, caution should be exercised when topical corticosteroids are administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20091023"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="e13">
+                     <id root="ada5f5dc-f372-4ab7-b84a-4984be05c781"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Use: Pediatric patients may demonstrate greater susceptibility to topical corticosteroid-induced HPA axis suppression and Cushing's syndrome than mature patients because of a larger skin surface area to body weight ratio.</content>
+                        </paragraph>
+                        <paragraph>Hypothalamic-pituitary-adrenal (HPA) axis suppression, Cushing's syndrome, and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include linear growth retardation, delayed weight gain, low plasma cortisol levels, and absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema.</paragraph>
+                        <paragraph>Administration of topical corticosteroids to pediatric patients should be limited to the least amount compatible with an effective therapeutic regimen. Chronic corticosteroid therapy may interfere with the growth and development of children.</paragraph>
+                     </text>
+                     <effectiveTime value="20091023"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s14">
+               <id root="f362d5d7-f64b-49a7-82ad-2749da61c8fe"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae and miliaria.</paragraph>
+               </text>
+               <effectiveTime value="20091023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s15">
+               <id root="7feb7b76-bcbd-42b1-970f-50d491b3053f"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">OVERDOSAGE</title>
+               <text>
+                  <paragraph>Topically applied corticosteroids can be absorbed in sufficient amounts to produce systemic effects (See <content styleCode="bold">
+                        <linkHtml href="#s7">PRECAUTIONS</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20091023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s16">
+               <id root="01b8c9d8-ba74-4ded-9f8f-d49bb9620499"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Apply a thin film of Betamethasone Valerate Cream or Ointment to the affected skin areas one to three times a day. Dosage once or twice a day is often effective.</paragraph>
+                  <paragraph>Apply a few drops of Betamethasone Valerate Lotion to the affected area and massage lightly until it disappears. Apply twice daily, in the morning and at night. Dosage may be increased in stubborn cases. Following improvement, apply once daily. For the most effective and economical use, apply nozzle very close to affected area and gently squeeze bottle.</paragraph>
+               </text>
+               <effectiveTime value="20091023"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s17">
+               <id root="fa151300-23d9-4013-af6b-ed38f7b19750"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">HOW SUPPLIED</title>
+               <text>
+                  <table width="100%" ID="i51517085-32ed-40b1-8fa3-928a32130193">
+                     <tbody>
+                        <tr>
+                           <td>Betamethasone Valerate</td>
+                           <td>Betamethasone Valerate</td>
+                           <td>Betamethasone Valerate</td>
+                        </tr>
+                        <tr>
+                           <td>Cream USP, 0.1%</td>
+                           <td>Ointment USP, 0.1%</td>
+                           <td>Lotion USP, 0.1%</td>
+                        </tr>
+                        <tr>
+                           <td>is supplied as follows:</td>
+                           <td>is supplied as follows:</td>
+                           <td>is supplied as follows:</td>
+                        </tr>
+                        <tr>
+                           <td>15 g tubes NDC 54868-0520-1</td>
+                           <td>15 g tubes NDC 54868-2994-1</td>
+                           <td>60 mL bottles NDC 54868-5002-0</td>
+                        </tr>
+                        <tr>
+                           <td>45 g tubes NDC 54868-0520-0<br/>
+                           </td>
+                           <td>45 g tubes NDC 54868-2994-2<br/>
+                           </td>
+                           <td>Shake well before using.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store at controlled room temperature 15° - 30°C (59° - 86°F).</paragraph>
+                  <paragraph>E. FOUGERA &amp; CO.<br/>A division of Nycomed US Inc.<br/>Melville, NY 
+11747</paragraph>
+                  <paragraph>I240D <br/>R12/07<br/>#57</paragraph>
+                  <br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>Relabeling of "Additional Barcode Label" by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Physicians Total Care, Inc.</content>
+                     <br/>Tulsa, Oklahoma     74146<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100816"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s18">
+               <id root="9f9c6edd-f5f6-413b-86a7-4c3f35b47ce7"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – 15 GRAM CONTAINER</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">BETAMETHASONE<br/>VALERATE CREAM<br/>USP, 0.1%<br/>
+                     </content>(Potency expressed as betamethasone)
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <paragraph>Each gram contains 1.2 mg betamethasone<br/>valerate (equivalent to 1 mg betamethasone) in<br/>a soft, white, hydrophilic cream of water, miner-<br/>al oil, white petrolatum, polyethylene glycol<br/>1000 monocetyl ether, cetostearyl alcohol,<br/>monobasic sodium phosphate and phosphor-<br/>ic acid or sodium hydroxide; chlorocresol is<br/>present as a preservative.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NET WT 15 grams</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20100816"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – 15 GRAM CONTAINER</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="package label 03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s22">
+               <id root="5eb2a804-9b31-4f04-962e-39e04fd156cd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – 60 ML CONTAINER</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">BETAMETHASONE<br/>VALERATE<br/>LOTION USP, 
+0.1%<br/>
+                     </content>(Potency expressed as betamethasone) </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">60 mL</content>
+                  </paragraph>
+                  <paragraph>FOR DERMATOLOGIC USE ONLY<br/>NOT FOR OPHTHALMIC USE </paragraph>
+                  <paragraph>Rx only <br/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="mm06"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100816"/>
+               <component>
+                  <observationMedia ID="mm06">
+                     <text>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – 60 ML CONTAINER</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="package label 02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s24">
+               <id root="b489e658-f44f-4efb-929d-2945d0bf3674"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – 15 GRAM CONTAINER</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">BETAMETHASONE<br/>VALERATE OINTMENT<br/>USP, 0.1%<br/>
+                     </content>(Potency expressed as betamethasone)
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <paragraph>Each gram contains 1.2 mg<br/>betamethasone valerate<br/>(equivalent to 1 mg betamethasone)<br/>in an ointment base of white<br/>petrolatum and mineral oil.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NET WT 15 grams</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="mm08"/>
+               </text>
+               <effectiveTime value="20100816"/>
+               <component>
+                  <observationMedia ID="mm08">
+                     <text>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – 15 GRAM CONTAINER</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="package label 01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

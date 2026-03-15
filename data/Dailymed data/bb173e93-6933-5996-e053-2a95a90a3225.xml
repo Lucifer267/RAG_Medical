@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="bb173e93-6933-5996-e053-2a95a90a3225"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20210211"/>
+   <setId root="bb173e93-6932-5996-e053-2a95a90a3225"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+            <name>Central Packaging</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+                        <name>Central Packaging, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="80175-0118" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="bb2a9446-d604-337a-e053-2995a90a0f9e"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20210211"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="80175-0118" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Lidocaine 5%</name>
+                        <formCode code="C42968" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Lidocaine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="42858-118" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="700"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="98PI200987" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIDOCAINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="98PI200987" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LIDOCAINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="30" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="80175-0118-3" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20200514"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209190" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200514"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bb2a94eb-39e6-c1ba-e053-2a95a90a0156">
+               <id root="bb2a94eb-39e5-c1ba-e053-2a95a90a0156"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <text>
+                  <paragraph>Patch - A drug delivery system that often contains an adhesive backing that is usually applied to an external site on the body. Its ingredients either passively diffuse from, or are actively transported from, some portion of the patch. Depending upon the patch, the ingredients are either delivered to the outer surface of the body or into the body. A patch is sometimes synonymous with the terms ‘extended release film’ and ‘system’.</paragraph>
+               </text>
+               <effectiveTime value="20200514"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bb184191-1e40-1ed2-e053-2a95a90a2171">
+               <id root="bb270637-9a9c-692e-e053-2a95a90a10fe"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_bb26d37f-d58c-9282-e053-2a95a90a7072"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210211"/>
+               <component>
+                  <observationMedia ID="img_bb26d37f-d58c-9282-e053-2a95a90a7072">
+                     <text>Lidocane Patch Instructions</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Lidocane Patch.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

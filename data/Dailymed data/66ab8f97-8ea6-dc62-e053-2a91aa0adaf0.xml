@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="66ab8f97-8ea6-dc62-e053-2a91aa0adaf0"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20180305"/>
+   <setId root="6053d4d2-5967-19e0-e053-2991aa0a819a"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="767598352"/>
+            <name>Orphan Europe SARL</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="767598352"/>
+                  <name>Orphan Europe SARL</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="209989631"/>
+                        <name>Ropack Pharmaceutical</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="52276-401" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="66ab9a30-126c-3f24-e053-2a91aa0ae513"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20180305"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="52276-401" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cystadane</name>
+                        <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>betaine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3SCV180C9W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BETAINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3SCV180C9W" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BETAINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="180" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="52276-401-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20180108"/>
+                                          <high value="20200831"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180108"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="66ab8f97-8ea7-dc62-e053-2a91aa0adaf0"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>Package leaflet: Information for the patient</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Keep this leaflet. You may need to read it again.</item>
+                     <item>If you have any further questions, ask your doctor or your pharmacist.</item>
+                     <item>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.</item>
+                     <item>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="bold">What is in this leaflet</content>
+                     </content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>What Cystadane is and what it is used for</item>
+                     <item>What do you need to know before you take Cystadane</item>
+                     <item>How to take Cystadane</item>
+                     <item>Possible side effects</item>
+                     <item>How to store Cystadane</item>
+                     <item>Contents of the pack and other information</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="bold">1. What Cystadane is and what it is used for</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Cystadane contains betaine anhydrous which is intended to be an adjunctive treatment of homocystinuria, an inherited (genetic) disease where the amino acid methionine cannot be broken down completely by the body.
+  <br/>
+Methionine is present in regular food protein (e.g. meat, fish, milk, cheese, eggs). It is converted into homocysteine which is then normally converted into cysteine during digestion. Homocystinuria is a disease caused by the accumulation of homocysteine which is not converted to cysteine and is characterised by formation of clots in the veins, bone weakness, and skeletal and crystalline lens abnormalities. The use of Cystadane together with other treatments such as vitamin B6, vitamin B12, folate and a specific diet aims to reduce the elevated homocysteine levels in your body.
+  <br/>
+                     <content styleCode="underline">
+                        <content styleCode="bold">2. What you need to know before you take Cystadane</content>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">Do not take Cystadane</content>
+                     <br/>
+If you are allergic to betaine anhydrous.
+  <br/>
+                     <content styleCode="bold">Warnings and precautions</content>
+                     <br/>
+Talk to your doctor or pharmacist before taking Cystadane.
+  <br/>
+If you notice side effects like headaches, vomiting or a change in your vision and you are of the homocystinuria subtype called CBS (cystathionine beta-synthase deficiency), please contact your doctor immediately, they could be signs of a swelling in the brain (cerebral oedema). In that case your doctor will monitor your methionine level in your body and may review your diet. Your treatment with Cystadane may need to be interrupted.
+  <br/>
+If you are treated with Cystadane and with an amino-acid mixture and if you need to take other medicines at the same time, leave 30 minutes between the intake (see “section “Other medicines and Cystadane”).
+  <br/>
+                     <content styleCode="bold">Other medicines and Cystadane</content>
+                     <br/>
+Tell your doctor if you are taking, have recently taken or might take any other medicines.
+  <br/>
+If you are taking amino-acid mixture or medicines such as vigabatrin or Gaba analogues (medicine used to treat epilepsy), please tell your doctor as they might interact with your treatment with Cystadane.
+  <br/>
+                     <content styleCode="bold">Pregnancy and breast-feeding</content>
+                     <br/>
+If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your doctor for advice before taking this medicine. Your doctor will decide if you can use this medicine during pregnancy and breast-feeding.
+  <br/>
+                     <content styleCode="bold">Driving and using machines</content>
+                     <br/>
+Cystadane has no or negligible influence on the ability to drive and use machines.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="bold">3. How to take Cystadane</content>
+                     </content>
+                     <br/>
+The use of this medicine will be supervised by a doctor experienced in the treatment of patients with homocystinuria.
+  <br/>
+Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor or pharmacist if you are not sure.
+  <br/>
+The recommended dose in children and adults is 100mg/kg/day divided in 2 dosesper day. In some patients doses above 200 mg/kg/day were needed to reach therapeutic goals. Your doctor may adapt the dose depending on your laboratory values.
+  <br/>
+You will therefore need regular blood tests to determine the correct daily dose.
+  <br/>
+You should take Cystadane orally (by mouth).
+  <br/>
+To measure the dose:
+ </paragraph>
+                  <list listType="unordered">
+                     <item>shake the bottle lightly before opening</item>
+                     <item>take the correct measuring spoon:
+	
+   <list listType="unordered">
+                           <item>the small green spoon measures 100 mg of betaine anhydrous powder;</item>
+                           <item>the middle size blue spoon measures 150 mg of betaine anhydrous powder;</item>
+                           <item>the large pink spoon measures 1 g of betaine anhydrous powder.</item>
+                           <item>take a heaped spoonful of powder out of the bottle</item>
+                           <item>pass the flat back of a knife over the top of the spoon</item>
+                           <item>the powder left in the spoon is one spoonful</item>
+                           <item>take the correct number of spoonfuls of powder from the bottle</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>Mix the measured dose of powder with water, juice, milk, formula or food until completely dissolved and ingest immediately after mixing.
+  <br/>
+                     <content styleCode="bold">If you take more Cystadane than you should</content>
+                     <br/>
+If you accidentally take too much Cystadane, talk to a doctor or pharmacist immediately.
+  <br/>
+                     <content styleCode="bold">If you forget to take Cystadane</content>
+                     <br/>
+Do not take a double dose to make up for forgotten doses. If you forget to take a dose take it as soon as you remember it and continue the next dose as planned.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If you stop taking Cystadane</content>
+                     <br/>
+Do not stop the treatment without consulting your doctor. Contact your doctor or pharmacist before stopping.
+  <br/>
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.
+  <br/>
+                     <content styleCode="underline">
+                        <content styleCode="bold">4. Possible side effects</content>
+                     </content>
+                     <br/>
+Like all medicines, this medicine can cause side effects, although not everybody gets them.
+  <br/>
+The most commonly side effect when taking Cystadane which may affect more than 1 in 10 people (frequency very common) is elevated levels of methionine in the blood.
+  <br/>
+Methionine level can be related to swelling in the brain (cerebral swelling), which may affect up to 1 in 100 people (frequency uncommon). If you experience morning headaches with vomiting and/or visual changes, contact immediately your doctor (they could be signs of a swelling in the brain).
+ </paragraph>
+                  <paragraph>Gastrointestinal disorders like diarrhoea, nausea, vomiting, stomach discomfort and inflammation of the tongue may occur uncommonly (may affect up to 1 in 100 people).
+  <br/>
+Other uncommon side effects (may affect up to 1 in 100 people) may include decreased appetite (anorexia), agitation, irritability, hair loss, hives, skin odour abnormal, lack of control over passing urine (urinary incontinence).
+  <br/>
+                     <content styleCode="bold">Reporting of side effects</content>
+                     <br/>
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix. By reporting side effects you can help provide more information on the safety of this medicine.
+  <br/>
+                     <content styleCode="underline">
+                        <content styleCode="bold">5. How to store Cystadane</content>
+                     </content>
+                     <br/>
+Keep this medicine out of the sight and reach of children.
+  <br/>
+Do not use this medicine after the expiry date which is stated on the bottle label and the carton after EXP. The expiry date refers to the last day of that month.
+ </paragraph>
+                  <paragraph>Do not store above 25°C.
+  <br/>
+Keep the bottle tightly closed in order to protect from moisture. After the first opening of the bottle, the medicine should be used within 3 months.
+  <br/>
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.
+  <br/>
+                     <content styleCode="underline">
+                        <content styleCode="bold">6. Contents of the pack and other information</content>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">What Cystadane contains</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>The active substance is betaine anhydrous. 1 g of oral powder contains 1 g of betaine anhydrous.</item>
+                     <item>There is no other ingredient.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What Cystadane looks like and contents of the pack</content>
+                     <br/>
+Cystadane is a white crystalline free flowing powder. It is presented in bottles with child resistant closures. Each bottle contains 180 g of powder. Each carton contains one bottle and three measuring spoons.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Marketing Authorisation Holder</content>
+                     <br/>
+Orphan Europe SARL
+  <br/>
+Immeuble “Le Wilson”
+  <br/>
+70, avenue du General de Gaulle
+  <br/>
+F-92 800 Puteaux
+  <br/>
+France
+  <br/>
+                     <content styleCode="bold">Manufacturer</content>
+                     <br/>
+Orphan Europe SARL
+  <br/>
+Immeuble “Le Wilson”
+  <br/>
+70, avenue du Général de Gaulle
+  <br/>
+F-92800 Puteaux
+  <br/>
+France
+  <br/>
+For any information about this medicine, please contact the local representative of the Marketing Authorisation Holder.
+  <br/>
+                     <content styleCode="bold">This leaflet was last revised in 8/12/2016</content>
+                     <br/>
+Detailed information on this medicine is available on the European Medicines Agency web site: http://www.ema.europa.eu/. There are also links to other websites about rare diseases and treatments.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Orphan Europe Ltd. Tel : + 44 (0)14 9141 4333</content>
+                     <br/>
+United Kingdom - Ireland
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">APPENDIX</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">UNITED KINGDOM</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Reporting of side effects</content>
+                     <br/>
+Yellow Card Scheme Website: www.mhra.gov.uk/yellowcard or search for MHRA Yellow Card in the Google Play or Apple App Store
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20171214"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_609f065c-ec31-cb38-e053-2a91aa0ae30b">
+               <id root="66ab8f97-8ea9-dc62-e053-2a91aa0adaf0"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <title>Health Care Provider Letter</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">IMPORTANT PRESCRIBING INFORMATION</content>
+                  </paragraph>
+                  <paragraph>22 December 2017</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Subject: Temporary importation of CYSTADANE® (betaine anhydrous for oral solution) to address impending shortage</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Dear Health Care Provider,</paragraph>
+                  <paragraph/>
+                  <paragraph>There has been a manufacturing issue with the CYSTADANE® (betaine anhydrous for oral solution) approved for use and distribution in the United States (“U.S.-labeled CYSTADANE”), which has resulted in an interim shortage of this product in the U.S. market.</paragraph>
+                  <paragraph>In order to alleviate the shortage of CYSTADANE in the U.S., Recordati Rare Diseases Inc. (Recordati) is coordinating with the U.S. Food and Drug Administration (FDA) to increase the availability of CYSTADANE. Recordati has initiated temporary importation of its CYSTADANE product approved for use in the United Kingdom into the U.S. market. This product is manufactured by Orphan Europe SARL in France. At this time, no other entity except Recordati, as the U.S. agent of Orphan Europe SARL, is authorized to import or distribute these products in the United States. FDA has not approved the product manufactured by Orphan Europe SARL’s manufacturing facility in France. The imported CYSTADANE is lot CYP1705. It will be dispensed by the U.S. specialty pharmacy, AnovoRx Group LLC.</paragraph>
+                  <paragraph>There are some key differences between the FDA-approved CYSTADANE and the imported CYSTADANE.</paragraph>
+                  <paragraph/>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Measuring scoops</content>
+                        </content>: FDA-approved CYSTADANE is packaged with one scoop (white) that dispenses 1g of betaine anhydrous. Imported CYSTADANE is packaged with 3 measuring scoops (green, blue, and pink) that dispense 100mg, 150mg, or 1g of betaine anhydrous. The large 1g pink scoop in the imported CYSTADANE is equivalent to the white 1g scoop in the FDA-approved CYSTADANE. Patients should pay careful attention to use the appropriate scoop to take their prescribed dose. 
+   <content styleCode="bold">Please pass this information along to the patients. If the incorrect scoop is utilized, improper dosing may result, and the CYSTADANE treatment can be ineffective. This may result in an increased risk for cognitive disability and/or stroke due to the progression of the underlying disease.</content>
+                     </item>
+                  </list>
+                  <paragraph/>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="underline">
+                           <content styleCode="bold">Dosing</content>
+                        </content>: The labeled dosing in the FDA-approved CYSTADANE is 6 grams/day in divided doses of 3 grams twice daily, and, for pediatric patients less than 3 years of age, dosage may be started at 100 mg/kg/day divided in twice daily doses and increased weekly by 50 mg/kg increments. The labeled dosing in the imported CYSTADANE is 100 mg/kg/day divided into 2 doses per day. 
+   <content styleCode="bold">Practitioners should be aware of these differences when prescribing and monitoring CYSTADANE.</content>
+                     </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>A copy of the FDA-approved full prescribing information is being distributed with the imported CYSTADANE. Please refer to the FDA-approved package insert for full prescribing information. Storage conditions are the same as that of the FDA-approved product. Store at room temperature, 15º – 30ºC (59º – 86ºF). CYSTADANE is for oral use only. Protect from moisture. Keep this and all medications out of the reach of children.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">U.S. FDA-approved Indication</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>CYSTADANE (betaine anhydrous for oral solution) is a methylating agent indicated for the treatment of homocystinuria to decrease elevated homocysteine blood levels. Included within the category of homocystinuria are:</paragraph>
+                  <list listType="unordered">
+                     <item>Cystathionine beta-synthase (CBS) deficiency</item>
+                     <item>5,10-methylenetetrahydrofolate reductase (MTHFR) deficiency</item>
+                     <item>Cobalamin cofactor metabolism (cbl) defect</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">For reporting of adverse events and more information</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Any adverse effects or medication issues resulting from the use of this drug or quality issues should be reported to Recordati Rare Diseases Inc. at 1-888-575-8344.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adverse events or quality problems experienced with the use of this product may also be reported to the FDA's MedWatch Adverse Event Reporting program either online, by regular mail or by fax:</paragraph>
+                  <list listType="unordered">
+                     <item>Complete and submit the report 
+   <content styleCode="bold">Online</content>: www.fda.gov/medwatch/report.htm
+  </item>
+                     <item>
+                        <content styleCode="bold">Regular mail or Fax</content>: Download form www.fda.gov/MedWatch/getforms.htm or call 1-800-332-1088 to request a reporting form, then complete and return to the address on the pre-addressed form, or submit by fax to 1-800-FDA-0178.
+  </item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Important Safety Information</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Hypermethioninemia: CYSTADANE may worsen elevated plasma methionine concentrations in patients with CBS deficiency. Cerebral edema has been reported in patients receiving CYSTADANE.</item>
+                     <item>Monitoring: Monitor plasma methionine concentrations in patients with CBS deficiency. Keep plasma methionine concentrations below 1,000 μmol/L through dietary modification and, if necessary, a reduction of CYSTADANE dose.</item>
+                     <item>Most common adverse reactions (incidence &gt; 2%) were nausea and gastrointestinal distress, based on physician survey.</item>
+                     <item>Pregnancy: Animal reproduction studies have not been conducted with CYSTADANE. Use only if clearly needed.</item>
+                     <item>Nursing women: It is not known whether CYSTADANE is excreted in human milk. Use only if clearly needed.</item>
+                     <item>Pediatrics: Pediatric patients ranging in age from 24 days to 17 years have been treated with CYSTADANE. Children younger than 3 years of age may benefit from dose titration.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>We are committed to helping address patients’ unmet needs through our corporate mission. If you have questions or concerns regarding this product, please call AnovoRx Group, the specialty pharmacy that dispenses CYSTADANE, at 1‑888-487-4703 or Recordati Rare Diseases Medical Information at 1‑888-575-8344.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Steven R. Peltier</content>
+                  </paragraph>
+                  <paragraph>Vice President, Regulatory &amp; Quality Compliance</paragraph>
+                  <paragraph>Chief Compliance Officer</paragraph>
+                  <paragraph>Recordati Rare Diseases Inc.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_621060f6-e0db-c797-e053-2a91aa0add41"/>
+                  </paragraph>
+                  <paragraph>FDA-approved (U.S.) Bottle Label:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_609f5ac1-9a9b-2b9e-e053-2a91aa0a5a22"/>
+                  </paragraph>
+                  <paragraph>Imported (U.K.) Bottle Label:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_609f6380-17f9-6343-e053-2991aa0a47be"/>
+                  </paragraph>
+                  <paragraph>Imported (U.K.) Carton:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_620f5d9e-f34e-8e5a-e053-2991aa0a7fff"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20171222"/>
+               <component>
+                  <observationMedia ID="img_621060f6-e0db-c797-e053-2a91aa0add41">
+                     <text>Product Comparison</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Product Comparison Table.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_609f5ac1-9a9b-2b9e-e053-2a91aa0a5a22">
+                     <text>Cystadane US Bottle Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Cystadane US Bottle Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_609f6380-17f9-6343-e053-2991aa0a47be">
+                     <text>Cystadane UK Bottle Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Cystadane UK Bottle Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_620f5d9e-f34e-8e5a-e053-2991aa0a7fff">
+                     <text>Cystadane UK Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Cystadane UK Carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_815739ef-c282-4b16-b6c1-28dac17e625e">
+               <id root="66ab8f97-8ea8-dc62-e053-2a91aa0adaf0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel</title>
+               <text>
+                  <paragraph>CYSTADANE®</paragraph>
+                  <paragraph>1 g</paragraph>
+                  <paragraph>Orphan Europe SARL</paragraph>
+                  <paragraph>Immeuble “Le Wilson”</paragraph>
+                  <paragraph>70 avenue du Général de Gaulle</paragraph>
+                  <paragraph>F-92800 Puteaux</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cystadane 1 g oral powder.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Betaine anhydrous</content>
+                  </paragraph>
+                  <paragraph>1 g of powder contains 1 g of betaine anhydrous. 180 g of oral powder and three measuring spoons. Three measuring spoons (green, blue, pink) dispense 100mg, 150mg or 1g of betaine anhydrous. Lightly shake the bottle before opening. Read the package leaflet before use. 
+  <content styleCode="bold">ORAL USE.</content> Keep out of the sight and reach of children. Do not store above 25°C. Keep the bottle tightly closed in order to protect from moisture. Medicinal product subject to medical prescription.
+ </paragraph>
+                  <paragraph>Shelf life after the first opening: 3 months</paragraph>
+                  <paragraph>Lot:</paragraph>
+                  <paragraph>EXP:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_605466dc-e53b-53df-e053-2a91aa0a4027"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170401"/>
+               <component>
+                  <observationMedia ID="img_605466dc-e53b-53df-e053-2a91aa0a4027">
+                     <text>Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Cystadane UK Carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

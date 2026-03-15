@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2cf0b9a2-7c56-409e-8739-f3ed34fcb0d6"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20220207"/>
+   <setId root="49dbd938-6c66-4835-af7f-923267f4568d"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="019926120" root="1.3.6.1.4.1.519.1"/>
+            <name>MWI</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="117693100" root="1.3.6.1.4.1.519.1"/>
+                  <name>Akorn Operating Company LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="117696840" root="1.3.6.1.4.1.519.1"/>
+                        <name>Akorn</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="13985-604" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="13985-604" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="13985-604" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="13985-604" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="13985-604" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="5fe66cf3-27ba-40e2-b240-bbaaacf509eb"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20150327"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="13985-604" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Tobramycin</name>
+                        <formCode code="C60992" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION/ DROPS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Tobramycin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="3" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="VZ8RRZ51VK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Tobramycin</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VZ8RRZ51VK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Tobramycin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="R57ZHV85D4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Boric Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0YPR65R21J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Sulfate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Y27PUL9H56" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Tyloxapol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Hydroxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O40UQP6WCF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sulfuric Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="F5UM2KM3W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Benzalkonium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="13985-604-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20150327"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150327"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA064096" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="e5e5fb7d-89a8-44dc-8e56-b734bfe85b35"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>STERILE
+</paragraph>
+                  <paragraph>Rx Only
+</paragraph>
+               </text>
+               <effectiveTime value="20211022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="62b26de2-186d-4b7d-bc8d-a768347818e5"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION:
+</title>
+               <text>
+                  <paragraph>Tobramycin Ophthalmic Solution USP, 0.3% is a sterile topical ophthalmic antibiotic formulation prepared specifically for topical therapy of external ophthalmic infections.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each mL contains:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Active:</content> tobramycin 0.3% (3 mg). <content styleCode="bold">Inactives:</content> boric acid, sodium chloride, sodium sulfate, tyloxapol, sodium hydroxide and/or sulfuric acid to adjust pH (7.0 to 8.0), and water for injection. <content styleCode="bold">Preservative:</content> benzalkonium chloride 0.01% (0.1 mg).
+</paragraph>
+                  <paragraph>Tobramycin is a water-soluble aminoglycoside antibiotic active against a wide variety of gram-negative and gram-positive ophthalmic pathogens.
+</paragraph>
+                  <paragraph>The chemical structure of tobramycin is:
+</paragraph>
+                  <paragraph>Molecular Weight = 467.52
+</paragraph>
+                  <paragraph>Molecular Formula: C<sub>18</sub>H<sub>37</sub>N<sub>5</sub>O<sub>9</sub>
+                  </paragraph>
+                  <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  <paragraph>
+                     <content styleCode="bold">Chemical Name:</content> O-{3-amino-3-deoxy-β-D-gluco-pyranosyl (1→4)}-O-{2,6-diamino 2, 3, 6-trideoxy-α-D-ribohexo-pyranosyl-(1→6)}-2-deoxystreptamine.
+</paragraph>
+               </text>
+               <effectiveTime value="20220207"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Chemical Structure of Tobramycin
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="tob05-0004-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="be26a3ab-ba8c-419c-ab98-545bcd2ee7d7"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY:
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">In Vitro Data: In Vitro</content> studies have demonstrated tobramycin is active against susceptible strains of the following microorganisms:
+</paragraph>
+                  <paragraph>Staphylococci, including S. aureus and S. epidermidis (coagulase-positive and coagulase-negative), including penicillin-resistant strains.
+</paragraph>
+                  <paragraph>Streptococci, including some of the Group A beta-hemolytic species, some nonhemolytic species, and some Streptococcus pneumoniae.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Pseudomonas aeruginosa, Escherichia coli, Klebsiella pneumoniae, Enterobacter aerogenes, Proteus mirabilis, Morganella morganii, most Proteus vulgaris strains, Haemophilus influenzae and H. aegyptius, Moraxella lacunata, Acinetobacter calcoaceticus and some Neisseria species.</content> Bacterial susceptibility studies demonstrate that in some cases, microorganisms resistant to gentamicin retain susceptibility to tobramycin.
+</paragraph>
+               </text>
+               <effectiveTime value="20211022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="75f0cc18-4b94-4599-b3b1-be3abd5ef73d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE:
+</title>
+               <text>
+                  <paragraph>Tobramycin ophthalmic solution 0.3% is a topical antibiotic indicated in the treatment of external infections of the eye and its adnexa caused by susceptible bacteria. Appropriate monitoring of bacterial response to topical antibiotic therapy should accompany the use of tobramycin ophthalmic solution. Clinical studies have shown tobramycin to be safe and effective for use in children.
+</paragraph>
+               </text>
+               <effectiveTime value="20211022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="285cf55a-492c-4b00-9dc3-0311d3616ebd"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS:
+</title>
+               <text>
+                  <paragraph>Tobramycin ophthalmic solution 0.3% is contraindicated in patients with known hypersensitivity to any of its components.
+</paragraph>
+               </text>
+               <effectiveTime value="20211022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="3a1b687e-7ceb-4331-afe6-7da60891edff"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS:
+</title>
+               <text>
+                  <paragraph>FOR TOPICAL OPHTHALMIC USE ONLY. NOT FOR INJECTION INTO THE EYE. Sensitivity to topically applied aminoglycosides may occur in some patients. Severity of hypersensitivity reactions may vary from local effects to generalized reactions such as erythema, itching, urticaria, skin rash, anaphylaxis, anaphylactoid reactions, or bullous reactions. If a sensitivity reaction to tobramycin ophthalmic solution 0.3% occurs, discontinue use.
+</paragraph>
+               </text>
+               <effectiveTime value="20211022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="958e6b30-9a00-4cf6-a5e0-e733be0bd505"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS:
+</title>
+               <effectiveTime value="20211022"/>
+               <component>
+                  <section ID="s8">
+                     <id root="fb74e801-b868-4d95-95b5-8e60e2e0b905"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <text>
+                        <paragraph>General: As with other antibiotic preparations, prolonged use may result in overgrowth of nonsusceptible organisms, including fungi. If superinfection occurs, appropriate therapy should be initiated.
+</paragraph>
+                        <paragraph>Cross-sensitivity to other aminoglycoside antibiotics may occur; if hypersensitivity develops with this product, discontinueuse and institute appropriate therapy. Patients should be advised not to wear contact lenses if they have signs and symptoms of bacterial conjunctivitis.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211022"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="64dd5620-9bf4-4e53-ab18-a1e0928fa2df"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Information for Patients:</content> Do not touch dropper tip to any surface, as this may contaminate the solution.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211022"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="b43b1132-1136-4717-b884-2b32b817de38"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy Category B:</content> Reproduction studies in 3 types of animals at doses up to 33 times the normal human systemic dose have revealed no evidence of impaired fertility or harm to the fetus due to tobramycin. There are, however, no adequate and well-controlled studies in pregnant women. Because animal studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211022"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="d31bb7ac-5dae-471c-a9b7-651d55ca8de7"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Nursing Mothers:</content> Because of the potential for adverse reactions in nursing infants from tobramycin, a decision should be made whether to discontinue nursing the infant or discontinue the drug, taking into account the importance of the drug to the mother.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211022"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="6d514ea9-8d32-4267-bd0e-05b8024195ca"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Use:</content> Safety and effectiveness in pediatric patients below the age of 2 months has not been established.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211022"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="171552fc-434e-4179-9b89-7dd995e495e1"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Geriatric Use:</content> No overall clinical differences in safety or effectiveness have been observed between the elderly and other adult patients.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211022"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s14">
+               <id root="ebce1810-177a-4872-ad7d-7057dc0308ee"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS:
+</title>
+               <text>
+                  <paragraph>The most frequent adverse reactions to tobramycin ophthalmic solution 0.3% are hypersensitivity and localized ocular toxicity, including lid itching and swelling, and conjunctival erythema. These reactions occur in less than three of 100 patients treated with tobramycin.
+</paragraph>
+               </text>
+               <effectiveTime value="20211022"/>
+               <component>
+                  <section ID="s15">
+                     <id root="066becde-6b23-4bc6-8dc2-d5f1fd0c4acf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Postmarketing Experience:</content> Additional adverse reactions identified from postmarketing use include anaphylactic reaction, Stevens-Johnson syndrome, and erythema multiforme.
+</paragraph>
+                        <paragraph>The following additional adverse reactions have been reported with systemic aminoglycosides: Neurotoxicity, ototoxicity and nephrotoxicity have occurred in patients receiving systemic aminoglycoside therapy. Aminoglycosides may aggravate muscle weakness in patients with known or suspected neuromuscular disorders, such as myasthenia gravis or Parkinson's disease, because of their potential effect on neuromuscular function.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20211022"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s16">
+               <id root="9839fd8b-df70-41a8-957b-2aca7bcf2229"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION:
+</title>
+               <text>
+                  <paragraph>In mild to moderate disease, instill 1 or 2 drops into the affected eye(s) every 4 hours. In severe infections, instill 2 drops into the eye(s) hourly until improvement, following which treatment should be reduced prior to discontinuation.
+</paragraph>
+               </text>
+               <effectiveTime value="20211022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s17">
+               <id root="b21b6fec-310c-4cb7-af01-9a781c8bc4c1"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED:
+</title>
+               <text>
+                  <paragraph>Tobramycin Ophthalmic Solution USP, 0.3% is supplied as a sterile solution in white low-density polyethylene (LDPE) plastic dropper bottle:
+</paragraph>
+                  <paragraph>NDC 13985-604-05            5 mL
+</paragraph>
+               </text>
+               <effectiveTime value="20211022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s18">
+               <id root="43d42f03-d8bf-470c-a4d5-8ae54ca0d275"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE:
+</title>
+               <text>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature]. Keep container tightly closed. Protect from excessive heat."
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">apexa</content>™<br/>Manufactured by: Akorn<br/>Lake Forest, IL 60045
+</paragraph>
+                  <paragraph>Distributed by: MWI<br/>Boise, ID 83705"<br/>MWTM00N            Rev. 09/21
+</paragraph>
+               </text>
+               <effectiveTime value="20211022"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s19">
+               <id root="76cb8409-4c92-4c93-a385-60b49ead1087"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Principal Display Panel Text for Container Label:
+</paragraph>
+                  <paragraph>NDC 13985-604-05
+</paragraph>
+                  <paragraph>Tobramycin Ophthalmic
+</paragraph>
+                  <paragraph>Solution, USP 0.3%
+</paragraph>
+                  <paragraph>FOR TOPICAL
+</paragraph>
+                  <paragraph>OPHTHALMIC USE ONLY.
+</paragraph>
+                  <paragraph>Apexa logo
+</paragraph>
+                  <paragraph>STERILE
+</paragraph>
+                  <paragraph>Rx Only
+</paragraph>
+                  <paragraph>AP 704006 5 mL
+</paragraph>
+                  <renderMultiMedia ID="f02" referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20220207"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>Principal Display Panel Text for Container Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="tob05-0004-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s20">
+               <id root="eb1a0d3c-b341-4ae3-9428-857d1fb08b1c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Principal Display Panel Text for Carton Label:
+</paragraph>
+                  <paragraph>NDC 13985-604-05
+</paragraph>
+                  <paragraph>Tobramycin
+</paragraph>
+                  <paragraph>Ophthalmic
+</paragraph>
+                  <paragraph>Solution, USP 0.3%
+</paragraph>
+                  <paragraph>STERILE
+</paragraph>
+                  <paragraph>Rx Only
+</paragraph>
+                  <paragraph>Apexa logo
+</paragraph>
+                  <paragraph>AP 704006 5 mL
+</paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20220207"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>Principal Display Panel Text for Carton Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="tob05-0004-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

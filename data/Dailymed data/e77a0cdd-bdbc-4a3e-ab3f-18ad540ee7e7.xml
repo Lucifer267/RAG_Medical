@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e77a0cdd-bdbc-4a3e-ab3f-18ad540ee7e7"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Santa Maria Oxygen</title>
+   <effectiveTime value="20211109"/>
+   <setId root="ee0e30ff-bbda-42a3-ac20-d14dc52788c8"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="812505014"/>
+            <name>Praxair Mexico, S. de R.L. de C.V</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="812505014"/>
+                        <name>Praxair Mexico, S. de R.L. de C.V</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="80268-001" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="26f42a0c-171f-49b2-bef4-5103a061f433"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20200826"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="80268-001" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Oxygen</name>
+                        <formCode code="C42933" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GAS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Oxygen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="990" unit="mL"/>
+                              <denominator value="1" unit="L"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OXYGEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OXYGEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="12310000" unit="L"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="80268-001-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43186" displayName="CONTAINER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20200801"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200801"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA210844" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L67e8a1a2-e040-4c34-9d5f-5bced3fb324b">
+               <id root="ce941cc4-d588-4c0e-bfb7-823f43255e49"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Oxygen</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRAXAIR</content>                              Track No:</paragraph>
+                  <paragraph>Haciendo nuestro planeta mds productive</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Certificate of Analysis (COA)</content>
+                  </paragraph>
+                  <paragraph>PRAXAIR MEXICO S. de R.L. de C.V.</paragraph>
+                  <paragraph>700 Via Matamoros drive, Garza Cantu</paragraph>
+                  <paragraph>San Nicolas de los Garza, Nuevo Leon,</paragraph>
+                  <paragraph>64550 Mexico</paragraph>
+                  <paragraph/>
+                  <paragraph>Oxygen USP NDA:                            210844                  Customer Name:             </paragraph>
+                  <paragraph>FDA Establishment Identifier:            3004658099         Praxair Number:              </paragraph>
+                  <paragraph>DUNS Number:                                 812821245</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">LIQUID OXYGEN USP</content>
+                  </paragraph>
+                  <paragraph>Batch Number:</paragraph>
+                  <paragraph>Order:                   Lot Number:                                                                      Shipping Container:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Component</content>                        Specification                     <content styleCode="underline">Analytical Result</content>
+                        <content styleCode="underline">Analytical Method<sup>1</sup>
+                        </content>
+                        <sup/>
+                        <content styleCode="underline">Analyzer Used</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Assay                                NLT 99.5% by volume           ________%v/v                   Paramagnetic                    Servomex 4100</paragraph>
+                  <paragraph>Identification                     Positive                                _________                         Paramagnetic                    Servomex 4100</paragraph>
+                  <paragraph/>
+                  <paragraph>Tester’s Signature:           __________________________</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Reviewer’s Signature:    <content styleCode="underline">_________________________</content>
+                  </paragraph>
+                  <paragraph>                                                Quality Assurance Reviewer</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Notes:</content>
+                     <content styleCode="bold">1. </content> Liquid oxygen produced by the air liquefaction process.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2. </content> Product is identified as Oxygen by way of oxygen specific paramagnetic analyzers<content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">                3.  </content>Product is identified as oxygen through process validation, dedicated piping and product specific CGA fittings.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Date/Time: </content>        _______________________                                                       OO/R-02-080/3-10</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L7fbaf3bf-d5e7-42ab-8c0f-f86ee57e4446"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200826"/>
+               <component>
+                  <observationMedia ID="L7fbaf3bf-d5e7-42ab-8c0f-f86ee57e4446">
+                     <text>Oxygen Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="COA Liquid Oxygen Mexico.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

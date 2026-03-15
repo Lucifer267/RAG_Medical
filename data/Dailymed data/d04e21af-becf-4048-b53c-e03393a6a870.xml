@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="d04e21af-becf-4048-b53c-e03393a6a870"/>
+   <code codeSystem="2.16.840.1.113883.6.1" code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title ID="inv-9c649bef-9d05-4914-b447-cd260b770848">CP2D/AS-3 Blood Collection and Sampling System</title>
+   <effectiveTime value="20130813"/>
+   <setId root="e713f9f1-4208-4ea9-b33f-d758a06346ce"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="078598396"/>
+            <name>Haemonetics Manufacturing Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="078598396" root="1.3.6.1.4.1.519.1"/>
+                  <name>Haemonetics Manufacturing Inc</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="078598396"/>
+                        <name>Haemonetics Manufacturing Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code codeSystem="2.16.840.1.113883.3.26.1.1" code="C43360" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="53157-120"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="68f6636f-8fc6-492a-9410-20ce71bf7465"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20130813"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="53157-120"/>
+                        <name>Nutricel Additive System - CP2D</name>
+                        <formCode codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION" code="C42986"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CP2D/AS-3 Anticoagulant and Additive System</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="3.57"/>
+                              <denominator unit="mL" value="70"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="IY9XDZ35W2"/>
+                              <name>DEXTROSE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code codeSystem="2.16.840.1.113883.4.9" code="IY9XDZ35W2"/>
+                                    <name>DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="2968PHW8QP"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="1Q73Q2JULR"/>
+                              <name>SODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="593YOG76RN"/>
+                              <name>SODIUM PHOSPHATE, MONOBASIC, MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="059QF0KO0R"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="70"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="53157-120-92"/>
+                              <formCode codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG" code="C43167"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="3">
+                                       <translation codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG" code="C48474"/>
+                                    </numerator>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="53157-120-PO"/>
+                                    <formCode codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH" code="C43200"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="8">
+                                             <translation codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH" code="C48530"/>
+                                          </numerator>
+                                          <denominator value="1" unit="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code codeSystem="2.16.840.1.113883.6.69" code="53157-120-BO"/>
+                                          <formCode codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX" code="C43178"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id root="2.16.840.1.113883.3.150" extension="NDA820915"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130805"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code codeSystem="2.16.840.1.113883.1.11.19255" code="SPLCOLOR"/>
+                           <value codeSystem="2.16.840.1.113883.3.26.1.1" code="C48330" displayName="yellow" xsi:type="CE">
+                              <originalText>yellowish solution</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode codeSystem="2.16.840.1.113883.3.26.1.1" code="C38276" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="53157-AS3"/>
+                        <name>Nutricel Additive System - AS3</name>
+                        <formCode codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION" code="C42986"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CP2D/AS-3 Anticoagulant and Additive System</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.033"/>
+                              <denominator unit="mL" value="110"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="JAC85A2161"/>
+                              <name>ADENINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code codeSystem="2.16.840.1.113883.4.9" code="JAC85A2161"/>
+                                    <name>ADENINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1.21"/>
+                              <denominator unit="mL" value="110"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="IY9XDZ35W2"/>
+                              <name>DEXTROSE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code codeSystem="2.16.840.1.113883.4.9" code="IY9XDZ35W2"/>
+                                    <name>DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="2968PHW8QP"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="451W47IQ8X"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="1Q73Q2JULR"/>
+                              <name>SODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="593YOG76RN"/>
+                              <name>SODIUM PHOSPHATE, MONOBASIC, MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="059QF0KO0R"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="110"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="53157-AS3-BG"/>
+                              <formCode codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG" code="C43167"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="3">
+                                       <translation codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG" code="C48474"/>
+                                    </numerator>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="53157-AS3-PO"/>
+                                    <formCode codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH" code="C43200"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="8">
+                                             <translation codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH" code="C48530"/>
+                                          </numerator>
+                                          <denominator value="1" unit="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code codeSystem="2.16.840.1.113883.6.69" code="53157-AS3-BO"/>
+                                          <formCode codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX" code="C43178"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id root="2.16.840.1.113883.3.150" extension="NDA820915"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130805"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code codeSystem="2.16.840.1.113883.1.11.19255" code="SPLCOLOR"/>
+                           <value codeSystem="2.16.840.1.113883.3.26.1.1" code="C48330" displayName="yellow" xsi:type="CE">
+                              <originalText>yellowish solution</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode codeSystem="2.16.840.1.113883.3.26.1.1" code="C38276" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-d8cefc93-735e-4f60-b1bd-a8cb877f165b">
+               <id root="687b2152-951c-4f32-bde7-8ecb92c7301a"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title ID="inv-2a03fd82-d0d6-4650-98f3-bf4c900e0b7e">DESCRIPTION</title>
+               <text ID="inv-e3f3170d-3983-486c-9769-c5e71d87196d">
+                  <paragraph ID="inv-afe2cb7e-9598-4a44-a91d-b1272bc089b8">CP2D/AS-3 Blood Collection and Sampling System with Nutricel Additive System</paragraph>
+                  <paragraph ID="inv-cbc60ae0-4e9c-4163-8121-0c548d86f344">Instruction for Use for Systems Containing a Y Sampling Site (YSS) or Sample Diversion Pouch (with or without a pre-attached SampLok Vacuum Tube Holder). </paragraph>
+                  <paragraph ID="inv-84932a0c-5bad-4bbe-be36-ab9b67bda11d">Refer to unit foil package label for specific product description being used. </paragraph>
+                  <paragraph ID="inv-0e1ea247-0156-4683-b16a-307b3c3c9cec">Sterile, nonpyrogenic fluid path. Sterilized by steam. </paragraph>
+                  <paragraph ID="inv-eaf93194-88b2-4bec-bf6a-4f50d456af31">
+                     <content styleCode="bold">Rx only.</content>
+                  </paragraph>
+                  <paragraph ID="inv-8be9f40d-8898-490a-87aa-a628639625d4">This product is free of natural rubber latex.</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-ed091cb4-3eb0-4a23-87d9-8649a40a933b">
+               <id root="4fe2d3cd-6a1a-47ee-9df9-f02aa7c412ee"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title ID="inv-9e319a1c-f248-4db5-9ac6-1813aa8817d7">INDICATIONS AND USAGE</title>
+               <text ID="inv-fa9916f8-7221-4907-8d23-31436cf68989">
+                  <paragraph ID="inv-fb81bba6-72ef-40d3-b526-51206bf6b455">For collection of blood and preparation of red blood cells, plasma and platelets.</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-fa1ba7d1-88c6-4281-a639-436ae72d476b">
+               <id root="d8a7bb09-d392-422e-99ea-0ce125ced2c9"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34071-1" displayName="WARNINGS SECTION"/>
+               <title ID="inv-2ac9b395-e45a-4b43-85d1-63091a07f09b">WARNINGS</title>
+               <text ID="inv-a167ce8e-b7cb-4451-b6a2-dce884b89d26">
+                  <paragraph ID="inv-1ef576b6-0b8b-4986-ac77-605ceb931968">Failure to achieve and maintain a closed system during processing would result in a product that must be transfused within 24 hours.</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-a11e3d11-2d06-4af9-84fe-1fb4310f30f4">
+               <id root="f68b3e3a-c6b2-4dd3-9dc5-4ba57126e157"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42232-9" displayName="PRECAUTIONS SECTION"/>
+               <title ID="inv-be96caaf-2c73-4c5c-80b3-8d17ca4857e9">GENERAL PRECAUTIONS</title>
+               <text ID="inv-084d1a4a-1d82-4dee-ab6a-0f8cd1196cda">
+                  <paragraph ID="inv-8fa01858-1f21-4ed5-a237-b4d22db37ae3">Use aseptic technique. Use only if solutions are clear. If preparing a platelet concentrate, the platelet-rich plasma should be separated from the red blood cells within 8 hours after blood collection. If preparing fresh frozen plasma, separate from the red blood cells and place in the freezer at -18 °C or colder within 8 hours after collection. </paragraph>
+                  <paragraph ID="inv-ea97979f-f763-49cf-bb3f-e6b6f428ddda">During processing, always observe the following precautions:</paragraph>
+                  <paragraph ID="inv-bd944f4c-6a24-483c-81d1-f5155cf5b7ec">1. Sealing should be done in a manner that avoids fluid splatter.</paragraph>
+                  <paragraph ID="inv-c7418e68-c680-4532-8552-982f309b09d3">2. Always dispose of blood-contaminated products in a manner consistent with established BIOHAZARD safety procedures.</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-f343ad4f-07cd-49b8-b4b8-681d148cd8a5">
+               <id root="48199ee2-39f6-4fb0-b80b-e39f7fbb234c"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="44425-7" displayName="STORAGE AND HANDLING SECTION"/>
+               <title ID="inv-d9c9b807-7f10-4aad-9a4e-caeae5b42172">STORAGE</title>
+               <text ID="inv-bbdfa19c-599a-4260-aed5-68d1fe325aa1">
+                  <paragraph ID="inv-4f4c7ca5-39e9-4c92-8f82-3c49a9d3e008">Store CP2D/AS-3 preserved red blood cells at 1—6 °C for up to 42 days and use as indicated. </paragraph>
+                  <paragraph ID="inv-02c0c836-d32a-49e7-b814-2508e0b59008">If AS-3 is not used, whole blood or red blood cells in CP2D alone may be stored at 1—6 °C for up to 21 days.</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-98e4d296-1477-428d-b34d-d658d29574d3">
+               <id root="6c853095-2b49-402c-a930-1b05b2419c35"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="59845-8" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title ID="inv-6ff55086-3578-4805-9dc9-57914d8662ad">BLOOD COLLECTION INSTRUCTIONS FOR SYSTEMS CONTAINING A Y SAMPLING SITE (YSS) ONLY</title>
+               <text ID="inv-1bf2598f-a040-44c3-99c7-9382fc1c8bb7">
+                  <paragraph ID="inv-4319ef8d-9112-4be6-bfb3-d5e69abb5552">1. Load blood agitation device or suspend blood bag on donor scale and adjust donor scale to desired collection gross weight as per manufacturer's instructions.</paragraph>
+                  <paragraph ID="inv-12eb0735-8b57-44d4-82e9-ba4c503630a8">2. Clamp donor tubing between DonorCare Needle Guard (DCNG) and Y Sampling Site.</paragraph>
+                  <paragraph ID="inv-502e5dec-cd34-4a58-9be1-40e0d4b6bfa9">3. Secure donor tubing above the Y connector and disinfect site of phlebotomy.</paragraph>
+                  <paragraph ID="inv-4adf8d0c-a480-4220-943a-fdc7aa71fe08">4. If using blood pressure cuff, inflate to not more than 60 mm Hg.</paragraph>
+                  <paragraph ID="inv-809efceb-3c3b-4cb4-9900-149c395b857e">5. Remove donor needle cover and accomplish phlebotomy.</paragraph>
+                  <paragraph ID="inv-7f2b6d16-6c93-4fb3-9882-059bf74f8941">6. Release clamp and ensure there is blood flow. Reduce pressure as required.</paragraph>
+                  <paragraph ID="inv-0d77bb42-95cd-4219-b2ba-e4d0a8e13b09">7. Slide the DCNG midway over the needle hub and securely tape DCNG to the donor's arm as close to the top of the DCNG as possible. Note: If blood flow is slow, slide DCNG away from the needle hub, adjust and re-engage DCNG. If repeated needle adjustment is necessary, slide DCNG away from the needle hub and re-engage at the end of blood collection.</paragraph>
+                  <paragraph ID="inv-54ca70e4-5425-426f-9c86-4047e7811866">8. Collect appropriate volume of blood into collection bag, as indicated on packaging. Note: Mix blood and anticoagulant frequently during collection, for example, once every 45 seconds, and immediately after collection. If blood agitation device is used, follow manufacturer's operating instructions.</paragraph>
+                  <paragraph ID="inv-ff7147bb-c0b4-4a7b-815d-4c490fa89027">9. After required amount of blood has been collected, seal donor tubing close to Y Sampling Site.*</paragraph>
+                  <paragraph ID="inv-e5a48d71-813f-4601-b8d7-decfb5011595">10. For blood sampling, remove the Y Sampling Site needle cover. Ensure the protective sheath is in place over the sampling needle.</paragraph>
+                  <paragraph ID="inv-1d3ee6e0-88f8-4ccc-af0b-c03a88a358bd">11. Fasten the vacuum tube holder on to the base of the sampling needle.</paragraph>
+                  <paragraph ID="inv-d2e65921-7469-4d04-be75-a96d3167db9d">12. Collect blood samples into vacuum tubes.</paragraph>
+                  <paragraph ID="inv-2a922ce5-718c-4693-be30-1f6f6ec48afb">13. Ensure the vacuum tubes are centered within the vacuum tube holder during sample collection.</paragraph>
+                  <paragraph ID="inv-df03cbdf-a1f3-4dba-a3cc-5b6c70fe12f5">14. Maintain forward pressure on the vacuum tubes during sample collection. Note: After the last tube is collected, it is recommended that the vacuum tube holder be left in place.</paragraph>
+                  <paragraph ID="inv-850d98eb-1bf9-49ca-909e-6098e761fba7">15. After blood samples are collected, clamp donor tubing between the Y Sampling Site and DCNG, and as close to the DCNG as possible.</paragraph>
+                  <paragraph ID="inv-9c6d04a1-65d5-46f6-9ce9-8eb3719fcdbd">16. Release any remaining pressure from the donor's arm.</paragraph>
+                  <paragraph ID="inv-cbec59ed-6b9b-408d-b602-c3c91847232c">17. DCNG must be held stationary while the needle is withdrawn into it. While holding sides of DCNG near the front, grasp the tubing below the clamp and pull the needle into the DCNG until it locks into place, and the needle hub engages the bottom of the DCNG.</paragraph>
+                  <paragraph ID="inv-84a04324-37f3-4b42-b182-f989857a722b">18. Insert the DCNG into the vacuum tube holder. Note: It is recommended that the DCNG be inserted securely into the vacuum tube holder, prior to discarding.</paragraph>
+                  <paragraph ID="inv-6a9e24ff-a205-46e7-94d8-ad5e0986dfa3">19. Seal donor tubing adjacent to DCNG.* Detach and discard needle, DCNG, Y Sampling Site and tubing.*</paragraph>
+                  <paragraph ID="inv-0725ad1c-9e7d-4e25-b7e7-66d1d8be81cc">20. Strip tubing between seal and collection bag.</paragraph>
+                  <paragraph ID="inv-0bd20c43-44f2-41c5-bd16-3b1850efc65a">21. Continue to “Processing Instructions”, Step 1.</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-e66fcc9f-167e-4c79-afca-a65a0d977ad8">
+               <id root="1c25c584-a760-4000-a81e-825eb91e1522"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="59845-8" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title ID="inv-35e4efb4-3f2d-435f-a1cc-a885dbbabfaa">BLOOD COLLECTION INSTRUCTION FOR SYSTEMS CONTAINING A SAMPLE DIVERSION POUCH WITH OR WITHOUT A PRE-ATTACHED SAMPLOK VACUUM TUBE HOLDER</title>
+               <effectiveTime value="20130813"/>
+               <component>
+                  <section ID="inv-6823846c-e8ae-4bfc-aae7-b2f782e011e1">
+                     <id root="dc6ea894-8732-45ca-bafb-a9eb4091c510"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="59845-8" displayName="INSTRUCTIONS FOR USE SECTION"/>
+                     <title ID="inv-effa370f-6e14-4666-b80b-ee4c8c518844">When using systems with a pre-attached SampLok vacuum tube holder, follow instructions as noted below, but refer to “When Using Systems with a Pre-attached SampLok Vacuum Tube Holder” when indicated to do so.</title>
+                     <text ID="inv-1a077d8d-3cf4-451f-bdb3-019bd523255f">
+                        <paragraph ID="inv-706336b3-fb1a-45ab-9862-398d8f6dc961">1. Load blood agitation device or suspend blood bag on donor scale and adjust donor scale to desired collection gross weight as per manufacturer's instructions.</paragraph>
+                        <paragraph ID="inv-595e51cd-411c-4a26-a2a1-385e906a86e5">2. Clamp donor tubing between DonorCare Needle Guard (DCNG) and Sampling Site.</paragraph>
+                        <paragraph ID="inv-da80b4a5-ed46-437d-9363-79df063e3ea7">3. Secure donor tubing above the Y connector and disinfect site of phlebotomy.</paragraph>
+                        <paragraph ID="inv-bef9607c-6ad5-4f9e-b99c-37e3e0842aaf">4. If using blood pressure cuff, inflate to not more than 60 mm Hg.</paragraph>
+                        <paragraph ID="inv-3528b2fd-9fe5-4986-bd7d-c27f61ef1cf5">5. Remove donor needle cover and accomplish phlebotomy.</paragraph>
+                        <paragraph ID="inv-f1fe84b2-e846-4d26-8616-1d9b4c43a80b">6. Release clamp and ensure there is blood flow.</paragraph>
+                        <paragraph ID="inv-681255a9-a01c-47fd-ad41-e16630b144dc">7. Slide the DCNG midway over the needle hub and securely tape DCNG to the donor's arm as close to the top of the DCNG as possible. Note: If blood flow is slow, slide DCNG away from the needle hub, adjust and re-engage DCNG. If repeated needle adjustment is necessary, slide DCNG away from the needle hub and re-engage at the end of blood collection.</paragraph>
+                        <paragraph ID="inv-347ad469-69d0-415b-8921-76893ccdb670">8. The donor blood will be automatically diverted to the sample diversion pouch. Once the sample diversion pouch is filled, close clamp immediately on tubing between the sample diversion pouch and Y connector. Warning: To avoid risk of air embolism to donor, do not squeeze sample diversion pouch while tubing is open.</paragraph>
+                        <paragraph ID="inv-27db55bb-4767-4811-bf23-fc5216261e6f">9. Open snap-open closure between the Y connector and the collection bag to initiate blood collection. Reduce pressure as needed.</paragraph>
+                        <paragraph ID="inv-3e31a376-cd24-4252-be06-169865ee0a56">10. Permanently seal tubing between the sample diversion pouch and the Y connector to maintain sterility of the system prior to collecting blood samples.* Note: When using systems with a pre-attached SampLok vacuum tube holder, go to “When Using Systems with a Pre-attached SampLok Vacuum Tube Holder”.</paragraph>
+                        <paragraph ID="inv-377404f0-ba4e-42e3-81af-b275876eeba9">11. For blood sampling, remove the Sampling Site needle cover. Ensure the protective sheath is in place over the sampling needle.</paragraph>
+                        <paragraph ID="inv-6c3e1a3e-61ab-49f4-9567-086f8d29dff7">12. Fasten the vacuum tube holder on to the base of the sampling needle.</paragraph>
+                        <paragraph ID="inv-ce68bc4a-b4e8-4d79-92ca-4edc027b424b">13. Position the sample diversion pouch downwards so that the air rises to the top of the pouch and away from the vacuum tube holder. Note: Drawing air into the vacuum tube may cause hemolysis.</paragraph>
+                        <paragraph ID="inv-738b8478-cdc1-4a00-88d8-0c7f8a6efcac">14. Collect blood samples from the sample diversion pouch into vacuum tubes within approximately four minutes to avoid possible clot formation.</paragraph>
+                        <paragraph ID="inv-89adb188-5ff9-47c3-b2e6-34fbfb767aae">15. Ensure the vacuum tubes are centered within the vacuum tube holder during sample collection.</paragraph>
+                        <paragraph ID="inv-a85b7e50-0393-436a-a8d7-2edcdc1a8234">16. Maintain forward pressure on the vacuum tubes during sample collection. Note: After the last tube is collected, it is recommended that the vacuum tube holder be left in place.</paragraph>
+                        <paragraph ID="inv-84f17d47-a6fb-4098-afe7-b95c8c9da330">17. Collect appropriate volume of blood into collection bag as indicated on packaging. Note: Mix blood and anticoagulant frequently during collection, for example, once every 45 seconds, and immediately after collection. If blood agitation device is used, follow manufacturer's operating instructions.</paragraph>
+                        <paragraph ID="inv-7e7fe46c-e837-436c-994e-81feb2e43d7b">18. After required amount of blood has been collected, seal donor tubing close to snap-open closure.*</paragraph>
+                        <paragraph ID="inv-c2edfa9c-b946-496c-8aa1-d921c710e5fd">19. Clamp donor tubing between the Y connector and DCNG, as close as possible to the DCNG.</paragraph>
+                        <paragraph ID="inv-f7482ed2-db2a-4de1-b86b-1945d873183c">20. Release any remaining pressure from donor's arm.</paragraph>
+                        <paragraph ID="inv-cc849415-9df2-49a3-a225-19c3a814a285">21. DCNG must be held stationary while the needle is withdrawn into it. While holding sides of DCNG near the front, grasp the tubing below the clamp and pull the needle into the DCNG until it locks into place, and the needle hub engages the bottom of the DCNG.</paragraph>
+                        <paragraph ID="inv-3f5c9885-ec8c-4446-82e8-d377d82f91ff">22. Insert the DCNG into the vacuum tube holder, if desired. Note: It is recommended that the DCNG be inserted securely into the vacuum tube holder, prior to discarding.</paragraph>
+                        <paragraph ID="inv-80c447de-1ce5-45a8-9db1-12de96bbbaf1">23. Seal donor tubing adjacent to DCNG.* Detach and discard needle, DCNG, sample diversion pouch and tubing.*</paragraph>
+                        <paragraph ID="inv-46cb2b05-b111-489c-a98a-dab06b165031">24. Strip tubing between seal and collection bag.</paragraph>
+                        <paragraph ID="inv-81c8d793-9dd4-4acb-a305-d147617e0746">25. Continue to “Processing Instructions”, Step 1.</paragraph>
+                     </text>
+                     <effectiveTime value="20130813"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-deea2752-f916-45be-ab81-b67c14ddad78">
+               <id root="1888d417-7698-4348-bef6-219446c282e5"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="59845-8" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title ID="inv-61612787-b426-4671-adc7-4c29595a57eb">WHEN USING SYSTEMS WITH A PRE-ATTACHED SAMPLOK VACUUM TUBE HOLDER</title>
+               <text ID="inv-390342b5-6c34-486a-82a2-5009926f9157">
+                  <paragraph ID="inv-a2d4cde3-f8d6-4377-8e5a-3cfa50b7f202">1. To collect blood samples, open lid from SampLok vacuum tube holder.</paragraph>
+                  <paragraph ID="inv-0ac0124c-0c64-4a10-aa7e-b565f1f75d51">2. Open snap-open closure between sample diversion pouch and SampLok vacuum tube holder.</paragraph>
+                  <paragraph ID="inv-424a75f0-b3cf-4dcc-b650-6aa1f39329a6">3. Position the sample diversion pouch downwards so that the air rises to the top of the pouch and away from the SampLok vacuum tube holder. Note: Drawing air into the vacuum tube may cause hemolysis.</paragraph>
+                  <paragraph ID="inv-f0cf448b-a77f-4b82-9e24-a3e35e990bfb">4. Collect blood samples from the sample diversion pouch into vacuum tubes within approximately four minutes to avoid possible clot formation.</paragraph>
+                  <paragraph ID="inv-23974177-6de0-4deb-a1c8-6f76f9982056">5. Ensure the vacuum tubes are centered within the SampLok vacuum tube holder during sample collection.</paragraph>
+                  <paragraph ID="inv-98845dcf-c1cb-47ae-8057-4ff2d20cc9ad">6. Maintain forward pressure on the vacuum tubes during sample collection.</paragraph>
+                  <paragraph ID="inv-cbd68eee-4fba-4844-8886-3e6d0bd2c693">7. The lid may be closed on the SampLok vacuum tube holder after sample collection.</paragraph>
+                  <paragraph ID="inv-2f11776a-4b91-4d90-9721-bc489238f899">8. Return to “Blood Collection Instruction for Systems Containing a Sample Diversion Pouch with or without a Pre-attached SampLok Vacuum Tube Holder”, Step 17. Note: When collection of unit is complete, and the donor needle is engaged in the DCNG, open the lid of the SampLok vacuum tube holder and insert the DCNG into the holder. Twist until it locks into place. An audible click will confirm that it is locked.</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-f47cfc0d-f277-4649-bd69-f462d8e25e5d">
+               <id root="1fb330ec-4e49-4ab9-984b-f220f478abdd"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="60560-0" displayName="INTENDED USE OF THE DEVICE"/>
+               <title ID="inv-90242a83-079f-4c95-9b94-c4e0477d4c06">PROCESSING INSTRUCTIONS</title>
+               <text ID="inv-30c96270-bfc9-4702-ae5d-b3361da255d2">
+                  <paragraph ID="inv-bd53c21b-8714-47cc-b72e-c066fc23b764">1. Process whole blood within 72 hours of collection.</paragraph>
+                  <paragraph ID="inv-0bda5f97-e19d-4a44-9669-5d509983a0a4">2. Mix whole blood/anticoagulant thoroughly.</paragraph>
+                  <paragraph ID="inv-64630528-2875-40b5-9da5-02e339fc5ba9">3. Load whole blood and satellite bags into centrifuge cup, ensuring that the tubing stays in the top half of the cup.</paragraph>
+                  <paragraph ID="inv-6a0c833e-01ad-4224-bea4-aad8adc23581">4. Centrifuge at appropriate conditions to produce desired components.</paragraph>
+                  <paragraph ID="inv-7922c2e2-44f7-400b-af1f-39f7c8864471">5. Carefully remove the unit from the centrifuge and place the red cell storage bag in the plasma expressor.</paragraph>
+                  <paragraph ID="inv-2884c8fc-2794-4357-a1ae-a7e65c2859b4">6. Clamp tubing to extra satellite bags, if present.</paragraph>
+                  <paragraph ID="inv-786483f3-c032-4beb-8de1-561982a4cf86">7. Gently apply expressor pressure.</paragraph>
+                  <paragraph ID="inv-20ba5129-4c23-4ff4-a4e5-cb968533bf71">8. Open snap-open closure to satellite bag and express plasma.</paragraph>
+                  <paragraph ID="inv-72669420-fe65-433d-9fa2-11fbf11fc2b6">9. After plasma is expressed, clamp tubing between red cell storage bag and Y connector, and release expressor pressure.</paragraph>
+                  <paragraph ID="inv-6de7508b-8bc1-4fba-9f59-d6d383ec72b4">10. Clamp tubing between the Y connector and plasma bag.</paragraph>
+                  <paragraph ID="inv-3f7f4e4e-8bc4-4605-96d6-8095dafc245a">11. Hang AS-3 bag above red cell storage bag and remove clamp from tubing to the red cell storage bag.</paragraph>
+                  <paragraph ID="inv-4cf6a738-5dab-43fb-a9b3-c78ff3be5ca1">12. Open snap-open closure on the bag containing the AS-3 additive solution and transfer to the bag containing the red cells. Note: AS-3 solution should be added to the packed red blood cells immediately after removal of plasma. Transfer AS-3 solution under one of the following processing conditions:</paragraph>
+                  <paragraph ID="inv-56b3146b-5e2d-4c85-85be-ffd9f91ecf56">a. within 8 hours of collection if whole blood is held at room temperature.</paragraph>
+                  <paragraph ID="inv-7a5072f6-5d07-4c1a-8bde-83aea29369d0">b. within 72 hours of collection if whole blood is refrigerated.</paragraph>
+                  <paragraph ID="inv-da3ab27e-cdd9-44fe-8c24-445c7001b60f">13. Seal tubing and detach the bag containing packed red cells, and set aside plasma for further processing.*</paragraph>
+                  <paragraph ID="inv-65124b69-8af1-4510-a93d-e285d69c6901">14. Gently mix packed red cells and AS-3 solution.</paragraph>
+                  <paragraph ID="inv-0dc04d6d-da94-482e-9a6a-2ce883b0d1b4">15. Store CP2D/AS-3 preserved red blood cells at 1—6 °C for up to 42 days and use as indicated. Note: If AS-3 is not used, whole blood or red blood cells in CP2D alone may be stored at 1—6 °C for up to 21 days.</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-cc81d679-a6e5-45ab-9bc9-5781cf91d6d0">
+               <id root="cdcf3494-9b9f-4b30-801b-ff3f442da5e5"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title ID="inv-4e4a6ad2-4150-4a22-999a-eec7fd0f71b1">HOW SUPPLIED</title>
+               <text ID="inv-32d1f897-083e-4080-9a92-e22d25149c0b">
+                  <paragraph ID="inv-333d5df6-46c3-4f59-828e-729678d9302c">Each shipping case contains 8 foil envelopes.  Within each foil envelope resides 3 clear pouches containing an individual collection system.  Each collection system consists of CP2D/AS-3 500 ml, Double Blood Bag Collection System with Nutricel Additive Solution and Sample Diversion Pouch.</paragraph>
+               </text>
+               <effectiveTime value="20130814"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-6838a85b-3de8-466d-b832-4e886739fb07">
+               <id root="ecfa5614-01f4-4fdc-9e60-420aef1faea2"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title ID="inv-07429af3-3229-4202-a350-01b3424d6784">PRINCIPAL DISPLAY PANEL</title>
+               <text ID="inv-94550db4-f3a6-43a2-a6d3-b23c38c3a10d">
+                  <paragraph ID="inv-47253441-ece3-45bc-883b-d10c52d8bb5d">
+                     <content styleCode="bold">CP2D 500 ANTICOAGULANT CITRATE PHOSPHATE DOUBLE DEXTROSE SOLUTION</content>
+                  </paragraph>
+                  <paragraph ID="inv-6d513cf5-1f70-44e3-9cc7-56ffdc5317bd">AS-3 RED BLOOD CELLS, ADENINE - SALINE ADDED, 16.5 mEq sodium added.</paragraph>
+                  <paragraph ID="inv-11ce7de5-cb1f-440a-9ba2-7ed1228f9736">From 500 ml CP2D Whole Blood.  Store at 1—6 °C.</paragraph>
+                  <paragraph ID="inv-bdf10d48-31e8-420d-b3f0-3b42c13f7c04">70 ml Anticoagulant Citrate Phosphate Double Dextrose Solution for collection of 500 ml of blood. Each 70 ml of CP2D solution contains 3.57 g dextrose (monohydrate), USP; 1.84 g sodium citrate (dihydrate), USP; 0.229 g citric acid (monohydrate), USP; and 0.155 g monobasic sodium phosphate (monohydrate), USP. Use only if solution is clear.</paragraph>
+                  <paragraph ID="inv-b63b1dee-4a8a-4f35-85fb-f83e86e6dd7e">See circular of information for indications, contraindications, cautions and methods of infusion. VOLUNTEER DONOR. This product may transmit infectious agents. Rx only. PROPERLY IDENTIFY INTENDED RECIPIENT.</paragraph>
+                  <renderMultiMedia ID="ID0EJLAE" referencedObject="mm-88989ac5-4cd3-4bf4-820a-75ef075210f9"/>
+                  <paragraph ID="inv-6e375df1-3ab2-488d-955c-e625ae761582">CP2D 500 </paragraph>
+                  <paragraph ID="inv-0e55b9a5-429f-4e26-99a3-f3c772f85aaf">See circular of information for indications, contraindications, cautions and methods of infusion. VOLUNTEER DONOR. This product may transmit infectious agents. Rx only. </paragraph>
+                  <paragraph ID="inv-9ac162c2-395d-4ac3-8c7c-43dfed606a3c">PROPERLY IDENTIFY INTENDED RECIPIENT.</paragraph>
+                  <renderMultiMedia ID="ID0EVLAE" referencedObject="mm-9c908c11-5419-4dea-b799-725bf0cc7632"/>
+                  <paragraph ID="inv-dd1f99e4-163b-48e1-8ae5-bccf5ce23596">Double    500ml CP2D/AS-3</paragraph>
+                  <paragraph ID="inv-f029c6a8-66b6-45e6-ab86-0c75650bd4fb">
+                     <content styleCode="bold">BLOOD COLLECTION SYSTEM with Nutricel Additive Solution</content>
+                  </paragraph>
+                  <paragraph ID="inv-2bbead5d-307c-4d8b-8320-facebe610ca0">CP2D/AS-3 Double with Sample Diversion Pouch</paragraph>
+                  <paragraph ID="inv-9080b225-28a0-49ef-8d12-3af7a6f36036">For collection of 500 ml of blood and preparation of red blood cells and plasma.</paragraph>
+                  <paragraph ID="inv-e144cf3f-36ab-4dc8-99f7-eabfbd0a6cd9">Each unit consists of a collection bag with 70 ml of CP2D solution, an additive bag with 110 ml of AS-3 solution, and one empty bag. Each 70 ml of CP2D solution contains 3.57 g dextrose (monohydrate), USP; 1.84 g sodium citrate (dihydrate), USP; 0.229 g citric acid (monohydrate), USP; and 0.155 g monobasic sodium phosphate (monohydrate), USP. Each 110 ml of AS-3 solution contains 1.21 g dextrose (monohydrate), USP; 0.647 g sodium citrate (dihydrate), USP; 0.451 g sodium chloride, USP; 0.304 g monobasic sodium phosphate (monohydrate), USP; 0.046 g citric acid (monohydrate), USP; and 0.033 g adenine, USP. </paragraph>
+                  <paragraph ID="inv-9b3760f3-5cf4-478d-9104-22ca2b46448b">Sterile, nonpyrogenic fluid path. Sterilized by steam. See accompanying directions for use. Rx only. Store at room temperature. Unused bags in opened pouches may be kept 30 days by folding and SECURING open end of pouch to prevent possible loss of moisture.</paragraph>
+                  <paragraph ID="inv-6bb28115-5917-44f4-adaf-2c6301650498">3 Units  Code 120-92</paragraph>
+                  <renderMultiMedia ID="ID0EMMAE" referencedObject="mm-78a3ef48-01b0-413d-a643-8eb605fd9576"/>
+               </text>
+               <effectiveTime value="20130813"/>
+               <component>
+                  <observationMedia ID="mm-88989ac5-4cd3-4bf4-820a-75ef075210f9">
+                     <text>FigA</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="FigA.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm-9c908c11-5419-4dea-b799-725bf0cc7632">
+                     <text>FigB</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="FigB.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm-78a3ef48-01b0-413d-a643-8eb605fd9576">
+                     <text>FigC</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="FigC.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-00a62fe5-ca10-4c51-90c4-dd1e2205fea3">
+               <id root="f27839af-a2ce-4ef7-8a63-7e3f56c757f7"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34093-5" displayName="REFERENCES SECTION"/>
+               <title ID="inv-f089942f-b758-44e7-91da-e324533ebb39">REFERENCES</title>
+               <text ID="inv-aea785bb-d92e-4b2e-8e49-e02d1c52a768">
+                  <paragraph ID="inv-e3b68bd6-bea4-453f-9959-cd4441a9271b">HAEMONETICS, <content styleCode="italics">THE</content> Blood Management Company and Nutricel are registered trademarks of Haemonetics Corporation. DonorCare and SampLok are registered trademarks of ITL Corporation, Canberra, Australia.</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-8799920b-78c5-400d-8a18-84d40d0639f4">
+               <id root="a14e8dd4-721b-4a60-a745-4542f3e0f3df"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title ID="inv-2721e00b-6edc-41c7-9c08-335f417b191f">MANUFACTURER</title>
+               <text ID="inv-aa8e347a-46b8-4f8b-a95b-c0aa73b7f284">
+                  <paragraph ID="inv-462d0df5-7f73-41dc-9b3d-09623727f2ca">Manufactured for: Haemonetics Corporation</paragraph>
+                  <paragraph ID="inv-90c15745-dae7-47bd-a736-772aaa25b5fb">400 Wood Road</paragraph>
+                  <paragraph ID="inv-317539c0-692b-460a-a66c-31aab4f1cf07">Braintree, MA 02184, USA</paragraph>
+                  <paragraph ID="inv-75524157-7a1e-42e8-ad32-9903c8cf7c14">By: Haemonetics Manufacturing Inc</paragraph>
+                  <paragraph ID="inv-cf5400f6-f14a-4a12-b02f-ae60c373680c">1630 Industrial Park Street</paragraph>
+                  <paragraph ID="inv-5e9ea5ab-9206-4fc9-86c9-5336c6c1e39d">Covina, CA 91722, USA</paragraph>
+                  <paragraph ID="inv-2013c89c-1771-4f3f-b26d-b42975f980fb">Visit us at www.haemonetics.com</paragraph>
+                  <paragraph ID="inv-e79b1bd3-517f-4079-93b3-8c66224149ba">Phone: 888.489.5938</paragraph>
+               </text>
+               <effectiveTime value="20130813"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

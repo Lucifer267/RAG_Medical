@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f6338465-616d-4018-81ab-188033ae196f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20210326"/>
+   <setId root="b41b73c4-e604-46a7-96b4-073721aa2c1c"/>
+   <versionNumber value="5"/>
+   <author>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="830016429" root="1.3.6.1.4.1.519.1"/>
+            <name>A-S Medication Solutions</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="830016429" root="1.3.6.1.4.1.519.1"/>
+                        <name>A-S Medication Solutions</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="RELABEL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50090-3138" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="47d429a3-1a62-4050-b7fd-0e33dbd4589a"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20161118"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50090-3138" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>
+                  Atropine Sulfate
+                </name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Atropine Sulfate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="76329-3339" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="0.1" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="03J5ZE7KA5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ATROPINE SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7C0697DR9I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ATROPINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="50090-3138-0" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170914"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="UNAPPROVED DRUG OTHER"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20000601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38291" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PARENTERAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf298be64-4be3-4760-8cec-a0ef2462fa2e">
+               <id root="ad86c6af-ed57-4da6-b2f9-253ff605654e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ATROPINE SULFATE</content>
+                     <br/>
+                     <content styleCode="bold">INJECTION, USP</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L751a5d1d-e377-4c7e-ac87-16e986a89436">
+               <id root="cf688b46-5080-4bf7-812c-cf9318551d9b"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Atropine is chemically 1 α H, 5 α H - Tropan-3 α-ol (±) -tropate (ester), with the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L501cabed-e43b-4b41-a04a-9047e381b76d"/>
+                  </paragraph>
+                  <paragraph>Atropine rarely occurs as such in any of the plants and has been prepared by synthesis. It is usually employed in the form of atropine sulfate (the sulfate [2:1] monohydrate salt of atropine), which has much greater solubility in water.</paragraph>
+                  <paragraph>Atropine Sulfate Injection, USP, is a sterile aqueous solution of atropine sulfate. Each mL contains atropine sulfate, 0.1 mg; sodium chloride, 8.8 mg, for isotonicity; citric acid, 0.63 mg, and sodium citrate, 0.29 mg, as buffers. May contain additional citric acid and/or sodium citrate for pH adjustment (3.0-6.5). The air above the liquid in the container has been displaced by nitrogen gas.</paragraph>
+               </text>
+               <effectiveTime value="20150507"/>
+               <component>
+                  <observationMedia ID="L501cabed-e43b-4b41-a04a-9047e381b76d">
+                     <text>Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L1337f07a-49c8-4d21-ba29-695095d7eace">
+               <id root="356abd34-9864-4376-abdc-33c2fedd50cc"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLlNICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Atropine inhibits the muscarinic actions of acetylcholine at postganglionic parasympathetic neuroeffector sites including smooth muscle, secretory glands and CNS sites. Large doses may block nicotinic receptors at the autonomic ganglia and at the neuromuscular junction.</paragraph>
+                  <paragraph>Specific anticholinergic responses are dose-related. Small doses of atropine inhibit salivary and bronchial secretions and sweating; moderate doses dilate the pupil, inhibit accommodation and increase the heart rate (vagolytic effect); larger doses will decrease motility of the GI and urinary tracts; very large doses will inhibit gastric acid secretion.</paragraph>
+               </text>
+               <effectiveTime value="20150507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldf7bfd81-3824-4716-8fe9-1c4806bcff01">
+               <id root="e552c65d-3ecc-413a-8c05-04d78c4e7110"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Atropine Sulfate Injection, USP, may be given parenterally as a pre-anesthetic medication in surgical patients to reduce salivation and bronchial secretions. It may also be used to suppress vagal activity associated with the use of halogenated hydrocarbons during inhalation anesthesia and reflex excitation arising from mechanical stimulation during surgery.</paragraph>
+                  <paragraph>The antispasmodic action of atropine is useful in pylorospasm and other spastic conditions of the gastrointestinal tract. For ureteral and biliary colic, atropine concomitantly with morphine may be indicated.</paragraph>
+                  <paragraph>Atropine relaxes the upper GI tract and colon during hypotonic radiography.</paragraph>
+                  <paragraph>In poisoning by the organic phosphate cholinesterase inhibitors found in certain insecticides and by chemical warfare nerve gases, large doses of atropine relieve the muscarine-like symptoms and some of the central nervous system manifestations. It is also used as an antidote for mushroom poisoning due to muscarine in certain species such as <content styleCode="bold">Amanita muscaria</content>.</paragraph>
+               </text>
+               <effectiveTime value="20150507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2b18201b-9ec8-4063-89bb-58456ee145a9">
+               <id root="62336e38-9807-4391-aa20-a7210f4fc632"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Atropine Sulfate is contraindicated in patients with a history of hypersensitivity to this drug.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Ocular:</content> Narrow-angle glaucoma; adhesions (synechiae) between the iris and lens of the eye.<br/>
+                     <content styleCode="italics">Cardiovascular:</content> Tachycardia; unstable cardiovascular status in acute hemorrhage.<br/>
+                     <content styleCode="italics">GI:</content> Obstructive disease (e.g., achalasia, pyloroduodenal stenosis, or pyloric obstruction, cardiospasm, etc.); paralytic ileus; intestinal atony of the elderly or debilitated patient; severe ulcerative colitis; toxic megacolon complicating ulcerative colitis; hepatic disease.<br/>
+                     <content styleCode="italics">GU:</content> Obstructive uropathy (e.g., bladder neck obstruction due to prostatic hypertrophy); renal disease.<br/>
+                     <content styleCode="italics">Musculoskeletal:</content> Myasthenia gravis.</paragraph>
+               </text>
+               <effectiveTime value="20161118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3280173e-81f3-4cc8-81d9-7d8b500aa1b5">
+               <id root="9fb8af85-8390-4606-a6bf-e4d3e6c1ac44"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Heat prostration</content> can occur with anticholinergic drug use (fever and heat stroke due to decreased sweating) in the presence of a high environmental temperature.</paragraph>
+                  <paragraph>Diarrhea may be an early symptom of incomplete intestinal obstruction, especially in patients with ileostomy or colostomy. Treatment of diarrhea with these drugs is inappropriate and possibly harmful.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Usage in the elderly:</content> Elderly patients may react with excitement, agitation, drowsiness and other untoward manifestations to even small doses of anticholinergic drugs.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Usage in gastric ulcer</content> may produce a delay in gastric emptying time and may complicate such therapy (antral stasis).</paragraph>
+               </text>
+               <effectiveTime value="20161118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf0bba88e-3b40-4d82-9d0b-b81ac59f30b5">
+               <id root="69176051-5174-4fd1-bc71-49407ad0fcc9"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text/>
+               <effectiveTime value="20161118"/>
+               <component>
+                  <section ID="Lf3b0e473-e435-46bf-abf7-d8c43dd375ad">
+                     <id root="def633f0-e69c-4c70-b794-dd1144c44725"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General:</title>
+                     <text>
+                        <paragraph>Potentially hazardous tasks: Atropine may produce drowsiness, dizziness or blurred vision; patients should observe caution while driving or performing other tasks requiring alertness.</paragraph>
+                        <paragraph>Atropine should be used with caution in:<br/>
+                           <content styleCode="italics">CNS:</content> Autonomic neuropathy.<br/>
+                           <content styleCode="italics">Ocular:</content> Glaucoma, light irides. If there is mydriasis and photophobia, dark glasses should be worn. Atropine should be used with caution in patients over 40 years of age because of the increased incidence of glaucoma.<br/>
+                           <content styleCode="italics">GI:</content> Hepatic disease; early evidence of ileus, as in peritonitis; ulcerative colitis (large doses may suppress intestinal motility and precipitate or aggravate toxic megacolon); hiatal hernia associated with reflux esophagitis (anticholinergics may aggravate it).<br/>
+                           <content styleCode="italics">GU:</content> Renal disease; prostatic hypertrophy. Patients with prostatism can have dysuria may require catheterization.<br/>
+                           <content styleCode="italics">Endocrine:</content> Hyperthyroidism.<br/>
+                           <content styleCode="italics">Cardiovascular:</content> Coronary heart disease; congestive heart failure; cardiac arrhythmias; tachycardia; hypertension.<br/>
+                           <content styleCode="italics">Usage in biliary tract disease:</content> The use of atropine should not be relied upon in the presence of complication of biliary tract disease.<br/>
+                           <content styleCode="italics">Special risk patients:</content> Atropine should be used cautiously in infants, small children and persons with Down’s syndrome, brain damage or spasticity.<br/>
+                           <content styleCode="italics">Pulmonary:</content> Debilitated patients with chronic lung disease; reduction in bronchial secretions can lead to inspissation and formation of bronchial plugs.</paragraph>
+                        <paragraph>Atropine should be used cautiously in patients with asthma or allergies.</paragraph>
+                     </text>
+                     <effectiveTime value="20150507"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L7d879bac-750c-49cb-b21d-a93b31d48b05">
+                     <id root="a8deea1d-7e11-49e2-b4ae-d5a31928ada9"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions:</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Antihistamines, antipsychotics, antiparkinson drugs, alphaprodine, buclizine, meperidine, orphenadrine, benzodiazepines</content> and <content styleCode="bold">tricyclic antidepressants</content> may enhance the anticholinergic effects of atropine and its derivatives. <content styleCode="bold">Nitrates, nitrites, alkalinizing agents, primidone, thioxanthenes, methylphenidate, disopyramide, procainamide</content> and <content styleCode="bold">quinidine</content> may also potentiate side effects. <content styleCode="bold">Monoamine oxidase inhibitors</content> block detoxification of atropine, and thus, potentiate its actions. Concurrent long-term therapy with <content styleCode="bold">corticosteroids</content> or <content styleCode="bold">haloperidol</content> may increase intraocular pressure. Atropine may antagonize the miotic actions of cholinesterase inhibitors.</paragraph>
+                        <paragraph>The bronchial relaxation produced by <content styleCode="bold">sympathomimetics</content> is enhanced by atropine.</paragraph>
+                        <paragraph>Inhibition of gastric acid secretion by atropine is antagonized by <content styleCode="bold">guanethidine, histamine</content> and <content styleCode="bold">reserpine</content>.</paragraph>
+                        <paragraph>Because of the potential for adverse effects, atropine should be used cautiously with <content styleCode="bold">digitalis, slow release digoxin </content>
+                           <content styleCode="bold">tablets, cholinergics</content> and <content styleCode="bold">neostigmine</content>.</paragraph>
+                        <paragraph>The I.V. administration of atropine in the presence of <content styleCode="bold">cyclopropane anesthesia</content> can result in ventricular arrhythmias.</paragraph>
+                        <paragraph>Atropine may enhance <content styleCode="bold">nitrofurantoin</content> and <content styleCode="bold">thiazide-diuretic</content> bioavailability by slowing GI motility.</paragraph>
+                        <paragraph>The effects of <content styleCode="bold">metoclopramide</content> on GI motility are antagonized by atropine.</paragraph>
+                     </text>
+                     <effectiveTime value="20161118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L79d53956-62eb-4b19-a6b6-118fa91b7a5a">
+                     <id root="549841ca-bc60-4fb5-bc8a-6876745f1c12"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Usage in Pregnancy:</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Teratogenic Effect - Pregnancy Category B</content>
+                        </paragraph>
+                        <paragraph>Reproduction studies performed in mice at doses of 50 mg per kg of body weight have revealed no evidence of impaired fertility or harm to the fetus due to atropine. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20161118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L03f9be45-8901-4f45-b3c2-7abfa0e62961">
+                     <id root="d3ff69b9-6e4e-4712-b51b-5d6e094d71eb"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>Usage in Lactation:</title>
+                     <text>
+                        <paragraph>Atropine may be excreted in milk, causing infant toxicity, and may reduce breast milk production. Documentation is lacking or conflicting. Safety for use in nursing mothers has not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20150507"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lb3eb862d-be3e-4ed0-aa57-0a28f4e28e0b">
+                     <id root="8db394f8-da64-47a9-b8dc-0285182b8177"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Usage in Children:</title>
+                     <text>
+                        <paragraph>(See <linkHtml href="#La57aa34a-5fd5-4d6a-9619-fc7b55a524f1">DOSAGE AND ADMINISTRATION</linkHtml> recommendations under “Usual Pediatric Dosage”).</paragraph>
+                     </text>
+                     <effectiveTime value="20150507"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L3f0d3ff5-85df-4cc1-a31a-f5742ddcf18e">
+               <id root="49fbd4dd-70ca-406e-968c-b5b45718e564"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">GI:</content> Xerostomia; altered taste perception; nausea; vomiting; dysphagia; heartburn, constipation; bloated feeling; paralytic ileus; gastroesophageal reflux.<br/>
+                     <content styleCode="italics">GU:</content> Urinary hesitancy and retention; impotence.<br/>
+                     <content styleCode="italics">Ocular:</content> Blurred vision; mydriasis; photophobia; cycloplegia; increased intraocular pressure.<br/>
+                     <content styleCode="italics">Cardiovascular:</content> Palpitations; bradycardia (following low doses of atropine); tachycardia (after higher doses).<br/>
+                     <content styleCode="italics">CNS:</content> Headache; flushing; nervousness; drowsiness; weakness; dizziness; insomnia; fever. Elderly patients may exhibit mental confusion or excitement to even small doses. Large doses may produce CNS stimulation (restlessness, tremor).<br/>
+                     <content styleCode="italics">Dermatologic - Hypersensitivity:</content> Severe allergic reactions including anaphylaxis, urticaria and other dermal<br/>manifestations.<br/>
+                     <content styleCode="italics">Other:</content> Suppression of lactation; nasal congestion; decreased sweating. Complete anhidrosis cannot occur because large doses would be required, producing severe side effects from parasympathetic paralysis.</paragraph>
+               </text>
+               <effectiveTime value="20150507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L602b41c7-4749-4a6c-afef-ed0b750cabd9">
+               <id root="360ff778-7725-4732-817e-b9d69a63c60b"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Symptoms:</content>
+                     <br/>
+                     <content styleCode="italics">GI:</content> Dry mouth; dysphagia; vomiting; nausea; abdominal distention.<br/>
+                     <content styleCode="italics">CNS:</content> Theoretically, a curare-like action may occur, i.e., neuromuscular blockade leading to muscular weakness and paralysis.<br/>CNS stimulation; delirium; drowsiness; stupor; fever; dizziness; headache; restlessness; seizures; depression; tremor; hallucinations; ataxia; coma; psychotic behavior; other signs of an acute organic psychosis.<br/>
+                     <content styleCode="italics">Cardiovascular:</content> Circulatory failure; rapid pulse and respiration; tachycardia with weak pulse; hypertension; palpitations.<br/>
+                     <content styleCode="italics">GU:</content> Urinary urgency with difficulty in micturition.<br/>
+                     <content styleCode="italics">Ocular:</content> Blurred vision; photophobia; dilated pupils.<br/>
+                     <content styleCode="italics">Miscellaneous:</content> Leukocytosis, flushed hot dry skin, rash; respiratory failure.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Treatment:</content>
+                     <br/>Administer supportive and symptomatic therapy as indicated.<br/>Physostigmine 1 to 3 mg I.V. has been utilized to reverse anticholinergic effects. However, profound bradycardia, asystole and seizures may occur. The role of physostigmine is not clear; its use should be avoided if other therapeutic agents are successful in reversing cardiac dysrhythmias. Neostigmine methylsulfate 0.5 to 2 mg I.V., repeated as needed, may be given. Diazepam or short-acting barbiturates may control excitement. Hemodialysis is ineffective for atropine poisoning. Hyperpyrexia may be treated with physical cooling measures. If photophobia occurs, the patient may be kept in a dark room.</paragraph>
+               </text>
+               <effectiveTime value="20150507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La57aa34a-5fd5-4d6a-9619-fc7b55a524f1">
+               <id root="d63a9848-80c2-43d4-a0a6-93ce02fc88af"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Usual adult dosage:</content>
+                     <br/>Antimuscarinic: Intramuscular, intravenous, or subcutaneous, 400 to 600 μg (0.4 to 0.6 mg) every four to six hours.<br/>Arrhythmias: Intravenous, 400 μg (0.4 mg) to 1 mg every one to two hours as needed, up to a maximum of 2 mg.<br/>Gastrointestinal radiography: Intramuscular, 1 mg.<br/>Preanesthesia (antisialagogue): Intramuscular, 200 to 600 μg (0.2 to 0.6 mg) one-half to one hour before surgery.<br/>Cholinergic adjunct (curariform block): Intravenous, 600 μg (0.6 mg) to 1.2 mg administered a few minutes before or concurrently with 500 μg (0.5 mg) to 2 mg of neostigmine methylsulfate, using separate syringes.<br/>Antidote (to cholinesterase inhibitors): Intravenous, 2 to 4 mg initially, then 2 mg repeated every five to ten minutes until muscarinic symptoms disappear or signs of atropine toxicity appear.<br/>Antidote (to muscarine in mushroom poisoning): Intramuscular or intravenous, 1 to 2 mg every hour until respiratory effects subside.<br/>Antidote (to organophosphate pesticides): Intramuscular or intravenous 1 to 2 mg, repeated in twenty to thirty minutes as soon as cyanosis has cleared. Continue dosage until definite improvement occurs and is maintained, sometimes for two days or more.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual pediatric dosage</content>
+                     <br/>Antimuscarinic: Subcutaneous, 10 μg (0.01 mg) per kg of body weight, not to exceed 400 μg (0.4 mg), or 300 μg (0.3 mg) per square meter of body surface, every four to six hours.<br/>Arrhythmias: Intravenous, 10 to 30 μg (0.01 to 0.03 mg) per kg of body weight.<br/>Preanesthesia (antisialagogue): or<br/>Preanesthesia (antiarrhythmic): Subcutaneous–<br/>Children weighing up to 3 kg: 100 μg (0.1 mg).<br/>Children weighing 7 to 9 kg: 200 μg (0.2 mg).<br/>Children weighing 12 to 16 kg: 300 μg (0.3 mg).<br/>Children weighing 20 to 27 kg: 400 μg (0.4 mg).<br/>Children weighing 32 kg: 500 μg (0.5 mg).<br/>Children weighing 41 kg; 600 μg (0.6 mg).<br/>Antidote (to cholinesterase inhibitors): Intravenous or intramuscular, 1 mg initially, then 0.5 to 1 mg every five to ten minutes until muscarinic symptoms disappear or signs of atropine toxicity appear.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NOTE: Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L79cd6088-7d97-4b21-a1d8-2c0794f1b705">
+               <id root="6df1fe14-60b3-41b0-bc2f-4fef59005e43"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Product:    50090-3138</paragraph>
+                  <paragraph>NDC:    50090-3138-0   10 mL in a SYRINGE   /  10  in a  CARTON </paragraph>
+               </text>
+               <effectiveTime value="20210326"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b39dc4ba-90e5-4941-95ac-12182556398a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Atropine Sulfate</title>
+               <text>
+                  <renderMultiMedia referencedObject="lbl500903138"/>
+               </text>
+               <effectiveTime value="20210326"/>
+               <component>
+                  <observationMedia ID="lbl500903138">
+                     <text>Label Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl500903138.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9eede347-6a07-6efd-e053-2995a90a9d8d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20200219"/>
+   <setId root="06af24a7-5779-4ef9-a066-b78b52898457"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="023524538"/>
+            <name>Nexco Pharma</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="023524538"/>
+                  <name>Nexco Pharma</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9eedef6c-2c1a-0c1d-e053-2a95a90ac5cd"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200219"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="10530-319" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NEXAVIR</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>liver derivative complex</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="339NCG44TV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="25.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6EC706HI7F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PORK LIVER</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6EC706HI7F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PORK LIVER</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="10530-319-07" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43210" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, MULTI-DOSE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20200219"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200219"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="brown" xsi:type="CE">
+                              <originalText>brown solution</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb0ecbb10-4d9d-4a20-b692-7e90162ed50c">
+               <id root="9eede347-6a08-6efd-e053-2995a90a9d8d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION:</title>
+               <text>
+                  <paragraph>NEXAVIR
+       
+ 
+  <sup>®</sup> Injection (liver derivative complex) is a sterile solution containing 25.5mg liver derivative complex per ml in sterile water for injection.
+      
+
+ </paragraph>
+                  <paragraph>
+                     <br/>NEXAVIR
+       
+ 
+  <sup>®</sup> Injection is composed of peptides and amino acids. The product contains no protein and does not exhibit anti-anemia activity.
+      
+
+ </paragraph>
+                  <paragraph>
+                     <br/>NEXAVIR
+       
+ 
+  <sup>®</sup> Injection also contains as inactive ingredients: phenol 0.5%, sterile water for Injection, pH is adjusted with hydrochloric acid or sodium hydroxide when necessary.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20191112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le450062e-6bdd-49f4-968a-068fa0ff82a7">
+               <id root="9eede347-6a09-6efd-e053-2995a90a9d8d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOI.OGY:</title>
+               <text>
+                  <paragraph>The specific action of NEXAVIR
+       
+ 
+  <sup>®</sup> is to enhance the resolution of inflammation and edema. In the late 1920's, it was demonstrated that liver was of benefit to patients suffering from acne vulgaris.
+       
+ 
+  <sup>1</sup> As a consequence, various techniques were employed for isolating the active "factor" from liver. Studies published in the late 1930's and early 1940's
+       
+ 
+  <sup>2,3,4</sup> showed activity in a specially purified liver fraction. During subsequent years, refinements in the isolation of the active material led to the marketing of NEXAVIR
+       
+ 
+  <sup>®</sup>.
+      
+
+ </paragraph>
+                  <paragraph>
+                     <br/>Initially it was thought that the primary action of NEXAVIR
+       
+ 
+  <sup>®</sup> was on the capillaries and precapillary sphincters. However, it is now believed that this effect is a secondary one and that the primary action of NEXAVIR
+       
+ 
+  <sup>®</sup> is in response to injury at the cellular level. The capillary changes observed following administration of NEXAVIR
+       
+ 
+  <sup>®</sup> appear to be part of a more fundamental anti-inflammatory effect. In the normal animal, no consistent pharmacodynamic action has been demonstrated for NEXAVIR
+       
+ 
+  <sup>®</sup>. In particular, there is no effect on systemic blood pressure, no action on the autonomic nervous system and no alteration in prothrombin, coagulation or bleeding times. It is concluded that the specific action of the product is only apparent when tissues have been subjected to injury and when inflammation and edema are present.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20191112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L16d9e65a-dde8-42ea-a1dd-07ecfa2c26e6">
+               <id root="9eede347-6a0a-6efd-e053-2995a90a9d8d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE:</title>
+               <text>
+                  <paragraph>A wide range of dermatological clinical conditions benefit from NEXAVIR
+       
+ 
+  <sup>®</sup> therapy. The common denominator in these varied conditions is the presence of inflammation and edema. Favourable responses to the administration of NEXAVIR
+       
+ 
+  <sup>®</sup> in patients with acne vulgaris 
+       
+ 
+  <sup>5,6,7,8,</sup> herpes zoster, "poison ivy" dermatitis, pityriasis rosea, seborrheic dermatitis, urticaria and eczema 
+       
+ 
+  <sup>9,10,11</sup>, severe sunburn
+       
+ 
+  <sup>12</sup> and rosacea
+       
+ 
+  <sup>13</sup> have been reported.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20191112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L94220928-ccb1-4eac-9dac-63cd1ccfd3e5">
+               <id root="9eede347-6a0b-6efd-e053-2995a90a9d8d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS:</title>
+               <text>
+                  <paragraph>Contraindicated in patients with hypersensitivity or intolerance to liver or pork products.</paragraph>
+               </text>
+               <effectiveTime value="20191112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0df24dec-9b67-4b32-91d6-2ecec62bd43c">
+               <id root="9eede347-6a0c-6efd-e053-2995a90a9d8d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNING:</title>
+               <text>
+                  <paragraph>Use with caution in patients suspected of being hypersensitive to liver or with other allergic diatheses.</paragraph>
+               </text>
+               <effectiveTime value="20191112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1f8def42-e21e-4533-9483-f1ba023ce316">
+               <id root="9eede347-6a0d-6efd-e053-2995a90a9d8d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Drug Interactions:</content>
+                     </content>
+                     <br/>NEXAVIR
+       
+ 
+  <sup>®</sup> contains tyramine and should not be administered to patients taking MAO inhibitors because hypertensive crisis may occur.
+      
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics"/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Carcinogenesis, Mutagenesis, Impairment of Fertility:</content>
+                     </content>
+                     <br/>No long-term animal studies have examined the carcinogenic or mutagenic potential of NEXAVIR
+       
+ 
+  <sup>®</sup>. NEXAVIR
+       
+ 
+  <sup>®</sup>s effect upon reproductive capacity is similarly unknown.
+      
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Pregnancy- Pregnancy Category C:</content>
+                     </content>
+                     <br/>Animal reproduction studies have not been conducted with NEXAVIR
+       
+ 
+  <sup>®</sup>. It is also not known whether NEXAVIR
+       
+ 
+  <sup>®</sup> can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. NEXAVIR
+       
+ 
+  <sup>®</sup> should be given to a pregnant woman only if clearly needed.
+      
+
+ </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Nursing Mothers:</content>
+                     </content>
+                     <br/>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when NEXAVIR
+       
+ 
+  <sup>®</sup> is administered to a nursing woman.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20191112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbc34ac6f-40c2-42b7-8135-52d6e8cf79e7">
+               <id root="9eede347-6a0e-6efd-e053-2995a90a9d8d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS:</title>
+               <text>
+                  <paragraph>As with all Injectable medications, local reactions may occur. Local reactions may include pain. rash, stinging, swelling, and erythema.</paragraph>
+               </text>
+               <effectiveTime value="20191112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc168d6d2-cc73-4419-a1fc-d8170be3feda">
+               <id root="9eede347-6a0f-6efd-e053-2995a90a9d8d"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE:</title>
+               <text>
+                  <paragraph>The Information on drug abuse and dependence is limited to uncontrolled data derived from marketing experience. Such experience has revealed no evidence of drug abuse and dependence associated with NEXAVIR
+       
+ 
+  <sup>®</sup> Injection.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20191112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L72fe9c57-011e-49de-a56a-791ed69e7977">
+               <id root="9eede347-6a10-6efd-e053-2995a90a9d8d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION:</title>
+               <text>
+                  <paragraph>For the management of skin disorders, the usual dose of NEXAVIR
+       
+ 
+  <sup>®</sup> is 2 ml administered daily or as indicated. The product is given by intramuscular or subcutaneous injection only.
+      
+
+ </paragraph>
+                  <paragraph>
+                     <br/>As with all parenteral drug products, NEXAVIR
+       
+ 
+  <sup>®</sup> should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20191112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3bb12553-3396-463b-9800-f7fb94f72da2">
+               <id root="9eede347-6a11-6efd-e053-2995a90a9d8d"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED:</title>
+               <text>
+                  <paragraph>NEXAVIR
+       
+ 
+  <sup>®</sup> Injection (liver derivative complex, 25.5 mg/mL) is a sterile, brown solution
+       
+ 
+  <br/>20 ml multiple dose vial NDC 10530-319-07
+      
+
+ </paragraph>
+                  <paragraph>
+                     <br/>Store at controlled room temperature 15°-30°C (59°-86°F)
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20200219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L98aee719-be69-4c21-88d9-06e552719454">
+               <id root="9eede347-6a12-6efd-e053-2995a90a9d8d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content> Nexco Pharma, 10072 S. Ocean Drive, Suite 7N, Jensen Beach, Florida, 34957 (34957-2556)
+       
+ 
+  <br/>
+                     <content styleCode="bold">Manufactured By:</content> Maitland Labs, Florida, USA
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20200219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L817f9c40-0cb2-4bfe-8d4a-919de28ca7b7">
+               <id root="9eede347-6a13-6efd-e053-2995a90a9d8d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Other information</title>
+               <text>
+                  <paragraph>Tel: +1-772-229-2992
+       
+ 
+  <br/>Email: nexco@nexco-pharma.com
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20200219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L705c169a-cd46-4835-9db9-5584a8667758">
+               <id root="9eede347-6a14-6efd-e053-2995a90a9d8d"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES:</title>
+               <text>
+                  <paragraph>1. Sutton, R.L :. Liver Diets in Acne Vulgaris and in Furunculosis, Arch. Derm &amp; Syph., 18:887, 1928. See also; Sutton, R.L, and Sutton, Jr, R.L.: Disease of the Skin, C.V. Mosby CO., St. Louis, 1939.
+       
+ 
+  <br/>2. Marshall, V.: Further Studies on the Therapy of Acne Vulgaris with Modified Liver Extract. J . Invest. Derm.2:205, 1939.
+       
+ 
+  <br/>3. Lichtenstein, M.A. and Stillians. A.W.: Liver Extract In Treatment of Acne Vulgaris in Tuberculosis Patients, Arch. Derm.&amp; Syph.,45:959, 1942.
+       
+ 
+  <br/>4. Boreen, C.A.: Boiled Liver In the Treatment of Acne Vulgaris, Minn. Med.,25:276, 1942.
+       
+ 
+  <br/>5. Nierman, M.M.: Treatment of Cystic Acne Vulgaris with a Cutaneous Vasoconstrictor (Kutapressin) The Jour. of Ind. State Med. . Ass.n. 45:497,1952.
+       
+ 
+  <br/>6. Knox. J.M.: Treatment of Cystic Acne with Kutapressin, U.S.N. News Letter, 20:9, 1952.
+       
+ 
+  <br/>7. Lubowe, L.: Modern Treatment of Acne Vulgaris, Clin. Med. 59:8, 1952.
+       
+ 
+  <br/>8. Pensky, N. and Goldber, N.: Treatment of Refractory Acne with Fractionated Type of Liver Extract, N.Y. State Jour. of Med. 53:2238, Oct. 1953
+       
+ 
+  <br/>9. Burks, J.L, Jr.: The Modern Treatment of Acne Vulgaris, Jour. La. State Med. Soc. 106:92, 1954.
+       
+ 
+  <br/>10. Burks,J. W and Knox, J.M.: S-Factor of Liver Extract In Acne Vulgaris, A.M.A. Archives of Derm. &amp; Syphil., 70:508, 1954.
+       
+ 
+  <br/>11. Barksdale, E. E.: The Use of S-Factor of Liver Extract (Kutapressin) in Dermatology, South. Med, Jour., 50:1524, 1957.
+       
+ 
+  <br/>12. Heywood, H. W.: Use of Kutapressin in the treatment of Severe Sunburn, Clin. Med. 3:8, 1956.
+       
+ 
+  <br/>13. Berrock, J.J.: Rosacea, Medical Times, 86:968, 1958
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20191112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2366b8c0-739a-4595-b7c5-78e364a6f926">
+               <id root="9eede347-6a15-6efd-e053-2995a90a9d8d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>NDC 10530-319-07</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nexavir Injection</content>
+                  </paragraph>
+                  <paragraph>20 mL multiple dose vial</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lede3c72f-4a8a-41f8-bdeb-89d23a6cc50f"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200219"/>
+               <component>
+                  <observationMedia ID="Lede3c72f-4a8a-41f8-bdeb-89d23a6cc50f">
+                     <text>label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="nexavir-inj.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

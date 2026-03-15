@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7436cc22-e6a5-cb4f-e053-2a91aa0af764"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>1118</title>
+   <effectiveTime value="20180824"/>
+   <setId root="7436cc22-e6a4-cb4f-e053-2a91aa0af764"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+            <name>H.J. Harkins Company, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+                        <name>H.J. Harkins Company, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="76519-1118" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="76519-1118" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="76519-1118" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="7470482e-df6e-2635-e053-2991aa0a53e7"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20180824"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="76519-1118" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TETRACAINE HYDROCHLORIDE</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>TETRACAINE HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5NF5D4OPCI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TETRACAINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="0619F35CGV" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TETRACAINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76519-1118-5" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160128"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160128"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_746ef922-2580-4dfd-e053-2991aa0a75cb">
+               <id root="746ef922-257f-4dfd-e053-2991aa0a75cb"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Tetracaine Hydrochloride is a sterile aqueous topical anesthetic ophthalmic solution. The active ingredient is represented by the chemical structure:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_746f22fb-72a7-1c59-e053-2a91aa0a9f29"/>
+                  </paragraph>
+                  <paragraph>C15H24N2O2·HCI 
+  <br/>
+Mol. wt. 300.83
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Benzoic acid, 4-[butylamino]-, 2-[dimethylamino]ethyl ester, monohydrochloride.</paragraph>
+                  <paragraph/>
+                  <paragraph>EACH mL CONTAINS: ACTIVE: Tetracaine Hydrochloride 5 mg (0.5%); INACTIVES: Boric Acid, Potassium Chloride, Edetate Disodium and Purified Water. Sodium Hydroxide and/or Hydrochloric Acid may be added to adjust pH (3.7 - 6.0). PRESERVATIVE ADDED: Chlorobutanol 0.4%.</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+               <component>
+                  <observationMedia ID="img_746f22fb-72a7-1c59-e053-2a91aa0a9f29">
+                     <text>image</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_746ef922-2582-4dfd-e053-2991aa0a75cb">
+               <id root="746ef922-2581-4dfd-e053-2991aa0a75cb"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Topical anesthetics stabilize the neuronal membrane and prevent the initiation and transmission of nerve impulses, thereby effecting local anesthesia. The onset of anesthesia usually begins within 30 seconds and lasts a relatively short period of time.</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_746f2942-a620-2bee-e053-2991aa0af113">
+               <id root="746f2942-a61f-2bee-e053-2991aa0af113"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>For procedures in which a rapid and short-acting topical ophthalmic anesthetic is indicated such as in tonometry, gonioscopy, removal of corneal foreign bodies, conjunctival scraping for diagnostic purposes, suture removal from the cornea, other short corneal and conjunctival procedures.</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_746f2d71-6d1d-90fb-e053-2a91aa0a9c2b">
+               <id root="746f2d71-6d1c-90fb-e053-2a91aa0a9c2b"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Should not be used by the patient without physician supervision, or in those persons showing hypersensitivity to any component of this preparation. This product should never be prescribed for the patient’s own use.</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_746f2f4c-0290-a06a-e053-2991aa0a3f52">
+               <id root="746f2f4c-028f-a06a-e053-2991aa0a3f52"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>Prolonged use results in diminished duration of anesthesia and retarded healing. This may cause the drug to be used more frequently creating a “vicious circle.” Subsequent corneal infection and/or corneal opacification with accompanying permanent visual loss or corneal perforation may occur.</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_746f2f4c-0292-a06a-e053-2991aa0a3f52">
+               <id root="746f2d71-6d1e-90fb-e053-2a91aa0a9c2b"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>FOR TOPICAL USE ONLY—NOT FOR INJECTION. To prevent contaminating the dropper tip and solution, care should be taken not to touch the eyelids or surrounding area with the dropper tip. Patient should be advised not to touch or rub the eye(s) until the effect of the anesthetic has worn off.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="underline">Information to the Patient:</content>
+                  </paragraph>
+                  <paragraph>After instillation of this product, the surface of the eye is insensitive and can be scratched without feeling it. Do not rub eye. Do not instill this product repeatedly because severe eye damage may occur.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">DO NOT USE IF SOLUTION CONTAINS CRYSTALS, OR IS CLOUDY OR DISCOLORED.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_746f2f4c-0295-a06a-e053-2991aa0a3f52">
+               <id root="746f2f4c-0294-a06a-e053-2991aa0a3f52"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>Transient symptoms (signs) such as stinging, burning and conjunctival redness may occur. A rare, severe, immediate allergic cornea reaction has been reported, characterized by acute diffuse epithelial keratitis with filament formation and/or sloughing of large areas of necrotic epithelium, diffuse stromal edema, descemetitis and iritis.</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_746f2f4c-0297-a06a-e053-2991aa0a3f52">
+               <id root="746f2f4c-0296-a06a-e053-2991aa0a3f52"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>For tonometry and other procedures of short duration, instill one or two drops just prior to evaluation. For minor surgical procedures such as foreign body or suture removal, administer one to two drops every five to ten minutes for one to three instillations. For prolonged anesthesia as in cataract extraction, instill one or two drops in the eye(s) every five to ten minutes for three to five doses.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_746f2d71-6d20-90fb-e053-2a91aa0a9c2b"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+               <component>
+                  <observationMedia ID="img_746f2d71-6d20-90fb-e053-2a91aa0a9c2b">
+                     <text>image-1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_746f2f4c-0299-a06a-e053-2991aa0a3f52">
+               <id root="746f2f4c-0298-a06a-e053-2991aa0a3f52"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Tetracaine Hydrochloride Ophthalmic Solution USP, 0.5% is supplied in a plastic bottle with a controlled drop tip in the following size:</paragraph>
+                  <paragraph/>
+                  <paragraph>15 mL</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_746f2f4c-029b-a06a-e053-2991aa0a3f52">
+               <id root="746f2f4c-029a-a06a-e053-2991aa0a3f52"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Store between 15°-25°C (59°-77°F).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">KEEP TIGHTLY CLOSED.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">KEEP OUT OF REACH OF CHILDREN.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_746f2d71-6d22-90fb-e053-2a91aa0a9c2b">
+               <id root="746f2d71-6d21-90fb-e053-2a91aa0a9c2b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_746f2f4c-029c-a06a-e053-2991aa0a3f52"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+               <component>
+                  <observationMedia ID="img_746f2f4c-029c-a06a-e053-2991aa0a3f52">
+                     <text>label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="76519-1118 PPAC LABEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

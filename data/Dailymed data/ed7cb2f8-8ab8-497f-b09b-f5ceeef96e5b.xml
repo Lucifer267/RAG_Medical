@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ed7cb2f8-8ab8-497f-b09b-f5ceeef96e5b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20210119"/>
+   <setId root="b7e75a9c-d7d1-4cb9-b09e-26597d73f1ff"/>
+   <versionNumber value="4"/>
+   <author>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="217504463"/>
+            <name>Bray Group Limited</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="217504463"/>
+                  <name>Bray Group Limited</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="217504463"/>
+                        <name>Bray Group Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="65875-101" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="fe7e306b-a6dd-4b3f-9780-114dfcd35b74"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20180718"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="65875-101" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Avoca Flexible Caustic Applicator</name>
+                        <formCode code="C42991" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STICK"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Silver Nitrate Applicator</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="10" unit="mg"/>
+                              <denominator value="40" unit="mg"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="RU45X2JN0Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM NITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="30" unit="mg"/>
+                              <denominator value="40" unit="mg"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="95IT3W8JZE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILVER NITRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="57N7B0K90A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SILVER CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="4000" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="65875-101-09" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" displayName="BOX" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19250401"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19250401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L4c3559e1-4b62-4a6e-9c44-fb8c3d3de0b6">
+               <id root="427a8b32-d12e-4c1c-8e47-91354a414ad9"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage &amp; Administration</title>
+               <text>
+                  <paragraph>Prior to use, the applicator stick may be bent or shaped to allow easier access to the target area. The medicated end of the applicator should be moistened in clean water and applied to the affected tissue. One applicator is normally sufficient for each application. The strength of the action is controlled by the amount of water used to moisten the tip. The applicator action can be stopped by washing the area with a saline solution (0.9% sodium chloride).</paragraph>
+               </text>
+               <effectiveTime value="20180718"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L28e84320-6dba-4695-92f5-f7b2e546f90c">
+               <id root="0d555243-541d-4e12-90d9-fad43bc86a74"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Uses</title>
+               <text>
+                  <paragraph>Caustic applicators are useful for cauterization of skin or mucous membrane and for the removal of granulation tissue, warts and verrucae.</paragraph>
+               </text>
+               <effectiveTime value="20180718"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L134833b2-0360-43f9-9b4b-5c4d12b10312">
+               <id root="eca4d462-038a-483c-a6ee-8133d8adf2c6"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>Contraindications &amp; Antidotes</title>
+               <text>
+                  <paragraph>Caustic applicators must not be used for genital warts. Continued application to mucous membranes and open wounds leads to argyria, a bluish-black discoloration of the skin due to depositions of granules of silver compounds in the connective tissues. This condition persists indefinitely or disappears very slowly. Poisoning by oral ingestion is unlikely with the quantities involved, but treatment for poisoning is the immediate ingestion of large amounts of salt water followed by an emetic. Then administer a dose of Epsom Salts followed with milk. Immediately call a physician.</paragraph>
+               </text>
+               <effectiveTime value="20180718"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldb13a6f7-a156-4bab-9411-8b2885cf11be">
+               <id root="34a263ba-6d30-406c-b8c3-6f61f4a2d4ce"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>Caution</title>
+               <text>
+                  <paragraph>KEEP OUT OF REACH OF CHILDREN. DO NOT USE ON OR NEAR EYES.</paragraph>
+               </text>
+               <effectiveTime value="20180718"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8d5a3722-29bf-4a8c-b324-8030532e5775">
+               <id root="3f42b5ec-87d2-4623-b998-93d792a732b2"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Storage</title>
+               <text>
+                  <paragraph>Store at room temperature in the closed package, in a dry place protected from light. Exposure to light will cause the silver nitrate tip to turn black, but will not affect the product's potency. Not made with natural rubber latex.</paragraph>
+               </text>
+               <effectiveTime value="20210119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6e2391e6-229e-45e8-a463-10db63b85313">
+               <id root="0bc27162-fb75-457b-9861-a2674a0bccad"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>Image of label02:<renderMultiMedia referencedObject="L9b203175-15f2-4917-85b4-318b8ce8f5eb"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20210119"/>
+               <component>
+                  <observationMedia ID="L9b203175-15f2-4917-85b4-318b8ce8f5eb">
+                     <text>Flexible Caustic Applicator 6”</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="label02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

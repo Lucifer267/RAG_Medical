@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="0af35e27-d4d7-4fed-9a51-8bd35bfe839e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20140618"/>
+   <setId root="ac36ddf8-a9d7-4f62-9703-57a7a7627512"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079124340"/>
+                        <name>EPM Packaging</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-530" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="683b2501-c9a1-431e-9f31-7a5d611face9"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140616"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-530" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Clindamycin hydrochloride</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Clindamycin hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="65862-186" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="300" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="T20OQ1YN1W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CLINDAMYCIN HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3U02EL437C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CLINDAMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-530-24" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065442" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48333" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="blue" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="capsule" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="21" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">C;40</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L2f49544a-2f82-48e4-9180-882023ec1f33">
+               <id root="8afbf9b3-34a0-45c0-b3d3-729fa92e5d1d"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>Patient Information</title>
+               <text>
+                  <paragraph>Patients should be counseled that antibacterial drugs, including clindamycin hydrochloride, should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When clindamycin hydrochloride is pre­scribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effec­tiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by clindamycin hydrochloride or other antibacte­rial drugs in the future.</paragraph>
+                  <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.Laboratory Tests</paragraph>
+                  <paragraph>During prolonged therapy, periodic liver and kidney function tests and blood counts should be performed.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>Clindamycin has been shown to have neuromuscular blocking properties that may enhance the action of other neuromuscular blocking agents. Therefore, it should be used with caution in patients receiving such agents.</paragraph>
+                  <paragraph>Antagonism has been demonstrated between clindamycin and erythromycin in vitro. Because of possible clinical significance, these two drugs should not be administered concurrently.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>Long-term studies in animals have not been per­formed with clindamycin to evaluate carcinogenic poten­tial. Genotoxicity tests performed included a rat micronucleus test and an Ames Salmonella reversion test. Both tests were negative.</paragraph>
+                  <paragraph>Fertility studies in rats treated orally with up to 300 mg/kg/day (approximately 1.6 times the highest rec­ommended adult human dose based on mg/m2) revealed no effects on fertility or mating ability.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Teratogenic Effects</paragraph>
+                  <paragraph>Pregnancy Category B</paragraph>
+                  <paragraph>Reproduction studies performed in rats and mice using oral doses of clindamycin up to 600 mg/kg/day (3.2 and 1.6 times the highest recommended adult human dose based on mg/m2, respectively) or subcuta­neous doses of clindamycin up to 250 mg/kg/day (1.3 and 0.7 times the highest recommended adult human dose based on mg/m2, respectively) revealed no evi­dence of teratogenicity.</paragraph>
+                  <paragraph>There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduc­tion studies are not always predictive of the human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>Clindamycin has been reported to appear in breast milk in the range of 0.7 to 3.8 mcg/mL.</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>When clindamycin hydrochloride is administered to the pediatric population (birth to 16 years), appropriate monitoring of organ system functions is desirable.</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>Clinical studies of clindamycin did not include suffi­cient numbers of patients age 65 and over to determine whether they respond differently from younger patients. However, other reported clinical experience indicates that antibiotic-associated colitis and diarrhea (due to Clostridium difficile) seen in association with most anti­biotics occur more frequently in the elderly (&gt;60 years) and may be more severe. These patients should be carefully monitored for the development of diarrhea.</paragraph>
+                  <paragraph>Pharmacokinetic studies with clindamycin have shown no clinically important differences between young and elderly subjects with normal hepatic function and normal (age-adjusted) renal function after oral or intravenous administration.</paragraph>
+               </text>
+               <effectiveTime value="20140616"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L80567582-fe72-4573-9014-9dd864038e85">
+               <id root="a03fec7b-0299-481f-87ce-b5f33d1b4346"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions</title>
+               <text>
+                  <paragraph>ADVERSE REACTIONS</paragraph>
+                  <paragraph>The following reactions have been reported with the use of clindamycin.</paragraph>
+                  <paragraph>Gastrointestinal: Abdominal pain, pseudomembranous colitis, esophagitis, nausea, vomiting, and diarrhea. The onset of pseudomembranous coli­tis symptoms may occur during or after antibacterial treatment.</paragraph>
+                  <paragraph>Hypersensitivity Reactions: Generalized mild to moder­ate morbilliform-like (maculopapular) skin rashes are the most frequently reported adverse reactions.</paragraph>
+                  <paragraph>Vesiculobullous rashes, as well as urticaria, have been observed during drug therapy. Rare instances of erythema multiforme, some resembling Stevens-Johnson syndrome, and a few cases of anaphylactoid reactions have also been reported.</paragraph>
+                  <paragraph>Skin and Mucous Membranes: Pruritus, vaginitis, and rare instances of exfoliative dermatitis have been reported. </paragraph>
+                  <paragraph>Liver: Jaundice and abnormalities in liver function tests have been observed during clindamycin therapy.</paragraph>
+                  <paragraph>Renal: Although no direct relationship of clindamycin to renal damage has been established, renal dysfunc­tion as evidenced by azotemia, oliguria, and/or proteinuria has been observed in rare instances.</paragraph>
+                  <paragraph>Hematopoietic: Transient neutropenia (leukopenia) and eosinophilia have been reported. Reports of agranulocytosis and thrombocytopenia have been made. No direct etiologic relationship to concurrent clindamycin therapy could be made in any of the foregoing.</paragraph>
+                  <paragraph>Musculoskeletal: Rare instances of polyarthritis have been reported</paragraph>
+               </text>
+               <effectiveTime value="20140616"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La4075ac8-a262-4233-b6de-1201c88e11a8">
+               <id root="8bf5c9a1-efd3-45ec-a49d-04ac413c86e7"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>If significant diarrhea occurs during therapy, this antibiotic should be discontinued.</paragraph>
+                  <paragraph>Adults</paragraph>
+                  <paragraph>Serious infections—150 to 300 mg every 6 hours. More severe infections—300 to 450 mg every 6 hours.</paragraph>
+                  <paragraph>Pediatric Patients</paragraph>
+                  <paragraph>Serious infections—8 to 16 mg/kg/day (4 to 8 mg/lb/day) divided into three or four equal doses. More severe infections—16 to 20 mg/kg/day (8 to 10 mg/lb/day) divided into three or four equal doses.</paragraph>
+                  <paragraph>To avoid the possibility of esophageal irritation, clindamycin hydrochloride capsules should be taken with a full glass of water.</paragraph>
+                  <paragraph>Serious infections due to anaerobic bacteria are usu­ally treated with clindamycin injection. However, in clinically appropriate circum­stances, the physician may elect to initiate treatment or continue treatment with clindamycin hydrochloride capsules.</paragraph>
+                  <paragraph>In cases of β-hemolytic streptococcal infections, treat­ment should continue for at least 10 days.</paragraph>
+               </text>
+               <effectiveTime value="20140616"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9c80a995-aedb-41bb-a842-6b6468edb656">
+               <id root="a0bfb754-4713-493b-8df5-9285b456eaa7"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Label Display</title>
+               <text>
+                  <paragraph>NDC: 51655-0530-24</paragraph>
+                  <paragraph>CLINDAMYCIN HCL 300MG</paragraph>
+                  <paragraph>30 Capsules</paragraph>
+                  <paragraph>Lot:                        Exp:                    Rx only</paragraph>
+                  <paragraph>Store at 20C to 25C (68-77F)</paragraph>
+                  <paragraph>Keep out of reach of children.  Dosage: See package insert</paragraph>
+                  <paragraph>Manufactured by: Aurobindo Pharma Limited</paragraph>
+                  <paragraph>Manufacture Address: Hyderabad-500-072, India</paragraph>
+                  <paragraph>Manufacture NDC: 65862-186-01   Mfg. Lot: CU3014003A</paragraph>
+                  <paragraph>Distributed by Northwind Pharmaceuticals Indianapolis, IN 46256</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L5d6d31fa-2bc1-45f1-a1c3-8f11bdc105af"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20140616"/>
+               <component>
+                  <observationMedia ID="L5d6d31fa-2bc1-45f1-a1c3-8f11bdc105af">
+                     <text>Clindamycin HCL 51655-530</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Cllindamycin HCL 51655-530.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1f27bd46-5dde-4b2e-88c0-b450f4b94b84"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Nifedipine<br/>Extended-release Tablets, USP<br/>30 mg, 60 mg and 90 mg</title>
+   <effectiveTime value="20110103"/>
+   <setId root="1f27bd46-5dde-4b2e-88c0-b450f4b94b84"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="118802834" root="1.3.6.1.4.1.519.1"/>
+            <name>Rebel Distributors Corp</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="118802834" root="1.3.6.1.4.1.519.1"/>
+                        <name>Rebel Distributors Corp</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ff2667cc-2bc3-48c6-87b6-a3c7279bfae5"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20060510"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="21695-908"/>
+                        <name>nifedipine</name>
+                        <formCode code="C42930" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED, EXTENDED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>nifedipine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="62175-260" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="30" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="I9ZF7L6G2L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NIFEDIPINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="I9ZF7L6G2L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NIFEDIPINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1">
+                                 <translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                              </numerator>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="21695-908-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA077127" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20051121"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48328" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PINK"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="9" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND">
+                              <originalText>Biconvex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">KU;260</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_ba49fa42-b30a-44f9-93cb-738589deaf29">
+               <id root="5f303245-5868-475f-b148-b0a12fa10dc8"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">For Oral Use</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20060510"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_ae760f5e-0293-443c-ae5e-14bbc6bdd873">
+               <id root="dd60e045-da75-47d8-93c3-97832d1d6280"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Nifedipine is a drug belonging to a class of pharmacological agents known as the calcium channel blockers. Nifedipine is 3,5-pyridinedicarboxylic acid, 1,4-dihydro-2,6-dimethyl-4-(2-nitrophenyl)-, dimethyl ester, C<sub>17</sub>H<sub>18</sub>N<sub>2</sub>O<sub>6</sub>, and has the structural formula:</paragraph>
+                  <paragraph>Nifedipine is a yellow crystalline substance, practically insoluble in water but soluble in ethanol. It has a molecular weight of 346.33. Nifedipine Extended-release Tablet is formulated as a once-a-day extended-release tablet for oral administration designed to deliver 30, 60, or 90 mg of nifedipine.</paragraph>
+                  <paragraph>Inert ingredients in the formulations are: black iron oxide; cellulose acetate; colloidal silicon dioxide; hypromellose; lactose monohydrate; magnesium stearate; microcrystalline cellulose; polyethylene glycol; polyethylene oxide; polysorbate; povidone; propylene glycol; red ferric oxide; sodium chloride; titanium dioxide; triacetin.</paragraph>
+               </text>
+               <effectiveTime value="20060510"/>
+               <component>
+                  <section ID="i4i_section_id_5ccf26f5-f96e-476b-98ef-a96f899032b2">
+                     <id root="48b78b8a-7318-404d-935a-19ecbcda6103"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>System Components and Performance</title>
+                     <text>
+                        <paragraph>Nifedipine Extended-release Tablet is similar in appearance to a conventional tablet. It consists, however, of a semipermeable membrane surrounding an osmotically active drug core. As water from the gastrointestinal tract enters the tablet, pressure increases in the core of the tablet, releasing drug through the precision laser-drilled tablet orifice in the one side of the tablet.</paragraph>
+                        <paragraph>Nifedipine Extended-release Tablet is designed to provide nifedipine at an approximately constant rate over 24 hours. This controlled rate of drug delivery into the gastrointestinal lumen is independent of pH or gastrointestinal motility. </paragraph>
+                        <paragraph>Nifedipine Extended-release Tablet depends for its action on the existence of an osmotic gradient between the contents of the tablet core and fluid in the GI tract. Drug delivery is essentially constant as long as the osmotic gradient remains constant, and then gradually falls to zero. Upon swallowing, the biologically inert components of the tablet remain intact during GI transit and are eliminated in the feces as an insoluble shell.</paragraph>
+                        <paragraph>USP Drug Release Test 5</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_8fd0e0fb-d69a-499f-977e-81144cc35897">
+               <id root="a4c63677-fd1b-4709-9ec1-e63306fcd0fa"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Nifedipine is a calcium ion influx inhibitor (slow-channel blocker or calcium ion antagonist) and inhibits the transmembrane influx of calcium ions into cardiac muscle and smooth muscle. The contractile processes of cardiac muscle and vascular smooth muscle are dependent upon the movement of extracellular calcium ions into these cells through specific ion channels. Nifedipine selectively inhibits calcium ion influx across the cell membrane of cardiac muscle and vascular smooth muscle without altering serum calcium concentrations.</paragraph>
+               </text>
+               <effectiveTime value="20060510"/>
+               <component>
+                  <section ID="i4i_section_id_36f2ebdf-a73f-461c-b30d-84be0ea776df">
+                     <id root="d80d2c4d-0c27-452a-9b11-b1862259f309"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Mechanism of Action</title>
+                     <effectiveTime value="20060510"/>
+                     <component>
+                        <section ID="i4i_section_id_5d67c8d9-d971-4675-a8ba-8eb9b4388a40">
+                           <id root="3e5f5a4e-ad75-4941-a699-02bb1c89ab77"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>A) Angina</title>
+                           <text>
+                              <paragraph>The precise mechanisms by which inhibition of calcium influx relieves angina has not been fully determined, but includes at least the following two mechanisms:</paragraph>
+                           </text>
+                           <effectiveTime value="20060510"/>
+                           <component>
+                              <section ID="i4i_section_id_45d6ab63-9fb1-48a7-ab68-5f75121c3ec1">
+                                 <id root="d7c11486-ec6a-46c5-ad31-a570850112aa"/>
+                                 <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>1) Relaxation and Prevention of Coronary Artery Spasm</title>
+                                 <text>
+                                    <paragraph>Nifedipine dilates the main coronary arteries and coronary arterioles, both in normal and ischemic regions, and is a potent inhibitor of coronary artery spasm, whether spontaneous or ergonovine-induced. This property increases myocardial oxygen delivery in patients with coronary artery spasm, and is responsible for the effectiveness of nifedipine in vasospastic (Prinzmetal's or variant) angina. Whether this effect plays any role in classical angina is not clear, but studies of exercise tolerance have not shown an increase in the maximum exercise rate-pressure product, a widely accepted measure of oxygen utilization. This suggests that, in general, relief of spasm or dilation of coronary arteries is not an important factor in classical angina.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20060510"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="i4i_section_id_448e43af-096c-484d-89c1-36025ba8ff03">
+                                 <id root="cc815ea3-df2f-48be-a824-cd578e593d4b"/>
+                                 <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>2) Reduction of Oxygen Utilization</title>
+                                 <text>
+                                    <paragraph>Nifedipine regularly reduces arterial pressure at rest and at a given level of exercise by dilating peripheral arterioles and reducing the total peripheral vascular resistance (afterload) against which the heart works. This unloading of the heart reduces myocardial energy consumption and oxygen requirements, and probably accounts for the effectiveness of nifedipine in chronic stable angina.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20060510"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_7b97c00b-b0ae-4499-b76c-95e1ecae7458">
+                           <id root="80cd2c4e-c20f-4d1c-85be-c8de5d203c97"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>B) Hypertension</title>
+                           <text>
+                              <paragraph>The mechanism by which nifedipine reduces arterial blood pressure involves peripheral arterial vasodilatation and the resulting reduction in peripheral vascular resistance. The increased peripheral vascular resistance that is an underlying cause of hypertension results from an increase in active tension in the vascular smooth muscle. Studies have demonstrated that the increase in active tension reflects an increase in cytosolic free calcium.</paragraph>
+                              <paragraph>Nifedipine is a peripheral arterial vasodilator which acts directly on vascular smooth muscle. The binding of nifedipine to voltage-dependent and possibly receptor-operated channels in vascular smooth muscle results in an inhibition of calcium influx through these channels. Stores of intracellular calcium in vascular smooth muscle are limited and thus dependent upon the influx of extracellular calcium for contraction to occur. The reduction in calcium influx by nifedipine causes arterial vasodilation and decreased peripheral vascular resistance which results in reduced arterial blood pressure.</paragraph>
+                           </text>
+                           <effectiveTime value="20060510"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_e8cabf08-bd00-4424-b7b1-611e6c514d2c">
+                     <id root="68d196cb-9e68-4175-b249-4610c5b1a5fa"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacokinetics and Metabolism</title>
+                     <text>
+                        <paragraph>Nifedipine is completely absorbed after oral administration. Plasma drug concentrations rise at a gradual, controlled rate after a Nifedipine Extended-release Tablet dose and reach a plateau at approximately six hours after the first dose. For subsequent doses, relatively constant plasma concentrations at this plateau are maintained with minimal fluctuations over the 24-hour dosing interval. About a fourfold higher fluctuation index (ratio of peak to trough plasma concentration) was observed with the conventional immediate-release nifedipine capsule at t.i.d. dosing than with once daily Nifedipine Extended-release Tablet. At steady-state the bioavailability of the Nifedipine Extended-release Tablet is 86% relative to immediate-release capsules. Administration of the Nifedipine Extended-release Tablet in the presence of food slightly alters the early rate of drug absorption, but does not influence the extent of drug bioavailability. Markedly reduced GI retention time over prolonged periods (i.e., short bowel syndrome), however, may influence the pharmacokinetic profile of the drug which could potentially result in lower plasma concentrations. Pharmacokinetics of Nifedipine Extended-release Tablets are linear over the dose range of 30 to 180 mg in that plasma drug concentrations are proportional to dose administered. There was no evidence of dose dumping either in the presence or absence of food for over 150 subjects in pharmacokinetic studies.</paragraph>
+                        <paragraph>Nifedipine is extensively metabolized to highly water-soluble, inactive metabolites accounting for 60 to 80% of the dose excreted in the urine. The elimination half-life of nifedipine is approximately two hours. Only traces (less than 0.1% of the dose) of unchanged form can be detected in the urine. The remainder is excreted in the feces in metabolized form, most likely as a result of biliary excretion. Thus, the pharmacokinetics of nifedipine are not significantly influenced by the degree of renal impairment. Patients in hemodialysis or chronic ambulatory peritoneal dialysis have not reported significantly altered pharmacokinetics of nifedipine. Since hepatic biotransformation is the predominant route for the disposition of nifedipine, the pharmacokinetics may be altered in patients with chronic liver disease. Patients with hepatic impairment (liver cirrhosis) have a longer disposition half-life and higher bioavailability of nifedipine than healthy volunteers. The degree of serum protein binding of nifedipine is high (92–98%). Protein binding may be greatly reduced in patients with renal or hepatic impairment.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_134f8362-5903-4473-9e12-451610d54f8e">
+                     <id root="eb19c816-eba6-4196-976e-2305d75eab52"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hemodynamics</title>
+                     <text>
+                        <paragraph>Like other slow-channel blockers, nifedipine exerts a negative inotropic effect on isolated myocardial tissue. This is rarely, if ever, seen in intact animals or man, probably because of reflex responses to its vasodilating effects. In man, nifedipine decreases peripheral vascular resistance which leads to a fall in systolic and diastolic pressures, usually minimal in normotensive volunteers (less than 5–10 mm Hg systolic), but sometimes larger. With nifedipine Extended-release Tablets, these decreases in blood pressure are not accompanied by any significant change in heart rate. Hemodynamic studies in patients with normal ventricular function have generally found a small increase in cardiac index without major effects on ejection fraction, left ventricular end diastolic pressure (LVEDP) or volume (LVEDV). In patients with impaired ventricular function, most acute studies have shown some increase in ejection fraction and reduction in left ventricular filling pressure.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_5a3e561c-9bf2-40cf-8af2-ec247652e3ab">
+                     <id root="7fc70389-62bd-41e0-b7d5-1654c0ea77bc"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Electrophysiologic Effects</title>
+                     <text>
+                        <paragraph>Although, like other members of its class, nifedipine causes a slight depression of sinoatrial node function and atrioventricular conduction in isolated myocardial preparations, such effects have not been seen in studies in intact animals or in man. In formal electrophysiologic studies, predominantly in patients with normal conduction systems, nifedipine has had no tendency to prolong atrioventricular conduction or sinus node recovery time, or to slow sinus rate.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_2273af1c-a5ad-41f2-a16a-b42a7e5a6a0f">
+               <id root="a22c2d49-d6ec-4a58-b6b9-ee9d602aca43"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <effectiveTime value="20060510"/>
+               <component>
+                  <section ID="i4i_section_id_cce71140-0bfe-4ccb-8854-d722af5564ce">
+                     <id root="850e8958-6d82-420e-bb53-68e7dd1ae7fd"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>I. Vasospastic Angina</title>
+                     <text>
+                        <paragraph>Nifedipine Extended-release Tablet is indicated for the management of vasospastic angina confirmed by any of the following criteria: 1) classical pattern of angina at rest accompanied by ST segment elevation, 2) angina or coronary artery spasm provoked by ergonovine, or 3) angiographically demonstrated coronary artery spasm. In those patients who have had angiography, the presence of significant fixed obstructive disease is not incompatible with the diagnosis of vasospastic angina, provided that the above criteria are satisfied. Nifedipine Extended-release Tablet may also be used where the clinical presentation suggests a possible vasospastic component but where vasospasm has not been confirmed, e.g., where pain has a variable threshold on exertion or in unstable angina where electrocardiographic findings are compatible with intermittent vasospasm, or when angina is refractory to nitrates and/or adequate doses of beta blockers.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_379c7537-be28-490f-9e4a-04df65928fa4">
+                     <id root="041945c5-8dec-4def-b595-69fcc12caa94"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>II. Chronic Stable Angina (Classical Effort-Associated Angina)</title>
+                     <text>
+                        <paragraph>Nifedipine Extended-release Tablet is indicated for the management of chronic stable angina (effort-associated angina) without evidence of vasospasm in patients who remain symptomatic despite adequate doses of beta blockers and/or organic nitrates or who cannot tolerate those agents.</paragraph>
+                        <paragraph>In chronic stable angina (effort-associated angina) nifedipine has been effective in controlled trials of up to eight weeks duration in reducing angina frequency and increasing exercise tolerance, but confirmation of sustained effectiveness and evaluation of long-term safety in these patients is incomplete.</paragraph>
+                        <paragraph>Controlled studies in small numbers of patients suggest concomitant use of nifedipine and beta-blocking agents may be beneficial in patients with chronic stable angina, but available information is not sufficient to predict with confidence the effects of concurrent treatment, especially in patients with compromised left ventricular function or cardiac conduction abnormalities. When introducing such concomitant therapy, care must be taken to monitor blood pressure closely since severe hypotension can occur from the combined effects of the drugs. (See <linkHtml href="#i4i_warnings_id_194bc099-de20-4f49-a180-a41e6b316b24">WARNINGS</linkHtml>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_8a045bcd-e746-434b-b106-edad405c6c7b">
+                     <id root="2ace85c3-bdea-4866-a155-58345b3150aa"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>III. Hypertension</title>
+                     <text>
+                        <paragraph>Nifedipine Extended-release Tablet is indicated for the treatment of hypertension. They may be used alone or in combination with other antihypertensive agents.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_6a966de4-2b63-4e16-ad83-7ac2aad5953a">
+               <id root="165ec22a-474f-4d0a-b2d7-23a400a97f57"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34070-3" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Known hypersensitivity reaction to nifedipine.</paragraph>
+               </text>
+               <effectiveTime value="20060510"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_194bc099-de20-4f49-a180-a41e6b316b24">
+               <id root="ddee7007-9d96-4b2c-9002-187a60f06fb0"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34071-1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20060510"/>
+               <component>
+                  <section ID="i4i_section_id_fa1fa1fc-1cda-4738-83ed-d542b65306a9">
+                     <id root="ee1f079d-fb4e-467b-960f-dc08d088b440"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Excessive Hypotension</title>
+                     <text>
+                        <paragraph>Although in most angina patients the hypotensive effect of nifedipine is modest and well tolerated, occasional patients have had excessive and poorly tolerated hypotension. These responses have usually occurred during initial titration or at the time of subsequent upward dosage adjustment, and may be more likely in patients on concomitant beta blockers.</paragraph>
+                        <paragraph>Severe hypotension and/or increased fluid volume requirements have been reported in patients receiving nifedipine together with a beta-blocking agent who underwent coronary artery bypass surgery using high dose fentanyl anesthesia. The interaction with high dose fentanyl appears to be due to the combination of nifedipine and a beta blocker, but the possibility that it may occur with nifedipine alone, with low doses of fentanyl, in other surgical procedures, or with other narcotic analgesics cannot be ruled out. In nifedipine-treated patients where surgery using high dose fentanyl anesthesia is contemplated, the physician should be aware of these potential problems and if the patient's condition permits, sufficient time (at least 36 hours) should be allowed for nifedipine to be washed out of the body prior to surgery.</paragraph>
+                        <paragraph>The following information should be taken into account in those patients who are being treated for hypertension as well as angina:</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_4a04a9c5-7e38-4ebc-802a-6f32a95c011b">
+                     <id root="e2a295b8-91ca-4078-b591-6865c719f4ce"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Increased Angina and/or Myocardial Infarction</title>
+                     <text>
+                        <paragraph>Rarely, patients, particularly those who have severe obstructive coronary artery disease, have developed well documented increased frequency, duration and/or severity of angina or acute myocardial infarction on starting nifedipine or at the time of dosage increase. The mechanism of this effect is not established.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_31116101-5254-435b-86e3-339683f3ff5d">
+                     <id root="bbeaefac-a06e-4210-941a-3db60bf86125"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Beta Blocker Withdrawal</title>
+                     <text>
+                        <paragraph>It is important to taper beta blockers if possible, rather than stopping them abruptly before beginning nifedipine. Patients recently withdrawn from beta blockers may develop a withdrawal syndrome with increased angina, probably related to increased sensitivity to catecholamines. Initiation of nifedipine treatment will not prevent this occurrence and on occasion has been reported to increase it.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_177d98f0-766e-42cd-bed8-d7ad9cd5b1dc">
+                     <id root="e6f5f74c-6304-4c6b-8fd6-a552e6994f4b"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Congestive Heart Failure</title>
+                     <text>
+                        <paragraph>Rarely, patients, usually receiving a beta blocker, have developed heart failure after beginning nifedipine. Patients with tight aortic stenosis may be at greater risk for such an event, as the unloading effect of nifedipine would be expected to be of less benefit to those patients, owing to their fixed impedance to flow across the aortic valve.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_88f39477-287a-402b-889d-ed4ed1c701f2">
+               <id root="7ee17abb-51f6-4a62-a033-0b7eb37d903a"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42232-9" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20060510"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_783bc598-fb11-4d61-a448-1b2f4ec1b1a7">
+                     <id root="645110c4-b8f5-48e4-a0a8-4706f068621b"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34072-9" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <effectiveTime value="20060510"/>
+                     <component>
+                        <section ID="i4i_section_id_77faa443-bdab-486c-b655-0cf1a0090694">
+                           <id root="4b30a89e-f13f-427b-ac68-f277b5cf0a6e"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Hypotension</title>
+                           <text>
+                              <paragraph>Because nifedipine decreases peripheral vascular resistance, careful monitoring of blood pressure during the initial administration and titration of nifedipine is suggested. Close observation is especially recommended for patients already taking medications that are known to lower blood pressure. (See <linkHtml href="#i4i_warnings_id_194bc099-de20-4f49-a180-a41e6b316b24">WARNINGS</linkHtml>.)</paragraph>
+                           </text>
+                           <effectiveTime value="20060510"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_b95b21f1-4b62-43e9-afc4-f81568d630ea">
+                           <id root="681b60cd-4b6b-4f95-a54e-23dc79b28f46"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Peripheral Edema</title>
+                           <text>
+                              <paragraph>Mild to moderate peripheral edema occurs in a dose dependent manner with an incidence ranging from approximately 10% to about 30% at the highest dose studied (180 mg). It is a localized phenomenon thought to be associated with vasodilation of dependent arterioles and small blood vessels and not due to left ventricular dysfunction or generalized fluid retention. With patients whose angina or hypertension is complicated by congestive heart failure, care should be taken to differentiate this peripheral edema from the effects of increasing left ventricular dysfunction.</paragraph>
+                           </text>
+                           <effectiveTime value="20060510"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_50ae0890-9404-4a76-9136-0904f9a66d23">
+                           <id root="863b8955-3da3-451b-8ae4-e0d635165388"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Other</title>
+                           <text>
+                              <paragraph>As with any other non-deformable material, caution should be used when administering Nifedipine Extended-release Tablet in patients with preexisting severe gastrointestinal narrowing (pathologic or iatrogenic). There have been rare reports of obstructive symptoms in patients with known strictures in association with the ingestion of Nifedipine Extended-release Tablet.</paragraph>
+                           </text>
+                           <effectiveTime value="20060510"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_info_patients_id_98c67fca-9cd9-4e9f-b0ac-dbc618e7a442">
+                     <id root="784fcb12-4d6d-4132-a2ef-5c43640c673d"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Nifedipine Extended-release Tablets should be swallowed whole. Do not chew, divide or crush tablets. Do not be concerned if you occasionally notice in your stool something that looks like a tablet. In Nifedipine Extended-release Tablet, the medication is contained within a nonabsorbable shell that has been specially designed to slowly release the drug for your body to absorb. When this process is completed, the empty tablet is eliminated from your body.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_lab_tests_id_ac00cb7c-1fcb-4013-83c2-5fc359df5879">
+                     <id root="24c24e72-d144-4e11-866e-d8402acc76aa"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34075-2" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Rare, usually transient, but occasionally significant elevations of enzymes such as alkaline phosphatase, CPK, LDH, SGOT and SGPT have been noted. The relationship to nifedipine therapy is uncertain in most cases, but probable in some. These laboratory abnormalities have rarely been associated with clinical symptoms; however, cholestasis with or without jaundice has been reported. A small (5.4%) increase in mean alkaline phosphatase was noted in patients treated with Nifedipine Extended-release Tablets. This was an isolated finding not associated with clinical symptoms and it rarely resulted in values which fell outside the normal range. Rare instances of allergic hepatitis have been reported. In controlled studies, Nifedipine Extended-release Tablets did not adversely affect serum uric acid, glucose, or cholesterol. Serum potassium was unchanged in patients receiving Nifedipine Extended-release Tablets in the absence of concomitant diuretic therapy, and slightly decreased in patients receiving concomitant diuretics.</paragraph>
+                        <paragraph>Nifedipine, like other calcium channel blockers, decreases platelet aggregation <content styleCode="italics">in vitro.</content> Limited clinical studies have demonstrated a moderate but statistically significant decrease in platelet aggregation and an increase in bleeding time in some nifedipine patients. This is thought to be a function of inhibition of calcium transport across the platelet membrane. No clinical significance for these findings has been demonstrated.</paragraph>
+                        <paragraph>Positive direct Coombs test with/without hemolytic anemia has been reported but a causal relationship between nifedipine administration and positivity of this laboratory test, including hemolysis, could not be determined.</paragraph>
+                        <paragraph>Although nifedipine has been used safely in patients with renal dysfunction and has been reported to exert a beneficial effect, in certain cases, rare, reversible elevations in BUN and serum creatinine have been reported in patients with pre-existing chronic renal insufficiency. The relationship to nifedipine therapy is uncertain in most cases but probable in some.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_interactions_id_3a7451b4-d855-4a84-8c3b-830ad0b50777">
+                     <id root="7d017de1-f496-4ae6-89d3-c4268cf7ac3b"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34073-7" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <effectiveTime value="20060510"/>
+                     <component>
+                        <section ID="i4i_section_id_a4e72ff8-57c8-4cd6-9bd5-1623ec52d324">
+                           <id root="0bc0f4b4-0ae2-4863-8c4c-687585882f50"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Beta-adrenergic Blocking Agents</title>
+                           <text>
+                              <paragraph>(See <linkHtml href="#i4i_indications_id_2273af1c-a5ad-41f2-a16a-b42a7e5a6a0f">INDICATIONS AND USAGE</linkHtml> and <linkHtml href="#i4i_warnings_id_194bc099-de20-4f49-a180-a41e6b316b24">WARNINGS</linkHtml>.) Experience in over 1400 patients with nifedipine capsules in a noncomparative clinical trial has shown that concomitant administration of nifedipine and beta-blocking agents is usually well tolerated, but there have been occasional literature reports suggesting that the combination may increase the likelihood of congestive heart failure, severe hypotension, or exacerbation of angina.</paragraph>
+                           </text>
+                           <effectiveTime value="20060510"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_b3c9c4c9-5808-4901-9b78-6834fb9b2aba">
+                           <id root="d9a0c7ad-f2de-4294-8e9b-7a4879350c6c"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Long-acting Nitrates</title>
+                           <text>
+                              <paragraph>Nifedipine may be safely co-administered with nitrates, but there have been no controlled studies to evaluate the antianginal effectiveness of this combination.</paragraph>
+                           </text>
+                           <effectiveTime value="20060510"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_81925a8b-a816-43da-bbac-4a3268a7a137">
+                           <id root="bb7f252e-1bb7-4225-9121-358a7dc3d7d7"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Digitalis</title>
+                           <text>
+                              <paragraph>Administration of nifedipine with digoxin increased digoxin levels in nine of twelve normal volunteers. The average increase was 45%. Another investigator found no increase in digoxin levels in thirteen patients with coronary artery disease. In an uncontrolled study of over two hundred patients with congestive heart failure during which digoxin blood levels were not measured, digitalis toxicity was not observed. Since there have been isolated reports of patients with elevated digoxin levels, it is recommended that digoxin levels be monitored when initiating, adjusting, and discontinuing nifedipine to avoid possible over- or under-digitalization.</paragraph>
+                           </text>
+                           <effectiveTime value="20060510"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_8e3e726f-efc4-4121-afe2-86b7f6630ffb">
+                           <id root="28d139b6-2aa4-4ed6-8185-6afaada6f77a"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Coumarin Anticoagulants</title>
+                           <text>
+                              <paragraph>There have been rare reports of increased prothrombin time in patients taking coumarin anticoagulants to whom nifedipine was administered. However, the relationship to nifedipine therapy is uncertain.</paragraph>
+                           </text>
+                           <effectiveTime value="20060510"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_section_id_a709146a-9544-4506-8d7e-aa013a7235a3">
+                           <id root="cc8abd6f-716f-4293-9369-2d0370924196"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Cimetidine</title>
+                           <text>
+                              <paragraph>A study in six healthy volunteers has shown a significant increase in peak nifedipine plasma levels (80%) and area-under-the-curve (74%), after a one week course of cimetidine at 1000 mg per day and nifedipine at 40 mg per day. Ranitidine produced smaller, non-significant increases. The effect may be mediated by the known inhibition of cimetidine on hepatic cytochrome P-450, the enzyme system probably responsible for the first-pass metabolism of nifedipine. If nifedipine therapy is initiated in a patient currently receiving cimetidine, cautious titration is advised.</paragraph>
+                           </text>
+                           <effectiveTime value="20060510"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_02c60b0a-92bc-4421-94d7-a5d0d611d027">
+                     <id root="14b5603a-0b70-442d-be9d-d195e87adf07"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Nifedipine was administered orally to rats for two years and was not shown to be carcinogenic. When given to rats prior to mating, nifedipine caused reduced fertility at a dose approximately 30 times the maximum recommended human dose. There is a literature report of reversible reduction in the ability of human sperm obtained from a limited number of infertile men taking recommended doses of nifedipine to bind to and fertilize an ovum <content styleCode="italics">in vitro. In vivo</content> mutagenicity studies were negative.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_5753d062-5653-4b31-a455-2127891e1b33">
+                     <id root="275667ca-53e7-4e57-a350-745fafe4d3be"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42228-7" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20060510"/>
+                     <component>
+                        <section ID="i4i_section_id_0855ba9c-eb60-4c10-8071-ee671fdf6577">
+                           <id root="3651f8ca-b05a-46e0-b262-e2fec5605440"/>
+                           <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Pregnancy Category C</title>
+                           <text>
+                              <paragraph>Nifedipine has been shown to produce teratogenic findings in rats and rabbits, including digital anomalies similar to those reported for phenytoin. Digital anomalies have been reported to occur with other members of the dihydropyridine class and are possibly a result of compromised uterine blood flow. Nifedipine administration was associated with a variety of embryotoxic, placentotoxic, and fetotoxic effects, including stunted fetuses (rats, mice, rabbits), rib deformities (mice), cleft palate (mice), small placentas and underdeveloped chorionic villi (monkeys), embryonic and fetal deaths (rats, mice, rabbits), and prolonged pregnancy/decreased neonatal survival (rats; not evaluated in other species). On a mg/kg basis, all of the doses associated with the teratogenic embryotoxic or fetotoxic effects in animals were higher (3.5 to 42 times) than the maximum recommended human dose of 120 mg/day. On a mg/m<sup>2</sup> basis, some doses were higher and some were lower than the maximum recommended human dose but all are within an order of magnitude of it. The doses associated with placentotoxic effects in monkeys were equivalent to or lower than the maximum recommended human dose on a mg/m<sup>2</sup> basis.</paragraph>
+                              <paragraph>There are no adequate and well-controlled studies in pregnant women. Nifedipine Extended-release Tablets should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                           </text>
+                           <effectiveTime value="20060510"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_5dbfee91-22fb-4d4b-b4d1-332627d1b58f">
+                     <id root="34559a74-49ea-47e7-9ada-19904b4df3f6"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34081-0" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_f24cd164-223e-40b2-ada2-fab35196a793">
+               <id root="7c70318c-fbac-412d-9991-356c081fc091"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34084-4" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Over 1000 patients from both controlled and open trials with Nifedipine Extended-release Tablets in hypertension and angina were included in the evaluation of adverse experiences. All side effects reported during Nifedipine Extended-release Tablet therapy were tabulated independent of their causal relation to medication. The most common side effect reported with Nifedipine Extended-release Tablets was edema which was dose related and ranged in frequency from approximately 10% to about 30% at the highest dose studied (180 mg). Other common adverse experiences reported in placebo-controlled trials include:</paragraph>
+                  <table width="430.000" ID="id_ac5b770f-cc09-406a-a8a9-c01798bf8cf9">
+                     <col width="33.0%" align="left"/>
+                     <col width="34.0%" align="center"/>
+                     <col width="33.0%" align="center"/>
+                     <thead>
+                        <tr ID="id_ef5d65df-de61-4c27-b3d8-ac20f01bc51a">
+                           <td align="left" valign="bottom" styleCode="Botrule Rrule">Adverse Effect</td>
+                           <td align="left" valign="bottom" styleCode="Rrule">
+                              <paragraph>NIFEDIPINE<br/>EXTENDED-RELEASE<br/>TABLETS (%)</paragraph>
+                              <paragraph>(N=707)</paragraph>
+                           </td>
+                           <td align="left" valign="bottom" styleCode="Botrule">Placebo (%)<br/>(N=266)</td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr ID="id_9c4dbf87-37be-4b9c-be2d-b98d52cb0694">
+                           <td align="left" valign="bottom" styleCode="Toprule">Headache</td>
+                           <td align="left" valign="bottom" styleCode="Toprule">15.8</td>
+                           <td align="left" valign="bottom">9.8</td>
+                        </tr>
+                        <tr ID="id_5a5c4f2e-6b5f-43a3-85c7-f5ee770ae281">
+                           <td align="left" valign="bottom">Fatigue</td>
+                           <td align="left" valign="bottom">5.9</td>
+                           <td align="left" valign="bottom">4.1</td>
+                        </tr>
+                        <tr ID="id_df722492-0815-4a3f-9f58-c1329992659b">
+                           <td align="left" valign="bottom">Dizziness</td>
+                           <td align="left" valign="bottom">4.1</td>
+                           <td align="left" valign="bottom">4.5</td>
+                        </tr>
+                        <tr ID="id_580d08e0-4bfe-47b9-8744-8cc4cc43a877">
+                           <td align="left" valign="bottom">Constipation</td>
+                           <td align="left" valign="bottom">3.3</td>
+                           <td align="left" valign="bottom">2.3</td>
+                        </tr>
+                        <tr ID="id_c8de33d8-8f14-45db-951b-3922322c1d34">
+                           <td align="left" valign="bottom" styleCode="Botrule">Nausea</td>
+                           <td align="left" valign="bottom" styleCode="Botrule">3.3</td>
+                           <td align="left" valign="bottom" styleCode="Botrule">1.9</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Of these, only edema and headache were more common in Nifedipine Extended-release Tablet patients than placebo patients.</paragraph>
+                  <paragraph>The following adverse reactions occurred with an incidence of less than 3.0%. With the exception of leg cramps, the incidence of these side effects was similar to that of placebo alone.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Body as a Whole/Systemic:</content> asthenia, flushing, pain<br/>
+                     <content styleCode="italics">Cardiovascular:</content> palpitations<br/>
+                     <content styleCode="italics">Central Nervous System:</content> insomnia, nervousness, paresthesia, somnolence<br/>
+                     <content styleCode="italics">Dermatologic:</content> pruritus, rash<br/>
+                     <content styleCode="italics">Gastrointestinal:</content> abdominal pain, diarrhea, dry mouth, dyspepsia, flatulence<br/>
+                     <content styleCode="italics">Musculoskeletal:</content> arthralgia, leg cramps<br/>
+                     <content styleCode="italics">Respiratory:</content> chest pain (nonspecific), dyspnea<br/>
+                     <content styleCode="italics">Urogenital:</content> impotence, polyuria</paragraph>
+                  <paragraph>Other adverse reactions were reported sporadically with an incidence of 1.0% or less. These include:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Body as a Whole/Systemic:</content> face edema, fever, hot flashes, malaise, periorbital edema, rigors<br/>
+                     <content styleCode="italics">Cardiovascular:</content> arrhythmia, hypotension, increased angina, tachycardia, syncope<br/>
+                     <content styleCode="italics">Central Nervous System:</content> anxiety, ataxia, decreased libido, depression, hypertonia, hypoesthesia, migraine, paroniria, tremor, vertigo<br/>
+                     <content styleCode="italics">Dermatologic:</content> alopecia, increased sweating, urticaria, purpura<br/>
+                     <content styleCode="italics">Gastrointestinal:</content> eructation, gastroesophageal reflux, gum hyperplasia, melena, vomiting, weight increase<br/>
+                     <content styleCode="italics">Musculoskeletal:</content> back pain, gout, myalgias<br/>
+                     <content styleCode="italics">Respiratory:</content> coughing, epistaxis, upper respiratory tract infection, respiratory disorder, sinusitis<br/>
+                     <content styleCode="italics">Special Senses:</content> abnormal lacrimation, abnormal vision, taste perversion, tinnitus<br/>
+                     <content styleCode="italics">Urogenital/Reproductive:</content> breast pain, dysuria, hematuria, nocturia</paragraph>
+                  <paragraph>Adverse experiences which occurred in less than 1 in 1000 patients cannot be distinguished from concurrent disease states or medications.</paragraph>
+                  <paragraph>The following adverse experiences, reported in less than 1% of patients, occurred under conditions (e.g., open trials, marketing experience) where a causal relationship is uncertain: gastrointestinal irritation, gastrointestinal bleeding, gynecomastia.</paragraph>
+                  <paragraph>In multiple-dose U.S. and foreign controlled studies with nifedipine capsules in which adverse reactions were reported spontaneously, adverse effects were frequent but generally not serious and rarely required discontinuation of therapy or dosage adjustment. Most were expected consequences of the vasodilator effects of nifedipine.</paragraph>
+                  <table width="430.000" ID="id_120ad383-bb13-4df9-9cb4-ff442530d6a1">
+                     <col width="33.0%" align="left"/>
+                     <col width="34.0%" align="center"/>
+                     <col width="33.0%" align="center"/>
+                     <thead>
+                        <tr ID="id_3b0d6b8d-c497-495a-bf4d-206978a5aa24">
+                           <td align="left" valign="bottom" styleCode="Botrule Toprule Rrule"> </td>
+                           <td align="center" valign="bottom" styleCode="Botrule Rrule">NIFEDIPINE<br/>CAPSULES (%)</td>
+                           <td align="center" valign="bottom" styleCode="Botrule">Placebo (%)</td>
+                        </tr>
+                        <tr ID="id_d82f6f58-b290-48f9-a94f-51896b8bb6c5">
+                           <td align="left" valign="bottom" styleCode="Botrule Rrule">Adverse Effect</td>
+                           <td align="left" valign="bottom" styleCode="Rrule">(N=226)</td>
+                           <td align="left" valign="bottom" styleCode="Botrule">(N=235)</td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr ID="id_3f2a9ebc-3158-48a8-af95-52efd36ea1ff">
+                           <td align="left" valign="bottom" styleCode="Toprule">Dizziness, lightheadedness, giddiness</td>
+                           <td align="left" valign="bottom" styleCode="Toprule">27</td>
+                           <td align="left" valign="bottom">15</td>
+                        </tr>
+                        <tr ID="id_318849f5-2c95-4e77-9c89-38a87c9c47fd">
+                           <td align="left" valign="bottom">Flushing, heat sensation</td>
+                           <td align="left" valign="bottom">25</td>
+                           <td align="left" valign="bottom">8</td>
+                        </tr>
+                        <tr ID="id_86d631c3-299c-49ee-a964-bda703f0b4ad">
+                           <td align="left" valign="bottom">Headache</td>
+                           <td align="left" valign="bottom">23</td>
+                           <td align="left" valign="bottom">20</td>
+                        </tr>
+                        <tr ID="id_61281338-d813-4bef-9f81-4cea1b8c82fa">
+                           <td align="left" valign="bottom">Weakness</td>
+                           <td align="left" valign="bottom">12</td>
+                           <td align="left" valign="bottom">10</td>
+                        </tr>
+                        <tr ID="id_75968c68-0b06-49ae-aa88-a62c5a1cca49">
+                           <td align="left" valign="bottom">Nausea, heartburn</td>
+                           <td align="left" valign="bottom">11</td>
+                           <td align="left" valign="bottom">8</td>
+                        </tr>
+                        <tr ID="id_46831970-37fc-4261-bff6-e6730568abf7">
+                           <td align="left" valign="bottom">Muscle cramps, tremor</td>
+                           <td align="left" valign="bottom">8</td>
+                           <td align="left" valign="bottom">3</td>
+                        </tr>
+                        <tr ID="id_d3e8dffd-6f95-4a14-8cbe-f711a70790cf">
+                           <td align="left" valign="bottom">Peripheral edema</td>
+                           <td align="left" valign="bottom">7</td>
+                           <td align="left" valign="bottom">1</td>
+                        </tr>
+                        <tr ID="id_15c2946d-1f92-4fc4-a6c5-d5f8f491bb40">
+                           <td align="left" valign="bottom">Nervousness, mood changes</td>
+                           <td align="left" valign="bottom">7</td>
+                           <td align="left" valign="bottom">4</td>
+                        </tr>
+                        <tr ID="id_b385a02a-8441-4cc8-827b-203009df2c61">
+                           <td align="left" valign="bottom">Palpitation</td>
+                           <td align="left" valign="bottom">7</td>
+                           <td align="left" valign="bottom">5</td>
+                        </tr>
+                        <tr ID="id_cf9919d1-445b-41ff-b99f-204e4fd5845c">
+                           <td align="left" valign="bottom">Dyspnea, cough, wheezing</td>
+                           <td align="left" valign="bottom">6</td>
+                           <td align="left" valign="bottom">3</td>
+                        </tr>
+                        <tr ID="id_1e14e9ab-8d56-48c4-a2f1-ad9860b167af">
+                           <td align="left" valign="bottom" styleCode="Botrule">Nasal congestion, sore throat</td>
+                           <td align="left" valign="bottom" styleCode="Botrule">6</td>
+                           <td align="left" valign="bottom" styleCode="Botrule">8</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>There is also a large uncontrolled experience in over 2100 patients in the United States. Most of the patients had vasospastic or resistant angina pectoris, and about half had concomitant treatment with beta-adrenergic blocking agents. The relatively common adverse events were similar in nature to those seen with Nifedipine Extended-release Tablets.</paragraph>
+                  <paragraph>In addition, more serious adverse events were observed, not readily distinguishable from the natural history of the disease in these patients. It remains possible, however, that some or many of these events were drug related. Myocardial infarction occurred in about 4% of patients and congestive heart failure or pulmonary edema in about 2%. Ventricular arrhythmias or conduction disturbances each occurred in fewer than 0.5% of patients.</paragraph>
+                  <paragraph>In a subgroup of over 1000 patients receiving nifedipine with concomitant beta blocker therapy, the pattern and incidence of adverse experiences was not different from that of the entire group of nifedipine immediate-release treated patients. (See <linkHtml href="#i4i_precautions_id_88f39477-287a-402b-889d-ed4ed1c701f2">PRECAUTIONS</linkHtml>.)</paragraph>
+                  <paragraph>In a subgroup of approximately 250 patients with a diagnosis of congestive heart failure as well as angina, dizziness or lightheadedness, peripheral edema, headache or flushing each occurred in one in eight patients. Hypotension occurred in about one in 20 patients. Syncope occurred in approximately one patient in 250. Myocardial infarction or symptoms of congestive heart failure each occurred in about one patient in 15. Atrial or ventricular dysrhythmias each occurred in about one patient in 150.</paragraph>
+                  <paragraph>In post-marketing experience, there have been rare reports of exfoliative dermatitis caused by nifedipine. There have been rare reports of exfoliative or bullous skin adverse events (such as erythema multiforme, Stevens-Johnson Syndrome, and toxic epidermal necrolysis) and photosensitivity reactions.</paragraph>
+               </text>
+               <effectiveTime value="20060510"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_4820e302-a48a-459a-aca4-5dc3f8435601">
+               <id root="3c7a3d33-1e32-4251-b872-49d8a758dcc2"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34088-5" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Experience with nifedipine overdosage is limited. Generally, overdosage with nifedipine leading to pronounced hypotension calls for active cardiovascular support including monitoring of cardiovascular and respiratory function, elevation of extremities, judicious use of calcium infusion, pressor agents and fluids. Clearance of nifedipine would be expected to be prolonged in patients with impaired liver function. Since nifedipine is highly protein-bound, dialysis is not likely to be of any benefit.</paragraph>
+                  <paragraph>There has been one reported case of massive overdosage with Nifedipine Extended-release Tablets. The main effects of ingestion of approximately 4800 mg of Nifedipine Extended-release Tablets in a young man attempting suicide as a result of cocaine-induced depression was initial dizziness, palpitations, flushing, and nervousness. Within several hours of ingestion, nausea, vomiting, and generalized edema developed. No significant hypotension was apparent at presentation, 18 hours post-ingestion. Electrolyte abnormalities consisted of a mild, transient elevation of serum creatinine, and modest elevations of LDH and CPK, but normal SGOT. Vital signs remained stable, no electrocardiographic abnormalities were noted and renal function returned to normal within 24 to 48 hours with routine supportive measures alone. No prolonged sequelae were observed.</paragraph>
+                  <paragraph>The effect of a single 900 mg ingestion of nifedipine capsules in a depressed anginal patient also on tricyclic antidepressants was loss of consciousness within 30 minutes of ingestion, and profound hypotension, which responded to calcium infusion, pressor agents, and fluid replacement. A variety of ECG abnormalities were seen in this patient with a history of bundle branch block, including sinus bradycardia and varying degrees of AV block. These dictated the prophylactic placement of a temporary ventricular pacemaker, but otherwise resolved spontaneously. Significant hyperglycemia was seen initially in this patient, but plasma glucose levels rapidly normalized without further treatment.</paragraph>
+                  <paragraph>A young hypertensive patient with advanced renal failure ingested 280 mg of nifedipine immediate-release capsules at one time, with resulting marked hypotension responding to calcium infusion and fluids. No AV conduction abnormalities, arrhythmias, or pronounced changes in heart rate were noted, nor was there any further deterioration in renal function.</paragraph>
+               </text>
+               <effectiveTime value="20060510"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_3d735921-34ab-46b7-afed-0d0eb525a258">
+               <id root="bdbbd799-fe80-493c-a4ef-d17b7987a854"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Dosage must be adjusted according to each patient's needs. Therapy for either hypertension or angina should be initiated with 30 or 60 mg once daily. Nifedipine Extended-release Tablets should be swallowed whole and should not be bitten or divided. In general, titration should proceed over a 7–14 day period so that the physician can fully assess the response to each dose level and monitor blood pressure before proceeding to higher doses. Since steady-state plasma levels are achieved on the second day of dosing, if symptoms so warrant, titration may proceed more rapidly provided the patient is assessed frequently. Titration to doses above 120 mg are not recommended.</paragraph>
+                  <paragraph>Angina patients controlled on nifedipine capsules alone or in combination with other antianginal medications may be safely switched to Nifedipine Extended-release Tablets at the nearest equivalent total daily dose (e.g., 30 mg t.i.d. of nifedipine immediate-release capsules may be changed to 90 mg once daily of Nifedipine Extended-release Tablets). Subsequent titration to higher or lower doses may be necessary and should be initiated as clinically warranted. Experience with doses greater than 90 mg in patients with angina is limited. Therefore, doses greater than 90 mg should be used with caution and only when clinically warranted.</paragraph>
+                  <paragraph>No "rebound effect" has been observed upon discontinuation of Nifedipine Extended-release Tablets. However, if discontinuation of nifedipine is necessary, sound clinical practice suggests that the dosage should be decreased gradually with close physician supervision.</paragraph>
+                  <paragraph>Care should be taken when dispensing Nifedipine Extended-release Tablets to assure that the extended release dosage form has been prescribed.</paragraph>
+               </text>
+               <effectiveTime value="20060510"/>
+               <component>
+                  <section ID="i4i_section_id_2eecafac-f443-42c9-bddc-274344619e3c">
+                     <id root="d70db29f-82fb-4259-b47c-23323cd81ad4"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Co-Administration with Other Antianginal Drugs</title>
+                     <text>
+                        <paragraph>Sublingual nitroglycerin may be taken as required for the control of acute manifestations of angina, particularly during nifedipine titration. See <linkHtml href="#i4i_interactions_id_3a7451b4-d855-4a84-8c3b-830ad0b50777">PRECAUTIONS: Drug Interactions</linkHtml>, for information on co-administration of nifedipine with beta blockers or long-acting nitrates.</paragraph>
+                     </text>
+                     <effectiveTime value="20060510"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_17e460d6-058f-4ced-970c-ff2c598a49ee">
+               <id root="e0b01012-4b0c-4f20-94bd-64a5a193871f"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Nifedipine Extended-release Tablets 30 mg are round, biconvex, pink coated tablets imprinted with “KU 260” in black ink. They are supplied as follows:</paragraph>
+                  <paragraph>Bottles of 30 Tablets NDC 21695-908-30</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20<sup>°</sup>-25<sup>°</sup>C (68<sup>°</sup>-77<sup>°</sup>F) (See USP Controlled Room Temperature). </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protect from moisture, humidity, and light.</content>
+                  </paragraph>
+                  <paragraph>Dispense in tight, child-resistant containers (USP).</paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>Wilmington, NC 28405, USA</paragraph>
+                  <paragraph>4010466</paragraph>
+                  <paragraph>Rev.2E 05/2009</paragraph>
+                  <paragraph>Repackaged by:</paragraph>
+                  <paragraph>Rebel Distributors Corp</paragraph>
+                  <paragraph>Thousand Oaks, CA 90230</paragraph>
+               </text>
+               <effectiveTime value="20060510"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_8119ea65-40b2-4435-a57a-b2fd37412ca2">
+               <id root="f85c71a5-4448-4412-a9d7-4098b9d9023f"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <renderMultiMedia referencedObject="id_43b5a2f8-9df2-4e14-a4e8-308502d14c3f"/>
+               </text>
+               <effectiveTime value="20091013"/>
+               <component>
+                  <observationMedia ID="id_43b5a2f8-9df2-4e14-a4e8-308502d14c3f">
+                     <text>Nifedipine 30mg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="1f27bd46-5dde-4b2e-88c0-b450f4b94b84-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

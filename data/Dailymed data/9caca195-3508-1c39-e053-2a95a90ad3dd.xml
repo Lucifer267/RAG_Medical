@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9caca195-3508-1c39-e053-2a95a90ad3dd"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>POLYCIN OPTH OINTMENT</title>
+   <effectiveTime value="20200121"/>
+   <setId root="4be2ae47-ce1e-6212-e054-00144ff88e88"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>DIRECT RX</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                  <name>DIRECT RX</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>DIRECT RX</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61919-111" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9cac9df3-886b-736d-e053-2995a90a9a6b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200121"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61919-111" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>POLYCIN</name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>bacitracin zinc and polymyxin b sulfates</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0574-4021" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="[USP'U]" value="10000"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="19371312D4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYMYXIN B SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="J2VZ07J96K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POLYMYXIN B</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="[USP'U]" value="500"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="89Y4M234ES" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BACITRACIN ZINC</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="58H6RWO52I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BACITRACIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="T5L8T28FGP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61919-111-35" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20170329"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065022" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170329"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4be31c8e-81ac-11d2-e054-00144ff8d46c">
+               <id root="9caca195-3509-1c39-e053-2a95a90ad3dd"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Bacitracin Zinc and Polymyxin B Sulfate Ophthalmic Ointment USP, is a sterile antimicrobial ointment for ophthalmic use. Each gram contains: bacitracin zinc equivalent to 500 bacitracin units, polymyxin B sulfate equivalent to 10,000 polymyxin B units, mineral oil, and white petrolatum.</paragraph>
+                  <paragraph>Bacitracin zinc is the zinc salt of bacitracin, a mixture of related cyclic polypeptides (mainly bacitracin A) produced by the growth of an organism of the licheniformisgroup of Bacillus subtilisvar Tracy. It has a potency of not less than 40 bacitracin units per mg. The structural formula for bacitracin A is:</paragraph>
+                  <paragraph>[Structural Formula Image 1]</paragraph>
+                  <paragraph>Polymyxin B sulfate is the sulfate salt of polymyxin B1 and B2 which are produced by the growth of Bacillus polymyxa(Prazmowski) Migula (Fam. Bacillaceae). It has a potency of not less than 6,000 polymyxin B units per mg, calculated on an anhydrous basis. The structural formulae are:</paragraph>
+                  <paragraph>[Structural Formula Image 2]</paragraph>
+               </text>
+               <effectiveTime value="20170329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4be31c8e-81ae-11d2-e054-00144ff8d46c">
+               <id root="9caca195-350a-1c39-e053-2a95a90ad3dd"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>A wide range of antibacterial action is provided by the overlapping spectra of bacitracin and polymyxin B sulfate. Bacitracin is bactericidal for a variety of gram-positive and gram-negative organisms. It interferes with bacterial cell wall synthesis by inhibition of the regeneration of phospholipid receptors involved in peptidoglycan synthesis. Polymyxin B is bactericidal for a variety of gram-negative organisms. It increases the permeability of the bacterial cell membrane by interacting with the phospholipid components of the membrane.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4be1e7a9-54f9-5470-e054-00144ff8d46c">
+               <id root="9caca195-350b-1c39-e053-2a95a90ad3dd"/>
+               <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+               <text>
+                  <paragraph>Bacitracin zinc and polymyxin B sulfate together are considered active against the following microorganisms: Staphylococcus aureus, streptococci including Streptococcus pneumoniae, Escherichia coli, Haemophilusinfluenzae, Klebsiella/Enterobacterspecies, Neisseria species and Pseudomonas aeruginosa. The product does not provide adequate coverage against Serratiamarcescens.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4be31c8e-81b0-11d2-e054-00144ff8d46c">
+               <id root="9caca195-350c-1c39-e053-2a95a90ad3dd"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Polycin® Ophthalmic Ointment is indicated for the topical treatment of superficial infections of the external eye and its adnexa caused by susceptible bacteria. Such infections encompass conjunctivitis, keratitis and keratoconjunctivitis, blepharitis and blepharoconjunctivitis.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4be31c8e-81b2-11d2-e054-00144ff8d46c">
+               <id root="9caca195-350d-1c39-e053-2a95a90ad3dd"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Polycin® Ophthalmic Ointment is contraindicated in individuals who have shown hypersensitivity to any of its components.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4be31c8e-81b4-11d2-e054-00144ff8d46c">
+               <id root="9caca195-3511-1c39-e053-2a95a90ad3dd"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>NOT FOR INJECTION INTO THE EYE. Bacitracin Zinc and Polymyxin B Sulfate Ophthalmic Ointment should never be directly introduced into the anterior chamber of the eye. Ophthalmic ointments may retard corneal wound healing. Topical antibiotics may cause cutaneous sensitization. A precise incidence of hypersensitivity reactions (primarily skin rash) due to topical antibiotics is not known. The manifestations of sensitization to topical antibiotics are usually itching, reddening, and edema of the conjunctiva and eyelid. A sensitization reaction may manifest simply, as a failure to heal. During long-term use of topical antibiotic products, periodic examination for such signs is advisable, and the patient should be told to discontinue the product if they are observed. Symptoms usually subside quickly on withdrawing the medication. Application of products containing these ingredients should be avoided for the patient thereafter (see PRECAUTIONS: General).</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4be31c8e-81b6-11d2-e054-00144ff8d46c">
+               <id root="9caca195-350e-1c39-e053-2a95a90ad3dd"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General:</paragraph>
+                  <paragraph>As with other antibiotic preparations, prolonged use of Bacitracin Zinc and Polymyxin B Sulfate Ophthalmic Ointment may result in overgrowth of non susceptible organisms including fungi. If superinfection occurs, appropriate measures should be initiated. Bacterial resistance to Bacitracin Zinc and Polymyxin B Sulfate Ophthalmic Ointment may also develop. If purulent discharge, inflammation, or pain become aggravated, the patient should discontinue use of the medication and consult a physician.</paragraph>
+                  <paragraph>There have been reports of bacterial keratitis associated with the use of topical ophthalmic products in multiple-dose containers which have been inadvertently contaminated by patients, most of whom has a concurrent corneal disease or a disruption of the ocular epithelial surface (see PRECAUTIONS: Information for Patients).</paragraph>
+                  <paragraph>Allergic cross-reactions may occur which could prevent the use of any or all of the following antibiotics for the treatment of future infections: kanamycin, paromomycin, streptomycin, and possibly gentamicin.</paragraph>
+                  <paragraph>Information for Patients:</paragraph>
+                  <paragraph>Patients should be instructed to avoid allowing the tip of the dispensing container to contact the eye, eyelid, fingers, or any other surface. The use of this product by more than one person may spread infection.</paragraph>
+                  <paragraph>Patients should also be instructed that ocular products, if handled improperly, can become contaminated by common bacteria known to cause ocular infections. Serious damage to the eye and subsequent loss of vision may result from using contaminated products (see PRECAUTIONS: General).</paragraph>
+                  <paragraph>If the condition persists or gets worse, or if a rash or allergic reaction develops, the patient should be advised to stop use and consult a physician. Do not use this product if you are allergic to any of the listed ingredients. Keep tightly closed when not in use. Keep out of reach of children.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility:</paragraph>
+                  <paragraph>Long-term studies in animals to evaluate carcinogenic or mutagenic potential have not been conducted with polymyxin B sulfate or bacitracin. Polymyxin B has been reported to impair the motility of equine sperm, but its effects on male or female fertility are unknown. No adverse effects on male or female fertility, litter size, or survival were observed in rabbits given bacitracin zinc 100 gm/ton of diet.</paragraph>
+                  <paragraph>Pregnancy:</paragraph>
+                  <paragraph>Teratorgenic Effects:</paragraph>
+                  <paragraph>Pregnancy Category C.</paragraph>
+                  <paragraph>Animal reproduction studies have not been conducted with polymyxin B sulfate or bacitracin. It is also not known whether Bacitracin Zinc and Polymyxin B Sulfate Ophthalmic Ointment can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Bacitracin Zinc and Polymyxin B Sulfate Ophthalmic Ointment should be given to a pregnant woman only if clearly needed.</paragraph>
+                  <paragraph>Nursing Mothers:</paragraph>
+                  <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when Bacitracin Zinc and Polymyxin B Sulfate Ophthalmic Ointment is administered to a nursing woman.</paragraph>
+                  <paragraph>Pediatric Use:</paragraph>
+                  <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4be31c8e-81b8-11d2-e054-00144ff8d46c">
+               <id root="9caca195-3512-1c39-e053-2a95a90ad3dd"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>Adverse reactions have occurred with the anti-infective components Bacitracin Zinc and Polymyxin B Sulfate Ophthalmic Ointment. The exact incidence is not known. Reactions occurring most often are allergic sensitization reactions including itching, swelling, and conjunctival erythema (see WARNINGS). More serious hypersensitivity reactions, including anaphylaxis, have been reported rarely. Local irritation on instillation has also been reported.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Perrigo at 1-866-634-9120 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4be31c8e-81ba-11d2-e054-00144ff8d46c">
+               <id root="9caca195-3513-1c39-e053-2a95a90ad3dd"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>May be applied every 3 or 4 hours for 7 to 10 days, depending on the severity of the infection.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4be300e0-3d81-0f87-e054-00144ff8d46c">
+               <id root="9caca195-350f-1c39-e053-2a95a90ad3dd"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Polycin® Ophthalmic Ointment is supplied in 3.5 g (1/8 oz) sterile tamper evident tubes with ophthalmic tip.</paragraph>
+                  <paragraph>NDC 0574-4021-35</paragraph>
+                  <paragraph>Store at 20°-25°C (68°-77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Polycin® is a Registered Trademark of Perrigo Company</paragraph>
+                  <paragraph>Manufactured For Perrigo, Minneapolis, MN 55427</paragraph>
+                  <paragraph>R1113</paragraph>
+                  <paragraph>Ini1113</paragraph>
+                  <paragraph>6U200 RC J1</paragraph>
+                  <paragraph>Rev 12-13 A</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170329"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4be31c8e-81bd-11d2-e054-00144ff8d46c">
+               <id root="9caca195-3510-1c39-e053-2a95a90ad3dd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4be31c8e-81bb-11d2-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170329"/>
+               <component>
+                  <observationMedia ID="img_4be31c8e-81bb-11d2-e054-00144ff8d46c">
+                     <text>111</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="111-35.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

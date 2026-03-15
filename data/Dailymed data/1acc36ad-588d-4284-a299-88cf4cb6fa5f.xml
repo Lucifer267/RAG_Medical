@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1acc36ad-588d-4284-a299-88cf4cb6fa5f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20140521"/>
+   <setId root="a0c49e8a-28c4-40d7-afb8-dc649c00516a"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="244249012" root="1.3.6.1.4.1.519.1"/>
+            <name>Ross Healthcare Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="244249012"/>
+                  <name>Ross Healthcare Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="244249012"/>
+                        <name>Ross Healthcare Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="62007-010" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="64011b0b-8f93-4da7-b02d-f26fa9b050c6"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140529"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="62007-010" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>PCXX ONE MINTE GEL STRAWBERRY BLAST</name>
+                        <formCode code="C42934" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GEL"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>FLUORIDE TREATMENT</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="27.2" unit="mg"/>
+                              <denominator value="1" unit="mg"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8ZYQ1474W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM FLUORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q80VPU408O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLUORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value=".03" unit="mg"/>
+                              <denominator value="1" unit="mg"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62007-010-16" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140521"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48326" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="red" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73417" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRAWBERRY" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="topical"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L753df4bb-e01f-4bab-86ee-53db958e5f28">
+               <id root="3d67e2c9-505e-45bc-8d02-4b7967fb3f8a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lef5c6b30-a9cd-4f5a-9c22-9924816421d1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+               <component>
+                  <observationMedia ID="Lef5c6b30-a9cd-4f5a-9c22-9924816421d1">
+                     <text>PCXX ONE MINUTE ST FRONT PANEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="PCXX ONE MINUTE ST FRONT PANEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L836d98fb-d897-4856-8656-899a1dfea947">
+               <id root="44301d6c-fc9f-4a14-bf52-79fb56167829"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L3ae216c6-b5ec-4016-a02c-b7bb7cc0ccce"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+               <component>
+                  <observationMedia ID="L3ae216c6-b5ec-4016-a02c-b7bb7cc0ccce">
+                     <text>PCXX ONE MINUTE ST SECONDARY PANEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="PCXX ONE MINUTE ST SECONDARY PANEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="a083fb8e-3012-4d12-94d3-949a3188aba3"/>
+   <code codeSystem="2.16.840.1.113883.6.1" code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title ID="inv-2c1fc576-214a-4366-bf07-484dddf9fd7a">Anticoagulant Sodium Citrate Solution, USP<br/>Code 798-60</title>
+   <effectiveTime value="20110520"/>
+   <setId root="3a8dfcfa-e034-40ca-a71f-05099015f87d"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="928224765"/>
+            <name>Medsep Corporation</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="928224765" root="1.3.6.1.4.1.519.1"/>
+                  <name>Medsep Corporation</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="928224765"/>
+                        <name>Medsep Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code codeSystem="2.16.840.1.113883.3.26.1.1" code="C43360" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code codeSystem="2.16.840.1.113883.3.26.1.1" code="C73607" displayName="relabel"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code codeSystem="2.16.840.1.113883.3.26.1.1" code="C73606" displayName="repack"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="bf40ba96-e15f-47e6-9b5b-ba63a14b6242"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20110520"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="62646-798"/>
+                        <name>Anticoagulant Sodium Citrate</name>
+                        <formCode codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION" code="C42986"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sodium Citrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="10"/>
+                              <denominator unit="mL" value="250"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="1Q73Q2JULR"/>
+                              <name>SODIUM CITRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code codeSystem="2.16.840.1.113883.4.9" code="XF417D3PSL"/>
+                                    <name>CITRIC ACID ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="059QF0KO0R"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="250"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="62646-798-60"/>
+                              <formCode codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG" code="C43167"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id root="2.16.840.1.113883.3.150" extension="NDA760305"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20110415"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode codeSystem="2.16.840.1.113883.3.26.1.1" code="C38276" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-249a90ad-59fd-4f1d-8f7f-724313e0b36c">
+               <id root="4927ef75-cfdc-4aaa-8ad1-ca9a39f7dc28"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title ID="inv-3b927b61-a2e3-452f-8bb8-e7a333176b56">ANTICOAGULANT SODIUM CITRATE SOLUTION, USP</title>
+               <text ID="inv-17ddc1fd-ea65-4e6a-a5a0-b1e41e0bf50a">
+                  <paragraph ID="inv-27dfb8fd-2bbc-452f-8505-8a2aeb0f9887">Sterile, non-pyrogenic fluid path. Sterilized by steam.</paragraph>
+                  <paragraph ID="inv-1d0f7433-bd59-4ee5-b149-b85e4ac792d4">
+                     <content styleCode="bold">Rx only.</content>
+                  </paragraph>
+                  <paragraph ID="inv-051707ce-4975-46c1-b57f-55c2a8260d84">250 ml volume bag.  </paragraph>
+                  <paragraph ID="inv-0896d183-c5e2-45c8-bb92-aba82eecaa9b">Store at room temperature.</paragraph>
+               </text>
+               <effectiveTime value="20110520"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-d4f58bf3-473c-4fe8-ac95-c918a459caea">
+               <id root="e43f936a-4335-4adf-a7b4-b34e2338ce8a"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title ID="inv-d710fd3c-3e6a-42e6-ab91-ea602e66d212">INDICATIONS AND USAGE</title>
+               <text ID="inv-25541039-ecb2-40b0-b241-0d49e3ae63e7">
+                  <paragraph ID="inv-a9fa190f-c1b7-4088-b9b8-92e170319543">For use with automated plasmapheresis equipment only.  Use according to equipment manufacturer’s instructions.  This unit should be used for plasmapheresis only.</paragraph>
+               </text>
+               <effectiveTime value="20110520"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-e8b16011-ddfb-4b1b-a4f7-b0b8639f0a2e">
+               <id root="dea03e3f-71be-47b3-8d41-befd2dd3f4bd"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34071-1" displayName="WARNINGS SECTION"/>
+               <title ID="inv-792fcf15-d0d4-453d-871b-f97d457c06a9">WARNINGS</title>
+               <text ID="inv-68d0545e-8e12-43a1-ae90-58ac84a4671c">
+                  <paragraph ID="inv-d0a3ffcc-9619-402c-ad90-ef10998a8b07">Not for direct intravenous infusion.</paragraph>
+                  <paragraph ID="inv-9091078c-5a7f-4f52-847c-10891d360552">DO NOT VENT.</paragraph>
+                  <paragraph ID="inv-a89f9dcf-fb8d-4b27-a2cb-d6a67a1ddadd">Avoid excessive heat.  Protect from freezing.</paragraph>
+               </text>
+               <effectiveTime value="20110520"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-86d49094-21a9-4968-9594-9ca1735e7a57">
+               <id root="6379ce72-b144-48f6-890f-ba6787927381"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42232-9" displayName="PRECAUTIONS SECTION"/>
+               <title ID="inv-0aff6b77-b8d4-4ff0-8888-e8407c301c1d">GENERAL PRECAUTIONS</title>
+               <text ID="inv-eddaa229-6cff-4c7b-88d1-9bb2c74035d2">
+                  <paragraph ID="inv-15eaaa0b-b69a-42ba-8713-e89ca4f61816">Do not use unless solution is clear and no leaks are detected.</paragraph>
+                  <paragraph ID="inv-0d95083f-01c8-4b1d-8b0e-5ceabb1d144a">Discard unused portion.</paragraph>
+               </text>
+               <effectiveTime value="20110520"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-d8af0109-2c4d-43ed-b57c-4945731e5105">
+               <id root="812b90d0-58d0-435c-9798-3c3b95f87c08"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title ID="inv-7427acc2-5809-4f3c-8ac0-dac6c1bd1a7d">HOW SUPPLIED</title>
+               <text ID="inv-602f9d6f-c5d4-49f4-a6a1-4d444b85c0bd">
+                  <paragraph ID="inv-05b2deb2-bb2b-4dd1-a75a-d91b1280962a">Single Use Container.</paragraph>
+               </text>
+               <effectiveTime value="20110520"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-d24c956c-0c80-4436-a31f-7755cca9141b">
+               <id root="d925969b-22c3-473f-9f1d-d40bc5b64004"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title ID="inv-0d562bd3-c406-437b-aee3-a422b33179fd">INFORMATION FOR PATIENTS</title>
+               <text ID="inv-b42b93e8-406e-4eed-a532-9383914ec283">
+                  <paragraph ID="inv-7cb489c0-ee5c-47f4-8c6c-05fc7b2ef607">Medsep Corporation, A Subsidiary of Pall Corp., Covina, CA 91722, USA</paragraph>
+                  <paragraph ID="inv-ede8a469-e015-434e-b39c-db86e9270e93">Visit us at www.pall.com/medical</paragraph>
+                  <paragraph ID="inv-8b1013be-1f1f-4177-9c5a-ed430de4e781">For Pall customer service, call: 1.800.645.6578</paragraph>
+               </text>
+               <effectiveTime value="20110520"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-18fbb445-1b7a-47b1-850b-21d8d337bf78">
+               <id root="b2c81aba-35f2-464e-90fa-a667dee5f9a6"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title ID="inv-6cecd5e8-ad60-414a-9fd8-cd1d23699f98">CONTAINER TEXT DISPLAYED</title>
+               <text ID="inv-0c4b9277-9fb3-4eea-92a9-37f6bb55a64b">
+                  <renderMultiMedia ID="ID0E5DAC" referencedObject="mm-e0e1ae41-673a-4a89-bae1-193b7a6c8baf">
+                     <caption ID="inv-27861f5f-e3aa-4e5e-ab53-b55adcb989ff">Anticoagulant Sodium Citrate Bag Text</caption>
+                  </renderMultiMedia>
+                  <paragraph ID="inv-2581f86a-7390-4679-9eb9-6ba190eb0308">ANTICOAGULANT SODIUM CITRATE SOLUTION, USP</paragraph>
+                  <paragraph ID="inv-dc82e838-a491-450a-92bc-0c7b8295fc3f">250 mL                            Code 798-60</paragraph>
+                  <paragraph ID="inv-bcef1861-db1b-4d81-aecc-dcdd9ebd624c">For use with automated plasmapheresis equipment only.  Each 250 mL of anticoagulant contains 10.0 g sodium citrate (dihydrate), USP (pH adjusted with citric acid, USP).</paragraph>
+                  <paragraph ID="inv-298743eb-6644-47fc-a2bb-731dd374f987">CAUTION: Not for direct intravenous infusion.</paragraph>
+                  <paragraph ID="inv-987c88e0-0c73-4603-88cd-bb2993e61f11">Do not use unless anticoagulant is clear. This unit should be used for plasmapheresis only. Sterile, nonpyrogenic fluid path. Sterilized by steam. Rx Only.</paragraph>
+                  <paragraph ID="inv-641e31a8-9522-4aec-ae26-031e3f2eca6d">DO NOT VENT.</paragraph>
+               </text>
+               <effectiveTime value="20110520"/>
+               <component>
+                  <section ID="inv-a4ae6094-eccd-479d-88cb-fa93092b3734">
+                     <id root="0ccbb745-0576-46f1-98c9-1d491398508d"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+                     <text ID="inv-0c3f325a-ec9a-49e4-89c9-2679bc826323">
+                        <paragraph ID="inv-da684613-02f4-42dd-9478-f876b5045c25">Issued August 2010, 147798603</paragraph>
+                     </text>
+                     <effectiveTime value="20110520"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="mm-e0e1ae41-673a-4a89-bae1-193b7a6c8baf">
+                     <text>Sodium Citrate Bag Text</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="143798603Bag.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

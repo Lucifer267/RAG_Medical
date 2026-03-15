@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="0f528533-434c-4ce1-8596-a69319aee583"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>THIOTEPA FOR INJECTION, USP<br/>(For Intravenous, Intracavitary or Intravesical Use)
+</title>
+   <effectiveTime value="20180507"/>
+   <setId root="448c29f1-6d9c-4f8e-8a69-9b85e973e728"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="796852890" root="1.3.6.1.4.1.519.1"/>
+            <name>Sagent Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="ec114078-5be9-402d-a21e-3983d51b8380"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20180507"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="25021-246" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Thiotepa</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Thiotepa</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="15" unit="mg"/>
+                              <denominator value="1.5" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="905Z5W3GKH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Thiotepa</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="905Z5W3GKH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Thiotepa</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1.5" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25021-246-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20180615"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180615"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209150" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38231" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRACAVITARY"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38278" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVESICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="ec9e7567-01a4-4840-b128-c652a788f5c3"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>SAGENT<sup>®</sup>
+                     <br/>Rx only
+</paragraph>
+               </text>
+               <effectiveTime value="20170605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="74d9f57c-e314-4038-acfd-598da1dae6a0"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Thiotepa for Injection, USP is an ethylenimine-type compound. It is supplied as a non-pyrogenic, sterile lyophilized powder for intravenous, intracavitary or intravesical administration, containing 15 mg of thiotepa. Thiotepa is a synthetic product with antitumor activity. The chemical name for thiotepa is Aziridine, 1,1',1''-phosphinothioylidynetris-, or Tris (1-aziridinyl) phosphine sulfide. Thiotepa has the following structural formula:
+</paragraph>
+                  <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  <paragraph>Thiotepa has the empirical formula C<sub>6</sub>H<sub>12</sub>N<sub>3</sub>PS, and a molecular weight of 189.22. When reconstituted with sterile water for injection, the resulting solution has a pH of approximately 5.5 to 7.5. Thiotepa is stable in alkaline medium and unstable in acid medium.
+</paragraph>
+               </text>
+               <effectiveTime value="20180507"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Structural Formula
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="thi02-0002-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="88c530d3-88b4-424e-b9e6-81d9d4d65219"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <text>
+                  <paragraph>Thiotepa is a cytotoxic agent of the polyfunctional type, related chemically and pharmacologically to nitrogen mustard. The radiomimetic action of thiotepa is believed to occur through the release of ethylenimine radicals which, like irradiation, disrupt the bonds of DNA. One of the principal bond disruptions is initiated by alkylation of guanine at the N-7 position, which severs the linkage between the purine base and the sugar and liberates alkylated guanines.
+</paragraph>
+                  <paragraph>The pharmacokinetics of thiotepa and TEPA in thirteen female patients (45 to 84 years) with advanced stage ovarian cancer receiving 60 mg and 80 mg thiotepa by intravenous infusion on subsequent courses given at 4 week intervals are presented in the following table:
+</paragraph>
+                  <table width="100%">
+                     <col width="37.340%" align="left"/>
+                     <col width="15.660%" align="left"/>
+                     <col width="15.660%" align="left"/>
+                     <col width="15.660%" align="left"/>
+                     <col width="15.680%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td rowspan="3" align="left" valign="middle" styleCode="Toprule Botrule Lrule Rrule">Pharmacokinetic<br/>Parameters<br/>(units)
+</td>
+                           <td colspan="4" align="center" valign="middle" styleCode="Toprule Botrule Rrule">Mean ± SEM
+</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="center" valign="middle" styleCode="Botrule Rrule">Thiotepa
+</td>
+                           <td colspan="2" align="center" valign="middle" styleCode="Botrule Rrule">TEPA
+</td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">60 mg
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">80 mg
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">60 mg
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">80 mg
+</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="middle" styleCode="Botrule Lrule Rrule">Peak Serum concentration (ng/mL)
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">1331 ± 119
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">1828 ± 135
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">273 ± 46
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">353 ± 46
+</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="middle" styleCode="Botrule Lrule Rrule">Elimination half-life (h)
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">2.4 ± 0.3
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">2.3 ± 0.3
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">17.6 ± 3.6
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">15.7 ± 2.7
+</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="middle" styleCode="Botrule Lrule Rrule">Area under the curve (ng/h/mL)
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">2832 ± 412
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">4127 ± 668
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">4789 ± 1022
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">7452 ± 1667
+</td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="middle" styleCode="Botrule Lrule Rrule">Total body clearance (mL/min)
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">446 ± 63
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule">419 ± 56
+</td>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule"/>
+                           <td align="center" valign="middle" styleCode="Botrule Rrule"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>TEPA, which possesses cytotoxic activity, appears to be the major metabolite of thiotepa found in human serum and urine. Urinary excretion of <sup>14</sup>C-labeled thiotepa and metabolites in a 34 year old patient with metastatic carcinoma of the cecum who received a dose of 0.3 mg/kg intravenously was 63%. Thiotepa and TEPA in urine each accounts for less than 2% of the administered dose.
+</paragraph>
+                  <paragraph>The pharmacokinetics of thiotepa in renal and hepatic dysfunction patients have not been evaluated. Possible pharmacokinetic interactions of thiotepa with any concomitantly administered medications have not been formally investigated.
+</paragraph>
+               </text>
+               <effectiveTime value="20170605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="6dc8d1bb-635b-4977-91d5-ac9d40aa2d72"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>Thiotepa for Injection has been tried with varying results in the palliation of a wide variety of neoplastic diseases. However, the most consistent results have been seen in the following tumors:
+</paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Adenocarcinoma of the breast.
+</item>
+                     <item>Adenocarcinoma of the ovary.
+</item>
+                     <item>For controlling intracavitary effusions secondary to diffuse or localized neoplastic diseases of various serosal cavities.
+</item>
+                     <item>For the treatment of superficial papillary carcinoma of the urinary bladder.
+</item>
+                  </list>
+                  <paragraph>While now largely superseded by other treatments, Thiotepa for Injection has been effective against other lymphomas, such as lymphosarcoma and Hodgkin's disease.
+</paragraph>
+               </text>
+               <effectiveTime value="20170605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="29b6be50-beba-428d-a1d3-b552bdf33cb1"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>Thiotepa is contraindicated in patients with a known hypersensitivity (allergy) to this preparation.
+</paragraph>
+                  <paragraph>Therapy is probably contraindicated in cases of existing hepatic, renal, or bone-marrow damage. However, if the need outweighs the risk in such patients, thiotepa may be used in low dosage, and accompanied by hepatic, renal and hemopoietic function tests.
+</paragraph>
+               </text>
+               <effectiveTime value="20170605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="f00bdffc-5cb2-42cb-af9b-fabdb3a4c739"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <text>
+                  <paragraph>Death has occurred after intravesical administration, caused by bone-marrow depression from systematically absorbed drug.
+</paragraph>
+                  <paragraph>Death from septicemia and hemorrhage has occurred as a direct result of hematopoietic depression by thiotepa.
+</paragraph>
+                  <paragraph>Thiotepa is highly toxic to the hematopoietic system. A rapidly falling white blood cell or platelet count indicates the necessity for discontinuing or reducing the dosage of thiotepa. Weekly blood and platelet counts are recommended during therapy and for at least 3 weeks after therapy has been discontinued.
+</paragraph>
+                  <paragraph>Thiotepa can cause fetal harm when administered to a pregnant woman. Thiotepa given by the intraperitoneal (IP) route was teratogenic in mice at doses ≥1 mg/kg (3.2 mg/m<sup>2</sup>), approximately 8-fold less than the maximum recommended human therapeutic dose (0.8 mg/kg, 27 mg/m<sup>2</sup>), based on body-surface area. Thiotepa given by the IP route was teratogenic in rats at doses ≥3 mg/kg (21 mg/m<sup>2</sup>), approximately equal to the maximum recommended human therapeutic dose, based on body-surface area. Thiotepa was lethal to rabbit fetuses at a dose of 3 mg/kg (41 mg/m<sup>2</sup>), approximately two times the maximum recommended human therapeutic dose based on body-surface area.
+</paragraph>
+                  <paragraph>Effective contraception should be used during thiotepa therapy if either the patient or partner is of childbearing potential. There are no adequate and well-controlled studies in pregnant women. If thiotepa is used during pregnancy, or if pregnancy occurs during thiotepa therapy, the patient and partner should be apprised of the potential hazard to the fetus.
+</paragraph>
+                  <paragraph>Thiotepa is a polyfunctional alkylating agent, capable of cross-linking the DNA within a cell and changing its nature. The replication of the cell is, therefore, altered, and thiotepa may be described as mutagenic. An <content styleCode="italics">in vitro</content> study has shown that it causes chromosomal aberrations of the chromatid type and that the frequency of induced aberrations increases with the age of the subject.
+</paragraph>
+                  <paragraph>Like many alkylating agents, thiotepa has been reported to be carcinogenic when administered to laboratory animals. Carcinogenicity is shown most clearly in studies using mice, but there is some evidence of carcinogenicity in man. In patients treated with thiotepa, cases of myelodysplastic syndromes and acute non-lymphocytic leukemia have been reported.
+</paragraph>
+               </text>
+               <effectiveTime value="20170605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="443ecf5e-57b2-4f69-86bf-b141b399ce27"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20170605"/>
+               <component>
+                  <section ID="s8">
+                     <id root="aa2c0a0d-71fa-44c4-9b4f-e442eee83269"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General
+</title>
+                     <text>
+                        <paragraph>The serious complication of excessive thiotepa therapy, or sensitivity to the effects of thiotepa, is bone-marrow depression. If proper precautions are not observed thiotepa may cause leukopenia, thrombocytopenia, and anemia.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="a16db3a7-aef8-40a0-867e-a4086c2892b2"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients
+</title>
+                     <text>
+                        <paragraph>The patient should notify the physician in the case of any sign of bleeding (epistaxis, easy bruising, change in color of urine, black stool) or infection (fever, chills) or for possible pregnancy to patient or partner.
+</paragraph>
+                        <paragraph>Effective contraception should be used during thiotepa therapy if either the patient or the partner is of childbearing potential.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="0869d6cb-180e-4996-9ac8-3271e7838fbe"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests
+</title>
+                     <text>
+                        <paragraph>The most reliable guide to thiotepa toxicity is the white blood cell count. If this falls to 3,000 or less, the dose should be discontinued. Another good index of thiotepa toxicity is the platelet count; if this falls to 150,000, therapy should be discontinued. Red blood cell count is a less accurate indicator of thiotepa toxicity. If the drug is used in patients with hepatic or renal damage (see <content styleCode="bold">
+                              <linkHtml href="#s5">CONTRAINDICATIONS</linkHtml>
+                           </content> section), regular assessment of hepatic and renal function tests are indicated.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="70c23fbb-cf06-4734-a726-31461e9b75fa"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions
+</title>
+                     <text>
+                        <paragraph>It is not advisable to combine, simultaneously or sequentially, cancer chemotherapeutic agents or a cancer chemotherapeutic agent and a therapeutic modality having the same mechanism of action. Therefore, thiotepa combined with other alkylating agents such as nitrogen mustard or cyclophosphamide or thiotepa combined with irradiation would serve to intensify toxicity rather than to enhance therapeutic response. If these agents must follow each other, it is important that recovery from the first agent, as indicated by white blood cell count, be complete before therapy with the second agent is instituted.
+</paragraph>
+                        <paragraph>Other drugs which are known to produce bone-marrow depression should be avoided.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="bed0d37a-3d0a-4e42-a997-15d046f13c18"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>Also see <content styleCode="bold">
+                              <linkHtml href="#s6">WARNINGS</linkHtml>
+                           </content> section.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="3e42bd5f-6b8a-437f-91dd-d8ce391a345d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Carcinogenesis
+</title>
+                     <text>
+                        <paragraph>In mice, repeated IP administration of thiotepa (1.15 or 2.3 mg/kg three times per week for 52 or 43 weeks, respectively) produced a significant increase in the combined incidence of squamous-cell carcinomas of the skin, preputial gland, and ear canal, and combined incidence of lymphoma and lymphocytic leukemia. In other studies in mice, repeated IP administration of thiotepa (4 or 8 mg/kg three times per week for 4 weeks followed by a 20 week observation period or 1.8 mg/kg three times per week for 4 weeks followed by a 35 week observation period) resulted in an increased incidence of lung tumors. In rats, repeated IP administration of thiotepa (0.7 or 1.4 mg/kg three times per week for 52 or 34 weeks, respectively) produced significant increases in the incidence of squamous-cell carcinomas of the skin or ear canal, combined hematopoietic neoplasms, and uterine adenocarcinomas. Thiotepa given intravenously (IV) to rats (1 mg/kg once per week for 52 weeks) produced an increased incidence of malignant tumors (abdominal cavity sarcoma, lymphosarcoma myelosis, seminoma, fibrosarcoma, salivary gland hemangioendothelioma, mammary sarcoma, pheochromocytoma) and benign tumors.
+</paragraph>
+                        <paragraph>The lowest reported carcinogenic dose in mice (1.15 mg/kg, 3.68 mg/m<sup>2</sup>) is approximately 7-fold less than the maximum recommended human therapeutic dose based on body-surface area. The lowest reported carcinogenic dose in rats (0.7 mg/kg, 4.9 mg/m<sup>2</sup>) is approximately 6-fold less than the maximum recommended human therapeutic dose based on body-surface area.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s14">
+                     <id root="765a2383-1904-446c-8214-d4a77b42676f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Mutagenesis
+</title>
+                     <text>
+                        <paragraph>Thiotepa was mutagenic in <content styleCode="italics">in vitro</content> assays in Salmonella typhimurium, E coli, Chinese hamster lung and human lymphocytes. Chromosomal aberrations and sister chromatid exchanges were observed <content styleCode="italics">in vitro</content> with thiotepa in bean root tips, human lymphocytes, Chinese hamster lung, and monkey lymphocytes. Mutations were observed with oral thiotepa in mouse at doses &gt;2.5 mg/kg (8 mg/m<sup>2</sup>). The mouse micronucleus test was positive with IP administration of &gt;1 mg/kg (3.2 mg/m<sup>2</sup>). Other positive <content styleCode="italics">in vivo</content> chromosomal aberration or mutation assays included Drosophila melanogaster, Chinese hamster marrow, murine marrow, monkey lymphocyte, and murine germ cell.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="2879861c-8710-4205-a105-0f3e30fd0392"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>Thiotepa impaired fertility in male mice at PO or IP doses ≥0.7 mg/kg (2.24 mg/m<sup>2</sup>), approximately 12-fold less than the maximum recommended human therapeutic dose based on body-surface area. Thiotepa (0.5 mg) inhibited implantation in female rats when instilled into the uterine cavity. Thiotepa interfered with spermatogenesis in mice at IP doses ≥0.5 mg/kg (1.6 mg/m<sup>2</sup>), approximately 17-fold less than the maximum recommended human therapeutic dose based on body-surface area. Thiotepa interfered with spermatogenesis in hamsters at an IP dose of 1 mg/kg (4.1 mg/m<sup>2</sup>), approximately 7-fold less than the maximum recommended human therapeutic dose based on body-surface area.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="d7750df5-e80a-4c27-94e6-772ccb013d4b"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy: Teratagenic Effects - Category D
+</title>
+                     <text>
+                        <paragraph>See <content styleCode="bold">
+                              <linkHtml href="#s6">WARNINGS</linkHtml>
+                           </content> section.
+</paragraph>
+                        <paragraph>Thiotepa can cause fetal harm when administered to a pregnant woman. Thiotepa given by the IP route was teratogenic in mice at doses ≥1 mg/kg (3.2 mg/m<sup>2</sup>), approximately 8-fold less than the maximum recommended human therapeutic dose based on body-surface area. Thiotepa given by the IP route was teratogenic in rats at doses ≥3 mg/kg (21 mg/m<sup>2</sup>), approximately equal to the maximum recommended human therapeutic dose based on body-surface area. Thiotepa was lethal to rabbit fetuses at a dose of 3 mg/kg (41 mg/ m<sup>2</sup>), approximately 2 times the maximum recommended human therapeutic dose based on body-surface area. Patients of childbearing potential should be advised to avoid pregnancy. There are no adequate and well-controlled studies in pregnant women. If thiotepa is used during pregnancy, or if pregnancy occurs during thiotepa therapy, the patient and partner should be apprised of the potential hazard to the fetus.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s17">
+                     <id root="0fa4393d-a3d4-4102-89cd-3b21873048f2"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers
+</title>
+                     <text>
+                        <paragraph>It is not known whether thiotepa is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for tumorigenicity shown for thiotepa in animal studies, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s18">
+                     <id root="25bc26e4-7ad2-4fba-b78e-ccb010e97c87"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use
+</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s19">
+                     <id root="bc6ee71e-904a-4eab-af78-98cabada94cc"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use
+</title>
+                     <text>
+                        <paragraph>Clinical studies of thiotepa did not include sufficient numbers of subjects aged 65 and over to determine whether elderly subjects respond differently from younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreasing hepatic, renal or cardiac function, and of concomitant disease or other drug therapy.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s20">
+               <id root="14e47674-403f-48be-8f0e-d0a0d83756b8"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>In addition to its effect on the blood-forming elements (see <content styleCode="bold">
+                        <linkHtml href="#s6">WARNINGS</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#s7">PRECAUTIONS</linkHtml>
+                     </content> sections), thiotepa may cause other adverse reactions.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General:</content> Fatigue, weakness. Febrile reaction and discharge from a subcutaneous lesion may occur as the result of breakdown of tumor tissue.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypersensitivity Reactions:</content> Allergic reactions - rash, urticaria, laryngeal edema, asthma, anaphylactic shock, wheezing.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Local Reactions:</content> Contact dermatitis, pain at the injection site.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal:</content> Nausea, vomiting, abdominal pain, anorexia.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Renal:</content> Dysuria, urinary retention. There have been rare reports of chemical cystitis or hemorrhagic cystitis following intravesical, but not parenteral administration of thiotepa.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory:</content> Prolonged apnea has been reported when succinylcholine was administered prior to surgery, following combined use of thiotepa and other anticancer agents. It was theorized that this was caused by decrease of pseudocholinesterase activity caused by the anticancer drugs.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Neurologic:</content> Dizziness, headache, blurred vision.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin:</content> Dermatitis, alopecia. Skin depigmentation has been reported following topical use.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Senses:</content> Conjunctivitis.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Reproductive:</content> Amenorrhea, interference with spermatogenesis.
+</paragraph>
+               </text>
+               <effectiveTime value="20180507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s21">
+               <id root="349ff3af-3f6f-4b48-b548-7ed8e2e9822a"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE
+</title>
+               <text>
+                  <paragraph>Hematopoietic toxicity can occur following overdose, manifested by a decrease in the white cell count and/or platelets. Red blood cell count is a less accurate indicator of thiotepa toxicity. Bleeding manifestations may develop. The patient may become more vulnerable to infection, and less able to combat such infection.
+</paragraph>
+                  <paragraph>Dosages within and minimally above the recommended therapeutic doses have been associated with potentially life-threatening hematopoietic toxicity. Thiotepa has a toxic effect on the hematopoietic system that is dose related.
+</paragraph>
+                  <paragraph>Thiotepa is dialyzable.
+</paragraph>
+                  <paragraph>There is no known antidote for overdosage with thiotepa. Transfusions of whole blood or platelets have proven beneficial to the patient in combating hematopoietic toxicity.
+</paragraph>
+               </text>
+               <effectiveTime value="20170605"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s22">
+               <id root="47f24bef-f7de-4baa-979d-aa7299f2117f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <text>
+                  <paragraph>Since absorption from the gastrointestinal tract is variable, thiotepa for injection should not be administered orally.
+</paragraph>
+                  <paragraph>Dosage must be carefully individualized. A slow response to thiotepa for injection does not necessarily indicate a lack of effect. Therefore, increasing the frequency of dosing may only increase toxicity. After maximum benefit is obtained by initial therapy, it is necessary to continue the patient on maintenance therapy (1 to 4 week intervals). In order to continue optimal effect, maintenance doses should not be administered more frequently than weekly in order to preserve correlation between dose and blood counts.
+</paragraph>
+               </text>
+               <effectiveTime value="20170605"/>
+               <component>
+                  <section ID="s23">
+                     <id root="7ca1dc39-7594-42f3-8882-3dbc2547d309"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preparation and Administration Precautions
+</title>
+                     <text>
+                        <paragraph>Thiotepa for injection is a cytotoxic anticancer drug and as with other potentially toxic compounds, caution should be exercised in handling and preparation of thiotepa for injection. Skin reactions associated with accidental exposure to thiotepa for injection may occur. The use of gloves is recommended. If thiotepa solution contacts the skin, immediately wash the skin thoroughly with soap and water. If thiotepa for injection contacts mucous membranes, the membranes should be flushed thoroughly with water.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s24">
+                     <id root="e7dc9612-df00-46f6-8d89-8e0d667df6d2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preparation of Solution
+</title>
+                     <text>
+                        <paragraph>Thiotepa for injection should be reconstituted with <content styleCode="bold">1.5 mL</content> of sterile water for injection resulting in a drug concentration of approximately <content styleCode="bold">10 mg per mL</content>. The actual withdrawable quantities and concentration achieved are illustrated in the following table:
+</paragraph>
+                        <table width="100%">
+                           <col width="16.681%" align="left"/>
+                           <col width="16.664%" align="left"/>
+                           <col width="16.664%" align="left"/>
+                           <col width="16.664%" align="left"/>
+                           <col width="16.664%" align="left"/>
+                           <col width="16.664%" align="left"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Lrule Rrule">Label Claim (mg per vial)
+</td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">Actual Content (mg per vial)
+</td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">Amount of Diluent to be Added<br/>(mL)
+</td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">Approximate Withdrawable Volume<br/>(mL)
+</td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">Approximate Withdrawable Amount<br/>(mg per vial)
+</td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">Approximate Reconstituted Concentration<br/>(mg per mL)
+</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Botrule Lrule Rrule">15
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">15.6
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">1.5
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">1.4
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">14.7
+</td>
+                                 <td align="center" valign="top" styleCode="Botrule Rrule">10.4
+</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>The reconstituted solution is hypotonic and should be further diluted with sodium chloride injection (0. 9% sodium chloride) before use.
+</paragraph>
+                        <paragraph>When reconstituted with sterile water for injection, solutions of thiotepa should be stored in a refrigerator and used within 8 hours. Reconstituted solutions further diluted with sodium chloride injection should be used immediately.
+</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">In order to eliminate haze, filter solutions through a 0.22 micron filter</content>
+                           <content styleCode="bold">
+                              <sup>*
+</sup>
+                           </content>
+                           <content styleCode="bold">prior to administration. Filtering does not alter solution potency. Reconstituted solutions should be clear. Solutions that remain opaque or precipitate after filtration should not be used.</content>
+                        </paragraph>
+                        <paragraph>
+                           <sup>*</sup>Polysulfone membrane (Gelman's Sterile Aerodisc<sup>®</sup>, Single Use) or triton-free mixed ester of cellulose/PVC (Millipore's MILLEX<sup>®</sup>-GS Filter Unit).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20180507"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s25">
+                     <id root="eae130e4-bdbe-4505-9081-9f031ce4fd41"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Initial and Maintenance Doses
+</title>
+                     <text>
+                        <paragraph>Initially the higher dose in the given range is commonly administered. The maintenance dose should be adjusted weekly on the basis of pretreatment control blood counts and subsequent blood counts.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s26">
+                     <id root="5ee171b1-462a-4ec1-8bea-0350b0793c7e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Intravenous Administration
+</title>
+                     <text>
+                        <paragraph>Thiotepa for injection may be given by rapid intravenous administration in doses of 0.3 to 0.4 mg/kg. Doses should be given at 1 to 4 week intervals.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s27">
+                     <id root="39970fb7-f588-4c36-a626-b710e2f4db48"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Intracavitary Administration
+</title>
+                     <text>
+                        <paragraph>The dosage recommended is 0.6 to 0.8 mg/kg. Administration is usually effected through the same tubing which is used to remove the fluid from the cavity involved.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s28">
+                     <id root="13cd1b31-ca27-4684-94be-2ec4c70eb1bc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Intravesical Administration
+</title>
+                     <text>
+                        <paragraph>Patients with papillary carcinoma of the bladder are dehydrated for 8 to 12 hours prior to treatment. Then 60 mg of thiotepa for injection in 30 to 60 mL of Sodium Chloride Injection is instilled into the bladder by catheter. For maximum effect, the solution should be retained for 2 hours. If the patient finds it impossible to retain 60 mL for 2 hours, the dose may be given in a volume of 30 mL. If desired, the patient may be positioned every 15 minutes for maximum area contact. The usual course of treatment is once a week for 4 weeks. The course may be repeated if necessary, but second and third courses must be given with caution since bone-marrow depression may be increased. Deaths have occurred after intravesical administration, caused by bone-marrow depression from systemically absorbed drug.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20170605"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s29">
+                     <id root="1ff2edf8-f9fe-4d1f-8fdb-d458e658e7e1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Handling and Disposal
+</title>
+                     <text>
+                        <paragraph>Follow safe cytotoxic agent handling procedures. Several guidelines on this subject have been published.<sup>1-7</sup> There is no general agreement that all of the procedures recommended in the guidelines are necessary or appropriate.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20180507"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s30">
+               <id root="45b6321a-ac8f-4720-931a-78065f78d1fc"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>Thiotepa for Injection, USP is supplied as follows:
+</paragraph>
+                  <table width="100%">
+                     <col width="19.633%" align="left"/>
+                     <col width="57.633%" align="left"/>
+                     <col width="22.733%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="left" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Thiotepa for Injection, USP</content>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Package Factor</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top" styleCode="Botrule Lrule Rrule">25021-246-02
+</td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">15 mg Single-Dose Vial
+</td>
+                           <td align="left" valign="top" styleCode="Botrule Rrule">1 vial per carton
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20180507"/>
+               <component>
+                  <section ID="s31">
+                     <id root="7abdb86c-35ca-43a7-99bb-74d36b5cc62a"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage Conditions
+</title>
+                     <text>
+                        <paragraph>Store refrigerated between 2° to 8°C (36° to 46°F).
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Protect from light.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Discard unused portion.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Lyophilized</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Sterile, Nonpyrogenic, Preservative-free.<br/>
+                           </content>
+                           <content styleCode="bold">The container closure is not made with natural rubber latex.</content>
+                        </paragraph>
+                        <paragraph>For Product Inquiry call 1-866-625-1618.
+								</paragraph>
+                     </text>
+                     <effectiveTime value="20180507"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s32">
+               <id root="3aad5c1f-9065-4c5c-ae0e-28214d4e4fa9"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES
+</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Recommendations for the Safe Handling of Parenteral Antineoplastic Drugs. NIH Publication No. 83-2621. For sale by the Superintendent of Documents, US Government Printing Office, Washington, DC 20402.
+</item>
+                     <item>AMA Council Report. Guidelines for Handling Parenteral Antineoplastics. <content styleCode="italics">JAMA</content>. 1985; 253(11):1590-1592.
+</item>
+                     <item>National Study Commission on Cytotoxic Exposure - Recommendations for Handling Cytotoxic Agents. Available from Louis P. Jeffrey, ScD, Chairman, National Study Commission on Cytotoxic Exposure, Massachusetts College of Pharmacy and Allied Health Sciences, 179 Longwood Avenue, Boston, Massachusetts 02115.
+</item>
+                     <item>Clinical Oncological Society of Australia: Guidelines and recommendations for safe handling of antineoplastic agents. <content styleCode="italics">Med J Australia</content>. 1983; 1:426-428.
+</item>
+                     <item>Jones RB, et al. Safe handling of chemotherapeutic agents: A report from the Mount Sinai Medical Center. Ca - <content styleCode="italics">A Cancer Journal for Clinicians</content>. Sept/Oct 1983; 258-263.
+</item>
+                     <item>American Society of Hospital Pharmacists technical assistance bulletin on handling cytotoxic and hazardous drugs. <content styleCode="italics">Am J Hosp Pharm</content>. 1990; 47:1033-1049.
+</item>
+                     <item>Controlling Occupational Exposure to Hazardous Drugs. (OSHA WORK-PRACTICE GUIDELINES). <content styleCode="italics">AM J Health-Syst Pharm</content>. 1996:53:1669-1685.
+</item>
+                  </list>
+                  <paragraph>Brands listed are the trademarks of their respective owners.
+</paragraph>
+                  <paragraph>SAGENT<sup>®</sup>
+                     <br/>Mfd. for SAGENT Pharmaceuticals<br/>Schaumburg, IL 60195 (USA)<br/>Made in China<br/>©2018 Sagent Pharmaceuticals, Inc. <br/>April 2018
+</paragraph>
+                  <paragraph>SAGENT Pharmaceuticals<sup>®</sup>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20180507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s33">
+               <id root="974f79bd-f594-43dd-8073-a7b8d8874c3d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</paragraph>
+                  <paragraph>NDC 25021-246-02
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <paragraph>Thiotepa for Injection, USP
+</paragraph>
+                  <paragraph>15 mg per vial
+</paragraph>
+                  <paragraph>For Intravenous, Intracavitary or Intravesical Use
+</paragraph>
+                  <paragraph>Caution: Cytotoxic Agent
+</paragraph>
+                  <renderMultiMedia ID="f02" referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20170605"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Vial Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="thi02-0002-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

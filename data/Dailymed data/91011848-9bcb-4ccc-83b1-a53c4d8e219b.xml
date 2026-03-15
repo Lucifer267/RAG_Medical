@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="91011848-9bcb-4ccc-83b1-a53c4d8e219b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Ganite® (gallium nitrate injection)</title>
+   <effectiveTime value="20120319"/>
+   <setId root="8bc2ddf8-d695-46b3-bf76-9f85ce6027e3"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="602834483" root="1.3.6.1.4.1.519.1"/>
+            <name>Genta Incorporated</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="050783398" root="1.3.6.1.4.1.519.1"/>
+                        <name>Cangene BioPharma Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="66657-301" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="66657-301" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3c3cceac-b742-4f72-81c9-653c8618bc41"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20080229"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="66657-301" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>GANITE</name>
+                        <formCode code="C42899" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION, CONCENTRATE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Gallium nitrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="25" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="VRA0C6810N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GALLIUM NITRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="F7K5MP217W" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Gallium cation</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="B22547B95K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRISODIUM CITRATE DIHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="66657-301-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-USE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="66657-301-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA019961" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20030917"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_098d9af6-3cef-4c6a-8d0c-1f0473bd100b">
+               <id root="53e39c80-fde6-4d3f-98ec-3bd167eb8bc1"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNING</content>
+                  </paragraph>
+                  <paragraph>Concurrent use of gallium nitrate with other potentially nephrotoxic drugs (e.g., aminoglycosides, amphotericin B) may increase the risk for developing severe renal insufficiency in patients with cancer-related hypercalcemia. If use of a potentially nephrotoxic drug is indicated during gallium nitrate therapy, gallium nitrate administration should be discontinued and it is recommended that hydration be continued for several days after administration of the potentially nephrotoxic drug. Serum creatinine and urine output should be closely monitored during and subsequent to this period. Ganite therapy should be discontinued if the serum creatinine level exceeds 2.5 mg/dL.</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_6a007bcd-2da1-416b-83e4-13f2b6658b8b">
+               <id root="d7646a30-a13d-4cb4-8179-fb8f10b314f3"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Gallium nitrate injection is a clear, colorless, odorless, sterile solution of gallium nitrate, a hydrated nitrate salt of the group IIIa element, gallium. Gallium nitrate is formed by the reaction of elemental gallium with nitric acid, followed by crystallization of the drug from the solution. The stable, nonahydrate, Ga(N0<sub>3</sub>)<sub>3</sub>•9H<sub>2</sub>O is a white, slightly hygroscopic, crystalline powder of molecular weight 417.87, that is readily soluble in water. Each mL of Ganite (gallium nitrate injection) contains gallium nitrate 25 mg (on an anhydrous basis) and sodium citrate dihydrate 28.75 mg. The solution may contain sodium hydroxide or hydrochloric acid for pH adjustment to 6.0-7.0.</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_3ae5d29f-9d61-4add-b7ab-931fe10d1b0e">
+               <id root="8b7cb791-244e-4518-b738-5c4c3d79718e"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Mechanism of Action</content>
+                     </content> Ganite exerts a hypocalcemic effect by inhibiting calcium resorption from bone, possibly by reducing increased bone turnover. Although <content styleCode="italics">in vitro</content> and animal studies have been performed to investigate the mechanism of action of gallium nitrate, the precise mechanism for inhibiting calcium resorption has not been determined. No cytotoxic effects were observed on bone cells in drug-treated animals.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Pharmacokinetics</content>
+                     </content> Gallium nitrate was infused at a daily dose of 200 mg/m<sup>2</sup> for 5 (n=2) or 7 (n=10) consecutive days to 12 cancer patients. In most patients apparent steady-state is achieved by 24 to 48 hours. The range of average steady-state plasma levels of gallium observed among 7 fully evaluable patients was between 1134 and 2399 ng/mL. The average plasma clearance of gallium (n=7) following daily infusion of gallium nitrate at a dose of 200 mg/m<sup>2</sup> for 5 or 7 days was 0.15 L/hr/kg (range: 0.12 to 0.20 L/hr/kg). In one patient who received daily infusion doses of 100, 150 and 200 mg/m<sup>2</sup> the apparent steady-state levels of gallium did not increase proportionally with an increase in dose. Gallium nitrate is not metabolized either by the liver or the kidney and appears to be significantly excreted via the kidney. Urinary excretion data for a dose of 200 mg/m<sup>2</sup> has not been determined.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Cancer-Related Hypercalcemia</content>
+                     </content> Hypercalcemia is a common problem in hospitalized patients with malignancy. It may affect 10-20% of patients with cancer. Different types of malignancy seem to vary in their propensity to cause hypercalcemia. A higher incidence of hypercalcemia has been observed in patients with non-small cell lung cancer, breast cancer, multiple myeloma, kidney cancer, and cancer of head and neck. Hypercalcemia of malignancy seems to result from an imbalance between the net resorption of bone and urinary excretion of calcium. Patients with extensive osteolytic bone metastases frequently develop hypercalcemia: this type of hypercalcemia is common with primary breast cancer. Some of these patients have been reported to have increased renal tubular calcium resorption. Breast cancer cells have been reported to produce several potential bone-resorbing factors which stimulate the local osteoclast activity. Humoral hypercalcemia is common with the solid tumors of the lung, head and neck, kidney, and ovaries. Systemic factors (e.g., PTH-rP) produced either by the tumor or host cells have been implicated for the altered calcium fluxes between the extracellular fluid, the kidney, and the skeleton. About 30% of patients with myeloma develop hypercalcemia associated with extensive osteolytic lesions and impaired glomerular filtration. Myeloma cells have been reported to produce local factors that stimulate adjacent osteoclasts.</paragraph>
+                  <paragraph>Hypercalcemia may produce a spectrum of signs and symptoms including: anorexia, lethargy, fatigue, nausea, vomiting, constipation, dehydration, renal insufficiency, impaired mental status, coma and cardiac arrest. A rapid rise in serum calcium may cause more severe symptoms for a given level of hypercalcemia. Since calcium is bound to serum proteins, which may fluctuate in concentration as a response to changes in blood volume, changes in total serum calcium (especially during rehydration) may not accurately reflect changes in the concentration of free-ionized calcium. In the absence of a direct measurement of free-ionized calcium, measurement of the serum albumin concentration and correction of the total serum calcium concentration may help in assessing the severity of hypercalcemia. The patient’s acid-base status should also be taken into consideration while assessing the degree of hypercalcemia. Mild or asymptomatic hypercalcemia may be treated with conservative measures (i.e., saline hydration, with or without diuretics). The patient’s cardiovascular status should be taken into consideration in the use of saline. In patients who have an underlying cancer type that may be sensitive to corticosteroids (e.g., hematologic cancers), the use or addition of corticosteroid therapy may be indicated.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hypocalcemic Activity</content>
+                     </content> A randomized double-blind clinical study comparing Ganite with calcitonin was conducted in patients with a serum calcium concentration (corrected for albumin) ≥ 12.0 mg/dL following 2 days of hydration. Ganite was given as a continuous intravenous infusion at a dose of 200 mg/m<sup>2</sup>/day for 5 days and calcitonin was given intramuscularly at a dose of 8 I.U./kg every 6 hours for 5 days. Elevated serum calcium (corrected for albumin) was normalized in 75% (18 of 24) of the patients receiving Ganite and in 27% (7 of 26) of the patients receiving calcitonin (p=0.0016). The time-course of effect on serum calcium (corrected for albumin) is summarized in the following table.</paragraph>
+                  <table width="0.000" ID="id_20d75a92-dec1-400c-9cc2-c150bd04383f">
+                     <caption ID="id_d8c85a05-da6d-47cd-bd25-99e6ca383121">Change in Corrected Serum Calcium by Time from Initiation of Treatment</caption>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <thead>
+                        <tr ID="id_8a7fd2d8-df02-4d2e-beab-f079287dd95b" styleCode="Toprule">
+                           <td align="center" valign="top" styleCode="Botrule Toprule Rrule">
+                              <content styleCode="bold">Time Period<sup>1</sup>
+                                 <br/>(hours)</content>
+                           </td>
+                           <td align="center" valign="top" colspan="2" styleCode="Botrule">
+                              <content styleCode="bold">
+                                 <content styleCode="bold">Mean Change in<br/>
+                                 </content>Serum Calcium<sup>2</sup> (mg/dL)</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_8b86f202-0f7d-41e2-9728-1c782445900d" styleCode="Botrule">
+                           <td align="left" valign="top" styleCode="Rrule"/>
+                           <td align="center" valign="top" styleCode="Rrule">
+                              <content styleCode="bold">GANITE</content>
+                           </td>
+                           <td align="center" valign="top">
+                              <content styleCode="bold">Calcitonin</content>
+                           </td>
+                        </tr>
+                     </thead>
+                     <tfoot ID="id_eaa8222e-12ac-4aae-93b1-6da8b81e53e5">
+                        <tr>
+                           <td align="left" valign="top" colspan="3">
+                              <paragraph>
+                                 <sup>1</sup> Time after initiation of therapy in hours.</paragraph>
+                              <paragraph>
+                                 <sup>2</sup> Change from baseline in serum calcium (corrected for albumin).</paragraph>
+                              <paragraph>
+                                 <sup>*</sup> Comparison between treatment groups (p&lt; 0.01).</paragraph>
+                           </td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr ID="id_a2314d99-3646-43ed-ab19-7c0587793b51" styleCode="Toprule">
+                           <td align="center" valign="top">
+                              <paragraph>24</paragraph>
+                           </td>
+                           <td align="center" valign="top" styleCode="Toprule">
+                              <paragraph>-0.4</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-1.6<sup>*</sup>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr ID="id_89e47598-e79c-4af0-ada4-6125ed4c7222">
+                           <td align="center" valign="top">
+                              <paragraph>48</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-0.9</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-1.4</paragraph>
+                           </td>
+                        </tr>
+                        <tr ID="id_475217e1-90a8-4c53-8be0-db38f9bebe57">
+                           <td align="center" valign="top">
+                              <paragraph>72</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-1.5</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-1.1</paragraph>
+                           </td>
+                        </tr>
+                        <tr ID="id_bc1f9c0e-588b-4ff5-be3c-99d28366b5cc">
+                           <td align="center" valign="top">
+                              <paragraph>96</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-2.9<sup>*</sup>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-1.1</paragraph>
+                           </td>
+                        </tr>
+                        <tr ID="id_cd53e1bb-478f-42ee-adeb-622fccd1e4ae">
+                           <td align="center" valign="top">
+                              <paragraph>120</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-3.3<sup>*</sup>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>-1.3</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The median duration of normocalcemia/hypocalcemia was 7.5 days for patients treated with Ganite and 1 day for patients treated with calcitonin. A total of 92% of patients treated with Ganite had a decrease in serum calcium (corrected for albumin) ≥ 2.0 mg/dL as compared to 54% of the patients treated with calcitonin (p=0.004).</paragraph>
+                  <paragraph>An open-label, non-randomized study was conducted to examine a range of doses and dosing schedules of Ganite for control of cancer-related hypercalcemia. The principal dosing regimens were 100 and 200 mg/m<sup>2</sup>/day, administered as continuous intravenous infusions for 5 days. Ganite, at a dose of 200 mg/m<sup>2</sup>/day for 5 days was found to normalize elevated serum calcium levels (corrected for albumin) in 83% of patients as compared to 50% of patients receiving a dose of 100 mg/m<sup>2</sup>/day for 5 days. A decrease in serum calcium (corrected for albumin) ≥ 2.0 mg/dL was observed in 83% and 94% of patients treated with Ganite at dosages of 100 and 200 mg/m<sup>2</sup>/day for 5 days, respectively. There were no significant differences in the proportion of patients responding to Ganite when considering either the presence or absence of bone metastasis, or whether the tumor histology was epidermoid or nonepidermoid.</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_0025728d-47f8-4da2-8d92-ecffadc9d4b7">
+               <id root="26fb56cb-dc73-4b9f-a032-bc9dcfaf4413"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Ganite is indicated for the treatment of clearly symptomatic cancer-related hypercalcemia that has not responded to adequate hydration. In general, patients with a serum calcium (corrected for albumin) &lt; 12 mg/dL would not be expected to be symptomatic. Mild or asymptomatic hypercalcemia may be treated with conservative measures (i.e., saline hydration, with or without diuretics). In the treatment of cancer-related hypercalcemia, it is important first to establish adequate hydration, preferably with intravenous saline, in order to increase the renal excretion of calcium and correct dehydration caused by hypercalcemia.</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_add4fd0f-eaed-4d95-a558-469e93a8bfca">
+               <id root="0434c422-1b0f-43cc-a474-428c21866f04"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34070-3" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Ganite should not be administered to patients with severe renal impairment (serum creatinine &gt; 2.5 mg/dL).</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_d7688745-4d4f-4229-b973-5ebc95ecf6ae">
+               <id root="db52af1d-0207-419b-9edf-f842370977b7"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34071-1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>(See boxed  <linkHtml href="#id_098d9af6-3cef-4c6a-8d0c-1f0473bd100b">WARNING</linkHtml>.) The hypercalcemic state in cancer patients is commonly associated with impaired renal function. Abnormalities in renal function (elevated BUN and/or serum creatinine) have been observed in clinical trials with Ganite. <content styleCode="bold">It is strongly recommended that serum creatinine be monitored during Ganite therapy.</content> Since patients with cancer-related hypercalcemia are frequently dehydrated, it is important that such patients be adequately hydrated with oral and/or intravenous fluids (preferably saline) and that a satisfactory urine output (a urine output of 2 L/day is recommended) be established before therapy with Ganite is started. Adequate hydration should be maintained throughout the treatment period, with careful attention to avoid overhydration in patients with compromised cardiovascular status. Diuretic therapy should not be employed prior to correction of hypovolemia. Ganite therapy should be discontinued if the serum creatinine level exceeds 2.5 mg/dL.</paragraph>
+                  <paragraph>The use of Ganite in patients with marked renal insufficiency (serum creatinine &gt; 2.5 mg/dL) has not been systematically examined. If therapy is undertaken in patients with moderately impaired renal function (serum creatinine 2.0 to 2.5 mg/dL), frequent monitoring of the patient’s renal status is recommended. Treatment should be discontinued if the serum creatinine level exceeds 2.5 mg/dL.</paragraph>
+                  <paragraph>Combined use of Ganite with other potentially nephrotoxic drugs (e.g., aminoglycosides, amphotericin B) may increase the risk of developing renal insufficiency in patients with cancer-related hypercalcemia (see boxed <linkHtml href="#id_098d9af6-3cef-4c6a-8d0c-1f0473bd100b">WARNING</linkHtml>).</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_0e2e40ea-e1c4-48d7-addd-2c2519428f1a">
+               <id root="2ad919b6-0013-4cee-89af-c71e7edce7b8"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42232-9" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">General</content>
+                     </content> Asymptomatic or mild to moderate hypocalcemia (6.5 - 8.0 mg/dL, corrected for serum albumin) occurred in approximately 38% of patients treated with Ganite in the controlled clinical trial. One patient exhibited a positive Chvostek’s sign. If hypocalcemia occurs, Ganite therapy should be stopped and short-term calcium therapy may be necessary.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Laboratory Tests</content>
+                     </content> Renal function (serum creatinine and BUN) and serum calcium must be closely monitored during Ganite therapy. In addition to baseline assessment, the suggested frequency of calcium and phosphorus determinations is daily and twice weekly, respectively. Ganite should be discontinued if the serum creatinine exceeds 2.5 mg/dL.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Drug Interactions</content>
+                     </content> The concomitant use of highly nephrotoxic drugs in combination with Ganite may increase the risk for development of renal insufficiency (see <linkHtml href="#i4i_warnings_id_d7688745-4d4f-4229-b973-5ebc95ecf6ae">WARNINGS</linkHtml>). Available information does not indicate any adverse interaction with diuretics such as furosemide. A symptom complex of dyspnea (associated with interstitial pneumonitis in some instances), mouth soreness, and asthenia has been reported in a small number of multiple myeloma patients receiving low dose (40 mg) gallium nitrate subcutaneously in addition to oral cyclophosphamide and prednisone. The serious nature of the underlying condition of these patients precludes a precise understanding of the relationship of these events to either gallium nitrate treatment alone or with cyclophosphamide.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </content> Long-term studies in animals have not been performed to evaluate the carcinogenic potential of gallium nitrate. Gallium nitrate is not mutagenic in standard tests (i.e., Ames test and chromosomal aberration studies on human lymphocytes).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Usage in Pregnancy</content>
+                     </content> <content styleCode="italics">Pregnancy Category C</content>. Animal reproduction studies have not been conducted with gallium nitrate. It is also not known whether gallium nitrate can cause fetal harm when administered to a pregnant woman or can affect reproductive capacity. Ganite should be administered to a pregnant woman only if clearly needed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Nursing Mothers</content>
+                     </content> It is not known whether gallium nitrate is excreted in human milk. Because of the potential for serious adverse reactions in nursing infants from gallium nitrate, a decision should be made whether to discontinue nursing or discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Pediatric Use</content>
+                     </content> The safety and effectiveness of Ganite in children have not been established.</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_a0272943-3a8d-45f5-89ce-35ea0674cbdf">
+               <id root="057c6668-4387-4998-8784-1501fa593450"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34084-4" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Kidney</content>
+                     </content> Adverse renal effects, as demonstrated by rising BUN and creatinine, have been reported in about 12.5% of patients treated with Ganite. In a controlled clinical trial of patients with cancer-related hypercalcemia, two patients receiving Ganite and one patient receiving calcitonin developed acute renal failure. Due to the serious nature of the patients’ underlying conditions, the relationship of these events to the drug was unclear. Ganite should not be administered to patients with serum creatinine &gt;2.5 mg/dL (see <linkHtml href="#i4i_contraindications_id_add4fd0f-eaed-4d95-a558-469e93a8bfca">CONTRAINDICATIONS</linkHtml> and <linkHtml href="#i4i_warnings_id_d7688745-4d4f-4229-b973-5ebc95ecf6ae">WARNINGS</linkHtml>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Metabolic</content>
+                     </content> Hypocalcemia may occur after Ganite treatment (see <linkHtml href="#i4i_precautions_id_0e2e40ea-e1c4-48d7-addd-2c2519428f1a">PRECAUTIONS</linkHtml>).</paragraph>
+                  <paragraph>Transient hypophosphatemia of mild-to-moderate degree may occur in up to 79% of hypercalcemic patients following treatment with Ganite. In a controlled clinical trial, 33% of patients had at least 1 serum phosphorus measurement between 1.5-2.4 mg/dL, while 46% of patients had at least 1 serum phosphorus value &lt;1.5 mg/dL. Patients who develop hypophosphatemia may require oral phosphorus therapy.</paragraph>
+                  <paragraph>Decreased serum bicarbonate, possibly secondary to mild respiratory alkalosis was reported in 40-50% of cancer patients treated with Ganite. The cause for this effect is not clear. This effect has been asymptomatic and has not required specific treatment.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hematologic</content>
+                     </content> The use of very high doses of gallium nitrate (up to 1400 mg/m<sup>2</sup>) in treating patients for advanced cancer has been associated with anemia, and several patients have received red blood cell transfusions. Due to the serious nature of the underlying illness, it is uncertain that the anemia was caused by gallium nitrate.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Blood Pressure</content>
+                     </content> A decrease in mean systolic and diastolic blood pressure was observed several days after treatment with gallium nitrate in a controlled clinical trial. The decrease in blood pressure was asymptomatic and did not require specific treatment.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Visual and Auditory</content>
+                     </content> In cancer chemotherapy trials, a small proportion (&lt;1%) of patients treated with multiple high doses of gallium nitrate combined with other investigational anticancer drugs, have developed acute optic neuritis. While these patients were critically ill and had received multiple drugs, a reaction to high-dose gallium nitrate is possible. Most patients had full recovery; however, at least one case of permanent blindness has been reported. One patient with cancer-related hypercalcemia was reported to develop decreased hearing following gallium nitrate administration. Due to the patient’s underlying condition and concurrent therapies, the relationship of this event to gallium nitrate administration is unclear. Tinnitus and partial loss of auditory acuity have been reported rarely (&lt;1%) in patients who received high-dose gallium nitrate as anticancer treatment.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Miscellaneous</content>
+                     </content> Other clinical events reported in association with gallium nitrate treatment for cancer as well as cancer-related hypercalcemia include: nausea and/or vomiting, tachycardia, lethargy, confusion, dreams and hallucinations, diarrhea, constipation, lower extremity edema, hypothermia, fever, dyspnea, rales and rhonchi, anemia, leukopenia, paresthesia, skin rash, pleural effusion, and pulmonary infiltrates. Due to the serious nature of the underlying condition of these patients, the relationship of these events to therapy with gallium nitrate is unknown. A single case of encephalopathy followed rapidly by coma and death has been reported after treatment in a cancer chemotherapy trial with gallium nitrate 300 mg/m<sup>2</sup>/day for 7 days. Treatment with gallium nitrate other than as described in this labeling may be complicated by adverse events not listed.</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_9965b721-8419-476d-89df-517dfd65f22b">
+               <id root="d2e10360-cdea-4ab9-badd-629139113d8f"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34088-5" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Rapid intravenous infusion of gallium nitrate or use of doses higher than recommended (200 mg/m<sup>2</sup>) may cause nausea and vomiting and a substantially increased risk of renal insufficiency. In the event of overdosage, further drug administration should be discontinued, serum calcium should be monitored, and the patient should receive vigorous intravenous hydration, with or without diuretics, for 2-3 days. During this time period, renal function and urinary output should be carefully monitored so that fluid intake and output are balanced.</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_66971dce-0222-46fa-add3-ffa039bf0b17">
+               <id root="364cbac5-fe85-483a-932d-34a29709ee79"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The usual recommended dose of Ganite is 200 mg per square meter of body surface area (200 mg/m<sup>2</sup>) daily for 5 consecutive days. In patients with mild hypercalcemia and few symptoms, a lower dosage of 100 mg/m<sup>2</sup>/day for 5 days may be considered. If serum calcium levels are lowered into the normal range in less than 5 days, treatment may be discontinued early. The daily dose must be administered as an intravenous infusion over 24 hours. The daily dose should be diluted, preferably in 1,000 mL of 0.9% Sodium Chloride Injection USP, or 5% Dextrose Injection USP, for administration as an intravenous infusion over 24 hours. Adequate hydration must be maintained throughout the treatment period, with careful attention to avoid overhydration in patients with compromised cardiovascular status. Controlled studies have not been undertaken to evaluate the safety and effectiveness of retreatment with gallium nitrate.</paragraph>
+                  <paragraph>When Ganite is added to either 0.9% Sodium Chloride Injection USP or 5% Dextrose Injection USP, it is stable for 48 hours at room temperature (15°C to 30°C) or for 7 days if stored under refrigeration (2°C to 8°C). Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_d73d4811-9ab6-4aa4-b9f7-295ed590f95f">
+               <id root="fd307867-c169-4bcf-9d53-88f14b7b971c"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Ganite® (gallium nitrate injection) is supplied as a 5-unit carton, NDC 66657-301-05.</paragraph>
+                  <paragraph>Each carton contains 5 single-dose, flip-top vials (NDC 66657-301-01) each containing 500 mg of gallium nitrate (25 mg/mL) in 20 mL.</paragraph>
+                  <paragraph>Store at controlled room temperature 20°-25°C (68°-77°F).</paragraph>
+                  <paragraph>Contains no preservative. Discard unused portion.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>Ganite® is a trademark of Genta Incorporated.</paragraph>
+                  <paragraph>Manufactured for:<br/>Genta Incorporated<br/>Berkeley Heights, NJ 07922<br/>1-888-TO-GENTA</paragraph>
+                  <paragraph>Revised: October 2006</paragraph>
+                  <paragraph>30105902</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_2deecd93-9aba-428c-b927-db1de353fd6b">
+               <id root="d4cdb151-7bdc-43d3-abcd-ea22f4434b40"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - Vial Label</title>
+               <text>
+                  <renderMultiMedia referencedObject="id_5742c55f-8a5f-480f-8cdb-78f0906d2591">
+                     <caption ID="id_0b8f644d-169c-4d71-89ef-5dec1edba430">Vial Label</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">Rx only NDC 66657-301-01</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ganite®</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(gallium nitrate injection)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">500mg</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">25mg/mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Solution • For Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>20mL Single-Use Vial</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile, aqueous, preservative-free, buffered<br/>solution. For parenteral administration via infusion.<br/>Discard unused portion.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dilute in an isotonic saline or dextrose solution.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each mL contains:</content> Gallium nitrate 25mg (on an<br/>anhydrous basis) and Sodium citrate dihydrate<br/>(28.75mg).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at controlled room temperature<br/>20°-25°C (68°-77°F).</content>
+                  </paragraph>
+                  <paragraph>Manufactured for:<br/>
+                     <content styleCode="bold">Genta Incorporated<br/>
+                     </content>Berkeley Heights, NJ 07922<br/>1-888-TO-GENTA</paragraph>
+               </text>
+               <effectiveTime value="20111206"/>
+               <component>
+                  <observationMedia ID="id_5742c55f-8a5f-480f-8cdb-78f0906d2591">
+                     <text>Vial Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="91011848-9bcb-4ccc-83b1-a53c4d8e219b-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl" ?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c3418329-3ad4-4cdc-8662-ed38c62b64b0"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>APLISOL (Tuberculin Purified Protein Derivative, Diluted [Stabilized Solution])
+        <sup>®</sup>
+      <br/>
+   </title>
+   <effectiveTime value="20150709"/>
+   <setId root="33ad349a-2969-4591-8c67-4d2a422a5ffb"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="938389038" root="1.3.6.1.4.1.519.1"/>
+            <name>TYA Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="938389038" root="1.3.6.1.4.1.519.1"/>
+                  <name>TYA Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="938389038" root="1.3.6.1.4.1.519.1"/>
+                        <name>TYA Pharmaceuticals</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64725-0104" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64725-0104" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="e7f785d7-2d65-460b-8888-be6d2e103f28"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20150709"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="64725-0104"/>
+                        <name>Aplisol</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Tuberculin Purified Protein Derivative</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="42023-104" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[iU]" value="5"/>
+                              <denominator unit="mL" value="0.1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="I7L8FKN87J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Tuberculin Purified Protein Derivative</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="I7L8FKN87J" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>tuberculin Purified Protein Derivative</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Polysorbate 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="339NCG44TV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Phenol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64725-0104-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20140425"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BLA103782" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140425"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38238" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRADERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6176f96f-279f-453b-aaf8-274827d51799">
+               <id root="6c968939-4fd7-4c6d-90d2-a7a5151111ce"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Aplisol (tuberculin PPD, diluted) is a sterile aqueous solution of a purified protein fraction for intradermal administration as an aid in the diagnosis of tuberculosis. The solution is stabilized with polysorbate (Tween) 80, buffered with potassium and sodium phosphates and contains approximately 0.25% phenol as a preservative.</paragraph>
+                  <paragraph>This product is ready for immediate use without further dilution.</paragraph>
+                  <paragraph>The purified protein fraction is isolated from culture media filtrates of a human strain of by the method of F.B. Seibert. Tuberculin PPD, diluted, is prepared from Tuberculin PPD which is clinically bioequivalent in potency to the standard PPD-S (5 TU per 0.1mL) of the U.S. Public Health Service, National Centers for Disease Control.
+                            <content styleCode="italics">Mycobacterium tuberculosis</content>
+                     <sup>1,2</sup>
+                     <footnote ID="_Ref148">PPD-S – World Health Organization International PPD-Tuberculin Standard</footnote>
+                     <footnote>U.S. Tuberculin Unit</footnote>
+                  </paragraph>
+                  <paragraph>The potency of each lot of tuberculin PPD, diluted is determined in sensitized guinea pigs.</paragraph>
+               </text>
+               <effectiveTime value="20141203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="cp">
+               <id root="bde20440-f103-4063-9290-9f4811b0b723"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>In the United States, the prevalence of infection and active disease varies for different segments of the population; however, the risk for infection in the overall population is low. Tuberculosis (TB) case rates declined steadily for decades in the United States. However, in 1985 the TB case rate stabilized and subsequently increased through 1992, accompanied by a 14% increase in the TB mortality rate in 1988. This has been attributed to several complex social and medical factors, including the human immunodeficiency virus (HIV) epidemic, the occurrence of TB in foreign-born persons from countries that have a high prevalence of TB, the emergence of drug-resistant strains of TB, and the transmission of in congregate settings (e.g., health-care facilities, correctional facilities, drug-treatment centers, and homeless shelters). Because the overall risk of acquiring is low for the total U.S. population, the primary strategy for preventing and controlling TB in the United States is to minimize the risk of transmission by the early identification and treatment of patients who have active infectious TB, finding and screening persons who have been in contact with active infectious TB patients and screening high risk populations.
+                            <content styleCode="italics">Mycobacterium tuberculosis</content>
+                     <content styleCode="italics">M. tuberculosis</content>
+                     <content styleCode="italics">M. tuberculosis</content>
+                     <content styleCode="italics">M. tuberculosis</content>
+                  </paragraph>
+                  <paragraph>Tuberculin PPD is indicated as an aid in the detection of infection with . After a person becomes infected with mycobacteria, T lymphocytes proliferate and become sensitized. These sensitized T cells enter the bloodstream and circulate for months or years. This sensitization process occurs principally in the regional lymph nodes and may take 2–10 weeks to develop following infection. Once acquired, tuberculin sensitivity tends to persist, although it often wanes with time and advancing age. The injection of tuberculin into the skin stimulates the lymphocytes and activates the series of events leading to a delayed-type hypersensitivity (DTH) response. This response is called "delayed" because the reaction becomes evident hours after injection. Dermal reactivity involves vasodilation, edema, and the infiltration of lymphocytes, basophils, monocytes, and neutrophils into the site of antigen injection. Antigen-specific T lymphocytes proliferate and release lymphokines, which mediate the accumulation of other cells at the site. The area of induration reflects DTH activity. In most tuberculin-sensitive individuals, the delayed hypersensitivity reaction is evident 5–6 hours after administration of a tuberculin skin test and is maximal 48–72 hours. In geriatric patients or in patients receiving a tuberculin skin test for the first time, the reaction may develop more slowly and may not be maximal until after 72 hours. Because their immune systems are immature, many neonates and infants &lt;6 weeks of age, who are infected with , do not react at all to tuberculin tests.
+                            <content styleCode="italics">Mycobacterium tuberculosis</content>
+                     <sup>3,4</sup>
+                     <sup>5</sup>
+                     <sup>6,7</sup>
+                     <content styleCode="italics">M. tuberculosis</content>
+                     <sup>5</sup>
+                  </paragraph>
+                  <paragraph>Immediate erythematous or other hypersensitivity reactions to tuberculin or the constituents of the diluent may occur at the injection site.</paragraph>
+                  <paragraph>A possible decrease in responsiveness to skin testing may occur in the presence of infections, viral infections (measles, mumps, chickenpox, HIV), live virus vaccinations (measles, mumps, rubella, oral polio, varicella, yellow fever), bacterial infections (typhoid fever, brucellosis, typhus, leprosy, pertussis, overwhelming tuberculosis, tuberculous pleurisy), fungal infections (South American blastomycosis), drugs (corticosteroids and other immunosuppressive agents), metabolic derangements (chronic renal failure), low protein states (severe protein depletion, afibrinogenemia), age (newborns, elderly patients with waned sensitivity), stress (surgery, burns, mental illness, graft-versus-host reactions), diseases affecting lymphoid organs (Hodgkin's disease, lymphoma, chronic leukemia, sarcoidosis) and malignancy (see ).
+                            <content styleCode="bold">
+                        <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>Tuberculin skin-test results are also less reliable as CD4 counts decline in HIV infected individuals.
+                            <sup>3</sup>
+                  </paragraph>
+                  <paragraph>The 5TU dose of Tuberculin PPD intradermally (Mantoux) is indicated as an aid in the detection of infection with . Reactions to the Mantoux test are interpreted on the basis of a quantitative measurement of the response to a specific dose (5 TU PPD-S or equivalent) of Tuberculin PPD.
+                            <content styleCode="italics">Mycobacterium tuberculosis</content>
+                     <sup>7</sup>
+                  </paragraph>
+                  <paragraph>To determine that the Tuberculin PPD is clinically bioequivalent in potency to standard 5TU PPD-S , 3 dose-response studies were conducted in the following populations (1) persons with a history of bacteriologically confirmed TB; (2) healthy volunteers; and (3) volunteers with active or previously active nontuberculosis mycobacterial lung disease.
+                            <footnoteRef IDREF="_Ref148"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_086e3633-6dbc-47a1-a6d4-85f2ab9248ce">
+               <id root="d756e975-457a-4efd-a40e-4d1f499663a6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Tuberculin PPD is indicated as an aid in the detection of infection with . The standard tuberculin test employs the intradermal (Mantoux) test using a 5 TU dose of tuberculin PPD. The 0.1 mL test dose of Aplisol (tuberculin PPD, diluted) is equivalent to the 5 TU dose which has been clinically utilized and standardized with PPD-S. Tuberculin skin testing is not contraindicated for persons who have been vaccinated with BCG and the skin-test results of such persons are used to support or exclude the diagnosis of infections. HIV infection is a strong risk factor for the development of TB disease in persons having TB infection. All HIV-infected persons should receive a PPD-tuberculin skin test.
+                            <content styleCode="italics">Mycobacterium tuberculosis</content>
+                     <sup>7</sup>
+                     <content styleCode="italics">M. tuberculosis</content>
+                     <sup>4</sup>
+                     <sup>3</sup>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="4523fd25-1d85-4c03-8aa3-d2aef0ecc577"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Aplisol is contraindicated in patients with known hypersensitivity or allergy to Aplisol or any of its components. Aplisol should not be administered to persons who have previously experienced a severe reaction (e.g., vesiculation, ulceration, or necrosis) because of the severity of reactions that may occur at the test site.</paragraph>
+               </text>
+               <effectiveTime value="20141203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS">
+               <id root="e34d3bdc-216d-4964-80f9-71a3fbb80341"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Aplisol should not be administered to persons who previously experienced a severe reaction (e.g., vesiculation, ulceration, or necrosis) because of the severity of reactions that may occur at the test site (see ).
+                            <content styleCode="bold">
+                        <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                     </content>
+                  </paragraph>
+                  <paragraph>Not all infected persons will have a delayed hypersensitivity reaction to a tuberculin test. A number of factors have been reported to cause a decreased ability to respond to the tuberculin test, such as the presence of  infections, viral infections (measles, mumps, chickenpox, HIV), live virus vaccinations (measles, mumps, rubella and other live vaccines), bacterial infections (typhoid fever, brucellosis, typhus, leprosy, pertussis, overwhelming tuberculosis, tuberculous pleurisy), fungal infections (South American blastomycosis), drugs (corticosteroids and other immunosuppressive agents), metabolic derangements (chronic renal failure), low protein states (severe protein depletion, afibrinogenemia), age (newborns, elderly patients with waned sensitivity), stress (surgery, burns, mental illness, graft-versus-host reactions), diseases affecting lymphoid organs (Hodgkin's disease, lymphoma, chronic leukemia, sarcoidosis), and malignancy.
+                            <sup>7,8,9</sup>
+                  </paragraph>
+                  <paragraph>Any condition that impairs or attenuates cell mediated immunity potentially can cause a false negative reaction, including aging.
+                            <sup>10,11</sup>
+                  </paragraph>
+                  <paragraph>Tuberculin skin test results are less reliable in HIV-infected individuals as CD4 counts decline (see ).
+                            <content styleCode="bold">
+                        <linkHtml href="#_Ref">CLINICAL PHARMACOLOGY</linkHtml>
+                     </content>
+                     <sup>3</sup>
+                  </paragraph>
+                  <paragraph>Avoid injecting tuberculin subcutaneously. If this occurs, no local reaction develops, but a general febrile reaction and/or acute inflammation around old tuberculous lesions may occur in highly sensitive individuals.</paragraph>
+               </text>
+               <effectiveTime value="20141203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5bc7c466-98b6-4bf4-b3d0-e59175c7af9d">
+               <id root="1c4ceae7-8ae5-4cfd-86c7-d42d98df012b"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20141203"/>
+               <component>
+                  <section ID="General">
+                     <id root="ccb11598-60e4-43c3-b7d9-ce1af8bfc323"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>The predictive value of the tuberculin skin test depends on the prevalence of infection with and the relative prevalence of cross-reactions with nontuberculous mycobacteria.
+                                    <content styleCode="italics">M. tuberculosis</content>
+                           <sup>9,12</sup>
+                        </paragraph>
+                        <paragraph>A separate, sterile, single-use disposable syringe and needle should be used for each individual patient to prevent possible transmission of serum hepatitis virus and other infectious agents from one person to another. Special care should be taken to ensure that the product is injected intradermally and not into a blood vessel.</paragraph>
+                        <paragraph>Before administration of Aplisol, a review of the patient's history with respect to possible immediate-type hypersensitivity to the product, determination of previous use of Aplisol and the presence of any contraindication to the test should be made (see ).
+                                    <content styleCode="bold">
+                              <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>
+                           </content>
+                        </paragraph>
+                        <paragraph>As with any biological product, epinephrine should be immediately available in case an anaphylactoid or acute hypersensitivity reaction occurs.</paragraph>
+                        <paragraph>Failure to store and handle Aplisol as recommended may result in a loss of potency and inaccurate test results.
+                                    <sup>8,13</sup>
+                        </paragraph>
+                        <paragraph>Reactivity to the test may be depressed or suppressed for as long as 5–6 weeks in individuals following immunization with certain live viral vaccines, viral infections or discontinuation of corticosteroids or immunosuppressive agents.
+                                    <sup>8,9</sup>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20141203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c50ee75d-d57e-4411-a47b-081c77e4171b">
+                     <id root="beaa3161-9265-4efe-8aef-23ed77d5117e"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information to Patients</title>
+                     <text>
+                        <paragraph>Patients should be instructed to report adverse events such as vesiculation, ulceration or necrosis which may occur at the test site in highly sensitive individuals. Patients should be informed that pain, pruritus and discomfort may occur at injection site.</paragraph>
+                        <paragraph>Patients should be informed of the need to return to their physician or health care provider for the reading of the test and of the need to keep and maintain a personal immunization record.</paragraph>
+                     </text>
+                     <effectiveTime value="20141203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_1a17e2d2-71e9-473c-ba8c-ffc0a491609c">
+                     <id root="efb63c38-b33f-4933-9ca6-5df1add9bf81"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>In patients who are receiving corticosteroids or immunosuppressive agents, reactivity to the test may be depressed or suppressed. This reduced reactivity may be present for as long as 5–6 weeks after discontinuation of therapy (see ).
+                                    <content styleCode="bold">
+                              <linkHtml href="#General">PRECAUTIONS – General</linkHtml>
+                           </content>
+                           <sup>9</sup>
+                        </paragraph>
+                        <paragraph>The reactivity to PPD may be temporarily depressed by certain live virus vaccines (measles, mumps, rubella, oral polio, yellow fever, and varicella). Therefore, if a tuberculin test is to be performed, it should be administered either before the live vaccine or given simultaneously, but at a separate site than the live vaccine, or testing should be postponed for 4–6 weeks.
+                                    <sup>9</sup>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20141203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_04a17001-1871-45f2-830b-d9d69219c444">
+                     <id root="4caf8ca4-def0-4f2b-a0a0-b0679d0440ee"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No long term studies have been conducted in animals or in humans to evaluate carcinogenic or mutagenic potential or effects on fertility with Aplisol.</paragraph>
+                     </text>
+                     <effectiveTime value="20141203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_cf96ad4c-b7d2-49b4-8553-b9db884171e1">
+                     <id root="e87b18d9-def1-4782-81c9-bdf4035b0b9e"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20141203"/>
+                     <component>
+                        <section ID="ID_7460e46e-e572-45f4-bbed-b6523063acdd">
+                           <id root="693e6988-4c87-45ff-9828-c9a4ba1945cd"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic effects</title>
+                           <effectiveTime value="20141203"/>
+                           <component>
+                              <section ID="ID_6dec9868-66d0-488c-af5f-9218e4ec8232">
+                                 <id root="b9e856b7-4977-4e05-bcb5-99d8c9ad3984"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Pregnancy Category C</title>
+                                 <text>
+                                    <paragraph>Animal reproduction studies have not been conducted with Aplisol. It is also not known whether Aplisol can cause fetal harm when administered to a pregnant woman or can affect the reproduction capacity. Aplisol should be given to a pregnant woman only if clearly needed. However, the risk of unrecognized tuberculosis and the postpartum contact between a mother with active disease and an infant leaves the infant in grave danger of tuberculosis and complications such as tuberculous meningitis. Although there have not been any reported adverse effects upon the fetus recognized as being due to tuberculosis skin testing, the prescribing physician will want to consider if the potential benefits outweigh the possible risks for performing the tuberculin test on a pregnant woman or a woman of childbearing age, particularly in certain high risk populations.</paragraph>
+                                    <paragraph>Tuberculin skin testing is considered valid and safe throughout pregnancy.
+                                                    <sup>3</sup>
+                                    </paragraph>
+                                 </text>
+                                 <effectiveTime value="20141203"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_72333399-42bb-4afa-a78d-b85281db909e">
+                     <id root="78997ffa-4fc0-466e-8516-ba5ff9017dca"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Once acquired, tuberculin sensitivity tends to persist, although it often wanes with time and advancing age. In geriatric patients or in patients receiving a tuberculin skin test for the first time, the reaction may develop more slowly and may not be maximal until after 72 hours. (see ). Not all infected persons will have a delayed hypersensitivity reaction to a tuberculin test. A number of factors have been reported to cause a decreased ability to respond to the tuberculin test, such as elderly patients with waned sensitivity. Any condition that impairs or attenuates cell mediated immunity potentially can cause a false negative reaction, including aging (see ). An induration of &gt;10 mm is classified as positive in all persons who do not meet any of the criteria listed under an induration of &gt;5 mm, but who belong to one or more of the following groups at high risk for TB, including residents and employees of high risk congregate settings, such as nursing homes and other long-term facilities for the elderly.
+                                    <sup>6,7</sup>
+                           <content styleCode="bold">
+                              <linkHtml href="#_Ref">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content>
+                           <sup>7</sup>
+                           <sup>10,11</sup>
+                           <content styleCode="bold">
+                              <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                           </content>
+                        </paragraph>
+                        <paragraph>The negative tuberculin skin test should never be used to exclude the possibility of active tuberculosis among person for whom the diagnosis is being considered (symptoms compatible with tuberculosis) (see ).
+                                    <content styleCode="bold">
+                              <linkHtml href="#DA-rxn">DOSAGE AND ADMINISTRATION-Interpretation of Tuberculin Reaction</linkHtml>
+                           </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20141203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a177e5ce-2f09-4b9f-b7bd-0fddd2e36369">
+                     <id root="595ce8b2-8ce9-437e-8203-51d2f8722073"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Because their immune systems are immature, many neonates and infants &lt;6 weeks of age, who are infected with , may not have a delayed hypersensitivity reaction to a tuberculin test (see ). Older infants and children develop tuberculin sensitivity 3-6 weeks, and up to 3 months, after initial infection. Infants and children who have been exposed to persons with active tuberculosis should be considered positive when reaction to the tuberculin skin test measures ≥ 5 mm. Those children younger than 4 years of age who are exposed to persons at increased risk to acquire tuberculosis are considered positive when reaction measures ≥10 mm. Children with minimal risk exposure to tuberculosis would be considered positive when reaction measures ≥15 mm. Other criteria for positive tuberculin reactions that are applicable to both pediatric  and adult patients are provided in .
+                                    <content styleCode="italics">M. tuberculosis</content>
+                           <content styleCode="bold">
+                              <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                           </content>
+                           <sup>5,20</sup>
+                           <sup>5,20</sup>
+                           <content styleCode="bold">DOSAGE AND ADMINISTRATION, Interpretation of Tuberculin Reaction</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20141203"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_47089252-ae93-4f22-98d0-172b188615ae">
+               <id root="c15874f9-52f3-4bcd-9240-155a17097c41"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>In highly sensitive individuals, strongly positive reactions including vesiculation, ulceration or necrosis may occur at the test site. Cold packs or topical steroid preparations may be employed for symptomatic relief of the associated pain, pruritus and discomfort.</paragraph>
+                  <paragraph>Strongly positive test reactions may result in scarring at the test site.</paragraph>
+                  <paragraph>Immediate erythematous or other reactions may occur at the injection site.</paragraph>
+                  <paragraph>Local hypersensitivity reactions may occur at the injection site including erythema, pruritus, edema, urticaria and rash.</paragraph>
+                  <paragraph>Systemic allergic reactions including anaphylaxis/anaphylactoid reactions have been reported to occur in association with the use of Aplisol. The reactions, including anaphylaxis, generally occurred within 24 hours of exposure and manifestations included rash, urticaria, edema/angioedema and pruritus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Par Pharmaceutical, Inc. at 1-800-828-9393 or FDA at 1-888-INFO-FDA (1-888-463-6332) or www.fda.gov/medwatch/.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_1e5834cd-58f2-4b26-b030-097c3ff92598">
+               <id root="6f55cd52-6e6c-4d07-9d93-5ac23a69882f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Aplisol vials should be inspected visually for both particulate matter and discoloration prior to administration and discarded if either is seen. Vials in use for more than 30 days should be discarded.</content>
+                  </paragraph>
+                  <paragraph>The 0.1 mL dose of Aplisol (tuberculin PPD, diluted) is equivalent to the 5 tuberculin units (TU) dose of Tuberculin PPD, which is the standard strength used for intradermal Mantoux testing.</paragraph>
+               </text>
+               <effectiveTime value="20141203"/>
+               <component>
+                  <section ID="ID_b7ebeeb2-7194-4b6c-be62-783f1a1b07d5">
+                     <id root="8f10ec42-4146-410c-a784-c4d37c3083e9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Standard Method (Mantoux Test)</title>
+                     <text>
+                        <paragraph>The Mantoux test is performed by injecting, on the volar aspect of the forearm, with a syringe and needle, exactly 0.1 mL of Aplisol. The result is read 48 to 72 hours later and . Induration is a hard, raised area with clearly defined margins at and around the injection site (see ). Erythema may develop at the injection site but has no diagnostic value.
+                                    <content styleCode="bold">intradermally</content>
+                           <content styleCode="bold">palpable induration only is considered in interpreting the test</content>
+                           <content styleCode="bold">
+                              <linkHtml href="#DA-rxn">Interpretation of Tuberculin Reaction</linkHtml>
+                           </content>
+                        </paragraph>
+                        <paragraph>The standard test is performed as follows:</paragraph>
+                        <list listType="unordered">
+                           <item>The site of the test is usually the volar or dorsal surface of the forearm about 4" below the elbow. Other skin sites may be used, but the volar surface of the forearm is preferred. The use of a skin area free of lesions and away from any veins is recommended.
+                                        <caption>1.</caption>
+                              <sup>7</sup>
+                           </item>
+                           <item>The skin at the injection site is cleansed with 70% alcohol and allowed to dry.
+                                        <caption>2.</caption>
+                           </item>
+                           <item>The test material is administered with a tuberculin syringe (0.5 or 1.0 mL) fitted with a short (1/4 to 1/2") 27 gauge needle.
+                                        <caption>3.</caption>
+                           </item>
+                           <item>A separate, sterile, single-use disposable syringe and needle should be used for each individual patient.
+                                        <caption>4.</caption>
+                           </item>
+                           <item>The diaphragm of the vial-stopper should be wiped with 70% alcohol.
+                                        <caption>5.</caption>
+                           </item>
+                           <item>The needle is inserted through the stopper diaphragm of the inverted vial. Exactly 0.1 mL is filled into the syringe with care being taken to exclude air bubbles and to maintain the lumen of the needle filled.
+                                        <caption>6.</caption>
+                           </item>
+                           <item>The point of the needle is inserted into the most superficial layers of the skin with the needle bevel pointed upward. This is quickly absorbed and no dressing is required.
+                                        <caption>7.</caption>
+                              <content styleCode="bold">As the Tuberculin solution is injected, a pale bleb 6 to 10 mm in size (1/3") will rise over the point of the needle.</content>
+                           </item>
+                           <item>There may be a drop of blood when the needle is withdrawn. This is normal. Use a gauze pad and gently dab to remove the blood. Do not press down as this may squeeze out the tuberculin thereby disrupting the test.
+                                        <caption>8.</caption>
+                           </item>
+                        </list>
+                        <paragraph>In the event the injection is delivered subcutaneously (i.e., no bleb will form), or if a significant part of the dose leaks from the injection site, the test should be repeated immediately at another site at least 5 cm (2") removed from the initial injection site.</paragraph>
+                     </text>
+                     <effectiveTime value="20141203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="DA-rxn">
+                     <id root="21fbb848-75a4-451a-a4f6-a1794ae9cdb2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Interpretation of Tuberculin Reaction</title>
+                     <text>
+                        <paragraph>Readings of Mantoux reactions should be made by a trained health professional during the period from 48 to 72 hours after the injection. The diameter of induration should be measured transversely to the long axis of the forearm and recorded in millimeters. Erythema has no diagnostic value and should be disregarded. The presence and size of necrosis and edema if present should be recorded although not used in the interpretation of the test. In the absence of induration, an area of erythema greater than 10 mm in diameter may indicate the injection was made too deeply and retesting is indicated. Find the margins of the induration by drawing the index or middle finger lightly across the reaction. The tip of a ballpoint pen pushed at a 45° angle toward the site of injection will also stop at the edges of induration.
+                                    <content styleCode="bold">Induration only should be considered in interpreting the test.</content>
+                        </paragraph>
+                        <paragraph>The diameter of induration should be measured (preferable with a caliper) transversely to the long axis of the forearm and recorded in millimeters.</paragraph>
+                        <paragraph>Erythema has no diagnostic value and should be disregarded. The absence of induration should be recorded as "0 mm" not "negative".</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Reactions should be interpreted as follows (Please refer to most recent guidelines):</content>
+                        </paragraph>
+                        <paragraph>Based on current guidelines, interpretation of reactions is as follows:
+                                    <sup>3,7,14, 19</sup>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20141203"/>
+                     <component>
+                        <section ID="ID_6a7d9977-96b6-4207-a7e6-4b199e225ebf">
+                           <id root="520e0c8e-3165-4a33-ac5a-c153dce96afc"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Positive reactions</title>
+                           <text>
+                              <table width="100%">
+                                 <col width="35%"/>
+                                 <col width="35%"/>
+                                 <col width="30%"/>
+                                 <thead>
+                                    <tr>
+                                       <th align="left" styleCode="Botrule Toprule " valign="top">
+                                          <content styleCode="bold">Reaction ≥ 5 mm of induration</content>
+                                       </th>
+                                       <th align="left" styleCode="Botrule Toprule " valign="top">
+                                          <content styleCode="bold">Reaction ≥ 10 mm of induration</content>
+                                       </th>
+                                       <th align="left" styleCode="Botrule Toprule " valign="top">
+                                          <content styleCode="bold">Reaction ≥ 15 mm of induration</content>
+                                       </th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td styleCode="Toprule " valign="top">
+                                          <paragraph>Human immunodeficiency virus (HIV)-positive persons</paragraph>
+                                       </td>
+                                       <td styleCode="Toprule " valign="top">
+                                          <paragraph>Recent immigrants (i.e., within the last 5 yr) from high prevalence countries</paragraph>
+                                       </td>
+                                       <td styleCode="Toprule " valign="top">
+                                          <paragraph>Persons with no risk factors for TB</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>Recent contacts of tuberculosis (TB) case patients</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>Injection drug users</paragraph>
+                                       </td>
+                                       <td valign="top"/>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>Fibrotic changes on chest radiograph consistent with prior TB</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>Residents and employees of the following high-risk congregate settings: prisons and jails, nursing homes and other long-term facilities for the elderly, hospitals and other health care facilities, residential facilities for patients with acquired immunodeficiency syndrome (AIDS), and homeless shelters
+                                                            <footnote ID="_RefID0ECBAE">For persons who are otherwise at low risk and are tested at the start of employment, a reaction of ≥ 15 mm induration is considered positive.</footnote>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top"/>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>Patients with organ transplants and other immunosuppressed patients (receiving the equivalent of ≥ 15 mg/d of prednisone for 1 mo or more)
+                                                            <footnote ID="_RefID0EIBAE">Risk of TB in patients treated with corticosteroids increases with higher dose and longer duration.
+                                                                <sup>19</sup>
+                                             </footnote>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>Mycobacteriology laboratory personnel</paragraph>
+                                       </td>
+                                       <td valign="top"/>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top"/>
+                                       <td valign="top">
+                                          <paragraph>Persons with the following clinical conditions that place them at high risk: silicosis, diabetes mellitus, chronic renal failure, some hematological disorders (e.g., leukemias and lymphomas), other specific malignancies (e.g., carcinoma of the head or neck and lung), weight loss of ≥ 10% of ideal body weight, gastrectomy, and jejunoileal bypass</paragraph>
+                                       </td>
+                                       <td valign="top"/>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Botrule " valign="top"/>
+                                       <td styleCode="Botrule " valign="top">
+                                          <paragraph>Children younger than 4 yr of age or infants, children, and adolescents exposed to adults at high-risk</paragraph>
+                                       </td>
+                                       <td styleCode="Botrule " valign="top"/>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20141203"/>
+                           <component>
+                              <section ID="ID_43c2cd3f-3d4f-4365-95a3-f9ba1ad325b0">
+                                 <id root="238b9cc4-c8db-41fa-8cbb-0741620f1660"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Skin test conversions</title>
+                                 <text>
+                                    <list listType="unordered">
+                                       <item>For persons with negative skin test reactions who undergo repeat skin testing (e.g., health care workers), an increase in reaction size ≥ 10 mm within a period of 2 years should be considered a skin test conversion indicative of recent infection with .
+                                                        <caption>•</caption>
+                                          <content styleCode="italics">M. tuberculosis</content>
+                                          <sup>19</sup>
+                                       </item>
+                                       <item>In some individuals who have been infected with nontuberculous mycobacteria or have undergone BCG vaccination, the skin test may show some degree of induration. For these individuals, a conversion to "positive" is defined as an increase in induration by 10 mm on subsequent tests.
+                                                        <caption>•</caption>
+                                          <sup>7</sup>
+                                       </item>
+                                    </list>
+                                 </text>
+                                 <effectiveTime value="20141203"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="ID_5fad129a-7606-48ff-868a-e02f63a3269d">
+                                 <id root="32ed69b1-27e9-4419-b8d0-ae1e5b5352a0"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Healthcare facilities and other high-risk settings</title>
+                                 <text>
+                                    <list listType="unordered">
+                                       <item>For health care workers and employees in other high-risk settings with no other risk factors for TB, a cut-off of 15 mm of induration (rather than 10 mm) on the tuberculin skin test should be used to define a positive baseline test at the time of initial employment.
+                                                        <caption>•</caption>
+                                       </item>
+                                       <item>An increase of ≥10 mm in reaction size is generally accepted as a positive test result on subsequent testing unless the worker is a contact of a TB case or has HIV infection or is otherwise immunocompromised, in which case a result of ≥5 mm is considered positive.
+                                                        <caption>•</caption>
+                                          <sup>21</sup>
+                                       </item>
+                                    </list>
+                                 </text>
+                                 <effectiveTime value="20141203"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_2da5a858-4967-487e-ac20-13ede2689e8f">
+                           <id root="788ef7b2-bb8e-4790-bf0c-7e00b13c0bf5"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Negative Reaction</title>
+                           <text>
+                              <paragraph>A negative reaction is an induration of less than 15 mm in persons with no risk factors for TB. This indicates a lack of hypersensitivity to tuberculoprotein and tuberculous infection is highly unlikely.
+                                            <sup>7</sup>
+                              </paragraph>
+                              <paragraph>It should be noted that reactivity to tuberculin may be depressed or suppressed for as long as 5–6 weeks by viral infections, live virus vaccines (i.e., measles, smallpox, polio, rubella and mumps), or after discontinuation of therapy with corticosteroids or immunosuppressive agents. Malnutrition may also have a similar effect (see ). When of diagnostic importance, a negative test should be accepted as proof that hypersensitivity is absent only after normal reactivity to non-specific irritants has been demonstrated. A primary injection of tuberculin may possibly have a boosting effect on subsequent tuberculin reactions. A pediatric patient who is known to have been exposed to a person with tuberculosis must not be adjudged free of infection until that patient has a negative tuberculin reaction at least ten weeks after contact with tuberculous person has ceased. Annual testing is generally recommended for pediatric patients in high risk populations, such as persons from countries with a high prevalence of tuberculosis and low-income groups.
+                                            <content styleCode="bold">
+                                    <linkHtml href="#WARNINGS">WARNINGS</linkHtml>
+                                 </content>
+                                 <sup>17</sup>
+                                 <sup>18</sup>
+                              </paragraph>
+                              <paragraph>A positive tuberculin reaction does not necessarily signify the presence of active disease. Further diagnostic procedures (e.g., chest radiograph, sputum smear and/or culture examination) should be carried out before a diagnosis of tuberculosis is made. A small percentage of responders may not have been infected with but by some other mycobacterium. The negative tuberculin skin test should never be used to exclude the possibility of active tuberculosis among persons for whom the diagnosis is being considered (symptoms compatible with tuberculosis).
+                                            <content styleCode="italics">M. tuberculosis</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20141203"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_8bf8efdf-e4bd-4840-a658-c3a9ebd547ef">
+                     <id root="5b3f6f05-db53-4414-96cf-04a40a68866c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Booster Effect and Two-Step Testing</title>
+                     <text>
+                        <paragraph>Infection of an individual with tubercle bacilli or other mycobacteria or BCG vaccination results in a delayed hypersensitivity response to tuberculin which is demonstrated by the skin test. The delayed hypersensitivity response may gradually wane over a period of years. If a person receives a tuberculin test at this time, a significant reaction may not be detected. However, the stimulus of the test may boost or increase the size of the reaction to a second test, sometimes causing an apparent conversion or development of sensitivity. This booster effect can be seen on a second test done one week after the initial stimulating test and can persist for a year, and perhaps longer. When routine periodic tuberculin testing of adults is done, initially two-stage testing should be considered to minimize the likelihood of interpreting a boosted reaction as a conversion.
+                                    <sup>7,15,16</sup>
+                        </paragraph>
+                        <paragraph>In this testing method, persons who have a negative initial skin test undergo a second tuberculin skin test 1-3 weeks after the first. Both tests should be read and recorded at 48 to 72 hours. Those individuals with a positive reaction on the second test should be considered to be previously infected, and those with a negative reaction on the second test should be considered uninfected. In these uninfected persons, a positive result on any future skin test should be interpreted as a skin test conversion.
+                                    <sup>7</sup>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20141203"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_13d91508-804f-423f-a914-676bec5b7b64">
+               <id root="8e7d5115-7725-457d-8958-54ad55c1f55d"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>NDC:64725-0104-1 in a BOTTLE of 5 INJECTIONS</paragraph>
+               </text>
+               <effectiveTime value="20160618"/>
+               <component>
+                  <section ID="ID_608aa30a-b73f-4519-badf-ec7b184d6e3e">
+                     <id root="df323089-81c1-42f3-8b9e-ba43fac35e35"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">DO NOT FREEZE</content>
+                        </paragraph>
+                        <paragraph>This product should be stored between 2° and 8°C (36° and 46°F) and protected from light.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Vials in use more than 30 days should be discarded due to possible oxidation and degradation which may affect potency.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20141203"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_756622a2-9de7-47f2-9c7d-6caa9794bf63">
+               <id root="35a0cf3b-740a-4481-abdf-537ee1795173"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="unordered">
+                     <item>Seibert, F.B. The isolation and properties of the purified protein derivative of tuberculin: Am Rev Tuberc 1934; 30:713.
+                                <caption>•</caption>
+                     </item>
+                     <item>Seibert, F.B., and Glenn, J.T. Tuberculin purified protein derivative. Preparation and analyses of a large quantity for standard. Am Rev Tuberc 1941; 44:9-25.
+                                <caption>•</caption>
+                     </item>
+                     <item>Centers for Disease Control and Prevention (CDC). Essential components of a tuberculosis prevention and control program; and Screening for tuberculosis and tuberculosis infection in high-risk populations: recommendations of the Advisory Council for the Elimination of Tuberculosis. MMWR 1995;44(RR-11):1-34.
+                                <caption>•</caption>
+                     </item>
+                     <item>Centers for Disease Control and Prevention (CDC). Prevention and control of tuberculosis in correctional facilities: recommendations of the Advisory Council for the Elimination of Tuberculosis. MMWR 1996;45(RR-8):1-27.
+                                <caption>•</caption>
+                     </item>
+                     <item>Huebner RE, Shein MF, Bass JB. The Tuberculin Skin Test. 1993;17:968–75.
+                                <caption>•</caption>
+                        <content styleCode="italics">Clin Infect Dis</content>
+                     </item>
+                     <item>AHFS Drug Information, 1997, 36:84 pp 1962–1968.
+                                <caption>•</caption>
+                     </item>
+                     <item>American Thoracic Society: Diagnostic standards and classification of tuberculosis in Adults and Children. Am J Respir Crit Care Med 2000 Apr; 161:1376-95.
+                                <caption>•</caption>
+                     </item>
+                     <item>Am Rev Respir Dis 1985;886.
+                                <caption>•</caption>
+                     </item>
+                     <item>Brickman HF et.Al. The Timing of Tuberculin Tests in Relation to Immunization with Live Viral Vaccines. 1975;55:392.
+                                <caption>•</caption>
+                        <content styleCode="italics">Pediatrics</content>
+                     </item>
+                     <item>Nakayama K, Monma M, Fukushima T, Ohrui T, Sasaki H. Tuberculin responses and risk of pneumonia in immobile elderly patients. Thorax 2000 Oct;55(10):867-9.
+                                <caption>•</caption>
+                     </item>
+                     <item>Fukushima T, Nakayama K, Monma M, Sekizawa K, Sasaki H. Depression of T helper-1 and the tuberculin responses in older bed-bound patients. J Am Geriatri Soc 1999 Feb;47(2):259-260.
+                                <caption>•</caption>
+                     </item>
+                     <item>American Academy of Pediatrics. Tuberculosis. In: Pickering LK, CJ Baker, Long SS, McMillan JA, eds. : 2006 Report of the Committee on Infectious Diseases, 27 ed. Elk Grove Village, IL:  American Academy of Pediatrics 2006: 678-698.
+                                <caption>•</caption>
+                        <content styleCode="italics">Red Book</content>
+                        <sup>th</sup>
+                     </item>
+                     <item>Landi S, Held HR. Stability of a dilute solution of tuberculin purified derivative at extreme temperatures. 1981; 9:195.
+                                <caption>•</caption>
+                        <content styleCode="italics">J Biol Stand</content>
+                     </item>
+                     <item>Centers For Disease Control and Prevention (CDC). Diagnosis of TB Infection and TB Disease, March 21,1996, Doc# 2250102.
+                                <caption>•</caption>
+                     </item>
+                     <item>Sewell, E.M., O'Hare, D., and Kendig, E.L., Jr. The Tuberculin Test. Pediatrics Vol. 54, No. 5, Nov.1974.
+                                <caption>•</caption>
+                     </item>
+                     <item>Centers for Disease Control and Prevention(CDC). Prevention and control of tuberculosis in facilities providing long-term care to the elderly. Recommendations of the Advisory Committee of Elimination of Tuberculosis (ACET): MMWR 1990, 39(RR-10): 7–20.
+                                <caption>•</caption>
+                     </item>
+                     <item>Centers for Disease Control and Prevention(CDC). The use of preventative therapy for tuberculosis infection in the United States,  Recommendations of the Advisory Committee of Elimination of Tuberculosis (ACET), MMWR 1990 39(RR-8):9–12.
+                                <caption>•</caption>
+                     </item>
+                     <item>Centers for Disease Control and Prevention(CDC). Screening for tuberculosis and tuberculosis infection in high risk populations. Recommendations of the Advisory Committee of Elimination of Tuberculosis (ACET), MMWR 1990, 39(RR-8): 1-7.
+                                <caption>•</caption>
+                     </item>
+                     <item>Centers for Disease Control and Prevention (CDC). Targeted Tuberculin Testing and Treatment of Latent Tuberculosis Infection. MMWR, 2000. 49(RR-6): 1-51.
+                                <caption>•</caption>
+                     </item>
+                     <item>Pediatrics: Screening for Tuberculosis in Infants and Children, 1994. 93: 131-134.
+                                <caption>•</caption>
+                     </item>
+                     <item>Centers for Disease Control and Prevention (CDC). Controlling Tuberculosis in the United States. MMWR 2005. 54 (RR-12).
+                                <caption>•</caption>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20141203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_03c56039-9d15-43f1-b0e8-ed10d6eb1027">
+               <id root="f0c52c0e-4c37-4561-a4c6-3f58a01c5b45"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only.</content>
+                  </paragraph>
+                  <paragraph>Manufactured by: Spring Valley, NY 10977
+                            <br/>
+                     <content styleCode="bold">Par Pharmaceutical Companies, Inc.</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>I08/14 OS104J-1-90-01
+                            <br/>
+                  </paragraph>
+                  <paragraph>3003008D</paragraph>
+               </text>
+               <effectiveTime value="20141203"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="adf568e5-89de-4644-9966-7dabc897373f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>APLISOL (TUBERCULIN PURIFIED PROTEIN DERIVATIVE) INJECTION</title>
+               <text>
+                  <renderMultiMedia referencedObject="lbl647250104"/>
+               </text>
+               <effectiveTime value="20150709"/>
+               <component>
+                  <observationMedia ID="lbl647250104">
+                     <text>Label Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="64725-0104.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="b951455c-c235-4e23-9e21-08672d108726"/>
+   <code codeSystem="2.16.840.1.113883.6.1" code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title mediaType="text/x-hl7-title+xml" ID="inv-1dbd753b-d2c4-4775-8342-d68f4d72f781"/>
+   <effectiveTime value="20090909"/>
+   <setId root="b951455c-c235-4e23-9e21-08672d108726"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="937890044"/>
+            <name>Ranbaxy Pharmaceuticals Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="785395237" root="1.3.6.1.4.1.519.1"/>
+                  <name>Astrazeneca Limited Partnership</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="937890044"/>
+                        <name>Ranbaxy Pharmaceuticals Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code codeSystem="2.16.840.1.113883.3.26.1.1" code="C73607" displayName="relabel"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="001317064"/>
+                        <name>Merck &amp; Co Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code codeSystem="2.16.840.1.113883.3.26.1.1" code="C43360" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="fef28cd8-1d24-9d36-a65d-a967005e7d06"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20090909"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63304-435" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FELODIPINEEXTENDED-RELEASE TABLETS</name>
+                        <formCode code="C42927" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, EXTENDED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>felodipine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="2.5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="OL961R6O2C"/>
+                              <name>FELODIPINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code codeSystem="2.16.840.1.113883.4.9" code="OL961R6O2C"/>
+                                    <name>FELODIPINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="RFW2ET671P"/>
+                              <name>HYDROXYPROPYL CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="15FIX9V2JP"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="J2B2A4N98G"/>
+                              <name>LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="L06K8R7DQK"/>
+                              <name>FD&amp;C BLUE NO. 2</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="7CV7WJK4UI"/>
+                              <name>SODIUM STEARYL FUMARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="EX438O2MRT"/>
+                              <name>FERRIC OXIDE YELLOW</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100">
+                                 <translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                              </numerator>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63304-435-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48329" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="green" xsi:type="CE">
+                              <originalText>sage green</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText>Convex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="11" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">450;PLENDIL</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id root="2.16.840.1.113883.3.150" extension="NDA019834"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20080910"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63304-436" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FELODIPINEEXTENDED-RELEASE TABLETS</name>
+                        <formCode code="C42927" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, EXTENDED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>felodipine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="OL961R6O2C"/>
+                              <name>FELODIPINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code codeSystem="2.16.840.1.113883.4.9" code="OL961R6O2C"/>
+                                    <name>FELODIPINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="3WJQ0SDW1A"/>
+                              <name>POLYETHYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="15FIX9V2JP"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="J2B2A4N98G"/>
+                              <name>LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="7CV7WJK4UI"/>
+                              <name>SODIUM STEARYL FUMARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100">
+                                 <translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                              </numerator>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63304-436-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48326" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="red" xsi:type="CE">
+                              <originalText>light red brown</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText>convex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="11" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">451;PLENDIL</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id root="2.16.840.1.113883.3.150" extension="NDA019834"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20080910"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63304-437" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FELODIPINEEXTENDED-RELEASE TABLETS</name>
+                        <formCode code="C42927" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, EXTENDED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>felodipine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="OL961R6O2C"/>
+                              <name>FELODIPINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code codeSystem="2.16.840.1.113883.4.9" code="OL961R6O2C"/>
+                                    <name>FELODIPINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="3WJQ0SDW1A"/>
+                              <name>POLYETHYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="15FIX9V2JP"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="J2B2A4N98G"/>
+                              <name>LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="7CV7WJK4UI"/>
+                              <name>SODIUM STEARYL FUMARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100">
+                                 <translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                              </numerator>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63304-437-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48326" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="red" xsi:type="CE">
+                              <originalText>red-brown</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText>convex</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="11" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">452;PLENDIL</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id root="2.16.840.1.113883.3.150" extension="NDA019834"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20080910"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-8dce8512-1c96-45cd-b99b-e6e02948ce07">
+               <id root="87f5ce4a-5020-a787-ef8f-f51de3e47a49"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml" ID="inv-1d27fa18-5a8b-4a63-a354-1a93b6d0ba69"/>
+               <text ID="inv-a56caee8-45b9-4c5f-bd39-db4fcc18b22a">
+                  <paragraph ID="inv-41af94de-ae64-4b7a-9ec1-7c34c364609a">
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20090909"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-21515ffe-3a7a-4e24-b607-6f692052547b">
+               <id root="618e2783-350c-9645-5c2e-111aa4e11919"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml" ID="inv-eb9dbe69-7e30-45c4-b323-5c68faedfd1c">DESCRIPTION</title>
+               <text ID="inv-d9cd5c1f-696b-4ad5-be6d-b2c35c2f93f2">
+                  <paragraph ID="inv-c3438586-babb-4061-991e-4dbe5dec1e19">Felodipine is a calcium antagonist (calcium channel blocker). Felodipine is a dihydropyridine derivative that is chemically described as ± ethyl methyl 4-(2, 3-dichlorophenyl)-1, 4-dihydro-2, 6-dimethyl-3, 5-pyridinedicarboxylate.  Its empirical formula is C<sub>18</sub>H<sub>19</sub>Cl<sub>2</sub>NO<sub>4</sub> and its structural formula is:<renderMultiMedia ID="ID0ECCAE" referencedObject="mm-caa31161-cf2d-4c53-9b20-e2e909a71773"/>
+                  </paragraph>
+                  <paragraph ID="inv-65dfb709-d703-45b5-8063-95075881e2bc">Felodipine is a slightly yellowish, crystalline powder with a molecular weight of 384.26. It is insoluble in water and is freely soluble in dichloromethane and ethanol. Felodipine is a racemic mixture.</paragraph>
+                  <paragraph ID="inv-a81c3d55-c483-40fe-9227-8aae54223340">Felodipine extended-release tablets provide extended release of felodipine. They are available as tablets containing 2.5 mg, 5 mg, or 10 mg at felodipine for oral administration. In addition to the active ingredient felodipine, the tablets contain the following inactive ingredients: Felodipine extended-release tablets 2.5 mg — hydroxypropyl cellulose, lactose, FD&amp;C Blue 2, sodium stearyl fumarate, titanium dioxide, yellow iron oxide, and other ingredients. Felodipine extended-release tablets 5 mg and 10 mg—cellulose, red and yellow oxide, lactose, polyethylene glycol, sodium stearyl fumarate, titanium dioxide, and other ingredients.</paragraph>
+               </text>
+               <effectiveTime value="20090909"/>
+               <component>
+                  <observationMedia ID="mm-caa31161-cf2d-4c53-9b20-e2e909a71773">
+                     <text>mol_strr</text>
+                     <value mediaType="image/jpeg">
+                        <reference value="mol_strr.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="cp">
+               <id root="7a38dda6-c29b-31f0-f8ea-a17c14873b4b"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml" ID="inv-d1b52f9b-a94c-42b3-b058-4b6ace76bc4c">CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20090909"/>
+               <component>
+                  <section ID="inv-23a5b542-bbca-4d75-b347-ae9c4425beeb">
+                     <id root="6fb77fef-7858-6122-63c1-550646c31c44"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-31b64d2d-44fb-4a1d-ae0f-366a4342263b">Mechanism of Action</title>
+                     <text ID="inv-73375fc6-bb4f-4476-905e-02775d8cd90e">
+                        <paragraph ID="inv-75722943-bd9e-4cca-9fb8-3084a89cd23a">Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca<sup>++</sup> currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein.</paragraph>
+                        <paragraph ID="inv-b58c78df-3457-4e2e-8744-27d80572c8e5">
+                           <content styleCode="italics">In vitro</content> studies show that the effects of felodipine on contractile processes are selective, with greater effects on vascular smooth muscle than cardiac muscle. Negative inotropic effects can be detected <content styleCode="italics">in vitro</content>, but such effects have not been seen in intact animals.</paragraph>
+                        <paragraph ID="inv-41fdeefd-f5cc-44bd-891d-eb6ca7331136">The effect of felodipine on blood pressure is principally a consequence of a dose-related decrease of peripheral vascular resistance in man, with a modest reflex increase in heart rate (see <content styleCode="bold">
+                              <linkHtml href="#cardio" ID="inv-fa70e476-2353-402a-9938-19252e55fdfc">Cardiovascular Effects</linkHtml>
+                           </content>). With the exception of a mild diuretic effect seen in several animal species and man, the effects of felodipine are accounted for by its effects on peripheral vascular resistance.</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="pharmacokinetics">
+                     <id root="a118feca-08fd-5a3a-ac84-c09eeb815d12"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-5fd4aef5-bb0d-4490-940e-f5ccb0f766f6">Pharmacokinetics and Metabolism</title>
+                     <text ID="inv-fe174e78-a9c1-4cf4-aaab-194a7b705b82">
+                        <paragraph ID="inv-1b8d4720-bd7a-4bd3-b9c7-21e52208df2c">Following oral administration, felodipine is almost completely absorbed and undergoes extensive first-pass metabolism. The systemic bioavailability of felodipine extended-release tablets is approximately 20%. Mean peak concentrations following the administration of felodipine extended-release tablets are reached in 2.5 to 5 hours. Both peak plasma concentration and the area under the plasma concentration time curve (AUC) increase linearly with doses up to 20 mg. Felodipine is greater than 99% bound to plasma proteins.</paragraph>
+                        <paragraph ID="inv-2036de25-7c12-4b47-89ef-8f27fb711816">Following intravenous administration, the plasma concentration of felodipine declined triexponentially with mean disposition half-lives of 4.8 minutes, 1.5 hours, and 9.1 hours. The mean contributions of the three individual phases to the overall AUC were 15, 40, and 45%, respectively, in the order of increasing t<sub>1/2</sub>.</paragraph>
+                        <paragraph ID="inv-1164b1c0-3961-48b0-9c41-9653a82910c4">Following oral administration of the immediate-release formulation, the plasma level of felodipine also declined polyexponentially with a mean terminal t<sub>1/2</sub> of 11 to 16 hours. The mean peak and trough steady-state plasma concentrations achieved after 10 mg of the immediate-release formulation given once a day to normal volunteers, were 20 and 0.5 nmol/L, respectively. The trough plasma concentration of felodipine in most individuals was substantially below the concentration needed to effect a half-maximal decline in blood pressure (EC<sub>50</sub>) [4-6 nmol/L for felodipine], thus precluding once-a-day dosing with the immediate-release formulation.</paragraph>
+                        <paragraph ID="inv-f877f1db-0056-4fd9-8552-a26761b7a706">Following administration of a 10-mg dose of felodipine extended-release tablets, to young, healthy volunteers, mean peak and trough steady-state plasma concentrations of felodipine were 7 and 2 nmol/L, respectively. Corresponding values in hypertensive patients (mean age 64) after a 20-mg dose of felodipine extended-release tablets were 23 and 7 nmol/L. Since the EC<sub>50</sub> for felodipine is 4 to 6 nmol/L, a 5- to 10-mg dose of felodipine extended-release tablets in some patients, and a 20-mg dose in others, would be expected to provide an antihypertensive effect that persists for 24 hours (see <content styleCode="bold">
+                              <linkHtml href="#cardio" ID="inv-74d0e96c-5bb3-4a27-90d2-cd0f6564f12e">Cardiovascular Effects</linkHtml>
+                           </content> below and <content styleCode="bold">
+                              <linkHtml href="#dosage" ID="inv-390e1027-cf9f-4a31-a493-10869491b4ed">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph ID="inv-b588db3e-0c0c-4e0e-a8a5-2194d5d93b1b">The systemic plasma clearance of felodipine in young healthy subjects is about 0.8 L/min, and the apparent volume of distribution is about 10 L/kg.</paragraph>
+                        <paragraph ID="inv-2ad382db-7f9a-437c-98e4-9e92b3f051f1">Following an oral or intravenous dose of <sup>14</sup>C-labeled felodipine in man, about 70% of the dose of radioactivity was recovered in urine and 10% in the feces. A negligible amount of intact felodipine is recovered in the urine and feces (&lt; 0.5%). Six metabolites, which account for 23% of the oral dose, have been identified; none has significant vasodilating activity.</paragraph>
+                        <paragraph ID="inv-fadb3675-25a0-468b-9b6d-529a7d4ba010">Following administration of felodipine extended-release tablets to hypertensive patients, mean peak plasma concentrations at steady state are about 20% higher than after a single dose. Blood pressure response is correlated with plasma concentrations of felodipine.</paragraph>
+                        <paragraph ID="inv-876ae0a8-a697-4301-bbbc-a3c9c82db20f">The bioavailability of felodipine extended-release tablets is influenced by the presence of food. When administered either with a high fat or carbohydrate diet, C<sub>max</sub> is increased by approximately 60%; AUC is unchanged. When felodipine extended-release tablets were administered after a light meal (orange juice, toast, and cereal), however, there is no effect on felodipine's pharmacokinetics. The bioavailability of felodipine was increased approximately two-fold when taken with grapefruit juice. Orange juice does not appear to modify the kinetics of felodipine extended-release tablets. A similar finding has been seen with other dihydropyridine calcium antagonists, but to a lesser extent than that seen with felodipine.</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                     <component>
+                        <section ID="geriatric">
+                           <id root="143a6abc-de0a-a4aa-b313-c3a349cbff2d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-2c711825-c31f-4353-bd4f-ead2a3dc8634">
+                              <content styleCode="italics">Geriatric Use</content>
+                           </title>
+                           <text ID="inv-832d2d67-1589-4024-9028-1fde529b3493">
+                              <paragraph ID="inv-de7636d3-5909-49ba-8127-68f2507bd065">Plasma concentrations of felodipine, after a single dose and at steady state, increase with age. Mean clearance of felodipine in elderly hypertensives (mean age 74) was only 45% of that of young volunteers (mean age 26). At steady state mean AUC for young patients was 39% of that for the elderly. Data for intermediate age ranges suggest that the AUCs fall between the extremes of the young and the elderly.</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="inv-08d29e8d-1362-44ee-9d08-574c1238db3f">
+                           <id root="cc024531-9d00-3e52-78a4-e6e1f9c94544"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-905c33a1-d47b-49ff-9245-4b27d82541df">
+                              <content styleCode="italics">Hepatic</content>
+                              <content styleCode="italics">Dysfunction</content>
+                           </title>
+                           <text ID="inv-1bb1fb20-02af-4382-b6d9-d0d2b5d5497f">
+                              <paragraph ID="inv-307ffeb0-21af-425e-b89f-25ddc9a66d73">In patients with hepatic disease, the clearance of felodipine was reduced to about 60% of that seen in normal young volunteers.</paragraph>
+                              <paragraph ID="inv-2b13fadb-94f6-47f6-af51-204d7554e898">Renal impairment does not alter the plasma concentration profile of felodipine; although higher concentrations of the metabolites are present in the plasma due to decreased urinary excretion, these are inactive.</paragraph>
+                              <paragraph ID="inv-c1baf59e-8306-4f45-a621-fd4243b1bf74">Animal studies have demonstrated that felodipine crosses the blood-brain barrier and the placenta.</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="cardio">
+                     <id root="8df3c02c-b1d0-0a7a-b9d6-b0184b7f8dbe"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-8836aa3c-e717-4a1a-a084-d509363df4b6">Cardiovascular Effects</title>
+                     <text ID="inv-27ae8b6d-389d-4ba2-853e-3587c1ac1288">
+                        <paragraph ID="inv-aa676f5b-f0a7-48f2-9428-36169b36b960">Following administration of felodipine extended-release tablets, a reduction in blood pressure generally occurs within 2 to 5 hours. During chronic administration, substantial blood pressure control lasts for 24 hours, with trough reductions in diastolic blood pressure approximately 40-50% of peak reductions. The antihypertensive effect is dose dependent and correlates with the plasma concentration of felodipine.</paragraph>
+                        <paragraph ID="inv-e0dae6b8-ce02-43de-92f6-8cf15e67039a">A reflex increase in heart rate frequently occurs during the first week of therapy; this increase attenuates over time. Heart rate increases of 5-10 beats per minute may be seen during chronic dosing. The increase is inhibited by beta-blocking agents.</paragraph>
+                        <paragraph ID="inv-d61b63fe-783a-4751-8c1a-084dcb40b79d">The P-R interval of the ECG is not affected by felodipine when administered alone or in combination with a beta-blocking agent. Felodipine alone or in combination with a beta-blocking agent has been shown, in clinical and electrophysiologic studies, to have no significant effect on cardiac conduction (P-R, P-Q, and H-V intervals).</paragraph>
+                        <paragraph ID="inv-904f76c9-70a8-4df7-a2a3-a10017261809">In clinical trials in hypertensive patients without clinical evidence of left ventricular dysfunction, no symptoms suggestive of a negative inotropic effect were noted; however, none would be expected in this population (see <content styleCode="bold">
+                              <linkHtml href="#precautions" ID="inv-a2dfe2e1-55d0-46a5-86f0-4d45dcf01ff7">PRECAUTIONS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="renal">
+                     <id root="edb88fec-ec8d-112c-8af6-014bc876d3ef"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-e9077417-7dc0-459d-9783-b6cdd620e8e7">Renal/Endocrine Effects</title>
+                     <text ID="inv-5953500b-ac4c-432f-afc7-be9985665b01">
+                        <paragraph ID="inv-5f80663d-f8e8-4f9b-ba2a-292692e78929">Renal vascular resistance is decreased by felodipine while glomerular filtration rate remains unchanged. Mild diuresis, natriuresis, and kaliuresis have been observed during the first week of therapy. No significant effects on serum electrolytes were observed during short- and long-term therapy.</paragraph>
+                        <paragraph ID="inv-3511bfc3-9b36-4864-ab68-d2820afd29ce">In clinical trials in patients with hypertension, increases in plasma noradrenaline levels have been observed.</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-10691abe-99ce-4da4-a22f-23cf402d6fe9">
+                     <id root="6a836582-b00a-ab4a-f75b-ce609a0795b2"/>
+                     <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-bfc8e93e-4eaa-4bff-ba21-5eedb4c748d9">Clinical Studies</title>
+                     <text ID="inv-dd19d5da-efdd-4b2b-a5bb-3e96313b5309">
+                        <paragraph ID="inv-3b3a2023-f48d-4b07-93f1-a2c14d1cc4bc">Felodipine produces dose-related decreases in systolic and diastolic blood pressure as demonstrated in six placebo-controlled, dose response studies using either immediate-release or extended-release dosage forms. These studies enrolled over 800 patients on active treatment, at total daily doses ranging from 2.5 to 20 mg. In those studies felodipine was administered either as monotherapy or was added to beta blockers. The results of the 2 studies with felodipine given once daily as monotherapy are shown in the table below:</paragraph>
+                        <table ID="inv-96d7381c-621a-4bec-aefb-00269713c478" frame="border" border="1">
+                           <caption ID="inv-4ad9b960-7734-402a-a3b8-71c25e9bc14f">MEAN REDUCTIONS IN BLOOD PRESSURE (mmHg)<sup>*</sup>
+                           </caption>
+                           <col width="46px"/>
+                           <col width="28px" align="center"/>
+                           <col width="124px" align="center"/>
+                           <col width="124px" align="center"/>
+                           <col width="120px" align="center"/>
+                           <thead valign="bottom">
+                              <tr valign="bottom">
+                                 <td align="center" valign="bottom" styleCode="Botrule Lrule Rrule Toprule">Dose</td>
+                                 <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">N</td>
+                                 <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">Systolic/Diastolic Mean Peak Response</td>
+                                 <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">Mean Trough Response</td>
+                                 <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">Trough/Peak Ratios (%s)</td>
+                              </tr>
+                           </thead>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="5">
+                                    <paragraph styleCode="footnote" ID="inv-773c50e4-b395-4440-b39e-5247b8980a4f">
+                                       <sup>*</sup> Placebo response subtracted</paragraph>
+                                    <paragraph styleCode="footnote" ID="inv-a29e5ee0-d90b-4fc6-aa3d-69bbe2459a5d">
+                                       <sup>**</sup> Different number of patients available for peak and trough measurements</paragraph>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td align="center" colspan="5" styleCode="Botrule Lrule Rrule">Study 1 (8 weeks)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule">2.5 mg</td>
+                                 <td align="center" styleCode="Botrule Rrule">68</td>
+                                 <td align="center" styleCode="Botrule Rrule">9.4/4.7</td>
+                                 <td align="center" styleCode="Botrule Rrule">2.7/2.5</td>
+                                 <td align="center" styleCode="Botrule Rrule">29/53</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule">5 mg</td>
+                                 <td align="center" styleCode="Botrule Rrule">69</td>
+                                 <td align="center" styleCode="Botrule Rrule">9.5/6.3</td>
+                                 <td align="center" styleCode="Botrule Rrule">2.4/3.7</td>
+                                 <td align="center" styleCode="Botrule Rrule">25/59</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Botrule Lrule Rrule">10 mg</td>
+                                 <td align="center" styleCode="Botrule Rrule">67</td>
+                                 <td align="center" styleCode="Botrule Rrule">18.0/10.8</td>
+                                 <td align="center" styleCode="Botrule Rrule">10.0/6.0</td>
+                                 <td align="center" styleCode="Botrule Rrule">56/56</td>
+                              </tr>
+                              <tr>
+                                 <td align="center" colspan="5" styleCode="Botrule Lrule Rrule">Study 2 (4 weeks)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule">10 mg</td>
+                                 <td align="center" styleCode="Botrule Rrule">50</td>
+                                 <td align="center" styleCode="Botrule Rrule">5.3/7.2</td>
+                                 <td align="center" styleCode="Botrule Rrule">1.5/3.2</td>
+                                 <td align="center" styleCode="Botrule Rrule">33/40<sup>**</sup>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule">20 mg</td>
+                                 <td align="center" styleCode="Botrule Rrule">50</td>
+                                 <td align="center" styleCode="Botrule Rrule">11.3/10.2</td>
+                                 <td align="center" styleCode="Botrule Rrule">4.5/3.2</td>
+                                 <td align="center" styleCode="Botrule Rrule">43/34<sup>**</sup>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-501addb9-778c-431e-bcb4-a4adbab7a486">
+               <id root="dfe42d79-970a-a5cb-314d-4309de60d4b8"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml" ID="inv-36e92214-117a-4073-b651-065bb296ffa7">INDICATIONS AND USAGE</title>
+               <text ID="inv-82d85449-bdd5-4613-8df8-84847b81b18e">
+                  <paragraph ID="inv-96e99d92-b21f-4349-bf3d-4b853517befd">Felodipine extended-release tablets are indicated for the treatment of hypertension.  Felodipine extended-release tablets may be used alone or concomitantly with other antihypertensive agents.</paragraph>
+               </text>
+               <effectiveTime value="20090909"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-e1436aec-fe5d-4227-8ae7-11e44b7cc975">
+               <id root="dc667ef9-03a4-5165-755b-62d192f2f95c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml" ID="inv-a3184080-89fc-402f-a72d-8eaeba019ba0">CONTRAINDICATIONS</title>
+               <text ID="inv-72cd289f-6aed-4760-ad22-91357ff3bd12">
+                  <paragraph ID="inv-b4991f05-4562-4f78-8ed9-5c454e078140">Felodipine extended-release tablets are contraindicated in patients who are hypersensitive to this product.</paragraph>
+               </text>
+               <effectiveTime value="20090909"/>
+            </section>
+         </component>
+         <component>
+            <section ID="precautions">
+               <id root="0707bae5-3e4e-1e09-07a5-4476e5c09912"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml" ID="inv-c316e0f2-b6c1-4087-a581-61418142b6ec">PRECAUTIONS</title>
+               <effectiveTime value="20090909"/>
+               <component>
+                  <section ID="inv-59f46841-c70b-41dc-83a8-e9fe050cd9f0">
+                     <id root="10605a64-ac37-d8b5-ddc7-523304f3a3e9"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-85648674-a9e6-4b41-abd6-447ace99e541">General</title>
+                     <effectiveTime value="20090909"/>
+                     <component>
+                        <section ID="inv-53385f64-5a1e-4f77-9a27-51070b6577a1">
+                           <id root="db9319ca-974c-60ef-5d40-8f5a2f7f1056"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-4f2c28fd-c496-4d75-b978-2803129c8e67">
+                              <content styleCode="italics">Hypotension</content>
+                           </title>
+                           <text ID="inv-98ec74be-d4c4-42ab-aa11-9c81d3f362fb">
+                              <paragraph ID="inv-247e9b58-691d-4a60-b10e-94f86db69ee2">Felodipine, like other calcium antagonists, may occasionally precipitate significant hypotension and, rarely, syncope. It may lead to reflex tachycardia which in susceptible individuals may precipitate angina pectoris. (See <content styleCode="bold">
+                                    <linkHtml href="#ar" ID="inv-d4c3e84d-5b29-4ddc-ac0b-62545b1a1d53">ADVERSE REACTIONS</linkHtml>.</content>)</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="inv-d607568a-5efa-4b91-89d1-f1e8d5d88947">
+                           <id root="5b44bca1-05eb-252b-5117-0c83f97b7e8d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-aa980d38-bd48-4f93-a39f-f55f7f8ca327">
+                              <content styleCode="italics">Heart</content>
+                              <content styleCode="italics">Failure</content>
+                           </title>
+                           <text ID="inv-cb030ec9-2980-4871-a23c-c94a5931c64a">
+                              <paragraph ID="inv-f4afedca-c54a-426b-891a-3dc7af8b7702">Although acute hemodynamic studies in a small number of patients with NYHA Class II or III heart failure treated with felodipine have not demonstrated negative inotropic effects, safety in patients with heart failure has not been established. Caution, therefore, should be exercised when using felodipine extended-release tablets in patients with heart failure or compromised ventricular function, particularly in combination with a beta blocker.</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="inv-28d225dd-211f-49ed-8a58-0a1a2be512d8">
+                           <id root="4e4acd6f-0930-71e6-e3a3-b320a98cb8cc"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-ac4c2985-eebf-4071-8c45-3dd808075dd3">
+                              <content styleCode="italics">Patients</content>
+                              <content styleCode="italics">with</content>
+                              <content styleCode="italics">Impaired</content>
+                              <content styleCode="italics">Liver</content>
+                              <content styleCode="italics">Function</content>
+                           </title>
+                           <text ID="inv-28a3136b-586e-4d6d-a584-b90a59ef8b06">
+                              <paragraph ID="inv-8c2f9c41-87c6-4eb5-b5a3-2564c63eaca3">Patients with impaired liver function may have elevated plasma concentrations of felodipine and may respond to lower doses of felodipine extended-release tablets; therefore, a starting dose of 2.5 mg once a day is recommended. These patients should have their blood pressure monitored closely during dosage adjustment of felodipine extended-release tablets. (See <content styleCode="bold">
+                                    <linkHtml href="#cp" ID="inv-5f993079-7f3e-44bf-9523-2043a4c9baf4">CLINICAL PHARMACOLOGY</linkHtml>
+                                 </content> and <content styleCode="bold">
+                                    <linkHtml href="#dosage" ID="inv-8606b6dd-ac39-4284-a5e9-8cadedd4fc16">DOSAGE AND ADMINISTRATION</linkHtml>.</content>)</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="inv-198bc107-3d26-44ac-826f-24decb337ce0">
+                           <id root="d8dd036b-3795-d535-5e0b-ea62290e6e30"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-afb79f2c-0d6f-4a4a-9c50-fe4546a9b59d">Peripheral Edema</title>
+                           <text ID="inv-49f7923a-435c-437e-9fad-eadd04e29ce5">
+                              <paragraph ID="inv-eeccf671-64bd-473b-ac12-f67f08c2c793">Peripheral edema, generally mild and not associated with generalized fluid retention, was the most common adverse event in the clinical trials. The incidence of peripheral edema was both dose and age dependent. Frequency of peripheral edema ranged from about 10% in patients under 50 years of age taking 5 mg daily to about 30% in those over 60 years of age taking 20 mg daily. This adverse effect generally occurs within 2-3 weeks of the initiation of treatment.</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="information">
+                     <id root="2fe4987b-91c9-2a7f-d2d2-5e98849b795e"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-b019d4f4-18a2-478d-9d57-9e2be9c162c6">Information for Patients</title>
+                     <text ID="inv-39e9dc57-31e6-4df8-894a-b80b31fed1fc">
+                        <paragraph ID="inv-25dd6380-d4a0-4c30-b92f-919797f3a99e">Patients should be instructed to take felodipine extended-release tablets whole and not to crush or chew the tablets. They should be told that mild gingival hyperplasia (gum swelling) has been reported. Good dental hygiene decreases its incidence and severity.</paragraph>
+                        <paragraph ID="inv-e1f92adb-9bf9-4813-8b2d-2c01dea6af3c">NOTE: As with many other drugs, certain advice to patients being treated with felodipine extended-release tablets are warranted. This information is intended to aid in the safe and effective use of this medication. It is not a disclosure of all possible adverse or intended effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-8efd33e3-ff97-4740-86ae-089285bc29aa">
+                     <id root="a38d5863-f24d-b880-3330-abfa60ffd5d6"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-a1d874bb-c179-4517-8a79-1726ea8b4111">Drug Interactions</title>
+                     <effectiveTime value="20090909"/>
+                     <component>
+                        <section ID="inv-142cd403-9578-4f98-b4ec-9274366db910">
+                           <id root="a9a23d4c-2ca7-2176-19b0-1e40380f3a1f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-03a8ca0d-4645-49f1-aa1f-3d7256fe2364">
+                              <content styleCode="italics">CYP3A4</content>
+                              <content styleCode="italics">Inhibitors</content>
+                           </title>
+                           <text ID="inv-d5cb252a-79f2-4d4e-9fe6-793b2764507d">
+                              <paragraph ID="inv-626d1de8-00d9-4d2a-8638-d86f0156b59d">Felodipine is metabolized by CYP3A4. Co-administration of CYP3A4 inhibitors (eg., ketoconazole, itraconazole, erythromycin, grapefruit juice, cimetidine) with felodipine may lead to several-fold increases in the plasma levels of felodipine, either due to an increase in bioavailability or due to a decrease in metabolism. These increases in concentration may lead to increased effects, (lower blood pressure and increased heart rate). These effects have been observed with co-administration of itraconazole (a potent CYP3A4 inhibitor). Caution should be used when CYP3A4 inhibitors are co-administered with felodipine. A conservative approach to dosing felodipine should be taken. The following specific interactions have been reported:</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                           <component>
+                              <section>
+                                 <id root="497eb888-f8bd-10c3-7ab8-9656059b2403"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title mediaType="text/x-hl7-title+xml" ID="inv-d8bd85b6-7cda-4786-a444-5a43dcd33e84">
+                                    <content styleCode="italics">Itraconazole</content>
+                                 </title>
+                                 <text ID="inv-69df076b-082a-4309-9c3f-1ae2b8592c0b">
+                                    <paragraph ID="inv-3a7229fc-2663-4c23-bf59-4a4ba536f82d">Co-administration of another extended release formulation of felodipine with itraconazole resulted in approximately 8-fold increase in the AUC, more than 6-fold increase in the C<sub>max</sub>, and 2-fold prolongation in the half-life of felodipine.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20090909"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="3a0a050b-f304-4510-d1fa-26d80993fa9f"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title mediaType="text/x-hl7-title+xml" ID="inv-81e80ac5-ff76-4f0d-82ba-e77db638ff32">
+                                    <content styleCode="italics">Erythromycin</content>
+                                 </title>
+                                 <text ID="inv-d4f6330c-375d-44f2-953b-9f0c078bc8ab">
+                                    <paragraph ID="inv-d679f685-2637-45ae-b583-d61551e905ba">Co-administration of felodipine extended-release tablets with erythromycin resulted in approximately 2.5-fold increase in the AUC and C<sub>max</sub>, and about 2-fold prolongation in the half-life of felodipine.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20090909"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="4f57f3a1-62ef-e483-2a40-35c8c027e80a"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title mediaType="text/x-hl7-title+xml" ID="inv-27d615d8-8f81-4fc5-ad35-d8b9ca9878ae">
+                                    <content styleCode="italics">Grapefruit</content>
+                                    <content styleCode="italics">juice</content>
+                                 </title>
+                                 <text ID="inv-fe22058d-2cdd-4f3e-962e-919d5dd095ee">
+                                    <paragraph ID="inv-f1f817ca-498e-48d5-a852-ba96fd84a9c4">Co-administration of felodipine with grapefruit juice resulted in more than 2-fold increase in the AUC and C<sub>max</sub>, but no prolongation in the half-life of felodipine.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20090909"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="2a5dc468-4f05-1fc1-7016-63caba9cf0aa"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title mediaType="text/x-hl7-title+xml" ID="inv-3466bc3c-fb04-4135-8ee3-1be17e6e7790">
+                                    <content styleCode="italics">Cimetidine</content>
+                                 </title>
+                                 <text ID="inv-0b027b1d-4c8a-49f0-9635-c23ab2ef8f2a">
+                                    <paragraph ID="inv-1c5c7c08-1cf7-4609-bb27-ae03287e5402">Co-administration of felodipine with cimetidine (a non-specific CYP-450 inhibitor) resulted in an increase of approximately 50% in the AUC and the C<sub>max</sub>, of felodipine.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20090909"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="inv-79700f00-c65b-4894-a0d2-eca34cc74e63">
+                           <id root="7fc14ca9-9ef2-6e5c-3df0-a295b1fd01f6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-f0f7694c-97f0-4b29-961c-eec5d035ca27">
+                              <content styleCode="italics">Beta</content>-<content styleCode="italics">Blocking</content>
+                              <content styleCode="italics">Agents</content>
+                           </title>
+                           <text ID="inv-6bbc8dbb-6c12-4fdf-98ef-12f2bd222e02">
+                              <paragraph ID="inv-6759abf9-733c-4590-8bcd-f6cc55ba4651">A pharmacokinetic study of felodipine in conjunction with metoprolol demonstrated no significant effects on the pharmacokinetics of felodipine. The AUC and C<sub>max</sub> of metoprolol, however, were increased approximately 31 and 38%, respectively. In controlled clinical trials, however, beta blockers including metoprolol were concurrently administered with felodipine and were well tolerated.</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="inv-360157b1-72f5-4d97-8ef1-55ce1898fee2">
+                           <id root="9775529e-5675-b30c-918a-b684c80afe5b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-e4ca879a-bcbc-46b9-8564-14a45a23337f">Digoxin</title>
+                           <text ID="inv-fbabeef2-1140-40ea-8cbe-0bd7b706289c">
+                              <paragraph ID="inv-a21920b7-3b43-43f1-b05f-b0cbf72be1e1">When given concomitantly with felodipine extended-release tablets the pharmacokinetics of digoxin in patients with heart failure were not significantly altered.</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="inv-b6b0eb10-6740-42c2-b463-0d7215abe079">
+                           <id root="6a3dbc97-154b-0920-0372-0d0fd42a4647"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-addbd83d-b9b9-4856-8474-f37f1efe1a0d">
+                              <content styleCode="italics">Anticonvulsants</content>
+                           </title>
+                           <text ID="inv-939c0da1-6859-433a-97e1-7d815b1bb5e0">
+                              <paragraph ID="inv-a6802694-6484-4fff-bccd-ccb14de58d6d">In a pharmacokinetic study, maximum plasma concentrations of felodipine were considerably lower in epileptic patients on long-term anticonvulsant therapy (eg, phenytoin. carbamazepine, or phenobarbital) than in healthy volunteers. In such patients, the mean area under the felodipine plasma concentration-time curve was also reduced to approximately 6% of that observed in healthy volunteers. Since a clinically significant interaction may be anticipated, alternative antihypertensive therapy should be considered in these patients.</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="inv-c45b907c-8636-48b0-a2a4-9fc30f4516c3">
+                           <id root="632d7568-e2cb-1600-141f-4d168a0aa1ba"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-6af31af1-9bfc-4519-b733-9ead481ad690">
+                              <content styleCode="italics">Tacrolimus</content>
+                           </title>
+                           <text ID="inv-95e48c3f-23de-41f2-9b66-e3c88fe8916b">
+                              <paragraph ID="inv-080f1314-dc30-46d5-ae4c-5984326dec2e">Felodipine may increase the blood concentration of tacrolimus. When given concomitantly with felodipine, the tacrolimus blood concentration should be followed and the tacrolimus dose may need to be adjusted.</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="inv-09efdfa6-4519-4586-860c-1be5e09f289d">
+                           <id root="e8ed9c14-18bd-1f06-38ec-2a428c7cc08a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-9a4aea78-dd18-43ac-acf2-bc85103b2435">
+                              <content styleCode="italics">Other</content>
+                              <content styleCode="italics">Concomitant</content>
+                              <content styleCode="italics">Therapy</content>
+                           </title>
+                           <text ID="inv-7e6a3a1b-1df4-4897-8902-5955fcf495fc">
+                              <paragraph ID="inv-d2db0f0d-100d-4d4a-828f-625af0d4e2c9">In healthy subjects there were no clinically significant interactions when felodipine was given concomitantly with indomethacin or spironolactone.</paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="inv-40d9bbab-88c1-4e13-9a07-4a9c0a6c8c6a">
+                           <id root="ba2038c4-c1bb-8d93-cd8b-d6e7cc5c17e8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-230ea418-414f-43f2-9ee4-153c390e5377">
+                              <content styleCode="italics">Interaction</content>
+                              <content styleCode="italics">with</content>
+                              <content styleCode="italics">Food</content>
+                           </title>
+                           <text ID="inv-482d48d7-9938-4746-899e-43b080428880">
+                              <paragraph ID="inv-a05a8055-d6f4-4778-a539-7d32f89f87c2">See <content styleCode="bold">
+                                    <linkHtml href="#pharmacokinetics" ID="inv-fe334e14-c5ee-42b8-a007-def825bece2b">CLINICAL PHARMACOLOGY, Pharmacokinetics and Metabolism</linkHtml>.</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20090909"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-dff670cb-d9f0-4220-aba7-2e20ebf82784">
+                     <id root="736987cc-7ce0-8a65-30da-8e0f7d5aa811"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-709f6583-2c99-4d28-af1d-c733b60bade0">Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text ID="inv-1866e964-0eb9-4672-83cf-3860342a1968">
+                        <paragraph ID="inv-78ce74a5-0437-405e-b9f7-04d194cfda7f">In a 2-year carcinogenicity study in rats fed felodipine at doses of 7.7, 23.1 or 69.3 mg/kg/day (up to 61 times<sup>**</sup> the maximum recommended human dose on a mg/m<sup>2</sup> basis), a dose-related increase in the incidence of benign interstitial cell tumors of the testes (Leydig cell tumors) was observed in treated male rats. These tumors were not observed in a similar study in mice at doses up to 138.6 mg/kg/day (61 times<sup>**</sup> the maximum recommended human dose on a mg/m<sup>2</sup> basis). Felodipine, at the doses employed in the 2-year rat study, has been shown to lower testicular testosterone and to produce a corresponding increase in serum luteinizing hormone in rats. The Leydig cell tumor development is possibly secondary to these hormonal effects which have not been observed in man.</paragraph>
+                        <paragraph ID="inv-28b9d142-1cca-4330-9ad6-d76006811081">In this same rat study a dose-related increase in the incidence of focal squamous cell hyperplasia compared to control was observed in the esophageal groove of male and female rats in all dose groups. No other drug-related esophageal or gastric pathology was observed in the rats or with chronic administration in mice and dogs. The latter species, like man, has no anatomical structure comparable to the esophageal groove.</paragraph>
+                        <paragraph ID="inv-0c84869c-8c48-48cd-a0a8-f224395901d0">Felodipine was not carcinogenic when fed to mice at doses up to 138.6 mg/kg/day (61 times<sup>**</sup> the maximum recommended human dose on a mg/m<sup>2</sup> basis) for periods of up to 80 weeks in males and 99 weeks in females.</paragraph>
+                        <paragraph ID="inv-64a7139a-5ee6-478a-b431-b28eef1f5542">Felodipine did not display any mutagenic activity <content styleCode="italics">in vitro</content> in the Ames microbial mutagenicity test or in the mouse lymphoma forward mutation assay. No clastogenic potential was seen <content styleCode="italics">in vivo</content> in the mouse micronucleus test at oral doses up to 2500 mg/kg (1100 times<sup>**</sup> the maximum recommended human dose on a mg/m<sup>2</sup> basis) or <content styleCode="italics">in vitro</content> in a human lymphocyte chromosome aberration assay.</paragraph>
+                        <paragraph ID="inv-9016bab9-31fa-4919-8173-1bf60c82984c">A fertility study in which male and female rats were administered doses of 3.8, 9.6 or 26.9 mg/kg/day (up to 24 times<sup>**</sup> the maximum recommended human dose on a mg/m<sup>2</sup> basis) showed no significant effect of felodipine on reproductive performance.</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-82c905bf-d8ae-4a59-8350-7927752dcf62">
+                     <id root="7be0b8c6-d3cd-2d07-bdca-9c703626f963"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-39106b5c-b1f0-4bcb-a6f2-6c57b3491907">Pregnancy</title>
+                     <effectiveTime value="20090909"/>
+                     <component>
+                        <section ID="inv-f4342047-ce69-4780-aa47-09a090fcfcd0">
+                           <id root="6efefa2d-27d8-fe4e-3705-33e40413ad68"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml" ID="inv-c62c1dd8-e631-406f-84c0-3adeead008b0">Pregnancy Category C</title>
+                           <effectiveTime value="20090909"/>
+                           <component>
+                              <section>
+                                 <id root="b45e787d-8433-fdfc-6c7e-aa3ddedc144e"/>
+                                 <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                                 <title mediaType="text/x-hl7-title+xml" ID="inv-17d452d7-b2e0-4284-b704-9d6b1c80bcfb">Teratogenic Effects</title>
+                                 <text ID="inv-e6294c41-76c2-4691-90aa-16a4fd59e033">
+                                    <paragraph ID="inv-f36fad3c-5541-4c37-b4f0-3b6bc1f9572f">Studies in pregnant rabbits administered doses of 0.46, 1.2, 2.3, and 4.6 mg/kg/day (from 0.8 to 8 times<sup>**</sup> the maximum recommended human dose on a mg/m<sup>2</sup> basis) showed digital anomalies consisting of reduction in size and degree of ossification of the terminal phalanges in the fetuses. The frequency and severity of the changes appeared dose related and were noted even at the lowest dose. These changes have been shown to occur with other members of the dihydropyridine class and are possibly a result of compromised uterine blood flow. Similar fetal anomalies were not observed in rats given felodipine.</paragraph>
+                                    <paragraph ID="inv-1e579057-5124-482e-8770-88eda4f0dbcb">In a teratology study in cynomolgus monkeys, no reduction in the size of the terminal phalanges was observed, but an abnormal position of the distal phalanges was noted in about 40% of the fetuses.</paragraph>
+                                    <paragraph ID="inv-2d507847-f2c4-4f1b-8694-d717867f4200"/>
+                                 </text>
+                                 <effectiveTime value="20090909"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="a7e15058-351b-0b47-13bc-fbe90da219f1"/>
+                                 <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                                 <title mediaType="text/x-hl7-title+xml" ID="inv-811e58c8-180a-4e4e-a7f7-440c96ee40e1">Nonteratogenic Effects</title>
+                                 <text ID="inv-3a51872f-6518-46ce-bd50-52f86cf8ffd2">
+                                    <paragraph ID="inv-dc4e6962-aff7-4658-bdc1-bf50ed2c5a66">A prolongation of parturition with difficult labor and an increased frequency of fetal and early postnatal deaths were observed in rats administered doses of 9.6 mg/kg/day (8 times<sup>**</sup> the maximum human dose on a mg/m<sup>2</sup> basis) and above.</paragraph>
+                                    <paragraph ID="inv-08adf848-1b42-438c-87cf-7b06cfc281cc">Significant enlargement of the mammary glands, in excess of the normal enlargement for pregnant rabbits, was found with doses greater than or equal to 1.2 mg/kg/day (2.1 times the maximum human dose on a mg/m<sup>2</sup> basis). This effect occurred only in pregnant rabbits and regressed during lactation. Similar changes in the mammary glands were not observed in rats or monkeys.</paragraph>
+                                    <paragraph ID="inv-605ff4c0-28c0-49d2-a3d6-879234c951f0">There are no adequate and well-controlled studies in pregnant women. If felodipine is used during pregnancy, or if the patient becomes pregnant while taking this drug, she should be apprised of the potential hazard to the fetus, possible digital anomalies of the infant, and the potential effects of felodipine on labor and delivery and on the mammary glands of pregnant females.</paragraph>
+                                    <footnote ID="inv-1a5c8950-7823-490b-9fbb-e0d5030885ef">** Based on patient weight at 50 kg</footnote>
+                                 </text>
+                                 <effectiveTime value="20090909"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-690de7f7-f514-402a-a2ad-8caf9ddf9589">
+                     <id root="58d74800-1dae-1a5b-b708-2e1e40173b51"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-472ce4c6-6b1e-49c9-be0e-653d19e55122">Nursing Mothers</title>
+                     <text ID="inv-60e37510-dfba-4100-b09e-5bbb6f918e95">
+                        <paragraph ID="inv-3c98b3e9-05f8-469d-8d73-345f325ec8e8">It is not known whether this drug is secreted in human milk and because of the potential for serious adverse reactions from felodipine in the infant, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-2a5be002-71ab-45c3-84c1-50dbfa115590">
+                     <id root="349b189e-efdb-7da1-d4a7-3502b6f67df5"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-00bacf95-b37e-4cfe-92ab-89437b9d8078">Pediatric Use</title>
+                     <text ID="inv-b566bec3-2cbf-4330-876e-4efc97adf348">
+                        <paragraph ID="inv-1fed60bf-8897-4b26-8aac-84f389a6efd5">Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-61ca26fe-81fa-4e22-9db4-077d73d18baf">
+                     <id root="1e6f13a3-9f06-36d9-832b-2b54e74228a4"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-fd9d8104-87bb-4710-a5fe-76bf0264caad">Geriatric Use</title>
+                     <text ID="inv-d287e252-6abf-4734-a386-32473a989c23">
+                        <paragraph ID="inv-754100ee-875b-4ba7-b44e-56739561c164">Clinical studies of felodipine did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. Pharmacokinetics, however, indicate that the availability of felodipine is increased in older patients (see <content styleCode="bold">
+                              <linkHtml href="#geriatric" ID="inv-f5cd8a27-2e67-4962-82bb-062ed577b057">CLINICAL PHARMACOLOGY, Geriatric Use</linkHtml>
+                           </content>). In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ar">
+               <id root="a2dc03f9-9a2e-10ee-f674-19447e4ac099"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml" ID="inv-1629a773-2dff-483d-8041-348ee9f854f7">ADVERSE REACTIONS</title>
+               <text ID="inv-b378c0e5-52ea-4573-a002-190b375088de">
+                  <paragraph ID="inv-359d4884-a2e3-4e9f-a217-8c9f5f2546b5">In controlled studies in the United States and overseas, approximately 3000 patients were treated with felodipine as either the extended-release or the immediate-release formulation.</paragraph>
+                  <paragraph ID="inv-0911f3a5-437f-4eb6-857c-a74578553348">The most common clinical adverse events reported with felodipine extended-release tablets administered as monotherapy at the recommended dosage range of 2.5 mg to 10 mg once a day were peripheral edema and headache. Peripheral edema was generally mild, but it was age and dose related and resulted in discontinuation of therapy in about 3% of the enrolled patients. Discontinuation of therapy due to any clinical adverse event occurred in about 6% of the patients receiving felodipine extended-release tablets, principally for peripheral edema, headache, or flushing.</paragraph>
+                  <paragraph ID="inv-5450da35-ebdd-43d0-ac71-2deca8cac997">Adverse events that occurred with an incidence of 1.5% or greater at any of the recommended doses of 2.5 mg to 10 mg once a day (felodipine extended-release tablets N = 861; Placebo, N = 334), without regard to causality, are compared to placebo and are listed by dose in the table below. These events are reported from controlled clinical trials with patients who were randomized to a fixed dose of felodipine extended-release tablets or titrated from an initial dose of 2.5 mg or 5 mg once a day. A dose of 20 mg once a day has been evaluated in some clinical studies. Although the antihypertensive effect of felodipine extended-release tablets is increased at 20 mg once a day, there is a disproportionate increase in adverse events, especially those associated with vasodilatory effects (see <content styleCode="bold">
+                        <linkHtml href="#dosage" ID="inv-fca7e5c6-75e8-4018-83dc-0ac46de14473">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>).</paragraph>
+                  <table ID="inv-c3f3ef46-e449-47b9-9ac6-319ecb44f79c" frame="border" border="1">
+                     <caption ID="inv-1048abc0-67bd-4923-8eea-b83ff696de8d">Percent of Patients with Adverse Events in Controlled Trials<sup>*</sup> of Felodipine Extended-Release Tablets (N = 861) as Monotherapy without Regard to Causality (Incidence of discontinuations shown in parentheses)</caption>
+                     <col width="110px"/>
+                     <col width="65px" align="center"/>
+                     <col width="68px" align="center"/>
+                     <col width="108px" align="center"/>
+                     <col width="148px" align="center"/>
+                     <thead valign="bottom">
+                        <tr valign="bottom">
+                           <td align="center" valign="bottom" styleCode="Botrule Lrule Rrule Toprule">Body System</td>
+                           <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">Placebo</td>
+                           <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">2.5 mg</td>
+                           <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">5 mg</td>
+                           <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">10 mg</td>
+                        </tr>
+                        <tr valign="bottom">
+                           <td align="center" valign="bottom" styleCode="Botrule Lrule Rrule Toprule">Adverse Events</td>
+                           <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">N = 334</td>
+                           <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">N = 255</td>
+                           <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">N = 581</td>
+                           <td align="center" valign="bottom" styleCode="Botrule Rrule Toprule">N = 408</td>
+                        </tr>
+                     </thead>
+                     <tfoot>
+                        <tr>
+                           <td colspan="5">
+                              <paragraph styleCode="footnote" ID="inv-9b1e5b82-b15b-49ee-96dd-a9ecc2cecd5f">
+                                 <sup>*</sup>Patients in titration studies may have been exposed to more than one dose level of felodipine extended-release tablets.</paragraph>
+                           </td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Body as a Whole</content>
+                              </content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Peripheral Edema</td>
+                           <td align="center" styleCode="Botrule Rrule">3.3 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">2.0 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">8.8 (2.2)</td>
+                           <td align="center" styleCode="Botrule Rrule">17.4 (2.5)  </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Asthenia</td>
+                           <td align="center" styleCode="Botrule Rrule">3.3 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">3.9 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">3.3 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">2.2 (0.0)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Warm Sensation</td>
+                           <td align="center" styleCode="Botrule Rrule">0.0 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.0 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.9 (0.2)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.5 (0.0)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Cardiovascular</content>
+                              </content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Palpitation</td>
+                           <td align="center" styleCode="Botrule Rrule">2.4 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.4 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.4 (0.3)</td>
+                           <td align="center" styleCode="Botrule Rrule">2.5 (0.5)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Digestive</content>
+                              </content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Nausea</td>
+                           <td align="center" styleCode="Botrule Rrule">1.5 (0.9)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.2 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.7 (0.3)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.0 (0.7)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Dyspepsia</td>
+                           <td align="center" styleCode="Botrule Rrule">1.2 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">3.9 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.7 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.5 (0.0)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Constipation</td>
+                           <td align="center" styleCode="Botrule Rrule">0.9 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.2 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.3 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.5 (0.2)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Nervous</content>
+                              </content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Headache</td>
+                           <td align="center" styleCode="Botrule Rrule">10.2 (0.9)  </td>
+                           <td align="center" styleCode="Botrule Rrule">10.6 (0.4)  </td>
+                           <td align="center" styleCode="Botrule Rrule">11.0 (1.7)  </td>
+                           <td align="center" styleCode="Botrule Rrule">14.7 (2.0)  </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Dizziness</td>
+                           <td align="center" styleCode="Botrule Rrule">2.7 (0.3)</td>
+                           <td align="center" styleCode="Botrule Rrule">2.7 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">3.6 (0.5)</td>
+                           <td align="center" styleCode="Botrule Rrule">3.7 (0.5)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Paresthesia</td>
+                           <td align="center" styleCode="Botrule Rrule">1.5 (0.3)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.6 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.2 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.2 (0.2)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Respiratory</content>
+                              </content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Upper Respiratory Infection</td>
+                           <td align="center" styleCode="Botrule Rrule">1.8 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">3.9 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.9 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.7 (0.0)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Cough</td>
+                           <td align="center" styleCode="Botrule Rrule">0.3 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.8 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.2 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.7 (0.0)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Rhinorrhea</td>
+                           <td align="center" styleCode="Botrule Rrule">0.0 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.6 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.2 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.2 (0.0)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Sneezing</td>
+                           <td align="center" styleCode="Botrule Rrule">0.0 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">1.6 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.0 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.0 (0.0)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Skin</content>
+                              </content>
+                           </td>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                           <td align="center" styleCode="Botrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Rash</td>
+                           <td align="center" styleCode="Botrule Rrule">0.9 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">2.0 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.2 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">0.2 (0.0)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Flushing</td>
+                           <td align="center" styleCode="Botrule Rrule">0.9 (0.3)</td>
+                           <td align="center" styleCode="Botrule Rrule">3.9 (0.0)</td>
+                           <td align="center" styleCode="Botrule Rrule">5.3 (0.7)</td>
+                           <td align="center" styleCode="Botrule Rrule">6.9 (1.2)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="inv-a3f75ffc-dfbd-4fe8-90af-bcecc821fcba">Adverse events that occurred in 0.5 up to 1.5% of patients who received felodipine extended-release tablets in all controlled clinical trials at the recommended dosage range of 2.5 mg to 10 mg once a day, and serious adverse events that occurred at a lower rate, or events reported during marketing experience (those lower rate events are in italics) are listed below. These events are listed in order of decreasing severity within each category, and the relationship of these events to administration of felodipine extended-release tablets is uncertain: <content styleCode="bold">
+                        <content styleCode="italics">Body as a Whole: </content>
+                     </content> Chest pain, facial edema, flu-like illness; <content styleCode="bold">
+                        <content styleCode="italics">Cardiovascular: </content>
+                     </content>
+                     <content styleCode="italics">Myocardial infarction, hypotension, syncope, angina pectoris, arrhythmia,</content> tachycardia, premature beats; <content styleCode="bold">
+                        <content styleCode="italics">Digestive: </content>
+                     </content> Abdominal pain, diarrhea, vomiting, dry mouth, flatulence, acid regurgitation; <content styleCode="bold">
+                        <content styleCode="italics">Endocrine: </content>
+                     </content> Gynecomastia; <content styleCode="bold">
+                        <content styleCode="italics">Hematologic: </content>
+                     </content>
+                     <content styleCode="italics">Anemia; </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Metabolic: </content>
+                     </content> ALT (SGPT) increased; <content styleCode="bold">
+                        <content styleCode="italics">Musculoskeletal:</content>
+                     </content> Arthralgia, back pain, leg pain, foot pain, muscle cramps, myalgia, arm pain, knee pain, hip pain; <content styleCode="bold">
+                        <content styleCode="italics">Nervous/Psychiatric: </content>
+                     </content> Insomnia, depression, anxiety disorders, irritability, nervousness, somnolence, decreased libido; <content styleCode="bold">
+                        <content styleCode="italics">Respiratory: </content>
+                     </content> Dyspnea, pharyngitis, bronchitis, influenza, sinusitis, epistaxis, respiratory infection; <content styleCode="bold">
+                        <content styleCode="italics">Skin: </content>
+                     </content> Angioedema, contusion, erythema, urticaria, <content styleCode="italics">leukocytoclastic vasculitis; </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Special Senses: </content>
+                     </content> Visual disturbances; <content styleCode="bold">
+                        <content styleCode="italics">Urogenital: </content>
+                     </content> Impotence, urinary frequency, urinary urgency, dysuria, polyuria.</paragraph>
+                  <paragraph ID="inv-a1b4d6d7-c39f-4ec8-8e3d-f8fcf0cbae9a">
+                     <content styleCode="italics">Gingival Hyperplasia </content>— Gingival hyperplasia, usually mild, occurred in &lt; 0.5% of patients in controlled studies. This condition may be avoided or may regress with improved dental hygiene. (See <content styleCode="bold">
+                        <linkHtml href="#information" ID="inv-13915e42-3e48-4bac-b537-760e30b59f9e">PRECAUTIONS, Information for Patients</linkHtml>.</content>)</paragraph>
+               </text>
+               <effectiveTime value="20090909"/>
+               <component>
+                  <section ID="inv-f537c8f6-88b5-40bc-907c-aaf2d69d6e2b">
+                     <id root="b4a00ea9-9a10-b75c-16ee-70f1eaf5024a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-c487aee3-75a3-4dd4-bbe8-f501de71493e">Clinical Laboratory Test Findings</title>
+                     <text ID="inv-4a8b208d-dfe9-4701-a819-69bf68a0218d">
+                        <paragraph ID="inv-d5bd9c99-6551-4ea6-b9f7-c5e7e04c68e4">
+                           <content styleCode="italics">Serum Electrolytes</content>— No significant effects on serum electrolytes were observed during short- and long-term therapy (see <content styleCode="bold">
+                              <linkHtml href="#renal" ID="inv-81b24fac-9f8a-453a-a09b-666c51169187">CLINICAL PHARMACOLOGY, Renal/Endocrine Effects</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph ID="inv-7b3da1c8-0fa4-40c0-a931-8e820df6d0fc">
+                           <content styleCode="italics">Serum Glucose</content>— No significant effects on fasting serum glucose were observed in patients treated with felodipine extended-release tablets in the U.S. controlled study.</paragraph>
+                        <paragraph ID="inv-b701bb09-62ea-4e0a-a6e5-617b9385bd06">
+                           <content styleCode="italics">Liver Enzymes</content>— 1 of 2 episodes of elevated serum transaminases decreased once drug was discontinued in clinical studies; no follow-up was available for the other patient.</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-8604dcef-9e08-4e00-9679-2f5aaa98b87e">
+               <id root="6906d621-2c5a-e206-cb1c-9ec41dced9b6"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml" ID="inv-156b2cae-22f0-4a1d-b134-656210d182d2">OVERDOSAGE</title>
+               <text ID="inv-480cf9ef-a76d-4477-86bf-4598ed59e1ec">
+                  <paragraph ID="inv-ab14be80-0daa-43c4-90c2-c07e1e6cf26c">Oral doses of 240 mg/kg and 264 mg/kg in male and female mice, respectively, and 2390 mg/kg and 2250 mg/kg in male and female rats, respectively, caused significant lethality.</paragraph>
+                  <paragraph ID="inv-09cea374-dde9-43df-958b-6038a9e9f2cb">In a suicide attempt, one patient took 150 mg felodipine together with 15 tablets each of atenolol and spironolactone and 20 tablets of nitrazepam. The patient's blood pressure and heart rate were normal on admission to hospital; he subsequently recovered without significant sequelae.</paragraph>
+                  <paragraph ID="inv-faa26854-15e3-4c82-bffc-bdf7bad3409d">Overdosage might be expected to cause excessive peripheral vasodilation with marked hypotension and possibly bradycardia.</paragraph>
+                  <paragraph ID="inv-be56c8eb-df4a-446f-82d6-32434b4c3c19">If severe hypotension occurs, symptomatic treatment should be instituted. The patient should be placed supine with the legs elevated. The administration of intravenous fluids may be useful to treat hypotension due to overdosage with calcium antagonists. In case of accompanying bradycardia, atropine (0.5-1 mg) should be administered intravenously. Sympathomimetic drugs may also be given if the physician feels they are warranted.</paragraph>
+                  <paragraph ID="inv-cd1a7718-82e1-43a9-b448-5385354993e4">It has not been established whether felodipine can be removed from the circulation by hemodialysis.</paragraph>
+                  <paragraph ID="inv-5c8db510-cfa3-430e-9685-480c91fd9ec7">To obtain up-to-date information about the treatment of overdose, consult your Regional Poison-Control Center. Telephone numbers of certified poison-control centers are listed in the <content styleCode="italics">Physicians' Desk Reference (PDR)</content>. In managing overdose, consider the possibilities of multiple-drug overdoses, drug-drug interactions, and unusual drug kinetics in your patient.</paragraph>
+               </text>
+               <effectiveTime value="20090909"/>
+            </section>
+         </component>
+         <component>
+            <section ID="dosage">
+               <id root="72d5bce6-83c6-3241-95b2-b1446a25728c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml" ID="inv-80f58228-10f8-4801-b015-7d82680a5314">DOSAGE AND ADMINISTRATION</title>
+               <text ID="inv-a9f03b6e-07a9-4e51-b4ce-49c8c28befdb">
+                  <paragraph ID="inv-a2d9a40b-40c5-465c-8532-f5feac5666b0">The recommended starting dose is 5 mg once a day. Depending on the patient's response, the dosage can be decreased to 2.5 mg or increased to 10 mg once a day. These adjustments should occur generally at intervals of not less than 2 weeks. The recommended dosage range is 2.5 - 10 mg once daily. In clinical trials, doses above 10 mg daily showed an increased blood pressure response but a large increase in the rate of peripheral edema and other vasodilatory adverse events (see <content styleCode="bold">
+                        <linkHtml href="#ar" ID="inv-ccfc58f8-a90b-4290-b191-48f5ec3a6ea8">ADVERSE REACTIONS</linkHtml>
+                     </content>). Modification of the recommended dosage is usually not required in patients with renal impairment.</paragraph>
+                  <paragraph ID="inv-33c91913-0b27-4191-a36f-12ee8778d05c">Felodipine extended-release tablets should regularly be taken either without food or with a light meal (see <content styleCode="bold">
+                        <linkHtml href="#pharmacokinetics" ID="inv-d3a237b0-7627-415c-b11f-3d8719983eb0">CLINICAL PHARMACOLOGY, Pharmacokinetics and Metabolism</linkHtml>
+                     </content>). Felodipine extended-release tablets should be swallowed whole and not crushed or chewed.</paragraph>
+               </text>
+               <effectiveTime value="20090909"/>
+               <component>
+                  <section ID="inv-6b2ab3fc-87c7-47f3-9252-2615d772f4b8">
+                     <id root="b8b67399-d01e-7951-56c8-78bde3c87338"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-b2829c24-dcb1-464d-8e04-dc82d58b2fd6">
+                        <content styleCode="italics">Geriatric Use</content>
+                     </title>
+                     <text ID="inv-4f1610e8-4f3a-4067-9210-da726173e301">
+                        <paragraph ID="inv-c00a8ae5-0905-4324-9f8c-b1f41bca544a">Patients over 65 years of age are likely to develop higher plasma concentrations of felodipine (see <content styleCode="bold">
+                              <linkHtml href="#cp" ID="inv-a6e33891-3dd8-49b4-9762-41443fc25ce5">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content>). In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range (2.5 mg daily). Elderly patients should have their blood pressure closely monitored during any dosage adjustment.</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-639829dd-505a-468e-85be-c71e6124174a">
+                     <id root="d08edfee-bacf-769f-49fc-54c7b7fd941e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml" ID="inv-830fac15-9253-42f2-b0d9-1d7b9d736dbd">
+                        <content styleCode="italics">Patients with Impaired Liver Function</content>
+                     </title>
+                     <text ID="inv-b15c425e-f80f-469c-8095-887e7f19065e">
+                        <paragraph ID="inv-b8505c05-8b18-45c1-88b1-4d5cb81c48a0">Patients with impaired liver function may have elevated plasma concentrations of felodipine and may respond to lower doses of felodipine extended-release tablets; therefore, patients should have their blood pressure monitored closely during dosage adjustment of felodipine extended-release tablets (see <content styleCode="bold">
+                              <linkHtml href="#cp" ID="inv-931ba4b4-e94d-4a56-b933-e9bbdf3dd761">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-d7eec610-5bdc-48e2-89d6-33bcc14247cb">
+               <id root="d37a267d-47c3-dc66-7731-fa43b5d62d6f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml" ID="inv-4aef0bb4-aa36-4dbf-9cbd-ad3dabb5da6a">HOW SUPPLIED</title>
+               <text ID="inv-746471b8-f3db-4ef7-90f0-5f9b1b924c2f">
+                  <paragraph ID="inv-d998937d-dd2d-4823-ad32-8602a00b74b5">No.3584 — Felodipine extended-release tablets, 2.5 mg, are sage green, round convex tablets, with code 450 on one side and PLENDIL on the other. They are supplied as follows:</paragraph>
+                  <paragraph ID="inv-b516815d-c07a-4db3-90db-bba79303414f">NDC 63304-435-01 bottles of 100</paragraph>
+                  <paragraph ID="inv-c53361c6-f057-430d-be26-06840560a379">No.3585 — Felodipine extended-release tablets, 5 mg, are light red-brown, round convex tablets, with code 451 on one side and PLENDIL on the other. They are supplied as follows:</paragraph>
+                  <paragraph ID="inv-e39a3570-02eb-46d1-922b-a4fdbb17fe8d">NDC 63304-436-01 bottles of 100</paragraph>
+                  <paragraph ID="inv-a7d07d38-350e-492c-a9a7-0bc4f67031c3">No.3586 — Felodipine extended-release tablets, 10 mg, are red-brown, round convex tablets, with code 452 on one side and PLENDIL on the other. They are supplied as follows:</paragraph>
+                  <paragraph ID="inv-6d4bf92f-6d7b-474b-b6f7-535ab79aa059">NDC 63304-437-01 bottles of 100</paragraph>
+               </text>
+               <effectiveTime value="20090909"/>
+               <component>
+                  <section ID="inv-60210955-f8d0-45fd-967d-42aec79b8aac">
+                     <id root="f3569f66-d149-4520-b04f-0ac9215f8d6f"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION" code="44425-7"/>
+                     <title ID="inv-658e78bf-84be-4b88-ac27-8758d3588f56">Storage</title>
+                     <text ID="inv-6cb4e23d-31a7-40d7-a8d7-e037129aeba8">
+                        <paragraph ID="inv-ab611407-d5ff-404e-a107-9bf2533b77d7">Store below 30°C (86°F). Keep container tightly closed. Protect from light.</paragraph>
+                        <paragraph ID="inv-4d75ad43-c8d7-405b-b8ca-10fa104246a8">PLENDIL is a trademark of the Astrazeneca group of companies</paragraph>
+                        <paragraph ID="inv-544b1a22-3942-4be5-9682-bd6f763b79e6">© Astrazeneca 2008</paragraph>
+                        <paragraph ID="inv-dae4e786-f511-4dea-8c85-c78a173ea083">Manufactured for:</paragraph>
+                        <paragraph ID="inv-ab0d9c0a-9d58-43d5-8262-a8da62b043f6">Ranbaxy Pharmaceuticals Inc.</paragraph>
+                        <paragraph ID="inv-afe3cde2-56ab-4771-bfb9-4b6c89947bca">Jacksonville, FL 32257, USA</paragraph>
+                        <paragraph ID="inv-b595ea44-dc3f-4b10-b37d-7787fad24348">By: Merck &amp; Co., Inc	</paragraph>
+                        <paragraph ID="inv-b060f540-6886-45f8-a293-53edc1a04428">Whitehouse Station, NJ, 08889, USA</paragraph>
+                        <paragraph ID="inv-9a899785-061e-430f-aa95-cafdf692f739">9874900</paragraph>
+                        <paragraph ID="inv-cdea957c-8155-4f18-9c3b-1269dee5b965">31427-00 Rev. 07/08</paragraph>
+                     </text>
+                     <effectiveTime value="20090909"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-849a7148-b834-4a4b-951c-27f2bb19fbc1">
+               <id root="b70ad7e9-361a-4971-ba5a-56207cfcbd40"/>
+               <code codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" code="51945-4"/>
+               <title ID="inv-6e1f71f2-d223-4664-9c2c-78a0e1a0d8be">PACKAGE LABEL PRINCIPAL DISPLAY PANEL</title>
+               <text ID="inv-5e83a8c9-525a-4417-9c0b-81e28023cc0f">
+                  <renderMultiMedia ID="ID0ED6BG" referencedObject="mm-26e0bf0a-5010-4c27-b219-16ccbd94fe51">
+                     <caption ID="inv-02c94698-1f74-4263-8a91-d670cd4633cf">2.5 mg_- 100’S BOTTLE LABEL  </caption>
+                  </renderMultiMedia>
+                  <paragraph ID="inv-8dcb94b6-0e47-4619-b8fd-28ca0a5980db"/>
+                  <renderMultiMedia ID="ID0EN6BG" referencedObject="mm-cc4df4b2-467c-4c5b-bd85-7f6f954d9d4f">
+                     <caption ID="inv-cc58340b-b0dd-4fb7-982f-973e27fa930a">5 mg - 100’S BOTTLE LABEL</caption>
+                  </renderMultiMedia>
+                  <renderMultiMedia ID="ID0EV6BG" referencedObject="mm-3eec0f3d-4d0f-4c7b-ab98-251ed7a827af">
+                     <caption ID="inv-83ec7119-4c3a-4786-9538-6bbec2e0c331">10 mg - 100’S BOTTLE LABEL</caption>
+                  </renderMultiMedia>
+               </text>
+               <effectiveTime value="20090909"/>
+               <component>
+                  <observationMedia ID="mm-26e0bf0a-5010-4c27-b219-16ccbd94fe51">
+                     <text>100''s_bottle_label</text>
+                     <value mediaType="image/jpeg">
+                        <reference value="felo_tabs_2.5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm-cc4df4b2-467c-4c5b-bd85-7f6f954d9d4f">
+                     <text>100's_bottle_label</text>
+                     <value mediaType="image/jpeg">
+                        <reference value="felo_tabs_5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm-3eec0f3d-4d0f-4c7b-ab98-251ed7a827af">
+                     <text>100's_bottlle_label</text>
+                     <value mediaType="image/jpeg">
+                        <reference value="felo_tabs_10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

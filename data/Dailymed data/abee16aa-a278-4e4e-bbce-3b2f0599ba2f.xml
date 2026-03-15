@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="abee16aa-a278-4e4e-bbce-3b2f0599ba2f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20140606"/>
+   <setId root="bf31d3db-ed75-4513-a3a9-a163b5a5dceb"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+                        <name>Northwind Pharmaceuticals</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-500" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d49f2f71-9c58-453a-8999-af08c04d9832"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140611"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-500" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Pantoprazole Sodium Delayed Release</name>
+                        <formCode code="C42905" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, DELAYED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Pantoprazole Sodium Delayed Release</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0378-6689" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="40" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6871619Q5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PANTOPRAZOLE SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="D8TST4O562" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PANTOPRAZOLE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-500-52" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140321"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090970" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="11" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">M;P9</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lfe1344ac-50b1-4ac0-8378-9980e0bb6aea">
+               <id root="d0e6a12a-217c-46c6-817c-2574f36102af"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>NDC: 51655-500-52</paragraph>
+                  <paragraph>MFG: 0378-6689-10</paragraph>
+                  <paragraph>Pantoprazole Sodium Delayed Release 40 MG</paragraph>
+                  <paragraph>30 Tablets</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Lot#:</paragraph>
+                  <paragraph>Exp. Date:</paragraph>
+                  <paragraph>Each film-coated tabler contains: pantoprazole sodium, USP equivalent to 40 mg of pantoprazole</paragraph>
+                  <paragraph>Dosage: See package insert</paragraph>
+                  <paragraph>Store at 66-77 degrees F.</paragraph>
+                  <paragraph>Store in a tight, light-resistant container (See USP). Keep out of the reach of children.</paragraph>
+                  <paragraph>Mfg for: Mylan Pharmaceuticals Inc. Morgantown, WV 26505 USA Made in India Lot#:</paragraph>
+                  <paragraph>Repackaged by: Northwind Pharmaceuticals, Indianapolis, IN 46256</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lffca1840-a81d-4f2d-8fd0-bf6d008a8035"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140606"/>
+               <component>
+                  <observationMedia ID="Lffca1840-a81d-4f2d-8fd0-bf6d008a8035">
+                     <text>Pantoprazole 51655-500</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Pantoprazole 51655-500.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc75e5174-025a-4570-82dc-1faf439f439c">
+               <id root="56edff84-0488-40cf-aaaa-b1a6ebcea084"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications and Usage</title>
+               <text>
+                  <paragraph>Pantoprazole is a proton pump inhibitor indicated for the following:</paragraph>
+                  <paragraph>•Short-term Treatment of Erosive Esophagitis Associated with Gastroesophageal Reflux Disease (GERD). </paragraph>
+                  <paragraph>•Maintenance of Healing of Erosive Esophagitis. </paragraph>
+                  <paragraph>•Pathological Hypersecretory Conditions Including Zollinger-Ellison Syndrome.</paragraph>
+               </text>
+               <effectiveTime value="20140611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5b589e4e-3ba2-451e-a962-1cb0da7dbef4">
+               <id root="eb7ed426-07e8-44f3-94fe-4a159046ff7d"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>Warnings and Precautions</title>
+               <text>
+                  <paragraph>•Symptomatic response does not preclude presence of gastric malignancy. </paragraph>
+                  <paragraph>•Atrophic gastritis has been noted with long-term therapy. </paragraph>
+                  <paragraph>•PPI therapy may be associated with increased risk of Clostridium difficile associated diarrhea. </paragraph>
+                  <paragraph>•Bone Fracture: Long-term and multiple daily dose PPI therapy may be associated with an increased risk for osteoporosis-related fractures of the hip, wrist or spine. </paragraph>
+                  <paragraph>•Hypomagnesemia has been reported rarely with prolonged treatment with PPIs</paragraph>
+               </text>
+               <effectiveTime value="20140611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L16c76737-853b-48b4-ac3e-0be5cbb6918d">
+               <id root="c59b42f5-b414-4a58-ac35-cb85c7948906"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions</title>
+               <text>
+                  <paragraph>The most frequently occurring adverse reactions are as follows:</paragraph>
+                  <paragraph>•For adult use (&gt; 2%) are headache, diarrhea, nausea, abdominal pain, vomiting, flatulence, dizziness, and arthralgia. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Mylan Pharmaceuticals Inc. at 1-877-446-3679 (1-877-4-INFO-RX) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L366a9cab-95c3-4f06-b732-72295aff74f3">
+               <id root="05524304-e86f-4c8b-9a46-70b25cb1301a"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>Drug Interactions</title>
+               <text>
+                  <paragraph>•Do not coadminister with atazanavir or nelfinavir. </paragraph>
+                  <paragraph>•Concomitant warfarin use may require monitoring. </paragraph>
+                  <paragraph>•May interfere with the absorption of drugs where gastric pH is important for bioavailability. </paragraph>
+                  <paragraph>•May produce false-positive urine screen for THC. </paragraph>
+                  <paragraph>•Methotrexate: Pantoprazole may increase serum level of methotrexate </paragraph>
+                  <paragraph>Information describing use in pediatric patients with erosive esophagitis associated with GERD is approved for Wyeth Pharmaceuticals Inc.’s pantoprazole sodium delayed-release tablets. However, due to Wyeth Pharmaceuticals Inc.’s marketing exclusivity rights, this drug product is not labeled with that pediatric information.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20140611"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

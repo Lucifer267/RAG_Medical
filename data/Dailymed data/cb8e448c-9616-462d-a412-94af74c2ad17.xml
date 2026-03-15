@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="cb8e448c-9616-462d-a412-94af74c2ad17"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20140604"/>
+   <setId root="1ea20a7e-ebf1-4ba3-a7dd-61e0483e3b23"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+                        <name>Northwind Pharmaceuticals</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-112" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4305d5f0-4ac4-4a55-bc9e-477332e0a083"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140611"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-112" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Promethazine Hydrochloride</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Promethazine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="68382-040" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="12.5" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="R61ZEH7I1I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROMETHAZINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="FF28EJQ494" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROMETHAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-112-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140303"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040596" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="6" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">ZC;01</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb6e5ff2d-1096-473e-90af-e64529979e1c">
+               <id root="4e92851f-3ea4-4183-ab0b-9a52a9436fa0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>NDC: 51655-112-10</paragraph>
+                  <paragraph>MFG: 68382-040-01</paragraph>
+                  <paragraph>Promethazine Hydrochloride 12.5 MG</paragraph>
+                  <paragraph>10 Tablets</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>Dosage: See package insert</paragraph>
+                  <paragraph>Store at 68 to 77 degrees F.</paragraph>
+                  <paragraph>Keep out of the reach of children.</paragraph>
+                  <paragraph>Each tablet contains: Promethazine Hydrochloride, USP...12.5mg</paragraph>
+                  <paragraph>Mfg: by Cadila Healthcare Ltd. India</paragraph>
+                  <paragraph>Dist. By: Zydus Pharmaceuticals USA Inc. Pennington, NJ 08534</paragraph>
+                  <paragraph>Repackaged by Northwind Pharmaceuticals, Indianapolis, IN 46256</paragraph>
+                  <paragraph>Lot#</paragraph>
+                  <paragraph>Exp. Date:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L304fe5fa-4ad8-45fe-ad1c-64d52f4970db"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140604"/>
+               <component>
+                  <observationMedia ID="L304fe5fa-4ad8-45fe-ad1c-64d52f4970db">
+                     <text>Promethazine HCL 51655-112</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Promethazine HCL 51655-112.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L0182a1f9-285d-45f1-ab70-1cc9b961ae37">
+               <id root="b491cbff-89c9-40d4-a600-3f19c168c552"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>Clinical Pharmacology</title>
+               <text>
+                  <paragraph>Promethazine is a phenothiazine derivative which differs structurally from the antipsychotic phenothiazines by the presence of a branched side chain and no ring substitution. It is thought that this configuration is responsible for its relative lack (1/10 that of chlorpromazine) of dopamine antagonist properties.Promethazine is an H1 receptor blocking agent. In addition to its antihistaminic action, it provides clinically useful sedative and antiemetic effects.</paragraph>
+                  <paragraph>Promethazine is well absorbed from the gastrointestinal tract. Clinical effects are apparent within 20 minutes after oral administration and generally last four to six hours, although they may persist as long as 12 hours. Promethazine is metabolized by the liver to a variety of compounds; the sulfoxides of promethazine and N-demethylpromethazine are the predominant metabolites appearing in the urine.</paragraph>
+               </text>
+               <effectiveTime value="20140611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lba4416bd-d9d5-422b-b878-16118c3da235">
+               <id root="e239040a-8bb1-47da-87f8-8cebe44000f3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications and usage</title>
+               <text>
+                  <paragraph>Promethazine Hydrochloride, is useful orally for Perennial and seasonal allergic rhinitis.</paragraph>
+                  <paragraph>Vasomotor rhinitis.</paragraph>
+                  <paragraph>Allergic conjunctivitis due to inhalant allergens and foods.</paragraph>
+                  <paragraph>Mild, uncomplicated allergic skin manifestations of urticaria and angioedema.</paragraph>
+                  <paragraph>Amelioration of allergic reactions to blood or plasma.</paragraph>
+                  <paragraph>Dermographism.</paragraph>
+                  <paragraph>Anaphylactic reactions, as adjunctive therapy to epinephrine and other standard measures, after the acute manifestations have been controlled.</paragraph>
+                  <paragraph>Preoperative, postoperative, or obstetric sedation.</paragraph>
+                  <paragraph>Prevention and control of nausea and vomiting associated with certain types of anesthesia and surgery.</paragraph>
+                  <paragraph>Therapy adjunctive to meperidine or other analgesics for control of post-operative pain.</paragraph>
+                  <paragraph>Sedation in both children and adults, as well as relief of apprehension and production of light sleep from which the patient can be easily aroused.</paragraph>
+                  <paragraph>Active and prophylactic treatment of motion sickness.</paragraph>
+                  <paragraph>Antiemetic therapy in postoperative patients.</paragraph>
+               </text>
+               <effectiveTime value="20140611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld2a719c5-4f06-4a7e-9291-2f0b36445db8">
+               <id root="3e5a8ca0-406a-419b-8b6c-43c3a929d6b9"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>Contraindications</title>
+               <text>
+                  <paragraph>Promethazine hydrochloride tablets, USP are contraindicated for use in pediatric patients less than two years of age.Promethazine hydrochloride tablets, USP are contraindicated in comatose states, and in individuals known to be hypersensitive or to have had an idiosyncratic reaction to promethazine or to other phenothiazines.</paragraph>
+                  <paragraph>Antihistamines are contraindicated for use in the treatment of lower respiratory tract symptoms including asthma</paragraph>
+               </text>
+               <effectiveTime value="20140611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le12871a3-49d1-41a6-8703-c2d655e48899">
+               <id root="7b53cc38-b4da-4c32-9888-b19d9108db4a"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>Drug Interactions</title>
+               <text>
+                  <paragraph>CNS Depressants - Promethazine hydrochloride tablets, USP may increase, prolong, or intensify the sedative action of other central-nervous-system depressants, such as alcohol, sedatives/hypnotics (including barbiturates), narcotics, narcotic analgesics, general anesthetics, tricyclic antidepressants, and tranquilizers; therefore, such agents should be avoided or administered in reduced dosage to patients receiving promethazine hydrochloride. When given concomitantly with promethazine hydrochloride tablets, USP the dose of barbiturates should be reduced by at least one-half, and the dose of narcotics should be reduced by one-quarter to one-half. Dosage must be individualized. Excessive amounts of promethazine hydrochloride relative to a narcotic may lead to restlessness and motor hyperactivity in the patient with pain; these symptoms usually disappear with adequate control of the pain.Epinephrine - Because of the potential for promethazine hydrochloride to reverse epinephrine's vasopressor effect, epinephrine should NOT be used to treat hypotension associated with promethazine hydrochloride tablets, USP overdose.</paragraph>
+                  <paragraph>Anticholinergics - Concomitant use of other agents with anticholinergic properties should be undertaken with caution.</paragraph>
+                  <paragraph>Monoamine Oxidase Inhibitors (MAOI) - Drug interactions, including an increased incidence of extrapyramidal effects, have been reported when some MAOI and phenothiazines are used concomitantly. This possibility should be considered with promethazine hydrochloride tablets, USP.</paragraph>
+               </text>
+               <effectiveTime value="20140611"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

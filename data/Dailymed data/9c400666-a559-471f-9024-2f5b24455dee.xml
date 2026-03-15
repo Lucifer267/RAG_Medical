@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9c400666-a559-471f-9024-2f5b24455dee"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20100719"/>
+   <setId root="06f5461f-0a34-42e1-b84a-567ffafd8e99"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="945429777" root="1.3.6.1.4.1.519.1"/>
+            <name>Contract Pharmacy Services-PA</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="640cef96-ec01-426a-98a1-5ee69dac3754"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20100401"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="67046-224"/>
+                        <name>Gabapentin</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Gabapentin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="53746-102" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="300" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6CW7F3G59X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GABAPENTIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6CW7F3G59X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GABAPENTIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1">
+                                 <translation code="C48480" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                              </numerator>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67046-224-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA078428" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100412"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow">
+                              <originalText>Buff-Buff</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="19" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE">
+                              <originalText>Hard Gelatin</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">IP102</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="67046-223"/>
+                        <name>Gabapentin</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Gabapentin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="53746-103" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="400" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6CW7F3G59X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GABAPENTIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6CW7F3G59X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GABAPENTIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1">
+                                 <translation code="C48480" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                              </numerator>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67046-223-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA078428" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100719"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BROWN">
+                              <originalText>Light caramel-Light caramel</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="21" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE">
+                              <originalText>Hard Gelatin</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">IP103</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_47de078b-1464-457e-9cb4-504a30a79692">
+               <id root="4b47d277-fac3-4bab-b104-5aa6bde2fb5d"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_ad2454a9-8943-460b-a47b-555595630ca6">
+               <id root="dfe85e33-9078-4fc3-8755-21a3eb7ab505"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Gabapentin Capsules are supplied as imprinted hard shell capsules containing 100 mg, 300 mg, and 400 mg of gabapentin.</paragraph>
+                  <paragraph>The inactive ingredients for the capsules are magnesium stearate, pregelatinized starch, starch and talc.  The 100 mg capsule shell contains gelatin, sodium lauryl sulfate and titanium dioxide. The 300 mg capsule shell contains gelatin, sodium lauryl sulfate, titanium dioxide, and iron oxide yellow. The 400 mg capsule shell contains gelatin, sodium lauryl sulfate, titanium dioxide, FD&amp;C Yellow No.6 and FD&amp;C Blue No.1.</paragraph>
+                  <paragraph>Gabapentin is described as 1-(aminomethyl)cyclohexaneacetic acid with a molecular formula of C<sub>9</sub>H<sub>17</sub>NO<sub>2</sub> and a molecular weight of 171.24. The structural formula of gabapentin is:</paragraph>
+                  <renderMultiMedia referencedObject="id_14b4657d-ee96-454b-987f-a1c769aeeeff"/>
+                  <paragraph>Gabapentin is a white to off-white crystalline solid with a pK<sub>a1</sub> of 3.7 and a pK<sub>a2</sub> of 10.7. It is freely soluble in water and both basic and acidic aqueous solutions. The log of the partition coefficient (n-octanol/0.05M phosphate buffer) at pH 7.4 is –1.25.</paragraph>
+               </text>
+               <effectiveTime value="20100719"/>
+               <component>
+                  <observationMedia ID="id_14b4657d-ee96-454b-987f-a1c769aeeeff">
+                     <text>image of chemical structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9c400666-a559-471f-9024-2f5b24455dee-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_90be3a06-947e-471a-86ad-687bd74cf944">
+               <id root="d16cb56f-1828-43b4-93ca-fafd5454a7f4"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Mechanism of Action</content>
+                  </paragraph>
+                  <paragraph>The mechanism by which gabapentin exerts its analgesic action is unknown, but in animal models of analgesia, gabapentin prevents allodynia (pain-related behavior in response to a normally innocuous stimulus) and hyperalgesia (exaggerated response to painful stimuli). In particular, gabapentin prevents pain-related responses in several models of neuropathic pain in rats or mice (e.g. spinal nerve ligation models, streptozocin-induced diabetes model, spinal cord injury model, acute herpes zoster infection model). Gabapentin also decreases pain-related responses after peripheral inflammation (carrageenan footpad test, late phase of formalin test). Gabapentin did not alter immediate pain-related behaviors (rat tail flick test, formalin footpad acute phase, acetic acid abdominal constriction test, footpad heat irradiation test). The relevance of these models to human pain is not known.</paragraph>
+                  <paragraph>The mechanism by which gabapentin exerts its anticonvulsant action is unknown, but in animal test systems designed to detect anticonvulsant activity, gabapentin prevents seizures as do other marketed anticonvulsants. Gabapentin exhibits antiseizure activity in mice and rats in both the maximal electroshock and pentylenetetrazole seizure models and other preclinical models (e.g., strains with genetic epilepsy, etc.). The relevance of these models to human epilepsy is not known.</paragraph>
+                  <paragraph>Gabapentin is structurally related to the neurotransmitter GABA (gamma-aminobutyric acid) but it does not modify GABA<sub>A</sub> or GABA<sub>B</sub> radioligand binding, it is not converted metabolically into GABA or a GABA agonist, and it is not an inhibitor of GABA uptake or degradation. Gabapentin was tested in radioligand binding assays at concentrations up to 100 μM and did not exhibit affinity for a number of other common receptor sites, including benzodiazepine, glutamate, N-methyl-D-aspartate (NMDA), quisqualate, kainate, strychnine-insensitive or strychnine-sensitive glycine, alpha 1, alpha 2, or beta adrenergic, adenosine A1 or A2, cholinergic muscarinic or nicotinic, dopamine D1 or D2, histamine H1, serotonin S1 or S2, opiate mu, delta or kappa, cannabinoid 1, voltage-sensitive calcium channel sites labeled with nitrendipine or diltiazem, or at voltage-sensitive sodium channel sites labeled with batrachotoxinin A 20-alpha-benzoate. Furthermore, gabapentin did not alter the cellular uptake of dopamine, noradrenaline, or serotonin.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">In vitro </content>studies with radiolabeled gabapentin have revealed a gabapentin binding site in areas of rat brain including neocortex and hippocampus. A high-affinity binding protein in animal brain tissue has been identified as an auxiliary subunit of voltage-activated calcium channels. However, functional correlates of gabapentin binding, if any, remain to be elucidated.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics and Drug Metabolism</content>
+                  </paragraph>
+                  <paragraph>All pharmacological actions following gabapentin administration are due to the activity of the parent compound; gabapentin is not appreciably metabolized in humans.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Oral Bioavailability: </content>Gabapentin bioavailability is not dose proportional; i.e., as dose is increased, bioavailability decreases. Bioavailability of gabapentin is approximately 60%, 47%, 34%, 33%, and 27% following 900, 1200, 2400, 3600, and 4800 mg/day given in 3 divided doses, respectively. Food has only a slight effect on the rate and extent of absorption of gabapentin (14% increase in AUC and C<sub>max</sub>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distribution: </content>Less than 3% of gabapentin circulates bound to plasma protein. The apparent volume of distribution of gabapentin after 150 mg intravenous administration is 58±6 L (Mean ± SD). In patients with epilepsy, steady-state predose (C<sub>min</sub>) concentrations of gabapentin in cerebrospinal fluid were approximately 20% of the corresponding plasma concentrations.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Elimination: </content>Gabapentin is eliminated from the systemic circulation by renal excretion as unchanged drug. Gabapentin is not appreciably metabolized in humans.</paragraph>
+                  <paragraph>Gabapentin elimination half-life is 5 to 7 hours and is unaltered by dose or following multiple dosing. Gabapentin elimination rate constant, plasma clearance, and renal clearance are directly proportional to creatinine clearance (see Special Populations:   <content styleCode="italics"> Patients With Renal Insufficiency </content>, below). In elderly patients, and in patients with impaired renal function, gabapentin plasma clearance is reduced. Gabapentin can be removed from plasma by hemodialysis.</paragraph>
+                  <paragraph>Dosage adjustment in patients with compromised renal function or undergoing hemodialysis is recommended (see DOSAGE AND ADMINISTRATION, Table 6).</paragraph>
+                  <paragraph>
+                     <linkHtml href=""/>
+                     <content styleCode="bold">Special Populations: </content>
+                     <content styleCode="italics">Adult Patients With Renal Insufficiency:</content> Subjects (N=60) with renal insufficiency (mean creatinine clearance ranging from 13-114 mL/min) were administered single 400 mg oral doses of gabapentin. The mean gabapentin half-life ranged from about 6.5 hours (patients with creatinine clearance greater than 60 mL/min) to 52 hours (creatinine clearance less than 30 mL/min) and gabapentin renal clearance from about 90 mL/min (greater than 60 mL/min group) to about 10 mL/min (less than 30 mL/min). Mean plasma clearance (CL/F) decreased from approximately 190 mL/min to 20 mL/min.</paragraph>
+                  <paragraph>Dosage adjustment in adult patients with compromised renal function is necessary (see DOSAGE AND ADMINISTRATION). Pediatric patients with renal insufficiency have not been studied.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hemodialysis: </content>In a study in anuric adult subjects (N=11), the apparent elimination half-life of gabapentin on nondialysis days was about 132 hours; during dialysis the apparent half-life of gabapentin was reduced to 3.8 hours. Hemodialysis thus has a significant effect on gabapentin elimination in anuric subjects.</paragraph>
+                  <paragraph>Dosage adjustment in patients undergoing hemodialysis is necessary (see DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hepatic Disease: </content>Because gabapentin is not metabolized, no study was performed in patients with hepatic impairment.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Age: </content>The effect of age was studied in subjects 20-80 years of age. Apparent oral clearance (CL/F) of gabapentin decreased as age increased, from about 225 mL/min in those under 30 years of age to about 125 mL/min in those over 70 years of age. Renal clearance (CLr) and CLr adjusted for body surface area also declined with age; however, the decline in the renal clearance of gabapentin with age can largely be explained by the decline in renal function. Reduction of gabapentin dose may be required in patients who have age related compromised renal function. (See PRECAUTIONS, Geriatric Use, and DOSAGE AND ADMINISTRATION.)</paragraph>
+                  <paragraph>
+                     <linkHtml href=""/>
+                     <content styleCode="italics">Pediatric: </content>Gabapentin pharmacokinetics were determined in 48 pediatric subjects between the ages of 1 month and 12 years following a dose of approximately 10 mg/kg. Peak plasma concentrations were similar across the entire age group and occurred 2 to 3 hours postdose. In general, pediatric subjects between 1 month and less than 5 years of age achieved approximately 30% lower exposure (AUC) than that observed in those 5 years of age and older. Accordingly, oral clearance normalized per body weight was higher in the younger children. Apparent oral clearance of gabapentin was directly proportional to creatinine clearance. Gabapentin elimination half-life averaged 4.7 hours and was similar across the age groups studied.</paragraph>
+                  <paragraph>A population pharmacokinetic analysis was performed in 253 pediatric subjects between 1 month and 13 years of age. Patients received 10 to 65 mg/kg/day given TID. Apparent oral clearance (CL/F) was directly proportional to creatinine clearance and this relationship was similar following a single dose and at steady state. Higher oral clearance values were observed in children less than 5 years of age compared to those observed in children 5 years of age and older, when normalized per body weight. The clearance was highly variable in infants less than 1 year of age. The normalized CL/F values observed in pediatric patients 5 years of age and older were consistent with values observed in adults after a single dose. The oral volume of distribution normalized per body weight was constant across the age range.</paragraph>
+                  <paragraph>These pharmacokinetic data indicate that the effective daily dose in pediatric patients with epilepsy ages 3 and 4 years should be 40 mg/kg/day to achieve average plasma concentrations similar to those achieved in patients 5 years of age and older receiving gabapentin at 30 mg/kg/day (see DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gender: </content>Although no formal study has been conducted to compare the pharmacokinetics of gabapentin in men and women, it appears that the pharmacokinetic parameters for males and females are similar and there are no significant gender differences.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Race: </content>Pharmacokinetic differences due to race have not been studied. Because gabapentin is primarily renally excreted and there are no important racial differences in creatinine clearance, pharmacokinetic differences due to race are not expected.</paragraph>
+                  <paragraph>
+                     <linkHtml href=""/>
+                     <content styleCode="bold">Clinical Studies</content>
+                  </paragraph>
+                  <paragraph> Postherpetic Neuralgia </paragraph>
+                  <paragraph>Gabepentin Capsules were evaluated for the management of postherpetic neuralgia (PHN) in 2 randomized, double-blind, placebo-controlled, multicenter studies; N=563 patients in the intent-to-treat (ITT) population (Table 1). Patients were enrolled if they continued to have pain for more than 3 months after healing of the herpes zoster skin rash.</paragraph>
+                  <table width="0.000" ID="id_d8880c81-b1c1-4315-bb34-6d6aa3aaf973">
+                     <caption ID="id_b618fea1-23f4-430f-811c-11ec126013df">TABLE 1. Controlled PHN Studies: Duration, Dosages, and Number of Patients </caption>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr ID="id_0e384d2e-419d-4850-af50-b72f9f3a69f9" styleCode="Toprule">
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Study<br/>
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule">
+                              <content styleCode="bold">Study Duration<br/>
+                                 <br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule">
+                              <content styleCode="bold">Gabapentin<br/>
+                              </content>
+                              <content styleCode="bold">(mg/day)</content>
+                              <content styleCode="bold">
+                                 <sup>a </sup>
+                              </content>
+                              <content styleCode="bold">Target Dose</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule">
+                              <content styleCode="bold">Patients Receing Gabapentin</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Patients Receiving Placebo</content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr ID="id_2d5de849-172a-4d07-97ce-5da8e6516b1a">
+                           <td align="left" valign="top">1<br/>
+                           </td>
+                           <td align="left" valign="top">8 weeks<br/>
+                           </td>
+                           <td align="left" valign="top">3600<br/>
+                           </td>
+                           <td align="left" valign="top">113<br/>
+                           </td>
+                           <td align="left" valign="top">116<br/>
+                           </td>
+                        </tr>
+                        <tr ID="id_4b77eb1e-6dd4-4452-8db3-be1755c3e7aa">
+                           <td align="left" valign="top">2<br/>
+                           </td>
+                           <td align="left" valign="top">7 weeks<br/>
+                           </td>
+                           <td align="left" valign="top">1800, 2400<br/>
+                           </td>
+                           <td align="left" valign="top">223<br/>
+                           </td>
+                           <td align="left" valign="top">111<br/>
+                           </td>
+                        </tr>
+                        <tr ID="id_893145f5-cfe7-4776-9c00-b42d33e73e2a" styleCode="Botrule">
+                           <td align="left" valign="top">
+                              <br/>
+                           </td>
+                           <td align="left" valign="top">
+                              <br/>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Total</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top">336<br/>
+                           </td>
+                           <td align="left" valign="top">227<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>a     Given in 3 divided doses (TID)</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_f048d2b1-8fa2-40af-b89b-283178bbd7ac">
+               <id root="8896039f-ee64-4af7-aebc-a334cd7cfc0e"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Each study included a 1-week baseline during which patients were screened for eligibility and a 7- or 8-week double-blind phase (3 or 4 weeks of titration and 4 weeks of fixed dose). Patients initiated treatment with titration to a maximum of 900 mg/day gabapentin over 3 days. Dosages were then to be titrated in 600 to 1200 mg/day increments at 3- to 7-day intervals to target dose over 3 to 4 weeks. In Study 1, patients were continued on lower doses if not able to achieve the target dose. During baseline and treatment, patients recorded their pain in a daily diary using an 11-point numeric pain rating scale ranging from 0 (no pain) to 10 (worst possible pain). A mean pain score during baseline of at least 4 was required for randomization (baseline mean pain score for Studies 1 and 2 combined was 6.4). Analyses were conducted using the ITT population (all randomized patients who received at least one dose of study medication).</paragraph>
+                  <paragraph>Both studies showed significant differences from placebo at all doses tested.</paragraph>
+                  <paragraph>A significant reduction in weekly mean pain scores was seen by Week 1 in both studies, and significant differences were maintained to the end of treatment. Comparable treatment effects were observed in all active treatment arms. Pharmacokinetic/pharmacodynamic modeling provided confirmatory evidence of efficacy across all doses. Figures 1 and 2 show these changes for Studies 1 and 2.</paragraph>
+                  <renderMultiMedia referencedObject="id_1c522918-5fba-4e26-8a84-16f87c61d798"/>
+                  <paragraph>
+                     <content styleCode="bold">Figure 1. Weekly Mean Pain Scores (Observed Cases in ITT Population): Study 1</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="id_a7135605-1217-470f-a513-2f4973280c9a"/>
+                  <paragraph>Figure 2. Weekly Mean Pain Scores (Observed Cases in ITT Population): Study 2</paragraph>
+                  <paragraph>The proportion of responders (those patients reporting at least 50% improvement in endpoint pain score compared with baseline) was calculated for each study (Figure 3).</paragraph>
+                  <renderMultiMedia referencedObject="id_d8e96db6-a22f-4474-881d-466f06b2552b"/>
+                  <paragraph>Figure 3. Proportion of Responders (patients with ≥ 50% reduction in pain score) at Endpoint: Controlled PHN Studies</paragraph>
+                  <paragraph> Epilepsy </paragraph>
+                  <paragraph>The effectiveness of Gabapentin Capsules as adjunctive therapy (added to other antiepileptic drugs) was established in multicenter placebo-controlled, double-blind, parallel-group clinical trials in adult and pediatric patients (3 years and older) with refractory partial seizures.</paragraph>
+                  <paragraph>Evidence of effectiveness was obtained in three trials conducted in 705 patients (age 12 years and above) and one trial conducted in 247 pediatric patients (3 to 12 years of age). The patients enrolled had a history of at least 4 partial seizures per month in spite of receiving one or more antiepileptic drugs at therapeutic levels and were observed on their established antiepileptic drug regimen during a 12-week baseline period (6 weeks in the study of pediatric patients). In patients continuing to have at least 2 (or 4 in some studies) seizures per month, Gabapentin Capsules or placebo was then added on to the existing therapy during a 12-week treatment period. Effectiveness was assessed primarily on the basis of the percent of patients with a 50% or greater reduction in seizure frequency from baseline to treatment (the “responder rate”) and a derived measure called response ratio, a measure of change defined as (T - B)/(T + B), where B is the patient’s baseline seizure frequency and T is the patient’s seizure frequency during treatment. Response ratio is distributed within the range -1 to +1. A zero value indicates no change while complete elimination of seizures would give a value of -1; increased seizure rates would give positive values. A response ratio of -0.33 corresponds to a 50% reduction in seizure frequency. The results given below are for all partial seizures in the intent-to-treat (all patients who received any doses of treatment) population in each study, unless otherwise indicated.</paragraph>
+                  <paragraph>One study compared Gabapentin Capsules 1200 mg/day divided TID with placebo. Responder rate was 23% (14/61) in the Gabapentin Capsules group and 9% (6/66) in the placebo group; the difference between groups was statistically significant. Response ratio was also better in the Gabapentin Capsules group (-0.199) than in the placebo group (-0.044), a difference that also achieved statistical significance.</paragraph>
+                  <paragraph>A second study compared primarily 1200 mg/day divided TID Gabapentin Capsules (N=101) with placebo (N=98). Additional smaller Gabapentin Capsules dosage groups (600 mg/day, N=53; 1800 mg/day, N=54) were also studied for information regarding dose response. Responder rate was higher in the Gabapentin Capsules 1200 mg/day group (16%) than in the placebo group (8%), but the difference was not statistically significant. The responder rate at 600 mg (17%) was also not significantly higher than in the placebo, but the responder rate in the 1800 mg group (26%) was statistically significantly superior to the placebo rate. Response ratio was better in the Gabapentin Capsules 1200 mg/day group (-0.103) than in the placebo group (-0.022); but this difference was also not statistically significant (p = 0.224). A better response was seen in the Gabapentin Capsules 600 mg/day group (-0.105) and 1800 mg/day group (-0.222) than in the 1200 mg/day group, with the 1800 mg/day group achieving statistical significance compared to the placebo group.</paragraph>
+                  <paragraph>A third study compared Gabapentin Capsules 900 mg/day divided TID (N=111) and placebo (N=109). An additional Gabapentin Capsules 1200 mg/day dosage group (N=52) provided dose-response data. A statistically significant difference in responder rate was seen in the Gabapentin Capsules 900 mg/day group (22%) compared to that in the placebo group (10%). Response ratio was also statistically significantly superior in the Gabapentin Capsules 900 mg/day group (-0.119) compared to that in the placebo group (-0.027), as was response ratio in 1200 mg/day Gabapentin Capsules (-0.184) compared to placebo.</paragraph>
+                  <paragraph>Analyses were also performed in each study to examine the effect of Gabapentin Capsules on preventing secondarily generalized tonic-clonic seizures. Patients who experienced a secondarily generalized tonic-clonic seizure in either the baseline or in the treatment period in all three placebo-controlled studies were included in these analyses. There were several response ratio comparisons that showed a statistically significant advantage for Gabapentin Capsules compared to placebo and favorable trends for almost all comparisons.</paragraph>
+                  <paragraph>Analysis of responder rate using combined data from all three studies and all doses (N=162, Gabapentin Capsules; N=89, placebo) also showed a significant advantage for Gabapentin Capsules over placebo in reducing the frequency of secondarily generalized tonic-clonic seizures.</paragraph>
+                  <paragraph>In two of the three controlled studies, more than one dose of Gabapentin Capsules was used. Within each study the results did not show a consistently increased response to dose. However, looking across studies, a trend toward increasing efficacy with increasing dose is evident (see Figure 4).</paragraph>
+                  <renderMultiMedia referencedObject="id_fe52c0d4-52cb-4616-b11e-3856177e828b"/>
+                  <paragraph>Figure 4. Responder Rate in Patients Receiving Gabapentin Capsules Expressed as a Difference from Placebo by Dose and Study: Adjunctive Therapy Studies in Patients ≥ 12 ears of Age with Partial Seizures</paragraph>
+                  <paragraph>In the figure, treatment effect magnitude, measured on the Y axis in terms of the difference in the proportion of gabapentin and placebo assigned patients attaining a 50% or greater reduction in seizure frequency from baseline, is plotted against the daily dose of gabapentin administered (X axis).</paragraph>
+                  <paragraph>Although no formal analysis by gender has been performed, estimates of response (Response Ratio) derived from clinical trials (398 men, 307 women) indicate no important gender differences exist. There was no consistent pattern indicating that age had any effect on the response to Gabapentin Capsules. There were insufficient numbers of patients of races other than Caucasian to permit a comparison of efficacy among racial groups.</paragraph>
+                  <paragraph>A fourth study in pediatric patients age 3 to 12 years compared 25 – 35 mg/kg/day Gabapentin Capsules (N=118) with placebo (N=127). For all partial seizures in the intent-to-treat population, the response ratio was statistically significantly better for the Gabapentin Capsules group (-0.146) than for the placebo group (-0.079). For the same population, the responder rate for Gabapentin Capsules (21%) was not significantly different from placebo (18%).</paragraph>
+                  <paragraph>A study in pediatric patients age 1 month to 3 years compared 40 mg/kg/day Gabapentin Capsules (N=38) with placebo (N=38) in patients who were receiving at least one marketed antiepileptic drug and had at least one partial seizure during the screening period (within 2 weeks prior to baseline). Patients had up to 48 hours of baseline and up to 72 hours of double-blind video EEG monitoring to record and count the occurrence of seizures. There were no statistically significant differences between treatments in either the response ratio or responder rate.</paragraph>
+               </text>
+               <effectiveTime value="20100719"/>
+               <component>
+                  <observationMedia ID="id_1c522918-5fba-4e26-8a84-16f87c61d798">
+                     <text>image of figure 1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9c400666-a559-471f-9024-2f5b24455dee-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_a7135605-1217-470f-a513-2f4973280c9a">
+                     <text>image of figure 2</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9c400666-a559-471f-9024-2f5b24455dee-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_d8e96db6-a22f-4474-881d-466f06b2552b">
+                     <text>image of figure 3</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9c400666-a559-471f-9024-2f5b24455dee-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_fe52c0d4-52cb-4616-b11e-3856177e828b">
+                     <text>image of figure 4</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9c400666-a559-471f-9024-2f5b24455dee-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_deac3554-3338-4333-a4a5-0b8a174720be">
+               <id root="1e7ebc77-7d9a-42ab-8236-35b0b18e4dce"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph> Postherpetic Neuralgia </paragraph>
+                  <paragraph>Gabapentin Capsules is indicated for the management of postherpetic neuralgia in adults.</paragraph>
+                  <paragraph> Epilepsy </paragraph>
+                  <paragraph>Gabapentin Capsules is indicated as adjunctive therapy in the treatment of partial seizures with and without secondary generalization in patients over 12 years of age with epilepsy. Gabapentin Capsules is also indicated as adjunctive therapy in the treatment of partial seizures in pediatric patients age 3 – 12 years.</paragraph>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_53ec9e2b-853c-44f8-8b2a-86136876bf10">
+               <id root="59216ec2-df34-404d-b5a6-dd5995ae90d6"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34070-3" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Gabapentin Capsules is contraindicated in patients who have demonstrated hypersensitivity to the drug or its ingredients.</paragraph>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_33b0bd8c-3f72-4749-8b23-da2b43e8d7e4">
+               <id root="dec535eb-3c7a-44f0-8c94-b5bf94541e2f"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34071-1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Suicidal Behavior and Ideation</content>
+                  </paragraph>
+                  <paragraph>Antiepileptic drugs (AEDs), including Gabapentin Capsules, increase the risk of suicidal thoughts or behavior in patients taking these drugs for any indication. Patients treated with any AED for any indication should be monitored for the emergence or worsening of depression, suicidal thoughts or behavior, and/or any unusual changes in mood or behavior.</paragraph>
+                  <paragraph>Pooled analyses of 199 placebo-controlled clinical trials (mono- and adjunctive therapy) of 11 different AEDs showed that patients randomized to one of the AEDs had approximately twice the risk (adjusted Relative Risk 1.8, 95% CI:1.2, 2.7) of suicidal thinking or behavior compared to patients randomized to placebo. In these trials, which had a median treatment duration of 12 weeks, the estimated incidence rate of suicidal behavior or ideation among 27,863 AED-treated patients was 0.43%, compared to 0.24% among 16,029 placebo-treated patients, representing an increase of approximately one case of suicidal thinking or behavior for every 530 patients treated. There were four suicides in drug-treated patients in the trials and none in placebo-treated patients, but the number is too small to allow any conclusion about drug effect on suicide.</paragraph>
+                  <paragraph>The increased risk of suicidal thoughts or behavior with AEDs was observed as early as one week after starting drug treatment with AEDs and persisted for the duration of treatment assessed. Because most trials included in the analysis did not extend beyond 24 weeks, the risk of suicidal thoughts or behavior beyond 24 weeks could not be assessed.</paragraph>
+                  <paragraph>The risk of suicidal thoughts or behavior was generally consistent among drugs in the data analyzed. The finding of increased risk with AEDs of varying mechanisms of action and across a range of indications suggests that the risk applies to all AEDs used for any indication. The risk did not vary substantially by age (5-100 years) in the clinical trials analyzed.</paragraph>
+                  <paragraph>Table 2 shows absolute and relative risk by indication for all evaluated AEDs.</paragraph>
+                  <table width="0.000" ID="id_0781ebf7-796a-4a95-824e-2bb02847d022">
+                     <caption ID="id_3bd0f805-fa57-4860-bf72-abeb97754f64">Table 2. Risk by indication for antiepileptic drugs in the pooled analysis </caption>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr ID="id_52560fec-61b1-465d-a042-8131547b235f" styleCode="Toprule">
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Indication</content>
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule">
+                              <content styleCode="bold">Placebo Patients<br/>with events per<br/>1000 Patients<br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule">
+                              <content styleCode="bold">Drug Patients<br/>with Events per<br/>1000 Patients<br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule">
+                              <content styleCode="bold">Relative Risk:  Incidence of Events in<br/>Drug patients/Incidence in Placebo<br/>Patients<br/>
+                              </content>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Risk Difference:  Additional<br/>Drug Patients with Events<br/>per 1000 Patients<br/>
+                              </content>
+                           </td>
+                        </tr>
+                        <tr ID="id_f87299ac-33bd-436d-886d-1423211f8faa">
+                           <td align="left" valign="top">Elipepsy<br/>
+                           </td>
+                           <td align="left" valign="top">4.0<br/>
+                           </td>
+                           <td align="left" valign="top">3.4<br/>
+                           </td>
+                           <td align="left" valign="top">3.5<br/>
+                           </td>
+                           <td align="left" valign="top">2.4<br/>
+                           </td>
+                        </tr>
+                        <tr ID="id_96f4b538-83e7-4fae-9c6d-d40dc08238ca">
+                           <td align="left" valign="top">Psychiatric<br/>
+                           </td>
+                           <td align="left" valign="top">5.7<br/>
+                           </td>
+                           <td align="left" valign="top">8.5<br/>
+                           </td>
+                           <td align="left" valign="top">1.5<br/>
+                           </td>
+                           <td align="left" valign="top">2.9<br/>
+                           </td>
+                        </tr>
+                        <tr ID="id_e7bc3395-cb0d-4b74-9bed-e11a0d6467c9">
+                           <td align="left" valign="top">Other<br/>
+                           </td>
+                           <td align="left" valign="top">1.0<br/>
+                           </td>
+                           <td align="left" valign="top">1.8<br/>
+                           </td>
+                           <td align="left" valign="top">1.9<br/>
+                           </td>
+                           <td align="left" valign="top">0.9<br/>
+                           </td>
+                        </tr>
+                        <tr ID="id_1202f4ea-e8c2-4330-acfe-8bb027a8ff74" styleCode="Botrule">
+                           <td align="left" valign="top">Total<br/>
+                           </td>
+                           <td align="left" valign="top">2.4<br/>
+                           </td>
+                           <td align="left" valign="top">4.3<br/>
+                           </td>
+                           <td align="left" valign="top">1.8<br/>
+                           </td>
+                           <td align="left" valign="top">1.9<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+                  <paragraph>The relative risk for suicidal thoughts or behavior was higher in clinical trials for epilepsy than in clinical trials for psychiatric or other conditions, but the absolute risk differences were similar for the epilepsy and psychiatric indications.</paragraph>
+                  <paragraph>Anyone considering prescribing Gabapentin Capsules or any other AED must balance the risk of suicidal thoughts or behavior with the risk of untreated illness. Epilepsy and many other illnesses for which AEDs are prescribed are themselves associated with morbidity and mortality and an increased risk of suicidal thoughts and behavior. Should suicidal thoughts and behavior emerge during treatment, the prescriber needs to consider whether the emergence of these symptoms in any given patient may be related to the illness being treated.</paragraph>
+                  <paragraph>Patients, their caregivers, and families should be informed that AEDs increase the risk of suicidal thoughts and behavior and should be advised of the need to be alert for the emergence or worsening of the signs and symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. Behaviors of concern should be reported immediately to healthcare providers.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Neuropsychiatric Adverse Events—Pediatric Patients 3 to 12 years of age</content>
+                  </paragraph>
+                  <paragraph>Gabapentin use in pediatric patients with epilepsy 3 to 12 years of age is associated with the occurrence of central nervous system related adverse events. The most significant of these can be classified into the following categories: 1) emotional lability (primarily behavioral problems), 2) hostility, including aggressive behaviors, 3) thought disorder, including concentration problems and change in school performance, and 4) hyperkinesia (primarily restlessness and hyperactivity). Among the gabapentin-treated patients, most of the events were mild to moderate in intensity.</paragraph>
+                  <paragraph>In controlled trials in pediatric patients 3 to 12 years of age the incidence of these adverse events was: emotional lability 6% (gabapentin-treated patients) vs 1.3% (placebo-treated patients); hostility 5.2% vs 1.3%; hyperkinesia 4.7% vs 2.9%; and thought disorder 1.7% vs 0%. One of these events, a report of hostility, was considered serious. Discontinuation of gabapentin treatment occurred in 1.3% of patients reporting emotional lability and hyperkinesia and 0.9% of gabapentin-treated patients reporting hostility and thought disorder. One placebo-treated patient (0.4%) withdrew due to emotional lability.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Withdrawal Precipitated Seizure, Status Epilepticus</content>
+                  </paragraph>
+                  <paragraph>Antiepileptic drugs should not be abruptly discontinued because of the possibility of increasing seizure frequency.</paragraph>
+                  <paragraph>In the placebo-controlled studies in patients &gt;12 years of age, the incidence of status epilepticus in patients receiving Gabapentin Capsules was 0.6% (3 of 543) versus 0.5% in patients receiving placebo (2 of 378). Among the 2074 patients &gt;12 years of age treated with Gabapentin Capsules across all studies (controlled and uncontrolled) 31 (1.5%) had status epilepticus. Of these, 14 patients had no prior history of status epilepticus either before treatment or while on other medications. Because adequate historical data are not available, it is impossible to say whether or not treatment with Gabapentin Capsules is associated with a higher or lower rate of status epilepticus than would be expected to occur in a similar population not treated with Gabapentin Capsules.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tumorigenic Potential</content>
+                  </paragraph>
+                  <paragraph>In standard preclinical <content styleCode="italics">in vivo </content>lifetime carcinogenicity studies, an unexpectedly high incidence of pancreatic acinar adenocarcinomas was identified in male, but not female, rats. (See PRECAUTIONS: Carcinogenesis, Mutagenesis, Impairment of Fertility.) The clinical significance of this finding is unknown. Clinical experience during gabapentin’s premarketing development provides no direct means to assess its potential for inducing tumors in humans.</paragraph>
+                  <paragraph>In clinical studies in adjunctive therapy in epilepsy comprising 2085 patient-years of exposure in patients &gt;12 years of age, new tumors were reported in 10 patients (2 breast, 3 brain, 2 lung, 1 adrenal, 1 non-Hodgkin’s lymphoma, 1 endometrial carcinoma <content styleCode="italics">in situ</content>), and preexisting tumors worsened in 11 patients (9 brain, 1 breast, 1 prostate) during or up to 2 years following discontinuation of Gabapentin Capsules. Without knowledge of the background incidence and recurrence in a similar population not treated with Gabapentin Capsules, it is impossible to know whether the incidence seen in this cohort is or is not affected by treatment.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sudden and Unexplained Death in Patients With Epilepsy</content>
+                  </paragraph>
+                  <paragraph>During the course of premarketing development of Gabapentin Capsules 8 sudden and unexplained deaths were recorded among a cohort of 2203 patients treated (2103 patient-years of exposure).</paragraph>
+                  <paragraph>Some of these could represent seizure-related deaths in which the seizure was not observed, e.g., at night. This represents an incidence of 0.0038 deaths per patient-year. Although this rate exceeds that expected in a healthy population matched for age and sex, it is within the range of estimates for the incidence of sudden unexplained deaths in patients with epilepsy not receiving Gabapentin Capsules (ranging from 0.0005 for the general population of epileptics to 0.003 for a clinical trial population similar to that in the Gabapentin Capsules program, to 0.005 for patients with refractory epilepsy). Consequently, whether these figures are reassuring or raise further concern depends on comparability of the populations reported upon to the Gabapentin Capsules cohort and the accuracy of the estimates provided.</paragraph>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_41586b16-1d93-4f06-bcc5-527861ccfdfa">
+               <id root="2c43cd90-d825-4af6-b21f-a36463c626d2"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42232-9" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients</content>
+                  </paragraph>
+                  <paragraph>Patients should be instructed to take Gabapentin Capsules only as prescribed.</paragraph>
+                  <paragraph>Patients, their caregivers, and families should be counseled that AEDs, including Gabapentin Capsules, may increase the risk of suicidal thoughts and behavior and should be advised of the need to be alert for the emergence or worsening of symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. Behaviors of concern should be reported immediately to healthcare providers.</paragraph>
+                  <paragraph>Patients should be advised that Gabapentin Capsules may cause dizziness, somnolence and other symptoms and signs of CNS depression. Accordingly, they should be advised neither to drive a car nor to operate other complex machinery until they have gained sufficient experience on Gabapentin Capsules to gauge whether or not it affects their mental and/or motor performance adversely.</paragraph>
+                  <paragraph>Patients who require concomitant treatment with morphine may experience increases in gabapentin concentrations. Patients should be carefully observed for signs of CNS depression, such as somnolence, and the dose of Gabapentin Capsules or morphine should be reduced appropriately (see Drug Interactions).</paragraph>
+                  <paragraph>Patients should be encouraged to enroll in the North American Antiepileptic Drug (NAAED) Pregnancy Registry if they become pregnant. This registry is collecting information about the safety of antiepileptic drugs during pregnancy. To enroll, patients can call the toll free number 1- 888-233-2334 (see PRECAUTIONS, Pregnancy section).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Laboratory Tests</content>
+                  </paragraph>
+                  <paragraph>Clinical trials data do not indicate that routine monitoring of clinical laboratory parameters is necessary for the safe use of Gabapentin Capsules. The value of monitoring gabapentin blood concentrations has not been established. Gabapentin Capsules may be used in combination with other antiepileptic drugs without concern for alteration of the blood concentrations of gabapentin or of other antiepileptic drugs.</paragraph>
+                  <paragraph>
+                     <linkHtml href=""/>
+                     <content styleCode="bold">Drug Interactions</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">In vitro </content>studies were conducted to investigate the potential of gabapentin to inhibit the major cytochrome P450 enzymes (CYP1A2, CYP2A6, CYP2C9, CYP2C19, CYP2D6, CYP2E1, and CYP3A4) that mediate drug and xenobiotic metabolism using isoform selective marker substrates and human liver microsomal preparations. Only at the highest concentration tested (171 µg/mL; 1 mM) was a slight degree of inhibition (14%-30%) of isoform CYP2A6 observed. No inhibition of any of the other isoforms tested was observed at gabapentin concentrations up to 171 µg /mL (approximately 15 times the C<sub>max</sub> at 3600 mg/day).</paragraph>
+                  <paragraph>Gabapentin is not appreciably metabolized nor does it interfere with the metabolism of commonly coadministered antiepileptic drugs.</paragraph>
+                  <paragraph>The drug interaction data described in this section were obtained from studies involving healthy adults and adult patients with epilepsy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Phenytoin: </content>In a single (400 mg) and multiple dose (400 mg TID) study of Gabapentin Capsules in epileptic patients (N=8) maintained on phenytoin monotherapy for at least 2 months, gabapentin had no effect on the steady-state trough plasma concentrations of phenytoin and phenytoin had no effect on gabapentin pharmacokinetics.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carbamazepine: </content>Steady-state trough plasma carbamazepine and carbamazepine 10, 11 epoxide concentrations were not affected by concomitant gabapentin (400 mg TID; N=12) administration. Likewise, gabapentin pharmacokinetics were unaltered by carbamazepine administration.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Valproic Acid: </content>The mean steady-state trough serum valproic acid concentrations prior to and during concomitant gabapentin administration (400 mg TID; N=17) were not different and neither were gabapentin pharmacokinetic parameters affected by valproic acid.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Phenobarbital: </content>Estimates of steady-state pharmacokinetic parameters for phenobarbital or gabapentin (300 mg TID; N=12) are identical whether the drugs are administered alone or together.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Naproxen: </content>Coadministration (N=18) of naproxen sodium capsules (250 mg) with Gabapentin Capsules (125 mg) appears to increase the amount of gabapentin absorbed by 12% to 15%. Gabapentin had no effect on naproxen pharmacokinetic parameters. These doses are lower than the therapeutic doses for both drugs. The magnitude of interaction within the recommended dose ranges of either drug is not known.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hydrocodone: </content>Coadministration of Gabapentin Capsules (125 to 500 mg; N=48) decreases hydrocodone (10 mg; N=50) C<sub>max</sub> and AUC values in a dose-dependent manner relative to administration of hydrocodone alone; C<sub>max</sub> and AUC values are 3% to 4% lower, respectively, after administration of 125 mg Gabapentin Capsules and 21% to 22% lower, respectively, after administration of 500 mg Gabapentin Capsules. The mechanism for this interaction is unknown. Hydrocodone increases gabapentin AUC values by 14%. The magnitude of interaction at other doses is not known.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Morphine: </content>A literature article reported that when a 60-mg controlled-release morphine capsule was administered 2 hours prior to a 600-mg Gabapentin Capsule (N=12), mean gabapentin AUC increased by 44% compared to gabapentin administered without morphine (see PRECAUTIONS). Morphine pharmacokinetic parameter values were not affected by administration of Gabapentin Capsules 2 hours after morphine. The magnitude of interaction at other doses is not known.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cimetidine: </content>In the presence of cimetidine at 300 mg QID (N=12) the mean apparent oral clearance of gabapentin fell by 14% and creatinine clearance fell by 10%. Thus cimetidine appeared to alter the renal excretion of both gabapentin and creatinine, an endogenous marker of renal function. This small decrease in excretion of gabapentin by cimetidine is not expected to be of clinical importance. The effect of gabapentin on cimetidine was not evaluated.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Oral Contraceptive: </content>Based on AUC and half-life, multiple-dose pharmacokinetic profiles of norethindrone and ethinyl estradiol following administration of tablets containing 2.5 mg of norethindrone acetate and 50 mcg of ethinyl estradiol were similar with and without coadministration of gabapentin (400 mg TID; N=13). The C<sub>max</sub> of norethindrone was 13% higher when it was coadministered with gabapentin; this interaction is not expected to be of clinical importance.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Antacid (Maalox</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                     <content styleCode="bold">): </content>Maalox reduced the bioavailability of gabapentin (N=16) by about 20%. This decrease in bioavailability was about 5% when gabapentin was administered 2 hours after Maalox. It is recommended that gabapentin be taken at least 2 hours following Maalox administration.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Effect of Probenecid: </content>Probenecid is a blocker of renal tubular secretion. Gabapentin pharmacokinetic parameters without and with probenecid were comparable. This indicates that gabapentin does not undergo renal tubular secretion by the pathway that is blocked by probenecid.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug/Laboratory Tests Interactions</content>
+                  </paragraph>
+                  <paragraph>Because false positive readings were reported with the Ames N-Multistix SG<sup>®</sup> dipstick test for urinary protein when gabapentin was added to other antiepileptic drugs, the more specific sulfosalicylic acid precipitation procedure is recommended to determine the presence of urine protein.</paragraph>
+                  <paragraph>
+                     <linkHtml href=""/>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>Gabapentin was given in the diet to mice at 200, 600, and 2000 mg/kg/day and to rats at 250, 1000, and 2000 mg/kg/day for 2 years. A statistically significant increase in the incidence of pancreatic acinar cell adenomas and carcinomas was found in male rats receiving the high dose; the no-effect dose for the occurrence of carcinomas was 1000 mg/kg/day. Peak plasma concentrations of gabapentin in rats receiving the high dose of 2000 mg/kg were 10 times higher than plasma concentrations in humans receiving 3600 mg per day, and in rats receiving 1000 mg/kg/day peak plasma concentrations were 6.5 times higher than in humans receiving 3600 mg/day. The pancreatic acinar cell carcinomas did not affect survival, did not metastasize and were not locally invasive. The relevance of this finding to carcinogenic risk in humans is unclear.</paragraph>
+                  <paragraph>Studies designed to investigate the mechanism of gabapentin-induced pancreatic carcinogenesis in rats indicate that gabapentin stimulates DNA synthesis in rat pancreatic acinar cells <content styleCode="italics">in vitro </content>and, thus, may be acting as a tumor promoter by enhancing mitogenic activity. It is not known whether gabapentin has the ability to increase cell proliferation in other cell types or in other species, including humans.</paragraph>
+                  <paragraph>Gabapentin did not demonstrate mutagenic or genotoxic potential in three <content styleCode="italics">in vitro </content>and four <content styleCode="italics">in vivo </content>assays. It was negative in the Ames test and the <content styleCode="italics">in vitro </content>HGPRT forward mutation assay in Chinese hamster lung cells; it did not produce significant increases in chromosomal aberrations in the <content styleCode="italics">in vitro </content>Chinese hamster lung cell assay; it was negative in the <content styleCode="italics">in vivo </content>chromosomal aberration assay and in the <content styleCode="italics">in vivo </content>micronucleus test in Chinese hamster bone marrow; it was negative in the <content styleCode="italics">in vivo </content>mouse micronucleus assay; and it did not induce unscheduled DNA synthesis in hepatocytes from rats given gabapentin.</paragraph>
+                  <paragraph>No adverse effects on fertility or reproduction were observed in rats at doses up to 2000 mg/kg (approximately 5 times the maximum recommended human dose on a mg/m<sup>2</sup> basis).</paragraph>
+                  <paragraph>
+                     <linkHtml href=""/>
+                     <content styleCode="bold">Pregnancy</content>
+                  </paragraph>
+                  <paragraph>Pregnancy Category C: Gabapentin has been shown to be fetotoxic in rodents, causing delayed ossification of several bones in the skull, vertebrae, forelimbs, and hindlimbs. These effects occurred when pregnant mice received oral doses of 1000 or 3000 mg/kg/day during the period of organogenesis, or approximately 1 to 4 times the maximum dose of 3600 mg/day given to epileptic patients on a mg/m<sup>2</sup> basis. The no-effect level was 500 mg/kg/day or approximately ½ of the human dose on a mg/m<sup>2</sup> basis.</paragraph>
+                  <paragraph>When rats were dosed prior to and during mating, and throughout gestation, pups from all dose groups (500, 1000 and 2000 mg/kg/day) were affected. These doses are equivalent to less than approximately 1 to 5 times the maximum human dose on a mg/m<sup>2</sup> basis. There was an increased incidence of hydroureter and/or hydronephrosis in rats in a study of fertility and general reproductive performance at 2000 mg/kg/day with no effect at 1000 mg/kg/day, in a teratology study at 1500 mg/kg/day with no effect at 300 mg/kg/day, and in a perinatal and postnatal study at all doses studied (500, 1000 and 2000 mg/kg/day). The doses at which the effects occurred are approximately 1 to 5 times the maximum human dose of 3600 mg/day on a mg/m<sup>2</sup> basis; the no-effect doses were approximately 3 times (Fertility and General Reproductive Performance study) and approximately equal to (Teratogenicity study) the maximum human dose on a mg/m<sup>2</sup> basis. Other than hydroureter and hydronephrosis, the etiologies of which are unclear, the incidence of malformations was not increased compared to controls in offspring of mice, rats, or rabbits given doses up to 50 times (mice), 30 times (rats), and 25 times (rabbits) the human daily dose on a mg/kg basis, or 4 times (mice), 5 times (rats), or 8 times (rabbits) the human daily dose on a mg/m<sup>2</sup> basis.</paragraph>
+                  <paragraph>In a teratology study in rabbits, an increased incidence of postimplantation fetal loss occurred in dams exposed to 60, 300, and 1500 mg/kg/day, or less than approximately ¼ to 8 times the maximum human dose on a mg/m<sup>2</sup> basis. There are no adequate and well-controlled studies in pregnant women. This drug should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                  <paragraph>To provide information regarding the effects of in utero exposure to Gabapentin Capsules, physicians are advised to recommend that pregnant patients taking Gabapentin Capsules enroll in the North American Antiepileptic Drug (NAAED) Pregnancy Registry. This can be done by calling the toll free number 1-888-233-2334, and must be done by patients themselves. Information on the registry can also be found at the website http://www.aedpregnancyregistry.org/.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use in Nursing Mothers</content>
+                  </paragraph>
+                  <paragraph>Gabapentin is secreted into human milk following oral administration. A nursed infant could be exposed to a maximum dose of approximately 1 mg/kg/day of gabapentin. Because the effect on the nursing infant is unknown, Gabapentin Capsules should be used in women who are nursing only if the benefits clearly outweigh the risks.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use</content>
+                  </paragraph>
+                  <paragraph>Safety and effectiveness of Gabapentin Capsules in the management of postherpetic neuralgia in pediatric patients have not been established.</paragraph>
+                  <paragraph>Effectiveness as adjunctive therapy in the treatment of partial seizures in pediatric patients below the age of 3 years has not been established (see CLINICAL PHARMACOLOGY, Clinical Studies).</paragraph>
+                  <paragraph>
+                     <linkHtml href=""/>
+                     <content styleCode="bold">Geriatric Use</content>
+                  </paragraph>
+                  <paragraph>The total number of patients treated with Gabapentin Capsules in controlled clinical trials in patients with postherpetic neuralgia was 336, of which 102 (30%) were 65 to 74 years of age, and 168 (50%) were 75 years of age and older. There was a larger treatment effect in patients 75 years of age and older compared with younger patients who received the same dosage. Since gabapentin is almost exclusively eliminated by renal excretion, the larger treatment effect observed in patients ≥75 years may be a consequence of increased gabapentin exposure for a given dose that results from an age-related decrease in renal function. However, other factors cannot be excluded. The types and incidence of adverse events were similar across age groups except for peripheral edema and ataxia, which tended to increase in incidence with age.</paragraph>
+                  <paragraph>Clinical studies of Gabapentin Capsules in epilepsy did not include sufficient numbers of subjects aged 65 and over to determine whether they responded differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                  <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and dose should be adjusted based on creatinine clearance values in these patients (see CLINICAL PHARMACOLOGY, ADVERSE REACTIONS, and DOSAGE AND ADMINISTRATION sections).</paragraph>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_ecd75578-fafd-4136-bf1e-9753aec29659">
+               <id root="2b31c524-22c4-40d2-8fea-6f1bae301454"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34084-4" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Postherpetic Neuralgia</content>
+                  </paragraph>
+                  <paragraph>The most commonly observed adverse events associated with the use of Gabapentin Capsules in adults, not seen at an equivalent frequency among placebo-treated patients, were dizziness, somnolence, and peripheral edema.</paragraph>
+                  <paragraph>In the 2 controlled studies in postherpetic neuralgia, 16% of the 336 patients who received Gabapentin Capsules and 9% of the 227 patients who received placebo discontinued treatment because of an adverse event. The adverse events that most frequently led to withdrawal in  -Gabapentin Capsule-treated patients were dizziness, somnolence, and nausea.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Incidence in Controlled Clinical Trials</content>
+                  </paragraph>
+                  <paragraph>Table 3 lists treatment-emergent signs and symptoms that occurred in at least 1% of Gabapentin Capsule- treated patients with postherpetic neuralgia participating in placebo-controlled trials and that were numerically more frequent in the Gabapentin Capsules group than in the placebo group. Adverse events were usually mild to moderate in intensity.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">TABLE 3. Treatment-Emergent Adverse Event Incidence in Controlled Trials in Postherpetic Neuralgia <br/>(Events in at least 1% of Gabapentin Capsule-Treated Patients and Numerically More Frequent Than in <br/>                                                                          the Placebo Group</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Body System                                                                                                                                Gabapentin Capsules      Placebo<br/>   Preferred Term                                                                                                                                      N=336                   N=227<br/>                                                                                                                                                                           %                         %</content>
+                  </paragraph>
+                  <table width="0.000" ID="id_626e4a4c-146f-44b0-b845-05d24229dd3e">
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr ID="id_f5b57fb9-74a3-4dfd-b677-5389d31c06ca" styleCode="Toprule">
+                           <td align="left" valign="top" colspan="3">
+                              <content styleCode="underline">Body as a Whole</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_0db58ecc-f657-4eea-9b58-057bffc92052">
+                           <td align="left" valign="top">   Asthenia</td>
+                           <td align="left" valign="top">5.7</td>
+                           <td align="left" valign="top">4.8</td>
+                        </tr>
+                        <tr ID="id_41b7095c-f7ba-474f-9243-e07880f309ef">
+                           <td align="left" valign="top">   Infection</td>
+                           <td align="left" valign="top">5.1</td>
+                           <td align="left" valign="top">3.5</td>
+                        </tr>
+                        <tr ID="id_9624f305-4a3b-4ff0-8bef-d92c04bb6ab9">
+                           <td align="left" valign="top">   Headache</td>
+                           <td align="left" valign="top">3.3</td>
+                           <td align="left" valign="top">3.1</td>
+                        </tr>
+                        <tr ID="id_812e3bff-eebd-4acf-8c94-4bcc2c1969e5">
+                           <td align="left" valign="top">   Accidental injury</td>
+                           <td align="left" valign="top">3.3</td>
+                           <td align="left" valign="top">1.3</td>
+                        </tr>
+                        <tr ID="id_ba3111d9-154e-4ca1-9c42-fe304b8af164">
+                           <td align="left" valign="top">   Abdominal pain</td>
+                           <td align="left" valign="top">2.7</td>
+                           <td align="left" valign="top">2.6</td>
+                        </tr>
+                        <tr ID="id_1a9ccde6-d4a2-4ab3-a045-58e6a262fbd0">
+                           <td align="left" valign="top" colspan="3">
+                              <content styleCode="underline">Digestive System</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_aca1bc94-93df-41a0-a943-135ac312bb7a">
+                           <td align="left" valign="top">   Diarrhea</td>
+                           <td align="left" valign="top">5.7</td>
+                           <td align="left" valign="top">3.1</td>
+                        </tr>
+                        <tr ID="id_617e65c3-f8b2-4cb8-8d18-87fc80b73db2">
+                           <td align="left" valign="top">   Dry mouth</td>
+                           <td align="left" valign="top">4.8</td>
+                           <td align="left" valign="top">1.3</td>
+                        </tr>
+                        <tr ID="id_a7a894fa-fa40-4720-81f9-6079a86e1dab">
+                           <td align="left" valign="top">   Constipation</td>
+                           <td align="left" valign="top">3.9</td>
+                           <td align="left" valign="top">1.8</td>
+                        </tr>
+                        <tr ID="id_f295b54f-faa9-453a-bc1f-3c8cb0a02313">
+                           <td align="left" valign="top">   Nausea</td>
+                           <td align="left" valign="top">3.9</td>
+                           <td align="left" valign="top">3.1</td>
+                        </tr>
+                        <tr ID="id_bbe24ff3-3faa-4897-9e3f-354584135b86">
+                           <td align="left" valign="top">   Vomiting</td>
+                           <td align="left" valign="top">3.3</td>
+                           <td align="left" valign="top">1.8</td>
+                        </tr>
+                        <tr ID="id_d0c151b0-29d3-4a3f-b507-f026218ff6d2">
+                           <td align="left" valign="top">   Flatulence</td>
+                           <td align="left" valign="top">2.1</td>
+                           <td align="left" valign="top">1.8</td>
+                        </tr>
+                        <tr ID="id_0cd3760d-109d-42d2-be07-8978ff23ba05">
+                           <td align="left" valign="top" colspan="3">
+                              <content styleCode="underline">Metabolic and Nutritional Disorders</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_4f504bc5-df99-4090-b0d1-c4b0da1f69b0">
+                           <td align="left" valign="top">   Peripheral edema</td>
+                           <td align="left" valign="top">8.3</td>
+                           <td align="left" valign="top">2.2</td>
+                        </tr>
+                        <tr ID="id_a8e0a777-bf8d-4f8e-8abb-84983baab756">
+                           <td align="left" valign="top">   Weight gain</td>
+                           <td align="left" valign="top">1.8</td>
+                           <td align="left" valign="top">0.0</td>
+                        </tr>
+                        <tr ID="id_5aa464e0-0b92-419a-90f9-2751051ea5b3">
+                           <td align="left" valign="top">   Hyperglycemia</td>
+                           <td align="left" valign="top">1.2</td>
+                           <td align="left" valign="top">0.4</td>
+                        </tr>
+                        <tr ID="id_dc3c93cd-72ea-495b-8bbb-a0860ba316a7">
+                           <td align="left" valign="top" colspan="3">
+                              <content styleCode="underline">Nervous System</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_2ff03f38-3653-46ce-8bda-f27321ab84da">
+                           <td align="left" valign="top">   Dizziness</td>
+                           <td align="left" valign="top">28.0</td>
+                           <td align="left" valign="top">7.5</td>
+                        </tr>
+                        <tr ID="id_4f9b5f18-9cb5-4f5a-985c-7963d2428361">
+                           <td align="left" valign="top">   Somnolence</td>
+                           <td align="left" valign="top">21.4</td>
+                           <td align="left" valign="top">5.3</td>
+                        </tr>
+                        <tr ID="id_6d354b6e-c9f9-4978-abf7-f0b89d72522a">
+                           <td align="left" valign="top">   Ataxia</td>
+                           <td align="left" valign="top">3.3</td>
+                           <td align="left" valign="top">0.0</td>
+                        </tr>
+                        <tr ID="id_2ed19437-22b3-448c-8040-f7f70d62a115">
+                           <td align="left" valign="top">   Thinking Abnormal</td>
+                           <td align="left" valign="top">2.7</td>
+                           <td align="left" valign="top">0.0</td>
+                        </tr>
+                        <tr ID="id_10bb7174-c4cf-4440-9ad6-da3c19e5d656">
+                           <td align="left" valign="top">   Abnormal gait</td>
+                           <td align="left" valign="top">1.5</td>
+                           <td align="left" valign="top">0.0</td>
+                        </tr>
+                        <tr ID="id_dd2c841f-ca9d-4b14-b176-95b12e2e570d">
+                           <td align="left" valign="top">   Incoordination</td>
+                           <td align="left" valign="top">1.5</td>
+                           <td align="left" valign="top">0.0</td>
+                        </tr>
+                        <tr ID="id_48a9f75c-cc69-4f87-a8a0-9705b7550a4b">
+                           <td align="left" valign="top">   Amnesia</td>
+                           <td align="left" valign="top">1.2</td>
+                           <td align="left" valign="top">0.9</td>
+                        </tr>
+                        <tr ID="id_8d0a5756-49f8-4ed9-8871-18d78cacf3ae">
+                           <td align="left" valign="top">   Hypesthesia</td>
+                           <td align="left" valign="top">1.2</td>
+                           <td align="left" valign="top">0.9</td>
+                        </tr>
+                        <tr ID="id_8c20f213-b113-4420-9dd5-e3fa60c73ae9">
+                           <td align="left" valign="top" colspan="3">
+                              <content styleCode="underline">Respiratory System</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_1dd962ac-5211-426f-ad52-374cde14f79d">
+                           <td align="left" valign="top">   Pharyngitis</td>
+                           <td align="left" valign="top">1.2</td>
+                           <td align="left" valign="top">0.4</td>
+                        </tr>
+                        <tr ID="id_ee83812e-3aff-4791-8173-e80ab6f65cab">
+                           <td align="left" valign="top" colspan="3">
+                              <content styleCode="underline">Skin and Appendages</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_dc163661-87fb-4245-91a3-589cc3f35325">
+                           <td align="left" valign="top">   Rash</td>
+                           <td align="left" valign="top">1.2</td>
+                           <td align="left" valign="top">0.9</td>
+                        </tr>
+                        <tr ID="id_51c8fbb9-1a21-4588-a40b-e5216eb86c46">
+                           <td align="left" valign="top" colspan="3">
+                              <content styleCode="underline">Special Senses</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_65b80ea2-c35d-4fec-bc6c-d05c87f941c5">
+                           <td align="left" valign="top">   Amblyopia<sup>a</sup>
+                           </td>
+                           <td align="left" valign="top">2.7</td>
+                           <td align="left" valign="top">0.9</td>
+                        </tr>
+                        <tr ID="id_ace35f2a-443a-43d0-a1d1-611d7b8b5a7d">
+                           <td align="left" valign="top">   Conjunctivitis</td>
+                           <td align="left" valign="top">1.2</td>
+                           <td align="left" valign="top">0.0</td>
+                        </tr>
+                        <tr ID="id_c24a67e4-cff6-4286-bab8-de090c49f1aa">
+                           <td align="left" valign="top">   Diplopia</td>
+                           <td align="left" valign="top">1.2</td>
+                           <td align="left" valign="top">0.0</td>
+                        </tr>
+                        <tr ID="id_068062c1-7a46-4b0b-b61e-1f5a6d1adf6f" styleCode="Botrule">
+                           <td align="left" valign="top">   Otitis media</td>
+                           <td align="left" valign="top">1.2</td>
+                           <td align="left" valign="top">0.0</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>a    Reported as blurred vision</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Other events in more than 1% of patients but equally or more frequent in the placebo group included pain, tremor, neuralgia, back pain, dyspepsia, dyspnea, and flu syndrome.</paragraph>
+                  <paragraph>There were no clinically important differences between men and women in the types and incidence of adverse events. Because there were few patients whose race was reported as other than white, there are insufficient data to support a statement regarding the distribution of adverse events by race.</paragraph>
+                  <paragraph> Epilepsy </paragraph>
+                  <paragraph>The most commonly observed adverse events associated with the use of Gabapentin Capsules in combination with other antiepileptic drugs in patients &gt;12 years of age, not seen at an equivalent frequency among placebo-treated patients, were somnolence, dizziness, ataxia, fatigue, and nystagmus. The most commonly observed adverse events reported with the use of Gabapentin Capsules in combination with other antiepileptic drugs in pediatric patients 3 to 12 years of age, not seen at an equal frequency among placebo-treated patients, were viral infection, fever, nausea and/or vomiting, somnolence, and hostility (see WARNINGS, Neuropsychiatric Adverse Events).</paragraph>
+                  <paragraph>Approximately 7% of the 2074 patients &gt;12 years of age and approximately 7% of the 449 pediatric patients 3 to 12 years of age who received Gabapentin Capsules in premarketing clinical trials discontinued treatment because of an adverse event. The adverse events most commonly associated with withdrawal in patients &gt;12 years of age were somnolence (1.2%), ataxia (0.8%), fatigue (0.6%), nausea and/or vomiting (0.6%), and dizziness (0.6%). The adverse events most commonly associated with withdrawal in pediatric patients were emotional lability (1.6%), hostility (1.3%), and hyperkinesia (1.1%).</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_cceba352-1abd-405f-8f72-e073204cd0eb">
+               <id root="2c2dae3f-a7f4-42bb-b899-642998181938"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Incidence in Controlled Clinical Trials</content>
+                  </paragraph>
+                  <paragraph>Table 4 lists treatment-emergent signs and symptoms that occurred in at least 1% of Gabapentin Capsule-treated patients &gt;12 years of age with epilepsy participating in placebo-controlled trials and were numerically more common in the Gabapentin Capsules group. In these studies, either Gabapentin Capsules or placebo was added to the patient’s current antiepileptic drug therapy. Adverse events were usually mild to moderate in intensity.</paragraph>
+                  <paragraph>The prescriber should be aware that these figures, obtained when Gabapentin Capsules was added to concurrent antiepileptic drug therapy, cannot be used to predict the frequency of adverse events in the course of usual medical practice where patient characteristics and other factors may differ from those prevailing during clinical studies. Similarly, the cited frequencies cannot be directly compared with figures obtained from other clinical investigations involving different treatments, uses, or investigators. An inspection of these frequencies, however, does provide the prescribing physician with one basis to estimate the relative contribution of drug and nondrug factors to the adverse event incidences in the population studied.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TABLE 4. Treatment-Emergent Adverse Event Incidence in Controlled Add-On Trials in &gt;12 years of <br/>age (Events in at least 1% of Gabapentin Capsules patients and numerically more in the placebo group <br/>                                                                      frequent than Patients.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Body System/                                                                                                                                                    </content>
+                     <content styleCode="bold">Gabapentin</content>
+                     <content styleCode="bold">   </content>     <content styleCode="bold">Placebo<br/>  Adverse Event                                                                                                                                                 </content>
+                     <content styleCode="bold">Capsules</content>
+                     <content styleCode="bold">
+                        <sup>a</sup>
+                     </content>
+                     <content styleCode="bold">        N=378<br/>                                                                                                                                                                                 N=543             %<br/>                                                                                                                                                                                      % </content>     </paragraph>
+                  <table width="0.000" ID="id_a4caf94a-d22c-45cb-b90d-a48857bf5b26">
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr ID="id_dd4c7516-7203-4e93-a570-b91dbd1de6b6" styleCode="Toprule">
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top" styleCode="Toprule"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr ID="id_edccb087-749d-4ad5-8bfa-fb86f73c2dd9">
+                           <td align="left" valign="top">   Fatigue</td>
+                           <td align="left" valign="top">11.0</td>
+                           <td align="left" valign="top">5.0</td>
+                        </tr>
+                        <tr ID="id_fdede516-b2f0-43a5-9f0d-513000cf0131">
+                           <td align="left" valign="top">   Weight Increase</td>
+                           <td align="left" valign="top">2.9</td>
+                           <td align="left" valign="top">1.6</td>
+                        </tr>
+                        <tr ID="id_93678331-0ecb-4cd1-a912-a9ecb14be0c7">
+                           <td align="left" valign="top">   Back Pain</td>
+                           <td align="left" valign="top">1.8</td>
+                           <td align="left" valign="top">0.5</td>
+                        </tr>
+                        <tr ID="id_0842df47-bde1-4dd0-a2a4-c37215444182">
+                           <td align="left" valign="top">   Peripheral Edema</td>
+                           <td align="left" valign="top">1.7</td>
+                           <td align="left" valign="top">0.5</td>
+                        </tr>
+                        <tr ID="id_e9763a36-fdfa-4a6e-bc14-56c595fc5e47">
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr ID="id_ec7e5ff9-dc4c-4753-9cb3-535fbf91bbbd">
+                           <td align="left" valign="top">   Vasodilatation</td>
+                           <td align="left" valign="top">1.1</td>
+                           <td align="left" valign="top">0.3</td>
+                        </tr>
+                        <tr ID="id_70786ca7-7654-474d-aab8-d8380e0d1d19">
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr ID="id_c24d8d11-3c98-4bc0-9051-95649996834e">
+                           <td align="left" valign="top">   Dyspepsia</td>
+                           <td align="left" valign="top">2.2</td>
+                           <td align="left" valign="top">0.5</td>
+                        </tr>
+                        <tr ID="id_4f135d62-14c9-44c0-bccc-14c688f9050a">
+                           <td align="left" valign="top">   Mouth or Throat Dry</td>
+                           <td align="left" valign="top">1.7</td>
+                           <td align="left" valign="top">0.5</td>
+                        </tr>
+                        <tr ID="id_7f269db2-6fa1-4955-a3fd-0fcc16f960e6">
+                           <td align="left" valign="top">   Constipation</td>
+                           <td align="left" valign="top">1.5</td>
+                           <td align="left" valign="top">0.8</td>
+                        </tr>
+                        <tr ID="id_01fd0a83-7fb0-4740-9c55-d30c65896b4c">
+                           <td align="left" valign="top">   Dental Abnormalities</td>
+                           <td align="left" valign="top">1.5</td>
+                           <td align="left" valign="top">0.3</td>
+                        </tr>
+                        <tr ID="id_d72b1ed6-d2f0-463c-854f-56c61fdd4cc6">
+                           <td align="left" valign="top">   Increased Appetite</td>
+                           <td align="left" valign="top">1.1</td>
+                           <td align="left" valign="top">0.8</td>
+                        </tr>
+                        <tr ID="id_38ab3046-9ef4-4b89-aaf0-8714cf69184b">
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr ID="id_7251f2b3-430b-4592-94ea-67c3e0124b09">
+                           <td align="left" valign="top">   Leukopenia</td>
+                           <td align="left" valign="top">1.1</td>
+                           <td align="left" valign="top">0.5</td>
+                        </tr>
+                        <tr ID="id_5e1a0403-4ca6-4889-9e2b-b6a687505b2f">
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr ID="id_1cb0f6b0-a627-4736-8104-a00f35f152b8">
+                           <td align="left" valign="top">   Myalgia</td>
+                           <td align="left" valign="top">2.0</td>
+                           <td align="left" valign="top">1.9</td>
+                        </tr>
+                        <tr ID="id_e8a948f5-234d-4dbf-9140-a3d626a680f0">
+                           <td align="left" valign="top">   Fracture</td>
+                           <td align="left" valign="top">1.1</td>
+                           <td align="left" valign="top">0.8</td>
+                        </tr>
+                        <tr ID="id_0c5945e5-1a28-471a-b6c5-0515ed084068">
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr ID="id_85940d7f-41ec-494c-a22f-5daa2f2fa78c">
+                           <td align="left" valign="top">   Somnolence</td>
+                           <td align="left" valign="top">19.3</td>
+                           <td align="left" valign="top">8.7</td>
+                        </tr>
+                        <tr ID="id_4870b958-3370-41de-b336-6cae1030a81e">
+                           <td align="left" valign="top">   Dizziness</td>
+                           <td align="left" valign="top">17.1</td>
+                           <td align="left" valign="top">6.9</td>
+                        </tr>
+                        <tr ID="id_35f2d9aa-004e-4710-85e4-544b83509656">
+                           <td align="left" valign="top">   Ataxia</td>
+                           <td align="left" valign="top">12.5</td>
+                           <td align="left" valign="top">5.6</td>
+                        </tr>
+                        <tr ID="id_8583d468-3c35-49fa-948b-a53a68f0e1b9">
+                           <td align="left" valign="top">   Nystagmus</td>
+                           <td align="left" valign="top">8.3</td>
+                           <td align="left" valign="top">4.0</td>
+                        </tr>
+                        <tr ID="id_f8237e0e-7d8a-4c51-885c-29843c30bc97">
+                           <td align="left" valign="top">   Tremor</td>
+                           <td align="left" valign="top">6.8</td>
+                           <td align="left" valign="top">3.2</td>
+                        </tr>
+                        <tr ID="id_b562bb7e-0dd3-4b46-aa4c-4a43cc64823b">
+                           <td align="left" valign="top">   Nervousness</td>
+                           <td align="left" valign="top">2.4</td>
+                           <td align="left" valign="top">1.9</td>
+                        </tr>
+                        <tr ID="id_f8e04b47-fec6-434f-8804-3e1ab9b11bdd">
+                           <td align="left" valign="top">   Dysarthria</td>
+                           <td align="left" valign="top">2.4</td>
+                           <td align="left" valign="top">0.5</td>
+                        </tr>
+                        <tr ID="id_ce7afd88-0340-4f7a-ae48-020d163c3af3">
+                           <td align="left" valign="top">   Amnesia</td>
+                           <td align="left" valign="top">2.2</td>
+                           <td align="left" valign="top">0.0</td>
+                        </tr>
+                        <tr ID="id_a7f815a0-9624-411b-8091-c6af321f78f3">
+                           <td align="left" valign="top">   Depression</td>
+                           <td align="left" valign="top">1.8</td>
+                           <td align="left" valign="top">1.1</td>
+                        </tr>
+                        <tr ID="id_82caa89a-c359-402c-a6ba-3b4f18b01553">
+                           <td align="left" valign="top">   Thinking Abnormal</td>
+                           <td align="left" valign="top">1.7</td>
+                           <td align="left" valign="top">1.3</td>
+                        </tr>
+                        <tr ID="id_ce4dd4a7-ca0e-4ce6-ab1f-ed955cb5be7b">
+                           <td align="left" valign="top">   Twitching</td>
+                           <td align="left" valign="top">1.3</td>
+                           <td align="left" valign="top">0.5</td>
+                        </tr>
+                        <tr ID="id_1ad4ced4-013f-4a5f-ab6f-320d1fa6aab5">
+                           <td align="left" valign="top">   Coordination Abnormal</td>
+                           <td align="left" valign="top">1.1</td>
+                           <td align="left" valign="top">0.3</td>
+                        </tr>
+                        <tr ID="id_28f83e33-aa07-4650-b6bd-c10baf0dac41">
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr ID="id_17700c90-5a8a-41af-8f09-5a7906cdcb68">
+                           <td align="left" valign="top">   Rhinitis</td>
+                           <td align="left" valign="top">4.1</td>
+                           <td align="left" valign="top">3.7</td>
+                        </tr>
+                        <tr ID="id_a4cc8579-7a1b-497d-bf8c-ac3151cfe427">
+                           <td align="left" valign="top">   Pharyngitis</td>
+                           <td align="left" valign="top">2.8</td>
+                           <td align="left" valign="top">1.6</td>
+                        </tr>
+                        <tr ID="id_b58cd6d7-14b7-47e3-af86-da1e3885f85c">
+                           <td align="left" valign="top">   Coughing</td>
+                           <td align="left" valign="top">1.8</td>
+                           <td align="left" valign="top">1.3</td>
+                        </tr>
+                        <tr ID="id_bf541463-5cf0-4381-b557-af3cf1f9ef84">
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr ID="id_06e64212-ab27-4dac-a7ae-6e33cd0280a5">
+                           <td align="left" valign="top">   Abrasion</td>
+                           <td align="left" valign="top">1.3</td>
+                           <td align="left" valign="top">0.0</td>
+                        </tr>
+                        <tr ID="id_e270c4eb-ea54-4573-9b62-2f3e51f5b632">
+                           <td align="left" valign="top">   Pruritus</td>
+                           <td align="left" valign="top">1.3</td>
+                           <td align="left" valign="top">0.5</td>
+                        </tr>
+                        <tr ID="id_22323792-9e03-45ad-b296-8f2ec4a34981">
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr ID="id_f03099cf-9758-41b4-9c74-128758e52288">
+                           <td align="left" valign="top">   Impotence</td>
+                           <td align="left" valign="top">1.5</td>
+                           <td align="left" valign="top">1.1</td>
+                        </tr>
+                        <tr ID="id_efa108a5-feb6-4da8-ae46-ab383727d061">
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr ID="id_bcaae9a1-7831-4059-ba09-ff3ea4164072">
+                           <td align="left" valign="top">   Diplopia</td>
+                           <td align="left" valign="top">5.9</td>
+                           <td align="left" valign="top">1.9</td>
+                        </tr>
+                        <tr ID="id_f7f753bd-935b-4f85-9c8d-4ec13534cafe">
+                           <td align="left" valign="top">   Amblyopia</td>
+                           <td align="left" valign="top">4.2</td>
+                           <td align="left" valign="top">1.1</td>
+                        </tr>
+                        <tr ID="id_d4ac87ba-ca85-44ae-982c-95332bc4b0cc">
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                           <td align="left" valign="top"/>
+                        </tr>
+                        <tr ID="id_4378a41d-8432-4864-a738-2cf490874032" styleCode="Botrule">
+                           <td align="left" valign="top">   WBC Decreased</td>
+                           <td align="left" valign="top">1.1</td>
+                           <td align="left" valign="top">0.5</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>a     Plus background antoepileptic drug therapy</paragraph>
+                  <br/>
+                  <paragraph>b     Amblyopia was often describes as blurred vision</paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_08744519-3129-4a20-a0be-14ccc24212fd">
+               <id root="626eefa0-3e04-4b8e-a413-bba11304322e"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Other events in more than 1% of patients &gt;12 years of age but equally or more frequent in the placebo group included: headache, viral infection, fever, nausea and/or vomiting, abdominal pain, diarrhea, convulsions, confusion, insomnia, emotional lability, rash, acne.</paragraph>
+                  <paragraph>Among the treatment-emergent adverse events occurring at an incidence of at least 10% of Gabapentin Capsule-treated patients, somnolence and ataxia appeared to exhibit a positive dose-response relationship.</paragraph>
+                  <paragraph>The overall incidence of adverse events and the types of adverse events seen were similar among men and women treated with Gabapentin Capsules. The incidence of adverse events increased slightly with increasing age in patients treated with either Gabapentin Capsules or placebo. Because only 3% of patients (28/921) in placebo-controlled studies were identified as nonwhite (black or other), there are insufficient data to support a statement regarding the distribution of adverse events by race.</paragraph>
+                  <paragraph>Table 5 lists treatment-emergent signs and symptoms that occurred in at least 2% of Gabapentin Capsule-treated patients age 3 to 12 years of age with epilepsy participating in placebo-controlled trials and were numerically more common in the Gabapentin Capsules group. Adverse events were usually mild to moderate in intensity.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TABLE 5. Treatment – Emergent Adverse Event Incidence in Pediatric Patients Age 3 to 12 Years in a <br/>Controlled Add-On Trial (Events in at least 2% of Gabapentin Capsules patients and numerically more <br/>                                                             frequent than in the placebo group)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Body System/                                                                                                                                         Gabapentin           </content>
+                     <content styleCode="bold">Placebo</content>
+                     <content styleCode="bold">
+                        <sup>a</sup>
+                     </content>
+                     <content styleCode="bold">
+                        <br/>            Adverse Event                                                                                                                               </content>
+                     <content styleCode="bold">Capsules</content>
+                     <content styleCode="bold">
+                        <sup>a</sup>
+                     </content>
+                     <content styleCode="bold">           N=128<br/>                                                                                                                                                                      N=119                   %<br/>                                                                                                                                                                          %</content>     </paragraph>
+                  <table width="0.000" ID="id_c67c6aa8-34ec-4c69-9a9b-5278295b6cb9">
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr ID="id_03f32552-7658-4c69-aee9-e823be166ff5" styleCode="Toprule">
+                           <td align="left" valign="top" colspan="3">
+                              <content styleCode="underline">Body as a Whole</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_fbff61ee-13f3-4dc2-bcd4-690f523b55e5">
+                           <td align="left" valign="top">   Viral Infection</td>
+                           <td align="left" valign="top">10.9</td>
+                           <td align="left" valign="top">3.1</td>
+                        </tr>
+                        <tr ID="id_b76c0f50-ad19-4d7e-ba10-95c42213e9ec">
+                           <td align="left" valign="top">   Fever</td>
+                           <td align="left" valign="top">10.1</td>
+                           <td align="left" valign="top">3.1</td>
+                        </tr>
+                        <tr ID="id_c47382cc-c720-40b7-939a-dc179aaf293a">
+                           <td align="left" valign="top">   Weight Increase</td>
+                           <td align="left" valign="top">3.4</td>
+                           <td align="left" valign="top">0.8</td>
+                        </tr>
+                        <tr ID="id_15d6e301-03a6-4fc3-a3fc-b95012801628">
+                           <td align="left" valign="top">   Fatigue</td>
+                           <td align="left" valign="top">3.4</td>
+                           <td align="left" valign="top">1.6</td>
+                        </tr>
+                        <tr ID="id_aaed9936-f56d-4a20-ab48-5b85875a8229">
+                           <td align="left" valign="top" colspan="3">
+                              <content styleCode="underline">Digestive System</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_6bb544f4-b08b-422a-9230-febdcb62a044">
+                           <td align="left" valign="top">   Nausea and / or Vomiting</td>
+                           <td align="left" valign="top">8.4</td>
+                           <td align="left" valign="top">7.0</td>
+                        </tr>
+                        <tr ID="id_78427d7c-5006-4aaa-ace4-e2c84544761d">
+                           <td align="left" valign="top" colspan="3">
+                              <content styleCode="underline">Nervous System</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_cfe9a497-8f89-417a-8c96-c3843c0d1673">
+                           <td align="left" valign="top">   Somnolence</td>
+                           <td align="left" valign="top">8.4</td>
+                           <td align="left" valign="top">4.7</td>
+                        </tr>
+                        <tr ID="id_e5e02692-deb0-4f5a-ab47-05da6215a90e">
+                           <td align="left" valign="top">   Hostility</td>
+                           <td align="left" valign="top">7.6</td>
+                           <td align="left" valign="top">2.3</td>
+                        </tr>
+                        <tr ID="id_47b1c634-f9b4-4f31-ba9c-c9febc99f2b1">
+                           <td align="left" valign="top">   Emotional Lability</td>
+                           <td align="left" valign="top">4.2</td>
+                           <td align="left" valign="top">1.6</td>
+                        </tr>
+                        <tr ID="id_dbeaca8e-a079-4d0f-a20a-5f752db77977">
+                           <td align="left" valign="top">   Dizziness</td>
+                           <td align="left" valign="top">2.5</td>
+                           <td align="left" valign="top">1.6</td>
+                        </tr>
+                        <tr ID="id_3a34c107-c500-42e5-af90-794d66370b63">
+                           <td align="left" valign="top">   Hyperkinesia</td>
+                           <td align="left" valign="top">2.5</td>
+                           <td align="left" valign="top">0.8</td>
+                        </tr>
+                        <tr ID="id_7e9b200d-1c19-4d55-83bf-5c70768dce73">
+                           <td align="left" valign="top" colspan="3">
+                              <content styleCode="underline">Respiratory System</content>
+                           </td>
+                        </tr>
+                        <tr ID="id_a03aff20-05d1-4030-ba5e-dd05f003998e">
+                           <td align="left" valign="top">   Bronchitis</td>
+                           <td align="left" valign="top">3.4</td>
+                           <td align="left" valign="top">0.8</td>
+                        </tr>
+                        <tr ID="id_69c49cc4-1769-4436-976e-767741626b9b" styleCode="Botrule">
+                           <td align="left" valign="top">   Respiratory Infection</td>
+                           <td align="left" valign="top">2.5</td>
+                           <td align="left" valign="top">0.8</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>a     Plus background antiepileptic drug therapy</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Other events in more than 2% of pediatric patients 3 to 12 years of age but equally or more frequent in the placebo group included: pharyngitis, upper respiratory infection, headache, rhinitis, convulsions, diarrhea, anorexia, coughing, and otitis media.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other Adverse Events Observed During All Clinical Trials</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Clinical Trials in Adults and Adolescents (Except Clinical Trials in Neuropathic Pain)</content>
+                  </paragraph>
+                  <paragraph>Gabapentin Capsules has been administered to 4717 patients &gt;12 years of age during all adjunctive therapy clinical trials (except clinical trials in patients with neuropathic pain), only some of which were placebo-controlled. During these trials, all adverse events were recorded by the clinical investigators using terminology of their own choosing. To provide a meaningful estimate of the proportion of individuals having adverse events, similar types of events were grouped into a smaller number of standardized categories using modified COSTART dictionary terminology. These categories are used in the listing below. The frequencies presented represent the proportion of the 4717 patients &gt;12 years of age exposed to Gabapentin Capsules who experienced an event of the type cited on at least one occasion while receiving Gabapentin Capsules. All reported events are included except those already listed in Table 4, those too general to be informative, and those not reasonably associated with the use of the drug.</paragraph>
+                  <paragraph>Events are further classified within body system categories and enumerated in order of decreasing frequency using the following definitions: frequent adverse events are defined as those occurring in at least 1/100 patients; infrequent adverse events are those occurring in 1/100 to 1/1000 patients; rare events are those occurring in fewer than 1/1000 patients.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Body As A Whole: </content>
+                     <content styleCode="italics">Frequent: </content>asthenia, malaise, face edema; <content styleCode="italics">Infrequent: </content>allergy, generalized edema, weight decrease, chill; <content styleCode="italics">Rare: </content>strange feelings, lassitude, alcohol intolerance, hangover effect.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular System: </content>
+                     <content styleCode="italics">Frequent: </content>hypertension; <content styleCode="italics">Infrequent: </content>hypotension, angina pectoris, peripheral vascular disorder, palpitation, tachycardia, migraine, murmur; <content styleCode="italics">Rare: </content>atrial fibrillation, heart failure, thrombophlebitis, deep thrombophlebitis, myocardial infarction, cerebrovascular accident, pulmonary thrombosis, ventricular extrasystoles, bradycardia, premature atrial contraction, pericardial rub, heart block, pulmonary embolus, hyperlipidemia, hypercholesterolemia, pericardial effusion, pericarditis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Digestive System: </content>
+                     <content styleCode="italics">Frequent: </content>anorexia, flatulence, gingivitis; <content styleCode="italics">Infrequent: </content>glossitis, gum hemorrhage, thirst, stomatitis, increased salivation, gastroenteritis, hemorrhoids, bloody stools, fecal incontinence, hepatomegaly; <content styleCode="italics">Rare: </content>dysphagia, eructation, pancreatitis, peptic ulcer, colitis, blisters in mouth, tooth discolor, perlèche, salivary gland enlarged, lip hemorrhage, esophagitis, hiatal hernia, hematemesis, proctitis, irritable bowel syndrome, rectal hemorrhage, esophageal spasm.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Endocrine System: </content>
+                     <content styleCode="italics">Rare: </content>hyperthyroid, hypothyroid, goiter, hypoestrogen, ovarian failure, epididymitis, swollen testicle, cushingoid appearance.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hematologic and Lymphatic System: </content>
+                     <content styleCode="italics">Frequent: </content>purpura most often described as bruises resulting from physical trauma; <content styleCode="italics">Infrequent: </content>anemia, thrombocytopenia, lymphadenopathy; <content styleCode="italics">Rare: </content>WBC count increased, lymphocytosis, non-Hodgkin’s lymphoma, bleeding time increased.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Musculoskeletal System: </content>
+                     <content styleCode="italics">Frequent: </content>arthralgia; <content styleCode="italics">Infrequent: </content>tendinitis, arthritis, joint stiffness, joint swelling, positive Romberg test; <content styleCode="italics">Rare: </content>costochondritis, osteoporosis, bursitis, contracture.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nervous System: </content>
+                     <content styleCode="italics">Frequent: </content>vertigo, hyperkinesia, paresthesia, decreased or absent reflexes, increased reflexes, anxiety, hostility; <content styleCode="italics">Infrequent: </content>CNS tumors, syncope, dreaming abnormal, aphasia, hypesthesia, intracranial hemorrhage, hypotonia, dysesthesia, paresis, dystonia, hemiplegia, facial paralysis, stupor, cerebellar dysfunction, positive Babinski sign, decreased position sense, subdural hematoma, apathy, hallucination, decrease or loss of libido, agitation, paranoia, depersonalization, euphoria, feeling high, doped-up sensation, psychosis; <content styleCode="italics">Rare: </content>choreoathetosis, orofacial dyskinesia, encephalopathy, nerve palsy, personality disorder, increased libido, subdued temperament, apraxia, fine motor control disorder, meningismus, local myoclonus, hyperesthesia, hypokinesia, mania, neurosis, hysteria, antisocial reaction.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory System: </content>
+                     <content styleCode="italics">Frequent: </content>pneumonia; <content styleCode="italics">Infrequent: </content>epistaxis, dyspnea, apnea; <content styleCode="italics">Rare: </content>mucositis, aspiration pneumonia, hyperventilation, hiccup, laryngitis, nasal obstruction, snoring, bronchospasm, hypoventilation, lung edema.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dermatological: </content>
+                     <content styleCode="italics">Infrequent: </content>alopecia, eczema, dry skin, increased sweating, urticaria, hirsutism, seborrhea, cyst, herpes simplex; <content styleCode="italics">Rare: </content>herpes zoster, skin discolor, skin papules, photosensitive reaction, leg ulcer, scalp seborrhea, psoriasis, desquamation, maceration, skin nodules, subcutaneous nodule, melanosis, skin necrosis, local swelling.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Urogenital System: </content>
+                     <content styleCode="italics">Infrequent: </content>hematuria, dysuria, urination frequency, cystitis, urinary retention, urinary incontinence, vaginal hemorrhage, amenorrhea, dysmenorrhea, menorrhagia, breast cancer, unable to climax, ejaculation abnormal; <content styleCode="italics">Rare: </content>kidney pain, leukorrhea, pruritus genital, renal stone, acute renal failure, anuria, glycosuria, nephrosis, nocturia, pyuria, urination urgency, vaginal pain, breast pain, testicle pain.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Senses: </content>
+                     <content styleCode="italics">Frequent: </content>abnormal vision; <content styleCode="italics">Infrequent: </content>cataract, conjunctivitis, eyes dry, eye pain, visual field defect, photophobia, bilateral or unilateral ptosis, eye hemorrhage, hordeolum, hearing loss, earache, tinnitus, inner ear infection, otitis, taste loss, unusual taste, eye twitching, ear fullness; <content styleCode="italics">Rare: </content>eye itching, abnormal accommodation, perforated ear drum, sensitivity to noise, eye focusing problem, watery eyes, retinopathy, glaucoma, iritis, corneal disorders, lacrimal dysfunction, degenerative eye changes, blindness, retinal degeneration, miosis, chorioretinitis, strabismus, eustachian tube dysfunction, labyrinthitis, otitis externa, odd smell.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Clinical trials in Pediatric Patients With Epilepsy</content>
+                  </paragraph>
+                  <paragraph>Adverse events occurring during epilepsy clinical trials in 449 pediatric patients 3 to 12 years of age treated with gabapentin that were not reported in adjunctive trials in adults are:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Body as a Whole: </content>dehydration, infectious mononucleosis</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Digestive System: </content>hepatitis</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hemic and Lymphatic System: </content>coagulation defect</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nervous System: </content>aura disappeared, occipital neuralgia</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Psychobiologic Function: </content>sleepwalking</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory System: </content>pseudocroup, hoarseness</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Clinical Trials in Adults With Neuropathic Pain of Various Etiologies</content>
+                  </paragraph>
+                  <paragraph>Safety information was obtained in 1173 patients during double-blind and open-label clinical trials including neuropathic pain conditions for which efficacy has not been demonstrated. Adverse events reported by investigators were grouped into standardized categories using modified COSTART IV terminology. Listed below are all reported events except those already listed in Table 3 and those not reasonably associated with the use of the drug.</paragraph>
+                  <paragraph>Events are further classified within body system categories and enumerated in order of decreasing frequency using the following definitions: frequent adverse events are defined as those occurring in at least 1/100 patients; infrequent adverse events are those occurring in 1/100 to 1/1000 patients; rare events are those occurring in fewer than 1/1000 patients.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Body as a Whole: </content>
+                     <content styleCode="italics">Infrequent: </content>chest pain, cellulitis, malaise, neck pain, face edema, allergic reaction, abscess, chills, chills and fever, mucous membrane disorder; <content styleCode="italics">Rare: </content>body odor, cyst, fever, hernia, abnormal BUN value, lump in neck, pelvic pain, sepsis, viral infection.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular System: </content>
+                     <content styleCode="italics">Infrequent: </content>hypertension, syncope, palpitation, migraine, hypotension, peripheral vascular disorder, cardiovascular disorder, cerebrovascular accident, congestive heart failure, myocardial infarction, vasodilatation; <content styleCode="italics">Rare: </content>angina pectoris, heart failure, increased capillary fragility, phlebitis, thrombophlebitis, varicose vein.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Digestive System: </content>
+                     <content styleCode="italics">Infrequent: </content>gastroenteritis, increased appetite, gastrointestinal disorder, oral moniliasis, gastritis, tongue disorder, thirst, tooth disorder, abnormal stools, anorexia, liver function tests abnormal, periodontal abscess; <content styleCode="italics">Rare: </content>cholecystitis, cholelithiasis, duodenal ulcer, fecal incontinence, gamma glutamyl transpeptidase increased, gingivitis, intestinal obstruction, intestinal ulcer, melena, mouth ulceration, rectal disorder, rectal hemorrhage, stomatitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Endocrine System</content>: <content styleCode="italics">Infrequent: </content>diabetes mellitus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hemic and Lymphatic System: </content>
+                     <content styleCode="italics">Infrequent: </content>ecchymosis, anemia; <content styleCode="italics">Rare: </content>lymphadenopathy, lymphoma- like reaction, prothrombin decreased.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metabolic and Nutritional: </content>
+                     <content styleCode="italics">Infrequent: </content>edema, gout, hypoglycemia, weight loss; <content styleCode="italics">Rare: </content>alkaline phosphatase increased, diabetic ketoacidosis, lactic dehydrogenase increased.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Musculoskeletal: </content>
+                     <content styleCode="italics">Infrequent: </content>arthritis, arthralgia, myalgia, arthrosis, leg cramps, myasthenia; <content styleCode="italics">Rare: </content>shin bone pain, joint disorder, tendon disorder.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nervous System: </content>
+                     <content styleCode="italics">Frequent: </content>confusion, depression; <content styleCode="italics">Infrequent: </content>vertigo, nervousness, paresthesia, insomnia, neuropathy, libido decreased, anxiety, depersonalization, reflexes decreased, speech disorder, abnormal dreams, dysarthria, emotional lability, nystagmus, stupor, circumoral paresthesia, euphoria, hyperesthesia, hypokinesia; <content styleCode="italics">Rare: </content>agitation, hypertonia, libido increased, movement disorder, myoclonus, vestibular disorder.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory System: </content>
+                     <content styleCode="italics">Infrequent: </content>cough increased, bronchitis, rhinitis, sinusitis, pneumonia, asthma, lung disorder, epistaxis; <content styleCode="italics">Rare: </content>hemoptysis, voice alteration.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin and Appendages: </content>
+                     <content styleCode="italics">Infrequent: </content>pruritus, skin ulcer, dry skin, herpes zoster, skin disorder, fungal dermatitis, furunculosis, herpes simplex, psoriasis, sweating, urticaria, vesiculobullous rash; <content styleCode="italics">Rare: </content>acne, hair disorder, maculopapular rash, nail disorder, skin carcinoma, skin discoloration, skin hypertrophy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Senses</content>: <content styleCode="italics">Infrequent: </content>abnormal vision, ear pain, eye disorder, taste perversion, deafness; <content styleCode="italics">Rare: </content>conjunctival hyperemia, diabetic retinopathy, eye pain, fundi with microhemorrhage, retinal vein thrombosis, taste loss.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Urogenital System: </content>
+                     <content styleCode="italics">Infrequent: </content>urinary tract infection, dysuria, impotence, urinary incontinence, vaginal moniliasis, breast pain, menstrual disorder, polyuria, urinary retention; <content styleCode="italics">Rare: </content>cystitis, ejaculation abnormal, swollen penis<content styleCode="italics">, </content>gynecomastia, nocturia, pyelonephritis, swollen scrotum<content styleCode="italics">, </content>urinary frequency, urinary urgency, urine abnormality.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Postmarketing and Other Experience</content>
+                  </paragraph>
+                  <paragraph>In addition to the adverse experiences reported during clinical testing of Gabapentin Capsules, the following adverse experiences have been reported in patients receiving marketed Gabapentin Capsules. These adverse experiences have not been listed above and data are insufficient to support an estimate of their incidence or to establish causation. The listing is alphabetized: angioedema, blood glucose fluctuation, breast hypertrophy, erythema multiforme, elevated liver function tests, fever, hyponatremia, jaundice, movement disorder, Stevens-Johnson syndrome.</paragraph>
+                  <paragraph>Adverse events following the abrupt discontinuation of gabapentin have also been reported. The most frequently reported events were anxiety, insomnia, nausea, pain and sweating.</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_abuse_dependence_id_0e4dd3f0-5d39-4bf8-a355-4c3aa9cb96a6">
+               <id root="3830cc6e-c24c-4216-b765-722c4ba409d5"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42227-9" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph>The abuse and dependence potential of Gabapentin Capsules has not been evaluated in human studies.</paragraph>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_5875cdf3-d5c4-4e04-9f11-e0bda01617d0">
+               <id root="564cbfb8-dc82-416c-a18a-32f9b8b3d638"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34088-5" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>A lethal dose of gabapentin was not identified in mice and rats receiving single oral doses as high as 8000 mg/kg. Signs of acute toxicity in animals included ataxia, labored breathing, ptosis, sedation, hypoactivity, or excitation.</paragraph>
+                  <paragraph>Acute oral overdoses of Gabapentin Capsules up to 49 grams have been reported. In these cases, double vision, slurred speech, drowsiness, lethargy and diarrhea were observed. All patients recovered with supportive care.</paragraph>
+                  <paragraph>Gabapentin can be removed by hemodialysis. Although hemodialysis has not been performed in the few overdose cases reported, it may be indicated by the patient’s clinical state or in patients with significant renal impairment.</paragraph>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_d513470d-7d98-44d5-96bc-30ce21773751">
+               <id root="b27eb5bf-7769-4484-adfb-80b711659343"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Gabapentin Capsules is given orally with or without food.</paragraph>
+                  <paragraph>If Gabapentin Capsules dose is reduced, discontinued or substituted with an alternative medication, this should be done gradually over a minimum of 1 week (a longer period may be needed at the discretion of the prescriber).</paragraph>
+                  <paragraph> Postherpetic Neuralgia </paragraph>
+                  <paragraph>In adults with postherpetic neuralgia, Gabapentin Capsules therapy may be initiated as a single 300-mg dose on Day 1, 600 mg/day on Day 2 (divided BID), and 900 mg/day on Day 3 (divided TID). The dose can subsequently be titrated up as needed for pain relief to a daily dose of 1800 mg (divided TID). In clinical studies, efficacy was demonstrated over a range of doses from 1800 mg/day to 3600 mg/day with comparable effects across the dose range. Additional benefit of using doses greater than 1800 mg/day was not demonstrated.</paragraph>
+                  <paragraph> Epilepsy </paragraph>
+                  <paragraph>Gabapentin Capsules is recommended for add-on therapy in patients 3 years of age and older. Effectiveness in pediatric patients below the age of 3 years has not been established.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patients &gt;12 years of age: </content>The effective dose of Gabapentin Capsules is 900 to 1800 mg/day and given in divided doses (three times a day) using 300 or 400 mg capsules. The starting dose is 300 mg three times a day. If necessary, the dose may be increased using 300 or 400 mg capsules three times a day up to 1800 mg/day. Dosages up to 2400 mg/day have been well tolerated in long-term clinical studies. Doses of 3600 mg/day have also been administered to a small number of patients for a relatively short duration, and have been well tolerated. The maximum time between doses in the TID schedule should not exceed 12 hours.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Patients Age 3–12 years: </content>The starting dose should range from 10-15 mg/kg/day in 3 divided doses, and the effective dose reached by upward titration over a period of approximately 3 days. The effective dose of Gabapentin Capsules in patients 5 years of age and older is 25–35 mg/kg/day and given in divided doses (three times a day). The effective dose in pediatric patients ages 3 and 4 years is 40 mg/kg/day and given in divided doses (three times a day) (see CLINICAL PHARMACOLOGY, Pediatrics.) Dosages up to 50 mg/kg/day have been well-tolerated in a long-term clinical study. The maximum time interval between doses should not exceed 12 hours.</paragraph>
+                  <paragraph>It is not necessary to monitor gabapentin plasma concentrations to optimize Gabapentin Capsules therapy. Further, because there are no significant pharmacokinetic interactions among Gabapentin Capsules and other commonly used antiepileptic drugs, the addition of Gabapentin Capsules does not alter the plasma levels of these drugs appreciably.</paragraph>
+                  <paragraph>If Gabapentin Capsules is discontinued and/or an alternate anticonvulsant medication is added to the therapy, this should be done gradually over a minimum of 1 week.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dosage in Renal Impairment</content>
+                  </paragraph>
+                  <paragraph>Creatinine clearance is difficult to measure in outpatients. In patients with stable renal function, creatinine clearance (C<sub>Cr</sub>) can be reasonably well estimated using the equation of Cockcroft and Gault:</paragraph>
+                  <br/>
+                  <paragraph>for females C<sub>Cr</sub>=(0.85)(140 age)(weight)/[(72)(S<sub>Cr</sub>)]<br/>for males C<sub>Cr</sub>=(140 age)(weight)/[(72)(S<sub>Cr</sub>)]</paragraph>
+                  <paragraph>where age is in years, weight is in kilograms and S<sub>Cr</sub> is serum creatinine in mg/dL.</paragraph>
+                  <paragraph>Dosage adjustment in patients ≥ 12 years of age with compromised renal function or undergoing hemodialysis is recommended as follows (see dosing recommendations above for effective doses in each indication).</paragraph>
+                  <table width="0.000" ID="id_2a4b9131-08d6-41b2-bf7a-d30a5f0a97b2">
+                     <caption ID="id_419297c2-eebc-48ce-a6b4-d573919ba8d0">Table 6. Gabapetin Capsules Dosage Based on Renal Function.</caption>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr ID="id_f39c47b9-410a-4e53-b448-c60d75f7b0bc" styleCode="Toprule">
+                           <td align="left" valign="top">
+                              <content styleCode="bold">Renal Function</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                              <content styleCode="bold">Creatinine Clearance</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                              <content styleCode="bold">(mL/min)</content>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule">
+                              <content styleCode="bold">Total Daily Dose</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                              <content styleCode="bold">Range</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                              <content styleCode="bold">(mg/day)</content> </td>
+                           <td align="left" valign="top" styleCode="Toprule">
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule">
+                              <br/>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule">
+                              <content styleCode="bold">Dose Regimen</content>
+                              <content styleCode="bold">
+                                 <br/>
+                              </content>
+                              <content styleCode="bold">(mg)</content>
+                           </td>
+                           <td align="left" valign="top" styleCode="Toprule">
+                              <br/>
+                           </td>
+                           <td align="left" valign="top">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr ID="id_47774038-845e-4adb-98b2-3e5a9ea745c4">
+                           <td align="left" valign="top">≥60</td>
+                           <td align="left" valign="top">900-3600<br/>
+                           </td>
+                           <td align="left" valign="top">300 TID<br/>
+                           </td>
+                           <td align="left" valign="top">400 TID<br/>
+                           </td>
+                           <td align="left" valign="top">600 TID<br/>
+                           </td>
+                           <td align="left" valign="top">800 TID<br/>
+                           </td>
+                           <td align="left" valign="top">1200 TID<br/>
+                           </td>
+                        </tr>
+                        <tr ID="id_561d4105-f286-4a52-8760-cfa0262f103b">
+                           <td align="left" valign="top">&gt;30-59</td>
+                           <td align="left" valign="top">400-1400<br/>
+                           </td>
+                           <td align="left" valign="top">200 BID<br/>
+                           </td>
+                           <td align="left" valign="top">300 BID<br/>
+                           </td>
+                           <td align="left" valign="top">400 BID<br/>
+                           </td>
+                           <td align="left" valign="top">500 BID<br/>
+                           </td>
+                           <td align="left" valign="top">700 BID<br/>
+                           </td>
+                        </tr>
+                        <tr ID="id_13ddfc93-5ad3-4f5f-b283-24c8ab48d60c">
+                           <td align="left" valign="top">&gt;15-29</td>
+                           <td align="left" valign="top">200-700<br/>
+                           </td>
+                           <td align="left" valign="top">200 QD<br/>
+                           </td>
+                           <td align="left" valign="top">300 QD<br/>
+                           </td>
+                           <td align="left" valign="top">400 QD<br/>
+                           </td>
+                           <td align="left" valign="top">500 QD<br/>
+                           </td>
+                           <td align="left" valign="top">700 QD<br/>
+                           </td>
+                        </tr>
+                        <tr ID="id_c375a62a-68a1-4f52-9efe-4e83fe99bdf6">
+                           <td align="left" valign="top">15<sup>a</sup>
+                           </td>
+                           <td align="left" valign="top">100-300<br/>
+                           </td>
+                           <td align="left" valign="top">100 QD<br/>
+                           </td>
+                           <td align="left" valign="top">125 QD<br/>
+                           </td>
+                           <td align="left" valign="top">150 QD<br/>
+                           </td>
+                           <td align="left" valign="top">200 QD<br/>
+                           </td>
+                           <td align="left" valign="top">300 QD<br/>
+                           </td>
+                        </tr>
+                        <tr ID="id_9f12cf2e-91f1-47ba-ad11-735ff85596d8">
+                           <td align="left" valign="top">
+                              <br/>
+                           </td>
+                           <td align="left" valign="top">
+                              <br/>
+                           </td>
+                           <td align="left" valign="top">
+                              <br/>
+                           </td>
+                           <td align="left" valign="top">
+                              <br/>
+                           </td>
+                           <td align="left" valign="top">Post-Hemodialysis<br/>
+                           </td>
+                           <td align="left" valign="top">Supplemental<br/>
+                           </td>
+                           <td align="left" valign="top">Dose (mg)<sup>b</sup>
+                           </td>
+                        </tr>
+                        <tr ID="id_59bcd85b-f178-4d8a-b8eb-0e48cb43166c" styleCode="Botrule">
+                           <td align="left" valign="top">Hemodialysis</td>
+                           <td align="left" valign="top">
+                              <br/>
+                           </td>
+                           <td align="left" valign="top">125<sup>b</sup>
+                           </td>
+                           <td align="left" valign="top">150<sup>b</sup>
+                           </td>
+                           <td align="left" valign="top">200<sup>b</sup>
+                           </td>
+                           <td align="left" valign="top">250<sup>b</sup>
+                           </td>
+                           <td align="left" valign="top">350<sup>b</sup>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>a     For patients with creatinine clearance less than 15 mL/min, reduce daily dose in proportion to creatinine clearance (e.g., patients with a creatinine clearance of 7.5 mL/min should receive one-half the daily dose that patients with a creatinine clearance of 15 mL/min receive). </paragraph>
+                  <br/>
+                  <paragraph>b     Patients on hemodialysis should receive maintenance doses based on estimates of creatinine clearance as indicated in the upper portion of the table and a supplemental post-hemodialysis dose administered after each 4 hours of hemodialysis as indicated in the lower portion of the table.</paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <paragraph>The use of Gabapentin Capsules in patients less than 12 years of age with compromised renal function has not been studied.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dosage in Elderly</content>
+                  </paragraph>
+                  <paragraph>Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and dose should be adjusted based on creatinine clearance values in these patients.</paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_978183e5-4d88-4342-a0ab-079884d98dd1">
+               <id root="62add416-f693-4174-ab86-1fd07edaaa2c"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Gabapetin Capsules are supplied as follows:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">300 mg capsules</content>: Buff-Buff, opaque hard gelatin capsules printed with “IP 102” on both cap and body.<br/>They are available as follows:</paragraph>
+                  <paragraph> blister of 30 (NDC 67046-224-30),  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">400 mg capsules</content>: Light caramel-Light caramel, opaque hard gelatin capsules printed with “IP 103” on both cap and body.<br/>They are available as follows:</paragraph>
+                  <paragraph>blister of 30 (NDC 67046-223-30), </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20 to 25°C (68 to 77°F); excursions permitted to 15° to 30°C (59° to 86°F) [see USP Controlled Room Temperature].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>Manufactured by:<br/>
+                     <content styleCode="bold">Amneal Pharmaceuticals of NY</content>
+                     <content styleCode="bold">
+                        <br/>
+                     </content>Hauppauge, NY 11788</paragraph>
+                  <paragraph>Distributed by:<br/>
+                     <content styleCode="bold">Amneal Pharmaceuticals</content>
+                     <content styleCode="bold">
+                        <br/>
+                     </content>Glasgow, KY 42141</paragraph>
+                  <paragraph>Rev. 11-2009</paragraph>
+                  <paragraph>Repackaged by:<br/>
+                     <br/>Contract Pharmacy Services-PA<br/>125 Titus Ave Suite 200<br/>Warrington, PA 18976 USA</paragraph>
+                  <paragraph>Original--04/2010--NJW</paragraph>
+                  <paragraph>Updated--07/2010--NJW</paragraph>
+               </text>
+               <effectiveTime value="20100719"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_5a1e4465-6203-44ce-9caf-3d191874630f">
+               <id root="9ef510e2-ceb5-44f8-b9c7-75348c8fdb6e"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>Gabapetin Capsules</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">300 mg capsules</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="id_7643ba7f-7fee-40e7-ad09-7f8b2e477fa5">
+                     <caption ID="id_6071ab0a-8476-4e50-b5a7-5ecb9ef26bcc">300 mg Blister of 30</caption>
+                  </renderMultiMedia>
+               </text>
+               <effectiveTime value="20100719"/>
+               <component>
+                  <observationMedia ID="id_7643ba7f-7fee-40e7-ad09-7f8b2e477fa5">
+                     <text>300 mg Blister of 30</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9c400666-a559-471f-9024-2f5b24455dee-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_df3ad026-e485-43e7-8865-18cefb14c69c">
+               <id root="e8e3d189-3b4e-4eb7-8762-a11fa4002bc9"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>Gabapetin Capsules</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">400 mg capsules</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="id_5ffd237a-e97b-494f-8e88-e16790f855ad">
+                     <caption ID="id_83976918-1190-464b-9ef2-52a4794fa02b">400 mg Blister of 30</caption>
+                  </renderMultiMedia>
+               </text>
+               <effectiveTime value="20100719"/>
+               <component>
+                  <observationMedia ID="id_5ffd237a-e97b-494f-8e88-e16790f855ad">
+                     <text>400 mg Blister of 30</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9c400666-a559-471f-9024-2f5b24455dee-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

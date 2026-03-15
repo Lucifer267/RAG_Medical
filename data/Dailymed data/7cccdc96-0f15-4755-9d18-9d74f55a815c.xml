@@ -1,0 +1,2224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7cccdc96-0f15-4755-9d18-9d74f55a815c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20100222"/>
+   <setId root="29481887-34eb-460a-bd7f-b8755473065a"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="194123980" root="1.3.6.1.4.1.519.1"/>
+            <name>Physicians Total Care, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="194123980" root="1.3.6.1.4.1.519.1"/>
+                        <name>Physicians Total Care, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="relabel"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3fd1410c-a1f6-44b8-b1c1-99c3fa4cd020"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20100324"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54868-6070" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Exelon<suffix/>
+                        </name>
+                        <formCode code="C42923" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH, EXTENDED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>rivastigmine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0078-0501" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="4.6" unit="mg"/>
+                              <denominator value="24" unit="[USP'U]"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="PKI06M3IW0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>RIVASTIGMINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="PKI06M3IW0" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RIVASTIGMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H4N855PNZ1" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALPHA-TOCOPHEROL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="24" unit="[USP'U]"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="30" unit="1">
+                                       <translation code="C48524" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="54868-6070-0" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20091007"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA022083" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54868-5954" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Exelon<suffix/>
+                        </name>
+                        <formCode code="C42923" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH, EXTENDED RELEASE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>rivastigmine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0078-0502" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="9.5" unit="mg"/>
+                              <denominator value="24" unit="[USP'U]"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="PKI06M3IW0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>RIVASTIGMINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="PKI06M3IW0" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RIVASTIGMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H4N855PNZ1" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALPHA-TOCOPHEROL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="24" unit="[USP'U]"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="30" unit="1">
+                                       <translation code="C48524" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="54868-5954-0" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20081014"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA022083" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e924bf06-32ee-4d52-a0c8-961bc3fafc8b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1  INDICATIONS AND USAGE</title>
+               <text>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">1.1 Alzheimer’s Disease</content>
+                  <paragraph>Exelon Patch (rivastigmine transdermal system) is indicated for 
+the treatment of mild to moderate dementia of the Alzheimer’s type.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">1.2 Parkinson’s Disease 
+Dementia</content>
+                  <paragraph>Exelon Patch (rivastigmine transdermal system) is indicated for 
+the treatment of mild to moderate dementia associated with Parkinson’s 
+disease.</paragraph>
+                  <paragraph>The dementia of Parkinson’s disease is purportedly characterized by 
+impairments in executive function, memory retrieval, and attention in patients 
+with an established diagnosis of Parkinson’s disease. The diagnosis of dementia 
+of Parkinson’s disease can be made reliably in patients in whom a progressive 
+dementia syndrome occurs (without the necessity to document the specific 
+deficits described above) at least 2 years after a diagnosis of Parkinson’s 
+disease has been made, and in whom other causes of dementia have been ruled out.</paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="80097241-c1a7-4961-897a-da837fb7451f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2  DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">2.1 Alzheimer’s Disease</content>
+                  <table ID="id5ce921b-e0c0-47ba-80b1-279d5b290824">
+                     <caption>Table 1: Patch Size, Drug Content and Nominal Delivery Rate</caption>
+                     <col width="108"/>
+                     <col width="84"/>
+                     <col width="84"/>
+                     <tbody>
+                        <tr>
+                           <td>Rivastigmine Nominal Dose</td>
+                           <td>Rivastigmine Content per Exelon Patch</td>
+                           <td>Exelon Patch Size </td>
+                        </tr>
+                        <tr>
+                           <td>4.6 mg/24 hours</td>
+                           <td>9 mg</td>
+                           <td>  5 cm<sup>2</sup>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>9.5 mg/24 hours</td>
+                           <td>18 mg</td>
+                           <td>10 cm<sup>2</sup>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">2.1.1 </content>
+                  <content styleCode="bold">Initial Dose</content>
+                  <paragraph>Treatment is started with Exelon Patch 4.6 mg/24 hours.</paragraph>
+                  <paragraph>After a minimum of four weeks of treatment and if well tolerated, this dose 
+should be increased to Exelon Patch 9.5 mg/24 hours, which is the recommended 
+effective dose.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">2.1.2 </content>
+                  <content styleCode="bold">Maintenance Dose</content>
+                  <paragraph>Dose increases should occur only after a minimum of 4 weeks at 
+the previous dose, and only if the previous dose has been well tolerated. The 
+maximum recommended dose is 9.5 mg/24 hours. Higher doses confer no appreciable 
+additional benefit, and are associated with significant increase in the 
+incidence of adverse events [see <content styleCode="italics">Adverse 
+Reactions</content> <content styleCode="italics">(6)</content>].</paragraph>
+                  <paragraph>If adverse effects (e.g., nausea, vomiting, diarrhea, loss of appetite) cause 
+intolerance during treatment, the patient should be instructed to discontinue 
+treatment for several days and then restart at the same or next lower dose 
+level. If treatment is interrupted for longer than several days, treatment 
+should be reinitiated with the lowest daily dose and titrated as described above 
+[also see <content styleCode="italics">Warnings and Precautions</content> <content styleCode="italics">(5)</content>].</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">2.1.3 </content>
+                  <content styleCode="bold">Switching from Capsules or Oral S</content>
+                  <content styleCode="bold">olution</content>
+                  <paragraph>Patients treated with Exelon capsules or oral solution may be 
+switched to Exelon Patch as follows:</paragraph>
+                  <paragraph>A patient who is on a total daily dose of less than 6 mg of oral rivastigmine can 
+be switched to Exelon Patch 4.6 mg/24 hours.</paragraph>
+                  <paragraph>A patient who is on a total daily dose of 6-12 mg of oral rivastigmine may be 
+directly switched to Exelon Patch 9.5 mg/24 hours.</paragraph>
+                  <paragraph>It is recommended to apply the first patch on the day following the last oral 
+dose.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">2.1.4 </content>
+                  <content styleCode="bold">Method 
+of Administration</content>
+                  <paragraph>Exelon Patch should be applied once a day to clean, dry, 
+hairless, intact healthy skin in a place that will not be rubbed against by 
+tight clothing. The upper or lower back is recommended as the site of 
+application because the patch is less likely to be removed by the patient; 
+however, when sites on the back are not accessible the patch can be applied to 
+the upper arm or chest. The patch should not be applied to skin that is red, 
+irritated, or cut. It is recommended that the site of patch application be 
+changed daily to avoid potential irritation, although consecutive patches can be 
+applied to the same anatomic site (e.g., another spot on the upper back).</paragraph>
+                  <paragraph>The patch should be pressed down firmly until the edges stick well. The patch 
+can be used in situations that include bathing and hot weather.</paragraph>
+                  <paragraph>The patch should be replaced with a new one every 24 hours. Do not apply a 
+new patch to that same spot for at least 14 days. Patients and caregivers should 
+be instructed accordingly [see <content styleCode="italics">Patient Counseling 
+Information (17)</content>].</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">2.1.5 </content>
+                  <content styleCode="bold">Incompatibilities</content>
+                  <paragraph>To prevent interference with the adhesive properties of the 
+patch, the patch should not be applied to a skin area where cream, lotion or 
+powder has recently been applied.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">2.1.6 </content>
+                  <content styleCode="bold">Special Populations</content>
+                  <paragraph>2.1.6.1 Hepatic Impairment</paragraph>
+                  <paragraph>Dosage adjustment is not necessary in hepatically impaired patients, as the 
+dose of drug is individually titrated to tolerability.</paragraph>
+                  <paragraph>2.1.6.2 Renal Impairment</paragraph>
+                  <paragraph>No dose adjustment is necessary for patients with renal impairment.</paragraph>
+                  <paragraph>2.1.6.3 Low Body Weight</paragraph>
+                  <paragraph>Patients with body weight below 50 kg may experience more adverse events and 
+may be more likely to discontinue due to adverse events. Particular caution 
+should be exercised in titrating these patients above the recommended 
+maintenance dose of Exelon Patch 9.5 mg/24 hours.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">2.2 Parkinson’s Disease 
+Dementia</content>
+                  <paragraph>      See <content styleCode="italics">Dosage and 
+Administration</content> <content styleCode="italics">(2.1).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c280bf19-4410-433c-a407-6e4c222bf185"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3  DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">3.1 Dosage Form</content>
+                  <paragraph>      Patch.</paragraph>
+                  <paragraph>Each patch is a thin, matrix-type transdermal system consisting of three 
+layers when worn by the patient. A fourth layer, the release liner, covers the 
+adhesive layer prior to use and is removed at the time the system is applied to 
+the skin.</paragraph>
+                  <paragraph>The outside of the backing layer is beige and labeled for each dose as 
+follows:</paragraph>
+                  <paragraph>      - “EXELON<content styleCode="bold">
+                        <sup>®</sup>
+                     </content> PATCH “4.6 mg/24 hours” and “AMCX”</paragraph>
+                  <paragraph>      - “EXELON<content styleCode="bold">
+                        <sup>®</sup>
+                     </content> PATCH “9.5 mg/24 hours” and “BHDI”</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">3.2 Dosage Strengths</content>
+                  <paragraph>Table 1 summarizes the available strengths and quantity of 
+rivastigmine provided in each patch:</paragraph>
+                  <list listType="unordered" ID="i226f5c22-8d22-47c3-8fc7-4cac78615ccd">
+                     <item>Each 5 cm<sup>2</sup> patch contains 9 mg rivastigmine base, 
+with<br/>
+                        <content styleCode="italics">in vivo</content> release rate of 4.6 mg/24 hours.<br/>
+                     </item>
+                     <item>Each 10 cm<sup>2</sup>
+                        <sup> </sup>patch contains 
+18 mg rivastigmine base, with <content styleCode="italics">in vivo</content> release rate of 
+9.5 mg/24 hours. </item>
+                  </list>
+                  <paragraph>      For a full list of excipients, see <content styleCode="italics">Description</content> <content styleCode="italics">(11)</content>.</paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bbeb4a47-7c1a-4fd5-85dc-bfbc3428aed3"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4  CONTRAINDICATIONS</title>
+               <text>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">4.1 Hypersensitivity</content>
+                  <paragraph>Exelon Patch (rivastigmine transdermal system) is contraindicated 
+in patients with known hypersensitivity to rivastigmine, other carbamate 
+derivatives, or other components of the formulation [see <content styleCode="italics">Description</content> <content styleCode="italics">(11)</content>].</paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="521be311-9bfc-447a-bd10-1147e46bbdc5"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5  WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.1 Gastrointestinal Adverse 
+Reactions</content>
+                  <paragraph>
+                     <content styleCode="bold">At higher than recommended doses</content>
+                     <content styleCode="bold">,</content>
+                     <content styleCode="bold"> </content>
+                     <content styleCode="bold">Exelon</content> <content styleCode="bold">Patch (rivastigmine</content> <content styleCode="bold">transdermal</content> <content styleCode="bold">system) use is associated with significant gastrointestinal adverse 
+reactions, including nausea</content>
+                     <content styleCode="bold">,</content>
+                     <content styleCode="bold"> 
+vomiting, diarrhea, anorexia/decreased appetite and weight loss. For this 
+re</content>
+                     <content styleCode="bold">ason, patients administered </content>
+                     <content styleCode="bold">Exelon</content> <content styleCode="bold">Patch should always be started at a 
+dose of 4.6</content> <content styleCode="bold">mg/24</content> <content styleCode="bold">hours and 
+titrated to th</content>
+                     <content styleCode="bold">e</content>
+                     <content styleCode="bold"> maintenance 
+dose</content>
+                     <content styleCode="bold"> of</content>
+                     <content styleCode="bold"> </content>
+                     <content styleCode="bold">9.5</content> <content styleCode="bold">mg/24</content> <content styleCode="bold">hours</content>
+                     <content styleCode="bold">. If treatment is interrupted for longer 
+than several days, treatment should be reinitia</content>
+                     <content styleCode="bold">ted with 
+the lowest daily dose [</content>
+                     <content styleCode="bold">see </content>
+                     <content>Dosage and Administration</content>
+                     <content styleCode="bold"> </content>
+                     <content>(2)</content>
+                     <content styleCode="bold">]</content>
+                     <content styleCode="bold"> to reduce 
+the possibility of severe vomiting and its potentially serious sequelae (e.g., 
+there has been one post-marketing report of severe vomiting with esophageal 
+rupture following inappropriate reinitiation of treatment with a 
+4.5</content>-<content styleCode="bold">mg dose of an oral formulation after 8 weeks of 
+treatment interruption). </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">At higher than recommended doses</content>
+                     <content styleCode="bold">,</content>
+                     <content styleCode="bold"> c</content>
+                     <content styleCode="bold">aregivers should 
+be advised of the high incidence of nausea and vomiting associated with the use 
+of</content>
+                     <content styleCode="bold"> </content>
+                     <content styleCode="bold">Exelon</content> <content styleCode="bold">Patch</content>
+                     <content styleCode="bold"> along with the possibility of anorexia 
+and weight loss</content>
+                     <content styleCode="bold">.</content>
+                     <content styleCode="bold"> Caregivers 
+should be encouraged to monitor for these adverse events and inform the 
+physician if they occur.</content>
+                     <content styleCode="bold"> </content>
+                     <content styleCode="bold">It is 
+critical to inform caregivers that if therapy has been interrupted for more than 
+several days, the next dose should not be administered until they have discussed 
+this with the physician.</content>
+                  </paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.1.1 </content>
+                  <content styleCode="bold">Nausea 
+and Vomiting</content>
+                  <paragraph>In the controlled clinical trial, 7% of patients treated with 
+Exelon Patch 9.5 mg/24 hours developed nausea, as compared to 23% of patients 
+who received the Exelon capsule at doses up to 6 mg BID and 5% of those who 
+received placebo. In the same clinical trial, 6% of patients treated with 
+Exelon Patch 9.5 mg/24 hours developed vomiting, as compared with 17% of 
+patients who received the Exelon capsule at doses up to 6 mg BID and 3% of those 
+who received placebo. The proportion of patients who discontinued treatment on 
+account of vomiting was 0% of the patients who received Exelon Patch 
+9.5 mg/24 hours as well as 2% of patients who received the Exelon capsule at 
+doses up to 6 mg BID and 0% of those who received placebo. Vomiting was severe 
+in 0% of patients who received Exelon Patch 9.5 mg/24 hours and 1% of patients 
+who received the Exelon capsule at doses up to 6 mg BID and 0% of those who 
+received placebo.</paragraph>
+                  <paragraph>In the same clinical trial, 21% of patients treated with the higher dose of 
+Exelon Patch 17.4 mg/24 hours developed nausea, 19% developed vomiting, and the 
+proportion of these patients who discontinued treatment on account of vomiting 
+was 2%. Vomiting was severe in 1% of patients treated with Exelon Patch 
+17.4 mg/24 hours.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.1.2 </content>
+                  <content styleCode="bold">Weight 
+Loss</content>
+                  <paragraph>In the controlled clinical trial, the proportion of patients who 
+had weight loss equal to or greater than 7% of their baseline weight was 8% of 
+those treated with Exelon Patch 9.5 mg/24 hours, 11% of patients who received 
+the Exelon capsule at doses up to 6 mg BID and 6% of those who received 
+placebo.</paragraph>
+                  <paragraph>
+                     <br/>In the same clinical trial, 12% of those treated with 17.4 mg/24 hours 
+had weight loss equal to or greater than 7% of their baseline weight. It is not 
+clear how much of the weight loss was associated with anorexia, nausea, 
+vomiting, and the diarrhea associated with the drug.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.1.3 </content>
+                  <content styleCode="bold">Diarrhea</content>
+                  <paragraph>In the controlled clinical trial, 6% of patients treated with 
+Exelon Patch 9.5 mg/24 hours developed diarrhea, as compared with 5% of patients 
+who received the Exelon capsule at doses up to 6 mg BID, 10% of those treated 
+with 17.4 mg/24 hours and 3% of those who received placebo.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.1.4 </content>
+                  <content styleCode="bold">Anorexia/Decreased Appetite</content>
+                  <paragraph>In the controlled clinical trial, 3% of patients treated with 
+Exelon Patch 9.5 mg/24 hours were recorded as developing decreased appetite or 
+anorexia, as compared with 9% of patients who received the Exelon capsule at 
+doses up to 6 mg BID, 9% of those treated with Exelon Patch 17.4 mg/24 hours and 
+2% of those who received placebo.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.1.5 </content>
+                  <content styleCode="bold">Peptic 
+Ulcers/Gastrointestinal Bleeding</content>
+                  <paragraph>Because of their pharmacological action, cholinesterase 
+inhibitors may be expected to increase gastric acid secretion due to increased 
+cholinergic activity. Therefore, patients should be monitored closely for 
+symptoms of active or occult gastrointestinal bleeding, especially those at 
+increased risk for developing ulcers, e.g., those with a history of ulcer 
+disease or those receiving concurrent nonsteroidal anti-inflammatory drugs 
+(NSAIDs). Clinical studies of Exelon have shown no significant increase, 
+relative to placebo, in the incidence of either peptic ulcer disease or 
+gastrointestinal bleeding.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.2</content>
+                  <content styleCode="bold"> 
+Anesthesia</content>
+                  <paragraph>Exelon, as a cholinesterase inhibitor, is likely to exaggerate 
+succinylcholine-type muscle relaxation during anesthesia.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.3</content>
+                  <content styleCode="bold"> 
+Cardiovascular Conditions</content>
+                  <paragraph>Drugs that increase cholinergic activity may have vagotonic 
+effects on heart rate (e.g., bradycardia). The potential for this action may be 
+particularly important to patients with sick sinus syndrome or other 
+supraventricular cardiac conduction conditions. In clinical trials, Exelon was 
+not associated with any increased incidence of cardiovascular adverse events, 
+heart rate or blood pressure changes, or ECG abnormalities.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.</content>
+                  <content styleCode="bold">4</content>
+                  <content styleCode="bold"> Genitourinary Conditions</content>
+                  <paragraph>Although this was not observed in clinical trials of Exelon, 
+drugs that increase cholinergic activity may cause urinary obstruction.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.</content>
+                  <content styleCode="bold">5</content>
+                  <content styleCode="bold"> Neurological Conditions</content>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.5.1 </content>
+                  <content styleCode="bold">Seizures</content>
+                  <paragraph>Drugs that increase cholinergic activity are believed to have 
+some potential for causing seizures. However, seizure activity also may be a 
+manifestation of Alzheimer's disease.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.5.2 </content>
+                  <content styleCode="bold">Extrapyramidal Symptoms</content>
+                  <paragraph>Like other cholinomimetics, rivastigmine may exacerbate or induce 
+extrapyramidal symptoms. Worsening of parkinsonian symptoms, particularly 
+tremor, has been observed in patients with dementia associated with Parkinson’s 
+disease who were treated with Exelon capsules.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.</content>
+                  <content styleCode="bold">6</content>
+                  <content styleCode="bold"> Pulmonary Conditions</content>
+                  <paragraph>Like other drugs that increase cholinergic activity, Exelon 
+should be used with care in patients with a history of asthma or obstructive 
+pulmonary disease.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.</content>
+                  <content styleCode="bold">7</content>
+                  <content styleCode="bold"> Effects on Ability to Drive and Use 
+Machines</content>
+                  <paragraph>Dementia may cause gradual impairment of driving performance or 
+compromise the ability to use machinery. The administration of rivastigmine may 
+also result in adverse events that are detrimental to these functions. Thus, the 
+ability to continue driving or operating machinery should be routinely evaluated 
+by the treating physician.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.</content>
+                  <content styleCode="bold">8</content>
+                  <content styleCode="bold"> Special Populations</content>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">5.8.1 </content>
+                  <content styleCode="bold">Low 
+Body Weight</content>
+                  <paragraph>Patients with body weight below 50 kg may experience more adverse 
+events and may be more likely to discontinue due to adverse events. Particular 
+caution should be exercised in titrating these patients above the recommended 
+maintenance dose of the Exelon Patch 9.5 mg/24 hours.</paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d8fc0242-5337-498f-a66a-5d104f4cd735"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6  ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="emphasis"/>
+                  </paragraph>
+                  <paragraph>Significant gastrointestinal adverse reactions including nausea, 
+vomiting, anorexia, and weight loss have been reported with the Exelon Patch at 
+higher than recommended doses [see <content styleCode="italics">Warnings and 
+Precautions</content> <content styleCode="italics">(5.1)</content>].</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">6.1 Incidence in </content>
+                  <content styleCode="bold">C</content>
+                  <content styleCode="bold">ontrolled </content>
+                  <content styleCode="bold">C</content>
+                  <content styleCode="bold">linical </content>
+                  <content styleCode="bold">T</content>
+                  <content styleCode="bold">rial in Alzheimer’s Disease</content>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">6.1.1 </content>
+                  <content styleCode="bold">Associated with </content>
+                  <content styleCode="bold">D</content>
+                  <content styleCode="bold">iscontinuation of </content>
+                  <content styleCode="bold">T</content>
+                  <content styleCode="bold">reatment</content>
+                  <paragraph>In the single controlled clinical trial of Exelon Patch [see 
+<content styleCode="italics">Clinical Studies (14)</content>], which randomized a total of 
+1195 patients, the proportions of patients in the Exelon Patch 9.5 mg/24 hours, 
+Exelon Patch 17.4 mg/24 hours, Exelon capsules 6 mg BID, and placebo groups who 
+discontinued treatment due to adverse events were 9.6%, 8.6%, 8.1%, and 5.0%, 
+respectively.</paragraph>
+                  <paragraph>The most common adverse events in the Exelon Patch-treated groups that led to 
+treatment discontinuation in this study were nausea and vomiting. The 
+proportions of patients who discontinued treatment due to nausea were 0.7%, 
+1.7%, 1.7%, and 1.3% in the Exelon Patch 9.5 mg/24 hours, Exelon Patch 
+17.4 mg/24 hours, Exelon capsules 6 mg BID, and placebo groups, respectively. 
+The proportions of patients who discontinued treatment due to vomiting were 
+0%, 1.7%, 2.0%, and 0.3% in the Exelon Patch 9.5 mg/24 hours, Exelon Patch 
+17.4 mg/24 hours, Exelon capsules 6 mg BID, and placebo groups, 
+respectively.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">6.1.2 </content>
+                  <content styleCode="bold">Most 
+Commonly Observed Adverse E</content>
+                  <content styleCode="bold">vents</content>
+                  <paragraph>The most commonly observed adverse events seen in patients 
+administered Exelon Patch in the controlled clinical trial, defined as those 
+occurring at a frequency of at least 5% in the 9.5 mg/24 hours group and at a 
+frequency at least as high as in the placebo group are largely predicted by the 
+cholinergic effects of Exelon. These are nausea, vomiting, and diarrhea. All 
+these events were more common at the higher Exelon Patch dose of 
+17.4 mg/24 hours than at a dose of 9.5 mg/24 hours.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">6.1.3 </content>
+                  <content styleCode="bold">Adverse Events Observed at an I</content>
+                  <content styleCode="bold">ncidence of 
+≥2%</content>
+                  <paragraph>The following table lists treatment-emergent adverse events that 
+were seen at an incidence of ≥2% in either Exelon Patch-treated group in the 
+controlled clinical trial and for which the rate of occurrence was greater for 
+patients treated with that dose of Exelon Patch than for those treated with 
+placebo. The prescriber should be aware that these frequencies cannot be used to 
+predict the frequency of adverse events in the course of usual medical practice 
+when patient characteristics and other factors may differ from those prevailing 
+during clinical studies. Similarly, the cited frequencies cannot be directly 
+compared with frequencies obtained from other clinical investigations involving 
+different treatments, uses, or investigators. An inspection of these 
+frequencies, however, does provide the prescriber with one basis by which to 
+estimate the relative contribution of drug and non-drug factors to the adverse 
+event incidences in the population studied.</paragraph>
+                  <table width="50%" ID="id5c65467-0de7-4152-833d-4c52ae6f57a3">
+                     <caption>Table 2: Adverse Events Observed with a Frequency of ≥2% and Occurring with a Rate Greater Than Placebo</caption>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <br/>
+                           </td>
+                           <td>Exelon<br/>Patch<br/>9.5 mg/<br/>24 hours<br/>n (%)<br/>
+                           </td>
+                           <td>Exelon<br/>Patch<br/>17.4 mg/<br/>24 hours<br/>n (%)<br/>
+                           </td>
+                           <td>Exelon<br/>capsule<br/>6 mg<br/>BID<br/>n (%)<br/>
+                           </td>
+                           <td>
+                              <br/>
+                              <br/>
+                              <br/>Placebo<br/>n (%)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Total Patients<br/>Studied<br/>Total Number<br/>of Patients with<br/>AEs<br/>
+                           </td>
+                           <td>291<br/>
+                              <br/>
+                              <br/>147 (51)<br/>
+                           </td>
+                           <td>303<br/>
+                              <br/>
+                              <br/>200 (66)<br/>
+                           </td>
+                           <td>294<br/>
+                              <br/>
+                              <br/>186 (63)<br/>
+                           </td>
+                           <td>302<br/>
+                              <br/>
+                              <br/>139 (46)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Nausea<br/>
+                           </td>
+                           <td>21 (7)<br/>
+                           </td>
+                           <td>64 (21)<br/>
+                           </td>
+                           <td>68 (23)<br/>
+                           </td>
+                           <td>15 (5)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Vomiting<br/>
+                           </td>
+                           <td>18 (6)<br/>
+                           </td>
+                           <td>57 (19)<br/>
+                           </td>
+                           <td>50 (17)<br/>
+                           </td>
+                           <td>10 (3)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Diarrhea<br/>
+                           </td>
+                           <td>18 (6)<br/>
+                           </td>
+                           <td>31 (10)<br/>
+                           </td>
+                           <td>16 (5)<br/>
+                           </td>
+                           <td>10 (3)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Depression<br/>
+                           </td>
+                           <td>11 (4)<br/>
+                           </td>
+                           <td>12 (4)<br/>
+                           </td>
+                           <td>13 (4)<br/>
+                           </td>
+                           <td>4 (1)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Headache<br/>
+                           </td>
+                           <td>10 (3)<br/>
+                           </td>
+                           <td>13 (4)<br/>
+                           </td>
+                           <td>18 (6)<br/>
+                           </td>
+                           <td>5 (2)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Anxiety<br/>
+                           </td>
+                           <td>9 (3)<br/>
+                           </td>
+                           <td> 8 (3)<br/>
+                           </td>
+                           <td>5 (2)<br/>
+                           </td>
+                           <td>4 (1)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Anorexia/<br/>Decreased<br/>
+                           </td>
+                           <td>9 (3)<br/>
+                           </td>
+                           <td>27 (9)<br/>
+                           </td>
+                           <td>26 (9)<br/>
+                           </td>
+                           <td>6 (2)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Weight<br/>Decreased<br/>
+                           </td>
+                           <td>8 (3)<br/>
+                           </td>
+                           <td>23 (8)<br/>
+                           </td>
+                           <td>16 (5)<br/>
+                           </td>
+                           <td>4 (1)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Dizziness<br/>
+                           </td>
+                           <td>7 (2)<br/>
+                           </td>
+                           <td>21 (7)<br/>
+                           </td>
+                           <td>22 (7)<br/>
+                           </td>
+                           <td>7 (2)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Abdominal<br/>Pain<br/>
+                           </td>
+                           <td>7 (2)<br/>
+                           </td>
+                           <td>11 (4)<br/>
+                           </td>
+                           <td>4 (1)<br/>
+                           </td>
+                           <td>2 (1)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Urinary Tract<br/>Infection<br/>
+                           </td>
+                           <td>6 (2)<br/>
+                           </td>
+                           <td>5 (2)<br/>
+                           </td>
+                           <td>4 (1)<br/>
+                           </td>
+                           <td>3 (1)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Asthenia<br/>
+                           </td>
+                           <td>5 (2)<br/>
+                           </td>
+                           <td>9 (3)<br/>
+                           </td>
+                           <td>17 (6)<br/>
+                           </td>
+                           <td>3 (1)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Fatigue<br/>
+                           </td>
+                           <td>5 (2)<br/>
+                           </td>
+                           <td>7 (2)<br/>
+                           </td>
+                           <td>2 (1)<br/>
+                           </td>
+                           <td>4 (1)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Insomnia<br/>
+                           </td>
+                           <td>4 (1)<br/>
+                           </td>
+                           <td>12 (4)<br/>
+                           </td>
+                           <td>6 (2)<br/>
+                           </td>
+                           <td>6 (2)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Abdominal<br/>Pain Upper<br/>
+                           </td>
+                           <td>3 (1)<br/>
+                           </td>
+                           <td>8 (3)<br/>
+                           </td>
+                           <td>6 (2)<br/>
+                           </td>
+                           <td>6 (2)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Vertigo<br/>
+                           </td>
+                           <td>0 (0)<br/>
+                           </td>
+                           <td>7 (2)<br/>
+                           </td>
+                           <td>4 (1)<br/>
+                           </td>
+                           <td>3 (1)<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">6.1.4 </content>
+                  <content styleCode="bold">Incidenc</content>
+                  <content styleCode="bold">e of Application Site 
+Reactions</content>
+                  <paragraph>The vast majority of patients participating in the controlled 
+clinical trial had either no observed skin irritation or mild to moderate skin 
+reactions. The incidence of severe reactions was very low regardless of 
+administered dosage.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">6.2</content>
+                  <content styleCode="bold"> </content>
+                  <content styleCode="bold">Other Adverse Events O</content>
+                  <content styleCode="bold">bserved </content>
+                  <content styleCode="bold">D</content>
+                  <content styleCode="bold">uring 
+</content>
+                  <content styleCode="bold">C</content>
+                  <content styleCode="bold">linical </content>
+                  <content styleCode="bold">T</content>
+                  <content styleCode="bold">rials</content>
+                  <paragraph>Exelon Patch has been administered to 1071 patients with 
+Alzheimer’s disease during clinical trials worldwide. Of these, 869 patients 
+have been treated for at least 3 months, 706 patients have been treated for at 
+least 6 months, and 212 patients have been treated for 1 year.</paragraph>
+                  <paragraph>Treatment-emergent signs and symptoms that occurred during 1 controlled and 4 
+open-label trials in North America, Europe, Latin America, Asia and Japan were 
+recorded as adverse events by the clinical investigators using terminology of 
+their own choosing.</paragraph>
+                  <paragraph>To provide an overall estimate of the proportion of individuals having 
+similar types of events, the events were grouped into a smaller number of 
+standardized categories using the MedDRA dictionary, and event frequencies were 
+calculated across all studies. These categories are used in the listing below. 
+The frequencies represent the proportion of 1071 patients from these trials who 
+experienced that event while receiving Exelon Patch. All patch doses are 
+pooled.</paragraph>
+                  <paragraph>All adverse events occurring in at least 1 patient (approximately 0.1%) are 
+included, except for those already listed elsewhere in labeling, too general to 
+be informative, or relatively minor events.</paragraph>
+                  <paragraph>Events are classified by system organ class and listed using the following 
+definitions: <content styleCode="bold">Frequent</content> – those occurring in at least 
+1/100 patients; <content styleCode="bold">Infrequent</content> – those occurring in 1/100 to 
+1/1,000 patients. These adverse events are not necessarily related to 
+Exelon Patch treatment and in most cases were observed at a similar frequency in 
+placebo-treated patients in the controlled studies.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Blood and Lymphatic System Disorders:</content> <content>Frequent</content>
+                     <content styleCode="bold">: </content>Anemia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiac Disorders:</content> <content>Infrequent</content>
+                     <content styleCode="bold">: </content>Angina pectoris, 
+cardiac failure, bradycardia, atrial fibrillation, supraventricular 
+extrasystoles, myocardial infarction, tachycardia, arrhythmia, atrioventricular 
+block.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ear and Labyrinth Disorders:</content> <content>Infrequent</content>
+                     <content styleCode="bold">: </content>Tinnitus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Eye Disorders:</content> <content>Infrequent</content>
+                     <content styleCode="bold">:</content> Cataract, glaucoma, 
+vision blurred.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal System:</content> <content>Frequent</content>
+                     <content styleCode="bold">: </content>Constipation, 
+gastritis.<content styleCode="bold"> </content>
+                     <content>Infrequent</content>
+                     <content styleCode="bold">:</content> Gastroesophageal 
+reflux disease, hematochezia, peptic ulcer, hematemesis, pancreatitis, salivary 
+hypersecretion.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General Disorders and Administration Site 
+Conditions:</content> <content>Infrequent</content>
+                     <content styleCode="bold">: 
+</content>Application site dermatitis, application site irritation, peripheral 
+edema, chest pain, application site eczema, hyperpyrexia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hepatobiliary Disorders:</content> <content>Infrequent</content>
+                     <content styleCode="bold">: </content>Cholecystitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Infections and Infestations:</content> <content>Frequent</content>
+                     <content styleCode="bold">: 
+</content>Nasopharyngitis, pneumonia.<content styleCode="bold"> </content>
+                     <content>Infrequent</content>
+                     <content styleCode="bold">: </content>Diverticulitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Injury, Poisoning and Procedural Complications:</content> <content>Frequent</content>
+                     <content styleCode="bold">: </content>Fall.<content styleCode="bold"> </content>
+                     <content>Infrequent</content>
+                     <content styleCode="bold">: 
+</content>Hip fracture, subdural hematoma.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Investigations:</content> <content>Infrequent</content>
+                     <content styleCode="bold">: </content>Blood creatine 
+phosphokinase increased, lipase increased, blood amylase increased, 
+electrocardiogram QT prolonged.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metabolic and Nutritional Disorders:</content> <content>Frequent</content>
+                     <content styleCode="bold">: </content>Dehydration<content styleCode="bold"> </content>
+                     <content>Infrequent</content>
+                     <content styleCode="bold">: 
+</content>Hyperlipidemia, hypokalemia, hyponatremia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Musculoskeletal and Connective Tissue 
+Disorders:</content> <content>Infrequent</content>: Arthralgia, muscle 
+spasms, myalgia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nervous System Disorders:</content> <content>Frequent</content>
+                     <content styleCode="bold">:</content> Tremor.<content styleCode="bold"> </content>
+                     <content>Infrequent</content>
+                     <content styleCode="bold">:</content> Migraine, parkinsonism, epilepsy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Psychiatric Disorders:</content> <content>Infrequent</content>
+                     <content styleCode="bold">: </content>Delusion.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Renal and Urinary Disorders:</content> <content>Frequent</content>
+                     <content styleCode="bold">: </content>Urinary incontinence. 
+<content>Infrequent</content>
+                     <content styleCode="bold">:</content> Pollakiuria, 
+hematuria, nocturia, renal failure.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Reproductive System and Breast Disorders:</content> <content>Infrequent</content>
+                     <content styleCode="bold">: </content>Benign prostatic 
+hyperplasia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory, Thoracic, and Mediastinal 
+Disorders:</content> <content>Infrequent</content>
+                     <content styleCode="bold">: 
+</content>Dyspnea, bronchospasm, chronic obstructive pulmonary disease.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin and Subcutaneous Tissue Disorders:</content> <content>Frequent</content>
+                     <content styleCode="bold">: </content>Pruritus.<content styleCode="bold"> </content>
+                     <content>Infrequent</content>
+                     <content styleCode="bold">:</content> Erythema, eczema, dermatitis, rash erythematous, skin 
+ulcer.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Vascular Disorders:</content> <content>Infrequent</content>
+                     <content styleCode="bold">: </content>Hypotension.</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20100222"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8a6bcd5b-ee21-4ce8-a91f-94ee4dd53b5b"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7  DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>No specific interaction studies have been conducted with 
+Exelon Patch (rivastigmine transdermal system).</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">7.1 </content>
+                  <content styleCode="bold">Effect 
+of Exelon on the Metabolism of Other Drugs</content>
+                  <paragraph>Rivastigmine is primarily metabolized through hydrolysis by 
+esterases. Minimal metabolism occurs via the major cytochrome P450 isoenzymes. 
+Based on <content styleCode="italics">in-vitro </content>studies, no pharmacokinetic drug 
+interactions with drugs metabolized by the following isoenzyme systems are 
+expected: CYP1A2, CYP2D6, CYP3A4/5, CYP2E1, CYP2C9, CYP2C8, or CYP2C19.</paragraph>
+                  <paragraph>No pharmacokinetic interaction was observed between rivastigmine taken orally 
+and digoxin, warfarin, diazepam or fluoxetine in studies in healthy volunteers. 
+The increase in prothrombin time induced by warfarin is not affected by 
+administration of rivastigmine.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">7.2 </content>
+                  <content styleCode="bold">Effect 
+of Other Drugs on the Metabolism of Exelon</content>
+                  <paragraph>Drugs that induce or inhibit CYP450 metabolism are not expected 
+to alter the metabolism of rivastigmine.</paragraph>
+                  <paragraph>Population PK analysis with a database of 625 patients showed that the 
+pharmacokinetics of rivastigmine taken orally were not influenced by commonly 
+prescribed medications such as antacids (n=77), antihypertensives (n=72), 
+ß-blockers (n=42), calcium channel blockers (n=75), antidiabetics (n=21), 
+nonsteroidal anti-inflammatory drugs (n=79), estrogens (n=70), salicylate 
+analgesics (n=177), antianginals (n=35) and antihistamines (n=15).</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">7.3 </content>
+                  <content styleCode="bold">Use with 
+Anticholinergics</content>
+                  <content styleCode="bold">, </content>
+                  <content styleCode="bold">C</content>
+                  <content styleCode="bold">holinomimetics and </content>
+                  <content styleCode="bold">O</content>
+                  <content styleCode="bold">ther </content>
+                  <content styleCode="bold">Cholinesterase I</content>
+                  <content styleCode="bold">nhibitors</content>
+                  <paragraph>In view of its pharmacodynamic effects, rivastigmine should not 
+be given concomitantly with other cholinomimetic drugs and might interfere with 
+the activity of anticholinergic medications. A synergistic effect may be 
+expected when cholinesterase inhibitors are given concurrently with 
+succinylcholine, similar neuromuscular blocking agents or cholinergic agonists 
+such as bethanechol.</paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7d566f1a-fcd8-4426-856f-c45ac0732cbf"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8  USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">8.1 Pregnancy</content>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">8.1.1 </content>
+                  <content styleCode="bold">Pregnancy Category B</content>
+                  <paragraph>There are no adequate or well-controlled studies in pregnant 
+women. Because animal reproduction studies are not always predictive of human 
+response, Exelon Patch should be used during pregnancy only if the potential 
+benefit outweighs the potential risk to the fetus. No dermal reproduction 
+studies in animals have been conducted. Oral reproduction studies conducted in 
+pregnant rats at doses up to 2.3 mg base/kg/day and in pregnant rabbits at doses 
+up to 2.3 mg base/kg/day revealed no evidence of teratogenicity. Studies in rats 
+showed slightly decreased fetal/pup weights, usually at doses causing some 
+maternal toxicity.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">8.</content>
+                  <content styleCode="bold">3 
+</content>
+                  <content styleCode="bold">Nursing Mothers</content>
+                  <paragraph>Milk transfer studies in animals have not been conducted with 
+dermal rivastigmine. In rats given rivastigmine orally, concentrations of 
+rivastigmine plus metabolites were approximately two times higher in milk than 
+in plasma. It is not known whether rivastigmine is excreted in human breast 
+milk. Exelon Patch (rivastigmine transdermal system) has no indication for use 
+in nursing mothers.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">8.</content>
+                  <content styleCode="bold">4 
+</content>
+                  <content styleCode="bold">Pediatric Use</content>
+                  <paragraph>There are no adequate and well-controlled trials documenting the 
+safety and efficacy of Exelon in any illness occurring in children.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">8.</content>
+                  <content styleCode="bold">5 
+</content>
+                  <content styleCode="bold">Geriatric Use</content>
+                  <paragraph>Age had no impact on the exposure to rivastigmine in Alzheimer’s 
+disease patients treated with Exelon Patch.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">8.</content>
+                  <content styleCode="bold">6 
+</content>
+                  <content styleCode="bold">Hepatic Disease</content>
+                  <content styleCode="bold"> </content>
+                  <paragraph>No pharmacokinetic study was conducted with Exelon Patch in 
+subjects with hepatic impairment. Following a single 3-mg dose, mean oral 
+clearance of rivastigmine was 60% lower in hepatically impaired patients (n=10, 
+biopsy proven) than in healthy subjects (n=10). After multiple 6-mg BID oral 
+dosing, the mean clearance of rivastigmine was 65% lower in mild (n=7, 
+Child-Pugh score 5-6) and moderate (n=3, Child-Pugh score 7-9) hepatically 
+impaired patients (biopsy proven, liver cirrhosis) than in healthy subjects 
+(n=10). Dosage adjustment is not necessary in hepatically impaired patients as 
+the dose of drug is individually titrated to tolerability.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">8.</content>
+                  <content styleCode="bold">7 
+</content>
+                  <content styleCode="bold">Renal Disease</content>
+                  <content styleCode="bold"> </content>
+                  <paragraph>No study was conducted with Exelon Patch in subjects with renal 
+impairment. Following a single 3-mg dose, mean oral clearance of rivastigmine is 
+64% lower in moderately impaired renal patients (n=8, GFR=10-50 mL/min) than in 
+healthy subjects (n=10, GFR greater than or equal to 60 mL/min); Cl/F=1.7 L/min (cv=45%) and 4.8 L/min 
+(cv=80%), respectively. In severely impaired renal patients (n=8, 
+GFR less than 10 mL/min), mean oral clearance of rivastigmine is 43% higher than in 
+healthy subjects (n=10, GFR greater than or equal to 60 mL/min); Cl/F=6.9 L/min and 4.8 L/min, 
+respectively. For unexplained reasons, the severely impaired renal patients had 
+a higher clearance of rivastigmine than moderately impaired patients. However, 
+dosage adjustment may not be necessary in renally impaired patients as the dose 
+of the drug is individually titrated to tolerability.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">8.</content>
+                  <content styleCode="bold">8 
+</content>
+                  <content styleCode="bold">Low Body Weight</content>
+                  <paragraph>Rivastigmine exposure is higher in subjects with low body weight. 
+Compared to a patient with a body weight of 65 kg, the rivastigmine steady-state 
+concentrations in a patient with a body weight of 35 kg would be approximately 
+doubled, while for a patient with a body weight of 100 kg the concentrations 
+would be approximately halved. This suggests special attention should be given 
+to patients with very low body weight during up-titration [see <content styleCode="italics">Dosage and Administration</content> <content styleCode="italics">(2)</content>].</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">8.</content>
+                  <content styleCode="bold">9 
+</content>
+                  <content styleCode="bold">Gender and Race</content>
+                  <paragraph>No specific pharmacokinetic study was conducted to investigate 
+the effect of gender and race on the disposition of Exelon, but a population 
+pharmacokinetic analysis indicates that gender (n=277 males and 348 females) and 
+race (n=575 White, 34 Black, 4 Asian, and 12 Other) did not affect the clearance 
+of Exelon administered orally. Similar results were seen with analyses of 
+pharmacokinetic data obtained after the administration of Exelon Patch.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">8.</content>
+                  <content styleCode="bold">10 
+</content>
+                  <content styleCode="bold">Nicotine Use</content>
+                  <paragraph>Population pharmacokinetic analysis showed that nicotine use 
+increases the oral clearance of rivastigmine by 23% (n=75 Smokers and 549 
+Nonsmokers). No dose adjustment is necessary as the dose of the drug is 
+individually titrated to tolerability.</paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fe51f0b8-92ff-40a5-8831-df1336714e56"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10  OVERDOSAGE</title>
+               <text>
+                  <paragraph>Because strategies for the management of overdose are continually 
+evolving, it is advisable to contact a Poison Control Center to determine the 
+latest recommendations for the management of an overdose of any drug. As in any 
+case of overdose, general supportive measures should be utilized.</paragraph>
+                  <paragraph>
+                     <br/>As rivastigmine has a plasma half-life of about 3.4 hours after patch 
+administration and a duration of acetylcholinesterase inhibition of about 
+9 hours, it is recommended that in cases of asymptomatic overdose the patch 
+should be immediately removed and no further patch should be applied for the 
+next 24 hours.</paragraph>
+                  <paragraph>As in any case of overdose, general supportive measures should be utilized. 
+Overdosage with cholinesterase inhibitors can result in cholinergic crisis 
+characterized by severe nausea, vomiting, salivation, sweating, bradycardia, 
+hypotension, respiratory depression, collapse and convulsions. Increasing muscle 
+weakness is a possibility and may result in death if respiratory muscles are 
+involved. Atypical responses in blood pressure and heart rate have been reported 
+with other drugs that increase cholinergic activity when coadministered with 
+quaternary anticholinergics such as glycopyrrolate. Due to the short plasma 
+elimination half-life of rivastigmine after patch administration, dialysis 
+(hemodialysis, peritoneal dialysis, or hemofiltration) would not be clinically 
+indicated in the event of an overdose.</paragraph>
+                  <paragraph>In overdose accompanied by severe nausea and vomiting, the use of antiemetics 
+should be considered. In a documented case of an oral 46-mg overdose with 
+Exelon, the patient experienced vomiting, incontinence, hypertension, 
+psychomotor retardation, and loss of consciousness. The patient fully recovered 
+within 24 hours and conservative management was all that was required for 
+treatment.</paragraph>
+                  <paragraph>There are currently no data on overdose with Exelon Patch 
+(rivastigmine transdermal system).</paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0761da56-9f5d-42c6-885f-d520528e351f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11  DESCRIPTION</title>
+               <text>
+                  <paragraph>Exelon Patch (rivastigmine transdermal system) is a reversible 
+cholinesterase inhibitor and is known chemically as (S)- 3-[1-(dimethylamino) 
+ethyl]phenyl ethylmethylcarbamate. It has an empirical formula of C<sub>14</sub>H<sub>22</sub>N<sub>2</sub>O<sub>2</sub> as the base<sub> </sub>and a molecular weight of 
+250.34 (as the base). Rivastigmine is a viscous, clear, and colorless to yellow 
+to very slightly brown liquid that is sparingly soluble in water and very 
+soluble in ethanol, acetonitrile, n-octanol and ethyl acetate.</paragraph>
+                  <paragraph>The distribution coefficient at 37°C in n-octanol/phosphate buffer solution 
+pH 7 is 4.27.</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Exelon Patch is for transdermal administration. The patch comprises a four-layer 
+laminate containing the backing layer, drug matrix, adhesive matrix and 
+overlapping release liner. The release liner is removed and discarded prior to 
+use. See Figure 1 for a detailed illustration.</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <table width="50%" ID="iaff88260-3b87-43a4-8f8e-8b441dd957de">
+                     <tbody>
+                        <tr>
+                           <td>Layer 1<br/>
+                           </td>
+                           <td>Backing Film<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Layer 2<br/>
+                           </td>
+                           <td>Drug Product (Acrylic) Matrix<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Layer 3<br/>
+                           </td>
+                           <td>Adhesive (Silicone) Matrix<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Layer 4<br/>
+                           </td>
+                           <td>Release Liner (removed at time of use)<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>Excipients within the formulation include acrylic copolymer, 
+poly(butylmethacrylate, methylmethacrylate), silicone adhesive applied to a 
+flexible polymer backing film, silicone oil, and vitamin E.</text>
+               <effectiveTime value="20100222"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM1">
+                     <text>image of chemical structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="chemical structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM2">
+                     <text>image of Figure 1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Figure 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ec3e019a-9d83-4e5d-9a4c-4f0b425255a1"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12  CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <linkHtml href="#section-12"/>
+                  <content styleCode="bold">12.1 Mechanism of Action</content>
+                  <paragraph>Pathological changes in dementia of the Alzheimer’s type and 
+dementia associated with Parkinson’s disease involve cholinergic neuronal 
+pathways that project from the basal forebrain to the cerebral cortex and 
+hippocampus. These pathways are thought to be intricately involved in memory, 
+attention, learning, and other cognitive processes. While the precise mechanism 
+of action for rivastigmine is unknown, it is postulated to exert its therapeutic 
+effect by enhancing cholinergic function. This is accomplished by increasing the 
+concentration of acetylcholine through reversible inhibition of its hydrolysis 
+by cholinesterase. If this proposed mechanism is correct, the effect of 
+rivastigmine may lessen as the disease process advances and fewer cholinergic 
+neurons remain functionally intact. There is no evidence that rivastigmine 
+alters the course of the underlying dementing process.</paragraph>
+                  <linkHtml href="#section-12"/>
+                  <linkHtml href="#section-12"/>
+                  <content styleCode="bold">12.2 Pharmacodynamics</content>
+                  <paragraph>After a 6-mg oral dose of rivastigmine in humans, 
+anticholinesterase activity is present in CSF for about 10 hours, with a maximum 
+inhibition of about 60% 5 hours after dosing.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">In-vitro</content> and <content styleCode="italics">in-vivo</content> 
+studies demonstrate that the inhibition of cholinesterase by rivastigmine is not 
+affected by the concomitant administration of memantine, an N-methyl-D-aspartate 
+receptor antagonist.</paragraph>
+                  <linkHtml href="#section-12"/>
+                  <linkHtml href="#section-12"/>
+                  <content styleCode="bold">12.3 Pharmacokinetics</content>
+                  <linkHtml href="#section-12"/>
+                  <linkHtml href="#section-12"/>
+                  <content styleCode="bold">12.3.1 </content>
+                  <content styleCode="bold">Absorption</content>
+                  <br/>
+                  <paragraph>After the first dose, there is a lag time of 0.5-1 hour in the 
+absorption of rivastigmine from Exelon Patch (rivastigmine transdermal system). 
+Concentrations then rise slowly typically reaching a maximum after 8 hours, 
+although maximum values (C<sub>max</sub>) are often reached at later 
+times as well (10-16 hours). After the peak, plasma concentrations slowly 
+decrease over the remainder of the 24-hour period of application. At steady 
+state, trough levels are approximately 60-80% of peak levels. Fluctuation 
+(between C<sub>max</sub> and C<sub>min</sub>)<sub> </sub>is lower for Exelon Patch than for the oral formulation. 
+Exelon Patch 9.5 mg/24 hours exhibited exposure approximately the same as that 
+provided by an oral dose of 6 mg twice daily (i.e., 12 mg/day).<renderMultiMedia referencedObject="MM3"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Figure 2: Rivastigmine Plasma Concentrations 
+Following Dermal 24-Hour Patch Application</paragraph>
+                  <paragraph>Inter-subject variability in exposure was lower (43-49%) for the Exelon Patch 
+formulation as compared with the oral formulations (73-103%).</paragraph>
+                  <paragraph>A relationship between drug exposure at steady state (rivastigmine and 
+metabolite NAP226-90) and bodyweight was observed in Alzheimer’s dementia 
+patients. Compared to a patient with a body weight of 65 kg, the rivastigmine 
+steady-state concentrations in a patient with a body weight of 35 kg are 
+approximately doubled, while for a patient with a body weight of 100 kg the 
+concentrations are approximately halved. The effect of body weight on drug 
+exposure suggests special attention to patients with very low body weight during 
+up-titration [see <content styleCode="italics">Dosage and Administration</content> <content styleCode="italics">(2)</content>].</paragraph>
+                  <paragraph>Over a 24-hour dermal application, approximately 50% of the drug load is 
+released from the system.</paragraph>
+                  <paragraph>Exposure (AUC<sub>∞</sub>) to rivastigmine (and metabolite 
+NAP266-90) was highest when the patch was applied to the upper back, chest, or 
+upper arm. Two other sites (abdomen and thigh) could be used if none of the 
+three other sites is available, but the practitioner should keep in mind that 
+the rivastigmine plasma exposure associated with these sites was approximately 
+20-30% lower.</paragraph>
+                  <paragraph>There was no relevant accumulation of rivastigmine or the metabolite 
+NAP226-90 in plasma in patients with Alzheimer’s disease upon multiple 
+dosing.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">12.3.2 </content>
+                  <content styleCode="bold">Distribution</content>
+                  <paragraph>Rivastigmine is weakly bound to plasma proteins (approximately 
+40%) over the therapeutic range. It readily crosses the blood-brain barrier, 
+reaching CSF peak concentrations in 1.4-2.6 hours. It has an apparent volume of 
+distribution in the range of 1.8-2.7 L/kg.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">12.3.3 </content>
+                  <content styleCode="bold">Metabolism</content>
+                  <paragraph>Rivastigmine is extensively metabolized primarily via 
+cholinesterase-mediated hydrolysis to the decarbamylated metabolite NAP226-90. 
+<content styleCode="italics">In </content>
+                     <content styleCode="italics">vitro</content>, this metabolite 
+shows minimal inhibition of acetylcholinesterase (less than 10%). Based on evidence 
+from <content styleCode="italics">in-vitro</content> and animal studies, the major 
+cytochrome P450 isoenzymes are minimally involved in rivastigmine 
+metabolism.</paragraph>
+                  <paragraph>The metabolite-to-parent AUC<sub>∞</sub> ratio was about 0.7 
+after Exelon Patch application versus 3.5 after oral administration, indicating 
+that much less metabolism occurred after dermal treatment. Less NAP226-90 is 
+formed following patch application, presumably because of the lack of 
+presystemic (hepatic first pass) metabolism. Based on <content styleCode="italics">in-</content>
+                     <content styleCode="italics">vitro</content> studies, no unique 
+metabolic routes were detected in human skin.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">12.3.4 </content>
+                  <content styleCode="bold">Elimination</content>
+                  <paragraph>Renal excretion of the metabolites is the major route of 
+elimination. Unchanged rivastigmine is found in trace amounts in the urine. 
+Following administration of <sup>14</sup>C-rivastigmine, renal 
+elimination was rapid and essentially complete (greater than 90%) within 24 hours. Less 
+than 1% of the administered dose is excreted in the feces. The apparent 
+elimination half-life in plasma is approximately 3 hours after patch removal. 
+Renal clearance was approximately<br/>2.1-2.8 L/hr.</paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM3">
+                     <text>image of Figure 2</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Figure 2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="79e52ba2-18ce-4a88-971a-c5a1430c5885"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13  NONCLINICAL TOXICOLOGY</title>
+               <text>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">13.1 Carcinogenesis, Mutagenesis, 
+Impairment of Fertility</content>
+                  <paragraph>In oral carcinogenicity studies conducted at doses up to 1.1 mg 
+base/kg/day in rats and 1.6 mg base/kg/day in mice, rivastigmine was not 
+carcinogenic.</paragraph>
+                  <paragraph>In a dermal carcinogenicity study conducted at doses up to 0.75 mg 
+base/kg/day in mice, rivastigmine was not carcinogenic. The mean rivastigmine 
+plasma exposure (AUC) at this dose was 0.3-0.4 times that observed in 
+Alzheimer’s disease patients at the recommended clinical dose (one Exelon Patch 
+9.5 mg/24 hours).</paragraph>
+                  <paragraph>Rivastigmine was clastogenic in two <content styleCode="italics">in-</content>
+                     <content styleCode="italics">vitro</content> assays in the presence, but not the absence, of 
+metabolic activation. It caused structural chromosomal aberrations in V79 
+Chinese hamster lung cells and both structural and numerical (polyploidy) 
+chromosomal aberrations in human peripheral blood lymphocytes. Rivastigmine was 
+not genotoxic in three <content styleCode="italics">in-</content>
+                     <content styleCode="italics">vitro</content> assays: the Ames test, the unscheduled DNA synthesis 
+(UDS) test in rat hepatocytes (a test for induction of DNA repair synthesis), 
+and the HGPRT test in V79 Chinese hamster cells. Rivastigmine was not 
+clastogenic in the <content styleCode="italics">in-</content>
+                     <content styleCode="italics">vivo</content> 
+mouse micronucleus test.</paragraph>
+                  <paragraph>No fertility or reproduction studies have been conducted in animals treated 
+with dermal rivastigmine. Rivastigmine had no effect on fertility or 
+reproductive performance in rats at oral doses up to 1.1 mg base/kg/day.</paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9a62c113-5e08-49d7-b0ec-f82c4f43eaa8"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14  CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>The effectiveness of the Exelon Patch 
+(rivastigmine transdermal system) in Alzheimer’s disease and dementia associated 
+with Parkinson’s disease was based on the results of a single controlled trial 
+in patients with Alzheimer’s disease (see below) as well as on three controlled 
+trials of the immediate-release capsule in Alzheimer’s disease and one 
+controlled trial in dementia associated with Parkinson’s disease (see package 
+insert for the Exelon capsules and oral solution for details).</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">14.1 </content>
+                  <content styleCode="bold">International 24-Week Study of Exelon</content>
+                  <content styleCode="bold"> </content>
+                  <content styleCode="bold">Patch (rivastigmine</content>
+                  <content styleCode="bold"> </content>
+                  <content styleCode="bold">transdermal</content>
+                  <content styleCode="bold"> </content>
+                  <content styleCode="bold">system)</content>
+                  <paragraph>This was a randomized double-blind clinical investigation in 
+patients with Alzheimer’s disease [diagnosed by NINCDS-ADRDA and DSM-IV 
+criteria, Mini-Mental Status Examination (MMSE) score ≥10 and ≤20]. The mean age 
+of patients participating in this trial was 74 years with a range of 
+50-90 years. Approximately 67% of patients were women and 33% were men. The 
+racial distribution was Caucasian 75%, Black 1%, Oriental 9% and Other Races 
+15%.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">14.2 </content>
+                  <content styleCode="bold">Study 
+Outcome Measures</content>
+                  <paragraph>The effectiveness of the Exelon Patch 
+(rivastigmine transdermal system) was evaluated in this study using a dual 
+outcome assessment strategy.</paragraph>
+                  <paragraph>
+                     <br/>The ability of the Exelon Patch to improve cognitive performance was 
+assessed with the cognitive subscale of the Alzheimer’s Disease Assessment Scale 
+(ADAS-Cog), a multi-item instrument that has been extensively validated in 
+longitudinal cohorts of Alzheimer’s disease patients. The ADAS-Cog examines 
+selected aspects of cognitive performance including elements of memory, 
+orientation, attention, reasoning, language and praxis. The ADAS-Cog scoring 
+range is from 0-70, with higher scores indicating greater cognitive impairment. 
+Elderly normal adults may score as low as 0 or 1, but it is not unusual for 
+non-demented adults to score slightly higher.</paragraph>
+                  <paragraph>The ability of the Exelon Patch to produce an overall clinical effect was 
+assessed using the Alzheimer’s Disease Cooperative Study - Clinical Global 
+Impression of Change (ADCS-CGIC). The ADCS-CGIC is a more standardized form of 
+CIBIC-Plus and is also scored as a seven-point categorical rating, ranging from 
+a score of 1, indicating “markedly improved”, to a score of 4, indicating “no 
+change” to a score of 7, indicating “marked worsening”.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">14.3 </content>
+                  <content styleCode="bold">Study 
+Results</content>
+                  <paragraph>In this study, 1195 patients were randomized to one of the 
+following 4 treatments: Exelon Patch 9.5 mg/24 hours, Exelon Patch 
+17.4 mg/24 hours, Exelon capsules in a dose of 6 mg BID, or placebo. This 
+24-week study was divided into a 16-week titration phase followed by an 8-week 
+maintenance phase. In the active treatment arms of this study, doses below the 
+target dose were permitted during the maintenance phase in the event of poor 
+tolerability.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">14.3.1 </content>
+                  <content styleCode="bold">Effects on the ADAS-Cog</content>
+                  <paragraph>Figure 3 illustrates the time course for the change from baseline 
+in ADAS-Cog scores for all 4 treatment groups over the 24-week study. At 24 
+weeks, the mean differences in the ADAS-Cog change scores for the Exelon-treated 
+patients, compared to the patients on placebo, were 1.8, 2.9, and 1.8 units for 
+the Exelon Patch 9.5 mg/24 hours, Exelon Patch 17.4 mg/24 hours, and Exelon 
+capsule 6 mg BID groups, respectively. The difference between each of these 
+groups and placebo was statistically significant.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">14.3.2 </content>
+                  <content styleCode="bold">Effects on the ADCS-CGIC</content>
+                  <paragraph>Figure 4 is a histogram of the distribution of patients’ scores 
+on the ADCS-CGIC for all 4 treatment groups.</paragraph>At 24 weeks, the mean difference in the ADCS-CGIC scores for the comparison 
+of patients in each of the Exelon-treated groups with the patients on placebo 
+was 0.2 units. The difference between each of these groups and placebo was 
+statistically significant.<renderMultiMedia referencedObject="MM4"/>
+                  <paragraph>
+                     <content styleCode="bold">Figure 3: Time Course of the Change from Baseline in ADAS-Cog Score for Patients 
+Observed at Each Time Point</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+                  <paragraph>
+                     <content styleCode="bold">Figure 4: Distribution of ADCS-CGIC Scores for Patients Completing the Study</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM4">
+                     <text>image of Figure 3</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Figure 3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM5">
+                     <text>image of Figure 4</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Figure 4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="72d13d30-c737-4d10-8eee-33a5902e36d1"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16  HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Patch 4.6</content> <content styleCode="bold">mg/24</content> <content styleCode="bold">hours</content>
+                  </paragraph>
+                  <paragraph>Each patch of 5 cm<sup>2</sup> contains 9 mg rivastigmine base 
+with <content styleCode="italics">in</content>
+                     <content styleCode="italics">-</content>
+                     <content styleCode="italics">vivo</content> release rate of 4.6 mg/24 hours.</paragraph>
+                  <paragraph>      Carton of 30………………………NDC 54868-6070-0</paragraph>
+                  <paragraph>      <content styleCode="bold">Patch 9.5</content> <content styleCode="bold">mg/24</content> <content styleCode="bold">hours</content>
+                  </paragraph>
+                  <paragraph>Each patch of 10 cm<sup>2</sup> contains 18 mg rivastigmine base 
+with <content styleCode="italics">in</content>
+                     <content styleCode="italics">-</content>
+                     <content styleCode="italics">vivo</content> release rate of 9.5 mg/24 hours.</paragraph>
+                  <paragraph>Carton of 30………………………..NDC 54868-5954-0</paragraph>
+                  <paragraph>Store at 25°C (77°F); excursions permitted to 15-30°C<br/>(59-86°F) [see USP 
+Controlled Room Temperature].</paragraph>
+                  <paragraph>Keep Exelon Patch (rivastigmine transdermal system) in the individual sealed 
+pouch until use.</paragraph>
+                  <paragraph>Used systems should be folded, with the adhesive surfaces pressed together, 
+and discarded safely.</paragraph>
+                  <paragraph>Each pouch contains one patch.</paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="778af093-bc0e-4bdc-843b-f23f1467f649"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17  PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">17.1</content>
+                  <content styleCode="bold"> </content>
+                  <content styleCode="bold">General</content>
+                  <paragraph>Patient information is printed in section 17.8. To assure safe 
+and effective use of Exelon Patch, this information and instructions provided in 
+the patient information section should be discussed with patients.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">17.</content>
+                  <content styleCode="bold">2</content>
+                  <content styleCode="bold"> </content>
+                  <content styleCode="bold">Importance of 
+Correct Usage</content>
+                  <paragraph>Patients or caregivers should be informed of the importance of 
+applying the correct dose on the correct part of their body. They should be 
+instructed to rotate the application site in order to minimize skin 
+irritation. The same site should not be used within 14 days. Exelon Patch should 
+be replaced every 24 hours and the time of day should be consistent. It may be 
+helpful for this to be part of a daily routine, such as the daily bath or 
+shower.</paragraph>
+                  <paragraph>Patients or caregivers should be told to avoid exposure of the patch to 
+external heat sources (excess sunlight, saunas, solariums) for long periods of 
+time.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">17.3</content>
+                  <content styleCode="bold"> </content>
+                  <content styleCode="bold">Discarding Used Patch</content>
+                  <content styleCode="bold">es</content>
+                  <paragraph>Patients or caregivers should be instructed to fold the patch in 
+half after use. Return the used patch to its original pouch and discard it out 
+of the reach and sight of children and pets. They should also be informed that 
+drug still remains in the patch after 24-hour usage. They should be instructed 
+to avoid eye contact and to wash their hands after handling the patch.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">17.4</content>
+                  <content styleCode="bold"> </content>
+                  <content styleCode="bold">Concomitant Use of Drugs with Cholinergic 
+Action</content>
+                  <paragraph>Patients or caregivers should be told that while wearing 
+Exelon Patch they should not be taking Exelon capsules or Exelon oral solution 
+or other drugs with cholinergic effects.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">17.5</content>
+                  <content styleCode="bold"> </content>
+                  <content styleCode="bold">Gastrointestinal Adverse Events</content>
+                  <paragraph>Patients or caregivers should be informed of the potential 
+gastrointestinal adverse events such as nausea, vomiting and diarrhea. Patients 
+and caregivers should be instructed to observe for these adverse reactions at 
+all times, in particular when treatment is initiated or the dose is increased. 
+Patients and caregivers should be instructed to inform their physician if these 
+adverse events persist as a dose adjustment/<br/>reduction may be required.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">17.</content>
+                  <content styleCode="bold">6</content>
+                  <content styleCode="bold"> </content>
+                  <content styleCode="bold">Monitoring the 
+Patient’s Weight</content>
+                  <paragraph>Patients or caregivers should be informed that Exelon Patch may 
+affect the patient’s appetite and/or the patient’s weight. Any loss of appetite 
+or weight reduction needs to be monitored.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">17.7</content>
+                  <content styleCode="bold"> </content>
+                  <content styleCode="bold">Missed Doses</content>
+                  <paragraph>If the patient has missed a dose, he/she should be instructed to 
+apply a new patch immediately. They may apply the next patch at the usual time 
+the next day. Patients should not apply two patches to make up for one 
+missed.</paragraph>
+                  <paragraph>If treatment has been missed for several days, the patient or caregiver 
+should be informed to restart treatment with the starting patch dose of 
+4.6 mg/24 hours. Titration to the next patch dose should proceed after 4 weeks 
+[see <content styleCode="italics">Dosage and Administration</content> <content styleCode="italics">(2.1)</content>].</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <content styleCode="bold">17.</content>
+                  <content styleCode="bold">8</content>
+                  <content styleCode="bold"> FDA-</content>
+                  <content styleCode="bold">A</content>
+                  <content styleCode="bold">pproved </content>
+                  <content styleCode="bold">P</content>
+                  <content styleCode="bold">atient 
+</content>
+                  <content styleCode="bold">L</content>
+                  <content styleCode="bold">abeling</content>
+                  <content styleCode="bold"> </content>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>
+                  <paragraph>      <content>What is Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch and what it is used 
+for</content>
+                     <content>?</content>
+                  </paragraph>
+                  <paragraph>Exelon belongs to a class of substances called cholinesterase inhibitors. It 
+is used for the treatment of memory disorders in patients with Alzheimer’s 
+disease or with Parkinson’s disease.</paragraph>
+                  <paragraph>      <content>Before you apply Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch</content>
+                     <content>:</content>
+                  </paragraph>
+                  <paragraph>Carefully follow all instructions given to you by your doctor, even if they 
+differ from the information contained in this leaflet.</paragraph>
+                  <paragraph>Read the following information before you apply Exelon Patch.</paragraph>
+                  <paragraph>      <content>Do not apply Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch in the following 
+cases:</content>
+                  </paragraph>
+                  <paragraph>If you know that you are allergic (hypersensitive) to rivastigmine (the 
+active substance in Exelon Patch) or to any of the other ingredients of 
+Exelon Patch [see <content styleCode="italics">Description</content> <content styleCode="italics">(11)</content>].</paragraph>
+                  <paragraph>If you have ever had an allergic reaction to a similar type of medicine.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">If this applies to you, tell your doctor without applying 
+Exelon</content> <content styleCode="italics">Patch.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content>Take special care with Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch if:</content>
+                  </paragraph>
+                  <list listType="unordered" ID="iabbcc7d5-11e1-4d85-8219-438f7e93da33">
+                     <item>You have, or ever had an irregular heartbeat.<br/>
+                     </item>
+                     <item>You have, or ever had an active stomach ulcer.<br/>
+                     </item>
+                     <item>You have, or ever had difficulties in passing urine.<br/>
+                     </item>
+                     <item>You have, or ever had seizures.<br/>
+                     </item>
+                     <item>You have, or ever had asthma or a severe respiratory disease.<br/>
+                     </item>
+                     <item>You suffer from trembling.<br/>
+                     </item>
+                     <item>You have a low body weight.<br/>
+                     </item>
+                     <item>You have impaired liver function. </item>
+                  </list>
+                  <paragraph>If any of these apply to you, your doctor may need to monitor you more 
+closely while you are on this medicine.</paragraph>
+                  <paragraph>If you have not been applying Exelon Patch for several days do not apply the 
+next patch until you have talked to your doctor.</paragraph>
+                  <paragraph>
+                     <content>Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch with food and drink:</content>
+                  </paragraph>
+                  <paragraph>Food or drink does not affect Exelon Patch because rivastigmine enters your 
+bloodstream through your skin.</paragraph>
+                  <paragraph>
+                     <content>Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch and older people:</content>
+                  </paragraph>
+                  <paragraph>Exelon Patch can be used by patients over the age of 65.</paragraph>
+                  <paragraph>
+                     <content>Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch and children:</content>
+                  </paragraph>
+                  <paragraph>The use of Exelon Patch in children is not recommended.</paragraph>
+                  <paragraph>
+                     <content>Pregnant women:</content>
+                  </paragraph>
+                  <paragraph>Tell your doctor if you are pregnant or planning to become pregnant. In the 
+event of pregnancy, the benefits of Exelon Patch must be assessed against the 
+possible effects on your unborn child. Ask your doctor or pharmacist for advice 
+before taking any medicine during pregnancy.</paragraph>
+                  <paragraph>      <content>Breast-feeding mothers:</content>
+                  </paragraph>
+                  <paragraph>You should not breast-feed during treatment with Exelon Patch. Ask your 
+doctor or pharmacist for advice before taking any medicine while you are 
+breast-feeding.</paragraph>
+                  <paragraph>      <content>Driving and using machines:</content>
+                  </paragraph>
+                  <paragraph>Your doctor will tell you whether your illness allows you to drive vehicles 
+and use machines safely. Exelon Patch may cause dizziness and drowsiness, mainly 
+at the start of treatment or when increasing the dose. If you feel dizzy or 
+drowsy, do not drive, use machines or perform any other tasks that require your 
+attention.</paragraph>
+                  <paragraph>      <content>Taking other medicines:</content>
+                  </paragraph>
+                  <paragraph>Tell your doctor or pharmacist about any other medicines you are taking or 
+have recently taken, including any you get without a prescription.</paragraph>
+                  <paragraph>Exelon Patch should not be given together with other medicines with similar 
+effects (cholinomimetic agents) or with anticholinergic medicines.</paragraph>
+                  <paragraph>If you need to have surgery while using Exelon Patch, you should inform your 
+doctor because Exelon Patch may exaggerate the effects of some muscle relaxants 
+during anesthesia.</paragraph>
+                  <paragraph>      <content>How to use Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch</content>
+                     <content>:</content>
+                  </paragraph>
+                  <paragraph>Follow all instructions given to you by your doctor carefully, even if they 
+differ from the ones given in this leaflet.</paragraph>
+                  <paragraph>This medicine must not be given to children.</paragraph>
+                  <paragraph>Do not eat Exelon Patch.</paragraph>
+                  <paragraph>You must remove Exelon Patch from the previous day <content>before</content> applying a new one. Do not cut the patch into 
+pieces.</paragraph>
+                  <paragraph>      <content>How to start treatment:</content>
+                  </paragraph>
+                  <paragraph>Your doctor will tell you which Exelon Patch is suitable for you. Treatment 
+usually starts with Exelon Patch 4.6 mg/24 hours, and after several weeks many 
+patients move to Exelon Patch 9.5 mg/24 hours as the usual daily dose. Apply the 
+correct dose as directed by your doctor. The patch should be replaced by a new 
+one after 24 hours.</paragraph>
+                  <paragraph>During the course of treatment, your doctor may adjust the dose to suit your 
+individual needs.</paragraph>
+                  <paragraph>If you have not been applying Exelon Patch for several days, do not apply the 
+next patch before you have talked to your doctor.</paragraph>
+                  <paragraph>      <content>Where to apply Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch</content>
+                     <content>:</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+                  <paragraph>Apply the patch to the upper <content styleCode="bold">or</content> lower back if it is 
+likely that the patient will remove it. If this is not a concern, the patch can 
+be applied <content styleCode="bold">instead</content> to the upper arm <content styleCode="bold">or</content> chest. Avoid places where the patch can be rubbed off by 
+tight clothing.</paragraph>
+                  <paragraph>Before you apply Exelon Patch, make sure that your skin is:</paragraph>
+                  <list listType="unordered" ID="ia5d421c8-24f6-4ac3-877e-ab28fb8c4df4">
+                     <item>clean, dry and hairless<br/>
+                     </item>
+                     <item>free of any powder, oil, moisturizer, or lotion (that could keep the patch 
+from sticking to your skin properly)<br/>
+                     </item>
+                     <item>free of cuts, rashes and/or irritations </item>
+                  </list>
+                  <paragraph>When changing the patch, apply a new patch to a different spot of skin (for 
+example on the right side of the body one day, then on the left side the next 
+day). Do not apply a new patch to that same spot for at least 14 days. Apply the 
+correct dose as directed by your doctor. The patch should be replaced by a new 
+one after 24 hours.</paragraph>
+                  <paragraph>
+                     <content>How to apply </content>
+                     <content>Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch:</content>
+                  </paragraph>
+                  <paragraph>The patch is a thin, opaque, plastic patch that sticks to the skin. Each 
+patch is sealed in a pouch that protects it until you are ready to put it on. Do 
+not open the pouch or remove a patch until just before you apply it.</paragraph>
+                  <renderMultiMedia referencedObject="MM7"/>
+                  <paragraph>Cut the pouch along the dotted line and remove the patch.</paragraph>
+                  <paragraph>The patch should not be cut or folded sharply.</paragraph>
+                  <renderMultiMedia referencedObject="MM8"/>
+                  <paragraph>A protective liner covers the adhesive side of the patch. Peel off one side of 
+the protective liner and do not touch the sticky part of the patch with the 
+fingers.</paragraph>
+                  <renderMultiMedia referencedObject="MM9"/>
+                  <paragraph>Put the sticky side of the patch on the upper or lower back, upper arm or chest 
+and then peel off the second side of the protective liner.</paragraph>
+                  <renderMultiMedia referencedObject="MM10"/>
+                  <paragraph>Press the patch firmly in place with the hand to make sure that the edges 
+stick well.</paragraph>
+                  <paragraph>You may write (e.g., the day of the week) on Exelon Patch with a thin ball 
+point pen.</paragraph>
+                  <paragraph>Exelon Patch should be worn continuously until it is time to replace it with 
+a new patch. Avoid placing the patch where it could be rubbed off by 
+clothing.</paragraph>
+                  <paragraph>      <content>How to remove Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch:</content>
+                  </paragraph>
+                  <paragraph>Gently pull at one edge of Exelon Patch to remove it completely from the 
+skin.</paragraph>
+                  <paragraph>
+                     <br/>
+                     <content>How to dispose of Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch:</content>
+                  </paragraph>
+                  <paragraph>After the patch has been removed, fold it in half with the adhesive sides on 
+the inside and press them together. Return the used patch to its original pouch 
+and discard safely out of the reach and sight of children and pets as there may 
+be medicine left over in the patch. Wash your hands with soap and water after 
+removing the patch.</paragraph>
+                  <paragraph>
+                     <content>Can Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch be worn when bathing, 
+swimming, or in the sun?</content>
+                  </paragraph>
+                  <paragraph>Bathing, swimming, or showering should not affect the patch. When swimming, 
+you can wear the patch under your swimsuit. Make sure the patch does not loosen 
+during these activities.</paragraph>
+                  <paragraph>The patch should not be exposed to any external heat sources (excessive 
+sunlight, saunas, solariums) for long periods of time.</paragraph>
+                  <paragraph>
+                     <content>What to do if Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch falls off:</content>
+                  </paragraph>
+                  <paragraph>If the patch falls off, a new patch should be applied for the rest of the day 
+and then replaced the next day at the same time as usual.</paragraph>
+                  <paragraph>
+                     <content>When and how long to apply Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch:</content>
+                  </paragraph>
+                  <paragraph>To benefit from your medicine you must apply a new patch every day.</paragraph>
+                  <paragraph>Tell your caregiver that you are applying Exelon Patch. Also tell your 
+caregiver if you have not been applying Exelon Patch for several days.</paragraph>
+                  <paragraph>
+                     <content>What to do if you apply more </content>
+                     <content>Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>p</content>
+                     <content>atch</content>
+                     <content>es than you should</content>
+                     <content>:</content>
+                  </paragraph>
+                  <paragraph>If you accidentally apply more Exelon patches than you should, remove all 
+Exelon patches from your skin, and then inform your doctor that you have 
+accidentally applied more Exelon patches than you should have. You may require 
+medical attention. Some people who have accidentally taken too much Exelon have 
+experienced nausea, vomiting, diarrhea, high blood pressure and hallucinations. 
+Slow heartbeat and fainting may also occur.</paragraph>
+                  <paragraph>
+                     <content>If you forget to apply Exelon</content>
+                     <content styleCode="underline"> </content>
+                     <content>Patch:</content>
+                  </paragraph>
+                  <paragraph>If you have forgotten to apply Exelon Patch, apply a new patch immediately. 
+You may apply the next patch at the usual time the next day. Do not apply two 
+Exelon patches to make up for the one that you missed.</paragraph>
+                  <paragraph>If you have not been applying Exelon Patch for several days do not apply the 
+next patch before you have talked to your doctor.</paragraph>
+                  <paragraph>      <content>Possible side effects</content>
+                     <content>:</content>
+                  </paragraph>
+                  <paragraph>Like all medicines, Exelon Patch can cause side effects, although not 
+everybody gets them.</paragraph>
+                  <paragraph>Do not be alarmed by this list of possible side effects. You may not 
+experience any of them.</paragraph>
+                  <paragraph>You may tend to see side effects more frequently when you start your 
+medication or increase to a higher dose. In most cases, side effects will 
+gradually disappear as your body becomes used to the medicine. Gastrointestinal 
+reactions such as nausea (feeling sick) and vomiting (being sick) are the most 
+common side effects. The other common side effects are: loss of appetite, 
+anxiety, difficulty sleeping, dizziness, headache, diarrhea, stomach discomfort 
+after meals, stomach pain, skin reactions at the application site (redness, 
+itching, irritation, swelling), fatigue, weakness, and weight loss.</paragraph>
+                  <paragraph>
+                     <content>Some side effects could become serious:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Common</content>
+                     <content styleCode="bold">:</content> depression.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Uncommon:</content> severe confusion, hallucinations, vascular 
+accident involving the brain (loss of coordination, difficulty in speaking or 
+breathing and signs of brain disorder), fainting, problems with heart rhythm 
+(irregular or fast or slow heartbeat), gastric ulcer and gastrointestinal 
+hemorrhage (blood in stools or when vomiting).</paragraph>
+                  <paragraph>If you experience any of these, remove Exelon Patch <content>and </content>
+                     <content>tell your doctor right 
+away.</content>
+                  </paragraph>
+                  <paragraph>      <content>Other side effects:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Uncommon:</content> agitation, drowsiness, sweating and a 
+general feeling of being unwell.</paragraph>
+                  <paragraph>      If any of these affect you severely, <content>tell your 
+doctor.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content>Additional side effects have been reported with 
+Exelon capsules or oral solution:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Common:</content> confusion and trembling.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Uncommon:</content> changes in liver function tests and 
+accidental falls.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rare:</content> convulsions, chest pain, duodenal ulcer and 
+rash.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Very rare:</content> urinary tract infection, high blood 
+pressure, inflammation of the pancreas (severe upper stomach pain, often with 
+nausea and vomiting) and severe vomiting that can lead to a rupture of the 
+esophagus.</paragraph>
+                  <paragraph>In addition, you should contact your doctor or pharmacist if you experience 
+any other possible side effects not mentioned in this leaflet.</paragraph>
+                  <paragraph>      <content>How to store Exelon</content> <content>Patch</content>
+                     <content>:</content>
+                  </paragraph>
+                  <paragraph>Do not use Exelon Patch after the expiration date shown on the carton and 
+pouch.</paragraph>
+                  <paragraph>Store at room temperature, 59-86°F (15-30°C).</paragraph>
+                  <paragraph>Do not use any Exelon Patch that is damaged or shows signs of tampering.</paragraph>
+                  <paragraph>Keep Exelon Patch out of the reach and sight of children and pets.</paragraph>
+                  <paragraph>      Distributed by:</paragraph>
+                  <paragraph>      Novartis Pharmaceuticals Corporation</paragraph>
+                  <paragraph>      East Hanover, New Jersey 07936</paragraph>
+                  <paragraph>      </paragraph>
+                  <paragraph>      REV: JANUARY 2009                                                 
+T2009-09</paragraph>
+                  <paragraph>      ©Novartis</paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM6">
+                     <text>image of Where to apply</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Where to apply.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM7">
+                     <text>image of How to apply</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="How to apply.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM8">
+                     <text>image of protective liner</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="protective liner.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM9">
+                     <text>image of sticky side</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sticky side.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM10">
+                     <text>image of press firmly</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="press firmly.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3c6492be-e5c8-49fb-97bd-8855eeb4811c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Package Label – 4.6 mg / 24 hours</content>
+                  </paragraph>
+                  <paragraph>Rx Only             <br/>
+                  </paragraph>
+                  <paragraph>EXELON® Patch</paragraph>
+                  <paragraph>(rivastigmine transdermal system) </paragraph>
+                  <paragraph>Each System Delivers 4.6 mg/24 hours</paragraph>
+                  <renderMultiMedia referencedObject="MM11"/>
+                  <br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Package Label – 9.5 mg / 24 hours</content>
+                  </paragraph>
+                  <paragraph>Rx Only             <br/>
+                  </paragraph>
+                  <paragraph>EXELON® Patch</paragraph>
+                  <paragraph>(rivastigmine transdermal system) </paragraph>
+                  <paragraph>Each System Delivers 4.6 mg/24 hours</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM12"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100222"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM11">
+                     <text>image of 4.6 mg package label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="4.6mg package label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM12">
+                     <text>image of 9.5 mg package label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="9.5mg package label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

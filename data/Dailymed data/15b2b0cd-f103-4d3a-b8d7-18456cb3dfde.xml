@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="15b2b0cd-f103-4d3a-b8d7-18456cb3dfde"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Dromelate Injection System</content>
+   </title>
+   <effectiveTime value="20220223"/>
+   <setId root="2367e853-1109-4c23-a177-6829304832e8"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="079971231" root="1.3.6.1.4.1.519.1"/>
+            <name>IT3 Medical LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="84d2fcd9-1f5e-4f8d-8e69-6c84a2262fbb"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200109"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70529-030" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dromelate</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dihydroergotamine Mesylate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="81AXN7R2QT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIHYDROERGOTAMINE MESYLATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="436O5HM03C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DIHYDROERGOTAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.061" unit="mL"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.15" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="12EH9M7279" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHANESULFONIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43165" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMPULE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="70529-030-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170301"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040475" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170301"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0792cb27-6e7f-460c-aa5f-1b865514d2c2">
+               <id root="aedd11b6-465d-453f-a03c-553b49569fee"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Serious and/or life-threatening peripheral ischemia has been associated with the coadministration of DIHYDROERGOTAMINE with potent CYP3A4 inhibitors including protease inhibitors and macrolide antibiotics. Because CYP3A4 inhibition elevates the serum levels of DIHYDROERGOTAMINE, the risk for vasospasm leading to cerebral ischemia and/or ischemia of the extremities is increased. Hence, concomitant use of these medications is contraindicated. (<content styleCode="italics">See also </content>
+                        <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml>
+                        <content styleCode="italics"> and </content>
+                        <linkHtml href="#Warnings">WARNINGS</linkHtml>
+                        <content styleCode="italics"> sections</content>)</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20180625"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_cf414c86-191c-47e1-aab7-08993d5276bd">
+               <id root="ebc580af-6ab1-49a9-bdc4-39b5c122796e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Dihydroergotamine Mesylate is ergotamine hydrogenated in the 9, 10 position as the mesylate salt. Dihydroergotamine Mesylate is known chemically as ergotaman-3',6',18-trione,9,10-dihydro-12'-hydroxy-2'-methyl-5'-(phenylmethyl)-,(5'α)-, monomethanesulfonate. Its molecular weight is 679.80 and its molecular formula is C<sub>33</sub>H<sub>37</sub>N<sub>5</sub>O<sub>5</sub>•CH<sub>4</sub>O<sub>3</sub>S.</paragraph>
+                  <paragraph>The chemical structure is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1-4"/>
+                  </paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Injection, USP is a clear, colorless solution supplied in sterile ampules for intravenous, intramuscular, or subcutaneous administration. Each mL contains 1 mg Dihydroergotamine Mesylate, USP; Alcohol, USP 6.1% by volume; Glycerin, USP 15% by weight; Water for Injection, USP; Methanesulfonic Acid and/or Sodium Hydroxide for pH adjustment. pH range is 3.4 - 4.9.</paragraph>
+               </text>
+               <effectiveTime value="20180612"/>
+               <component>
+                  <observationMedia ID="MM1-4">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="DESCRIPTION picture.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5876674c-8bb5-4f49-ac76-df299aa95567">
+               <id root="9653a35b-76fa-40ab-b087-90ef5e84241e"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20140624"/>
+               <component>
+                  <section ID="ID_e71a83ca-9ff9-4ecc-b457-30053e6dd850">
+                     <id root="5c357973-b060-4a30-9da7-28abf4cb0110"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Mechanism of Action</title>
+                     <text>
+                        <paragraph>Dihydroergotamine binds with high affinity to 5-HT<sub>1Dα</sub> and 5-HT<sub>1Dβ</sub> receptors. It also binds with high affinity to serotonin 5-HT<sub>1A</sub>, 5-HT<sub>2A</sub>, and 5-HT<sub>2C</sub> receptors, noradrenaline α<sub>2A</sub>, α<sub>2B</sub> and α<sub>1</sub> receptors, and dopamine D<sub>2L</sub> and D<sub>3</sub> receptors.</paragraph>
+                        <paragraph>The therapeutic activity of dihydroergotamine in migraine is generally attributed to the agonist effect at 5-HT<sub>1D</sub> receptors. Two current theories have been proposed to explain the efficacy of 5-HT<sub>1D</sub> receptor agonists in migraine. One theory suggests that activation of 5-HT<sub>1D</sub> receptors located on intracranial blood vessels, including those on arterio-venous anastomoses, leads to vasoconstriction, which correlates with the relief of migraine headache. The alternative hypothesis suggests that activation of 5-HT<sub>1D</sub> receptors on sensory nerve endings of the trigeminal system results in the inhibition of pro-inflammatory neuropeptide release.</paragraph>
+                        <paragraph>In addition, dihydroergotamine possesses oxytocic properties. <content styleCode="italics">(See <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml>)</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_189cee08-6a8e-470c-93b6-eb2a4f8115ee">
+                     <id root="07f28435-5ed1-427b-8ce9-c332766f0a7e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <effectiveTime value="20140624"/>
+                     <component>
+                        <section ID="ID_f07a3fe3-e8de-4b68-b8fa-606207a02514">
+                           <id root="46e56d9a-7dfc-4ea7-845f-c1821955a348"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Absorption</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Absolute bioavailability for the subcutaneous and intramuscular route have not been determined, however, no difference was observed in dihydroergotamine bioavailability from intramuscular and subcutaneous doses. Dihydroergotamine mesylate is poorly bioavailable following oral administration.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_6eec73b5-d8eb-4952-ab2d-560cc84adccb">
+                           <id root="eb11db26-6082-47d2-ad87-4dbf279be1e5"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Distribution</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Dihydroergotamine mesylate is 93% plasma protein bound. The apparent steady-state volume of distribution is approximately 800 liters.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_1404276e-06f7-47cf-a64f-860b33a1dd7c">
+                           <id root="e50c01af-2e00-4317-887c-9911a6ae3225"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Metabolism</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Four dihydroergotamine mesylate metabolites have been identified in human plasma following oral administration. The major metabolite, 8'-β-hydroxydihydroergotamine, exhibits affinity equivalent to its parent for adrenergic and 5-HT receptors and demonstrates equivalent potency in several venoconstrictor activity models, <content styleCode="italics">in vivo</content> and <content styleCode="italics">in vitro</content>. The other metabolites, i.e., dihydrolysergic acid, dihydrolysergic amide, and a metabolite formed by oxidative opening of the proline ring are of minor importance. Following nasal administration, total metabolites represent only 20%-30% of plasma AUC. Quantitative pharmacokinetic characterization of the four metabolites has not been performed.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_5672f234-7b27-4a70-a10c-7e5ad711efb0">
+                           <id root="bd3af1b8-10c7-4627-8f93-0ebe330b313e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Excretion</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The major excretory route of dihydroergotamine is via the bile in the feces. The total body clearance is 1.5 L/min which reflects mainly hepatic clearance. Only 6%-7% of unchanged dihydroergotamine is excreted in the urine after intramuscular injection. The renal clearance (0.1 L/min) is unaffected by the route of dihydroergotamine administration. The decline of plasma dihydroergotamine after intramuscular or intravenous administration is multi-exponential with a terminal half-life of about 9 hours.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_80f5b03b-1ac5-4ce8-a250-a25c3f14d063">
+                           <id root="27c52526-0113-47a4-9717-81b032863513"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Subpopulations</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>No studies have been conducted on the effect of renal or hepatic impairment, gender, race, or ethnicity on dihydroergotamine pharmacokinetics. Dihydroergotamine Mesylate Injection, USP is contraindicated in patients with severely impaired hepatic or renal function. <content styleCode="italics">(See <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml>)</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_fe44ee4d-f822-4135-becb-9f976502a85f">
+                           <id root="40bcf032-8964-4a56-89ad-3d5ba2acf524"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Interactions</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Pharmacokinetic interactions have been reported in patients treated orally with other ergot alkaloids (e.g., increased levels of ergotamine) and macrolide antibiotics, principally troleandomycin, presumably due to inhibition of cytochrome P450 3A metabolism of the alkaloids by troleandomycin. Dihydroergotamine has also been shown to be an inhibitor of cytochrome P450 3A catalyzed reactions and rare reports of ergotism have been obtained from patients treated with dihydroergotamine and macrolide antibiotics (e.g., troleandomycin, clarithromycin, erythromycin), and in patients treated with dihydroergotamine and protease inhibitors (e.g. ritonavir), presumably due to inhibition of cytochrome P450 3A metabolism of ergotamine (See <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml>). No pharmacokinetic interactions involving other cytochrome P450 isoenzymes are known.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b7ab7c79-e22a-4fb1-b28e-7326e7838b1a">
+               <id root="212e83ba-d980-42ba-9fb4-b189184eab11"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Dihydroergotamine Mesylate Injection, USP is indicated for the acute treatment of migraine headaches with or without aura and the acute treatment of cluster headache episodes.</paragraph>
+               </text>
+               <effectiveTime value="20140624"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Contraindications">
+               <id root="67ddeefe-a36a-4f55-936a-1efd8f636719"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>There have been a few reports of serious adverse events associated with the coadministration of dihydroergotamine and potent CYP 3A4 inhibitors, such as protease inhibitors and macrolide antibiotics, resulting in vasospasm that led to cerebral ischemia and/or ischemia of the extremities. The use of potent CYP 3A4 inhibitors (ritonavir, nelfinavir, indinavir, erythromycin, clarithromycin, troleandomycin, ketoconazole, itraconazole) with dihydroergotamine is, therefore contraindicated (See <linkHtml href="#CYP">WARNINGS: CYP 3A4 Inhibitors</linkHtml>)</paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Injection, USP should not be given to patients with ischemic heart disease (angina pectoris, history of myocardial infarction, or documented silent ischemia) or to patients who have clinical symptoms or findings consistent with coronary artery vasospasm including Prinzmetal's variant angina. <content styleCode="italics">(See <linkHtml href="#Warnings">WARNINGS</linkHtml>)</content>
+                  </paragraph>
+                  <paragraph>Because Dihydroergotamine Mesylate Injection, USP may increase blood pressure, it should not be given to patients with uncontrolled hypertension.</paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Injection, USP, 5-HT<sub>1</sub> agonists (e.g., sumatriptan), ergotamine-containing or ergot-type medications or methysergide should not be used within 24 hours of each other.</paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Injection, USP should not be administered to patients with hemiplegic or basilar migraine.</paragraph>
+                  <paragraph>In addition to those conditions mentioned above, Dihydroergotamine Mesylate Injection, USP is also contraindicated in patients with known peripheral arterial disease, sepsis, following vascular surgery and severely impaired hepatic or renal function.</paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Injection, USP may cause fetal harm when administered to a pregnant woman. Dihydroergotamine possesses oxytocic properties and, therefore, should not be administered during pregnancy. If this drug is used during pregnancy, or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to the fetus.</paragraph>
+                  <paragraph>There are no adequate studies of dihydroergotamine in human pregnancy, but developmental toxicity has been demonstrated in experimental animals. In embryo-fetal development studies of dihydroergotamine mesylate nasal spray, intranasal administration to pregnant rats throughout the period of organogenesis resulted in decreased fetal body weights and/or skeletal ossification at doses of 0.16 mg/day (associated with maternal plasma dihydroergotamine exposures [AUC] approximately 0.4-1.2 times the exposures in humans receiving the MRDD of 4 mg) or greater. A no effect level for embryofetal toxicity was not established in rats. Delayed skeletal ossification was also noted in rabbit fetuses following intranasal administration of 3.6 mg/day (maternal exposures approximately 7 times human exposures at the MRDD) during organogenesis. A no effect level was seen at 1.2 mg/day (maternal exposures approximately 2.5 times human exposures at the MRDD). When dihydroergotamine mesylate nasal spray was administered intranasally to female rats during pregnancy and lactation, decreased body weights and impaired reproductive function (decreased mating indices) were observed in the offspring at doses of 0.16 mg/day or greater. A no effect level was not established. Effects on development occurred at doses below those that produced evidence of significant maternal toxicity in these studies. Dihydroergotamine-induced intrauterine growth retardation has been attributed to reduced uteroplacental blood flow resulting from prolonged vasoconstriction of the uterine vessels and/or increased myometrial tone.</paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Injection, USP is contraindicated in patients who have previously shown hypersensitivity to ergot alkaloids.</paragraph>
+                  <paragraph>Dihydroergotamine mesylate should not be used by nursing mothers. <content styleCode="italics">(See <linkHtml href="#Precautions">PRECAUTIONS</linkHtml>)</content>
+                  </paragraph>
+                  <paragraph>Dihydroergotamine mesylate should not be used with peripheral and central vasoconstrictors because the combination may result in additive or synergistic elevation of blood pressure.</paragraph>
+               </text>
+               <effectiveTime value="20140624"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Warnings">
+               <id root="0334ff06-80c9-4ff0-a5a1-42ef0a7f6a1e"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Dihydroergotamine Mesylate Injection, USP should only be used where a clear diagnosis of migraine headache has been established.</paragraph>
+               </text>
+               <effectiveTime value="20140624"/>
+               <component>
+                  <section ID="CYP">
+                     <id root="2fd52514-2c03-44da-830a-20268e2be0b6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>CYP 3A4 Inhibitors (e.g. Macrolide Antibiotics and Protease Inhibitors)</title>
+                     <text>
+                        <paragraph>There have been rare reports of serious adverse events in connection with the coadministration of dihydroergotamine and potent CYP 3A4 inhibitors, such as protease inhibitors and macrolide antibiotics, resulting in vasospasm that led to cerebral ischemia of the extremities. The use of potent CYP 3A4 inhibitors with dihydroergotamine should therefore be avoided (see <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml>). Examples of some of the more potent CYP 3A4 inhibitors include: anti-fungals ketoconazole and itraconazole, the protease inhibitors ritonavir, nelfinavir, and indinavir, and macrolide antibiotics erythromycin, clarithromycin, and troleandomycin. Other less potent CYP 3A4 inhibitors should be administered with caution. Less potent inhibitors include saquinavir, nefazodone, fluconazole, grapefruit juice, fluoxetine, fluvoxamine, zileuton, and clotrimazole. These lists are not exhaustive, and the prescriber should consider the effects on CYP 3A4 of other agents being considered for concomitant use with dihydroergotamine.</paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Fibrotic_Complications">
+                     <id root="096e4671-3db2-4281-aa36-4162fddb0438"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Fibrotic Complications</title>
+                     <text>
+                        <paragraph>There have been reports of pleural and retroperitoneal fibrosis in patients following prolonged daily use of injectable dihydroergotamine mesylate. Rarely, prolonged daily use of other ergot alkaloid drugs has been associated with cardiac valvular fibrosis. Rare cases have also been reported in association with the use of injectable dihydroergotamine mesylate; however, in those cases, patients also received drugs known to be associated with cardiac valvular fibrosis.</paragraph>
+                        <paragraph>Administration of dihydroergotamine mesylate injection should not exceed the dosing guidelines and should not be used for chronic daily administration (see <linkHtml href="#Dosage_Administration">DOSAGE AND ADMINISTRATION</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_26615a24-72ce-4513-b0b7-b8c44946fdd1">
+                     <id root="7d11d372-621b-4b84-8387-55c8989d7ad3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Risk of Myocardial Ischemia and/or Infarction and Other Adverse Cardiac Events</title>
+                     <text>
+                        <paragraph>Dihydroergotamine Mesylate Injection, USP should not be used by patients with documented ischemic or vasospastic coronary artery disease. <content styleCode="italics">(See <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml>.)</content> It is strongly recommended that Dihydroergotamine Mesylate Injection, USP not be given to patients in whom unrecognized coronary artery disease (CAD) is predicted by the presence of risk factors (e.g., hypertension, hypercholesterolemia, smoker, obesity, diabetes, strong family history of CAD, females who are surgically or physiologically postmenopausal, or males who are over 40 years of age) unless a cardiovascular evaluation provides satisfactory clinical evidence that the patient is reasonably free of coronary artery and ischemic myocardial disease or other significant underlying cardiovascular disease. The sensitivity of cardiac diagnostic procedures to detect cardiovascular disease or predisposition to coronary artery vasospasm is modest, at best. If, during the cardiovascular evaluation, the patient's medical history or electrocardiographic investigations reveal findings indicative of or consistent with coronary artery vasospasm or myocardial ischemia, Dihydroergotamine Mesylate Injection, USP should not be administered. <content styleCode="italics">(See <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml>)</content>
+                        </paragraph>
+                        <paragraph>For patients with risk factors predictive of CAD who are determined to have a satisfactory cardiovascular evaluation, it is strongly recommended that administration of the first dose of Dihydroergotamine Mesylate Injection, USP take place in the setting of a physician's office or similar medically staffed and equipped facility unless the patient has previously received dihydroergotamine mesylate. Because cardiac ischemia can occur in the absence of clinical symptoms, consideration should be given to obtaining on the first occasion of use an electrocardiogram (ECG) during the interval immediately following Dihydroergotamine Mesylate Injection, USP, in those patients with risk factors.</paragraph>
+                        <paragraph>It is recommended that patients who are intermittent long-term users of Dihydroergotamine Mesylate Injection, USP and who have or acquire risk factors predictive of CAD, as described above, undergo periodic interval cardiovascular evaluation as they continue to use Dihydroergotamine Mesylate Injection, USP.</paragraph>
+                        <paragraph>The systematic approach described above is currently recommended as a method to identify patients in whom Dihydroergotamine Mesylate Injection, USP may be used to treat migraine headaches with an acceptable margin of cardiovascular safety.</paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b9e50bba-18e3-4e34-a276-fe76ac0a514f">
+                     <id root="031c6610-321a-47ac-a703-5bbe7df75511"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiac Events and Fatalities</title>
+                     <text>
+                        <paragraph>The potential for adverse cardiac events exists. Serious adverse cardiac events, including acute myocardial infarction, life-threatening disturbances of cardiac rhythm, and death have been reported to have occurred following the administration of dihydroergotamine mesylate injection. Considering the extent of use of dihydroergotamine mesylate in patients with migraine, the incidence of these events is extremely low.</paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_89026c44-10a6-4e63-8d2e-fc6a3f667721">
+                     <id root="dbbc7cc6-ad79-487a-8e16-ba1f82977fa2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Drug-Associated Cerebrovascular Events and Fatalities</title>
+                     <text>
+                        <paragraph>Cerebral hemorrhage, subarachnoid hemorrhage, stroke, and other cerebrovascular events have been reported in patients treated with Dihydroergotamine Mesylate Injection, USP; and some have resulted in fatalities. In a number of cases, it appears possible that the cerebrovascular events were primary, the Dihydroergotamine Mesylate Injection, USP having been administered in the incorrect belief that the symptoms experienced were a consequence of migraine, when they were not. It should be noted that patients with migraine may be at increased risk of certain cerebrovascular events (e.g., stroke, hemorrhage, transient ischemic attack).</paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b69a1697-0125-4e1c-8072-de52b097f131">
+                     <id root="77fb45e2-8690-4412-919e-16c0e837e7e1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other Vasospasm Related Events</title>
+                     <text>
+                        <paragraph>Dihydroergotamine Mesylate Injection, USP, like other ergot alkaloids, may cause vasospastic reactions other than coronary artery vasospasm. Myocardial, peripheral vascular, and colonic ischemia have been reported with Dihydroergotamine Mesylate Injection, USP.</paragraph>
+                        <paragraph>Dihydroergotamine Mesylate Injection, USP associated vasospastic phenomena may also cause muscle pains, numbness, coldness, pallor, and cyanosis of the digits. In patients with compromised circulation, persistent vasospasm may result in gangrene or death. Dihydroergotamine Mesylate Injection, USP should be discontinued immediately if signs or symptoms of vasoconstriction develop.</paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_3647aec2-08f9-43ef-9f38-6a6fa5d54337">
+                     <id root="755098e2-f9c5-4bb7-9fdf-0be1b8aa607a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Increase in Blood Pressure</title>
+                     <text>
+                        <paragraph>Significant elevation in blood pressure has been reported on rare occasions in patients with and without a history of hypertension treated with dihydroergotamine mesylate injection. Dihydroergotamine Mesylate Injection, USP is contraindicated in patients with uncontrolled hypertension. <content styleCode="italics">(See <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml>)</content>
+                        </paragraph>
+                        <paragraph>An 18% increase in mean pulmonary artery pressure was seen following dosing with another 5-HT<sub>1</sub> agonist in a study evaluating subjects undergoing cardiac catheterization.</paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Precautions">
+               <id root="ddf641e0-4ea4-456b-bf14-7bc34484a5c3"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20140624"/>
+               <component>
+                  <section ID="ID_f72f2a26-87e1-431c-8574-28febe0965bb">
+                     <id root="d31a639d-3ccf-43e1-b440-0c6d8daa7991"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Dihydroergotamine Mesylate Injection, USP may cause coronary artery vasospasm; patients who experience signs or symptoms suggestive of angina following its administration should, therefore, be evaluated for the presence of CAD or a predisposition to variant angina before receiving additional doses. Similarly, patients who experience other symptoms or signs suggestive of decreased arterial flow, such as ischemic bowel syndrome or Raynaud's syndrome following the use of any 5-HT agonist are candidates for further evaluation. <content styleCode="italics">(See <linkHtml href="#Warnings">WARNINGS</linkHtml>)</content>
+                        </paragraph>
+                        <paragraph>Fibrotic Complications: See <linkHtml href="#Fibrotic_Complications">WARNINGS: Fibrotic Complication</linkHtml>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_e8f19073-af60-494a-b652-0a20ee9b46be">
+                     <id root="2e24e7fc-5863-4970-a5aa-81825d128203"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>The text of a patient information sheet is printed at the end of this insert. To assure safe and effective use of Dihydroergotamine Mesylate Injection, USP, the information and instructions provided in the patient information sheet should be discussed with patients.</paragraph>
+                        <paragraph>Patients should be advised to report to the physician immediately any of the following: numbness or tingling in the fingers and toes, muscle pain in the arms and legs, weakness in the legs, pain in the chest, temporary speeding or slowing of the heart rate, swelling, or itching.</paragraph>
+                        <paragraph>Prior to the initial use of the product by a patient, the prescriber should take steps to ensure that the patient understands how to use the product as provided. <content styleCode="italics">(See Patient Information Sheet and product packaging)</content>
+                        </paragraph>
+                        <paragraph>Administration of dihydroergotamine mesylate injection should not exceed the dosing guidelines and should not be used for chronic daily administration (see <linkHtml href="#Dosage_Administration">DOSAGE AND ADMINISTRATION</linkHtml>)</paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a6de6313-323f-4f82-8f2a-e66aaae8fbf5">
+                     <id root="8091ca91-9bca-46da-91e0-467b7a6e89f8"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <effectiveTime value="20140624"/>
+                     <component>
+                        <section ID="ID_576ddecd-e627-4af6-98b6-218dc993592c">
+                           <id root="b45f6b2e-070b-4cd6-8315-7d2b60d826fe"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Vasoconstrictors</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Dihydroergotamine Mesylate Injection, USP should not be used with peripheral vasoconstrictors because the combination may cause synergistic elevation of blood pressure.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_2a4f8423-b559-4c05-a230-e8c18a5a4b41">
+                           <id root="d802bfc9-ee65-4807-b667-a515db8c784b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Sumatriptan</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Sumatriptan has been reported to cause coronary artery vasospasm, and its effect could be additive with Dihydroergotamine Mesylate Injection, USP. Sumatriptan and Dihydroergotamine Mesylate Injection, USP should not be taken within 24 hours of each other. <content styleCode="italics">(See <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml>)</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_62a28efa-85d7-4576-9a3a-a8961dbd9206">
+                           <id root="c92ac8e1-aa86-4066-8300-533712968b3b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Beta Blockers</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Although the results of a clinical study did not indicate a safety problem associated with the administration of Dihydroergotamine Mesylate Injection, USP to subjects already receiving propranolol, there have been reports that propranolol may potentiate the vasoconstrictive action of ergotamine by blocking the vasodilating property of epinephrine.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_ec98b9c4-1c71-4200-841a-72f0b1de1341">
+                           <id root="76ad3a15-07e0-48ed-8843-a3bbbb270f8e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Nicotine</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Nicotine may provoke vasoconstriction in some patients, predisposing to a greater ischemic response to ergot therapy.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_95cc116c-f357-4fa3-840a-182207a2c80b">
+                           <id root="7515349e-1d69-4365-a06a-2872c8fccf20"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">CYP 3A4 Inhibitors (e.g., Macrolide Antibiotics and Protease Inhibitors)</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>See <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml> and <linkHtml href="#Warnings">WARNINGS</linkHtml>.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_3bbb0722-2bb5-471e-bb88-97afe608b08f">
+                           <id root="87289d33-126e-47b1-98c8-ea4bf549424f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">SSRI's</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Weakness, hyperreflexia, and incoordination have been reported rarely when 5-HT<sub>1</sub> agonists have been coadministered with SSRI's (e.g., fluoxetine, fluvoxamine, paroxetine, sertraline). There have been no reported cases from spontaneous reports of drug interaction between SSRI's and Dihydroergotamine Mesylate Injection, USP.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_cf47ccf9-677a-4832-854a-434c9119f6bc">
+                           <id root="92bd85b2-cd0f-472e-95e1-01da24b50255"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Oral Contraceptives</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The effect of oral contraceptives on the pharmacokinetics of Dihydroergotamine Mesylate Injection, USP has not been studied.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d7236439-40ca-4b4a-97ce-95694ba2b13b">
+                     <id root="14a05475-c915-4810-98fd-6470d8214332"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <effectiveTime value="20140624"/>
+                     <component>
+                        <section ID="ID_c3c63136-4ccb-469d-b3d1-0f8a6daa9c42">
+                           <id root="d99f964d-1e52-4f77-b1df-25bff7c05c5a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Carcinogenesis</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Assessment of the carcinogenic potential of dihydroergotamine mesylate in mice and rats is ongoing.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_c2d672e3-6bdf-4ca5-83ac-605dc68f1b80">
+                           <id root="1f6d7e0d-93b5-4ef8-8b5e-570b627ddce5"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Mutagenesis</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Dihydroergotamine mesylate was clastogenic in two <content styleCode="italics">in vitro</content> chromosomal aberration assays, the V79 Chinese hamster cell assay with metabolic activation and the cultured human peripheral blood lymphocyte assay. There was no evidence of mutagenic potential when dihydroergotamine mesylate was tested in the presence or absence of metabolic activation in two gene mutation assays (the Ames test and the <content styleCode="italics">in vitro</content> mammalian Chinese hamster V79/HGPRT assay) and in an assay for DNA damage (the rat hepatocyte unscheduled DNA synthesis test). Dihydroergotamine was not clastogenic in the <content styleCode="italics">in vivo</content> mouse and hamster micronucleus tests.</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_9d72ce1d-41c5-4464-8b31-07c51c410d5a">
+                           <id root="54eb3380-f350-416a-bc23-adfc974e63e2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Impairment of Fertility</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Impairment of fertility was not evaluated for Dihydroergotamine Mesylate Injection, USP. There was no evidence of impairment of fertility in rats given intranasal doses of Dihydroergotamine Mesylate Nasal Spray up to 1.6 mg/day (associated with mean plasma dihydroergotamine mesylate exposures [AUC] approximately 9 to 11 times those in humans receiving the MRDD of 4 mg).</paragraph>
+                           </text>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_14a9703c-19ae-479e-8a05-0c4f27a3a2f7">
+                     <id root="5e25b98d-e269-4254-b4bb-2c9effd7d321"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20140624"/>
+                     <component>
+                        <section ID="ID_488016ee-1360-4854-b547-4abbed62020b">
+                           <id root="da7dd196-5425-4a71-a7b1-edc621742c16"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Pregnancy Category </content>
+                              </content>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">X.</content>
+                              </content>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">  See CONTRAINDICATIONS.</content>
+                              </content>
+                           </title>
+                           <effectiveTime value="20140624"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_73cb1db9-2cb6-4159-b486-fa650b072a44">
+                     <id root="e5905086-6c6b-4fc3-be0d-0b5f081997ef"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Ergot drugs are known to inhibit prolactin. It is likely that Dihydroergotamine Mesylate Injection, USP is excreted in human milk, but there are no data on the concentration of dihydroergotamine in human milk. It is known that ergotamine is excreted in breast milk and may cause vomiting, diarrhea, weak pulse, and unstable blood pressure in nursing infants. Because of the potential for these serious adverse events in nursing infants exposed to Dihydroergotamine Mesylate Injection, USP, nursing should not be undertaken with the use of Dihydroergotamine Mesylate Injection, USP. <content styleCode="italics">(See <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml>)</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_8ed7b2a2-e111-4655-a1bb-d35d503c0e35">
+                     <id root="d01bde1b-3757-4f73-b9c3-90457f7e056c"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7bb53039-caf1-4723-a2ec-89a58a4aef21">
+               <id root="dd4dbfbe-ac94-47af-af16-26cb6cb666e0"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Serious cardiac events, including some that have been fatal, have occurred following use of Dihydroergotamine Mesylate Injection, USP, but are extremely rare. Events reported have included coronary artery vasospasm, transient myocardial ischemia, myocardial infarction, ventricular tachycardia, and ventricular fibrillation. <content styleCode="italics">(See <linkHtml href="#Contraindications">CONTRAINDICATIONS</linkHtml>, <linkHtml href="#Warnings">WARNINGS</linkHtml>, and <linkHtml href="#Precautions">PRECAUTIONS</linkHtml>)</content>. Fibrotic complications have been reported in association with long term use of injectable dihydroergotamine mesylate (see <linkHtml href="#Fibrotic_Complications">WARNINGS: Fibrotic Complications</linkHtml>).</paragraph>
+               </text>
+               <effectiveTime value="20140624"/>
+               <component>
+                  <section ID="ID_47187cc4-e703-4d90-987a-a5fbefb9009e">
+                     <id root="ebf42cc9-a805-4039-a0ed-f34ebb4f3ab4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Post-Introduction Reports</title>
+                     <text>
+                        <paragraph>The following events derived from postmarketing experience have been occasionally reported in patients receiving Dihydroergotamine Mesylate Injection, USP: vasospasm, paraesthesia, hypertension, dizziness, anxiety, dyspnea, headache, flushing, diarrhea, rash, increased sweating, and pleural and retroperitoneal fibrosis after long-term use of dihydroergotamine. Extremely rare cases of myocardial infarction and stroke have been reported. A causal relationship has not been established.</paragraph>
+                        <paragraph>Dihydroergotamine Mesylate Injection, USP is not recommended for prolonged daily use. <content styleCode="italics">(See <linkHtml href="#Dosage_Administration">DOSAGE AND ADMINISTRATION</linkHtml>)</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d134c0b8-2d44-4877-8bca-983b64d03b10">
+               <id root="88756970-66d0-4e4d-885c-7515ad441a57"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph>Currently available data have not demonstrated drug abuse or psychological dependence with dihydroergotamine. However, cases of drug abuse and psychological dependence in patients on other forms of ergot therapy have been reported. Thus, due to the chronicity of vascular headaches, it is imperative that patients be advised not to exceed recommended dosages.</paragraph>
+               </text>
+               <effectiveTime value="20140624"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0fcde8f7-6e72-4321-8651-edbef9b20f65">
+               <id root="04fd7e57-2dc1-4de2-a354-89eef131405d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>To date, there have been no reports of acute overdosage with this drug. Due to the risk of vascular spasm, exceeding the recommended dosages of Dihydroergotamine Mesylate Injection, USP is to be avoided. Excessive doses of dihydroergotamine may result in peripheral signs and symptoms of ergotism. Treatment includes discontinuance of the drug, local application of warmth to the affected area, the administration of vasodilators, and nursing care to prevent tissue damage.</paragraph>
+                  <paragraph>In general, the symptoms of an acute Dihydroergotamine Mesylate Injection, USP overdose are similar to those of an ergotamine overdose, although there is less pronounced nausea and vomiting with Dihydroergotamine Mesylate Injection, USP. The symptoms of an ergotamine overdose include the following: numbness, tingling, pain, and cyanosis of the extremities associated with diminished or absent peripheral pulses; respiratory depression; an increase and/or decrease in blood pressure, usually in that order; confusion, delirium, convulsions, and coma; and/or some degree of nausea, vomiting, and abdominal pain.</paragraph>
+                  <paragraph>In laboratory animals, significant lethality occurs when dihydroergotamine is given at I.V. doses of 44 mg/kg in mice, 130 mg/kg in rats, and 37 mg/kg in rabbits.</paragraph>
+                  <paragraph>Up-to-date information about the treatment of overdosage can often be obtained from a certified Regional Poison Control Center. Telephone numbers of certified Poison Control Centers are listed in the Physician's Desk Reference<sup>®</sup> (PDR).*</paragraph>
+               </text>
+               <effectiveTime value="20140624"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Dosage_Administration">
+               <id root="1a5d2f75-5ad0-42ba-8881-0835d4e4ebbe"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Dihydroergotamine Mesylate Injection, USP should be administered in a dose of 1 mL intravenously, intramuscularly or subcutaneously. The dose can be repeated, as needed, at 1 hour intervals to a total dose of 3 mL for intramuscular or subcutaneous delivery or 2 mL for intravenous delivery in a 24 hour period. The total weekly dosage should not exceed 6 mL. Dihydroergotamine mesylate injection should not be used for chronic daily administration.</paragraph>
+               </text>
+               <effectiveTime value="20140624"/>
+            </section>
+         </component>
+         <component>
+            <section ID="How_Supplied">
+               <id root="f117e0b0-191f-4f57-93e9-843d9ea8fcd2"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <effectiveTime value="20140624"/>
+               <component>
+                  <section ID="ID_9d09b8a7-84a8-40e9-a041-59b2683da0db">
+                     <id root="d4b44ed1-b656-4b59-bbbd-a4dc1f87f10b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Dihydroergotamine Mesylate Injection, USP</title>
+                     <text>
+                        <paragraph>Available as a clear, colorless, sterile solution in single 1 mL sterile ampules containing 1 mg of dihydroergotamine mesylate per mL.</paragraph>
+                        <paragraph>        Packages of 5: NDC 0574-0850-05<br/>        Packages of 10: NDC 0574-0850-10</paragraph>
+                        <paragraph>Store at 20 to 25°C (68 to 77°F). Excursions permitted between 15 to 30°C (59 to 86°F) [See USP Controlled Room Temperature]. Do not refrigerate or freeze.</paragraph>
+                        <paragraph>To assure constant potency, protect the ampules from light and heat. Use carton to protect contents from light until used. Administer only if clear and colorless.</paragraph>
+                     </text>
+                     <effectiveTime value="20140624"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Patient_Information">
+               <id root="cb64936e-7ad3-476d-b5d5-48176755c233"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title>INSTRUCTION FOR PATIENTS ON SUBCUTANEOUS SELF-INJECTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Information for the Patient</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dihydroergotamine </content>
+                     <content styleCode="bold">Mesylate</content>
+                     <content styleCode="bold"> Injection, USP</content>
+                  </paragraph>
+                  <paragraph>Before self-injecting Dihydroergotamine Mesylate Injection, USP by subcutaneous administration, you will need to obtain professional instruction on how to properly administer your medication. Below are some of the steps you should follow carefully. Read this leaflet completely before using this medication.</paragraph>
+                  <paragraph>This leaflet does not contain all of the information on Dihydroergotamine Mesylate Injection, USP. Your pharmacist and/or health care provider can provide more detailed information.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Purpose of your Medication</content>
+                  </paragraph>
+                  <paragraph>Dihydroergotamine Mesylate Injection, USP is intended to treat an active migraine headache. Do not try to use it to prevent a headache if you have no symptoms. Do not use it to treat common tension headache or a headache that is not at all typical of your usual migraine headache. Administration of dihydroergotamine mesylate injection should not exceed the dosing guidelines and should not be used for chronic daily administration. There have been reports of fibrosis (stiffening) in the lung or kidney areas in patients following prolonged daily use of injectable dihydroergotamine mesylate. Rarely, prolonged daily use of other ergot alkaloid drugs (the class of drugs to which dihydroergotamine mesylate belongs) has been associated with heart valvular fibrosis. Rare cases have also been reported in association with the use of injectable dihydroergotamine mesylate; however, in those cases, patients also received drugs known to be associated with heart valvular fibrosis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not use </content>
+                     <content styleCode="bold">Dihydroergotamine</content>
+                     <content styleCode="bold">Mesylate</content>
+                     <content styleCode="bold"> Injection, USP if you:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>are pregnant or nursing.</item>
+                     <item>have any disease affecting your heart, arteries, or circulation.</item>
+                     <item>are taking certain anti-HIV medications (protease inhibitors).</item>
+                     <item>are taking a macrolide antibiotic such as troleandomycin, clarithromycin or erythromycin.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Important questions to consider before using </content>
+                     <content styleCode="bold">Dihydroergotamine</content>
+                     <content styleCode="bold">Mesylate</content>
+                     <content styleCode="bold"> Injection, USP</content>
+                  </paragraph>
+                  <paragraph>Please answer the following questions before you use your Dihydroergotamine Mesylate Injection, USP. If you answer YES to any of these questions or are unsure of the answer, you should talk to your doctor before using Dihydroergotamine Mesylate Injection, USP.</paragraph>
+                  <list listType="unordered">
+                     <item>Do you have high blood pressure?</item>
+                     <item>Do you have chest pain, shortness of breath, heart disease, or have you had any surgery on your heart arteries?</item>
+                     <item>Do you have risk factors for heart disease (such as high blood pressure, high cholesterol, obesity, diabetes, smoking, strong family history of heart disease, or you are postmenopausal or a male over 40)?</item>
+                     <item>Do you have any problems with blood circulation in your arms or legs, fingers, or toes?</item>
+                     <item>Are you pregnant? Do you think you might be pregnant? Are you trying to become pregnant? Are you sexually active and not using birth control? Are you breast feeding?</item>
+                     <item>Have you ever had to stop taking this or any other medication because of an allergy or bad reaction?</item>
+                     <item>Are you taking any other migraine medications, erythromycin or other antibiotics, or medications for blood pressure prescribed by your doctor, or other medicines obtained from your drugstore without a doctor's prescription?</item>
+                     <item>Do you smoke?</item>
+                     <item>Have you had, or do you have, any disease of the liver or kidney?</item>
+                     <item>Is this headache different from your usual migraine attacks?</item>
+                     <item>Are you using dihydroergotamine mesylate injection, nasal spray or other dihydroergotamine mesylate containing drugs on a daily basis?</item>
+                     <item>Are you taking a protease inhibitor for HIV therapy?</item>
+                     <item>Are you taking a macrolide class of antibiotic?</item>
+                  </list>
+                  <paragraph>Serious or potentially life-threatening reductions in blood flow to the brain or extremities have been reported rarely due to interactions between dihydroergotamine mesylate and protease inhibitors or macrolide antibiotics.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">REMEMBER TO TELL YOUR DOCTOR IF YOU HAVE ANSWERED YES TO ANY OF THESE QUESTIONS BEFORE YOU USE DIHYDROERGOTAMINE MESYLATE INJECTION, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Side Effects </content>
+                     <content styleCode="bold">To</content>
+                     <content styleCode="bold"> Watch Out For</content>
+                  </paragraph>
+                  <paragraph>Although the following reactions rarely occur, they can be serious and should be reported to your physician immediately:</paragraph>
+                  <list listType="unordered">
+                     <item>Numbness or tingling in your fingers and toes.</item>
+                     <item>Pain, tightness, or discomfort in your chest.</item>
+                     <item>Muscle pain or cramps in your arms and legs.</item>
+                     <item>Weakness in your legs.</item>
+                     <item>Temporary speeding or slowing of your heart rate.</item>
+                     <item>Swelling or itching.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Dosage</content>
+                  </paragraph>
+                  <paragraph>Your doctor will have told you what dose to use for each migraine attack. Should you get another migraine attack in the same day as the attack you treated, you must not treat it with Dihydroergotamine Mesylate Injection, USP unless at least 6 hours have elapsed since your last injection. No more than 6 mL of Dihydroergotamine Mesylate Injection, USP should be injected during a one-week period. Dihydroergotamine mesylate injection is not intended to be used on a prolonged daily basis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Learn what to do in case of an Overdose</content>
+                  </paragraph>
+                  <paragraph>If you have used more medication than you have been instructed, contact your doctor, hospital emergency department, or nearest poison control center immediately.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How to use the </content>
+                     <content styleCode="bold">Dihydroergotamine</content>
+                     <content styleCode="bold">Mesylate</content>
+                     <content styleCode="bold"> Injection, USP</content>
+                  </paragraph>
+                  <paragraph>1. Use available training materials.</paragraph>
+                  <list listType="unordered">
+                     <item>Read and follow the instructions in the patient instruction booklet which is provided with the Dihydroergotamine Mesylate Injection, USP package before attempting to use the product.</item>
+                     <item>If there are any questions concerning the use of your Dihydroergotamine Mesylate Injection, USP, ask your Doctor or pharmacist.</item>
+                  </list>
+                  <paragraph>2. Preparing for the Injection</paragraph>
+                  <list listType="unordered">
+                     <item>Carefully examine the ampule (glass vial) of Dihydroergotamine Mesylate Injection, USP for any cracks or breaks, and the liquid for discoloration, cloudiness, or particles. If any of these defects are present, use a new ampule, make certain it is intact, and return the defective ampule to your doctor or pharmacy. Once you open an ampule, if it is not used within an hour, it should be thrown away.</item>
+                  </list>
+                  <paragraph>3. Locating an Injection Site</paragraph>
+                  <list listType="unordered">
+                     <item>Administer your subcutaneous injection in the middle of your thigh, well above the knee.</item>
+                  </list>
+                  <paragraph>4. Drawing the Medication into the Syringe</paragraph>
+                  <list listType="unordered">
+                     <item>Wash your hands thoroughly with soap and water.</item>
+                     <item>Check the dose of your medication.</item>
+                     <item>Look to see if there is any liquid at the top of the ampule. If there is, gently flick the ampule with your finger to get all the liquid into the bottom portion of the ampule.</item>
+                     <item>Hold the bottom of the ampule in one hand. Clean the ampule neck with an alcohol wipe using your other hand. Then place the alcohol wipe around the neck of the ampule and break it open by pressing your thumb against the neck of the ampule.</item>
+                  </list>
+                  <renderMultiMedia referencedObject="L1cb71947-3e4a-4e7b-bf4c-363caffdf6b6"/>
+                  <list listType="unordered">
+                     <item>Tilt the ampule down at a 45° angle. Insert the needle into the solution in the ampule.</item>
+                     <item>Draw up the medication by pulling back the plunger slowly and steadily until you reach your dose.</item>
+                     <item>Check the syringe for air bubbles. Hold it with the needle pointing upward. If there are air bubbles, tap your finger against the barrel of the syringe to get the bubbles to the top. Slowly and carefully push the plunger up so that the bubbles are pushed out through the needle and you see a drop of medication.</item>
+                     <item>When there are no air bubbles, check the dose of the medication. If the dose is incorrect, repeat steps 6 through 8 until you draw up the right dose.</item>
+                  </list>
+                  <paragraph>5. Preparing the Injection Site</paragraph>
+                  <list listType="unordered">
+                     <item>With a new alcohol wipe, clean the selected injection site thoroughly with a firm, circular motion from inside to outside. Wait for the injection site to dry before injecting.</item>
+                  </list>
+                  <paragraph>6. Administering the Injection</paragraph>
+                  <list listType="unordered">
+                     <item>Hold the syringe/needle in your right hand.</item>
+                     <item>With your left hand, firmly grasp about a 1-inch fold of skin at the injection site.</item>
+                     <item>Push the needle shaft, bevel side up, all the way into the fold of skin at a 45° to 90° angle, then release the fold of skin.</item>
+                     <item>While holding the syringe with your left hand, use your right hand to draw back slightly on the plunger.</item>
+                     <item>If you do not see any blood coming back into the syringe, inject the medication by pushing down on the plunger. If you do see blood in the syringe, that means the needle has penetrated a vein. If this happens, pull the needle/syringe out of the skin slightly and draw back on the plunger again. If no blood is seen this time, inject the medication.</item>
+                     <item>Use your right hand to pull the needle out of your skin quickly at the same angle you injected it. Immediately press the alcohol wipe on the injection site and rub.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Check the expiration date printed on the ampule containing medication. If the expiration date has passed, do not use it.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Answers to patients' questions about </content>
+                     <content styleCode="bold">Dihydroergotamine</content>
+                     <content styleCode="bold">Mesylate</content>
+                     <content styleCode="bold"> Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">What if I need help in using my </content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Dihydroergotamine</content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Mesylate</content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics"> Injection, USP?</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>If you have any questions or if you need help in opening, putting together, or using Dihydroergotamine Mesylate Injection, USP, speak to your doctor or pharmacist.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">How much medication should I use and how often?</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Your doctor will have told you what dose to use for each migraine attack. Should you get another migraine attack in the same day as the attack you treated, you must not treat it with Dihydroergotamine Mesylate Injection, USP unless at least 6 hours have elapsed since your last injection. No more than 6 mL of Dihydroergotamine Mesylate Injection, USP should be injected during a one-week period. Do not use more than this amount unless instructed to do so by your doctor. Dihydroergotamine mesylate injection is not intended for chronic daily use.</paragraph>
+                  <paragraph>If you have any other unanswered question about Dihydroergotamine Mesylate Injection, USP, consult your doctor or pharmacist.</paragraph>
+                  <paragraph>Revised July 2012</paragraph>
+                  <paragraph>Assembled and Distributed by IT3 Medical, LLC 190 E Stacy Road; STE 306-298, Allen, TX 75002-8734<br/>For questions or comments: info@IT3-Medical.com, www.IT3-Medical.com</paragraph>
+               </text>
+               <effectiveTime value="20180628"/>
+               <component>
+                  <observationMedia ID="L1cb71947-3e4a-4e7b-bf4c-363caffdf6b6">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="instructions  picture.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7897c423-7aa3-4ade-af24-8b3c70ec9553">
+               <id root="38572004-5b53-4fea-8c85-19dbc9d6026a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Packaging</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L8bfb76fe-ccc8-48ea-969f-1c655c19e6f5"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20180625"/>
+               <component>
+                  <observationMedia ID="L8bfb76fe-ccc8-48ea-969f-1c655c19e6f5">
+                     <text>Drome-1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="drome-new.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

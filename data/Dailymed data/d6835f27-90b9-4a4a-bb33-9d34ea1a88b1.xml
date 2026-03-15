@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="d6835f27-90b9-4a4a-bb33-9d34ea1a88b1"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>AMICAR</title>
+   <effectiveTime value="20180806"/>
+   <setId root="05b08095-2acc-47ef-a426-b68c7d95de95"/>
+   <versionNumber value="5"/>
+   <author>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="079239644" root="1.3.6.1.4.1.519.1"/>
+            <name>Carilion Materials Management</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="079239644" root="1.3.6.1.4.1.519.1"/>
+                        <name>Carilion Materials Management</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="REPACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68151-3023" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="cc56e7cc-6aed-4207-8bd1-e3ad7e1c3aa0"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20150611"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68151-3023" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>AMICAR </name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Aminocaproic Acid</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="49411-050" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="U6F3787206" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMINOCAPROIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="U6F3787206" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>AMINOCAPROIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE (15 MPA.S AT 5%)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68151-3023-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20171228"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA015197" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText>WHITE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="13" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText>ROUND</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">XP;A;10</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_1ef7238a-b2eb-4e7c-b28f-0284c88fe822">
+               <id root="2dfc8750-1091-4257-aa3b-c3a79b8034ee"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">R<sub>x</sub> only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_c71a5a0c-5953-4571-9b82-42ab33d68e7b">
+               <id root="a2b5aa46-2ed1-49c9-9c0a-f749235cadcb"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>AMICAR (aminocaproic acid) is 6-aminohexanoic acid, which acts as an inhibitor of fibrinolysis.</paragraph>
+                  <paragraph>Its chemical structure is:</paragraph>
+                  <renderMultiMedia ID="id-145903807" referencedObject="ID_9bc9090f-fb19-4a45-a5ad-16517970b80e"/>
+                  <paragraph>AMICAR is soluble in water, acid, and alkaline solutions; it is sparingly soluble in methanol and practically insoluble in chloroform.</paragraph>
+                  <paragraph>AMICAR (aminocaproic acid) Oral Solution for oral administration, contains 0.25 g/mL of aminocaproic acid with methylparaben 0.20%, propylparaben 0.05%, edetate disodium 0.30% as preservatives and the following inactive ingredients: sodium saccharin, sorbitol solution, citric acid anhydrous, natural and artificial raspberry flavor and an artificial bitterness modifier.</paragraph>
+                  <paragraph>Each AMICAR (aminocaproic acid) Tablet, for oral administration contains 500 mg or 1000 mg of aminocaproic acid and the following inactive ingredients: povidone, crospovidone, stearic acid, and magnesium stearate.</paragraph>
+               </text>
+               <effectiveTime value="20150611"/>
+               <component>
+                  <observationMedia ID="ID_9bc9090f-fb19-4a45-a5ad-16517970b80e">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_f1f24186-1617-4e70-b83a-675df4f89101">
+               <id root="e4b4b81e-f13b-4196-a8c0-9e140c7101b2"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>The fibrinolysis-inhibitory effects of AMICAR appear to be exerted principally via inhibition of plasminogen activators and to a lesser degree through antiplasmin activity.</paragraph>
+                  <paragraph>In adults, oral absorption appears to be a zero-order process with an absorption rate of 5.2 g/hr. The mean lag time in absorption is 10 minutes. After a single oral dose of 5 g, absorption was complete (F=1). Mean ± SD peak plasma concentrations (164 ± 28 mcg/mL) were reached within 1.2 ± 0.45 hours.</paragraph>
+                  <paragraph>After oral administration, the apparent volume of distribution was estimated to be 23.1 ± 6.6 L (mean ± SD). Correspondingly, the volume of distribution after intravenous administration has been reported to be 30.0 ± 8.2 L. After prolonged administration, AMICAR has been found to distribute throughout extravascular and intravascular compartments of the body, penetrating human red blood cells as well as other tissue cells.</paragraph>
+                  <paragraph>Renal excretion is the primary route of elimination. Sixty-five percent of the dose is recovered in the urine as unchanged drug and 11% of the dose appears as the metabolite adipic acid. Renal clearance (116 mL/min) approximates endogenous creatinine clearance. The total body clearance is 169 mL/min. The terminal elimination half-life for AMICAR is approximately 2 hours.</paragraph>
+               </text>
+               <effectiveTime value="20150611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_74156542-c557-483e-9acb-51dae4a4e447">
+               <id root="d85060a9-060a-415f-91ba-6800449187d2"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>AMICAR is useful in enhancing hemostasis when fibrinolysis contributes to bleeding. In life-threatening situations, transfusion of appropriate blood products and other emergency measures may be required.</paragraph>
+                  <paragraph>Fibrinolytic bleeding may frequently be associated with surgical complications following heart surgery (with or without cardiac bypass procedures) and portacaval shunt; hematological disorders such as amegakaryocytic thrombocytopenia (accompanying aplastic anemia); acute and life-threatening abruptio placentae; hepatic cirrhosis; and neoplastic disease such as carcinoma of the prostate, lung, stomach, and cervix.</paragraph>
+                  <paragraph>Urinary fibrinolysis, usually a normal physiological phenomenon, may contribute to excessive urinary tract fibrinolytic bleeding associated with surgical hematuria (following prostatectomy and nephrectomy) or nonsurgical hematuria (accompanying polycystic or neoplastic diseases of the genitourinary system). (See <content styleCode="bold">
+                        <linkHtml href="#i4i_warnings_id_ef34ef64-9888-434e-a176-3b7d765b6eb8">WARNINGS</linkHtml>
+                     </content>.)</paragraph>
+               </text>
+               <effectiveTime value="20150611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_3faf40ed-904d-4be9-bb7e-81d62840ba00">
+               <id root="6bc25076-23b6-42a0-aeae-86c720336612"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>AMICAR should not be used when there is evidence of an active intravascular clotting process.</paragraph>
+                  <paragraph>When there is uncertainty as to whether the cause of bleeding is primary fibrinolysis or disseminated intravascular coagulation (DIC), this distinction must be made before administering AMICAR.</paragraph>
+                  <paragraph>The following tests can be applied to differentiate the two conditions:</paragraph>
+                  <paragraph>Platelet count is usually decreased in DIC but normal in primary fibrinolysis.</paragraph>
+                  <paragraph>Protamine paracoagulation test is positive in DIC; a precipitate forms when protamine sulfate is dropped into citrated plasma. The test is negative in the presence of primary fibrinolysis.</paragraph>
+                  <paragraph>The euglobulin clot lysis test is abnormal in primary fibrinolysis but normal in DIC.</paragraph>
+                  <paragraph>AMICAR must not be used in the presence of DIC without concomitant heparin.</paragraph>
+               </text>
+               <effectiveTime value="20150611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_ef34ef64-9888-434e-a176-3b7d765b6eb8">
+               <id root="52b7ca6d-1437-4559-b23b-e8e2d07353ae"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>In patients with upper urinary tract bleeding, AMICAR administration has been known to cause intrarenal obstruction in the form of glomerular capillary thrombosis or clots in the renal pelvis and ureters. For this reason, AMICAR should not be used in hematuria of upper urinary tract origin, unless the possible benefits outweigh the risk.</paragraph>
+                  <paragraph>Subendocardial hemorrhages have been observed in dogs given intravenous infusions of 0.2 times the maximum human therapeutic dose of AMICAR and in monkeys given 8 times the maximum human therapeutic dose of AMICAR.</paragraph>
+                  <paragraph>Fatty degeneration of the myocardium has been reported in dogs given intravenous doses of AMICAR at 0.8 to 3.3 times the maximum human therapeutic dose and in monkeys given intravenous doses of AMICAR at 6 times the maximum human therapeutic dose.</paragraph>
+                  <paragraph>Rarely, skeletal muscle weakness with necrosis of muscle fibers has been reported following prolonged administration. Clinical presentation may range from mild myalgias with weakness and fatigue to a severe proximal myopathy with rhabdomyolysis, myoglobinuria, and acute renal failure. Muscle enzymes, especially creatine phosphokinase (CPK) are elevated. CPK levels should be monitored in patients on long-term therapy. AMICAR administration should be stopped if a rise in CPK is noted. Resolution follows discontinuation of AMICAR; however, the syndrome may recur if AMICAR is restarted.</paragraph>
+                  <paragraph>The possibility of cardiac muscle damage should also be considered when skeletal myopathy occurs. One case of cardiac and hepatic lesions observed in man has been reported. The patient received 2 g of aminocaproic acid every 6 hours for a total dose of 26 g. Death was due to continued cerebrovascular hemorrhage. Necrotic changes in the heart and liver were noted at autopsy.</paragraph>
+               </text>
+               <effectiveTime value="20150611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_cb4594e0-e7fe-4f9d-865a-7b2978388d33">
+               <id root="7b68cfc2-9210-426b-ae3b-1626569f4832"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20150611"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_e7d77822-dd3d-41a9-9f0e-00e53731eefd">
+                     <id root="3c830210-cb97-4dba-82a4-08e3321f2a42"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>AMICAR inhibits both the action of plasminogen activators and to a lesser degree, plasmin activity. The drug should NOT be administered without a definite diagnosis and/or laboratory finding indicative of hyperfibrinolysis (hyperplasminemia).<sup>1</sup> Inhibition of fibrinolysis by aminocaproic acid may theoretically result in clotting or thrombosis. However, there is no definite evidence that administration of aminocaproic acid has been responsible for the few reported cases of intravascular clotting which followed this treatment. Rather, it appears that such intravascular clotting was most likely due to the patient's preexisting clinical condition, e.g., the presence of DIC. It has been postulated that extravascular clots formed <content styleCode="italics">in vivo</content> may not undergo spontaneous lysis as do normal clots.</paragraph>
+                        <paragraph>Reports have appeared in the literature of an increased incidence of certain neurological deficits such as hydrocephalus, cerebral ischemia, or cerebral vasospasm associated with the use of antifibrinolytic agents in the treatment of subarachnoid hemorrhage (SAH). All of these events have also been described as part of the natural course of SAH, or as a consequence of diagnostic procedures such as angiography. Drug relatedness remains unclear.</paragraph>
+                        <paragraph>Aminocaproic acid should not be administered with Factor IX Complex concentrates or Anti-Inhibitor Coagulant concentrates, as the risk of thrombosis may be increased.</paragraph>
+                     </text>
+                     <effectiveTime value="20150611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_lab_tests_id_307469ed-52ec-40cd-865f-5fa777740377">
+                     <id root="6972f1e2-027c-4fec-80aa-d01f30e38684"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>The use of AMICAR should be accompanied by tests designed to determine the amount of fibrinolysis present. There are presently available: (a) general tests such as those for the determination of the lysis of a clot of blood or plasma; and (b) more specific tests for the study of various phases of the fibrinolytic mechanisms. These latter tests include both semiquantitative and quantitative techniques for the determination of profibrinolysin, fibrinolysin, and antifibrinolysin.</paragraph>
+                     </text>
+                     <effectiveTime value="20150611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_drug_lab_interaction_id_b426e9c5-14f9-4c50-8019-1c03a9c6776e">
+                     <id root="8ff679f7-8d41-4933-8961-22490a4f8b9c"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug Laboratory Test Interactions</title>
+                     <text>
+                        <paragraph>Prolongation of the template bleeding time has been reported during continuous intravenous infusion of AMICAR at dosages exceeding 24 g/day. Platelet function studies in these patients have not demonstrated any significant platelet dysfunction. However, <content styleCode="italics">in vitro</content> studies have shown that at high concentrations (7.4 mMol/L or 0.97 mg/mL and greater) aminocaproic acid inhibits ADP and collagen-induced platelet aggregation, the release of ATP and serotonin, and the binding of fibrinogen to the platelets in a concentration-response manner. Following a 10 g bolus of AMICAR, transient peak plasma concentrations of 4.6 mMol/L or 0.60 mg/mL have been obtained. The concentration of AMICAR necessary to maintain inhibition of fibrinolysis is 0.99 mMol/L or 0.13 mg/mL. Administration of a 5 g bolus followed by 1 to 1.25 g/hr should achieve and sustain plasma levels of 0.13 mg/mL. Thus, concentrations which have been obtained <content styleCode="italics">in vivo</content> clinically in patients with normal renal function are considerably lower than the <content styleCode="italics">in vitro</content> concentrations found to induce abnormalities in platelet function tests. However, higher plasma concentrations of AMICAR may occur in patients with severe renal failure.</paragraph>
+                     </text>
+                     <effectiveTime value="20150611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_e497fa4a-013c-4ef8-b0da-4791a83b2e3a">
+                     <id root="0e9d2933-6427-45bc-b08e-913092983cdd"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Long-term studies in animals to evaluate the carcinogenic potential of AMICAR and studies to evaluate its mutagenic potential have not been conducted. Dietary administration of an equivalent of the maximum human therapeutic dose of AMICAR to rats of both sexes impaired fertility as evidenced by decreased implantations, litter sizes and number of pups born.</paragraph>
+                     </text>
+                     <effectiveTime value="20150611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_96ceef5c-2761-40c7-a940-ae834bb3abe4">
+                     <id root="2e037a1a-18f4-433c-9495-f23a5352175b"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Pregnancy Category C.</content> Animal reproduction studies have not been conducted with AMICAR. It is also not known whether AMICAR can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. AMICAR should be given to a pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20150611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_0092db08-5c96-4cbb-863e-2db70ea70455">
+                     <id root="2109f901-1078-4398-8cf1-42fe05b9e870"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when AMICAR is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20150611"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_39567bb7-2f42-4d35-80cf-16adaa045f4f">
+                     <id root="9db3c0e7-ee79-41e6-9617-a394477b4484"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20150611"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_27cf4785-e11f-4b42-b077-c1f095495323">
+               <id root="7a53af57-a936-40a0-9886-9550e3ce0810"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>AMICAR is generally well tolerated. The following adverse experiences have been reported:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General:</content> Edema, headache, malaise.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypersensitivity Reactions:</content> Allergic and anaphylactoid reactions, anaphylaxis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular:</content> Bradycardia, hypotension, peripheral ischemia, thrombosis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal:</content> Abdominal pain, diarrhea, nausea, vomiting.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hematologic:</content> Agranulocytosis, coagulation disorder, leukopenia, thrombocytopenia.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Musculoskeletal:</content> CPK increased, muscle weakness, myalgia, myopathy (see <content styleCode="bold">
+                        <linkHtml href="#i4i_warnings_id_ef34ef64-9888-434e-a176-3b7d765b6eb8">WARNINGS</linkHtml>
+                     </content>), myositis, rhabdomyolysis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Neurologic:</content> Confusion, convulsions, delirium, dizziness, hallucinations, intracranial hypertension, stroke, syncope.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory:</content> Dyspnea, nasal congestion, pulmonary embolism.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Skin:</content> Pruritis, rash.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Senses:</content> Tinnitus, vision decreased, watery eyes.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Urogenital:</content> BUN increased, renal failure. There have been some reports of dry ejaculation during the period of AMICAR treatment. These have been reported to date only in hemophilia patients who received the drug after undergoing dental surgical procedures. However, this symptom resolved in all patients within 24 to 48 hours of completion of therapy.</paragraph>
+               </text>
+               <effectiveTime value="20150611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_b604dc03-5d51-4e46-ba57-8fe9aeb94b89">
+               <id root="aec354d4-5ee6-458c-8823-9659465a6324"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>A few cases of acute overdosage with AMICAR administered intravenously have been reported. The effects have ranged from no reaction to transient hypotension to severe acute renal failure leading to death. One patient with a history of brain tumor and seizures experienced seizures after receiving an 8 gram bolus injection of AMICAR. The single dose of AMICAR causing symptoms of overdosage or considered to be life-threatening is unknown. Patients have tolerated doses as high as 100 grams while acute renal failure has been reported following a dose of 12 grams.</paragraph>
+                  <paragraph>The intravenous and oral LD<sub>50</sub> of AMICAR were 3.0 and 12.0 g/kg, respectively, in the mouse and 3.2 and 16.4 g/kg, respectively, in the rat. An intravenous infusion dose of 2.3 g/kg was lethal in the dog. On intravenous administration, tonic-clonic convulsions were observed in dogs and mice.</paragraph>
+                  <paragraph>No treatment for overdosage is known, although evidence exists that AMICAR is removed by hemodialysis and may be removed by peritoneal dialysis. Pharmacokinetic studies have shown that total body clearance of AMICAR is markedly decreased in patients with severe renal failure.</paragraph>
+               </text>
+               <effectiveTime value="20150611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_f76073a6-b892-4788-a5cc-99d965094a58">
+               <id root="a816ddfe-4e2c-4045-8544-ab788fb53c6a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>An identical dosage regimen may be followed by administering AMICAR Tablets or AMICAR Oral Solution as follows:</paragraph>
+                  <paragraph>For the treatment of acute bleeding syndromes due to elevated fibrinolytic activity, it is suggested that 5 AMICAR 1000 mg Tablets or 10 AMICAR 500 mg Tablets (5 g) or 20 milliliter of AMICAR Oral Solution (5 g) be administered during the first hour of treatment, followed by a continuing rate of 1 AMICAR 1000 mg Tablet or 2 AMICAR 500 mg Tablets (1 g) or 5 milliliter of AMICAR Oral Solution (1.25 g) per hour. This method of treatment would ordinarily be continued for about 8 hours or until the bleeding situation has been controlled.</paragraph>
+               </text>
+               <effectiveTime value="20150611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_ee28a58f-ebea-457c-aa4e-b02409869603">
+               <id root="dbbea527-e5e4-4158-bcd7-9961c1289a66"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Product:    68151-3023</paragraph>
+                  <paragraph>NDC:    68151-3023-1   1 TABLET in a BLISTER PACK </paragraph>
+               </text>
+               <effectiveTime value="20180806"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_references_id_82b28369-38db-4c7c-91a8-3525276adede">
+               <id root="7a9dc795-d958-472d-8fab-0c4cf89d8652"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCE</title>
+               <text>
+                  <paragraph>
+                     <sup>1</sup> Stefanini M, Dameshek W: <content styleCode="italics">The Hemorrhagic Disorders,</content> Ed. 2, New York, Grune and Stratton; 1962:510-514.</paragraph>
+               </text>
+               <effectiveTime value="20150611"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b871fdaf-26de-402b-b6cb-716ab4829681">
+               <id root="df7f51a4-16af-49b6-9761-e090e89425e7"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Marketed by <br/>
+                     <renderMultiMedia ID="id-1405215907" referencedObject="ID_8665dce4-4252-4630-9357-ebaec9e78a5a"/>
+                     <br/>Marietta, GA 30062</paragraph>
+                  <paragraph>Code 909B00<br/>Rev. 05/15</paragraph>
+               </text>
+               <effectiveTime value="20150611"/>
+               <component>
+                  <observationMedia ID="ID_8665dce4-4252-4630-9357-ebaec9e78a5a">
+                     <text>Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="191c8bb2-8deb-4ae9-b9db-9527a5d66d3a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>AMICAR (AMINOCAPROIC ACID) SOLUTION AMICAR (AMINOCAPROIC ACID) TABLET</title>
+               <text>
+                  <renderMultiMedia referencedObject="lbl681513023"/>
+               </text>
+               <effectiveTime value="20180806"/>
+               <component>
+                  <observationMedia ID="lbl681513023">
+                     <text>Label Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl681513023.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

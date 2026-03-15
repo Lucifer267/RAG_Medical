@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c5515c96-c8ac-4fe1-9fd8-3a0ada68b1b9"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20150101"/>
+   <setId root="e7a86398-3b2a-43ef-9963-d21244b23c78"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="244249012" root="1.3.6.1.4.1.519.1"/>
+            <name>Ross Healthcare Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="244249012"/>
+                  <name>Ross Healthcare Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="244249012"/>
+                        <name>Ross Healthcare Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="62007-301" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="7ceb0ac4-4085-4eee-a39f-c6aa5d7774e0"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20150202"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="62007-301" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>PCXX 1.64 STANNOUS RNS MINT</name>
+                        <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>FLUORIDE TREATMENT</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="16" unit="1"/>
+                              <denominator value="1" unit="mg"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3FTR44B32Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STANNOUS FLUORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q80VPU408O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLUORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value=".03" unit="mg"/>
+                              <denominator value="1" unit="mg"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="62007-301-64" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" displayName="BOTTLE, PLASTIC" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73404" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MINT" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="topical"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L753df4bb-e01f-4bab-86ee-53db958e5f28">
+               <id root="922d3b56-de88-49d6-aed8-994874a3588f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lef5c6b30-a9cd-4f5a-9c22-9924816421d1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150202"/>
+               <component>
+                  <observationMedia ID="Lef5c6b30-a9cd-4f5a-9c22-9924816421d1">
+                     <text>RNS SNF MT front panel</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="RNS SNF MT front panel.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L836d98fb-d897-4856-8656-899a1dfea947">
+               <id root="53df4d39-77b5-4665-90f2-60359d3f85a9"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L3ae216c6-b5ec-4016-a02c-b7bb7cc0ccce"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150202"/>
+               <component>
+                  <observationMedia ID="L3ae216c6-b5ec-4016-a02c-b7bb7cc0ccce">
+                     <text>Stannous Strawberry Back Panel</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="RNS SNF MT back panel.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

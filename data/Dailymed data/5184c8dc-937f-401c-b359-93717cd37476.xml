@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5184c8dc-937f-401c-b359-93717cd37476"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20100823"/>
+   <setId root="357e0e6b-cfbd-454c-82d7-cfc460dc0d68"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="194123980" root="1.3.6.1.4.1.519.1"/>
+            <name>Physicians Total Care, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="194123980" root="1.3.6.1.4.1.519.1"/>
+                        <name>Physicians Total Care, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="relabel"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a9ed9db5-abb7-4b79-8f2f-a5bb3d4a7c1e"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20100823"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54868-6147" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Canasa<suffix/>
+                        </name>
+                        <formCode code="C42993" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUPPOSITORY"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>mesalamine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="58914-501-56" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1000" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4Q81I59GXC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MESALAMINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4Q81I59GXC" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MESALAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8334LX7S21" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FAT, HARD</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1">
+                                 <translation code="C48539" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUPPOSITORY"/>
+                              </numerator>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="54868-6147-0" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100818"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA021252" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38295" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RECTAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="693aeec4-f946-4cdb-be73-bd6fd1d0a946"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>The active ingredient in CANASA<sup>®</sup> 1000 mg 
+suppositories is mesalamine, also known as mesalazine or 5-aminosalicylic acid 
+(5-ASA). Chemically, mesalamine is 5-amino-2-hydroxybenzoic acid, and is 
+classified as an anti-inflammatory drug.</paragraph>
+                  <paragraph>The empirical formula is C<sub>7</sub>H<sub>7</sub>NO<sub>3</sub>, representing a molecular weight of 
+153.14. The structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>Each CANASA<sup>®</sup> rectal suppository contains 1000 mg of 
+mesalamine (USP) in a base of Hard Fat, NF.</paragraph>
+               </text>
+               <effectiveTime value="20100823"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM1">
+                     <text>image of chemical structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="chemical structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3415be6f-2af0-49cc-be45-0d14337af8fb"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Sulfasalazine has been used in the treatment of ulcerative 
+colitis for over 55 years. It is split by bacterial action in the colon into 
+sulfapyridine (SP) and mesalamine (5-ASA). It is thought that the mesalamine 
+component only is therapeutically active in ulcerative colitis.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Mechanism of Action<paragraph>The mechanism of action of mesalamine (and sulfasalazine) is not 
+fully understood, but appears to be topical rather than systemic. Although the 
+pathology of inflammatory bowel disease is uncertain, both prostaglandins and 
+leukotrienes have been implicated as mediators of mucosal injury and 
+inflammation. Recently, however, the role of mesalamine as a free radical 
+scavenger or inhibitor of tumor necrosis factor (TNF) has also been 
+postulated.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Pharmacokinetics<linkHtml href=""/>
+                  <linkHtml href=""/>Absorption:<paragraph>Mesalamine (5-ASA) administered as a rectal suppository is 
+variably absorbed. In patients with ulcerative colitis treated with mesalamine 
+500 mg rectal suppositories, administered once every eight hours for six days, 
+the mean mesalamine peak plasma concentration (C<sub>max</sub>) was 
+353 ng/mL (CV=55%) following the initial dose and 361 ng/mL (CV=67%) at steady 
+state. The mean minimum steady state plasma concentration (C<sub>min</sub>) was 89 ng/mL (CV=89%). Absorbed mesalamine does not 
+accumulate in the plasma.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Distribution:<paragraph>Mesalamine administered as rectal suppositories distributes in 
+rectal tissue to some extent. In patients with ulcerative proctitis treated with 
+CANASA<sup>®</sup> (mesalamine, USP) 1000 mg rectal suppositories, 
+rectal tissue concentrations for 5-ASA and N-acetyl-5-ASA have not been 
+rigorously quantified.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Metabolism:<paragraph>Mesalamine is extensively metabolized, mainly to N-acetyl-5-ASA. 
+The site of metabolism has not been elucidated. In patients with ulcerative 
+colitis treated with one 500 mg mesalamine rectal suppository every eight hours 
+for six days, peak concentration (C<sub>max</sub>) of N-acetyl-5-ASA 
+ranged from 467 ng/mL to 1399 ng/mL following the initial dose and from 193 
+ng/mL to 1304 ng/mL at steady state.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Elimination:<paragraph>Mesalamine is eliminated from plasma mainly by urinary excretion, 
+predominantly as N-acetyl-5-ASA. In patients with ulcerative proctitis treated 
+with one mesalamine 500 mg rectal suppository every eight hours for six days, ≤ 
+12% of the dose was eliminated in urine as unchanged 5-ASA and 8-77% as 
+N-acetyl-5-ASA following the initial dose. At steady state, ≤ 11% of the dose 
+was eliminated as unchanged 5-ASA and 3-35% as N-acetyl-5-ASA. The mean 
+elimination half-life was five hours (CV=73%) for 5-ASA and six hours (CV=63%) 
+for N-acetyl-5-ASA following the initial dose. At steady state, the mean 
+elimination half-life was seven hours for both 5-ASA and N-acetyl-5-ASA (CV=102% 
+for 5-ASA and 82% for N-acetyl-5-ASA).</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Drug-Drug Interactions:<paragraph>The potential for interactions between mesalamine, administered 
+as 1000 mg rectal suppositories, and other drugs has not been studied.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Special Populations (Patients with Renal or Hepatic 
+Impairment):<paragraph>The effect of renal or hepatic impairment on elimination of 
+mesalamine in ulcerative proctitis patients treated with mesalamine 1000 mg 
+suppositories has not been studied.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Preclinical Toxicology<paragraph>Preclinical studies of mesalamine were conducted in rats, mice, 
+rabbits and dogs, and kidney was the main target organ of toxicity. In rats, 
+adverse renal effects were observed at a single oral dose of 600 mg/kg (about 
+3.2 times the recommended human intra-rectal dose, based on body surface area) 
+and at IV doses of &gt;214 mg/kg (about 1.2 times the recommended human 
+intra-rectal dose, based on body surface area). In a 13-week oral gavage 
+toxicity study in rats, papillary necrosis and/or multifocal tubular injury were 
+observed in males receiving 160 mg/kg (about 0.86 times the recommended human 
+intra-rectal dose, based on body surface area) and in both males and females at 
+640 mg/kg (about 3.5 times the recommended human intra-rectal dose, based on 
+body surface area). In a combined 52-week toxicity and 127-week carcinogenicity 
+study in rats, degeneration of the kidneys and hyalinization of basement 
+membranes and Bowman’s capsule were observed at oral doses of 100 mg/kg/day 
+(about 0.54 times the recommended human intra-rectal dose, based on body surface 
+area) and above. In a 14-day rectal toxicity study of mesalamine suppositories 
+in rabbits, intra-rectal doses up to 800 mg/kg (about 8.6 times the recommended 
+human intra-rectal dose, based on body surface area) was not associated with any 
+adverse effects. In a six-month oral toxicity study in dogs, doses of 80 mg/kg 
+(about 1.4 times the recommended human intra-rectal dose, based on body surface 
+area) and higher caused renal pathology similar to that described for the rat. 
+In a rectal toxicity study of mesalamine suppositories in dogs, a dose of 166.6 
+mg/kg (about 3.0 times the recommended human intra-rectal dose, based on body 
+surface area) produced chronic nephritis and pyelitis. In the 12-month eye 
+toxicity study in dogs, Keratoconjunctivitis sicca (KCS) occurred at oral doses 
+of 40 mg/kg (about 0.72 times the recommended human intra-rectal dose, based on 
+body surface area) and above.</paragraph>
+               </text>
+               <effectiveTime value="20100823"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8d8ebb36-4b1e-467a-9030-ae477742add5"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>Two double-blind placebo-controlled multicenter studies were 
+conducted in North America in patients with mild to moderate active ulcerative 
+proctitis. The primary measures of efficacy were the same in all trials 
+(clinical disease activity index, sigmoidoscopic and histologic evaluations). 
+The main difference between the studies was dosage regimen: 500 mg three times 
+daily (1.5 g/d) in Study 1; and 500 mg twice daily (1.0 g/d) in Study 2. A total 
+of 173 patients were studied (Study 1, N=79; Study 2, N=94). Eighty-nine (89) 
+patients received mesalamine suppositories, and eighty-four (84) patients 
+received placebo suppositories. Patients were evaluated clinically and 
+sigmoidoscopically after three and six weeks of suppository treatment. In Study 
+No. 1 patients were 17 to 73 years of age (mean = 39 yrs), 57% were female, and 
+97% were white. Patients had an average extent of proctitis (upper disease 
+boundary) of 10.8 cm. Eighty-four percent (84%) of the study patients had 
+multiple prior episodes of proctitis. In Study No. 2, patients were 21 to 72 
+years of age (mean = 39 yrs), 62% were female, and 96% were white. Patients had 
+an average extent of proctitis (upper disease boundary) of 10.3 cm. 
+Seventy-eight percent (78%) of the study patients had multiple prior episodes of 
+proctitis.</paragraph>
+                  <paragraph>Compared to placebo, mesalamine suppository treatment was statistically 
+(p less than 0.01) superior to placebo in all trials with respect to improvement in 
+stool frequency, rectal bleeding, mucosal appearance, disease severity, and 
+overall disease activity after three and six weeks of treatment. Daily diary 
+records indicated significant improvement in rectal bleeding in the first week 
+of therapy while tenesmus and diarrhea improved significantly within two weeks. 
+Investigators rated patients receiving mesalamine much improved compared to 
+patients receiving placebo (p less than 0.001).</paragraph>
+                  <paragraph>The effectiveness of mesalamine suppositories was statistically significant 
+irrespective of sex, extent of proctitis, duration of current episode or 
+duration of disease.</paragraph>
+                  <paragraph>A multicenter, open-label, randomized, parallel group study in ninety-nine 
+(99) patients diagnosed with mild to moderate ulcerative proctitis compared the 
+clinical efficacy of the CANASA<sup>®</sup> 1000 mg suppository to 
+that of the CANASA <sup>®</sup> 500 mg suppository. The primary 
+measures of efficacy included clinical disease activity index, sigmoidoscopic 
+and histologic evaluations. Patients were randomized to one of two treatment 
+groups, with a dosage regimen of one 500 mg mesalamine suppository BID, morning 
+and HS, or one 1000 mg mesalamine suppository HS for 6 weeks. Patients were 
+evaluated clinically and sigmoidoscopically after three and six weeks of 
+suppository treatment. Of the eighty-one (81) patients in the Per Protocol 
+population, forty-six (46) patients received mesalamine 500 mg suppositories 
+BID, and thirty-five (35) patients received mesalamine 1000 mg suppositories 
+HS.</paragraph>
+                  <paragraph>The efficacy of the 1000 mg HS treatment was not statistically or clinically 
+different after 6 weeks from the 500 mg BID treatment, and both were effective 
+in the treatment of ulcerative proctitis. Both treatments resulted in a 
+significant decrease between Baseline and 6 weeks in the Disease Activity Index 
+(DAI), a composite index reflecting rectal bleeding, stool frequency, mucosal 
+appearance at endoscopy, and a global assessment of disease. In the 500 mg BID 
+group, the mean DAI value decreased from 6.6 to 1.6, and in the 1000 mg HS 
+group, the mean DAI value decreased from 6.2 to 1.3 over 6 weeks of treatment, 
+representing a decrease of greater than 75% in both groups. Seventy-eight 
+percent (78%; 36/46) of patients in the 500 mg BID group and 86% (30/35) of the 
+patients in the 1000 mg HS group achieved a substantial improvement in symptoms 
+(defined as a DAI score of less than 3) after 6 weeks of treatment. These 
+patients regained normal daily stools, lost their rectal bleeding, and lost 
+signs of inflammation at endoscopic visualization. The time to onset of response 
+to the study drug was within 3 weeks of initiation of therapy in each treatment 
+group, but further improvement was observed between 3 and 6 weeks of treatment.</paragraph>
+               </text>
+               <effectiveTime value="20100823"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="87d63868-a820-47aa-8917-f16ce02dc4e9"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>CANASA<sup>®</sup> 1000 mg Suppositories are indicated for the 
+treatment of active ulcerative proctitis.</paragraph>
+               </text>
+               <effectiveTime value="20100823"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="febeb16d-e199-429f-b0be-e320d88efc01"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>CANASA<sup>®</sup> 1000 mg Suppositories are contraindicated in 
+patients who have demonstrated hypersensitivity to mesalamine (5-aminosalicylic 
+acid) or to the suppository vehicle [saturated vegetable fatty acid esters (Hard 
+Fat, NF)], or to salicylates (including aspirin).</paragraph>
+               </text>
+               <effectiveTime value="20100823"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="68ff4de3-c9cf-4111-a10d-39e54b970934"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Mesalamine has been implicated in the production of an acute 
+intolerance syndrome characterized by cramping, acute abdominal pain and bloody 
+diarrhea, sometimes fever, headache and a rash; in such cases prompt withdrawal 
+is required. The patient’s history of sulfasalazine intolerance, if any, should 
+be re-evaluated. If a rechallenge is performed later in order to validate the 
+hypersensitivity, it should be carried out under close supervision and only if 
+clearly needed, giving consideration to reduced dosage. In the literature, one 
+patient previously sensitive to sulfasalazine was rechallenged with 400 mg oral 
+mesalamine; within eight hours she experienced headache, fever, intensive 
+abdominal colic, profuse diarrhea and was readmitted as an emergency. She 
+responded poorly to steroid therapy and two weeks later a pancolectomy was 
+required. The possibility of increased absorption of mesalamine and concomitant 
+renal tubular damage as noted in the preclinical studies must be kept in mind. 
+Patients on CANASA<sup>®</sup> 1000 mg, especially those on 
+concurrent oral products which contain or release mesalamine and those with 
+pre-existing renal disease, should be carefully monitored with urinalysis, BUN 
+and creatinine testing.</paragraph>
+                  <paragraph>In a clinical trial most patients who were hypersensitive to sulfasalazine 
+were able to take mesalamine enemas without evidence of any allergic reaction. 
+Nevertheless, caution should be exercised when mesalamine is initially used in 
+patients known to be allergic to sulfasalazine. These patients should be 
+instructed to discontinue therapy if signs of rash or fever become apparent.</paragraph>
+                  <paragraph>A small proportion of patients have developed pancolitis while using 
+mesalamine. However, extension of upper disease boundary and/or flare-ups 
+occurred less often in the mesalamine-treated group than in the placebo-treated 
+group.</paragraph>
+                  <paragraph>Rare instances of pericarditis have been reported with mesalamine containing 
+products including sulfasalazine. Cases of pericarditis have also been reported 
+as manifestations of inflammatory bowel disease. In the cases reported there 
+have been positive rechallenges with mesalamine or mesalamine containing 
+products. In one of these cases, however, a second rechallenge with 
+sulfasalazine was negative throughout a 2 month follow-up. Chest pain or dyspnea 
+in patients treated with mesalamine should be investigated with this information 
+in mind. Discontinuation of CANASA<sup>®</sup> suppositories may be 
+warranted in some cases, but rechallenge with mesalamine can be performed under 
+careful clinical observation should the continued therapeutic need for 
+mesalamine be present.</paragraph>
+                  <paragraph>There have been two reports in the literature of additional serious adverse 
+events: one patient who developed leukopenia and thrombocytopenia after seven 
+months of treatment with one 500 mg suppository nightly, and one patient with 
+rash and fever which was a similar reaction to sulfasalazine.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Information for Patients:<paragraph>See <linkHtml href="#section-12">patient information</linkHtml> printed at the 
+end of this insert.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Carcinogenesis, Mutagenesis, Impairment of 
+Fertility<paragraph>Mesalamine caused no increase in the incidence of neoplastic 
+lesions over controls in a two-year study of Wistar rats fed up to 320 mg/kg/day 
+of mesalamine admixed with diet (about 1.7 times the recommended human 
+intra-rectal dose, based on body surface area).</paragraph>
+                  <paragraph>Mesalamine was not mutagenic in the Ames test, the mouse lymphoma cell 
+(TK<sup>±</sup>) forward mutation test, or the mouse micronucleus 
+test.</paragraph>
+                  <paragraph>No effects on fertility or reproductive performance of the male and female 
+rats were observed at oral mesalamine doses up to 320 mg/kg/day (about 1.7 times 
+the recommended human intra-rectal dose, based on body surface area). The 
+oligospermia and infertility in men associated with sulfasalazine have not been 
+reported with mesalamine.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Pregnancy<linkHtml href=""/>
+                  <linkHtml href=""/>Teratogenic Effects, Pregnancy Category B<paragraph>Teratology studies have been performed in rats at oral doses up 
+to 320 mg/kg/day (about 1.7 times the recommended human intra-rectal dose, based 
+on body surface area) and in rabbits at oral doses up to 495 mg/kg/day (about 
+5.4 times the recommended human intra-rectal dose, based on body surface area) 
+and have revealed no evidence of impaired fertility or harm to the fetus due to 
+mesalamine. There are, however, no adequate and well controlled studies in 
+pregnant women. Because animal reproduction studies are not always predictive of 
+human response, this drug should be used in pregnancy only if clearly 
+needed.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Nursing Mothers<paragraph>It is not known whether mesalamine or its metabolite(s) are 
+excreted in human milk. Because many drugs are excreted in human milk, caution 
+should be exercised when CANASA<sup>®</sup> 1000 mg suppositories 
+are administered to a nursing woman.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Pediatric Use<paragraph>Safety and effectiveness in pediatric patients have not been 
+established.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Geriatric Use<paragraph>Clinical studies of CANASA<sup>®</sup> did not 
+include sufficient numbers of subjects aged 65 and over to determine whether 
+they respond differently from younger subjects. Other reported clinical 
+experience has not identified differences in responses between the elderly and 
+younger patients. In general, dose selection for an elderly patient should be 
+cautious, reflecting the greater frequency of decreased hepatic, renal, or 
+cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                  <paragraph>Mesalamine is known to be substantially excreted by the kidney, and the risk 
+of toxic reactions to this drug may be greater in patients with impaired renal 
+function. Because elderly patients are more likely to have decreased renal 
+function, it may be useful to monitor renal function.</paragraph>
+               </text>
+               <effectiveTime value="20100823"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="73fdfadb-7b29-4c80-aebb-8396cb89f436"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <linkHtml href=""/>Clinical Adverse Experience<paragraph>The most frequent adverse reactions observed in the double-blind, 
+placebo-controlled trials are summarized in the Table below.</paragraph>
+                  <linkHtml href=""/>
+                  <table width="100%" ID="ib3974122-faee-4561-8282-168278075509">
+                     <caption>ADVERSE REACTIONS OCCURRING IN MORE THAN 1% OF MESALAMINE SUPPOSITORY 
+TREATED PATIENTS (COMPARISON TO PLACEBO)</caption>
+                     <col width="20%"/>
+                     <col width="20%"/>
+                     <col width="20%"/>
+                     <col width="20%"/>
+                     <col width="20%"/>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">Symptom</content>
+                           </td>
+                           <td>
+                              <content styleCode="bold">Mesalamine</content>
+                              <br/>(n=177)</td>
+                           <td>
+                              <content styleCode="bold">Placebo</content>
+                              <br/>(n=84)</td>
+                        </tr>
+                        <tr>
+                           <td>N</td>
+                           <td>%</td>
+                           <td>N</td>
+                           <td>%</td>
+                        </tr>
+                        <tr>
+                           <td>Dizziness</td>
+                           <td>5</td>
+                           <td>3.0</td>
+                           <td>2</td>
+                           <td>2.4</td>
+                        </tr>
+                        <tr>
+                           <td>Rectal Pain</td>
+                           <td>3</td>
+                           <td>1.8</td>
+                           <td>0</td>
+                           <td>0.0</td>
+                        </tr>
+                        <tr>
+                           <td>Fever</td>
+                           <td>2</td>
+                           <td>1.2</td>
+                           <td>0</td>
+                           <td>0.0</td>
+                        </tr>
+                        <tr>
+                           <td>Rash</td>
+                           <td>2</td>
+                           <td>1.2</td>
+                           <td>0</td>
+                           <td>0.0</td>
+                        </tr>
+                        <tr>
+                           <td>Acne</td>
+                           <td>2</td>
+                           <td>1.2</td>
+                           <td>0</td>
+                           <td>0.0</td>
+                        </tr>
+                        <tr>
+                           <td>Colitis</td>
+                           <td>2</td>
+                           <td>1.2</td>
+                           <td>0</td>
+                           <td>0.0</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>In the multicenter, open-label, randomized, parallel group study comparing 
+the CANASA<sup>®</sup> 1000 mg suppository (HS) to that of the 
+CANASA<sup>®</sup> 500 mg suppository (BID), there were no 
+differences between the two treatment groups in the adverse event profile. The 
+most frequent AEs were headache (14.4%), flatulence (5.2%), abdominal pain 
+(5.2%), diarrhea (3.1%), and nausea (3.1%). Three (3) patients had to 
+discontinue medication because of a treatment emergent AE; one of these AEs 
+(headache) was deemed possibly related to study medication.</paragraph>
+                  <paragraph>In addition to the events observed in the clinical trials, the following 
+adverse events have been associated with mesalamine containing products: 
+nephrotoxicity, pancreatitis, fibrosing alveolitis and elevated liver enzymes. 
+Cases of pancreatitis and fibrosing alveolitis have been reported as 
+manifestations of inflammatory bowel disease as well.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Hair Loss<paragraph>Mild hair loss characterized by “more hair in the comb” but no 
+withdrawal from clinical trials has been observed in seven of 815 mesalamine 
+patients but none of the placebo-treated patients. In the literature there are 
+at least six additional patients with mild hair loss who received either 
+mesalamine or sulfasalazine. Retreatment is not always associated with repeated 
+hair loss.</paragraph>
+               </text>
+               <effectiveTime value="20100823"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8c63bd14-6d03-4167-9a45-6917cc58cee5"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>There have been no documented reports of serious toxicity in man resulting from 
+massive overdosing with mesalamine. Under ordinary circumstances, mesalamine 
+absorption from the colon is limited.</paragraph>
+               </text>
+               <effectiveTime value="20100823"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3f52f16c-0d62-4424-ad17-e17bb40c9b4f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The usual dosage of CANASA<sup>®</sup> (mesalamine, 
+USP) 1000 mg suppositories is one rectal suppository 1 time daily at 
+bedtime.</paragraph>
+                  <paragraph>The suppository should be retained for one to three hours or longer, if 
+possible, to achieve the maximum benefit. While the effect of CANASA<sup>®</sup> suppositories may be seen within three to twenty-one days, 
+the usual course of therapy would be from three to six weeks depending on 
+symptoms and sigmoidoscopic findings. Studies have suggested that CANASA<sup>®</sup> suppositories will delay relapse after the six-week 
+short-term treatment.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Patient Instructions:<paragraph>
+                     <content styleCode="bold">NOTE: CANASA</content>
+                     <content styleCode="bold">
+                        <sup>®</sup>
+                     </content>
+                     <content styleCode="bold"> suppositories will cause staining of 
+direct contact surfaces, including but not limited to fabrics, flooring, painted 
+surfaces, marble, granite, vinyl, and enamel. </content>
+                  </paragraph>
+                  <list listType="ordered" ID="i4d9b2f0a-b057-4827-8da5-ed31719b43bb">
+                     <item>Detach one suppository from strip of suppositories.</item>
+                     <item>Hold suppository upright and carefully remove the plastic wrapper.</item>
+                     <item>Avoid excessive handling of suppository, which is designed to melt at body 
+temperature.</item>
+                     <item>Insert suppository completely into rectum with gentle pressure, pointed end 
+first.</item>
+                     <item>A small amount of lubricating gel may be used on the tip of the suppository 
+to assist insertion.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20100823"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a28b3954-609b-40d6-83ef-2393dd806ac3"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CANASA<sup>®</sup>
+                     </content>
+                     <content styleCode="bold"> (Mesalamine, USP) 1000 mg Suppositories: CANASA</content>
+                     <content styleCode="bold">
+                        <sup>® </sup>
+                     </content>1000 mg Suppositories for rectal 
+administration are available as bullet shaped, light tan suppositories 
+containing 1000 mg mesalamine supplied in boxes of 30 plastic wrapped suppositories (NDC 54868-6147-0).</paragraph>
+                  <paragraph>Store below 25°C (77°F), do not freeze. Keep away from direct heat, light or 
+humidity.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>Axcan Pharma US, Inc.</paragraph>
+                  <paragraph>Birmingham, AL 35242</paragraph>
+                  <paragraph>Date: May 2008</paragraph>
+                  <br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Relabeling of "Additional Barcode Label"  by:</content>
+                     <br/>Physicians Total Care, Inc.<br/>Tulsa, OK     74146<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100823"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9a9ea252-5321-4a0c-b1b6-5e4210699355"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <text>
+                  <linkHtml href=""/>Patient Information<paragraph>
+                     <content styleCode="bold">CANASA<sup>®</sup>
+                     </content>
+                     <content styleCode="bold"> Rectal Suppositories </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Mesalamine, USP) 1000 mg</content>
+                  </paragraph>
+                  <paragraph>Read this information carefully before you begin treatment. Also, read the 
+information you get whenever you get more medicine. There may be new 
+information. This information does not take the place of talking with your 
+doctor about your medical condition or your treatment. If you have any questions 
+about this medicine, ask your doctor or pharmacist.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>What is CANASA<sup>®</sup>?<paragraph>CANASA<sup>®</sup> (can-AH-sah) is a medicine used to 
+treat ulcerative proctitis (ulcerative rectal colitis). CANASA<sup>®</sup> works inside your rectum (lower intestine) to help reduce 
+bleeding, mucous and bloody diarrhea caused by inflammation (swelling and 
+soreness) of the rectal area. You use CANASA<sup>®</sup> by 
+inserting it into your rectum.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>Who should not use CANASA<sup>®</sup>?<paragraph>Do not use CANASA<sup>®</sup> if you are allergic to 
+the active ingredient mesalamine (also found in drugs such as Rowasa, Asacol, 
+Pentasa, Azulfidine, and Dipentum), if you are allergic to the inactive 
+ingredients, or if you have had any unusual reaction to the ingredients.</paragraph>
+                  <paragraph>Tell your doctor if you:</paragraph>
+                  <list listType="unordered" ID="i0851db0f-ea00-43fd-89a7-d2f3a998fa1d">
+                     <item>Have kidney problems. Using CANASA<sup>®</sup> may make them 
+worse.</item>
+                     <item>Have had inflamed pancreas (pancreatitis).</item>
+                     <item>Are pregnant. You and your doctor will decide if you should use CANASA<sup>®</sup>.</item>
+                     <item>Have ever had pericarditis (inflamed sac around your heart).</item>
+                     <item>Are allergic to sulfasalazine. You may need to watch for signs of an 
+allergic reaction to CANASA<sup>®</sup>.</item>
+                     <item>Are allergic to aspirin.</item>
+                     <item>Are allergic to other things, such as foods, preservatives, or 
+dyes.</item>
+                  </list>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>How should I use CANASA<sup>®</sup>?<paragraph>Follow your doctor’s instructions about how often to use 
+CANASA<sup>®</sup> and how long to use it. For the 1000 mg 
+suppository, the usual dose is one suppository at bedtime for 3-6 weeks. We do 
+not know if CANASA<sup>®</sup> will work for children or is safe for 
+them.</paragraph>
+                  <paragraph>Follow these steps to use CANASA<sup>®</sup>:</paragraph>
+                  <list listType="ordered" ID="ib9d68810-a75f-4310-83ae-724c4719da98">
+                     <item>For best results, empty your rectum (have a bowel movement) just before 
+using CANASA<sup>®</sup>.</item>
+                     <item>Detach one CANASA<sup>®</sup> suppository from the strip of 
+suppositories.</item>
+                     <item>Hold the suppository upright and carefully peel open the plastic at the 
+pre-cut line to take out the suppository.</item>
+                     <item>Insert the suppository with the pointed end first completely into your 
+rectum, using gentle pressure.</item>
+                     <item>For best results, keep the suppository in your rectum for 3 hours or longer, 
+if possible.</item>
+                  </list>
+                  <paragraph>If you have trouble inserting CANASA<sup>®</sup>, you may put a 
+little bit of lubricating gel on the suppository.</paragraph>
+                  <paragraph>Do not handle the suppository too much, since it may begin to melt from the 
+heat from your hands and body.</paragraph>
+                  <paragraph>If you miss a dose of CANASA<sup>®</sup>, use it as soon as 
+possible, unless it is almost time for next dose. Do not use two CANASA<sup>® </sup>suppositories at the same time to make up for a missed 
+dose.</paragraph>
+                  <paragraph>Keep using CANASA<sup>®</sup> as long as your doctor tells you to 
+use it, even if you feel better.</paragraph>
+                  <paragraph>CANASA<sup>®</sup> can cause stains on things it touches. 
+Therefore keep it away from clothing and other fabrics, flooring, painted 
+surfaces, marble, granite, plastics, andenamel. Be careful since CANASA<sup>®</sup> may stain clothing.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>What should I avoid while taking CANASA<sup>®</sup>?<paragraph>Do not breast feed while using CANASA<sup>®</sup>. We 
+do not know if CANASA<sup>®</sup> can pass through the milk and harm 
+the baby. Tell your doctor if you become pregnant while using CANASA<sup>®</sup>.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>What are the possible side effects of CANASA<content styleCode="bold">
+                     <sup>®</sup>
+                  </content>?<list listType="unordered" ID="idc88d201-42e2-4a25-8c24-e802367a30f0">
+                     <item>The most common side effects of CANASA<sup>®</sup> are: 
+headache, gas or flatulence, and diarrhea. These events also occurred when 
+patients were given an inactive suppository.</item>
+                     <item>Less common, but possibly serious side effects include a reaction to the 
+medicine (acute intolerance syndrome) that includes cramps, sharp abdominal 
+(stomach area) pain, bloody diarrhea, and sometimes fever, headache and rash. 
+Stop use and tell your doctor right away if you get any of these symptoms.</item>
+                     <item>In rare cases, the sac around the heart may become inflamed (pericarditis). 
+Tell your doctor right away if you develop chest pain or shortness of breath, 
+which are signs of this problem.</item>
+                     <item>In rare cases, patients using CANASA<sup>®</sup> develop 
+worsening colitis (pancolitis).</item>
+                     <item>A very few patients using CANASA<sup>®</sup> may have mild hair 
+loss.</item>
+                     <item>Other side effects not listed above may also occur in some patients. 
+</item>
+                  </list>
+                  <paragraph>If you notice any other side effects, check with your doctor or 
+pharmacist.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>How should I store CANASA<sup>®</sup>?<paragraph>Store CANASA<sup>®</sup> below 25°C (77°F), do not 
+freeze it. Keep it away from direct heat, light, or humidity. Keep it out of the 
+reach of children.</paragraph>
+                  <linkHtml href=""/>
+                  <linkHtml href=""/>General advice about prescription medicines<paragraph>Medicines are sometimes prescribed for conditions that are not 
+mentioned in patient information leaflets. Do not use CANASA<sup>®</sup> for a condition for which it was not prescribed. Do not give 
+CANASA<sup>®</sup> to other people, even if they have the same 
+symptoms you have.</paragraph>
+                  <paragraph>This leaflet summarizes the most important information about CANASA<sup>®</sup>. If you would like more information, talk with your doctor. 
+You can ask your pharmacist or doctor for information about CANASA<sup>®</sup> that is written for health professionals.</paragraph>
+               </text>
+               <effectiveTime value="20100823"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6ea40129-92ca-404b-9bd0-8611277c1c8e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CANASA<sup>®</sup>
+                     </content>
+                     <content styleCode="bold"> 
+(Mesalamine, USP) 1000 mg Suppositories</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100823"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM2">
+                     <text>image of package label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="package label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="028d48ef-033d-49dc-8469-cde41d66ccf2"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20100101"/>
+   <setId root="fcadac08-30d0-46c2-9053-af28481b86a3"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="623431843" root="1.3.6.1.4.1.519.1"/>
+            <name>Sound Oxygen Service, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="623431843" root="1.3.6.1.4.1.519.1"/>
+                  <name>Sound Oxygen Service, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="623431843" root="1.3.6.1.4.1.519.1"/>
+                        <name>Sound Oxygen Service, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d4b57c72-66ab-4d3f-8259-af49f0d8fc05"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20100101"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="43314-001" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>OXYGEN<suffix/>
+                        </name>
+                        <formCode code="C42933" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GAS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>OXYGEN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="99" unit="L"/>
+                              <denominator value="100" unit="L"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OXYGEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OXYGEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="170" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43314-001-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="426" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43314-001-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="675" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43314-001-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="3472" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="43314-001-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43189" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CYLINDER"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20030101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73613" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved medical gas"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5a33fd11-081e-438b-a037-d25be99cdaf6"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>OXYGEN COMPRESSED LABEL</title>
+               <text>
+                  <paragraph>OXYGEN COMPRESSED U.S.P.  UN 1072  OXYGEN-2</paragraph>
+                  <paragraph>FOR EMERGENCY USE ONLY WHEN ADMINISTERED BY PROPERLY TRAINED PERSONNEL FOR OXYGEN DEFICIENCY AND RESUSCITATION.  FOR ALL OTHER MEDICAL APPLICATIONS Rx ONLY.  <br/>
+                  </paragraph>
+                  <paragraph>NET CONTENTS:____________________________</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="SOUNDOX1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100101"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="SOUNDOX1">
+                     <text>SHOULDER LABEL</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sound ox_hp_o2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d1179b4b-6bf4-4102-9b4a-f23ff94974d5"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>PRODUCT WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph>WARNING: SECURE ALL CYLINDERS WHILE IN STORAGE AND IN USE.  UNINTERRUPTED USE OF HIGH CONCENTRATIONS OF OXYGEN OVER A LONG DURATION WITHOUT MONITORING ITS EFFECT ON OXYGEN CONTENT OF ARTERIAL BLOOD MAY BE HARMFUL.  USE ONLY WITH PRESSURE REDUCING EQUIPMENT AND APPARATUS DESIGNED FOR OXYGEN.  DO NOT ATTEMPT TO USE ON PATIENTS WHO HAVE STOPPED BREATHING, UNLESS USED IN CONJUNCTION WITH RESUSCITATIVE EQUIPMENT.  USE IN ACCORDANCE WITH MATERIAL SAFETY DATA SHEETS AND SAFETY PRECAUTIONS RECOMMENDED BY THE SUPPLIER.  <br/>
+                  </paragraph>
+                  <paragraph>WARNING: FEDERAL LAW PROHIBITS DISPENSING WITHOUT A PRESCRIPTION.  PRODUCED BY AIR LIQUEFACTION.  DO NOT REMOVE THIS PRODUCT LABEL.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100101"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

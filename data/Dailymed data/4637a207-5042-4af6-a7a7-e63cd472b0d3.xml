@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4637a207-5042-4af6-a7a7-e63cd472b0d3"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>Colistimethate for Injection, USP</title>
+   <effectiveTime value="20200123"/>
+   <setId root="ab241809-0d2f-44ba-829c-26be67ee623f"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="608775388" root="1.3.6.1.4.1.519.1"/>
+            <name>Fresenius Kabi USA, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="023648251" root="1.3.6.1.4.1.519.1"/>
+                        <name>Fresenius Kabi USA, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63323-393" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4e32dd73-72c4-410c-b7ca-676cc5a1bb61"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20200123"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63323-393" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Colistimethate<suffix/>
+                        </name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>COLISTIMETHATE SODIUM</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIR">
+                           <quantity>
+                              <numerator value="150" unit="mg"/>
+                              <denominator value="2" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XW0E5YS77G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>COLISTIMETHATE SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="DL2R53P963" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>COLISTIMETHATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <asEquivalentSubstance>
+                                 <definingSubstance>
+                                    <code code="Z67X93HJG1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>COLISTIN</name>
+                                 </definingSubstance>
+                              </asEquivalentSubstance>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="63323-393-06" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20091204"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065364" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20091204"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="d35d83b3-36f7-453d-899d-0c6204a03324">
+               <id root="7ef6697b-3005-4e6d-a801-db791c4a37be"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Colistimethate for Injection, USP and other antibacterial drugs, Colistimethate for Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR INTRAMUSCULAR AND INTRAVENOUS USE</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="fd68c117-dfe1-48a4-af90-9a94887b1a14">
+               <id root="9c97509d-bc5a-4826-bfb6-6d11e0570735"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Colistimethate for Injection, USP is a sterile parenteral antibiotic product which, when reconstituted (see <content styleCode="bold">
+                        <linkHtml href="#b2b7f17b-a97a-453d-baf6-deb5c3313b74">Reconstitution</linkHtml>
+                     </content>), is suitable for intramuscular or intravenous administration.  The color of the reconstituted solution is colorless to light yellow.</paragraph>
+                  <paragraph>Each vial contains colistimethate sodium or pentasodium colistinmethanesulfonate (150 mg colistin base activity) as a white to slightly yellow lyophilized cake.  The sodium content is approximately 0.07 mg (0.003 mEq) of sodium per milligram of Colistin.</paragraph>
+                  <paragraph>Colistimethate sodium is a polypeptide antibiotic with an approximate molecular weight of 1,750.  The molecular formula is C<sub>58</sub>H<sub>105</sub>N<sub>16</sub>Na<sub>5</sub>O<sub>28</sub>S<sub>5 </sub>and the structural formula is represented below: </paragraph>
+                  <paragraph> <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>pentasodium colistinmethanesulfonate (colistimethate sodium) Dbu is 2, 4-diaminobutanoic acid, R is 5-methylheptyl in colistin A and 5-methylhexyl in colistin B</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20200123"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>micro</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="microimge.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="c0c40367-7cc3-4f9a-8eaa-24d8924cbdec">
+               <id root="a8a66b1d-3512-49dc-aa83-b7294afadaaa"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Typical serum and urine levels following a single 150 mg dose of colistimethate IM or IV in normal adult subjects are shown in Figure 1.  </paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <br/>
+                  <paragraph>Higher serum levels were obtained at 10 minutes following IV administration.  Serum concentration declined with a half-life of 2 to 3 hours following either intravenous or intramuscular administration in adults and in the pediatric population, including premature infants.</paragraph>
+                  <paragraph>Average urine levels ranged from about 270 mcg/mL at 2 hours to about 15 mcg/mL at 8 hours after intravenous administration and from 200 to about 25 mcg/mL during a similar period following intramuscular administration.</paragraph>
+               </text>
+               <effectiveTime value="20200123"/>
+               <component>
+                  <section ID="b3a399e1-9ba0-44b3-b9ad-5378a058eb43">
+                     <id root="c5af7723-d912-438a-8da9-536beb62b5a3"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>Microbiology</title>
+                     <text>
+                        <paragraph>Colistimethate sodium is a surface  active agent which penetrates into and disrupts the bacterial cell membrane.  It has been shown to have bactericidal activity against most strains of the following microorganisms, both <content styleCode="italics">
+                              <content styleCode="italics">in vitro</content>
+                           </content> and in clinical infections as described in <content styleCode="bold">
+                              <linkHtml href="#e882ef1e-733a-421e-bd4b-42cf398ec0ad">INDICATIONS AND USAGE</linkHtml>
+                           </content> section:</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b20443f3-858c-4895-9f25-c6635fdb74a6">
+                     <id root="7a463a2d-1819-41f0-a628-88a83e15eb50"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>Aerobic gram-negative microorganisms</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Enterobacter aerogenes, Escherichia coli, Klebsiella pneumoniae</content>
+                           </content> and <content styleCode="italics">
+                              <content styleCode="italics">Pseudomonas aeruginosa</content>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ad58bce5-87e1-4690-9e68-9a6219e4dbf1">
+                     <id root="c2dd26ad-65a0-4eb4-a6e0-9ab267888d9e"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>Susceptibility Tests</title>
+                     <text>
+                        <paragraph>Colistimethate sodium is no longer listed as an antimicrobial for routine testing and reporting by clinical microbiology laboratories.</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>figure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="figure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="e882ef1e-733a-421e-bd4b-42cf398ec0ad">
+               <id root="8477cf16-5b9a-4383-b452-0fd9526e5479"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Colistimethate for Injection, USP is indicated for the treatment of acute or chronic infections due to sensitive strains of certain gram-negative bacilli.  It is particularly indicated when the infection is caused by sensitive strains of <content styleCode="italics">
+                        <content styleCode="italics">Pseudomonas aeruginosa</content>
+                     </content>.  This antibiotic is not indicated for infections due to <content styleCode="italics">
+                        <content styleCode="italics">Proteus </content>
+                     </content>or <content styleCode="italics">
+                        <content styleCode="italics">Neisseria</content>
+                     </content>. Colistimethate for Injection, USP has proven clinically effective in treatment of infections due to the following gram-negative organisms: <content styleCode="italics">
+                        <content styleCode="italics">Enterobacter aerogenes, Escherichia coli, Klebsiella pneumoniae</content>
+                     </content> and <content styleCode="italics">
+                        <content styleCode="italics">Pseudomonas aeruginosa</content>
+                     </content>.</paragraph>
+                  <paragraph>Colistimethate for Injection, USP may be used to initiate therapy in serious infections that are suspected to be due to gram-negative organisms and in the treatment of infections due to susceptible gram-negative pathogenic bacilli.  </paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Colistimethate for Injection, USP and other antibacterial drugs, Colistimethate for Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria.  When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy.  In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+               </text>
+               <effectiveTime value="20200123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f7c49a9f-20bc-4567-975e-35bc2a641542">
+               <id root="e6fe1652-2cf7-47bd-bf92-d94336fc6636"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>The use of Colistimethate for Injection, USP is contraindicated for patients with a history of sensitivity to the drug or any of its components.</paragraph>
+               </text>
+               <effectiveTime value="20200123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="fb0c9a63-d94c-45ec-91f6-ed6abb67db50">
+               <id root="448fec09-046b-43cc-833a-816cc7e557bb"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Maximum daily dose calculated from colistin base activity should not exceed 5 mg/kg/day with normal renal function.  </paragraph>
+                  <paragraph>Transient neurological disturbances may occur.  These include circumoral paresthesia or numbness, tingling or formication of the extremities, generalized pruritus, vertigo, dizziness, and slurring of speech.  For these reasons, patients should be warned not to drive vehicles or use hazardous machinery while on therapy. Reduction of dosage may alleviate symptoms. Therapy need not be discontinued, but such patients should be observed with particular care. </paragraph>
+                  <paragraph>Nephrotoxicity can occur and is probably a dose-dependent effect of colistimethate sodium. These manifestations of nephrotoxicity are reversible following discontinuation of the antibiotic.  </paragraph>
+                  <paragraph>Overdosage can result in renal insufficiency, muscle weakness, and apnea (see <content styleCode="bold">
+                        <linkHtml href="#bd45ed41-d628-46d2-9d74-3bb40f4e7e36">OVERDOSAGE</linkHtml>
+                     </content> section).  See <content styleCode="bold">
+                        <linkHtml href="#b89eb35f-c3a8-438c-b77c-7a0d79a47147">PRECAUTIONS,</linkHtml>
+                     </content> <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="italics">
+                              <content styleCode="bold">
+                                 <linkHtml href="#b89eb35f-c3a8-438c-b77c-7a0d79a47147">Drug Interactions</linkHtml>
+                              </content> </content>
+                        </content>
+                     </content>subsection for use concomitantly with other antibiotics and curariform drugs.  </paragraph>
+                  <paragraph>Respiratory arrest has been reported following intramuscular administration of colistimethate sodium.  Impaired renal function increases the possibility of apnea and neuromuscular blockade following administration of colistimethate sodium.  Therefore, it is important to follow recommended dosing guidelines. See <content styleCode="bold">
+                        <content styleCode="bold">
+                           <linkHtml href="#b2b7f17b-a97a-453d-baf6-deb5c3313b74">DOSAGE AND ADMINISTRATION</linkHtml>
+                        </content> </content>section for use in renal impairment.  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="italics">Clostridium difficile</content>
+                     </content> associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including Colistimethate for Injection, USP, and may range in severity from mild diarrhea to fatal colitis.  Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">
+                        <content styleCode="italics">C. difficile</content>
+                     </content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="italics">C. difficile</content>
+                     </content> produces toxins A and B which contribute to the development of CDAD.  Hypertoxin producing strains of <content styleCode="italics">
+                        <content styleCode="italics">C. difficile</content>
+                     </content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy.  CDAD must be considered in all patients who present with diarrhea following antibiotic use.  Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued.  Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile,</content> and surgical evaluation should be instituted as clinically indicated.</paragraph>
+               </text>
+               <effectiveTime value="20200123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b89eb35f-c3a8-438c-b77c-7a0d79a47147">
+               <id root="66050a7c-4814-4f95-a23d-340be848de5f"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20200123"/>
+               <component>
+                  <section ID="e5585048-1e86-485f-a6a6-f2e41b203e8a">
+                     <id root="3e059aae-b938-4bc8-92cf-0c31aae5c595"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Since colistimethate is eliminated mainly by renal excretion, it should be used with caution when the possibility of impaired renal function exists.  The decline in renal function with advanced age should be considered.</paragraph>
+                        <paragraph>When actual renal impairment is present, colistimethate may be used, but the greatest caution should be exercised and the dosage should be reduced in proportion to the extent of the impairment.  Administration of amounts of colistimethate in excess of renal excretory capacity will lead to high serum levels and can result in further impairment of renal function, initiating a cycle which, if not recognized, can lead to acute renal insufficiency, renal shutdown, and further concentration of the antibiotic to toxic levels in the body.  At this point, interference of nerve transmission at neuromuscular junctions may occur and result in muscle weakness and apnea (see <content styleCode="bold">
+                              <linkHtml href="#bd45ed41-d628-46d2-9d74-3bb40f4e7e36">OVERDOSAGE</linkHtml>
+                           </content> section).  </paragraph>
+                        <paragraph>Signs indicating the development of impaired renal function include: diminishing urine output, rising BUN and serum creatinine and decreased creatinine clearance.  Therapy with colistimethate should be discontinued immediately if signs of impaired renal function occur. However, if it is necessary to reinstate the drug, dosing should be adjusted accordingly after drug plasma levels have fallen (see <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#b2b7f17b-a97a-453d-baf6-deb5c3313b74">DOSAGE AND ADMINISTRATION</linkHtml>
+                              </content>
+                           </content> section). </paragraph>
+                        <paragraph>Prescribing Colistimethate for Injection, USP in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="de34225e-b9db-4e2e-b7bc-64b24229dd1c">
+                     <id root="f4ede5de-84d3-483b-aee0-ec39edd07725"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Certain other antibiotics (aminoglycosides and polymyxin) have also been reported to interfere with the nerve transmission at the neuromuscular junction. Based on this reported activity, they should not be given concomitantly with colistimethate except with the greatest caution.</paragraph>
+                        <paragraph>Curariform muscle relaxants (e.g., tubocurarine) and other drugs, including ether, succinylcholine, gallamine, decamethonium and sodium citrate, potentiate the neuromuscular blocking effect and should be used with extreme caution in patients being treated with colistimethate.  </paragraph>
+                        <paragraph>Sodium cephalothin may enhance the nephrotoxicity of colistimethate.  The concomitant use of sodium cephalothin and colistimethate should be avoided.</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="f0b99e57-c2d1-4438-8804-575121e97913">
+                     <id root="de787ab8-535a-4a83-b0a5-1b3a0c6aaa1b"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Long-term animal carcinogenicity studies and genetic toxicology studies have not been performed with colistimethate sodium.  There were no adverse effects on fertility or reproduction in rats at doses of 9.3 mg/kg/day (0.3 times the maximum daily human dose when based on mg/m<sup>2</sup>).</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b69361c8-8e94-4dae-a780-a3abd8f8ca6d">
+                     <id root="067833f2-a819-449c-ad11-4726e12d7900"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Pregnancy - Teratogenic Effects</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="italics">Pregnancy Category C</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Colistimethate sodium given intramuscularly during organogenesis to rabbits at 4.15 and 9.3 mg/kg resulted in talipes varus in 2.6% and 2.9% of fetuses, respectively.  These doses are 0.25 and 0.55 times the maximum daily human dose based on mg/m<sup>2</sup>.  In addition, increased resorption occurred at 9.3 mg/kg. Colistimethate sodium was not teratogenic in rats at 4.15 or 9.3 mg/kg.  These doses are 0.13 and 0.3 times the maximum daily human dose based on mg/m<sup>2</sup>. There are no adequate and well-controlled studies in pregnant women.  Since colistimethate sodium is transferred across the placental barrier in humans, it should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="f29181af-509b-4608-a93c-12d085fa26e0">
+                     <id root="2df99585-d834-4e50-b747-6af1b9390585"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether colistimethate sodium is excreted in human breast milk.  However, colistin sulphate is excreted in human breast milk.  Therefore, caution should be exercised when colistimethate sodium is administered to nursing women. </paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ff992ada-7d3e-4b88-a4d6-3f0bd93ad1e9">
+                     <id root="2b8189b0-790b-401c-b23a-fcb3e5196190"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of colistimethate sodium did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects.  Other reported clinical experience has not identified differences in responses between the elderly and younger patients.  In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.  This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function.  Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="d455eea5-e3fb-4579-992e-b3cec0eb8970">
+                     <id root="6519c527-8027-4adc-968d-071b91fd118c"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>In clinical studies, colistimethate sodium was administered to the pediatric population (neonates, infants, children and adolescents).  Although adverse reactions appear to be similar in the adult and pediatric populations, subjective symptoms of toxicity may not be reported by pediatric patients.  Close clinical monitoring of pediatric patients is recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="a1f0e422-afac-4b86-9750-5e475628d194">
+                     <id root="c9bc76ab-7558-45ce-8ca6-175a7f2cc71b"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Patients should be counseled that antibacterial drugs including Colistimethate for Injection, USP should only be used to treat bacterial infections.  They do not treat viral infections (e.g., the common cold).  When Colistimethate for Injection, USP is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed.  Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by Colistimethate for Injection, USP or other antibacterial drugs in the future.</paragraph>
+                        <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued.  Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic.  If this occurs, patients should contact their physician as soon as possible.</paragraph>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="c3672597-68c5-4e19-aaf2-a5ff8453dc80">
+               <id root="746c7e5a-c2eb-4600-94a2-9ae4b376b99f"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions have been reported:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="italics">Gastrointestinal - </content>
+                        </content>
+                     </content>gastrointestinal upset </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="italics">Nervous System - </content>
+                        </content>
+                     </content>tingling of extremities and tongue, slurred speech, dizziness, vertigo, paresthesia, and seizures</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="italics">Integumentary - </content>
+                        </content>
+                     </content>generalized itching, urticaria and rash </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="italics">Body as a Whole - </content>
+                        </content>
+                     </content>fever and anaphylaxis</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="italics">Laboratory Deviations - </content>
+                        </content>
+                     </content>increased blood urea nitrogen (BUN), elevated creatinine and decreased creatinine clearance </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="italics">Respiratory System - </content>
+                        </content>
+                     </content>respiratory distress and apnea </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="italics">Renal System - </content>
+                        </content>
+                     </content>nephrotoxicity and decreased urine output<br/>
+                     <br/>
+                     <content styleCode="bold">For medical advice about adverse reactions contact your medical professional.  To report SUSPECTED ADVERSE REACTIONS, contact Fresenius Kabi USA, LLC, at 1-800-551-7176 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="bd45ed41-d628-46d2-9d74-3bb40f4e7e36">
+               <id root="f93927a8-fead-4e3f-93d6-8c1c149c4a2d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdosage with colistimethate sodium can cause neuromuscular blockade characterized by paresthesia, lethargy, confusion, dizziness, ataxia, nystagmus, disorders of speech and apnea.  Respiratory muscle paralysis may lead to apnea, respiratory arrest and death.  Overdosage with the drug can also cause acute renal failure, manifested as decreased urine output and increases in serum concentrations of BUN and creatinine.</paragraph>
+                  <paragraph>As in any case of overdose, colistimethate sodium therapy should be discontinued and general supportive measures should be utilized.</paragraph>
+                  <paragraph>It is unknown whether colistimethate sodium can be removed by hemodialysis or peritoneal dialysis in overdose cases.</paragraph>
+               </text>
+               <effectiveTime value="20200123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b2b7f17b-a97a-453d-baf6-deb5c3313b74">
+               <id root="dea5bbfc-c0ec-4915-a836-cb690a023045"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20200123"/>
+               <component>
+                  <section ID="fe0f8734-ca0d-45c2-bf2a-f473c3f6d044">
+                     <id root="1efcf031-b267-4df2-9d90-9dacde7054c9"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>Important</title>
+                     <text>
+                        <paragraph>Colistimethate for Injection, USP is supplied in vials containing colistimethate sodium equivalent to 150 mg colistin base activity per vial.</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b021227d-293a-4b5b-8aa4-2878a0ef1d15">
+                     <id root="f5fae8cc-7b71-4141-a95a-7abcccbea731"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>Reconstitution for Intravenous or Intramuscular Administration</title>
+                     <text>
+                        <paragraph>The <content styleCode="bold">150 </content>
+                           <content styleCode="bold">mg</content> vial should be reconstituted with <content styleCode="bold">2 mL</content> Sterile Water for Injection, USP.  The reconstituted solution provides colistimethate sodium at a concentration equivalent to 75 mg/mL colistin base activity.</paragraph>
+                        <paragraph>During reconstitution swirl<content styleCode="italics"> </content>
+                           <content styleCode="bold">gently</content> to avoid frothing.  </paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.  If these conditions are observed, the product should not be used.</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="bf71ef6a-5f86-4cd7-aa95-ab8cdff91e73">
+                     <id root="21422197-c171-4886-97ac-3295f6f74acf"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>Dosage</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">
+                                 <content styleCode="italics">Adults and Pediatric Patients — Intravenous or Intramuscular Administration</content>
+                              </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>The dose of Colistimethate for Injection, USP should be 2.5 to 5 mg/kg per day of colistin base in 2 to 4 divided doses for patients with normal renal function, depending on the severity of the infection.</paragraph>
+                        <paragraph>In obese individuals, dosage should be based on ideal body weight.  </paragraph>
+                        <paragraph>The daily dose and frequency should be reduced for the patients with renal impairment.  Suggested modifications of dosage schedule for patients with renal impairment are presented in Table 1. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">TABLE 1. Suggested Modification of Dosage Schedules of Colistimethate for Injection, USP for Adults with Impaired Renal Function</content>
+                        </paragraph>
+                        <table cellspacing="0" cellpadding="0" border="0">
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top"/>
+                                 <td styleCode="Rrule" colspan="4" valign="top">
+                                    <content styleCode="bold">Degree of Renal Impairment</content>
+                                    <br/>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top"/>
+                                 <td styleCode="Rrule" valign="top">
+                                    <content styleCode="bold">Normal</content>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">
+                                    <content styleCode="bold">Mild</content>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">
+                                    <content styleCode="bold">Moderate</content>
+                                    <br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">
+                                    <content styleCode="bold">Severe</content>
+                                    <br/>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" valign="top">Creatinine Clearance (mL/min)   <br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">≥ 80<br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">50 to 79<br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">30 to 49<br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">10 to 29<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule" valign="top">Dosage Schedule<br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">2.5 to 5 mg/kg, divided into 2 to 4 doses per day  <br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">2.5 to 3.8 mg/kg, divided into 2 doses per day  <br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">2.5 mg/kg, once daily or divided into 2 doses per day  <br/>
+                                 </td>
+                                 <td styleCode="Rrule" valign="top">1.5 mg/kg, every 36 hours  <br/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <content styleCode="bold">
+                           <content styleCode="italics">
+                              <br/>
+                           </content>
+                        </content>
+                        <paragraph>
+                           <content styleCode="bold"> Note:</content> The suggested total daily dose is calculated from colistin base activity.</paragraph>
+                     </text>
+                     <effectiveTime value="20200123"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="dbc2b62b-26f7-4fda-a48e-81b224db23c6">
+               <id root="f5eeca63-5d70-4f3c-8684-7479d6c3ce6e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>INTRAVENOUS ADMINISTRATION</title>
+               <text>
+                  <table cellspacing="0" cellpadding="0" border="0">
+                     <tbody>
+                        <tr>
+                           <td styleCode="Lrule Rrule" valign="middle">1.  Direct Intermittent Administration - Slowly inject one-half of the total daily dose over a period of 3 to 5 minutes every 12 hours.<br/>2.  Continuous Infusion - Slowly inject one-half of the total daily dose over 3 to 5 minutes.  Add the remaining half of the total daily dose of Colistimethate for  Injection, USP to one of the following:<br/>       0.9% NaCl<br/>       5% dextrose in 0.9% NaCl<br/>       5% dextrose in water<br/>       5% dextrose in 0.45% NaCl<br/>       5% dextrose in 0.225% NaCl<br/>       Lactated Ringer's solution<br/>       10% invert sugar solution<br/>There are not sufficient data to recommend usage of Colistimethate for Injection, USP with other drugs or other than the above listed infusion solutions.<br/>Administer the second half of the total daily dose by slow intravenous infusion, starting 1 to 2 hours after the initial dose, over the next 22 to 23 hours.  In the presence of impaired renal function, reduce the infusion rate depending on the degree of renal impairment.<br/>The choice of intravenous solution and the volume to be employed are dictated by the requirements of fluid and electrolyte management.<br/>
+                              <content styleCode="bold">Any final intravenous infusion solution containing colistimethate sodium should be freshly prepared and used for no longer than 24 hours.</content>
+                              <br/>
+                              <content styleCode="bold"> <content styleCode="bold">INTRAMUSCULAR ADMINISTRATION</content> <br/>
+                              </content>
+                              <br/>1.   For Intramuscular Injection, administer by deep intramuscular injection into a large muscle mass (such as the gluteal muscles or lateral part of the thigh). <br/>
+                              <content styleCode="bold">Store reconstituted solution for intramuscular injection in a refrigerator 2° to 8°C (36° to 46°F) or between 20° to 25°C (68° to 77°F) and use within 7 days.<br/>
+                              </content>  </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+               </text>
+               <effectiveTime value="20200123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a1ae55e4-19fb-4858-9592-76b57d16024b">
+               <id root="0429d009-5715-4afa-a49a-be7e64ad9af0"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Colistimethate for Injection, USP is supplied in vials containing colistimethate sodium (equivalent to 150 mg colistin base activity per vial) as a white to slightly yellow lyophilized cake, packaged individually.</paragraph>
+                  <br/>
+                  <table cellspacing="0" cellpadding="0" border="0">
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="left" valign="middle">
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Product No. <br/>
+                                 </content>
+                              </content>
+                              <br/>
+                           </td>
+                           <td styleCode="Rrule" align="left" valign="middle">
+                              <content styleCode="bold">
+                                 <content styleCode="italics"> NDC No.<br/>
+                                 </content>
+                              </content>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="left" valign="middle"> 309306<br/>
+                           </td>
+                           <td styleCode="Rrule" align="left" valign="middle">63323-393-06 <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+                  <paragraph>The container closure is not made with natural rubber latex.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store unreconstituted product between 20º to 25ºC (68º to 77ºF) (see</content>  <content styleCode="bold">USP Controlled Room Temperature).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store reconstituted solution in refrigerator 2º to 8ºC (36º to 46ºF) or between 20º to 25ºC (68º to 77ºF) and use within 7 days.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f78f302c-a1e2-450f-a67f-acfe54f71384">
+               <id root="3d4a4311-9aa3-44ca-9fec-8be908031e38"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/>
+                     <br/>
+                     <br/> www.fresenius-kabi.com/us<br/>   </paragraph>
+                  <paragraph>451075D<br/>
+                     <br/> Revised: January 2020</paragraph>
+               </text>
+               <effectiveTime value="20200123"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>logo</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="fklz-address.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="f3ec7acb-d5be-42fb-90c1-c73b6b8085bb">
+               <id root="0d1e45c1-c0e7-4a0c-8a6e-9d5efc6ebadd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE LABEL - PRINCIPAL DISPLAY - Colistimethate 150 mg Vial Label<br/>
+                        <br/> Colistimethate <br/>
+                     </content>for Injection, USP <br/>
+                     <content styleCode="bold">150 mg* per vial <br/>
+                     </content>Colistin base activity <br/> For intramuscular <br/> and intravenous use <br/> One Sterile Vial <br/> Rx only </paragraph>
+                  <br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">PACKAGE LABEL - PRINCIPAL DISPLAY - Colistimethate 150 mg Vial Carton Panel<br/>
+                        <br/> Colistimethate</content>
+                     <br/> for Injection, USP <br/>
+                     <content styleCode="bold">150 mg* per vial <br/>
+                     </content>Colistin base activity <br/> For intramuscular and intravenous use <br/> Rx only <br/> One Sterile Vial <br/>
+                     <br/>  <renderMultiMedia referencedObject="MM5"/>
+                  </paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20200123"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>vial</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="colistimethate-309306.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="colistimethate-309306p.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

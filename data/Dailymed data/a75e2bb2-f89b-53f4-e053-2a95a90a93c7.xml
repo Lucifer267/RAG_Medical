@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="a75e2bb2-f89b-53f4-e053-2a95a90a93c7"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20200605"/>
+   <setId root="a75e2bb2-f89a-53f4-e053-2a95a90a93c7"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="955064287"/>
+            <name>Quimfa S.A</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="955064287"/>
+                  <name>Quimfa S.A</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="955064287"/>
+                        <name>Quimfa S.A</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="77651-4162" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a826a499-bd1a-c0d6-e053-2a95a90aaf9c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200605"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="77651-4162" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Hyaluronic Acid</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Hyaluronic Acid</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="2.5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S270N0TRQY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYALURONIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S270N0TRQY" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYALURONIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="77651-4162-6" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20021206"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA076559" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20021206"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48340" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="FREEFORM" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38243" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAEPIDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a826f0f2-ecec-6ce6-e053-2a95a90aab57">
+               <id root="a826f0f2-eceb-6ce6-e053-2a95a90aab57"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>Precautions and Warnings</title>
+               <text>
+                  <paragraph>* Si se observase derrame articular extraerlo antes de inyectar Maxiostenil.
+  <br/>
+* Es necesario seguir la técnica correcta de la inyección intraarticular en condiciones completamente asépticas.
+  <br/>
+Ver Instrucciones de uso y manipulación.
+  <br/>
+* Como en cualquier procedimiento intraarticular, es recomendable evitar la sobrecarga de la articulación
+  <br/>
+tratada, inmediatamente después de la inyección intraarticular.
+  <br/>
+* Los pacientes deben ser cuidadosamente examinados antes de la administración de Maxiostenil para
+  <br/>
+determinar posibles signos de inflamación agudos y el médico debe evaluar cuidadosamente la oportunidad del
+  <br/>
+inicio de la terapia.
+  <br/>
+* Se debe observar particular atención en pacientes con infecciones o alteraciones de la piel en zonas próximas
+  <br/>
+al punto de inyección para evitar la posibilidad de desarrollar artritis bacteriana.
+ </paragraph>
+                  <paragraph>* Guardar fuera del alcance de los niños.</paragraph>
+               </text>
+               <effectiveTime value="20021206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_a7aefeed-8482-10ae-e053-2995a90a246c">
+               <id root="a826f1bf-4ff8-073c-e053-2a95a90a3a99"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_a7aefeca-b495-63ae-e053-2995a90a23d3"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20021206"/>
+               <component>
+                  <observationMedia ID="img_a7aefeca-b495-63ae-e053-2995a90a23d3">
+                     <text>hyaluronic acid</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="maxiostenil caja y jeringa .jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

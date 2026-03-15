@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="545b3d1d-6c8f-44aa-b81e-b24fc99f9c82"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20210228"/>
+   <setId root="fbc12c18-567b-41bc-89d0-efd29616615c"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="608775388" root="1.3.6.1.4.1.519.1"/>
+            <name>Fresenius Kabi USA, LLC
+</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="023648251" root="1.3.6.1.4.1.519.1"/>
+                        <name>Fresenius Kabi USA, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63323-321" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="63323-321" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="42b59703-2f5b-40c5-a3fd-c24056469958"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20210228"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63323-321" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>POLYMYXIN B<suffix/>
+                        </name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>POLYMYXIN B SULFATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="500000" unit="[USP'U]"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="19371312D4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYMYXIN B SULFATE
+</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="J2VZ07J96K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POLYMYXIN B</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63323-321-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="63323-321-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20091117"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065372" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20091117"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38267" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRATHECAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="ea0e374c-0477-47e1-bdd0-0c9492fabd05"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">POLYMYXIN B</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">FOR INJECTION, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">500,000 Units per vial       </content>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of polymyxin B and other antibacterial drugs, polymyxin B should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria
+</paragraph>
+               </text>
+               <effectiveTime value="20201028"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="f0a63183-782b-42a8-bd28-c94782f9b706"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION:</content> WHEN THIS DRUG IS GIVEN INTRAMUSCULARLY AND/OR INTRATHECALLY, IT SHOULD BE GIVEN ONLY TO HOSPITALIZED PATIENTS, SO AS TO PROVIDE CONSTANT SUPERVISION BY A PHYSICIAN.
+</paragraph>
+                  <paragraph>RENAL FUNCTION SHOULD BE CAREFULLY DETERMINED AND PATIENTS WITH RENAL DAMAGE AND NITROGEN RETENTION SHOULD HAVE REDUCED DOSAGE. PATIENTS WITH NEPHROTOXICITY DUE TO POLYMYXIN B SULFATE USUALLY SHOW ALBUMINURIA, CELLULAR CASTS, AND AZOTEMIA. DIMINISHING URINE OUTPUT AND A RISING BUN ARE INDICATIONS FOR DISCONTINUING THERAPY WITH THIS DRUG.
+</paragraph>
+                  <paragraph>NEUROTOXIC REACTIONS MAY BE MANIFESTED BY IRRITABILITY, WEAKNESS, DROWSINESS, ATAXIA, PERIORAL PARESTHESIA, NUMBNESS OF THE EXTREMITIES, AND BLURRING OF VISION. THESE ARE USUALLY ASSOCIATED WITH HIGH SERUM LEVELS FOUND IN PATIENTS WITH IMPAIRED RENAL FUNCTION AND/OR NEPHROTOXICITY.
+</paragraph>
+                  <paragraph>THE CONCURRENT OR SEQUENTIAL USE OF OTHER NEUROTOXIC AND/OR NEPHROTOXIC DRUGS WITH POLYMYXIN B SULFATE, PARTICULARLY BACITRACIN, STREPTOMYCIN, NEOMYCIN, KANAMYCIN, GENTAMICIN, TOBRAMYCIN, AMIKACIN, CEPHALORIDINE, PAROMOMYCIN, VIOMYCIN, AND COLISTIN SHOULD BE AVOIDED.
+</paragraph>
+                  <paragraph>THE NEUROTOXICITY OF POLYMYXIN B SULFATE CAN RESULT IN RESPIRATORY PARALYSIS FROM NEUROMUSCULAR BLOCKADE, ESPECIALLY WHEN THE DRUG IS GIVEN SOON AFTER ANESTHESIA AND/OR MUSCLE RELAXANTS.
+</paragraph>
+                  <paragraph>USAGE IN PREGNANCY: THE SAFETY OF THIS DRUG IN HUMAN PREGNANCY HAS NOT BEEN ESTABLISHED.
+</paragraph>
+               </text>
+               <effectiveTime value="20201028"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="4041aad0-2e0f-4378-a84d-f20e640c69cb"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Polymyxin B for Injection, USP is one of a group of basic polypeptide antibiotics derived from <content styleCode="italics">B polymyxa (B aerosporous)</content>. Polymyxin B sulfate is the sulfate salt of Polymyxins B<sub>1</sub> and B<sub>2</sub>, which are produced by the growth of <content styleCode="italics">Bacillus polymyxa</content> (Prazmowski) Migula (Fam. Bacillacea). It has a potency of not less than 6000 polymyxin B units per mg, calculated on the anhydrous basis. The structural formulae are:
+</paragraph>
+                  <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  <paragraph>Each vial contains 500,000 polymyxin B units for parenteral or ophthalmic administration.
+</paragraph>
+                  <paragraph>Polymyxin B for Injection, USP is in powder form suitable for preparation of sterile solutions for intramuscular, intravenous drip, intrathecal, or ophthalmic use. In the medical literature, dosages have frequently been given in terms of equivalent weights of pure polymyxin B base. Each milligram of pure polymyxin B base is equivalent to 10,000 units of polymyxin B and each microgram of pure polymyxin B base is equivalent to 10 units of polymyxin B.
+</paragraph>
+                  <paragraph>Aqueous solutions of polymyxin B sulfate may be stored up to 12 months without significant loss of potency if kept under refrigeration. In the interest of safety, solutions for parenteral use should be stored under refrigeration and any unused portion should be discarded after 72 hours. Polymyxin B sulfate should not be stored in alkaline solutions since they are less stable.
+</paragraph>
+               </text>
+               <effectiveTime value="20210228"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Structural Formulae
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="pol0b-0000-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="d8b5b803-3181-4b91-9d67-1376afe948e1"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <text>
+                  <paragraph>Polymyxin B sulfate has a bactericidal action against almost all gram-negative bacilli except the <content styleCode="italics">Proteus</content> group. Polymyxins increase the permeability of the bacterial cell membrane leading to death of the cell. All gram-positive bacteria, fungi, and gram-negative cocci are resistant to polymyxin B.
+</paragraph>
+                  <paragraph>For specific information regarding susceptibility test criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: www.fda.gov/STIC.
+</paragraph>
+                  <paragraph>Polymyxin B sulfate is not absorbed from the normal alimentary tract. Since the drug loses 50 percent of its activity in the presence of serum, active blood levels are low. Repeated injections may give a cumulative effect. Levels tend to be higher in infants and children. The drug is excreted slowly by the kidneys. Tissue diffusion is poor and the drug does not pass the blood brain barrier into the cerebrospinal fluid. In therapeutic dosage, polymyxin B sulfate causes some nephrotoxicity with tubule damage to a slight degree.
+</paragraph>
+               </text>
+               <effectiveTime value="20210228"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="a11a63fc-17f9-4742-95ee-c503584bee8d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Acute Infections Caused by Susceptible Strains of Pseudomonas aeruginosa</content>.
+</paragraph>
+                  <paragraph>Polymyxin B sulfate is a drug of choice in the treatment of infections of the urinary tract, meninges, and blood-stream caused by susceptible strains of <content styleCode="italics">P. aeruginosa</content>. It may also be used topically and subconjunctivally in the treatment of infections of the eye caused by susceptible strains of <content styleCode="italics">P. aeruginosa</content>. It may be indicated in serious infections caused by susceptible strains of the following organisms, when less potentially toxic drugs are ineffective or contraindicated:
+</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">H influenzae,</content> specifically meningeal infections.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Escherichia coli,</content> specifically urinary tract infections.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Aerobacter aerogenes,</content> specifically bacteremia.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Klebsiella pneumoniae,</content> specifically bacteremia.
+</paragraph>
+                  <paragraph>NOTE: IN MENINGEAL INFECTIONS, POLYMYXIN B SULFATE SHOULD BE ADMINISTERED ONLY BY THE INTRATHECAL ROUTE.
+</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of polymyxin B and other antibacterial drugs, polymyxin B should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.
+</paragraph>
+               </text>
+               <effectiveTime value="20210228"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="3944f7ec-24f3-42f2-9951-95fcddc7a3ab"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>This drug is contraindicated in persons with a prior history of hypersensitivity reactions to polymyxins.
+</paragraph>
+               </text>
+               <effectiveTime value="20201028"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s8">
+               <id root="89aa2a7b-95d8-4d87-960e-c3672eca6aa4"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Clostridium difficile</content> associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including Polymyxin B for Injection, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">C. difficile</content> produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.
+</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.
+</paragraph>
+               </text>
+               <effectiveTime value="20201028"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s9">
+               <id root="22d268e8-92af-4494-b5fc-f7b09ba069b4"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20201028"/>
+               <component>
+                  <section ID="s10">
+                     <id root="a15b9b2f-03af-4506-876b-b2c98fdd91df"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">General.</content> Prescribing polymyxin B in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.
+</paragraph>
+                        <paragraph>See <content styleCode="bold">
+                              <linkHtml href="#s2">WARNING</linkHtml>
+                           </content> box.
+</paragraph>
+                        <paragraph>Baseline renal function should be done prior to therapy, with frequent monitoring of renal function and blood levels of the drug during parenteral therapy.
+</paragraph>
+                        <paragraph>Avoid concurrent use of a curariform muscle relaxant and other neurotoxic drugs (ether, tubocurarine, succinylcholine, gallamine, decamethonium and sodium citrate) which may precipitate respiratory depression. If signs of respiratory paralysis appear, respiration should be assisted as required, and the drug discontinued.
+</paragraph>
+                        <paragraph>As with other antibiotics, use of this drug may result in overgrowth of nonsusceptible organisms, including fungi.
+</paragraph>
+                        <paragraph>If superinfection occurs, appropriate therapy should be instituted.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20201028"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="28ade910-5a70-4f8f-9409-b20566eac4b6"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Information for Patients.</content> Patients should be counseled that antibacterial drugs including polymyxin B should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When polymyxin B is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed.
+</paragraph>
+                        <paragraph>Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by polymyxin B or other antibacterial drugs in the future.
+</paragraph>
+                        <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20201028"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s12">
+               <id root="a1f4c47c-5d49-4412-87cc-451167ad993f"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>See <content styleCode="bold">
+                        <linkHtml href="#s2">WARNING</linkHtml>
+                     </content> box.
+</paragraph>
+               </text>
+               <effectiveTime value="20201028"/>
+               <component>
+                  <section ID="s13">
+                     <id root="0c01c7d8-e0b4-42c4-8d58-d856d3039ba9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Nephrotoxic reactions:</content> Albuminuria, cylinduria, azotemia, and rising blood levels without any increase in dosage.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20201028"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s14">
+                     <id root="2ad24d83-c1e7-4b0c-aac1-8b8be3c48f60"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Neurotoxic reactions:</content> Facial flushing, dizziness progressing to ataxia, drowsiness, peripheral paresthesias (circumoral and stocking glove), apnea due to concurrent use of curariform muscle relaxants, other neurotoxic drugs or inadvertent overdosage, and signs of meningeal irritation with intrathecal administration, e.g., fever, headache, stiff neck and increased cell count and protein cerebrospinal fluid.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20201028"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="acea27ef-e9c6-4e83-a559-ee5689844a01"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Other reactions occasionally reported:</content> Drug fever, urticarial rash, pain (severe) at intramuscular injection sites, and thrombophlebitis at intravenous injection sites.
+</paragraph>
+                        <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Fresenius Kabi USA, LLC at 1-800-551-7176 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20201028"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s16">
+               <id root="d3d1eb26-9ac6-4215-8e05-37f5c8bae6fe"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <effectiveTime value="20210228"/>
+               <component>
+                  <section ID="s17">
+                     <id root="f0da156e-ed2a-407c-8082-bb92c15b5082"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>PARENTERAL:
+</title>
+                     <effectiveTime value="20210228"/>
+                     <component>
+                        <section ID="s18">
+                           <id root="1804e869-5730-43c4-b257-ed50237567e3"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold underline">Intravenous</content>. Dissolve 500,000 polymyxin B units in 300 to 500 mL solutions for parenteral 5% Dextrose Injection for continuous drip.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20201028"/>
+                           <component>
+                              <section ID="s19">
+                                 <id root="10a87554-b2a7-458a-b8e6-55b2c9b2f48d"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold">Adults and children.</content> 15,000 to 25,000 units/kg body weight/day in individuals with normal kidney function. This amount should be reduced from 15,000 units/kg downward for individuals with kidney impairment. Infusions may be given every 12 hours; however, the total daily dose must not exceed 25,000 units/kg/day.
+</paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Infants.</content> Infants with normal kidney function may receive up to 40,000 units/kg/day without adverse effects.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20201028"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s20">
+                           <id root="eb2e252d-b767-410d-bcd3-a421163c302e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold underline">Intramuscular</content>. Not recommended routinely because of severe pain at injection sites, particularly in infants and children. Dissolve 500,000 Polymyxin B units in 2 mL sterile water for injection or sodium chloride injection or procaine hydrochloride injection 1%.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210228"/>
+                           <component>
+                              <section ID="s21">
+                                 <id root="87111285-a268-41df-add2-b650894b4d74"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold">Adults and children.</content> 25,000 to 30,000 units/kg/day. This should be reduced in the presence of renal impairment. The dosage may be divided and given at either 4 or 6 hour intervals.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20201028"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="s22">
+                                 <id root="60ebc2d3-8f00-4b89-836b-642d7a177433"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold">Infants</content>. Infants with normal kidney function may receive up to 40,000 units/kg/day without adverse effects.
+</paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Note</content>: Doses as high as 45,000 units/kg/day have been used in limited clinical studies in treating prematures and newborn infants for sepsis caused by <content styleCode="italics">P. aeruginosa.</content>
+                                    </paragraph>
+                                 </text>
+                                 <effectiveTime value="20210228"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s24">
+                           <id root="ae573c3a-45a4-4665-9f16-01339e521156"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold underline">Intrathecal</content>
+                                 <content styleCode="bold">. A treatment of choice for </content>
+                                 <content styleCode="bold italics">P. aeruginosa</content>
+                                 <content styleCode="bold"> meningitis.</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20201028"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s25">
+                           <id root="baf61b02-243a-4c20-aece-5164bfdfd3fe"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Dissolve 500,000 polymyxin B units in 10 mL sodium chloride injection, USP for 50,000 units per mL dosage unit.
+</paragraph>
+                           </text>
+                           <effectiveTime value="20210228"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s27">
+                     <id root="e80ba4f5-b90a-442f-b708-16bb1f7ad35e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Adults and children over 2 years of age.
+</title>
+                     <text>
+                        <paragraph>Dosage is 50,000 units once daily intrathecally for 3 to 4 days, then 50,000 units once every other day for at least 2 weeks after cultures of the cerebrospinal fluid are negative and sugar content has returned to normal.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20201028"/>
+                     <component>
+                        <section ID="s28">
+                           <id root="c85ae871-625e-41a3-8084-7e87a23eb419"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Children under 2 years of age.</content> 20,000 units once daily, intrathecally for 3 to 4 days or 25,000 units once every other day. Continue with a dose of 25,000 units once every other day for at least 2 weeks after cultures of the cerebrospinal fluid are negative and sugar content has returned to normal.
+</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">IN THE INTEREST OF SAFETY, SOLUTIONS OF PARENTERAL USE SHOULD BE STORED UNDER REFRIGERATION, AND ANY UNUSED PORTIONS SHOULD BE DISCARDED AFTER 72 HOURS.</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20201028"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s29">
+               <id root="3621e6e9-5023-40b3-a473-09743144bb6b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>TOPICAL:
+</title>
+               <effectiveTime value="20210228"/>
+               <component>
+                  <section ID="s30">
+                     <id root="d1635fcd-a0a5-445b-8c16-218ae9ad04f0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold underline">Ophthalmic</content>. Dissolve 500,000 polymyxin B units in 20 to 50 mL sterile water for injection or sodium chloride injection USP for a 10,000 to 25,000 units per mL concentration.
+</paragraph>
+                        <paragraph>For the treatment of <content styleCode="italics">P. aeruginosa</content> infections of the eye, a concentration of 0.1 percent to 0.25 percent (10,000 units to 25,000 units per mL) is administered 1 to 3 drops every hour, increasing the intervals as response indicates.
+</paragraph>
+                        <paragraph>Subconjunctival injection of up to 100,000 units/day may be used for the treatment <content styleCode="italics">of P. aeruginosa</content> infections of the cornea and conjunctiva.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Note: Avoid total systemic and ophthalmic instillation over 25,000 units/kg/day.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20201028"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s31">
+               <id root="dbc9774e-7de9-42da-9ee6-f7e0d2259baf"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>Polymyxin B for injection, USP, 500,000 polymyxin B units per vial is supplied as follows.
+</paragraph>
+                  <table width="100%">
+                     <col width="12.422%" align="left"/>
+                     <col width="28.293%" align="left"/>
+                     <col width="30.992%" align="left"/>
+                     <col width="28.293%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="left" valign="bottom" styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">Product</content>
+                              <br/>
+                              <content styleCode="bold">Code</content>
+                           </td>
+                           <td align="left" valign="bottom" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Unit of Sale</content>
+                           </td>
+                           <td align="left" valign="bottom" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Strength</content>
+                           </td>
+                           <td align="left" valign="bottom" styleCode="Toprule Botrule Rrule">
+                              <content styleCode="bold">Each</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="middle" styleCode="Botrule Lrule Rrule">320110
+</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">NDC 63323-321-10<br/>Unit of 10
+</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">500,000 units per vial
+</td>
+                           <td align="left" valign="middle" styleCode="Botrule Rrule">NDC 63323-321-01
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20201028"/>
+               <component>
+                  <section ID="s32">
+                     <id root="8dc4e3c5-01c2-4180-aebb-ee8b5abb9687"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage recommendations:
+</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Before reconstitution:</content> Store at 20° to 25° C (68° to 77° F) (See USP controlled Room Temperature)
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Protect from light.</content> Retain in carton until time of use.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">After reconstitution:</content> Product must be stored under refrigeration, between 2° to 8°C (36° to 46°F) and any unused portion should be discarded after 72 hours.
+</paragraph>
+                        <paragraph>This container closure is not made with natural rubber latex.
+</paragraph>
+                        <paragraph>
+                           <renderMultiMedia ID="f02" referencedObject="mm02"/>
+                        </paragraph>
+                        <paragraph>www.fresenius-kabi.com/us<br/>
+                           <br/>451078C<br/>
+                           <br/>Revised: December 2020
+</paragraph>
+                     </text>
+                     <effectiveTime value="20201028"/>
+                     <component>
+                        <observationMedia ID="mm02">
+                           <text>Fresenius Kabi Logo
+</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="pol0b-0000-02.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s33">
+               <id root="2904ae77-5f35-4fbc-b5c3-2c4cd0bc2657"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL – VIAL LABEL
+</title>
+               <text>
+                  <paragraph>NDC 63323-321-01       320110
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Polymyxin B<br/>
+                     </content>for injection, USP<br/>
+                     <content styleCode="bold">500,000 units per vial</content>
+                  </paragraph>
+                  <paragraph>Each vial contains Polymyxin B<br/>Sulfate equivalent to 500,000<br/>polymyxin B units.
+</paragraph>
+                  <paragraph>Sterile<br/>Lyophilized       Rx only
+</paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+               </text>
+               <effectiveTime value="20210228"/>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>PRINCIPAL DISPLAY PANEL – VIAL LABEL
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="pol0b-0000-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s34">
+               <id root="0c920c15-e1cb-4429-8e13-ddb94120e1ec"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL – Vial Tray
+</title>
+               <text>
+                  <paragraph>NDC 63323-321-10       320110
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Polymyxin B<br/>
+                     </content>for injection, USP<br/>
+                     <content styleCode="bold">500,000 units per vial</content>
+                  </paragraph>
+                  <paragraph>Each vial contains Polymyxin B Sulfate equivalent<br/>to 500,000 polymyxin B units.
+</paragraph>
+                  <paragraph>Sterile<br/>Lyophilized<br/>Rx only        <content styleCode="bold">10 Sterile Vials</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f04" referencedObject="mm04"/>
+               </text>
+               <effectiveTime value="20210228"/>
+               <component>
+                  <observationMedia ID="mm04">
+                     <text>PRINCIPAL DISPLAY PANEL – Vial Tray
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="pol0b-0000-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

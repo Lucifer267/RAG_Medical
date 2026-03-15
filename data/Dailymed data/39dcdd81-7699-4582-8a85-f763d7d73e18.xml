@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="39dcdd81-7699-4582-8a85-f763d7d73e18"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20140214"/>
+   <setId root="3f12e8b3-ccf5-4b7d-a370-9596e5002b10"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>NORTHWIND PHARMACEUTICALS</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+                  <name>NORTHWIND PHARMACEUTICALS</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+                        <name>NORTHWIND PHARMACEUTICALS</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-185" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ec0c3e94-5ca2-4119-a0ce-874350c56307"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140310"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-185" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ultram</name>
+                        <formCode code="C42897" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>TRAMADOL HCL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="65162-627" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="20" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9N7R477WCK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRAMADOL HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="39J1LGJ30J" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRAMADOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-185-20" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">AN627</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="9" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA076003" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140213"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L373cb369-f768-4bff-a9bc-2f6ab465ccb5">
+               <id root="b3ef4244-5b64-44f3-aa98-c020f885a57c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph/>
+                  <paragraph>NDC: 51655-0185-20</paragraph>
+                  <paragraph>MFG: 65162-627-11</paragraph>
+                  <paragraph>traMADOL HCL 50 MG</paragraph>
+                  <paragraph>20 TABLETS  RX ONLY</paragraph>
+                  <paragraph>DOSAGE: SEE PACKAGE INSERT</paragraph>
+                  <paragraph>STORE AT 68 TO 77 DEGREES F</paragraph>
+                  <paragraph>STORE IN A TIGHT, LIGHT-RESISTANT CONTAINER. (SEE USP) KEEP OUT OF REACH OF CHILDREN</paragraph>
+                  <paragraph>EACH TABLET CONTAINS TRAMADOL HYDROCHLORIDE USP 50 MG</paragraph>
+                  <paragraph>MFG BY: AMNEAL PHARMACEUTICALS PVT LTD AHMEDABAD INDIA 382220</paragraph>
+                  <paragraph>REPACKAGED BY NORTHWIND PHARMACEUTICALS INDIANAPOLIS, IN 46256</paragraph>
+                  <paragraph>LOT# NW76700002</paragraph>
+                  <paragraph>EXP DATE: 09/2016</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lb69accff-2049-477f-b2fb-7e74c39a8cd8"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140310"/>
+               <component>
+                  <observationMedia ID="Lb69accff-2049-477f-b2fb-7e74c39a8cd8">
+                     <text>51655 0185 20</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Tramadol_50_mg_51655_0185_20.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L8e64a988-c817-4147-893b-29428587482c">
+               <id root="4ab75ccf-48f9-40c9-bd6c-baac7ca76dd7"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140227"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7490418c-b489-4b90-bc3d-33ed71231e2d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>  Dry Eye Test
+</title>
+   <effectiveTime value="20191223"/>
+   <setId root="04866053-f973-471e-b3bc-241fb76303a2"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="103220273" root="1.3.6.1.4.1.519.1"/>
+            <name>Nomax Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="103220273" root="1.3.6.1.4.1.519.1"/>
+                        <name>Nomax Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51801-008" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="9f255262-a79a-4026-b245-b26e4787482d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20191223"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51801-008" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dry Eye Test</name>
+                        <formCode code="C47914" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRIP"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Fluorescein Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="0.12" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="93X55PE38X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Fluorescein Sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="TPY09G7XIR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLUORESCEIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="50" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="51801-008-15" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20131205"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="UNAPPROVED DRUG OTHER"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20131205"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48331" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORANGE" xsi:type="CE">
+                              <originalText>paper is white and tip is orange</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48347" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RECTANGLE" xsi:type="CE">
+                              <originalText>with tapered end</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="52" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a8f94b48-d0fb-4c88-85f1-829d83364624"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dry Eye Test Fluorescein Sodium Ophthalmic Strips U.S.P.</content> diagnostic agent is for professional use only</paragraph>
+                  <paragraph>Each strip is impregnated with 0.12 mg of fluorescein sodium USP.</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="02361b0d-ac74-401f-8eeb-abddb44c60c7"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>For testing tear film stability by determining the fluorescein break-up time (FBUT).</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L76ca0c55-1c5c-487d-bb7f-46fc7efe68e6">
+               <id root="0d742973-d124-4d2a-a87a-6931adcc1092"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <br/>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>Hypersensitivity to components or mercury-containing compounds.</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b2ebc44f-b51a-4adf-95c6-f562874c470d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DIRECTIONS FOR USE</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>Procedure for measuring Fluorescein</paragraph>
+                  <paragraph>Break-up Time (FBUT) with Amcon Dry Eye Test Strips.</paragraph>
+                  <paragraph>1. Apply one or two drops of non-preserved saline to the</paragraph>
+                  <paragraph>impregnated paper tip. Excess fluid will automatically fall off.</paragraph>
+                  <paragraph>Shaking is neither</paragraph>
+                  <paragraph>required nor desirable.</paragraph>
+                  <paragraph>2. Ask the patient to look down and in.</paragraph>
+                  <paragraph>3. Gently touch the strip to the superior temporal bulbar conjunctiva</paragraph>
+                  <paragraph>for one or two seconds.</paragraph>
+                  <paragraph>4. Ask the patient to blink three times and open eyes naturally.</paragraph>
+                  <paragraph>5. Conduct the FBUT measurements immediately.</paragraph>
+                  <paragraph>6. Perform two consecutive measurements. If not consistent, conduct</paragraph>
+                  <paragraph>a third and average the results.</paragraph>
+                  <paragraph>7. Repeat steps 1 through 6 using a new strip for the second eye</paragraph>
+                  <paragraph>FBUT values of less than 10 seconds are considered abnormal. Values less than 5 seconds are indicative of dry eye disorder. Values of 5 to 9 seconds are borderline dry eye.</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+               <component>
+                  <section>
+                     <id root="751f9941-2271-45ea-9535-023a52719a17"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">NOTE: </content>The contents may not be sterile if the individual strip package has been damaged or previously opened. This product is intended for external use only. Keep out of reach of children. Store below 30°C.</paragraph>
+                     </text>
+                     <effectiveTime value="20130824"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ac8ac569-af0a-4a18-a4c9-94694351acf0"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>Carton of 50 pouches of two strips each.</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L263e4fa4-d845-43ff-8553-d46f33221676">
+               <id root="99c9e08a-ac2b-4c1f-ab4a-2f3c4e82525e"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title>
+                  <br/>
+  
+  Grasp free tab ends of overwrap
+  and slowly pull apart. Peel the
+  overwrap back until the entire
+  strip is exposed.
+  2. Gently lift the exposed strip off of
+  the overwrap without damaging the
+  impregnated tip.
+</title>
+               <text/>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c0320f06-9220-4965-a846-8d36e59321a2"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Nomax, Inc. • St. Louis, MO 63123 USA</paragraph>
+                  <paragraph>Rev. 12/13<br/>MSN 015-153</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9f36a4b0-2840-4ea3-ad0c-c57965ec4409"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 100 Sterile Strips (50 Pouches of 2 Strips Each)</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="La0df85cd-2c6a-47f2-8e2a-4ab3379df5c3"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+               <component>
+                  <observationMedia ID="La0df85cd-2c6a-47f2-8e2a-4ab3379df5c3">
+                     <text>DET box</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="det01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="77d8ad19-ba34-4cd0-9e87-acb2cb9d96b9"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>GloStrips<sup>®</sup>
+   </title>
+   <effectiveTime value="20191223"/>
+   <setId root="4d5107c6-5077-4006-994f-1cd351775b80"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="103220273" root="1.3.6.1.4.1.519.1"/>
+            <name>Nomax Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="103220273" root="1.3.6.1.4.1.519.1"/>
+                        <name>Nomax Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51801-004" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="8efa316c-e719-45a8-b0b3-3256f1f61d18"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20191223"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51801-004" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>GloStrips</name>
+                        <formCode code="C47914" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRIP"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Rose Bengal Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1.3" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="956575SN5L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Rose Bengal Sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1IID5XA5GB" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Rose Bengal AT</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="100" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="51801-004-40" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20130820"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="UNAPPROVED DRUG OTHER"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130820"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48328" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PINK" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48347" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RECTANGLE" xsi:type="CE">
+                              <originalText>with tapered end</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="52" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e3c612bb-3b96-450b-aad2-6d06947746e6"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rose Bengal Ophthalmic Strips</content>
+                  </paragraph>
+                  <paragraph>diagnostic agent is for professional use only</paragraph>
+                  <paragraph>Each strip is impregnated with 1.3 mg of Rose Bengal.</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b0fd1b20-913e-4b69-9f41-1de60c60af67"/>
+               <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+               <title>ACTION</title>
+               <text>
+                  <paragraph>As a vital stain, Rose Bengal stains both the nuclei and cell walls of dead or degenerated epithelial cells of the cornea and conjunctiva. Rose Bengal will also stain the mucus of the precorneal tear film.</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7b73e5a2-880f-497c-8578-f01edac124d3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS</title>
+               <text>
+                  <paragraph>Rose Bengal ophthalmic strips are used as a diagnostic agent in routine ocular examinations or when superficial conjunctiva or corneal tissue change is suspected. Rose Bengal ophthalmic strips can also serve as an effective aid in the diagnosis of keratoconjunctivitis sicca, keratitis, abrasions or corrosions as well as the detection of foreign bodies.</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b01f2214-e0f3-4e5f-9360-330b8ec5ac8a"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Known hypersensitivity to Rose Bengal.</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="03e7cb98-76eb-4a7f-b276-149e0dbbaa48"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DIRECTIONS FOR USE</title>
+               <text>
+                  <paragraph>To ensure optimal staining and patient comfort, the GloStrip impregnated tip should be moistened with one or two drops of sterile, isotonic saline or irrigating solution before application. Shake off excess solution and touch conjunctiva or fornix as required with moistened tip. It is recommended that the patient blink several times after application.</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1770803f-ea87-4ad6-adf3-46ba44d1cf2d"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>NOTE</title>
+               <text>
+                  <paragraph>The contents may not be sterile if the individual strip package has been damaged or previously opened. This product is intended for external use only. Keep out of reach of children. Store below 30°C.</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+               <component>
+                  <section>
+                     <id root="628a3d2c-fb05-4b51-949b-09f755a1f546"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>CAUTION</title>
+                     <text>
+                        <paragraph>Take care not to stain clothing.</paragraph>
+                     </text>
+                     <effectiveTime value="20130826"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e5db31b6-2c09-410a-a40f-7673d2e08b64"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Dispenser carton containing 100 sterile strips.</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="29a4d638-d87c-4a30-8601-733b9f469010"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <table width="80%">
+                     <colgroup>
+                        <col valign="top" align="left" width="65%"/>
+                        <col valign="top" align="center" width="35%"/>
+                     </colgroup>
+                     <thead>
+                        <tr styleCode="First Last">
+                           <th colspan="2" align="left">INSTRUCTIONS FOR OPENING STERILE GLOSTRIPS<sup>®</sup>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td align="left"/>
+                           <td align="center"/>
+                        </tr>
+                        <tr>
+                           <td align="left">1.Grasp free tab ends of wrapping and slowly pull apart. When the white paper handle becomes visible, remove the GloStrip<sup>®</sup> from the envelope.</td>
+                           <td align="center">Fig. 1<br/>
+                              <renderMultiMedia referencedObject="MM1"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="left">
+                              <content styleCode="bold">An Alternate Method of Opening:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left">1.Grasp envelope firmly with two hands as shown in Fig. 2 below. Tear the envelope from both its edges to the strip handle.</td>
+                           <td align="center">Fig. 2<br/>
+                              <renderMultiMedia referencedObject="MM2"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left">2.Hold the handle end of the GloStrip<sup>® </sup>with the left hand and the paper envelope without holding the tip with the right hand. See <linkHtml href="#f3">Fig. 3</linkHtml>
+                           </td>
+                           <td align="center">Fig. 3<br/>
+                              <renderMultiMedia referencedObject="MM3"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left">3.Separate the envelope at the tear, exposing the GloStrip<sup>® </sup>tip. See <linkHtml href="#f4">Fig. 4</linkHtml>
+                           </td>
+                           <td align="center">
+                              <paragraph>
+                                 <br/>Fig. 4</paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="MM4"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20191223"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Figure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="glostrips01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Figure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="glostrips02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Figure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="glostrips03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Figure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="glostrips04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9f31ecd8-f580-4f43-b31f-24fc20018bb7"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Nomax, Inc. • St. Louis, MO 63123 USA</paragraph>
+                  <paragraph>Rev. 08/13<br/> MSN 015-059</paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5814f179-6cf3-418c-8424-aedceca0d18b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 100 Strip Carton</title>
+               <text>
+                  <paragraph>NDC 51801-004-40</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Amcon</content>
+                     <sub>®</sub>
+                     <br/>Laboratories, Inc.</paragraph>
+                  <paragraph>Rose Bengal</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">GloStrips</content>
+                     <sup>®</sup>
+                  </paragraph>
+                  <paragraph>1.3 mg Rose Bengal<br/>Ophthalmic Strips USP<br/>100 Sterile Strips</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM5"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191223"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>Principal Display Panel - 100 Strip Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="glostrips05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

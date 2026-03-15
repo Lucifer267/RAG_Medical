@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="d1d6b361-ba56-4c9d-875b-c4fa75323ccf"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20140619"/>
+   <setId root="bcc89055-4996-4bae-b77e-a09f08ed7f28"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079124340"/>
+                        <name>EPM Packaging</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-876" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="e7c94672-48ce-4af4-936c-4edbf7ce7526"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140619"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-876" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Phentermine hydrochloride</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Phentermine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0603-5192" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="37.5" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0K2I505OTV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PHENTERMINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="C045TQL4WP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENTERMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-876-25" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040377" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="10" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">5030;V</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48677" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CIV"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Oral"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L1519ec58-f3bd-42ae-a92c-ae70a38731bf">
+               <id root="2ed6377e-4076-4c3f-8390-56f140b134de"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications and usage</title>
+               <text>
+                  <paragraph>Phentermine hydrochloride tablets, USP are indicated as a short-term (a few weeks) adjunct in a regimen of weight reduction based on exercise, behavioral modification and caloric restriction in the management of exogenous obesity for patients with an initial body mass index ≥ 30 kg/m2, or ≥ 27 kg/m2 in the presence of other risk factors (e.g., controlled hypertension, diabetes, hyperlipidemia).</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3994b440-3c33-4a82-aa60-8b2935f682fc">
+               <id root="f20767b4-7a9d-4f7a-9acb-b2697125277c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage and Administration</title>
+               <text>
+                  <paragraph>Exogenous Obesity</paragraph>
+                  <paragraph>Dosage should be individualized to obtain an adequate response with the lowest effective dose.</paragraph>
+                  <paragraph>The usual adult dose is one tablet (37.5 mg) daily, as prescribed by the physician, administered before breakfast or 1 to 2 hours after breakfast. The dosage may be adjusted to the patient’s need. For some patients, half tablet (18.75 mg) daily may be adequate, while in some cases it may be desirable to give half tablets (18.75 mg) two times a day.</paragraph>
+                  <paragraph>Phentermine hydrochloride is not recommended for use in pediatric patients ≤ 16 years of age.</paragraph>
+                  <paragraph>Late evening medication should be avoided because of the possibility of resulting insomnia.</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld0525bc6-439b-4c70-a2b9-4a3c90465c13">
+               <id root="2d839bff-cde8-47c6-863d-36d6aed19ee6"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title/>
+               <text>
+                  <list listType="unordered">
+                     <item>History of cardiovascular disease (e.g., coronary artery disease, stroke, arrhythmias, congestive heart failure, uncontrolled hypertension)</item>
+                  </list>
+                  <list listType="unordered">
+                     <item>During or within 14 days following the administration of monoamine oxidase inhibitors</item>
+                  </list>
+                  <list listType="unordered">
+                     <item>Hyperthyroidism</item>
+                  </list>
+                  <list listType="unordered">
+                     <item>Glaucoma</item>
+                  </list>
+                  <list listType="unordered">
+                     <item>Agitated states</item>
+                  </list>
+                  <list listType="unordered">
+                     <item>History of drug abuse</item>
+                  </list>
+                  <list listType="unordered">
+                     <item>Pregnancy [see Use in Specific Populations (8.1)]</item>
+                  </list>
+                  <list listType="unordered">
+                     <item>Nursing [see Use in Specific Populations (8.3)]</item>
+                  </list>
+                  <list listType="unordered">
+                     <item>Known hypersensitivity or idiosyncrasy to the sympathomimetic amines</item>
+                  </list>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2ca12eee-af23-470a-8158-f03627fffed8">
+               <id root="4e8ed5ce-cf96-4020-be8e-03a524ff8d02"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>Warnings and precautions</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Coadministration With Other Drug Products for Weight Loss</content>
+                  </paragraph>
+                  <paragraph>Phentermine hydrochloride is indicated only as short-term (a few weeks) monotherapy for the management of exogenous obesity. The safety and efficacy of combination therapy with phentermine and any other drug products for weight loss including prescribed drugs, over-the-counter preparations, and herbal products, or serotonergic agents such as selective serotonin reuptake inhibitors (e.g., fluoxetine, sertraline, fluvoxamine, paroxetine), have not been established. Therefore, coadministration of phentermine and these drug products is not recommended.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Primary Pulmonary Hypertension</content>
+                  </paragraph>
+                  <paragraph>Primary Pulmonary Hypertension (PPH) – a rare, frequently fatal disease of the lungs – has been reported to occur in patients receiving a combination of phentermine with fenfluramine or dexfenfluramine. The possibility of an association between PPH and the use of phentermine alone cannot be ruled out; there have been rare cases of PPH in patients who reportedly have taken phentermine alone. The initial symptom of PPH is usually dyspnea. Other initial symptoms may include angina pectoris, syncope or lower extremity edema. Patients should be advised to report immediately any deterioration in exercise tolerance. Treatment should be discontinued in patients who develop new, unexplained symptoms of dyspnea, angina pectoris, syncope or lower extremity edema, and patients should be evaluated for the possible presence of pulmonary hypertension.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Valvular Heart Disease</content>
+                  </paragraph>
+                  <paragraph>Serious regurgitant cardiac valvular disease, primarily affecting the mitral, aortic and/or tricuspid valves, has been reported in otherwise healthy persons who had taken a combination of phentermine with fenfluramine or dexfenfluramine for weight loss. The possible role of phentermine in the etiology of these valvulopathies has not been established and their course in individuals after the drugs are stopped is not known. The possibility of an association between valvular heart disease and the use of phentermine alone cannot be ruled out; there have been rare cases of valvular heart disease in patients who reportedly have taken phentermine alone.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Development of Tolerance, Discontinuation in Case of Tolerance</content>
+                  </paragraph>
+                  <paragraph>When tolerance to the anorectant effect develops, the recommended dose should not be exceeded in an attempt to increase the effect; rather, the drug should be discontinued.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Effect on the Ability to Engage in Potentially Hazardous Tasks</content>
+                  </paragraph>
+                  <paragraph>Phentermine may impair the ability of the patient to engage in potentially hazardous activities such as operating machinery or driving a motor vehicle; the patient should therefore be cautioned accordingly.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Risk of Abuse and Dependence</content>
+                  </paragraph>
+                  <paragraph>Phentermine is related chemically and pharmacologically to amphetamine (d- and d/l-amphetamine) and other related stimulant drugs have been extensively abused. The possibility of abuse of phentermine should be kept in mind when evaluating the desirability of including a drug as part of a weight reduction program. See Drug Abuse and Dependence (9) and Overdosage (10).</paragraph>
+                  <paragraph>The least amount feasible should be prescribed or dispensed at one time in order to minimize the possibility of overdosage.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usage With Alcohol</content>
+                  </paragraph>
+                  <paragraph>Concomitant use of alcohol with phentermine may result in an adverse drug reaction.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use in Patients With Hypertension</content>
+                  </paragraph>
+                  <paragraph>Use caution in prescribing phentermine for patients with even mild hypertension (risk of increase in blood pressure).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use in Patients on Insulin or Oral Hypoglycemic Medications for Diabetes Mellitus</content>
+                  </paragraph>
+                  <paragraph>A reduction in insulin or oral hypoglycemic medications in patients with diabetes mellitus may be required.</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1b5c600f-7f4e-4ce5-a7f1-ad99062b14ee">
+               <id root="098d2003-db57-4dae-8647-644ed0e89b81"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>The following adverse reactions are described, or described in greater detail, in other sections:</paragraph>
+                  <list listType="unordered">
+                     <item>Primary pulmonary hypertension [see Warnings and Precautions].</item>
+                  </list>
+                  <list listType="unordered">
+                     <item>Valvular heart disease [see Warnings and Precautions].</item>
+                  </list>
+                  <list listType="unordered">
+                     <item>Effect on the ability to engage in potentially hazardous tasks [see Warnings and Precautions].</item>
+                  </list>
+                  <list listType="unordered">
+                     <item>Withdrawal effects following prolonged high dosage administration [see Drug Abuse and Dependence].</item>
+                  </list>
+                  <paragraph>The following adverse reactions to phentermine have been identified:<br/>Cardiovascular<br/>Primary pulmonary hypertension and/or regurgitant cardiac valvular disease, palpitation, tachycardia, elevation of blood pressure, ischemic events.</paragraph>
+                  <paragraph>Central Nervous System<br/>Overstimulation, restlessness, dizziness, insomnia, euphoria, dysphoria, tremor, headache, psychosis.</paragraph>
+                  <paragraph>Gastrointestinal<br/>Dryness of the mouth, unpleasant taste, diarrhea, constipation, other gastrointestinal disturbances.</paragraph>
+                  <paragraph>Allergic<br/>Urticaria.</paragraph>
+                  <paragraph>Endocrine<br/>Impotence, changes in libido.</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc1f22611-b914-4b06-ad16-bd086ed2ed56">
+               <id root="5387c776-1678-43c3-879f-479a1b607776"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>Drug interactions</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Monoamine Oxidase Inhibitors</content>
+                  </paragraph>
+                  <paragraph>Use of phentermine is contraindicated during or within 14 days following the administration of monoamine oxidase inhibitors because of the risk of hypertensive crisis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Alcohol</content>
+                  </paragraph>
+                  <paragraph>Concomitant use of alcohol with phentermine may result in an adverse drug reaction.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Insulin and Oral Hypoglycemic Medications</content>
+                  </paragraph>
+                  <paragraph>Requirements may be altered [see Warnings and Precautions (5.9)].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adrenergic Neuron Blocking Drugs</content>
+                  </paragraph>
+                  <paragraph>Phentermine may decrease the hypotensive effect of adrenergic neuron blocking drugs.</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf97603e9-0f62-42c8-8cc8-4b3ec6a6620e">
+               <id root="0705337f-0c2c-4d9b-8e5f-a07c4609d4bf"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Teratogenic Effects<br/>Pregnancy category X<br/>Phentermine is contraindicated during pregnancy because weight loss offers no potential benefit to a pregnant woman and may result in fetal harm. A minimum weight gain, and no weight loss, is currently recommended for all pregnant women, including those who are already overweight or obese, due to obligatory weight gain that occurs in maternal tissues during pregnancy. Phentermine has pharmacologic activity similar to amphetamine (d- and dll-amphetamine) [see Clinical Pharmacology (12.1)]. Animal reproduction studies have not been conducted with phentermine. If this drug is used during pregnancy, or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to a fetus.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>It is not known if phentermine is excreted in human milk; however, other amphetamines are present in human milk. Because of the potential for serious adverse reactions in nursing infants, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                  <paragraph> Pediatric Use</paragraph>
+                  <paragraph>Safety and effectiveness in pediatric patients have not been established. Because pediatric obesity is a chronic condition requiring long-term treatment, the use of this product, approved for short-term therapy, is not recommended.</paragraph>
+                  <paragraph> Geriatric Use</paragraph>
+                  <paragraph>In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                  <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                  <paragraph> Renal Impairment</paragraph>
+                  <paragraph>Phentermine was not studied in patients with renal impairment. Based on the reported excretion of phentermine in urine, exposure increases can be expected in patients with renal impairment. Use caution when administering phentermine to patients with renal impairment [</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lae5fd3de-4cfd-4525-a4fc-4d2c7f8dd8c3">
+               <id root="c9aabc21-bf05-4e0d-803c-0274432dab53"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Controlled Substance</paragraph>
+                  <paragraph>Phentermine is a Schedule IV controlled substance.</paragraph>
+                  <paragraph> Abuse</paragraph>
+                  <paragraph>Phentermine is related chemically and pharmacologically to the amphetamines. Amphetamines and other stimulant drugs have been extensively abused and the possibility of abuse of phentermine should be kept in mind when evaluating the desirability of including a drug as part of a weight reduction program.</paragraph>
+                  <paragraph>Dependence</paragraph>
+                  <paragraph>Abuse of amphetamines and related drugs may be associated with intense psychological dependence and severe social dysfunction. There are reports of patients who have increased the dosage of these drugs to many times than recommended. Abrupt cessation following prolonged high dosage administration results in extreme fatigue and mental depression; changes are also noted on the sleep EEG. Manifestations of chronic intoxication with anorectic drugs include severe dermatoses, marked insomnia, irritability, hyperactivity and personality changes. A severe manifestation of chronic intoxication is psychosis, often clinically indistinguishable from schizophrenia.</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbe7a1470-4f76-414f-8264-e470caee99b5">
+               <id root="ad3cbcf0-cb62-4e46-a21a-aba06aec9a7a"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>Overdosage</title>
+               <text>
+                  <paragraph>The least amount feasible should be prescribed or dispensed at one time in order to minimize the possibility of overdosage.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Acute Overdosage</content>
+                  </paragraph>
+                  <paragraph>Manifestations of acute overdosage include restlessness, tremor, hyperreflexia, rapid respiration, confusion, assaultiveness, hallucinations, and panic states. Fatigue and depression usually follow the central stimulation. Cardiovascular effects include arrhythmia, hypertension or hypotension, and circulatory collapse. Gastrointestinal symptoms include nausea, vomiting, diarrhea and abdominal cramps. Overdosage of pharmacologically similar compounds has resulted in fatal poisoning usually terminates in convulsions and coma.</paragraph>
+                  <paragraph>Management of acute phentermine hydrochloride intoxication is largely symptomatic and includes lavage and sedation with a barbiturate. Experience with hemodialysis or peritoneal dialysis is inadequate to permit recommendations in this regard. Acidification of the urine increases phentermine excretion. Intravenous phentolamine (Regitine®, CIBA) has been suggested on pharmacologic grounds for possible acute, severe hypertension, if this complicates overdosage.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Chronic Intoxication</content>
+                  </paragraph>
+                  <paragraph>Manifestations of chronic intoxication with anorectic drugs include severe dermatoses, marked insomnia, irritability, hyperactivity and personality changes. The most severe manifestation of chronic intoxications is psychosis, often clinically indistinguishable from schizophrenia.</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcf9617d4-18cd-4f81-a9ca-cc23a372e2e1">
+               <id root="be34c0c9-79fd-4f09-bdd5-ea15ef0a8e9a"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <title>PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Patients must be informed that phentermine hydrochloride is a short-term (a few weeks) adjunct in a regimen of weight reduction based on exercise, behavioral modification and caloric restriction in the management of exogenous obesity, and that coadministration of phentermine with other drugs for weight loss is not recommended [see Indications and Usage (1) and Warnings and Precautions (5.1)].</paragraph>
+                  <paragraph>Patients must be instructed on how much phentermine to take, and when and how to take it [see Dosage and Administration (2)].</paragraph>
+                  <paragraph>Advise pregnant women and nursing mothers not to use phentermine [see Use in Specific Populations (8.1, 8.3)].</paragraph>
+                  <paragraph>Patients must be informed about the risks of use of phentermine (including the risks discussed in Warnings and Precautions), about the symptoms of potential adverse reactions and when to contact a physician and/or take other action. The risks include, but are not limited to:</paragraph>
+                  <paragraph>Development of primary pulmonary hypertension [see Warnings and Precautions (5.2)]<br/>Development of serious valvular heart disease [see Warnings and Precautions (5.3)]<br/>Effects on the ability to engage in potentially hazardous tasks [see Warnings and Precautions (5.5)]<br/>The risk of an increase in blood pressure [see Warnings and Precautions (5.8) and Adverse Reactions (6)]<br/>The risk of interactions [see Contraindications (4), Warnings and Precautions (5.7, 5.9) and Drug Interactions (7)]</paragraph>
+                  <paragraph>See also, for example, Adverse Reactions (6) and Use in Specific Populations (8).</paragraph>
+                  <paragraph>The patients must also be informed about</paragraph>
+                  <paragraph>the potential for developing tolerance and actions if they suspect development of tolerance [see Warnings and Precautions (5.4)] and<br/>the risk of dependence and the potential consequences of abuse [see Warnings and Precautions (5.6), Drug Abuse and Dependence (9), and Overdosage (10)].</paragraph>
+                  <paragraph>Tell patients to keep phentermine in a safe place to prevent theft, accidental overdose, misuse or abuse. Selling or giving away phentermine may harm others and is against the law.</paragraph>
+                  <paragraph/>
+                  <paragraph>NOTE: FOR THE MANUFACTURER'S COMPLETE DRUG INFORMATION, PLEASE VISIT THE FDA SITE:</paragraph>
+                  <paragraph>
+                     <br/>http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df379f22-6bc5-45b9-920b-3dab77fe8a7e</paragraph>
+               </text>
+               <effectiveTime value="20140619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc9da060f-d4f2-4a44-ad89-b5cba8dffebd">
+               <id root="016502be-040d-4f98-a0f7-e85fc7ea53e0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>LABEL DISPLAY</title>
+               <text>
+                  <paragraph>NDC: 51655-876-25</paragraph>
+                  <paragraph>Phentermine HCL 37.5MG          CIV</paragraph>
+                  <paragraph>60 Tablets</paragraph>
+                  <paragraph>Lot:                Exp:                Rx Only</paragraph>
+                  <paragraph>Store at 20C to 25C (68-77F)</paragraph>
+                  <paragraph>Keep out of reach of children.  Dosage: See package insert</paragraph>
+                  <paragraph>Manufactured for: Qualitest Pharmaceuticals</paragraph>
+                  <paragraph>Manufacture Address: Huntsville, AL 35811</paragraph>
+                  <paragraph>Manufacture NDC: 0603-5192-32     MFG. Lot:</paragraph>
+                  <paragraph>Distributed by: Northwind Pharmaceuticals Indianapolis, IN 46256</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L0d0b669d-1aff-4979-956f-62ed8b771589"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20140619"/>
+               <component>
+                  <observationMedia ID="L0d0b669d-1aff-4979-956f-62ed8b771589">
+                     <text>51655-876-25</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51655-876-25.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

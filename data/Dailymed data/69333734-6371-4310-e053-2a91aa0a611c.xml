@@ -1,0 +1,1716 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="69333734-6371-4310-e053-2a91aa0a611c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20180406"/>
+   <setId root="69333734-6370-4310-e053-2a91aa0a611c"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079902303"/>
+            <name>Topicare Management, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079902303"/>
+                        <name>Topicare Management, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70112-555" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70112-555" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="6a23a3f3-ce8a-8b7c-e053-2991aa0adca8"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20180406"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70112-555" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TopiDex</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>dexamethasone surgical combo kit</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70112-555-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180416"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="63323-506" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Dexamethasone Sodium Phosphate</name>
+                              <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>dexamethasone sodium phosphate</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM HYDROXIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIR">
+                                 <quantity>
+                                    <numerator unit="mg" value="10"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="AI9376Y64P" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DEXAMETHASONE SODIUM PHOSPHATE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="7S5I7G3JQL" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>DEXAMETHASONE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                    <asEquivalentSubstance>
+                                       <definingSubstance>
+                                          <code code="2BP70L44PR" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>DEXAMETHASONE PHOSPHATE</name>
+                                       </definingSubstance>
+                                    </asEquivalentSubstance>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mg" value="24.5"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CITRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CITRIC ACID MONOHYDRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="63323-506-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA040491" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030529"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="0.9" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="67777-130" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Povidine Iodine</name>
+                              <formCode code="C47898" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SWAB"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>povidine iodine</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIM">
+                                 <quantity>
+                                    <numerator unit="mg" value="10"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="85H0HZU99M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POVIDONE-IODINE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="9679TC07X4" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>IODINE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="48Q180SH9T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NONOXYNOL-9</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="0.9" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67777-130-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43199" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKET"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="part333C" root="2.16.840.1.113883.3.149"/>
+                                 <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20100510"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="1.65" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="67777-121" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Alcohol Prep</name>
+                              <formCode code="C47898" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SWAB"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>isopropyl alcohol</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mL" value="0.7"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ISOPROPYL ALCOHOL</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ISOPROPYL ALCOHOL</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="0.55" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67777-121-14" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="part333A" root="2.16.840.1.113883.3.149"/>
+                                 <code code="C73604" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph not final"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20100701"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040491" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180416"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_699597a3-5ae9-341c-e053-2a91aa0a6630">
+               <id root="699597a3-5ae8-341c-e053-2a91aa0a6630"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DEXAMETHASONE SODIUM PHOSPHATE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous or Intramuscular Use Only</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20180416"/>
+               <component>
+                  <section ID="id_link_6995d141-112c-7758-e053-2a91aa0a8616">
+                     <id root="6995d141-112b-7758-e053-2a91aa0a8616"/>
+                     <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+                     <title>DESCRIPTION</title>
+                     <text>
+                        <paragraph>Dexamethasone Sodium Phosphate Injection, USP, is a water-soluble inorganic ester of dexamethasone which produces a rapid response even when injected intramuscularly.</paragraph>
+                        <paragraph/>
+                        <paragraph>Dexamethasone Sodium Phosphate, USP chemically is Pregna-1,4-diene-3,20-dione, 9-fluoro- 11,17-dihydroxy-16-methyl-21-(phosphonooxy)-, disodium salt, (11ß, 16α).</paragraph>
+                        <paragraph/>
+                        <paragraph>It occurs as a white to creamy white powder, is exceedingly hygroscopic, is soluble in water and its solutions have a pH between 7.0 and 8.5.  It has the following structural formula:</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="img_6995d141-110c-7758-e053-2a91aa0a8616"/>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>Each mL of Dexamethasone Sodium Phosphate Injection, USP 
+  <content styleCode="bold">(Preservative Free)</content> contains dexamethasone sodium phosphate, USP equivalent to 10 mg dexamethasone phosphate; 24.75 mg sodium citrate, dihydrate; and Water for Injection, q.s. pH adjusted with citric acid or sodium hydroxide, if necessary.  pH: 7.0 to 8.5.
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>Each mL Dexamethasone Sodium Phosphate Injection, USP 
+  <content styleCode="bold">(Preserved)</content> contains dexamethasone sodium phosphate, USP equivalent to 10 mg dexamethasone phosphate; 13.5 mg sodium citrate, dihydrate; 10 mg benzyl alcohol; and Water for Injection, q.s. pH adjusted with citric acid or sodium hydroxide, if necessary.  pH: 7.0 to 8.5.
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                     <component>
+                        <observationMedia ID="img_6995d141-110c-7758-e053-2a91aa0a8616">
+                           <text>structure</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="structure.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_6995d141-114c-7758-e053-2a91aa0a8616">
+                     <id root="6995d141-114b-7758-e053-2a91aa0a8616"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>CLINICAL PHARMACOLOGY</title>
+                     <text>
+                        <paragraph>Dexamethasone sodium phosphate injection has a rapid onset but short duration of action when compared with less soluble preparations.  Because of this, it is suitable for the treatment of acute disorders responsive to adrenocortical steroid therapy.</paragraph>
+                        <paragraph/>
+                        <paragraph>Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs, including dexamethasone, are primarily used for their potent anti-inflammatory effects in disorders of many organ systems.</paragraph>
+                        <paragraph/>
+                        <paragraph>Glucocorticoids cause profound and varied metabolic effects.  In addition, they modify the body’s immune responses to diverse stimuli.</paragraph>
+                        <paragraph/>
+                        <paragraph>At equipotent anti-inflammatory doses, dexamethasone almost completely lacks the sodium-retaining property of hydrocortisone and closely related derivatives of hydrocortisone.</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_6995fdb9-f331-06ce-e053-2991aa0a1ae0">
+                     <id root="6995fdb9-f330-06ce-e053-2991aa0a1ae0"/>
+                     <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+                     <title>INDICATIONS AND USAGE</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">By intravenous or intramuscular injection when oral therapy is not feasible:</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">1. Endocrine Disorders</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     Primary or secondary adrenocortical insufficiency (hydrocortisone or cortisone is the drug of choice; synthetic analogs may be used in conjunction with mineralocorticoids where applicable; in infancy, mineralocorticoid supplementation is of particular importance).</paragraph>
+                        <paragraph/>
+                        <paragraph>     Acute adrenocortical insufficiency (hydrocortisone or cortisone is the drug of choice; mineralocorticoid supplementation may be necessary, particularly when synthetic analogs are used).</paragraph>
+                        <paragraph/>
+                        <paragraph>     Preoperatively, and in the event of serious trauma or illness, in patients with known adrenal insufficiency or when adrenocortical reserve is doubtful.</paragraph>
+                        <paragraph/>
+                        <paragraph>     Shock unresponsive to conventional therapy if adrenocortical insufficiency exists or is suspected.</paragraph>
+                        <paragraph/>
+                        <paragraph>     Congenital adrenal hyperplasia</paragraph>
+                        <paragraph/>
+                        <paragraph>     Nonsuppurative thyroiditis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Hypercalcemia associated with cancer</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">2. Rheumatic Disorders</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     As adjunctive therapy for short-term administration (to tide the patient over an acute episode or exacerbation) in:</paragraph>
+                        <paragraph/>
+                        <paragraph>     Post-traumatic osteoarthritis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Synovitis of osteoarthritis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Rheumatoid arthritis, including juvenile rheumatoid arthritis (selected cases may require low-dose maintenance therapy).</paragraph>
+                        <paragraph/>
+                        <paragraph>     Acute and subacute bursitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Epicondylitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Acute nonspecific tenosynovitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Acute gouty arthritis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Psoriatic arthritis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Ankylosing spondylitis</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">3. Collagen Diseases</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     During an exacerbation or as maintenance therapy in selected cases of:</paragraph>
+                        <paragraph/>
+                        <paragraph>     Systemic lupus erythematosus</paragraph>
+                        <paragraph/>
+                        <paragraph>     Acute rheumatic carditis</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">4. Dermatologic Diseases</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     Pemphigus</paragraph>
+                        <paragraph/>
+                        <paragraph>     Severe erythema multiforme (Stevens-Johnson syndrome)</paragraph>
+                        <paragraph/>
+                        <paragraph>     Exfoliative dermatitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Bullous dermatitis herpetiformis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Severe seborrheic dermatitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Severe psoriasis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Mycosis fungoides</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">5. Allergic States</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     Control of severe or incapacitating allergic conditions intractable to adequate trials of conventional treatment in:</paragraph>
+                        <paragraph/>
+                        <paragraph>     Bronchial asthma</paragraph>
+                        <paragraph/>
+                        <paragraph>     Contact dermatitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Atopic dermatitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Serum sickness</paragraph>
+                        <paragraph/>
+                        <paragraph>     Seasonal or perennial allergic rhinitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Drug hypersensitivity reactions</paragraph>
+                        <paragraph/>
+                        <paragraph>     Urticarial transfusion reactions</paragraph>
+                        <paragraph/>
+                        <paragraph>     Acute noninfectious laryngeal edema (epinephrine is the drug of first choice).</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">6. Ophthalmic Diseases</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     Severe acute and chronic allergic and inflammatory processes involving the eye, such as:</paragraph>
+                        <paragraph/>
+                        <paragraph>     Herpes zoster ophthalmicus</paragraph>
+                        <paragraph/>
+                        <paragraph>     Iritis, iridocyclitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Chorioretinitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Diffuse posterior uveitis and choroiditis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Optic neuritis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Sympathetic ophthalmia</paragraph>
+                        <paragraph/>
+                        <paragraph>     Anterior segment inflammation</paragraph>
+                        <paragraph/>
+                        <paragraph>     Allergic conjunctivitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Keratitis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Allergic corneal marginal ulcers</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">7. Gastrointestinal Diseases</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     To tide the patient over a critical period of the disease in:</paragraph>
+                        <paragraph/>
+                        <paragraph>     Ulcerative colitis (systemic therapy)</paragraph>
+                        <paragraph/>
+                        <paragraph>     Regional enteritis (systemic therapy)</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">8. Respiratory Diseases</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     Symptomatic sarcoidosis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Berylliosis</paragraph>
+                        <paragraph/>
+                        <paragraph>     Fulminating or disseminated pulmonary tuberculosis when used concurrently with appropriate antituberculous chemotherapy.</paragraph>
+                        <paragraph/>
+                        <paragraph>     Loeffler’s syndrome not manageable by other means.</paragraph>
+                        <paragraph/>
+                        <paragraph>     Aspiration pneumonitis</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">9. Hematologic Disorders</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     Acquired (autoimmune) hemolytic anemia.</paragraph>
+                        <paragraph/>
+                        <paragraph>     Idiopathic thrombocytopenic purpura in adults</paragraph>
+                        <paragraph/>
+                        <paragraph>     (IV only; IM administration is contraindicated).</paragraph>
+                        <paragraph/>
+                        <paragraph>     Secondary thrombocytopenia in adults</paragraph>
+                        <paragraph/>
+                        <paragraph>     Erythroblastopenia (RBC anemia)</paragraph>
+                        <paragraph/>
+                        <paragraph>     Congenital (erythroid) hypoplastic anemia</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">10. Neoplastic Diseases</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     For palliative management of:</paragraph>
+                        <paragraph/>
+                        <paragraph>     Leukemias and lymphomas in adults</paragraph>
+                        <paragraph/>
+                        <paragraph>     Acute leukemia of childhood</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">11. Edematous States</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     To induce diuresis or remission of proteinuria in the nephrotic syndrome, without uremia, of the idiopathic type or that due to lupus erythematosus.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">12. Miscellaneous</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>     Tuberculous meningitis with subarachnoid block or impending block when used concurrently with appropriate antituberculous chemotherapy.</paragraph>
+                        <paragraph/>
+                        <paragraph>     Trichinosis with neurologic or myocardial involvement.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="italics">13. Diagnostic testing of adrenocortical hyperfunction.</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>14. 
+  <content styleCode="italics">Cerebral Edema</content> associated with primary or metastatic brain tumor, craniotomy, or head injury.  Use in cerebral edema is not a substitute for careful neurosurgical evaluation and definitive management such as neurosurgery or other specific therapy.
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69960c2f-d444-654b-e053-2a91aa0a64be">
+                     <id root="6995fdb9-f334-06ce-e053-2991aa0a1ae0"/>
+                     <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+                     <title>CONTRAINDICATIONS</title>
+                     <text>
+                        <paragraph>Systemic fungal infections (see 
+  <linkHtml href="#id_link_6995fdb9-f333-06ce-e053-2991aa0a1ae0">WARNINGS</linkHtml> regarding amphotericin B).
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>Hypersensitivity to any component of this product (see
+  <linkHtml href="#id_link_6995fdb9-f333-06ce-e053-2991aa0a1ae0">WARNINGS</linkHtml>).
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_6995fdb9-f333-06ce-e053-2991aa0a1ae0">
+                     <id root="69966fe9-4926-538a-e053-2a91aa0adbae"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>WARNINGS</title>
+                     <text>
+                        <paragraph>Because rare instances of anaphylactoid reactions have occurred in patients receiving parenteral corticosteroid therapy, appropriate precautionary measures should be taken prior to administration, especially when the patient has a history of allergy to any drug. Anaphylactoid and hypersensitivity reactions have been reported for dexamethasone sodium phosphate injection (see 
+  <linkHtml href="#id_link_69966fe9-4925-538a-e053-2a91aa0adbae">ADVERSE REACTIONS</linkHtml>).
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>Corticosteroids may exacerbate systemic fungal infections and, therefore, should not be used in the presence of such infections unless they are needed to control drug reactions due to amphotericin B. Moreover, there have been cases reported in which concomitant use of amphotericin B and hydrocortisone was followed by cardiac enlargement and congestive failure.</paragraph>
+                        <paragraph/>
+                        <paragraph>In patients on corticosteroid therapy subjected to any unusual stress, increased dosage of rapidly acting corticosteroids before, during, and after the stressful situation is indicated.</paragraph>
+                        <paragraph/>
+                        <paragraph>Drug-induced secondary adrenocortical insufficiency may result from too rapid withdrawal of corticosteroids and may be minimized by gradual reduction of dosage. This type of relative insufficiency may persist for months after discontinuation of therapy; therefore, in any situation of stress occurring during that period, hormone therapy should be reinstituted. If the patient is receiving steroids already, dosage may have to be increased. Since mineralocorticoid secretion may be impaired, salt and/or a mineralocorticoid should be administered concurrently.</paragraph>
+                        <paragraph/>
+                        <paragraph>Corticosteroids may mask some signs of infection, and new infections may appear during their use. There may be decreased resistance and inability to localize infection when corticosteroids are used. Moreover, corticosteroids may affect the nitroblue-tetrazolium test for bacterial infection and produce false negative results.</paragraph>
+                        <paragraph/>
+                        <paragraph>In cerebral malaria, a double-blind trial has shown that the use of corticosteroids is associated with prolongation of coma and a higher incidence of pneumonia and gastrointestinal bleeding.</paragraph>
+                        <paragraph/>
+                        <paragraph>Corticosteroids may activate latent amebiasis. Therefore, it is recommended that latent or active amebiasis be ruled out before initiating corticosteroid therapy in any patient who has spent time in the tropics or in any patient with unexplained diarrhea.</paragraph>
+                        <paragraph>Prolonged use of corticosteroids may produce posterior subcapsular cataracts, glaucoma with possible damage to the optic nerves, and may enhance the establishment of secondary ocular infections due to fungi or viruses.</paragraph>
+                        <paragraph/>
+                        <paragraph>Average and large doses of cortisone or hydrocortisone can cause elevation of blood pressure, salt and water retention, and increased excretion of potassium. These effects are less likely to occur with the synthetic derivatives except when used in large doses. Dietary salt restriction and potassium supplementation may be necessary. All corticosteroids increase calcium excretion.</paragraph>
+                        <paragraph/>
+                        <paragraph>Administration of live virus vaccines, including smallpox, is contraindicated in individuals receiving immunosuppressive doses of corticosteroids. If inactivated viral or bacterial vaccines are administered to individuals receiving immunosuppressive doses of corticosteroids, the expected serum antibody response may not be obtained. However, immunization procedures may be undertaken in patients who are receiving corticosteroids as replacement therapy, e.g., for Addison’s disease.</paragraph>
+                        <paragraph/>
+                        <paragraph>Patients who are on drugs which suppress the immune system are more susceptible to infections than healthy individuals. Chickenpox and measles, for example, can have a more serious or even fatal course in non-immune children or adults on corticosteroids. In such children or adults who have not had these diseases, particular care should be taken to avoid exposure. The risk of developing a disseminated infection varies among individuals and can be related to the dose, route and duration of corticosteroid administration as well as to the underlying disease. If exposed to chickenpox, prophylaxis with varicella zoster immune globulin (VZIG) may be indicated. If chickenpox develops, treatment with antiviral agents may be considered. If exposed to measles, prophylaxis with immune globulin (IG) may be indicated. (See the respective package inserts for VZIG and IG for complete prescribing information).</paragraph>
+                        <paragraph/>
+                        <paragraph>The use of dexamethasone sodium phosphate injection in active tuberculosis should be restricted to those cases of fulminating or disseminated tuberculosis in which the corticosteroid is used for the management of the disease in conjunction with an appropriate antituberculous regimen.</paragraph>
+                        <paragraph/>
+                        <paragraph>If corticosteroids are indicated in patients with latent tuberculosis or tuberculin reactivity, close observation is necessary as reactivation of the disease may occur. During prolonged corticosteroid therapy, these patients should receive chemoprophylaxis.</paragraph>
+                        <paragraph/>
+                        <paragraph>Literature reports suggest an apparent association between use of corticosteroids and left ventricular free wall rupture after a recent myocardial infarction; therefore, therapy with corticosteroids should be used with great caution in these patients.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Serious Neurologic Adverse Reactions with Epidural Administration</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>Serious neurologic events, some resulting in death, have been reported with epidural injection of corticosteroids. Specific events reported include, but are not limited to, spinal cord infarction, paraplegia, quadriplegia, cortical blindness, and stroke. These serious neurologic events have been reported with and without use of fluoroscopy. The safety and effectiveness of epidural administration of corticosteroids has not been established, and corticosteroids are not approved for this use.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Usage in Pregnancy</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>Since adequate human reproduction studies have not been done with corticosteroids, use of these drugs in pregnancy or in women of childbearing potential requires that the anticipated benefits be weighed against the possible hazards to the mother and embryo or fetus. Infants born of mothers who have received substantial doses of corticosteroids during pregnancy should be carefully observed for signs of hypoadrenalism.</paragraph>
+                        <paragraph/>
+                        <paragraph>Corticosteroids appear in breast milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other unwanted effects. Mothers taking pharmacologic doses of corticosteroids should be advised not to nurse.</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_699639de-1f3a-cd89-e053-2a91aa0ad3ff">
+                     <id root="699639de-1f39-cd89-e053-2a91aa0ad3ff"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>PRECAUTIONS</title>
+                     <text>
+                        <paragraph>This product, like many other steroid formulations, is sensitive to heat.  Therefore, it should not be autoclaved when it is desirable to sterilize the exterior of the vial.</paragraph>
+                        <paragraph/>
+                        <paragraph>Following prolonged therapy, withdrawal of corticosteroids may result in symptoms of the corticosteroid withdrawal syndrome including fever, myalgia, arthralgia, and malaise.  This may occur in patients even without evidence of adrenal insufficiency.</paragraph>
+                        <paragraph/>
+                        <paragraph>There is an enhanced effect of corticosteroids in patients with hypothyroidism and in those with cirrhosis.</paragraph>
+                        <paragraph/>
+                        <paragraph>Corticosteroids should be used cautiously in patients with ocular herpes simplex for fear of corneal perforation.</paragraph>
+                        <paragraph/>
+                        <paragraph>The lowest possible dose of corticosteroid should be used to control the condition under treatment, and when reduction in dosage is possible, the reduction must be gradual.</paragraph>
+                        <paragraph/>
+                        <paragraph>Psychic derangements may appear when corticosteroids are used, ranging from euphoria, insomnia, mood swings, personality changes, and severe depression to frank psychotic manifestations.  Also, existing emotional instability or psychotic tendencies may be aggravated by corticosteroids.</paragraph>
+                        <paragraph/>
+                        <paragraph>Aspirin should be used within caution in conjunction with corticosteroids in hypoprothrombinemia.</paragraph>
+                        <paragraph/>
+                        <paragraph>Steroids should be used with caution in nonspecific ulcerative colitis, if there is a probability of impending perforation, abscess, or other pyogenic infection, also in diverticulitis, fresh intestinal anastomoses, active or latent peptic ulcer, renal insufficiency, hypertension, osteoporosis, and myasthenia gravis.  Signs of peritoneal irritation following gastrointestinal perforation in patients receiving large doses of corticosteroids may be minimal or absent.  Fat embolism has been reported as a possible complication of hypercortisonism.</paragraph>
+                        <paragraph/>
+                        <paragraph>When large doses are given, some authorities advise that antacids be administered between meals to help prevent peptic ulcer.</paragraph>
+                        <paragraph>Steroids may increase or decrease motility and number of spermatozoa in some patients.</paragraph>
+                        <paragraph/>
+                        <paragraph>Phenytoin, phenobarbital, ephedrine, and rifampin may enhance the metabolic clearance of corticosteroids resulting in decreased blood levels and lessened physiologic activity, thus requiring adjustment in corticosteroid dosage.  These interactions may interfere with dexamethasone suppression tests which should be interpreted with caution during administration of these drugs.</paragraph>
+                        <paragraph/>
+                        <paragraph>False negative results in the dexamethasone suppression test (DST) in patients being treated with indomethacin have been reported.  Thus, results of the DST should be interpreted with caution in these patients.</paragraph>
+                        <paragraph/>
+                        <paragraph>The prothrombin time should be checked frequently in patients who are receiving corticosteroids and coumarin anticoagulants at the same time because of reports that corticosteroids have altered the response to these anticoagulants.  Studies have shown that the usual effect produced by adding corticosteroids is inhibition of response to coumarins, although there have been some conflicting reports of potentiation not substantiated by studies.</paragraph>
+                        <paragraph/>
+                        <paragraph>When corticosteroids are administered concomitantly with potassium-depleting diuretics, patients should be observed closely for development of hypokalemia.</paragraph>
+                        <paragraph/>
+                        <paragraph>The slower rate of absorption by intramuscular administration should be recognized.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Information for Patients</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>Susceptible patients who are on immunosuppressant doses of corticosteroids should be warned to avoid exposure to chickenpox or measles.  Patients should also be advised that if they are exposed, medical advice should be sought without delay.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Use</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>Growth and development of infants and children patients on prolonged corticosteroid therapy should be carefully followed.</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69966fe9-4925-538a-e053-2a91aa0adbae">
+                     <id root="6999ae36-eddf-ca0a-e053-2991aa0a4777"/>
+                     <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+                     <title>ADVERSE REACTIONS</title>
+                     <text>
+                        <paragraph>Fluid and electrolyte disturbances:</paragraph>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>Sodium retention</item>
+                           <item/>
+                           <item>Fluid retention</item>
+                           <item/>
+                           <item>Congestive heart failure in susceptible patients</item>
+                           <item/>
+                           <item>Potassium loss</item>
+                           <item/>
+                           <item>Hypokalemic alkalosis</item>
+                           <item/>
+                           <item>Hypertension</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Musculoskeletal:</paragraph>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>Muscle weakness</item>
+                           <item/>
+                           <item>Steroid myopathy</item>
+                           <item/>
+                           <item>Loss of muscle mass</item>
+                           <item/>
+                           <item>Osteoporosis</item>
+                           <item/>
+                           <item>Vertebral compression fractures</item>
+                           <item/>
+                           <item>Aseptic necrosis of femoral and humeral heads</item>
+                           <item/>
+                           <item>Tendon rupture</item>
+                           <item/>
+                           <item>Pathologic fracture of long bones</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Gastrointestinal:</paragraph>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>Peptic ulcer with possible subsequent perforation and hemorrhage</item>
+                           <item/>
+                           <item>Perforation of the small and large bowel; particularly in patients with inflammatory bowel disease</item>
+                           <item>Pancreatitis</item>
+                           <item/>
+                           <item>Abdominal distention</item>
+                           <item/>
+                           <item>Ulcerative esophagitis</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Dermatologic:</paragraph>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>Impaired wound healing</item>
+                           <item/>
+                           <item>Thin fragile skin</item>
+                           <item/>
+                           <item>Petechiae and ecchymoses</item>
+                           <item/>
+                           <item>Erythema</item>
+                           <item/>
+                           <item>Increased sweating</item>
+                           <item/>
+                           <item>May suppress reactions to skin tests</item>
+                           <item/>
+                           <item>Burning or tingling, especially in the perineal area (after IV injection)</item>
+                           <item/>
+                           <item>Other cutaneous reactions, such as allergic dermatitis, urticaria, angioneurotic edema</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Neurologic:</paragraph>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>Convulsions</item>
+                           <item/>
+                           <item>Increased intracranial pressure with papilledema (pseudotumor cerebri) usually after treatment</item>
+                           <item/>
+                           <item>Vertigo</item>
+                           <item/>
+                           <item>Headache</item>
+                           <item/>
+                           <item>Psychic disturbances</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Endocrine:</paragraph>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>Menstrual irregularities</item>
+                           <item/>
+                           <item>Development of cushingoid state</item>
+                           <item/>
+                           <item>Suppression of growth in pediatric patients</item>
+                           <item/>
+                           <item>Secondary adrenocortical and pituitary unresponsiveness, particularly in times of stress, as in trauma, surgery, or illness</item>
+                           <item/>
+                           <item>Decreased carbohydrate tolerance</item>
+                           <item/>
+                           <item>Manifestations of latent diabetes mellitus</item>
+                           <item/>
+                           <item>Increased requirements for insulin or oral hypoglycemic agents in diabetics</item>
+                           <item/>
+                           <item>Hirsutism</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Ophthalmic:</paragraph>
+                        <list listType="unordered">
+                           <item>Posterior subcapsular cataracts</item>
+                           <item/>
+                           <item>Increased intraocular pressure</item>
+                           <item/>
+                           <item>Glaucoma</item>
+                           <item/>
+                           <item>Exophthalmos</item>
+                           <item/>
+                           <item>Retinopathy of prematurity</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Metabolic:</paragraph>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>Negative nitrogen balance due to protein catabolism</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Cardiovascular:</paragraph>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>Myocardial rupture following recent myocardial infarction (see
+   <linkHtml href="#id_link_6995fdb9-f333-06ce-e053-2991aa0a1ae0">WARNINGS</linkHtml>)
+  </item>
+                           <item/>
+                           <item>Hypertrophic cardiomyopathy in low birth weight infants</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Other:</paragraph>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>Anaphylactoid or hypersensitivity reactions</item>
+                           <item/>
+                           <item>Thromboembolism</item>
+                           <item/>
+                           <item>Weight gain</item>
+                           <item/>
+                           <item>Increased appetite</item>
+                           <item/>
+                           <item>Nausea</item>
+                           <item/>
+                           <item>Malaise</item>
+                           <item/>
+                           <item>Hiccups</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>The following 
+  <content styleCode="italics">additional adverse</content> reactions are related to parenteral corticosteroid therapy:
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>Hyperpigmentation or hypopigmentation</paragraph>
+                        <paragraph/>
+                        <paragraph>Subcutaneous and cutaneous atrophy</paragraph>
+                        <paragraph/>
+                        <paragraph>Sterile abscess</paragraph>
+                        <paragraph/>
+                        <paragraph>Charcot-like arthropathy</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_699683d6-f2f4-7d3a-e053-2991aa0a3340">
+                     <id root="699683d6-f2f3-7d3a-e053-2991aa0a3340"/>
+                     <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+                     <title>OVERDOSAGE</title>
+                     <text>
+                        <paragraph>Reports of acute toxicity and/or death following overdosage of glucocorticoids are rare.  In the event of overdosage, no specific antidote is available; treatment is supportive and symptomatic.</paragraph>
+                        <paragraph/>
+                        <paragraph>The oral LD
+  <sub>50</sub> of dexamethasone in female mice was 6.5 g/kg.  The intravenous LD
+  <sub>50</sub> of dexamethasone sodium phosphate in female mice was 794 mg/kg.
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_6a23a197-4d21-5bfc-e053-2991aa0a73c8">
+                     <id root="6a23a197-4d20-5bfc-e053-2991aa0a73c8"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>DOSAGE AND ADMINISTRATION</title>
+                     <text>
+                        <paragraph>Dexamethasone sodium phosphate injection, 10 mg/mL– For 
+  <content styleCode="italics">intravenous and intramuscular injection </content>only.
+ </paragraph>
+                        <paragraph>Dexamethasone sodium phosphate injection can be given directly from the vial, or it can be added to Sodium Chloride Injection or Dextrose Injection and administered by intravenous drip.</paragraph>
+                        <paragraph>Solutions used for intravenous administration or further dilution of this product should be preservative free when used in the neonate, especially the premature infant.</paragraph>
+                        <paragraph>When it is mixed with an infusion solution, sterile precautions should be observed. Since infusion solutions generally do not contain preservatives, mixtures should be used within 24 hours.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">DOSAGE REQUIREMENTS ARE VARIABLE AND MUST BE INDIVIDUALIZED ON THE BASIS OF THE DISEASE AND THE RESPONSE OF THE PATIENT.</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Intravenous and Intramuscular Injection</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>The initial dosage of dexamethasone sodium phosphate injection varies from 0.5 to 9 mg a day depending on the disease being treated. In less severe diseases doses lower than 0.5 mg may suffice, while in severe diseases doses higher than 9 mg may be required.</paragraph>
+                        <paragraph>The initial dosage should be maintained or adjusted until the patient’s response is satisfactory. If a satisfactory clinical response does not occur after a reasonable period of time, discontinue dexamethasone sodium phosphate injection and transfer the patient to other therapy.</paragraph>
+                        <paragraph>After a favorable initial response, the proper maintenance dosage should be determined by decreasing the initial dosage in small amounts to the lowest dosage that maintains an adequate clinical response.</paragraph>
+                        <paragraph>Patients should be observed closely for signs that might require dosage adjustment, including changes in clinical status resulting from remissions or exacerbations of the disease, individual drug responsiveness, and the effect of stress (e.g., surgery, infection, trauma). During stress it may be necessary to increase dosage temporarily.</paragraph>
+                        <paragraph>If the drug is to be stopped after more than a few days of treatment, it usually should be withdrawn gradually.</paragraph>
+                        <paragraph>When the intravenous route of administration is used, dosage usually should be the same as the oral dosage. In certain overwhelming, acute, life-threatening situations, however, administration in dosages exceeding the usual dosages may be justified and may be in multiples of the oral dosages. The slower rate of absorption by intramuscular administration should be recognized.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Shock</content>
+                        </paragraph>
+                        <paragraph>There is a tendency in current medical practice to use high (pharmacologic) doses of corticosteroids for the treatment of unresponsive shock. The following dosages of dexamethasone sodium phosphate injection have been suggested by various authors:</paragraph>
+                        <paragraph/>
+                        <table border="0" width="100%">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Author</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Dosage</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Cavanagh
+     <sup>1</sup>
+                                 </td>
+                                 <td>3 mg/kg of body weight for 24 hours by constant intravenous infusion after an initial intravenous injection of 20 mg</td>
+                              </tr>
+                              <tr>
+                                 <td>Dietzman
+     <sup>2</sup>
+                                 </td>
+                                 <td>2 to 6 mg/kg of body weight as a single intravenous injection</td>
+                              </tr>
+                              <tr>
+                                 <td>Frank
+     <sup>3</sup>
+                                 </td>
+                                 <td>40 mg initially followed by repeat intravenous injection every 4 to 6 hours while shock persists</td>
+                              </tr>
+                              <tr>
+                                 <td>Oaks
+     <sup>4</sup>
+                                 </td>
+                                 <td>40 mg initially followed by repeat intravenous injection every 2 to 6 hours while shock persists</td>
+                              </tr>
+                              <tr>
+                                 <td>Schumer
+     <sup>5</sup>
+                                 </td>
+                                 <td>1 mg/kg of body weight as a single intravenous injection</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Administration of high dose corticosteroid therapy should be continued only until the patient’s condition has stabilized and usually not longer than 48 to 72 hours.</paragraph>
+                        <paragraph>Although adverse reactions associated with high dose, short-term corticosteroid therapy are uncommon, peptic ulceration may occur.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Cerebral Edema</content>
+                        </paragraph>
+                        <paragraph>Dexamethasone sodium phosphate injection is generally administered initially in a dosage of 10 mg intravenously followed by four mg every six hours intramuscularly until the symptoms of cerebral edema subside. Response is usually noted within 12 to 24 hours and dosage may be reduced after two to four days and gradually discontinued over a period of five to seven days. For palliative management of patients with recurrent or inoperable brain tumors, maintenance therapy with 2 mg two or three times a day may be effective.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Acute Allergic Disorders</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>In acute, self-limited allergic disorders or acute exacerbations of chronic allergic disorders, the following dosage schedule combining parenteral and oral therapy is suggested:</paragraph>
+                        <paragraph>Dexamethasone sodium phosphate injection, 
+  <content styleCode="italics">first day</content>, 4 or 8 mg intramuscularly.
+ </paragraph>
+                        <paragraph>Dexamethasone tablets, 0.75 mg: 
+  <content styleCode="italics">second</content> and 
+  <content styleCode="italics">third days</content>, 4 tablets in two divided doses each day; 
+  <content styleCode="italics">fourth day</content>, 2 tablets in two divided doses; 
+  <content styleCode="italics">fifth</content> and 
+  <content styleCode="italics">sixth days</content>, 1 tablet each day; 
+  <content styleCode="italics">seventh day</content>, no treatment; 
+  <content styleCode="italics">eighth day</content>, follow-up visit.
+ </paragraph>
+                        <paragraph>This schedule is designed to ensure adequate therapy during acute episodes, while minimizing the risk of overdosage in chronic cases.</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever the solution and container permit.</paragraph>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_699987a2-efad-8422-e053-2991aa0abbdf">
+                     <id root="6999ae36-eddd-ca0a-e053-2991aa0a4777"/>
+                     <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+                     <title>HOW SUPPLIED</title>
+                     <text>
+                        <paragraph>Dexamethasone Sodium Phosphate Injection, USP 
+  <content styleCode="bold">(Preservative Free)</content> equivalent to 10 mg dexamethasone phosphate, is supplied in a single dose vial as follows:
+ </paragraph>
+                        <paragraph/>
+                        <table border="4" cellpadding="1" cellspacing="1" width="100%">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">Product </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">No.</content>
+                                    </paragraph>
+                                 </td>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">NDC.</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">No.</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Botrule" valign="middle">
+                                    <content styleCode="bold">Strength</content>
+                                 </td>
+                                 <td valign="middle">Vial Size</td>
+                              </tr>
+                              <tr>
+                                 <td>500601</td>
+                                 <td>63323-506-01</td>
+                                 <td>10 mg per mL</td>
+                                 <td>1 mL vial, packaged in twenty-fives.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Dexamethasone Sodium Phosphate Injection, USP 
+  <content styleCode="bold">(Preserved)</content> equivalent to 10 mg dexamethasone phosphate, is supplied in a multiple dose vial as follows:
+ </paragraph>
+                        <paragraph/>
+                        <table border="4" width="100%">
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">Product</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">No.</content>
+                                    </paragraph>
+                                 </td>
+                                 <td>
+                                    <paragraph>
+                                       <content styleCode="bold">NDC.</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">No.</content>
+                                    </paragraph>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Strength</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="bold">Vial Size</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>501610</td>
+                                 <td>63323-516-10</td>
+                                 <td>
+                                    <paragraph>100 mg per 10 mL</paragraph>
+                                    <paragraph>(10 mg per mL)</paragraph>
+                                 </td>
+                                 <td>10 mL vial, packaged in tens.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                        <paragraph>This container closure is not made with natural rubber latex.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Storage</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature]. Sensitive to heat. Do not autoclave.</paragraph>
+                        <paragraph/>
+                        <paragraph>Protect from freezing.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Protect from light.</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Single dose vials–Store in container until time of use. Discard unused portion.</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">Multiple dose vials–Store in container until contents are used.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_6999b5db-1060-cf46-e053-2a91aa0a4ef6">
+                     <id root="6999b5db-105f-cf46-e053-2a91aa0a4ef6"/>
+                     <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+                     <title>REFERENCES</title>
+                     <text>
+                        <list listType="ordered">
+                           <item>Cavanagh, D.; Singh, K.B.: Endotoxin shock in pregnancy and abortion, in: “Corticosteroids in the Treatment of Shock”, Schumer, W.; Nyhus, L.M., Editors, Urbana, University of Illinois Press, 1970, pp. 86-96.</item>
+                           <item>Dietzman, R.H.; Ersek, R.A.; Bloch, J.M.; Lilleheir, R.C.: High-output, low-resistance gram-negative septic shock in man, Angiology 20: 691-700, Dec. 1969.</item>
+                           <item>Frank, E.: Clinical observations in shock and management (in: Shields, T.F., ed.: Symposium on current concepts and management of shock), J. Maine Med. Ass. 59: 195-200, Oct. 1968.</item>
+                           <item>Oaks, W. W.; Cohen, H.E.: Endotoxin shock in the geriatric patient, Geriat. 22: 120-130, Mar. 1967.</item>
+                           <item>Schumer, W.; Nyhus, L.M.: Corticosteroid effect on biochemical parameters of human oligemic shock, Arch. Surg. 100: 405-408, Apr. 1970.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_6999e17f-5e60-012e-e053-2a91aa0aaadc">
+                     <id root="6999e17f-5e61-012e-e053-2a91aa0aaadc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>SPL UNCLASSIFIED SECTION</title>
+                     <text>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="img_6999e17f-5e5e-012e-e053-2a91aa0aaadc"/>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>45955E</paragraph>
+                        <paragraph/>
+                        <paragraph>Revised: May 2014</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                     <component>
+                        <observationMedia ID="img_6999e17f-5e5e-012e-e053-2a91aa0aaadc">
+                           <text>Fresenius Kabi</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="fresenius kabi.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_699a07b6-f94b-1c5f-e053-2a91aa0a7e9c">
+                     <id root="699a07b6-f94c-1c5f-e053-2a91aa0a7e9c"/>
+                     <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+                     <title>DEXAMETHASONE SODIUM PHOSPHATE INJECTION, USP 10 mg per mL</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">PACKAGE LABEL - PRINCIPAL DISPLAY - Dexamethasone 1 mL Vial Label     </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">NDC</content> 63323-506-01
+ </paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>500601</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">DEXAMETHASONE SODIUM PHOSPHATE INJECTION, USP</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">10 mg per mL</content>
+                        </paragraph>
+                        <paragraph/>
+                        <paragraph>For IV or IM Use Only         Rx only</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">1 mL</content> Single Dose Vial
+ </paragraph>
+                        <paragraph/>
+                        <paragraph>Preservative Free</paragraph>
+                        <paragraph/>
+                        <paragraph>Discard unused portion</paragraph>
+                        <paragraph/>
+                        <paragraph>PROTECT FROM LIGHT.</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="img_699a07b6-f949-1c5f-e053-2a91aa0a7e9c"/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                     <component>
+                        <observationMedia ID="img_699a07b6-f949-1c5f-e053-2a91aa0a7e9c">
+                           <text>63323-506-01</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="dexa 63323-506-01.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_699a35f1-a56a-2e56-e053-2991aa0a127d">
+               <id root="699a35f1-a569-2e56-e053-2991aa0a127d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>POVIDONE IODINE</title>
+               <text>
+                  <paragraph>Povidone-Iodine Swabsticks</paragraph>
+                  <paragraph/>
+                  <paragraph>For External Use Only</paragraph>
+                  <paragraph/>
+                  <paragraph>NDC# 67777-130-02</paragraph>
+               </text>
+               <effectiveTime value="20180416"/>
+               <component>
+                  <section ID="id_link_699a6066-3fed-32c2-e053-2991aa0a65a9">
+                     <id root="699a62a8-6e1f-2b2d-e053-2991aa0ac5c9"/>
+                     <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+                     <title>ACTIVE INGREDIENT</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Active Ingredient.............................. Purpose</content>
+                        </paragraph>
+                        <paragraph>Povidone Iodine 10% v/v.................. Antiseptic</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69a9af1a-79bf-02c5-e053-2a91aa0ab34e">
+                     <id root="69a9af1a-79be-02c5-e053-2a91aa0ab34e"/>
+                     <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+                     <title>Purpose</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>First aid antiseptic to help prevent skin infection in minor cuts, scrapes and burns.</item>
+                           <item>For preparation of the skin prior to surgery.</item>
+                           <item>Helps reduce bacteria that can potentially cause skin infections.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69a9f218-e56c-f9fb-e053-2a91aa0a0698">
+                     <id root="69a9f218-e56b-f9fb-e053-2a91aa0a0698"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>WARNINGS</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">FOR EXTERNAL USE ONLY</content>
+                           </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69a9fdd8-d1c1-69f3-e053-2a91aa0aa320">
+                     <id root="69a9fdd8-d1c0-69f3-e053-2a91aa0aa320"/>
+                     <code code="50570-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - DO NOT USE SECTION"/>
+                     <title>DO NOT USE</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>As a first aid antiseptic for more than 1 week.</item>
+                           <item>In the eyes.</item>
+                           <item>Over large areas of the body.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69aa0ada-6681-161b-e053-2991aa0a3265">
+                     <id root="69aa0ada-6680-161b-e053-2991aa0a3265"/>
+                     <code code="50569-3" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ASK DOCTOR SECTION"/>
+                     <title>ASK A DOCTOR BEFORE USE IF YOU HAVE</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>Deep puncture wounds</item>
+                           <item>Animal bites</item>
+                           <item>Serious burns</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69a9fdd8-d1c6-69f3-e053-2a91aa0aa320">
+                     <id root="69a9fdd8-d1c5-69f3-e053-2a91aa0aa320"/>
+                     <code code="50566-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - STOP USE SECTION"/>
+                     <title>STOP USE</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>If irritation and redness develop</item>
+                           <item>If condition persists for more than 72 hours, consult a physician.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69aa32b7-55c9-6107-e053-2991aa0ab677">
+                     <id root="69aa32b7-55c8-6107-e053-2991aa0ab677"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>KEEP OUT OF REACH OF CHILDREN</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Keep out of reach of children.</content>
+                        </paragraph>
+                        <paragraph>If swallowed, get medical help or contact a Poison Control Center.</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69aa5a6c-a4e7-4713-e053-2991aa0a2e55">
+                     <id root="69aa5a6c-a4e6-4713-e053-2991aa0a2e55"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>DIRECTIONS POVIDONE IODINE</title>
+                     <text>
+                        <paragraph>Tear at notch, remove applicator, use only once.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>
+                           <content styleCode="bold">As a first aid antiseptic</content>
+                        </paragraph>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>clean affected area</item>
+                           <item>apply 1 to 3 times daily</item>
+                           <item>may be covered with a sterile bandage, if bandaged let dry.</item>
+                        </list>
+                        <paragraph/>
+                        <paragraph>
+                           <br/>
+                           <content styleCode="bold">For preoperative patient skin preparation</content>
+                           <br/>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>clean area</item>
+                           <item>apply to operative site prior to surgery using the applicator</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69aa7ae3-a8c9-4f05-e053-2a91aa0a61bc">
+                     <id root="69aa7ae3-a8c8-4f05-e053-2a91aa0a61bc"/>
+                     <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+                     <title>OTHER INFORMATION</title>
+                     <text>
+                        <paragraph>Store at room temperature.</paragraph>
+                        <paragraph>Avoid excessive heat.</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69aa895e-be28-b78f-e053-2a91aa0a4975">
+                     <id root="69aa895e-be27-b78f-e053-2a91aa0a4975"/>
+                     <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+                     <title>INDICATIONS &amp; USAGE</title>
+                     <text>
+                        <paragraph>For use as an</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>first aid antiseptic</item>
+                           <item>pre-operative skin preperation</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69aa96ea-c8a4-c2d1-e053-2a91aa0a63e8">
+                     <id root="69aa96ea-c8a3-c2d1-e053-2a91aa0a63e8"/>
+                     <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+                     <title>INACTIVE INGREDIENTS</title>
+                     <text>
+                        <paragraph>Inactive ingredients: nonoxynol-9, water</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69aa5f2f-ed78-3ee7-e053-2991aa0a7eb1">
+                     <id root="69aad336-b229-1453-e053-2a91aa0aa41c"/>
+                     <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+                     <title>PRINCIPAL DISPLAY PANEL</title>
+                     <text>
+                        <paragraph>Povidone Iodine Swabsticks 1201 &amp; 1202</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="img_69aad336-b228-1453-e053-2a91aa0aa41c"/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                     <component>
+                        <observationMedia ID="img_69aad336-b228-1453-e053-2a91aa0aa41c">
+                           <text>povidone-iodine swabs</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="povidone-iodine swabsticks30.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_69ab157a-51e1-60b8-e053-2a91aa0af914">
+               <id root="69ab157a-51e2-60b8-e053-2a91aa0af914"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>STERILE ALCOHOL PREP PAD</title>
+               <effectiveTime value="20180416"/>
+               <component>
+                  <section ID="id_link_69ab157a-51e4-60b8-e053-2a91aa0af914">
+                     <id root="69ab157a-51e3-60b8-e053-2a91aa0af914"/>
+                     <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+                     <title>ACTIVE INGREDIENT</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Active Ingredient..........................................Purpose</content>
+                        </paragraph>
+                        <paragraph>Isopropyl Alcohol 70% v/v..........................Antiseptic</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69ab3d6c-c86f-07a2-e053-2991aa0aafab">
+                     <id root="69ab3d6c-c86e-07a2-e053-2991aa0aafab"/>
+                     <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+                     <title>USE: ALCOHOL_PREP</title>
+                     <text>
+                        <paragraph>For preparation of the skin prior to injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69ab11ed-886b-13ca-e053-2a91aa0acedf">
+                     <id root="69ab11ed-886a-13ca-e053-2a91aa0acedf"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>WARNINGS</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>For external use only</item>
+                           <item>Flammable, keep away from flame or fire</item>
+                           <item>Not for use with electrocautinary devices or procedures</item>
+                           <item>Do not use in eyes</item>
+                           <item>Sterile unless package is damaged or open.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69ab59f7-b17a-2da4-e053-2a91aa0ab7f9">
+                     <id root="69ab59f7-b179-2da4-e053-2a91aa0ab7f9"/>
+                     <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+                     <title>INDICATIONS AND USAGE</title>
+                     <text>
+                        <paragraph>Stop use and ask a doctor if:</paragraph>
+                        <paragraph/>
+                        <list listType="unordered">
+                           <item>Irritation or redness develops</item>
+                           <item>condition persists for more than 72 hours</item>
+                           <item>Cleansing of an injection site</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69ab3d6c-c872-07a2-e053-2991aa0aafab">
+                     <id root="69ab3d6c-c871-07a2-e053-2991aa0aafab"/>
+                     <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+                     <title>KEEP OUT OF REACH OF CHILDREN</title>
+                     <text>
+                        <paragraph>In case of accidental ingestion, seek professional assistance or consult a poison control center immediately.</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69ab7fc5-d486-5c3b-e053-2991aa0afc17">
+                     <id root="69ab7fc5-d485-5c3b-e053-2991aa0afc17"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>DIRECTIONS</title>
+                     <text>
+                        <paragraph>Wipe injection site vigorously and discard</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69ab7fc5-d488-5c3b-e053-2991aa0afc17">
+                     <id root="69ab7fc5-d487-5c3b-e053-2991aa0afc17"/>
+                     <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+                     <title>OTHER INFORMATION</title>
+                     <text>
+                        <paragraph>Store at room temperature: 15 deg C to 30 deg C   59 deg F to 86 deg F
+  <br/>
+avoid excessive heat
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69aba4f2-8127-9c11-e053-2991aa0afcc1">
+                     <id root="69aba4f2-8126-9c11-e053-2991aa0afcc1"/>
+                     <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+                     <title>INACTIVE INGREDIENT</title>
+                     <text>
+                        <paragraph>Inactive Ingredient</paragraph>
+                        <paragraph>Water</paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_69abc1ab-125d-9b1d-e053-2a91aa0a0c5a">
+                     <id root="69abc1ab-125c-9b1d-e053-2a91aa0a0c5a"/>
+                     <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+                     <title>PRINCIPAL DISPLAY PANEL</title>
+                     <text>
+                        <paragraph>Dynarex Sterile Alcohol Prep Pad</paragraph>
+                        <paragraph/>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="img_69abc1ab-125b-9b1d-e053-2a91aa0a0c5a"/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20180416"/>
+                     <component>
+                        <observationMedia ID="img_69abc1ab-125b-9b1d-e053-2a91aa0a0c5a">
+                           <text>dynarex alcohol prep pad</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="dynarex alcohol pad.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_69abdc38-64b2-d463-e053-2a91aa0ab226">
+               <id root="69fc9ce7-41b6-76a1-e053-2a91aa0a64ff"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>TOPIDEX DEXAMETHASONE 10MG/1ML NDC# 70112-555-02</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_69fc8b9f-0de8-5d25-e053-2a91aa0a6884"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>NDC# 70112-555-02</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>TopiDex</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Rx-Only</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Kit Contains:</paragraph>
+                  <list listType="unordered">
+                     <item>2 Dexamethasone Sodium Phophate Inj., USP 10mg/mL (1 mL)</item>
+                     <item>1 Povidone-Iodine Swabsticks (3 Swabs)</item>
+                     <item>3 Sterile Alcohol Prep Pads</item>
+                     <item>1 Pair Nitrile Powder Free Sterile Glove</item>
+                     <item>1 Sterile Sheer Plastic Bandage</item>
+                     <item>1 Sterile Non-Woven Sponge</item>
+                     <item>1 Sterile Towel Drape</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Needles and syringes not included</paragraph>
+                  <paragraph>For professional office use only</paragraph>
+                  <paragraph>Single Use Only</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Distributed by</paragraph>
+                  <paragraph>Topicare Therapeutics, LLC</paragraph>
+                  <paragraph>1925 Longmire Rd.</paragraph>
+                  <paragraph>Bldg 2</paragraph>
+                  <paragraph>Conroe, TX 77304</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20180416"/>
+               <component>
+                  <observationMedia ID="img_69fc8b9f-0de8-5d25-e053-2a91aa0a6884">
+                     <text>TopiDex</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="TopiDex 70112-555-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

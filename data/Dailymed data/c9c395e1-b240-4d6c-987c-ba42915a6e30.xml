@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c9c395e1-b240-4d6c-987c-ba42915a6e30"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20100101"/>
+   <setId root="1279cb38-f1dd-4e64-8fab-8079441edd28"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="150692478" root="1.3.6.1.4.1.519.1"/>
+            <name>ACS Medical LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="150692478" root="1.3.6.1.4.1.519.1"/>
+                  <name>ACS Medical LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="150692478" root="1.3.6.1.4.1.519.1"/>
+                        <name>ACS Medical LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ed471b03-97c4-4415-9732-289c6ed28501"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20100101"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="10109-1234" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>OXYGEN<suffix/>
+                        </name>
+                        <formCode code="C42933" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GAS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>OXYGEN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="99" unit="L"/>
+                              <denominator value="100" unit="L"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OXYGEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OXYGEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="31" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="10109-1234-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="21" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="10109-1234-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="41" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="10109-1234-4" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20040101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73613" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved medical gas"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="46a07e4d-19b8-4c57-a9fe-1712bff6a9f3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>OXYGEN REFRIGERATED LIQUID LABEL</title>
+               <text>REFRIGERATED LIQUID OXYGEN REFRIGERATED LIQUID USP UN1073  OXYGEN-2  ALWAYS KEEP CONTAINER IN UPRIGHT POSITION.  DO NOT CHANGE OR FORCE FIT CONNECTIONS.  <br/>
+                  <br/>WARNING: FOR EMERGENCY USE ONLY WHEN ADMINISTERED BY PROPERLY TRAINED PERSONNEL FOR OXYGEN DEFICIENCY AND RESUSCITATION.  FOR ALL OTHER MEDICAL APPLICATIONS Rx ONLY.  UNINTERRUPTED USE OF HIGH CONCENTRATIONS OF OXYGEN OVER A LONG DURATION WITHOUT MONITORING ITS EFFECT ON OXYGEN CONTENT OF ARTERIAL BLOOD MAY BE HARMFUL.  USE ONLY WITH PRESSURE REDUCING EQUIPMENT AND APPARATUS DESIGNED FOR OXYGEN.  DO NOT ATTEMPT TO USE ON PATIENTS WHO HAVE STOPPED BREATHING UNLESS USED IN CONJUNCTION WITH RESUSCITATIVE EQUIPMENT.  PRODUCED BY AIR LIQUEFACTION.<br/>
+                  <br/>WARNING: EXTREMELY COLD OXIDIZING LIQUID AND GAS UNDER PRESSURE.  VIGOROUSLY ACCELERATES COMBUSTION.  COMBUSTIBLES IN CONTACT WITH LIQUID OXYGEN MAY EXPLODE ON IGNITION OR IMPACT.  CAN CAUSE SEVERE FROSTBITE.  KEEP OIL, GREASE AND COMBUSTIBLES AWAY.  USE ONLY WITH EQUIPMENT CLEANED FOR OXYGEN SERVICE  STORE AND USE WITH ADEQUATE VENTILATION.  DO NOT GET LIQUID IN EYES, ON SKIN OR CLOTHING.  FOR LIQUID WITHDRAWAL WEAR FACE SHIELD AND GLOVES.  DO NOT DROP.   USE SUITABLE HAND TRUCK FOR CONTAINER MOVEMENT.  AVOID SPILLS.  DO NOT WALK OR ROLL EQUIPMENT OVER SPILLS.   CYLINDER TEMPERATURE SHOULD NOT EXCEED 52 C (125 F)  USE A BACKFLOW PREVENTATIVE DEVICE IN THE PIPING.  USE IN ACCORDANCE WITH THE MATERIAL SAFETY DATA SHEET (MSDS)  FIRST AID: IN CASE OF FROSTBITE OBTAIN MEDICAL TREATMENT IMMEDIATELY.  CAS 7782-44-7  DO NOT REMOVE THIS PRODUCT LABEL<br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="ACSOX1"/>
+                  <br/>
+               </text>
+               <effectiveTime value="20100101"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="ACSOX1">
+                     <text>LIQUID LABEL</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="acs_medical_liq_o2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

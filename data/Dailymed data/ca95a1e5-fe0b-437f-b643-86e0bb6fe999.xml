@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ca95a1e5-fe0b-437f-b643-86e0bb6fe999"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>ISOVUE-M 200 </title>
+   <effectiveTime value="20170117"/>
+   <setId root="60979ac0-024e-4dc8-9a84-c9195093c08d"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="108250663" root="1.3.6.1.4.1.519.1"/>
+            <name>General Injectables &amp; Vaccines, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="108250663" root="1.3.6.1.4.1.519.1"/>
+                        <name>General Injectables &amp; Vaccines, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="relabel"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="52584-411" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ab90860b-7f2e-44b4-b371-e413b4118e49"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20170117"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="52584-411" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ISOVUE-M 200</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Iopamidol</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0270-1411" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="408" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JR13W81H44" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Iopamidol</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="JR13W81H44" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Iopamidol</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="023C2WHX2V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Tromethamine</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="25IH6R4SGF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Edetate Calcium Disodium</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="52584-411-11" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20101105"/>
+                                          <high value="20170117"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20101105"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018735" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38267" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRATHECAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5c81a3b0-061a-4e6d-aa83-60c63430ed54"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>Description</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>Diagnostic </paragraph>
+                  <paragraph>NONIONIC RADIOPAQUE CONTRAST MEDIA</paragraph>
+                  <paragraph>For Intrathecal Administration in Neuroradiology</paragraph>
+                  <paragraph>Including Myelography (Lumbar, Thoracic, Cervical, Total Columnar) Pediatric Myelography (Lumbar, Thoracic), and for Contrast Enhancement of Computed Tomographic (CECT) Cisternography and Ventriculography</paragraph>
+                  <paragraph/>
+                  <paragraph>ISOVUE-M (Iopamidol Injection) formulations are stable, aqueous, sterile, and nonprrogenic solutions for intrathecal administration. Each mL of ISOVUE-M 200 (lopamidol Injection 41%) provides 408 mg iopamidol with 1mg tromethamine and 0.26 mg edetate calcium disodium. The solution contains approximately 0.029 mg (0.001mEq) sodium and 200 mg organically bound iodine per mL. Each mL of ISOVUE-M 300 (lopamidol Injection 61%) provides 612 mg iopamidol with 1 mg tromethamine and 0.39 mg edetate calcium disodium. The solution contains approximately 0.043 mg (0.002 mEq) sodium and 300 mg organically bound iodine per mL. The pH of ISOVUE-M contrast media has been adjusted to 6.5-7.5 with hydrochloric acid and/or sodium hydroxide. Pertinent physicochemical data are noted below. ISOVUE-M (lopamidol Injection) is hypertonic as compared to plasma and cerbrospinal fluid (approximately 285 and 301 mOsm/kg water, respectively).</paragraph>
+                  <paragraph/>
+                  <table ID="i8801f0ce-11cb-4832-8013-2e0685fd8a55" width="100%">
+                     <tbody>
+                        <tr>
+                           <td/>
+                           <td>Iopamidol</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Parameter</td>
+                           <td>41%</td>
+                           <td>61%</td>
+                        </tr>
+                        <tr>
+                           <td>  Concentration</td>
+                           <td>200</td>
+                           <td>300</td>
+                        </tr>
+                        <tr>
+                           <td>   (mgl/mL)</td>
+                           <td/>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td> Osmolality @ 37 degrees C</td>
+                           <td>413</td>
+                           <td>616</td>
+                        </tr>
+                        <tr>
+                           <td>  (mOsm/kg water)</td>
+                           <td/>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td> Visosity (cP) @ 37 degrees C</td>
+                           <td>2.0</td>
+                           <td>4.7</td>
+                        </tr>
+                        <tr>
+                           <td>                   @ 20 degrees C</td>
+                           <td>3.3</td>
+                           <td>8.8</td>
+                        </tr>
+                        <tr>
+                           <td>Specific Gravity @37 degrees C</td>
+                           <td>1.216</td>
+                           <td>1.328</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Iopamidol is designated chemically as (s)-N,N'-bis[2-hydroxy-1-(hydroxymethyl)-ethyl]-2, 4, 6,-triiodo-5-lactamidoisophthalamide. Structural formula:<br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="Formula1"/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170117"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="Formula1">
+                     <text>Formula1.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Formula1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a1df2894-45d5-46a5-93ab-21ae8417e6f6"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>Clinical Pharmacology</title>
+               <text>
+                  <paragraph>The pharmacokinetics of intravenously administered iopamidol in normal
+subjects conform to an open two-compartment model with first order
+elimination (a rapid alpha phase for drug distribution and a slow beta
+phase for drug elimination). The elimination serum or plasma half-life
+is approximately two hours; the half-life is not dose dependent. No
+significant metabolism, deiodination, or biotransformation occurs.
+Iopamidol is rapidly absorbed into the bloodstream from cerebrospinal
+fluid (CSF); following intrathecal administration, iopamidol apperrs in
+plasma within one hour and virtually all of the drug reaches the
+systemic circulation within 24 hours, Iopamidol is excreted mainly
+through the kidneys following intrthecal administration, and the drug
+is essentially undetectable in the plasma 48 hours later. In patients
+with impaired renal function, the elimination half-life is prolonged
+dependent upon the degree of impairment. In the absence of renal
+dysfunction, the cumulative urinary excretion for iopamidol, expressed
+as a percentage of administered intravenous dose is approximately 35 to
+40 percent at 60 minutes, 80 to 90 percent at 8 hours, and 90 percent
+or more in the 72- to 96-hour period after admininstration. In normal
+subjects approximately 1 percent or less of the administered dose
+appears in cumulative 72- to 96-hour fecal specimens. Iopamidol
+displays little tendency to bind to serum or plasma proteins. No
+evidence of in vivo complement activation has been found in normal
+subjects. Animal studies indicate that iopamidol does not cross the
+blood-brain barrier to any significant extent following intravascular
+administration.</paragraph>
+               </text>
+               <effectiveTime value="20101105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5904a6da-0e22-4b4a-8831-7883b0164a51"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications and Usage</title>
+               <text>
+                  <paragraph>ISOVUE-M (Iopamidol Injection) is indicated for intrathecal
+administration in adult neuroradiology inculding myelography(lumbar,
+thoracic, cervical, total columnar), and for contrast enhancement of
+computed tomographic (CECT) cisternography and ventriculography.
+ISOVUE-M 200 (lopamidol Injection) is indicated for thoraco-lumbar
+myelography in children over the age of two years.</paragraph>
+               </text>
+               <effectiveTime value="20101105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d782879f-f3ea-4614-9043-e5a5814afaa4"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>Contraindications</title>
+               <text>
+                  <paragraph>Intrathecal administration of corticosteroids with iopamidol is
+contraindicated. Because of overdosage considerations, immediate repeat
+myelography in the event of technical failure is contraindicated (see
+interval recommendation under DOSAGE AND ADMINISTRATION). Myelography
+should not be performed in the presence of significant local or
+systemic infection where bacteremia is likely.</paragraph>
+               </text>
+               <effectiveTime value="20101105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0bbacd1a-a2c4-47cd-8590-ba2983d284a2"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings</title>
+               <text>
+                  <paragraph>The need for myelographic examination should be
+carefully evaluated. Iopamidol should be administered with caution in
+patients with increased intrcranial pressure or suspicion of
+intracranial tumor, abscess or hematoma, those with a history of
+convulsive disorder, severe cardiovascular disease, chronic alcoholism,
+or multiple sclerosis, and elderly patients. Particular attention must
+be given to state of hydration, concentration of medium, dose, and
+technique used in these patients. Contrast media may promote sickling
+in individuals who are homozygous for sickle cell disease when injected
+intravenously or intra-arterially. Although ISOVUE-M is not injected
+intravascularly, measurable plasma levels are attained after
+intrathecal administration of iopamidol. If frankly bloody
+cerebrospinal fluid is observed, the possible benefits of a
+myelographic examination should be considered in terms of risk to the
+patient. <br/>
+                  </paragraph>
+                  <paragraph>Patients on anticonvulsant medication should be maintained on this therapy.</paragraph>
+                  <paragraph>Direct
+intracisternal or ventricular administration for standard radiography
+(without computerized tomographic enhancement) is not recommended.
+Inadvertent intracranial entry of a large or concentrated bolus of the
+contrast medium, which increase the risk of neurotoxicity, can be
+prevented by careful patient management. Also, effort should be
+directed to avoid rapid dispersion of the medium causing inadvertent
+rise to intracranial levels (e.g., by active patient movement). If such
+intracranial entry of the medium occurs, prophylactic anticonvulsant
+treatment with diazepam or barbiturates orally for 24 to 48 hours
+should be considered.</paragraph>
+                  <paragraph>Use of medications that may lower the
+seizure thresnold (phenothiazine derivatives, including those used for
+their antihistaminic properties; tricyclic antidepressants; MAO
+inhibitors; CNS stimulants; analeptics; antipsychotic agents) should be
+carefully evaluated While the contributory role of such medications has
+not been established, some physicians have discontinued these agents at
+least 48 hours before and for at least 24 hours following intrathecal
+use.</paragraph>
+                  <paragraph>Focal and generalized motor seizures have been reported
+after intrathecal use of water-soluble contrast agents including
+iopamidol. In several of those cases reported with iopamidol, higher
+than recommended doses were employed. Therfore avoid:</paragraph>
+                  <list listType="unordered" ID="i0328fbf7-df0f-4cb4-8a74-ca893c2d9d52">
+                     <item>Deviations from recommended neuroradiologic procedure or patient management.</item>
+                     <item>Use in patients with a history of epilepsy unless medically justified. <br/>
+                     </item>
+                     <item>Overdosage.</item>
+                     <item>Intracranial entry of a bolus or premature diffusion of a high concentration of the medium.</item>
+                     <item>Failure to maintain elvation of the head during the procedure, on the stretcher, and in bed.</item>
+                     <item>Excessive and particularly active patient movement or straining.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20101105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f916b144-a466-4d97-be4d-d6343901586f"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>Precautions</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                  </paragraph>
+                  <paragraph>Diagnostic procedures which involve the use of any radiopaque agent should be carried out under the direction of personnel with the prerequisite training and with a thorough knowledge of the particular procedure to be performed. Appropriate facilities should be available for coping with any complication of the procedure, as well as for emergency treatment of severe reaction to the contrast agent itself. After parenteral administration of a radiopaque agent, competent personnel and emergency facilities should be available for at least 30 to 60 minutes since sever delayed reactions may occur.</paragraph>
+                  <paragraph>Preparatory dehydration is dangerous and may contribute to acute renal failure in patients with advanced vascular disease, diabetic patients, and in susceptible nondiabetic patients (often elderly with preexisting renal disease). Patients should be well hydrated prior to and following iopamidol administration.</paragraph>
+                  <paragraph>Preparatory dehydration is dangerous and may contribute to acute renal failure in patients with advanced vascular disease, diabetic patients, and in susceptible nondiabetic patients (often elderly with preexisting renal disease). Patients should be well hydrated prior to following iopamidol administration.</paragraph>
+                  <paragraph>The possibility of a reaction, including serious, life-threatening, fatal, anaphylactoid or cardiovascular reactions, should always be considered (see ADVERSE REACTIONS). Patients at increased risk include those with a history of a previous reaction to a contrast medium, patients with a know sensitivity to iodine per se, and patients with a know clinical hypersensitivity (bronchial asthma, hay fever, and food allergies). The occurrence of sever idiosyncratic reactions has prompted the use of several pretesting methods. However, pretesting cannot be relied upon to predict severe reactions and may itself be hazardous for the patient. It is suggested that a thorough medical history with emphasis on allergy and hypersensitivity, prior to the injection of any contrast medium, may be more accurate than pretesting in predicting potential adverse reactions. A positive history of allergies or hypersensitivity does not arbitrarily contraindicate the use of a contrast agent where a diagnostic procedure is thought essential, but caution should be exercised. Premedication with antihistamines or corticosteroids to avoid or minimize possible allergic reactions in such patients should be considered (see CONTRAINDICATIONS).</paragraph>
+                  <paragraph>Reports indicate that such pretreatment does not prevent serious life-threatening reactions, but may reduce both their incidence and severity.</paragraph>
+                  <paragraph>The possibility of inducing bacterial meningitis in patients during intrathecal procedures should always be considered. To avoid bacterial contamination during spinal puncture, a sterile field should be maintained at all times.</paragraph>
+                  <paragraph>If nondisposable equipment is used, scrupulous care should be taken to prevent residual contamination with traces of cleansing agents.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients</content>
+                  </paragraph>
+                  <paragraph>Patients receiving injectable radiopaque diagnostic agents should be instructed to:</paragraph>
+                  <paragraph>1. Inform your physician if you are pregnant.</paragraph>
+                  <paragraph>2. Inform your physician if you are diabetic or if you have multiple myeloma, pheochromocytoma, homozygous sickle cell disease, or known        thyroid disorder.</paragraph>
+                  <paragraph>3. Inform your physician if you are allergic to any drugs, food, or if you had any reactions to previous injections of substance used for x-ray procedures (see PRECAUTIONS-General).</paragraph>
+                  <paragraph>4. Inform your physician about any other medications you are currently taking, including nonprescription drug, before you have this procedure.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>Other drugs should not be admixed with iopamidol (see CONTRAINDICATIONS, and DOSAGE AND ADMINISTRATION, Drug Incompatibilities).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug/Laboratory Test Interactions</content>
+                  </paragraph>
+                  <paragraph>The results of PBI and radioactive iodine uptake studies, which depend on iodine estimations, will not accurately reflect thyroid function for up to 16 days following administration of iodinated contrast media. However, thyroid function tests not depending on iodine estimations, e.g., T3 resin uptake and total or free thyroxine (T4) assays are not affected. Any test which might be affected by contrast media should be performed prior to administration of the contrast medium.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Laboratory Test Findings</content>
+                  </paragraph>
+                  <paragraph>In vitro studies with animal blood showed that many radiopaque contrast agents, including iopamidol, produced a slight depression of plasma coagulation factors including prothrombin time, partial thromboplastin time, and fibrinogen, as well as a slight tendency to cause platelet and /or red blood cell aggregation.<br/>Transitory changes may occur in red cell and leucocyte counts, serum calcium, serum creatinine, serum glutamic oxalacetic transaminase (SGOT), and uric acid in urine; transient albuminuria may occur.<br/>These findings have not been associated with clinical manifestations.<br/>
+                     <br/>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility<br/>
+                     </content>Long-term studies in animals have not been performed to evaluate carcinogenic potential. No evidence of genetic toxicity was obtained in vitro tests.<br/>
+                     <br/>
+                     <content styleCode="bold">Pregnancy: </content>
+                     <content styleCode="italics">Teratogenic Effects</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">Pregnancy Category B </content>Reproduction studies have been performed in rats and rabbits at doses up to 2.7 and 1.4 times the maximum recommended human dose (1.48gl/kg in a 50kg individual). respectively, and have revealed no evidence of impaired fertility or harm to the fetus due to iopamidol. There are, however, no adequate and well-control studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only id clearly needed.<br/>
+                     <br/>
+                     <content styleCode="bold">Nursing Mothers</content>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when iopamidol is administered to a nursing woman.<br/>
+                     <br/>
+                     <content styleCode="bold">Pediatric Use<br/>
+                     </content>See DOSAGE AND ADMINISTRATION section.</paragraph>
+               </text>
+               <effectiveTime value="20170117"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="cfdbe9de-09c5-456a-b4c1-63d5e2b523ba"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reaction</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>The most frequently reported adverse reactions following intrathecal administration of iopamidol are headache, nausea, vomiting, and musculoskeletal pain. These reactions usually occur 1 to 10 hours after injection, almost all occurring within 24 hours. They are usually mild to moderate in degree, lasting for a few hours and usually disappearing within 24 hours. Rarely, headaches may be severe or persist for days. Headache is often accompanied by nausea and vomiting, and tends to be more frequent and persistent in patients not optimally hydrated. Backache, neck stiffness, numbness and paresthesias, leg or sciatic-type pain occurred less frequently, often in the form of a transient exacerbation of preexisting symptomatology. Transient alterations in vital signs may occur and their significance must be assessed on an individual basis. </paragraph>
+                  <paragraph>The following table of incidence of reactions is based on clinical studies with ISOVUE-M (lopamidol Injection) in about 686 patients.</paragraph>
+                  <table ID="i18d09a4e-11ed-450a-852d-b5e6ba0bcea0" width="100%">
+                     <caption>Adverse Reactions</caption>
+                     <tbody>
+                        <tr>
+                           <td/>
+                           <td>Estimated Overall Incidence</td>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>System</td>
+                           <td>Greater than 1%</td>
+                           <td>less than or Equal to 1%</td>
+                        </tr>
+                        <tr>
+                           <td>Body as a Whole</td>
+                           <td>headache (16.4%)</td>
+                           <td>pyrexia</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>muscle weakness</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>hot flashes</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>malaise</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>fatigue</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>weakness</td>
+                        </tr>
+                        <tr>
+                           <td>Digestive</td>
+                           <td>nausea (7.3%)</td>
+                           <td>diarrhea</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td>vomiting (3.6%)</td>
+                           <td>heartburn</td>
+                        </tr>
+                        <tr>
+                           <td>Musculoskeletal</td>
+                           <td>back pain (2.2%)</td>
+                           <td>leg cramps</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td>leg pain (1.4%)</td>
+                           <td>sciatica</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td>neck pain (1.1%)</td>
+                           <td>cervicobrachial irritation</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>meningeal irritation</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>radicular irritation</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>   lumbosacral</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>other musculoskeletal</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>   pain</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>involuntary movement</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>burning sensation</td>
+                        </tr>
+                        <tr>
+                           <td>Cardiovascular</td>
+                           <td>hypotension (1.1%)</td>
+                           <td>tachycardia</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>hypertension</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>chest pain</td>
+                        </tr>
+                        <tr>
+                           <td>Nervous</td>
+                           <td>none</td>
+                           <td>emotional stress</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>dizziness</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>paresthesia</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>confusion</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>hallucinations</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>lightheadedness</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>syncope</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>numbness</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>cold extremities</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>ataxia</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>irritability</td>
+                        </tr>
+                        <tr>
+                           <td>Urogenital</td>
+                           <td>none</td>
+                           <td>urinary retention</td>
+                        </tr>
+                        <tr>
+                           <td>Respiratory</td>
+                           <td>none</td>
+                           <td>dyspnea</td>
+                        </tr>
+                        <tr>
+                           <td>Skin and Appendages</td>
+                           <td>none</td>
+                           <td>rash</td>
+                        </tr>
+                        <tr>
+                           <td>Miscellaneous </td>
+                           <td>none</td>
+                           <td>injection site pain</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Other adverse effects reported in clinical literature for iopamidol include facial neuralgia, tinnitus, and sweating. <br/>Major motor seizures have been reported in the clinical literature and since market introduction in th eUnited States. Early onset of seizures (less than two hours) is indicative of early substantial intrcranial entry. Transitory EEG changes occur and usually take the form of slow wave activity.<br/>While not observed in controlled clinical studies with ISOVUE-M (Iopamidol Injection), the following adverse reactions may occur because they have been reported with ISOVUE-M and other nonionic water soluble contrast agents: cardiovascular (arrhythmias); pulmonary (apnea); bacterial meningitis, and aseptic meningitis syndrome; allergy or idiosyncrasy (chills, pruritus, nasal congestion, Guillain_Barre syndrome); CNS irritation (psycho-organic syndrome : mild and transitory perceptual aberrations such as depersonalization, anxiety, deppression, hyperreflexia or areflexia, hypertonia or flaccidity, restlessness, tremor, echoacousia,echolalia, asterixis or dysphasia have occurred). Profound mental disturbances have rarely been reported (various forms and degrees of aphasia, mental confusion or disorientation); the onset is usually at 8 to 10 hours and lasts for about 24 hours without aftereffects. However, occasionally they have been manifest as apprehension, agitation or progressive withdrawal to the point of stupor or coma. In a few cases, these have been accompanied by transitory hearing loss or other auditory symptoms and visual disturbances (believed subjective or delusional). Persistent cortical loss of vision in association with convulsions, and ventricular block have been reported. Rarely, persistent though transitory weakness in the leg or ocular muscles has been reported. Peripheral neuropathies have been rare and transitory. They include sensory and/or motor or nerve root disturbances, myelitis, persistent leg muscle pain or weakness, or sixth nerve palsy, or cauda equina syndrome. Muscle cramps, fasciculation or myoclonia, spinal convulsion, paralysis, or spasticity are unusual.<br/>
+                     <br/>
+                     <content styleCode="bold">General Adverse Reactions To Contrast Media</content>Reactions known to occur with parenteral administration of iodinated ionic contrast agents (see the listing below) are possible with any nonionic agent. Approximately 95 percent of adverse reactions accompanying the use of other water-soluble intrvascularly administered contrast agents are mild to moderate in degree. However, life-threatening reactions and fatalities, mostly of cardiovascular origin, have occurred. Reported incidences of death from the administration of other iodinated contrast media range from 6.6 per 1 million (0.00066 percent) to 1 in 10,000 patients (0.01 percent). Most deaths occur during injection or 5 to 10 minutes later, the main feature being cardiac arrest with cardiovascular disease as the main aggravating factor. Isolated reports of hypotensive collapse and shock are found in the literature. The incidence of shock is estimated to be 1 out of 20,000 (0.005 percent) patients.<br/>Adverse reactions to injectable contrast media fall into two categories: chemotoxic reactions and idiosyncratic reactions. Chemotoxic reactions result from the physicochemical properties of the contrast medium, the dose, and the speed of injection. All hemodynamic disturbances and injuries to organs or vessels perfused by the contrast medium are included in this category. During intrathecal use, there is a lower incidence of electroencephalographic changes as well as neurotoxicity by virtue of the intrinsic properties of the iopamidol molecule.<br/>Idiosyncratic reactions include all other reactions. They occur more frequently in patients 20 to 40 years old. Idiosyncratic reactions may or may not be dependent on the amount of drug injected, the speed of injection, the mode of injection, and the radiographic procedure. Idiosyncratic reactions are subdivided into minor, intermediate, and severe. The minor reactions are self-limited and of short duration; the severe reactions are life-threatening and treatment is urgent and mandatory.<br/>The reported incidence of adverse reactions to contrast media in patients with a history of allergy is twice that for the general population. Patients with a history of previous reactions to a contrast medium are three times more susceptible than other patients. However, sensitivity to contrast media does not appear to increase with repeated examinations. Most adverse reactions to intravascular contrast agents appear within one to three minutes after the start of injection, but delayed reactions may occur (see <content styleCode="bold">PRECAUTIONS-GENERAL</content>).<br/>Because measurable plasma levels are attained following the intrathecal administration of lopamidol, adverse reactions reported with the use of intravascular contrast agents are theoretically possible.  These include:<br/>
+                     <content styleCode="italics">Cardiovascular:</content> vasodilation (feeling of warmth), cerebral hematomas, hemodynamic disturbances, sinus brady cardia, transient electrocardiographic abnormalities, ventricular fibrillation, pentechiae.<br/>
+                     <content styleCode="italics">Digestive:</content> nausea, vomiting, severe unilateral or bilateral swelling of the parotid and submaxillary glands.<br/>
+                     <content styleCode="italics">Nervous:</content>  paresthesia, dizziness, convulsions, paralysis, coma.<br/>
+                     <content styleCode="italics">Respiratory:</content> increased cough, asthma, dyspnea, laryngeal edema, pulmonary edema, bronchospasm, rhinitis.<br/>
+                     <content styleCode="italics">Skin and Appendages:</content> injection site pain usually due to extravasation and/or erythematous swelling, skin necrosis, urticaria.<br/>
+                     <content styleCode="italics">Urogenital:</content> osmotic nephrosis of proximal tubular cells, renal failure, pain.<br/>
+                     <content styleCode="italics">Special Senses:</content> perversion of taste; bilateral ocular irritation; lacrimation; itching; conjunctival chemosis, infection, and conjunctivitis.<br/>The following reactions may also occur:  neutropenia, thrombophlebitis, flushing, pallor, weakness, severe retching and chocking, wheezing, cramps, tremors, and sneezing.</paragraph>
+               </text>
+               <effectiveTime value="20170117"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="15d49222-96b6-4735-a7b8-1fb2befcfdd9"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>Overdosage</title>
+               <text>
+                  <paragraph>A dose of 3000 mgl in adults and 2400 mgl in children is sufficient for
+most myelographic procedures.  Doses above these levels may result in
+an increased frequency and severity of adverse reactions including
+seizures.  However, in myelography, even use of a recommended dose can
+produce mental aberrations tantamount to overdosage, if incorrect
+management of the patient during or immediately following the procedure
+permits inadvertent early intracranial entry of a large portion of the
+medium.<br/>Treatment of an overdose of an injectiable radiopaque
+contrast medium is directed toward the support of all vital functions,
+and prompt institution of symptomatic therapy.</paragraph>
+               </text>
+               <effectiveTime value="20101105"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9546dbc4-24ec-4c77-8f32-1560e0c1418b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage and Administration</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>In <content styleCode="bold">adults</content> a solution that is approximately isotonic (ISOVUE-M 200) is recommended for examination of the lumbar region.  For movement of the contrast medium to distant target areas the more concentrated ISOVUE-M 300 preparation should be used to compensate for dilution of ISOVUE-M (lopamidol Injection) with cerebrospinal fluid.<br/>
+                     <br/>The usual recommended adult dose range for iopamidol is 2000-3000 mg iodine.  Iopamidol formulated to contain more than 300 mgl/ml should not be used intrathecally in adults.  The minimum dose needed to perform a procedure should always be used.</paragraph>
+                  <paragraph>In <content styleCode="bold">pediatric patients</content>, a solution that is approximately isotonic (ISOVUE-M 200) is recommended for all intrathecal procedures.  In children, loss of contrast due to mixing on movement of the medium is less apt to occur because of their shorter spinal cord.  </paragraph>
+                  <paragraph>The usual recommended pediatric dose range for iopamidol is 1400-2400 mg iodine.  Iopamidol formulated to contain more than 200 mgl/ml should not be used.  See pediatric dosage table for recommended dosage.<br/>
+                     <br/>Anesthesia is not necessary.  However, young children may require general anesthesia for technical reasons.  Premedication with sedatives or tranquillizers is usually not needed.  In patients with a history of seizure activity who are on anticonvulsant therapy, premedication with barbiturates or phenytoin should be considered.<br/>
+                     <br/>Lumbar puncture is usually made between L3 and L4; if pathology is suspected at this level, the interspace immediately above or below may be selected.  A lateral cervical puncture may also be used.<br/>
+                     <br/>Rate of Injection:  To avoid excessive mixing with cerebrospinal fluid and consequent loss of contrast as well as premature cephalad dispersion, injection must be made slowly over one to two minutes; the needle may<br/>then be removed.<br/>
+                     <br/>An interval of at least 48 hours should be allowed before repeat examination; however, whenever possible five to seven days is<br/>recommended.<br/>
+                     <br/>As with all radiopaque contrast agents, only the lowest dose of ISOVUE-M necessary to obtain adequate visualization should be used.  A lower dose reduces the possibility of an adverse reaction.  Most procedures do not require use of either a maximum dose or the highest available concentration of ISOVUE-M; the combination of dose and ISOVUE-M concentration to be used should be carefully individualized, and factors such as age, body size, anticipated pathology and degree and extent of opacification required, structure(s) or area to be examined, disease processes affecting the patient, and equipment and technique to be employed should be considered. Following are the usual recommended pediatric and adult doses of ISOVUE-M.<br/>
+                     <br/>The pediatric doses listed below, intended as a guideline, are based on age rather than weight because the brain and CSF capacity is independent of weight.  Variations will depend on such factors as height, suspected pathology, the patient's condition, technique used, etc. (e.g. CT or standard radiology or movement of the contrast media directed distal to the sit of injection).</paragraph>
+                  <table ID="ic100c3e2-5c1b-4a3a-8c95-1f89bb5598c3" width="100%">
+                     <caption>Pediatric Dosage Table ISOVUE-M 200 (200mgl/mL)</caption>
+                     <tbody>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>Usual</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td>Age</td>
+                           <td>Recommended</td>
+                        </tr>
+                        <tr>
+                           <td>Procedure</td>
+                           <td>Years</td>
+                           <td>Dose (mL)</td>
+                        </tr>
+                        <tr>
+                           <td>Lumbar, thoracic myelogram</td>
+                           <td>2-7</td>
+                           <td>7-9</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td>8-12</td>
+                           <td>8-11</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td>13-18</td>
+                           <td>10-12</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <table ID="i1339bd34-aec7-46c4-824f-01bf4ea289bb" width="100%">
+                     <caption>Adult Dosage Table</caption>
+                     <tbody>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td>Usual</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td>Concentration</td>
+                           <td>Recommended</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td>of Solution</td>
+                           <td>Dose</td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td>(mgl/mL)</td>
+                           <td>(mL)</td>
+                        </tr>
+                        <tr>
+                           <td>Lumbar myelogram</td>
+                           <td>200</td>
+                           <td>10 to 15</td>
+                        </tr>
+                        <tr>
+                           <td>Thoracic myelogram</td>
+                           <td>200</td>
+                           <td>10 to 15</td>
+                        </tr>
+                        <tr>
+                           <td>Cervical myelogram</td>
+                           <td>200</td>
+                           <td>10 to 15</td>
+                        </tr>
+                        <tr>
+                           <td>   (via lumbar injection)</td>
+                           <td>300</td>
+                           <td>10</td>
+                        </tr>
+                        <tr>
+                           <td>Cervical myelogram</td>
+                           <td>200</td>
+                           <td>10</td>
+                        </tr>
+                        <tr>
+                           <td>   (via lateral cervical injection)</td>
+                           <td/>
+                           <td/>
+                        </tr>
+                        <tr>
+                           <td>Total columnar myelography</td>
+                           <td>300</td>
+                           <td>10</td>
+                        </tr>
+                        <tr>
+                           <td>CT cisternography</td>
+                           <td>200</td>
+                           <td>4 to 6</td>
+                        </tr>
+                        <tr>
+                           <td>   (via lumbar injection)</td>
+                           <td/>
+                           <td/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Following subarachnoid injection, conventional radiography will continue to provide good diagnostic contrast for at lease 30 minutes.  At about one hour, diagnostic degree of contrast will not usually be available.  However, suffiicient contrast for CT myelography will be available for several hours.  CT myelography following conventional myelography should be deferred for at least four hours to reduce the degree of contrast. Aspiration of iopamidol is unnecessary following intrathecal administration (see <content styleCode="bold">CLINICAL PHARMACOLOGY</content>).<br/>
+                     <br/>It is desirable that solutions of radio paque diagnostic agents for intrathecal use be at body temperature when injected.  In the even that crystallization of the medium has occurred, place the vial in hot (60 degree to 100 degree C) water for about five minutes, then shake gently to obtain a clear solution.  Cool to body temperature before use.<br/>
+                     <br/>Discard vial without use if solids persist.<br/>
+                     <br/>Withdrawal of contrast agents from their containers should be accomplished under aseptic conditions with sterile syringes.   Spinal puncture must always be performed under sterile conditions. <br/>
+                     <br/>Parenteral drug products should be inspected visually for particulate matter and discolorationprior to administration, whenever solution and container permit.  Iopamidol solutions should be used only if clear and within the normal colorless to pale yellow range.<br/>
+                     <br/>Patients should be well hydrated prior to and following ISOVUE-M (Iopamidol Injection) administration.<br/>
+                     <br/>
+                     <content styleCode="bold">Suggestions for Usual Patient Management<br/>Preprocedure</content>
+                     <br/>
+                     <br/>    * See <content styleCode="bold">WARNINGS</content> regarding discontinuation of neuroleptic agents<br/>    * Maintain normal diet up to 2 hours before procedure<br/>    * Ensure hydration-fluids up to time of procedure<br/>
+                     <br/>
+                     <content styleCode="bold">During Procedure</content>
+                     <br/>
+                     <br/>    * Use minimum dose and concentration required for satisfactory contrast.<br/>    * Inject slowly over 1 to 2 minutes to avoid excessive mixing.<br/>    * Abrupt or active patient movement causes excessive mixing with CSF.<br/>    * Instruct patient to remain passive.  Move patient slowly and only as necessary.<br/>    * To maintain as a bolus, move medium to distal area very slowly under fluoroscopic control.<br/>    * In all positioning techniques keep the patient's head elevated above highest level of spine.<br/>    * Do not lower head of table more than 15 degrees during thoraco-cervical procedures.<br/>    * In patients with excessive lordosis, consider lateral position for injection and movement of the medium cephalad.<br/>    * Avoid intracranial entry of a bolus.<br/>    * Avoid early and high cephalad dispersion of the medium.<br/>    * At completion of direct cervical or lumbo-cervical procedures, raise head of table steeply (45 degrees) for about 2 minutes to restore medium to lower levels.<br/>
+                     <br/>
+                     <content styleCode="bold">Post procedure</content>
+                     <br/>
+                     <br/>    * Raise head of stretcher to at lease 30 degrees before moving patient onto it.<br/>    * Movement onto stretcher, and off the stretcher to bed, should be done slowly with patient completely passive, maintaining head up position.<br/>    * Before moving patient onto bed, raise head of be 30 degree to 45 degree and maintain the patient in this position under close observation for 12 to 24 hours.<br/>    * Advise patient to remain still in bed, in head up position for the first 24 hours.<br/>    * Obtain visitors cooperation in keeping the patient quiet and in head up position, especially in first few hours.<br/>    * Encourage oral fluids and diet as tolerated.<br/>    * Antinauseants of the phenothiazine class should not be administered to treat the postprocedural nausea or vomiting (see <content styleCode="bold">WARNINGS</content>).  Since persistent nausea and vomiting may result in dehydration, prompt consideration of volume replacement by intravenous fluids is recommended.<br/>
+                     <br/>
+                     <content styleCode="bold">Drug Incompatibilities</content>
+                     <br/>Many radiopaque contrast agents are incompatible in vitro with some antihistamines and many other drugs; therefore, no other pharmaceuticals should be admixed with contrast agents.</paragraph>
+               </text>
+               <effectiveTime value="20170117"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bfd1ca47-ba5c-4886-a14d-18035f87cd49"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>How Supplied</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>ISOVUE-M 200 (Iopamidol Injection 41%)</paragraph>
+                  <paragraph>   Ten 10mL single dose vials (NDC 0270-1411-11)</paragraph>
+                  <paragraph>   Ten 20mL single dose vials (NDC 0270-1411-25)</paragraph>
+                  <paragraph>ISOVUE-M 300 (Iopamidol Injection 61%)</paragraph>
+                  <paragraph>   Ten 15mL single dose vials (NDC 270-1412-15)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage</content>
+                  </paragraph>
+                  <paragraph>Store at 20-25 degrees C (68-77 degrees F). [See USP]. Protect from Light<br/>
+                     <br/>RX ONLY<br/>Manufactured for <br/>Bracco Diagnostics Inc.<br/>Princeton, NJ 08543<br/>by Patheon Italia S.p.A.<br/>03013 Ferentino (Italy)<br/>Revised October 2005<br/>255032</paragraph>
+               </text>
+               <effectiveTime value="20170117"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e3f4b478-8344-43e0-b1c4-bc46dadf1f8e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Sample Outer Label</title>
+               <text>
+                  <renderMultiMedia referencedObject="Label1"/>
+               </text>
+               <effectiveTime value="20170117"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="Label1">
+                     <text>Label1.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="Label1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

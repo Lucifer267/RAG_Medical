@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7470cba3-01c9-5c7b-e053-2a91aa0af076"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>1043-01,02,03,04,06,07,09</title>
+   <effectiveTime value="20180827"/>
+   <setId root="7470cba3-01c8-5c7b-e053-2a91aa0af076"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+            <name>H.J. Harkins Company, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+                        <name>H.J. Harkins Company, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="76519-1043" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="76519-1043" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="76519-1043" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="74713efa-f055-1204-e053-2a91aa0ac0f8"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20180827"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="76519-1043" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>MINOCYCLINE HYDROCHLORIDE</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>MINOCYCLINE HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0020414E5U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MINOCYCLINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="FYY3R43WGO" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MINOCYCLINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="14" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76519-1043-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43214" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160128"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76519-1043-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43214" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160128"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76519-1043-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43214" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160128"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="40" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76519-1043-4" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43214" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160128"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76519-1043-6" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43214" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160128"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="7" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76519-1043-7" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43214" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160128"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76519-1043-9" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43214" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160128"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065062" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160128"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48324" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="gray" xsi:type="CE">
+                              <originalText>gray opaque cap, white opaque body</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="18" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">RX696</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7470cba3-01cd-5c7b-e053-2a91aa0af076">
+               <id root="7470cba3-01cc-5c7b-e053-2a91aa0af076"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Minocycline hydrochloride, USP, is a semisynthetic derivative of tetracycline, 4,7-Bis (dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,10,12,12a-tetrahydroxy-1,11-dioxo-2-naphthacenecarboxamide monohydrochloride.</paragraph>
+                  <paragraph>Its structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_7470cba3-01cb-5c7b-e053-2a91aa0af076"/>
+                  </paragraph>
+                  <paragraph>Each minocycline hydrochloride capsule, USP for oral administration, contains the equivalent of 50 mg, 75 mg or 100 mg of minocycline. In addition each capsule contains the following inactive ingredients: corn starch and magnesium stearate.</paragraph>
+                  <paragraph>The 50 mg, 75 mg and 100 mg capsule shells contain: gelatin and titanium dioxide.</paragraph>
+                  <paragraph>The 75 mg and 100 mg capsule shells also contain black iron oxide. The imprinting ink contains: black iron oxide, potassium hydroxide, propylene glycol, and shellac.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160128"/>
+               <component>
+                  <observationMedia ID="img_7470cba3-01cb-5c7b-e053-2a91aa0af076">
+                     <text>image</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_74712bf5-a398-8710-e053-2991aa0a9453">
+               <id root="74712bf5-a397-8710-e053-2991aa0a9453"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Minocycline hydrochloride capsules, USP are indicated in the treatment of the following infections due to susceptible strains of the designated microorganisms:</paragraph>
+                  <paragraph>Rocky Mountain spotted fever, typhus fever and the typhus group, Q fever, rickettsialpox and tick fevers caused by rickettsiae.</paragraph>
+                  <paragraph>Respiratory tract infections caused by Mycoplasma pneumoniae.</paragraph>
+                  <paragraph>Lymphogranuloma venereum caused by Chlamydia trachomatis.</paragraph>
+                  <paragraph>Psittacosis (Ornithosis) due to Chlamydophila psittaci.</paragraph>
+                  <paragraph>Trachoma caused by Chlamydia trachomatis, although the infectious agent is not always eliminated, as judged by immunofluorescence.</paragraph>
+                  <paragraph>Inclusion conjunctivitis caused by Chlamydia trachomatis.</paragraph>
+                  <paragraph>Nongonococcal urethritis, endocervical, or rectal infections in adults caused by Ureaplasma urealyticumor Chlamydia trachomatis.</paragraph>
+                  <paragraph>Relapsing fever due to Borrelia recurrentis.</paragraph>
+                  <paragraph>Chancroid caused by Haemophilus ducreyi.</paragraph>
+                  <paragraph>Plague due to Yersinia pestis.</paragraph>
+                  <paragraph>Tularemia due to Francisella tularensis.</paragraph>
+                  <paragraph>Cholera caused by Vibrio cholerae.</paragraph>
+                  <paragraph>Campylobacter fetus infections caused by Campylobacter fetus.</paragraph>
+                  <paragraph>Brucellosis due to Brucella species (in conjunction with streptomycin).</paragraph>
+                  <paragraph>Bartonellosis due to Bartonella bacilliformis.</paragraph>
+                  <paragraph>Granuloma inguinale caused by Klebsiella granulomatis.</paragraph>
+                  <paragraph>Minocycline is indicated for the treatment of infections caused by the following gram-negative microorganisms when bacteriologic testing indicates appropriate susceptibility to the drug:</paragraph>
+                  <paragraph>Escherichia coli.</paragraph>
+                  <paragraph>Enterobacter aerogenes.</paragraph>
+                  <paragraph>Shigella species.</paragraph>
+                  <paragraph>Acinetobacter species.</paragraph>
+                  <paragraph>Respiratory tract infections caused by Haemophilus influenzae.</paragraph>
+                  <paragraph>Respiratory tract and urinary tract infections caused by Klebsiella species.</paragraph>
+                  <paragraph>Minocycline hydrochloride capsules, USP are indicated for the treatment of infections caused by the following gram-positive microorganisms when bacteriologic testing indicates appropriate susceptibility to the drug:</paragraph>
+                  <paragraph>Upper respiratory tract infections caused by Streptococcus pneumoniae.</paragraph>
+                  <paragraph>Skin and skin structure infections caused by Staphylococcus aureus (Note: Minocycline is not the drug of choice in the treatment of any type of staphylococcal infection).</paragraph>
+                  <paragraph>When penicillin is contraindicated, minocycline is an alternative drug in the treatment of the following infections:</paragraph>
+                  <paragraph>Uncomplicated urethritis in men due to Neisseria gonorrhoeae and for the treatment of other gonococcal infections.</paragraph>
+                  <paragraph>Infections in women caused by Neisseria gonorrhoeae.</paragraph>
+                  <paragraph>Syphilis caused by Treponema pallidum subspecies pallidum.</paragraph>
+                  <paragraph>Yaws caused by Treponema pallidum subspecies pertenue.</paragraph>
+                  <paragraph>Listeriosis due to Listeria monocytogenes.</paragraph>
+                  <paragraph>Anthrax due to Bacillus anthracis.</paragraph>
+                  <paragraph>Vincent's infection caused by Fusobacterium fusiforme.</paragraph>
+                  <paragraph>Actinomycosis caused by Actinomyces israelii.</paragraph>
+                  <paragraph> Infections caused by Clostridium species.</paragraph>
+                  <paragraph>In acute intestinal amebiasis, minocycline may be a useful adjunct to amebicides.</paragraph>
+                  <paragraph>In severe acne, minocycline may be useful adjunctive therapy.</paragraph>
+                  <paragraph>Oral minocycline is indicated in the treatment of asymptomatic carriers of Neisseria meningitidis to eliminate meningococci from the nasopharynx. In order to preserve the usefulness of minocycline in the treatment of asymptomatic meningococcal carriers, diagnostic laboratory procedures, including serotyping and susceptibility testing, should be performed to establish the carrier state and the correct treatment. It is recommended that the prophylactic use of minocycline be reserved for situations in which the risk of meningococcal meningitis is high.</paragraph>
+                  <paragraph>Oral minocycline is not indicated for the treatment of meningococcal infection.</paragraph>
+                  <paragraph>Although no controlled clinical efficacy studies have been conducted, limited clinical data show that oral minocycline hydrochloride has been used successfully in the treatment of infections caused byMycobacterium marinum.</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of minocycline hydrochloride capsules, USP and other antibacterial drugs, minocycline hydrochloride capsules, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_74712bf5-a39a-8710-e053-2991aa0a9453">
+               <id root="74712bf5-a399-8710-e053-2991aa0a9453"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>This drug is contraindicated in persons who have shown hypersensitivity to any of the tetracyclines or to any of the components of the product formulation.</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_74712bf5-a39c-8710-e053-2991aa0a9453">
+               <id root="74712bf5-a39b-8710-e053-2991aa0a9453"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>Tooth Development</paragraph>
+                  <paragraph>Minocycline hydrochloride, like other tetracycline-class antibiotics, can cause fetal harm when administered to a pregnant woman. If any tetracycline is used during pregnancy or if the patient becomes pregnant while taking these drugs, the patient should be apprised of the potential hazard to the fetus. The use of drugs of the tetracycline class during tooth development (last half of pregnancy, infancy, and childhood to the age of 8 years) may cause permanent discoloration of the teeth (yellow-gray-brown).</paragraph>
+                  <paragraph>This adverse reaction is more common during long-term use of the drug but has been observed following repeated short-term courses. Enamel hypoplasia has also been reported. Tetracycline drugs, therefore, should not be used during tooth development unless other drugs are not likely to be effective or are contraindicated.</paragraph>
+                  <paragraph>Skeletal Development</paragraph>
+                  <paragraph>All tetracyclines form a stable calcium complex in any bone-forming tissue. A decrease in the fibula growth rate has been observed in premature human infants given oral tetracycline in doses of 25 mg/kg every six hours. This reaction was shown to be reversible when the drug was discontinued.</paragraph>
+                  <paragraph>Use in Pregnancy</paragraph>
+                  <paragraph>Results of animal studies indicate that tetracyclines cross the placenta, are found in fetal tissues, and can have toxic effects on the developing fetus (often related to retardation of skeletal development). Evidence of embryotoxicity has been noted in animals treated early in pregnancy.</paragraph>
+                  <paragraph>Dermatologic Reaction</paragraph>
+                  <paragraph>Drug Rash with Eosinophilia and Systemic Symptoms (DRESS) including fatal cases have been reported with minocycline use. If this syndrome is recognized, the drug should be discontinued immediately.</paragraph>
+                  <paragraph>Antianabolic Action</paragraph>
+                  <paragraph>The antianabolic action of the tetracyclines may cause an increase in BUN. While this is not a problem in those with normal renal function, in patients with significantly impaired function, higher serum levels of tetracycline may lead to azotemia, hyperphosphatemia, and acidosis. Under such conditions, monitoring of creatinine and BUN is recommended, and the total daily dosage should not exceed 200 mg in 24 hours (See DOSAGE AND ADMINISTRATION). If renal impairment exists, even usual oral or parenteral doses may lead to systemic accumulation of the drug and possible liver toxicity.</paragraph>
+                  <paragraph>Photosensitivity</paragraph>
+                  <paragraph>Photosensitivity manifested by an exaggerated sunburn reaction has been observed in some individuals taking tetracyclines. This has been reported with minocycline.</paragraph>
+                  <paragraph>Central Nervous System</paragraph>
+                  <paragraph>Central nervous system side effects including light-headedness, dizziness, or vertigo have been reported with minocycline therapy. Patients who experience these symptoms should be cautioned about driving vehicles or using hazardous machinery while on minocycline therapy. These symptoms may disappear during therapy and usually disappear rapidly when the drug is discontinued.</paragraph>
+                  <paragraph>Clostridium difficile Associated Diarrhea</paragraph>
+                  <paragraph>Clostridium difficile associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including minocycline hydrochloride, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of C. difficile.</paragraph>
+                  <paragraph>C. difficile produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of C. difficile cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against C. difficile may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of C. difficile, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+                  <paragraph>Intracranial Hypertension</paragraph>
+                  <paragraph>Intracranial hypertension (IH, pseudotumor cerebri) has been associated with the use of tetracyclines including minocycline hydrochloride. Clinical manifestations of IH include headache, blurred vision, diplopia, and vision loss; papilledema can be found on fundoscopy. Women of childbearing age who are overweight or have a history of IH are at greater risk for developing tetracycline associated IH. Concomitant use of isotretinoin and minocycline hydrochloride should be avoided because isotretinoin is also known to cause pseudotumor cerebri.</paragraph>
+                  <paragraph>Although IH typically resolves after discontinuation of treatment, the possibility for permanent visual loss exists. If visual disturbance occurs during treatment, prompt ophthalmologic evaluation is warranted. Since intracranial pressure can remain elevated for weeks after drug cessation patients should be monitored until they stabilize.</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_74712bf5-a39e-8710-e053-2991aa0a9453">
+               <id root="74712bf5-a39d-8710-e053-2991aa0a9453"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>As with other antibiotic preparations, use of this drug may result in overgrowth of non-susceptible organisms, including fungi. If superinfection occurs, the antibiotic should be discontinued and appropriate therapy instituted.</paragraph>
+                  <paragraph>Hepatotoxicity has been reported with minocycline; therefore, minocycline should be used with caution in patients with hepatic dysfunction and in conjunction with other hepatotoxic drugs.</paragraph>
+                  <paragraph>Incision and drainage or other surgical procedures should be performed in conjunction with antibiotic therapy when indicated.         </paragraph>
+                  <paragraph>Prescribing minocycline hydrochloride capsules in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                  <paragraph>Information For Patients</paragraph>
+                  <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.</paragraph>
+                  <paragraph>Photosensitivity manifested by an exaggerated sunburn reaction has been observed in some individuals taking tetracyclines. Patients apt to be exposed to direct sunlight or ultraviolet light should be advised that this reaction can occur with tetracycline drugs, and treatment should be discontinued at the first evidence of skin erythema. This reaction has been reported with use of minocycline.</paragraph>
+                  <paragraph>Patients who experience central nervous system symptoms should be cautioned about driving vehicles or using hazardous machinery while on minocycline therapy (See WARNINGS).</paragraph>
+                  <paragraph>Concurrent use of tetracycline with oral contraceptives may render oral contraceptives less effective (See Drug Interactions).</paragraph>
+                  <paragraph>Patients should be counseled that antibacterial drugs including minocycline hydrochloride capsules should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When minocycline hydrochloride capsules are prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by minocycline hydrochloride capsules or other antibacterial drugs in the future.</paragraph>
+                  <paragraph>Unused supplies of tetracycline antibiotics should be discarded by the expiration date.</paragraph>
+                  <paragraph>Laboratory Tests</paragraph>
+                  <paragraph>In venereal disease when coexistent syphilis is suspected, a dark-field examination should be done before treatment is started and the blood serology repeated monthly for at least four months.</paragraph>
+                  <paragraph>Periodic laboratory evaluations of organ systems, including hematopoietic, renal, and hepatic, should be performed.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>Because tetracyclines have been shown to depress plasma prothrombin activity, patients who are on anticoagulant therapy may require downward adjustment of their anticoagulant dosage.</paragraph>
+                  <paragraph>Since bacteriostatic drugs may interfere with the bactericidal action of penicillin, it is advisable to avoid giving tetracycline-class drugs in conjunction with penicillin.</paragraph>
+                  <paragraph>Absorption of tetracyclines is impaired by antacids containing aluminum, calcium, or magnesium, and iron-containing preparations.</paragraph>
+                  <paragraph>The concurrent use of tetracycline and methoxyflurane has been reported to result in fatal renal toxicity.</paragraph>
+                  <paragraph>Concurrent use of tetracyclines with oral contraceptives may render oral contraceptives less effective.</paragraph>
+                  <paragraph>Administration of isotretinoin should be avoided shortly before, during, and shortly after minocycline therapy. Each drug alone has been associated with pseudotumor cerebri (See PRECAUTIONS).</paragraph>
+                  <paragraph>Increased risk of ergotism when ergot alkaloids or their derivatives are given with tetracyclines.</paragraph>
+                  <paragraph>Drug/Laboratory Test Interactions</paragraph>
+                  <paragraph>False elevations of urinary catecholamine levels may occur due to interference with the fluorescence test.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>Dietary administration of minocycline in long term tumorigenicity studies in rats resulted in evidence of thyroid tumor production. Minocycline has also been found to produce thyroid hyperplasia in rats and dogs. In addition, there has been evidence of oncogenic activity in rats in studies with a related antibiotic, oxytetracycline (i.e., adrenal and pituitary tumors). Likewise, although mutagenicity studies of minocycline have not been conducted, positive results in in vitro mammalian cell assays (i.e., mouse lymphoma and Chinese hamster lung cells) have been reported for related antibiotics (tetracycline hydrochloride and oxytetracycline). Segment I (fertility and general reproduction) studies have provided evidence that minocycline impairs fertility in male rats.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>All pregnancies have a background risk of birth defects, loss, or other adverse outcome regardless of drug exposure. There are no adequate and well-controlled studies on the use of minocycline in pregnant women. Minocycline, like other tetracycline-class antibiotics, crosses the placenta and may cause fetal harm when administered to a pregnant woman. Rare spontaneous reports of congenital anomalies including limb reduction have been reported in post-marketing experience. Only limited information is available regarding these reports; therefore, no conclusion on causal association can be established. If minocycline is used during pregnancy or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to the fetus.</paragraph>
+                  <paragraph>Nonteratogenic Effects: (See WARNINGS).</paragraph>
+                  <paragraph>Labor and Delivery</paragraph>
+                  <paragraph>The effect of tetracyclines on labor and delivery is unknown.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>Tetracyclines are excreted in human milk. Because of the potential for serious adverse reactions in nursing infants from the tetracyclines, a decision should be made whether to discontinue nursing or discontinue the drug, taking into account the importance of the drug to the mother (See WARNINGS).</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>Minocycline is not recommended for the use in children below 8 years of age unless the expected benefits of therapy outweigh the risks (See WARNINGS).</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>Clinical studies of oral minocycline did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy (See WARNINGS, DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Minocycline hydrochloride capsules (50 mg, 75 mg and 100 mg) do not contain sodium.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_74712bf5-a3a0-8710-e053-2991aa0a9453">
+               <id root="74712bf5-a39f-8710-e053-2991aa0a9453"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>Due to oral minocycline's virtually complete absorption, side effects to the lower bowel, particularly diarrhea, have been infrequent. The following adverse reactions have been observed in patients receiving tetracyclines.</paragraph>
+                  <paragraph>Body as a whole: Fever, and discoloration of secretions.</paragraph>
+                  <paragraph>Gastrointestinal: Anorexia, nausea, vomiting, diarrhea, dyspepsia, stomatitis, glossitis, dysphagia, enamel hypoplasia, enterocolitis, pseudomembranous colitis, pancreatitis, inflammatory lesions (with monilial overgrowth) in the oral and anogenital regions. Instances of esophagitis and esophageal ulcerations have been reported in patients taking the tetracycline-class antibiotics in capsule and tablet form. Most of these patients took the medication immediately before going to bed (See DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Genitourinary: Vulvovaginitis.</paragraph>
+                  <paragraph>Hepatic toxicity: Hyperbilirubinemia, hepatic cholestasis, increases in liver enzymes, fatal hepatic failure, and jaundice. Hepatitis, including autoimmune hepatitis, and liver failure have been reported (See PRECAUTIONS).</paragraph>
+                  <paragraph>Skin: Alopecia, erythema nodosum, hyperpigmentation of nails, pruritus, toxic epidermal necrolysis, vasculitis, maculopapular rash and erythematous rash. Exfoliative dermatitis has been reported. Fixed drug eruptions have been reported. Lesions occurring on the glans penis have caused balanitis. Erythema multiforme and Stevens-Johnson syndrome have been reported. Photosensitivity is discussed above (See WARNINGS). Pigmentation of the skin and mucous membranes has been reported.</paragraph>
+                  <paragraph>Respiratory: Cough, dyspnea, bronchospasm, exacerbation of asthma, and pneumonitis.</paragraph>
+                  <paragraph>Renal toxicity: Interstitial nephritis. Elevations in BUN have been reported and are apparently dose related (See WARNINGS). Reversible acute renal failure has been reported.</paragraph>
+                  <paragraph>Musculoskeletal: Arthralgia, arthritis, bone discoloration, myalgia, joint stiffness, and joint swelling.</paragraph>
+                  <paragraph>Hypersensitivity reactions: Urticaria, angioneurotic edema, polyarthralgia, anaphylaxis/anaphylactoid reaction (including shock and fatalities), anaphylactoid  purpura, myocarditis, pericarditis, exacerbation of systemic lupus erythematosus and pulmonary infiltrates with eosinophilia have been reported. A transient lupus-like syndrome and serum sickness-like reactions also have been reported.</paragraph>
+                  <paragraph>Blood: Agranulocytosis, hemolytic anemia, thrombocytopenia, leukopenia, neutropenia, pancytopenia, and eosinophilia have been reported.</paragraph>
+                  <paragraph>Central Nervous System: Convulsions, dizziness, hypesthesia, paresthesia, sedation, and vertigo. Bulging fontanels in infants and benign intracranial hypertension (pseudotumor cerebri) in adults have been reported (See PRECAUTIONS – General). Headache has also been reported.</paragraph>
+                  <paragraph>Other: Thyroid cancer has been reported in the post-marketing setting in association with minocycline products. When minocycline therapy is given over prolonged periods, monitoring for signs of thyroid cancer should be considered. When given over prolonged periods, tetracyclines have been reported to produce brown-black microscopic discoloration of the thyroid gland. Cases of abnormal thyroid function have been reported.</paragraph>
+                  <paragraph>Tooth discoloration in children less than 8 years of age (See WARNINGS) and also, in adults has been reported.</paragraph>
+                  <paragraph>Oral cavity discoloration (including tongue, lip, and gum) has been reported.</paragraph>
+                  <paragraph>Tinnitus and decreased hearing have been reported in patients on minocycline hydrochloride.</paragraph>
+                  <paragraph>The following syndromes have been reported. In some cases involving these syndromes, death has been reported. As with other serious adverse reactions, if any of these syndromes are recognized, the drug should be discontinued immediately:</paragraph>
+                  <paragraph>Hypersensitivity syndrome consisting of cutaneous reaction (such as rash or exfoliative dermatitis), eosinophilia, and one or more of the following: hepatitis, pneumonitis, nephritis, myocarditis, and pericarditis. Fever and lymphadenopathy may be present.</paragraph>
+                  <paragraph>Lupus-like syndrome consisting of positive antinuclear antibody; arthralgia, arthritis, joint stiffness, or joint swelling; and one or more of the following: fever, myalgia, hepatitis, rash, and vasculitis.</paragraph>
+                  <paragraph>Serum sickness-like syndrome consisting of fever; urticaria or rash; and arthralgia, arthritis, joint stiffness, or joint swelling and lymphadenopathy. Eosinophilia may be present.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_74713a92-b1a0-0881-e053-2a91aa0ab0b2">
+               <id root="74713a92-b19f-0881-e053-2a91aa0ab0b2"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>The adverse events more commonly seen in overdose are dizziness, nausea, and vomiting.</paragraph>
+                  <paragraph>No specific antidote for minocycline is known.</paragraph>
+                  <paragraph>In case of overdosage, discontinue medication, treat symptomatically, and institute supportive measures. Minocycline is not removed in significant quantities by hemodialysis or peritoneal dialysis.</paragraph>
+                  <paragraph>DOSAGE AND ADMINISTRATION</paragraph>
+                  <paragraph>THE USUAL DOSAGE AND FREQUENCY OF ADMINISTRATION OF MINOCYCLINE DIFFERS FROM THAT OF THE OTHER TETRACYCLINES. EXCEEDING THE RECOMMENDED DOSAGE MAY RESULT IN AN INCREASED INCIDENCE OF SIDE EFFECTS.</paragraph>
+                  <paragraph>Minocycline hydrochloride capsules may be taken with or without food (See CLINICAL PHARMACOLOGY).</paragraph>
+                  <paragraph>Ingestion of adequate amounts of fluids along with capsule and tablet forms of drugs in the tetracycline-class is recommended to reduce the risk of esophageal irritation and ulceration. The capsules should be swallowed whole.</paragraph>
+                  <paragraph>For Pediatric Patients Above 8 Years Of Age</paragraph>
+                  <paragraph>Usual pediatric dose: 4 mg/kg initially followed by 2 mg/kg every 12 hours, not to exceed the usual adult dose.</paragraph>
+                  <paragraph>Adults</paragraph>
+                  <paragraph>The usual dosage of minocycline hydrochloride capsules is 200 mg initially followed by 100 mg every 12 hours. Alternatively, if more frequent doses are preferred, two or four 50 mg capsules may be given initially followed by one 50 mg capsule 4 times daily.</paragraph>
+                  <paragraph>Uncomplicated gonococcal infections other than urethritis and anorectal infections in men: 200 mg initially, followed by 100 mg every 12 hours for a minimum of 4 days, with post-therapy cultures within 2 to 3 days.</paragraph>
+                  <paragraph>In the treatment of uncomplicated gonococcal urethritis in men, 100 mg every 12 hours for 5 days is recommended.</paragraph>
+                  <paragraph>For the treatment of syphilis, the usual dosage of minocycline hydrochloride should be administered over a period of 10 to 15 days. Close follow-up, including laboratory tests, is recommended.</paragraph>
+                  <paragraph>In the treatment of meningococcal carrier state, the recommended dosage is 100 mg every 12 hours for 5 days.</paragraph>
+                  <paragraph>Mycobacterium marinum infections: Although optimal doses have not been established, 100 mg every 12 hours for 6 to 8 weeks have been used successfully in a limited number of cases.</paragraph>
+                  <paragraph>Uncomplicated urethral, endocervical, or rectal infection in adults caused by Chlamydia trachomatis orUreaplasma urealyticum: 100 mg orally, every 12 hours for at least 7 days.</paragraph>
+                  <paragraph>Ingestion of adequate amounts of fluids along with capsule and tablet forms of drugs in the tetracycline-class is recommended to reduce the risk of esophageal irritation and ulceration.</paragraph>
+                  <paragraph>The pharmacokinetics of minocycline in patients with renal impairment (CLCR &lt;80 mL/min) have not been fully characterized. Current data are insufficient to determine if a dosage adjustment is warranted. The total daily dosage should not exceed 200 mg in 24 hours. However, due to the anti-anabolic effect of tetracyclines, BUN and creatinine should be monitored (See WARNINGS).</paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_74713d3c-3377-88ba-e053-2991aa0a1db2">
+               <id root="74713d3c-3376-88ba-e053-2991aa0a1db2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_74713d3c-3375-88ba-e053-2991aa0a1db2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160128"/>
+               <component>
+                  <observationMedia ID="img_74713d3c-3375-88ba-e053-2991aa0a1db2">
+                     <text>label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="76519-1043 PPAC LABEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

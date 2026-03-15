@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="25383117-5f5a-4ecb-bd6b-98e7cd1b6218"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20160915"/>
+   <setId root="caa9637a-73a7-4627-8bb6-74bc2b2f9291"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079794940"/>
+            <name>International Brand Management, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079794940"/>
+                        <name>International Brand Management, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69837-010" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="c636d8a9-4044-41f0-9409-60288bcf3e16"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20160915"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69837-010" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Home PapKit</name>
+                        <formCode code="C28944" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CREAM"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>HYDROCORTISONE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="25" unit="mg"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WI4X0X7BPJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCORTISONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WI4X0X7BPJ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROCORTISONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="N6K5787QVP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIGHT MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="28" unit="g"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="69837-010-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" displayName="TUBE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="69837-010-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20160915"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160915"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA085027" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc6ebe026-1437-41f7-8f12-746b68745b20">
+               <id root="8afd661e-4f1c-4aa1-a6cf-040359ed82d3"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">HYDROCORTISONE- hydrocortisone cream</content>
+                     <br/>
+                     <content styleCode="bold">HYDROCORTISONE- hydrocortisone ointment</content>
+                     <br/>Perrigo New York Inc<br/>----------<br/>
+                     <content styleCode="bold">HYDROCORTISONE CREAM USP, 2.5%</content>
+                     <br/>
+                     <content styleCode="bold">HYDROCORTISONE OINTMENT USP, 2.5%</content>
+                     <br/>
+                     <content styleCode="bold">Rx Only</content>
+                     <br/>
+                     <content styleCode="bold">DESCRIPTION</content>
+                     <br/>Each gram of Hydrocortisone Cream USP, 2.5% contains 25 mg of hydrocortisone in a cream base of cetyl alcohol, methylparaben, propylene glycol, propylparaben, purified water, sodium lauryl sulfate, and stearyl alcohol.<br/>Each gram of Hydrocortisone Ointment USP, 2.5% contains 25 mg of hydrocortisone in ointment base of light mineral oil and white petrolatum.<br/>Chemically, hydrocortisone is [Pregn-4-ene-3,20-dione,11,17,21-trihydroxy-, (11β)-] with the molecular formula (C21H3O05) and is represented by the following structural formula:</paragraph>
+                  <paragraph>Its molecular weight is 362.47 and its CAS Registery Number is 50-23-7. The topical corticosteroids, including hydrocortisone, constitute a class of primarily synthetic steroids used as anti-inflammatory and antipruritic agents.<br/>
+                     <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+                     <br/>Topical corticosteroids share anti-inflammatory, antipruritic, and vasoconstrictive actions. The mechanism of anti-inflammatory activity of the topical corticosteroids is unclear. Various laboratory methods, including vasoconstrictor assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between vasoconstrictor potency and therapeutic efficacy in man.<br/>
+                     <content styleCode="bold">Pharmacokinetics</content> -<br/>The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle, the integrity of the epidermal barrier, and the use of occlusive dressings. Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin increase percutaneous absorption. Occlusive dressings substantially increase the percutaneous absorption of topical corticosteroids. Thus, occlusive dressings may be a valuable therapeutic adjunct for treatment of resistant dermatoses (see DOSAGE AND ADMINISTRATION).<br/>Once absorbed through the skin, topical corticosteroids are handled through pharmacokinetic pathways similar to systematically administered corticosteroids. Corticosteroids are bound to plasma proteins in varying degrees. Corticosteroids are metabolized primarily in the liver and are then excreted by the kidneys. Some of the topical corticosteroids and their metabolites are also excreted into the bile.<br/>
+                     <content styleCode="bold">INDICATIONS AND USAGE</content>
+                     <br/>Topical corticosteroids are indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatosis.<br/>
+                     <content styleCode="bold">CONTRAINDICATIONS</content>
+                     <br/>Topical corticosteroids are contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation.<br/>
+                     <content styleCode="bold">PRECAUTIONS</content>
+                     <br/>
+                     <content styleCode="bold">General</content> -<br/>Systemic absorption of topical corticosteroids has produced reversible hypothalamic-pituitary-adrenal (HPA) axis suppression, manifestations of Cushing's syndrome, hyperglycemia, and glucosuria in some patients. Conditions which augment systemic absorption include the application of the more potent steroids, use over large surface areas, prolonged use, and the addition of occlusive dressings.<br/>Therefore, patients receiving a large dose of a potent topical steroid applied to a large surface area or under an occlusive dressing should be evaluated periodically for evidence of HPA axis suppression by using the urinary free cortisol and ACTH stimulation tests. If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent steroid. Recovery of HPA axis function is generally prompt and complete upon discontinuation of the drug. Infrequently, signs and symptoms of steroid withdrawal may occur, requiring supplemental systemic corticosteroids.<br/>Children may absorb proportionally larger amounts of topical corticosteroids and thus be more susceptible to systemic toxicity (see PRECAUTIONS - Pediatric Use). If irritation develops, topical corticosteroids should be discontinued and appropriate therapy instituted.<br/>In the presence of dermatological infections, the use of an appropriate antifungal or antibacterial agent should be instituted. If a favorable response does not occur promptly, the corticosteroid should be discontinued until the infection has been adequately controlled.<br/>
+                     <content styleCode="bold">Information for the Patient</content> -<br/>Patients using topical corticosteroids should receive the following information and instructions:<br/>1. This medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes.<br/>2. Patients should be advised not to use this medication for any disorder other than for which it was prescribed.<br/>3. The treated skin area should not be bandaged or otherwise covered or wrapped as to be occlusive unless directed by the physician.<br/>4. Patients should report any signs of local adverse reactions, especially under occlusive dressing.<br/>5. Parents of pediatric patients should be advised not to use tight-fitting diapers or plastic pants on a child being treated in the diaper area, as these garments may constitute occlusive dressings.<br/>Laboratory Tests<br/>The following tests may be helpful in evaluating the HPA axis suppression:<br/>Urinary free cortisol test<br/>ACTH stimulation test<br/>Carcinogenesis, Mutagenesis, Impairment of Fertility -<br/>Long-term animal studies have not been performed to evaluate the carcinogenic potential or the effect on fertility of topical corticosteroids.<br/>Studies to determine mutagenicity with prednisolone and hydrocortisone have revealed negative results.<br/>
+                     <content styleCode="bold">Pregnancy</content>:<br/>Teratogenic Effects:<br/>
+                     <content styleCode="bold">Pregnancy category C</content> -<br/>Corticosteroids are generally teratogenic in laboratory animals when administered systemically at relatively low dosage levels. The more potent corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. There are no adequate and well-controlled studies in pregnant women on teratogenic effects from topically applied corticosteroids. Therefore, topical corticosteroids should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Drugs of this class should not be used extensively on pregnant patients, in large amounts, or for prolonged periods of time.<br/>
+                     <content styleCode="bold">Nursing Mothers</content> -<br/>It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in breast milk. Systemically administered corticosteroids are secreted into breast milk in quantities not likely to have a deleterious effect on the infant. Nevertheless, caution should be exercised when topical corticosteroids are administered to a nursing woman.<br/>
+                     <content styleCode="bold">Pediatric Use</content> -<br/>Pediatric patients may demonstrate greater susceptibility to topical corticosteroid-induced HPA axis suppression and Cushing's syndrome than mature patients because of a larger skin surface area to body weight ratio.<br/>Hypothalamic-pituitary-adrenal (HPA) axis suppression, Cushing's syndrome, and intracranial hypertension have been reported in pediatric patients receiving topical corticosteroids. Manifestations of adrenal suppression in pediatric patients include linear growth retardation, delayed weight gain, low plasma cortisol levels, and absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema.<br/>Administration of topical corticosteroids to pediatric patients should be limited to the least amount compatible with an effective therapeutic regimen. Chronic corticosteroid therapy may interfere with the growth and development of pediatric patients.<br/>
+                     <content styleCode="bold">ADVERSE REACTIONS</content>
+                     <br/>The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria.<br/>
+                     <content styleCode="bold">OVERDOSAGE</content>
+                     <br/>Topically applied corticosteroids can be absorbed in sufficient amounts to produce systemic effects (see PRECAUTIONS).<br/>
+                     <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+                     <br/>Topical corticosteroids are generally applied to the affected area as a thin film from two to four times daily depending on the severity of the condition. Occlusive dressings may be used for the management of psoriasis or recalcitrant conditions. If an infection develops, the use of occlusive dressings should be discontinued and appropriate antimicrobial therapy instituted.<br/>
+                     <content styleCode="bold">HOW SUPPLIED</content>
+                     <br/>Hydrocortisone Cream USP, 2.5% is available as follows:<br/>20 g tube (NDC 45802-004-02)<br/>1 oz. (28 g) tube (NDC 45802-004-03)<br/>Hydrocortisone Ointment USP, 2.5% is available as follows:<br/>20 g tube (NDC 45802-014-02)<br/>1 lb. jar (NDC 45802-014-05)<br/>STORAGE<br/>Store at 20-25°C (68-77°F) [see USP Controlled Room Temperature].<br/>Keep out of the reach of children.<br/>Manufactured By Perrigo<br/>Bronx, NY 10457<br/>Distributed By Perrigo<br/>Allegan, MI 49010 · www.perrigo.com<br/>Rev. 08-15<br/>:1F300 RC JX1<br/>
+                     <content styleCode="bold">Principal Display Panel - Hydrocortisone Cream USP, 2.5% - 28 g</content>
+                     <br/>Rx Only<br/>NDC 45802-004-03<br/>Hydrocortisone Cream USP, 2.5%<br/>NET WT 28 g</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160915"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L258e3ce0-2da7-438b-bf7a-d723703ab2f1">
+               <id root="fd518de3-c6a9-48c3-b819-305eaa86fb7b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L8f80d993-5501-4573-9409-81cfb5979212"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160915"/>
+               <component>
+                  <observationMedia ID="L8f80d993-5501-4573-9409-81cfb5979212">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Pap_label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

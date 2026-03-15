@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="fea32d30-0d9b-48ac-be18-989f3fb18d34"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20100101"/>
+   <setId root="067af076-d4c0-484f-bbe6-7ad38989f6ae"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="017369109" root="1.3.6.1.4.1.519.1"/>
+            <name>Saginaw Weldilng Supply Company</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="017369109" root="1.3.6.1.4.1.519.1"/>
+                  <name>Saginaw Weldilng Supply Company</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="017369109" root="1.3.6.1.4.1.519.1"/>
+                        <name>Saginaw Weldilng Supply Company</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9759c67a-a294-4154-a4b0-a5b483b8756c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20100101"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="57236-0001" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>OXYGEN<suffix/>
+                        </name>
+                        <formCode code="C42933" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GAS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>OXYGEN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="99" unit="L"/>
+                              <denominator value="100" unit="L"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OXYGEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OXYGEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="45" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="57236-0001-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19650101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73613" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved medical gas"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3409a152-efd4-4d8c-aa98-d48c093d84b0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>OXYGEN CERTIFICATE OF ANALYSIS</title>
+               <text>
+                  <paragraph>LOT NUMBER_____________ SERIAL NUMBER__________ AMOUNT__________INS, LBS., GALS., LITERS, CU. FT.<br/>
+                     <br/>USP TESTS<br/>
+                     <br/>TEST        ID        ODOR        ASSAY<br/>
+                     <br/>LIMITS   OK        NONE        LESS THAN 99.2%<br/>
+                     <br/>RESULT<br/>
+                     <br/>FOR CUSTOMER TO USE TO DOCUMENT TESTS PERFORMED ON THIS VESSEL<br/>
+                     <br/>METHOD OF ANALYSIS FOR ASSAY IS THE PARAMAGNETIC OXYGEN ANALYZER  MANUFACTURER__________ MODEL______________ CUSTOMER WITNESSED TESTS  YES   NO    SUPPLIERS SIGNATURE__________ DATE____________  CUSTOMERS SIGNATURE_______________ DATE________________<br/>
+                     <br/>LIQUID MEDICAL GASES  LIQUID OXYGEN DELIVERY TAG  FILLED AND DISTRIBUTED BY____________ THIS VESSEL CONTAINS OXYGEN USP (SEE REVERSE SIDE FOR TEST RESULTS) OXYGEN PRODUCED BY THE AIR LIQUEFACTION PROCESS</paragraph>
+                  <br/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="SAGWSOX1"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="SAGWSOX2"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100101"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="SAGWSOX1">
+                     <text>COA FRONT</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="saginaw_ws_liq_o2_del_tag_front.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="SAGWSOX2">
+                     <text>COA BACK</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="saginaw_ws_liq_o2_del_tag_back.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

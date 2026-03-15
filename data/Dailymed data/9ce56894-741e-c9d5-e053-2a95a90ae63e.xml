@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9ce56894-741e-c9d5-e053-2a95a90ae63e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20200124"/>
+   <setId root="677c7eb6-e496-bb17-e053-2a91aa0a3321"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="601458529"/>
+            <name>Medical Purchasing Solutions, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="601458529"/>
+                        <name>Medical Purchasing Solutions, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="71872-7120" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9ce58b7f-98a9-fad1-e053-2995a90a565b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200124"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71872-7120" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Epinephrine</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>EPINEPHRINE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0409-4921" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="8.16"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.46"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4VON5FNS3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM METABISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="B22547B95K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRISODIUM CITRATE DIHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EPINEPHRINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EPINEPHRINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="1" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="71872-7120-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20180305"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20051222"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38227" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRACARDIAC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38208" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ENDOTRACHEAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="df60730d-b4ec-4b94-9c57-d83d14489821">
+               <id root="9ce56894-741f-c9d5-e053-2a95a90ae63e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">EPINEPHRINE
+        
+  
+   <br/>Injection, USP
+       
+ 
+  </content>
+                     <br/>
+                     <content styleCode="bold">1 mg/10 mL (0.1 mg/mL)
+        
+  
+   <br/>Abboject
+        ™
+         Syringe
+         
+  
+   <br/>Fliptop Vial
+         
+  
+   <br/>Protect solution from light;
+        
+  
+   <br/>do not use the Injection if its color is
+        
+  
+   <br/>pinkish or darker than slightly yellow
+        
+  
+   <br/>or if it contains a precipitate.
+       
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>                                                                                                                                                              
+       
+ 
+  <renderMultiMedia ID="id1737894823" referencedObject="ID_50f1df07-1455-4034-a486-ff9918dcf764"/>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+               <component>
+                  <observationMedia ID="ID_50f1df07-1455-4034-a486-ff9918dcf764">
+                     <text>Hospira Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="hospira-logo-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="c044b1db-0841-4c9a-b5d1-b8ba53c5d67a">
+               <id root="9ce56894-7420-c9d5-e053-2a95a90ae63e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="italics">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Epinephrine Injection, USP is a sterile, nonpyrogenic solution administered parenterally by the intravenous or intracardiac (left ventricular chamber) routes, or via endotracheal tube into the bronchial tree.</paragraph>
+                  <paragraph>Each milliliter (mL) contains epinephrine 0.1 mg; sodium chloride 8.16 mg; sodium metabisulfite added 0.46 mg; citric acid, anhydrous 2 mg and sodium citrate, dihydrate 0.6 mg added as buffers. May contain additional citric acid and/or sodium citrate for pH adjustment. pH 3.3 (2.2 to 5.0). Epinephrine Injection, USP is oxygen sensitive.</paragraph>
+                  <paragraph>The solution contains no bacteriostat or antimicrobial agent and is intended for use only as a single-dose injection. When smaller doses are required the unused portion should be discarded.</paragraph>
+                  <paragraph>Epinephrine Injection, USP is a parenteral adrenergic (sympathomimetic) agent and cardiac stimulant.</paragraph>
+                  <paragraph>The drug belongs to the group of endogenous compounds known as catecholamines.</paragraph>
+                  <paragraph>Sodium Chloride, USP is chemically designated NaCl, a white crystalline powder freely soluble in water.</paragraph>
+                  <paragraph>Epinephrine, USP is chemically designated 4-[1-hydroxy-2-(methylamino) ethyl]-1, 2 benzenediol, a white, microcrystalline powder. With acids, it forms salts that are freely soluble in water. Epinephrine has the following structural formula:</paragraph>
+                  <renderMultiMedia ID="id-754135984" referencedObject="ID_60f62016-1fa4-4cd4-b5b9-c9f65c931cb3"/>
+               </text>
+               <effectiveTime value="20171116"/>
+               <component>
+                  <observationMedia ID="ID_60f62016-1fa4-4cd4-b5b9-c9f65c931cb3">
+                     <text>structural formula epinephrine</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="epinephrine-injection-usp1-figure-1-GEpinephrine.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="e968311d-1d57-4686-a880-6c8302d35f95">
+               <id root="9ce56894-7421-c9d5-e053-2a95a90ae63e"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="italics">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>The actions of epinephrine resemble the effects of stimulation of adrenergic nerves. To a variable degree it acts on both alpha and beta receptor sites of sympathetic effector cells. Its most prominent actions are on the beta receptors of the heart, vascular and other smooth muscle. When given by rapid intravenous injection, it produces a rapid rise in blood pressure, mainly systolic, by (1) direct stimulation of cardiac muscle which increases the strength of ventricular contraction, (2) increasing the heart rate and (3) constriction of the arterioles in the skin, mucosa and splanchnic areas of the circulation.  </paragraph>
+                  <paragraph>When given by slow intravenous injection, epinephrine usually produces only a moderate rise in systolic and a fall in diastolic pressure. Although some increase in pulse pressure occurs, there is usually no great elevation in mean blood pressure. Accordingly, the compensatory reflex mechanisms that come into play with a pronounced increase in blood pressure do not antagonize the direct cardiac actions of epinephrine as much as with catecholamines that have a predominant action on alpha receptors.</paragraph>
+                  <paragraph>Total peripheral resistance decreases by action of epinephrine on beta receptors of the skeletal muscle vasculature and blood flow is thereby enhanced. Usually this vasodilator effect of the drug on the circulation predominates so that the modest rise in systolic pressure which follows slow injection or absorption is mainly the result of direct cardiac stimulation and increase in cardiac output. In some instances peripheral resistance is not altered or may even rise owing to a greater ratio of alpha to beta activity in different vascular areas.</paragraph>
+                  <paragraph>Epinephrine relaxes the smooth muscles of the bronchi and iris and is a physiologic antagonist of histamine. The drug also produces an increase in blood sugar and glycogenolysis in the liver.</paragraph>
+                  <paragraph>Intravenous injection produces an immediate and intensified response. Following intravenous injection epinephrine disappears rapidly from the blood stream.</paragraph>
+                  <paragraph>Epinephrine is rapidly inactivated in the body and is degraded by enzymes in the liver and other tissues. The larger portion of injected doses is excreted in the urine as inactivated compounds and the remainder either partly unchanged or conjugated.</paragraph>
+                  <paragraph>The drug becomes fixed in the tissues and is inactivated chiefly by enzymatic transformation to metanephrine or normetanephrine either of which is subsequently conjugated and excreted in the urine in the form of sulfates and glucuronides. Either sequence results in the formation of 3-methoxy-4-hydroxy-mandelic acid (vanillyl-mandelic acid: VMA) which also is detectable in the urine.</paragraph>
+                  <paragraph>Sodium chloride added to render the solution isotonic for injection of the active ingredient is present in amounts insufficient to affect serum electrolyte balance of sodium (Na
+       
+ 
+  <sup>+</sup>) and chloride (Cl
+       
+ 
+  <sup>–</sup>) ions.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e90906f9-2cf5-4dfd-a73a-a33a0518f958">
+               <id root="9ce56894-7422-c9d5-e053-2a95a90ae63e"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="italics">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>Epinephrine Injection, USP is indicated for intravenous injection in (1) treatment of acute hypersensitivity (anaphylactoid reactions to drugs, animal serums and other allergens), (2) treatment of acute asthmatic attacks to relieve bronchospasm not controlled by inhalation or subcutaneous administration of other solutions of the drug and (3) treatment and prophylaxis of cardiac arrest and attacks of transitory atrioventricular (A-V) heart block with syncopal seizures (Stokes-Adams Syndrome).</paragraph>
+                  <paragraph>In acute attacks of ventricular standstill, physical measures should be applied first. When external cardiac compression and attempts to restore the circulation by electrical defibrillation or use of a pacemaker fail, intracardiac puncture and intramyocardial injection of epinephrine may be effective.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ad9516ed-5a13-4d79-9c19-380a5067036f">
+               <id root="9ce56894-7423-c9d5-e053-2a95a90ae63e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="italics">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>Epinephrine is contraindicated in patients with known hypersensitivity to sympathomimetic amines, in patients with angle closure glaucoma, and patients in shock (nonanaphylactic). It should not be used in patients anesthetized with agents such as cyclopropane or halothane as these may sensitize the heart to arrhythmic action of sympathomimetic drugs.</paragraph>
+                  <paragraph>Epinephrine should not ordinarily be used in those cases where vasopressor drugs may be contraindicated, e.g., in thyrotoxicosis, diabetes, in obstetrics when maternal blood pressure is in excess of 130/80 and in hypertension and other cardiovascular disorders.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="df7cead0-50ca-4f8f-ad3b-0440276c48b4">
+               <id root="9ce56894-7424-c9d5-e053-2a95a90ae63e"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="italics">WARNINGS</content>
+               </title>
+               <text>
+                  <paragraph>Inadvertently induced high arterial blood pressure may result in angina pectoris, aortic rupture or cerebral hemorrhage.</paragraph>
+                  <paragraph>Epinephrine may induce potentially serious cardiac arrhythmias in patients not suffering from heart disease and patients with organic heart disease or who are receiving drugs that sensitize the myocardium.</paragraph>
+                  <paragraph>Parenterally administered epinephrine initially may produce constriction of renal blood vessels and decrease urine formation.</paragraph>
+                  <paragraph>Epinephrine is the preferred treatment for serious allergic or other emergency situations even though this product contains sodium metabisulfite, a sulfite that may in other products cause allergic-type reactions including anaphylactic symptoms or life-threatening or less severe asthmatic episodes in certain susceptible persons. The alternatives to using epinephrine in a life-threatening situation may not be satisfactory. The presence of a sulfite(s) in this product should not deter administration of the drug for treatment of serious allergic or other emergency situations.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="da6659ce-8eb0-4701-8d42-33fbb5c62a34">
+               <id root="9ce56894-7425-c9d5-e053-2a95a90ae63e"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="italics">PRECAUTIONS</content>
+               </title>
+               <text>
+                  <paragraph>The solution should be protected from light. Do not use the injection if its color is pinkish or darker than slightly yellow or if it contains a precipitate.</paragraph>
+                  <paragraph>Do not administer unless solution is clear and seal is intact. </paragraph>
+                  <paragraph>Discard unused portion.</paragraph>
+                  <paragraph>Although epinephrine can produce ventricular fibrillation, its actions in restoring electrical activity in asystole and in enhancing defibrillation of the fibrillating ventricle are well documented. The drug, however, should be used with caution in patients with ventricular fibrillation.</paragraph>
+                  <paragraph>In patients with prefibrillatory rhythm, intravenous epinephrine must be used judiciously with extreme caution because of its excitatory action on the heart. Since the myocardium is sensitized to this action of the drug by many anesthetic agents, epinephrine may convert asystole to ventricular fibrillation if used in the treatment of anesthetic cardiac accidents.</paragraph>
+                  <paragraph>Epinephrine should be used cautiously in patients with hyperthyroidism, hypertension and cardiac arrhythmias. All vasopressors should be used cautiously in patients taking monoamine oxidase (MAO) inhibitors.</paragraph>
+                  <paragraph>Epinephrine should not be administered concomitantly with other sympathomimetic drugs (such as isoproterenol) because of possible additive effects and increased toxicity. Combined effects may induce serious cardiac arrhythmias. They may be administered alternately when the preceding effect of other such drug has subsided.</paragraph>
+                  <paragraph>Administration of epinephrine to patients receiving cyclopropane or halogenated hydrocarbon general anesthetics such as halothane which sensitize the myocardium, may induce cardiac arrhythmia. (See 
+       
+ 
+  <linkHtml href="#ad9516ed-5a13-4d79-9c19-380a5067036f">CONTRAINDICATIONS</linkHtml>). When encountered, such arrhythmias may respond to administration of a beta-adrenergic blocking drug. Epinephrine also should be used cautiously with other drugs (e.g., digitalis, glycosides) that sensitize the myocardium to the actions of sympathomimetic drugs.
+      
+
+ </paragraph>
+                  <paragraph>Diuretic agents may decrease vascular response to pressor drugs such as epinephrine.</paragraph>
+                  <paragraph>Epinephrine may antagonize the neuron blockade produced by guanethidine resulting in decreased antihypertensive effect and requiring increased dosage of the latter.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Pregnancy Category C.</content> Animal reproduction studies have not been conducted with epinephrine. It is also not known whether epinephrine can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Epinephrine should be given to a pregnant woman only if clearly needed.
+      
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Labor and Delivery.</content> Parenteral administration of epinephrine if used to support blood pressure during low or other spinal anesthesia for delivery can cause acceleration of fetal heart rate and should not be used in obstetrics when maternal blood pressure exceeds 130/80. (See 
+       
+ 
+  <linkHtml href="#ad9516ed-5a13-4d79-9c19-380a5067036f">CONTRAINDICATIONS</linkHtml>).
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e6f62997-a44c-4c63-86ce-d81dbca2aa88">
+               <id root="9ce56894-7427-c9d5-e053-2a95a90ae63e"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="italics">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Transient and minor side effects of anxiety, headache, fear and palpitations occur with systemic therapeutic doses, especially in hyperthyroid individuals. Adverse effects such as cardiac arrhythmias and excessive rise in blood pressure may also occur with therapeutic doses or inadvertent overdosage. Other adverse reactions include cerebral hemorrhage, hemiplegia, subarachnoid hemorrhage, anginal pain in patients with angina pectoris, anxiety, restlessness, throbbing headache, tremor, weakness, dizziness, pallor and respiratory difficulty.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d79ebe31-4333-4e37-88bb-ac35aee6ba18">
+               <id root="9ce56894-7428-c9d5-e053-2a95a90ae63e"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="italics">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Erroneous administration of large doses of epinephrine may lead to precordial distress, vomiting, headache, dyspnea, as well as unusually elevated blood pressure. (See 
+       
+ 
+  <linkHtml href="#df7cead0-50ca-4f8f-ad3b-0440276c48b4">WARNINGS</linkHtml>.) Toxic effects of overdosage can be counteracted by injection of an alpha-adrenergic blocker and a beta-adrenergic blocker. In the event of a sharp rise in blood pressure, rapid-acting vasodilators such as the nitrites, or alpha-adrenergic blocking agents can be given to counteract the marked pressor effect of large doses of epinephrine.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="bf36e066-0240-4679-8e16-58b5abcdbc01">
+               <id root="9ce56894-7429-c9d5-e053-2a95a90ae63e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="italics">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>Epinephrine Injection, USP is administered by intravenous injection and/or in cardiac arrest, by intracardiac injection into the left ventricular chamber or via endotracheal tube directly into the bronchial tree. The adult intravenous dose for hypersensitivity reactions or to relieve bronchospasm usually ranges from 0.1 to 0.25 mg (1 to 2.5 mL of 0.1 mg/mL solution), injected slowly. Neonates may be given a dose of 0.01 mg per kg of body weight; for the infant 0.05 mg is an adequate initial dose and this may be repeated at 20 to 30 minute intervals in the management of asthma attacks.</paragraph>
+                  <paragraph>In cardiac arrest, 0.5 to 1.0 mg (5 to 10 mL of 0.1 mg/mL solution) may be given. During a resuscitation effort, 0.5 mg (5 mL) should be administered intravenously every five minutes.</paragraph>
+                  <paragraph>Intracardiac injection should only be administered by personnel well trained in the technique, if there has not been sufficient time to establish an intravenous route. The intracardiac dose usually ranges from 0.3 to 0.5 mg (3 to 5 mL of 0.1 mg/mL solution).</paragraph>
+                  <paragraph>Alternatively, if the patient has been intubated, epinephrine can be injected via the endotracheal tube directly into the bronchial tree at the same dosage as for intravenous injection. It is rapidly absorbed through the lung capillary bed.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. (See 
+       
+ 
+  <linkHtml href="#da6659ce-8eb0-4701-8d42-33fbb5c62a34">PRECAUTIONS</linkHtml>.)
+      
+
+ </paragraph>
+                  <paragraph>To prevent needle-stick injuries, needles should not be recapped, purposely bent or broken by hand.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c5c061c3-6e5f-4712-aa08-07c3127fb2b2">
+               <id root="9ce56894-7426-c9d5-e053-2a95a90ae63e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="italics">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>Epinephrine Injection, USP is supplied in single-dose containers as follows:</paragraph>
+                  <table width="100%">
+                     <col width="25%"/>
+                     <col width="32%"/>
+                     <col width="43%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Unit of Sale</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Total Strength/ Total Volume</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">(Concentration)</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Each</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC 0409-4901-18</content>
+                              </paragraph>
+                              <paragraph>Bundle of 10</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 mg/10 mL</paragraph>
+                              <paragraph>(0.1 mg/mL)</paragraph>
+                           </td>
+                           <td styleCode="Lrule Toprule Botrule " valign="top">
+                              <paragraph>NDC 0409-4901-10</paragraph>
+                              <paragraph>10 mL Single-dose Abboject™ Glass Syringe</paragraph>
+                              <paragraph>(18 G x 3 1/2 inch)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC 0409-4921-34</content>
+                              </paragraph>
+                              <paragraph>Bundle of 10</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>1 mg/10 mL</paragraph>
+                              <paragraph>(0.1 mg/mL) </paragraph>
+                           </td>
+                           <td styleCode="Botrule Lrule Toprule " valign="top">
+                              <paragraph>NDC 0409-4921-20</paragraph>
+                              <paragraph>10 mL Single-dose Lifeshield™ Abboject™ Glass Syringe
+           
+     
+      <footnote ID="_Ref445821575">Abboject™ LifeShield™ Unit of Use Syringe with protected needle and male luer lock adapter.</footnote>
+                              </paragraph>
+                              <paragraph>(20 G x 1 1/2 inch)	 </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store at 20 to 25ºC (68 to 77ºF). [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protect from light.</content>
+                  </paragraph>
+                  <paragraph>TO PREVENT NEEDLE-STICK INJURIES, NEEDLES SHOULD NOT BE RECAPPED, PURPOSELY BENT OR BROKEN BY HAND.</paragraph>
+                  <paragraph> </paragraph>
+                  <paragraph> </paragraph>
+                  <paragraph>Hospira, Inc., Lake Forest, IL 60045 USA                                                                                         
+       
+ 
+  <renderMultiMedia ID="id-62797014" referencedObject="ID_96dd9764-a9f0-4c53-a105-059918bc4d13"/>
+                     <br/>Abboject™ is a trademark of Abbott Laboratories.
+      
+
+ </paragraph>
+                  <paragraph>LAB-1136-1.0</paragraph>
+                  <paragraph>Revised: 09/2017</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+               <component>
+                  <observationMedia ID="ID_96dd9764-a9f0-4c53-a105-059918bc4d13">
+                     <text>Hospira Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="hospira-logo-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9ce56894-742b-c9d5-e053-2a95a90ae63e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 10 mL Syringe Label - 4921</title>
+               <text>
+                  <paragraph>10 mL Single-dose
+       
+ 
+  <br/>NDC 0409-4921-20
+      
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">EPINEPHRINE </content>Injection., USP
+       
+ 
+  <br/>
+                     <content styleCode="bold">1 mg/10 mL (0.1 mg/mL)</content>
+                     <br/>Rx only
+      
+
+ </paragraph>
+                  <paragraph>pH 3.3 (2.2 to 5.0). For intravenous use. See insert for
+       
+ 
+  <br/>dosage and administration. Sterile, nonpyrogenic.
+      
+
+ </paragraph>
+                  <paragraph>Hospira, Inc.
+       
+ 
+  <br/>Lake Forest, IL 60045 USA
+       
+ 
+  <br/>RL - 5185
+      
+
+ </paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20171116"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 10 mL Syringe Label - 4921</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="epinephrine-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="e37c7349-f7d1-4340-ba32-2a5ddfa30455">
+               <id root="9ce56894-742c-c9d5-e053-2a95a90ae63e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>CA-4216</title>
+               <text>
+                  <renderMultiMedia ID="id-528877855" referencedObject="ID_66cc3f88-946c-4956-84d7-9284db8bc4ea"/>
+               </text>
+               <effectiveTime value="20171116"/>
+               <component>
+                  <observationMedia ID="ID_66cc3f88-946c-4956-84d7-9284db8bc4ea">
+                     <text>Carton NDC 0409-4921-20</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ca-4216.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_677c99c0-2978-6187-e053-2991aa0af2ad">
+               <id root="9ce56894-742a-c9d5-e053-2a95a90ae63e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>OUTER PACKAGE LABEL
+ <br/>
+NDC 71872-7120-1
+</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_677c99c0-2976-6187-e053-2991aa0af2ad"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20180305"/>
+               <component>
+                  <observationMedia ID="img_677c99c0-2976-6187-e053-2991aa0af2ad">
+                     <text>pdp</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="7120.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="bac98ca9-ab1e-4867-9ef6-236642898675"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>TOPICAL<br/> HEMO-STAT<br/> SOLUTION</title>
+   <effectiveTime value="20100513"/>
+   <setId root="6223c9d2-5944-4ca1-bf6f-24047a51a5f5"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="012430880" root="1.3.6.1.4.1.519.1"/>
+            <name>Henry Schein</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="056296981" root="1.3.6.1.4.1.519.1"/>
+                  <name>DSHealthcare</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="083235549" root="1.3.6.1.4.1.519.1"/>
+                        <name>DENTSPLY Caulk</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="065a55df-ae6c-4b32-b11e-56c4770cd654"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20100513"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0404-1080" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Topical Hemo-Stat</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Aluminum Chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="250" unit="mg"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LIF1N9568Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Aluminum Chloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="CPD4NFA903" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Aluminum</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0404-1080-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43172" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, GLASS"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0404-1080-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43172" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, GLASS"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="UNAPPROVED DRUG OTHER"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19630219"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DENTAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="75503c71-c167-4d5e-bde0-bd8a09f756ba"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DIRECTIONS</title>
+               <text>
+                  <paragraph>Soak a cotton-tipped applicator or a pledget of cotton with Hemo-Stat. Apply to bleeding area with pressure until hemorrhage is arrested.</paragraph>
+               </text>
+               <effectiveTime value="20100513"/>
+               <component>
+                  <section>
+                     <id root="e3c96d6d-cfca-41a9-a14f-1440d5038e46"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Note</title>
+                     <text>
+                        <paragraph>Should a small dark coagulum appear, flush it away with water. This will have no effect on the hemostatic action.</paragraph>
+                        <paragraph>Hemo-Stat Solution contains 25% Aluminum Chloride in an aqueous vehicle. It contains no epinephrine.</paragraph>
+                     </text>
+                     <effectiveTime value="20100513"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f8883e84-5215-4af0-bd1c-ac7952b692f9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CAUTION</title>
+               <text>
+                  <paragraph>Federal (U.S.A.) Law prohibits dispensing without a prescription.</paragraph>
+                  <paragraph>Made in USA</paragraph>
+               </text>
+               <effectiveTime value="20100513"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="09eb598e-4e27-4998-8909-cd838550b695"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 30 ml Bottle Label</title>
+               <text>
+                  <paragraph>HENRY SCHEIN<sup>®</sup>
+                     <br/>
+                     <content styleCode="bold">TOPICAL HEMO-STAT SOLUTION</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">REF 100-2645</content>
+                  </paragraph>
+                  <paragraph>Contains: 25% Aluminum Chloride in an aqueous vehicle.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">For Professional Use Only <br/>Warning: Corrosive Consult MSDS</content>
+                  </paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>HENRY SCHEIN INC. <br/>Melville, NY 11747 USA</paragraph>
+                  <paragraph>Henry Schein U.K. Holdings Ltd.<br/>Gillingham ME 8 0SB U.K.</paragraph>
+                  <paragraph>1 FL. OZ. (30 ml)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MADE IN USA</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20100513"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 30 ml Bottle Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="hemostat-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

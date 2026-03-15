@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="23d89b4f-da86-6b2c-e054-00144ff8d46c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20151105"/>
+   <setId root="1b48175c-a3df-0ab3-e054-00144ff88e88"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079584480"/>
+            <name>Patchwerx Labs, Inc.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="23d994ed-63bc-0a38-e054-00144ff88e88"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20151105"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69329-250" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dermasilkrx SDSpak</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Triamcinolone Acetonide Cream, Dimethicone Cream</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="69329-250-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="80" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="67877-251" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Triamcinolone Acetonide</name>
+                              <formCode code="C28944" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CREAM"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Triamcinolone Acetonide</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="1"/>
+                                    <denominator unit="g" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="F446C597KA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRIAMCINOLONE ACETONIDE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="F446C597KA" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>TRIAMCINOLONE ACETONIDE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="80" unit="g"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67877-251-80" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="1" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code/>
+                                          <formCode code="C43197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA088042" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="118" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="69329-253" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Skin Repair Complex</name>
+                              <formCode code="C28944" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CREAM"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Dimethicone</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="TP11QR7B8R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>KUKUI NUT OIL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="ZY81Z83H0X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALOE VERA LEAF</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3XUS85K0RA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BUTYLENE GLYCOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="00YIU5438U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CAPRYLYL GLYCOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="65UEH262IS" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SAFFLOWER OIL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="936JST6JCN" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CETYL ALCOHOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="I670DAL4SZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORPHENESIN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="RSA9I561OK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DIMETHICONE/DIENE DIMETHICONE CROSSPOLYMER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EDETATE DISODIUM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCERIN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="230OU9XXE4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCERYL MONOSTEARATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="24WE03BX2T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEVOMENOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="568ET80C3D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CALCIUM PANTOTHENATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="9S60Q72309" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARTHAMUS TINCTORIUS SEED OLEOSOMES</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="7CVR7L4A2D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MALTODEXTRIN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="25X51I8RD4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NIACINAMIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="68Y4CF58BV" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PYRIDOXINE HYDROCHLORIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SILICON DIOXIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="836SJG51DR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM ASCORBYL PHOSPHATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="WR1WPI7EW8" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>.ALPHA.-TOCOPHEROL ACETATE, DL-</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="C5529G5JPQ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GINGER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="YD01N1999R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PEG-100 STEARATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="255PIF62MS" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PENTAERYTHRITOL TETRAKIS(3-(3,5-DI-TERT-BUTYL-4-HYDROXYPHENYL)PROPIONATE)</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="HIE492ZZ3T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENOXYETHANOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="YSE9PPT4TH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYALURONATE SODIUM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>STEARIC ACID</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="9O3K93S3TK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TROLAMINE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="50"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DIMETHICONE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="92RU3N3Y1O" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>DIMETHICONE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="118" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="69329-253-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="1" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code/>
+                                          <formCode code="C43197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="part347" root="2.16.840.1.113883.3.149"/>
+                                 <code code="C73603" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC monograph final"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA088042" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150720"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1b48175c-a3c5-0ab3-e054-00144ff88e88"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Triamcinolone Acetonide Cream USP (0.1%)</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20150623"/>
+               <component>
+                  <section ID="Ld664900b-da6d-494e-b121-194d00813324">
+                     <id root="1b4ca640-c4ac-2a18-e054-00144ff88e88"/>
+                     <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+                     <title>DESCRIPTION</title>
+                     <text>
+                        <paragraph>The topical corticosteroids constitute a class of primarily synthetic steroids used as anti-inflammatory and antipruritic agents. Triamcinolone acetonide is a member of this class. Chemically triamcinolone acetonide is pregna-1, 4-diene-3, 20-dione, 9-flouro-11, 21-dihydroxy-16, 17-[(1-methylethylidene)bis(oxy)]-(11β16a). Its structural formula is:</paragraph>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="img_1b4ca640-c4ab-2a18-e054-00144ff88e88"/>
+                        </paragraph>
+                        <paragraph>Each gram of triamcinolone acetonide cream contains 1 mg triamcinolone acetonide USP in a cream base consisting of purified water, emulsifying wax, mineral oil, propylene glycol, sorbitol solution, cetyl palmitate, sorbic acid, and potassium sorbate.</paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                     <component>
+                        <observationMedia ID="img_1b4ca640-c4ab-2a18-e054-00144ff88e88">
+                           <text>structure</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="download.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L540680e5-b50c-4151-a507-9a5a4792b2e5">
+                     <id root="1b48175c-a3c7-0ab3-e054-00144ff88e88"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>CLINICAL PHARMACOLOGY</title>
+                     <text>
+                        <paragraph>Topical corticosteroids share anti-inflammatory, antipruritic and vasoconstrictive actions.</paragraph>
+                        <paragraph>The mechanism of anti-inflammatory activity of the topical corticosteroids is unclear. Various laboratory methods, including vasoconstrictor assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between vasoconstrictor potency and therapeutic efficacy in man.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Pharmacokinetics</content>
+                        </paragraph>
+                        <paragraph>The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle, the integrity of the epidermal barrier, and the use of occlusive dressings.</paragraph>
+                        <paragraph>Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin increase percutaneous absorption. Occlusive dressings substantially increase the percutaneous absorption of topical corticosteroids. Thus, occlusive dressings may be a valuable therapeutic adjunct for treatment of resistant dermatoses. (See 
+         
+ 
+  <linkHtml href="#L1d67af2d-d3a5-432c-86e8-400b7c0eaf4b">DOSAGE AND ADMINISTRATION</linkHtml>).
+        
+
+ </paragraph>
+                        <paragraph>Once absorbed through the skin, topical corticosteroids are handled through pharmacokinetic pathways similar to systemically administered corticosteroids. Corticosteroids are bound to plasma proteins in varying degrees. Corticosteriods are metabolized primarily in the liver and are then excreted by the kidneys. Some of the topical corticosteroids and their metabolites are also excreted into the bile.</paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Le8d696e4-b073-41c8-8dcb-d4b402916607">
+                     <id root="1b48175c-a3c8-0ab3-e054-00144ff88e88"/>
+                     <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+                     <title>INDICATIONS AND USAGE</title>
+                     <text>
+                        <paragraph>Triamcinolone acetonide cream is indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.</paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Ld8202c95-a477-46a9-a405-0e9e30129c83">
+                     <id root="1b48175c-a3c9-0ab3-e054-00144ff88e88"/>
+                     <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+                     <title>CONTRAINDICATIONS</title>
+                     <text>
+                        <paragraph>Triamcinolone acetonide cream is contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation.</paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L6d814641-7b26-4696-bd4e-5968a2cde57e">
+                     <id root="1b48175c-a3ca-0ab3-e054-00144ff88e88"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>PRECAUTIONS</title>
+                     <text/>
+                     <effectiveTime value="20150623"/>
+                     <component>
+                        <section ID="L80465756-d67a-4bfd-ba89-359e367fcb23">
+                           <id root="1b48175c-a3cb-0ab3-e054-00144ff88e88"/>
+                           <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                           <title>
+                              <content styleCode="italics">General</content>
+                           </title>
+                           <text>
+                              <paragraph>Systemic absorption of topical corticosteroids has produced reversible hypothalamic-pituitary-adrenal (HPA) axis suppression, manifestations of Cushing's syndrome, hyperglycemia, and glucosuria in some patients.</paragraph>
+                              <paragraph>Conditions which augment systemic absorption include the application of the more potent steroids, use over large surface areas, prolonged use, and the addition of occlusive dressings.</paragraph>
+                              <paragraph>Therefore, patients receiving a large dose of a potent topical steroid applied to a large surface area or under an occlusive dressing should be evaluated periodically for evidence of HPA axis suppression by using the urinary free cortisol and ACTH stimulation tests. If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or to substitute a less potent steroid.</paragraph>
+                              <paragraph>Recovery of HPA axis function is generally prompt and complete upon discontinuation of the drug. Infrequently, signs and symptoms of steroid withdrawal may occur, requiring supplemental systemic corticosteroids. Children may absorb proportionally larger amounts of topical corticosteroids and thus be more susceptible to systemic toxicity (See PRECAUTIONS-PEDIATRIC USE).</paragraph>
+                              <paragraph>If irritation develops, topical corticosteroids should be discontinued and appropriate therapy instituted.</paragraph>
+                              <paragraph>In the presence of dermatological infections, the use of an appropriate antifungal or antibacterial agent should be instituted. If a favorable response does not occur promptly, the corticosteroid should be discontinued until the infection has been adequately controlled.</paragraph>
+                           </text>
+                           <effectiveTime value="20150623"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Ldb255470-971c-45f5-b0c8-c937283130ff">
+                           <id root="1b48175c-a3cc-0ab3-e054-00144ff88e88"/>
+                           <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                           <title>
+                              <content styleCode="italics">Information for the Patient</content>
+                           </title>
+                           <text>
+                              <paragraph>Patients using topical corticosteroids should receive the following information and instructions.</paragraph>
+                              <list listType="ordered">
+                                 <item>This medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes.</item>
+                                 <item>Patients should be advised not to use this medication for any disorder other than for which it was prescribed.</item>
+                                 <item>The treated skin area should not be bandaged or otherwise covered or wrapped as to be occlusive unless directed by the physician.</item>
+                                 <item>Patients should report any signs of local adverse reactions especially under occlusive dressing.</item>
+                                 <item>Parents of pediatric patients should be advised not to use tight-fitting diapers or plastic pants on a child being treated in the diaper area, as these garments may constitute occlusive dressings.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20150623"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="L32c64be1-627b-4e78-a644-215bbb457cba">
+                           <id root="1b48175c-a3cd-0ab3-e054-00144ff88e88"/>
+                           <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                           <title>
+                              <content styleCode="italics">Laboratory Tests</content>
+                           </title>
+                           <text>
+                              <paragraph>The following tests may be helpful in evaluating the HPA axis suppression:</paragraph>
+                              <list listType="unordered">
+                                 <item>Urinary free cortisol test</item>
+                                 <item>ACTH stimulation test</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20150623"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="L3f7ff5ce-3821-40a8-9a4c-5009ec91bdd9">
+                           <id root="1b48175c-a3ce-0ab3-e054-00144ff88e88"/>
+                           <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                           <title>
+                              <content styleCode="italics">Carcinogenesis, Mutagenesis, and Impairment of Fertility</content>
+                           </title>
+                           <text>
+                              <paragraph>Long-term animal studies have not been performed to evaluate the carcinogenic potential or the effect on fertility of topical corticosteroids.</paragraph>
+                              <paragraph>Studies to determine mutagenicity with prednisolone and hydrocortisone have revealed negative results.</paragraph>
+                           </text>
+                           <effectiveTime value="20150623"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Lb8eb28e8-4f71-45b0-99c9-02f575cc49ac">
+                           <id root="1b48175c-a3cf-0ab3-e054-00144ff88e88"/>
+                           <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                           <title>
+                              <content styleCode="italics">Pregnancy Category C</content>
+                           </title>
+                           <text>
+                              <paragraph>Corticosteroids are generally teratogenic in laboratory animals when administered systemically at relatively low dosage levels. The more potent corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. There are not adequate and well-controlled studies in pregnant women on teratogenic effects from topically applied corticosteroids. Therefore, topical corticosteroids should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Drugs of this class should not be used extensively on pregnant patients, in large amounts, or for prolonged periods of time.</paragraph>
+                           </text>
+                           <effectiveTime value="20150623"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Ld082ca6d-ebc3-4b03-aa42-8c2b7bb3b2a6">
+                           <id root="1b48175c-a3d0-0ab3-e054-00144ff88e88"/>
+                           <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                           <title>
+                              <content styleCode="italics">Nursing Mothers</content>
+                           </title>
+                           <text>
+                              <paragraph>It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in breast milk. Systemically administered corticosteroids are secreted into breast milk in quantities not likely to have a deleterious effect on the infant. Nevertheless, caution should be exercised when topical corticosteroids are administered to a nursing woman.</paragraph>
+                           </text>
+                           <effectiveTime value="20150623"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="L7439ed11-aefc-49da-8a5d-62af15e6e83a">
+                           <id root="1b48175c-a3d1-0ab3-e054-00144ff88e88"/>
+                           <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                           <title>
+                              <content styleCode="italics">Pediatric Use</content>
+                           </title>
+                           <text>
+                              <paragraph>Pediatric patients may demonstrate greater susceptibility to topical corticosteroid-induced HPA axis suppression and Cushing's syndrome than mature patients because of a larger skin surface area to body weight ratio.</paragraph>
+                              <paragraph>Hypothalamic-pituitary-adrenal (HPA) axis suppression, Cushings's syndrome and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include linear growth retardation, delayed weight gain, low plasma cortisol levels, and absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema.</paragraph>
+                              <paragraph>Administration of topical corticosteroids to children should be limited to the least amount compatible with an effective therapeutic regimen. Chronic corticosteroid therapy may interfere with the growth and development of children.</paragraph>
+                           </text>
+                           <effectiveTime value="20150623"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Led47cb93-30e1-498a-8944-e44497c24e53">
+                     <id root="1b48175c-a3d2-0ab3-e054-00144ff88e88"/>
+                     <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+                     <title>ADVERSE REACTIONS</title>
+                     <text>
+                        <paragraph>The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence:</paragraph>
+                        <list listType="unordered">
+                           <item>Burning</item>
+                           <item>Itching</item>
+                           <item>Irritation</item>
+                           <item>Dryness</item>
+                           <item>Folliculitis</item>
+                           <item>Hypertrichosis</item>
+                           <item>Acneiform eruptions</item>
+                           <item>Hypopigmentation</item>
+                           <item>Perioral dermatitis</item>
+                           <item>Allergic contact dermatitis</item>
+                           <item>Maceration of the skin</item>
+                           <item>Secondary infection</item>
+                           <item>Skin Atrophy</item>
+                           <item>Striae</item>
+                           <item>Miliaria</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L1d67af2d-d3a5-432c-86e8-400b7c0eaf4b">
+                     <id root="1b48175c-a3d3-0ab3-e054-00144ff88e88"/>
+                     <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+                     <title>DOSAGE AND ADMINISTRATION</title>
+                     <text>
+                        <paragraph>Topical corticosteroids are generally applied to the affected area as a thin film from two to three times daily depending on the severity of the condition.</paragraph>
+                        <paragraph>Occlusive dressing may be used for the management of psoriasis or recalcitrant conditions.</paragraph>
+                        <paragraph>If an infection develops, the use of occlusive dressing should be discontinued and appropriate antimicrobial therapy instituted.</paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L629e102e-fe12-4d76-ae32-6b5c2832044d">
+                     <id root="1b48175c-a3d4-0ab3-e054-00144ff88e88"/>
+                     <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+                     <title>HOW SUPPLIED</title>
+                     <text>
+                        <paragraph>Triamcinolone acetonide cream USP 0.1% is supplied in
+         
+ 
+  <br/>80 g tube NDC 67877-251-80
+         
+ 
+  <br/>
+                        </paragraph>
+                        <paragraph>Store at 59-86°F.</paragraph>
+                        <paragraph>CAUTION: FEDERAL LAW PROHIBITS DISPENSING WITHOUT PRESCRIPTION.</paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2089f3e7-a009-73e7-e054-00144ff88e88">
+               <id root="23d7b9ef-6c6e-3e5b-e054-00144ff88e88"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Skin Repair Complex (Dimethicone 5.0%)</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Drug Facts</content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150623"/>
+               <component>
+                  <section>
+                     <id root="1b48175c-a3d6-0ab3-e054-00144ff88e88"/>
+                     <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+                     <title>
+                        <content styleCode="italics">Active ingredient</content>
+                     </title>
+                     <text>
+                        <paragraph>Dimethicone 5.0%</paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L2ea05b4a-e9a0-4277-82c9-c167edd1393e">
+                     <id root="1b48175c-a3d7-0ab3-e054-00144ff88e88"/>
+                     <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+                     <title>
+                        <content styleCode="italics">Purpose</content>
+                     </title>
+                     <text>
+                        <paragraph>Skin Protectant</paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="1b48175c-a3d8-0ab3-e054-00144ff88e88"/>
+                     <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+                     <title>
+                        <content styleCode="italics">Uses</content>
+                     </title>
+                     <text>
+                        <paragraph>■ for the treatment and/or prevention of diaper rash
+         
+ 
+  <br/>■ temporarily protects and helps relieve chapped or cracked skin
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="1b48175c-a3d9-0ab3-e054-00144ff88e88"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Warnings</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">For external use only</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Do not use on </content>■ deep or puncture wounds ■ animal bites ■ serious burns
+        
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">When using this product </content>■ do not get into eyes
+        
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Stop use and ask a doctor if </content>■ condition worsens
+         
+ 
+  <br/>■ symptoms last more than 7 days or clear up and occur again within a few days
+        
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Keep out of reach of children. </content>If swallowed, get medical help or contact a Poison Control Center right away.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="1b48175c-a3da-0ab3-e054-00144ff88e88"/>
+                     <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+                     <title>
+                        <content styleCode="italics">Directions</content>
+                     </title>
+                     <text>
+                        <paragraph>■ apply cream liberally as needed</paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="1b48175c-a3db-0ab3-e054-00144ff88e88"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>
+                        <content styleCode="italics">Other information</content>
+                     </title>
+                     <text>
+                        <paragraph>■ protect from freezing ■ avoid excessive heat</paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_2089f660-e984-4234-e054-00144ff8d46c">
+                     <id root="23d89b4f-da90-6b2c-e054-00144ff8d46c"/>
+                     <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+                     <title>
+                        <content styleCode="italics">Inactive ingredients</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Aleurites moluccana</content> seed oil, 
+  <content styleCode="italics">Aloe barbadensis</content> ( 
+  <content styleCode="italics">Aloe vera</content>) leaf juice, butylene glycol, caprylyl glycol, 
+  <content styleCode="italics">Carthamus tinctorius</content> (safflower) seed oil, cetyl alcohol, chlorphenesin, dimethicone crosspolymer, disodium EDTA, fragrance, glycerin, glyceryl stearate,  Complex [consisting of: bisabolol, calcium pantothenate (vitamin B 
+  <sub>5</sub>), 
+  <content styleCode="italics">Carthamus tinctorius</content> (safflower) oleosomes, maltodextrin, niacinamide (vitamin B 
+  <sub>3</sub>), pyridoxine HCl (vitamin B 
+  <sub>6</sub>), silica, sodium ascorbyl phosphate (vitamin C), sodium starch octenylsuccinate, tocopheryl acetate (vitamin E), 
+  <content styleCode="italics">Zingiber officinale</content> (ginger) root extract], PEG-100 stearate, pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate, phenoxyethanol, purified water, sodium hyaluronate, stearic acid, triethanolamine.
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20150623"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1b48175c-a3dd-0ab3-e054-00144ff88e88"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Silicone Tape</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Uses</content>
+                     <br/>• To be applied to wounds or scars as a protective silicone barrier.
+       
+ 
+  <br/>• As a dressing for abrasions, surgical wounds, donor sites, lacerations, ulcers, skin tears, superficial partial thickness burns, venous leg ulcers.
+       
+ 
+  <br/>• As a dressing/securement for IV related uses, pressure ulcers, skin care, and wound care
+      
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Precautions</content>
+                     <br/>• Do not use if you are allergic to silicone
+       
+ 
+  <br/>• Keep out of reach of children
+      
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Directions for use</content>
+                     <br/>• Apply tape to wound or scar as needed or as directed by your physician.  Remove tape, wash area, and apply new tape at least every 24 hours.
+      
+
+ </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20150623"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld6e68dce-3a0b-473a-9677-20882ba35b2b">
+               <id root="23d89b4f-da98-6b2c-e054-00144ff8d46c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>SDS pak- carton</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_23d98ca8-e3f9-1cc1-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150623"/>
+               <component>
+                  <observationMedia ID="img_23d98ca8-e3f9-1cc1-e054-00144ff8d46c">
+                     <text>new_sdes_box_72_dpi</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="new_sds_box_72_dpi.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

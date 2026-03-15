@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="69700973-a736-2ff3-e053-2991aa0a12d1"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20180409"/>
+   <setId root="69700973-a735-2ff3-e053-2991aa0a12d1"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+            <name>H. J. Harkins Co., Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+                        <name>H.J. Harkins Co., Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="52959-879" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="52959-879" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="52959-879" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="6982f98b-17b2-144b-e053-2991aa0a90ea"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20180409"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="52959-879" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ZOLPIDEM TARTRATE</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ZOLPIDEM TARTRATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WY6W63843K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ZOLPIDEM TARTRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7K383OQI23" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ZOLPIDEM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1K09F3G675" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERRIC OXIDE RED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="52959-879-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20171116"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA077903" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20171116"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48326" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="red" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">5MG</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="10" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_69706e43-761b-0ef3-e053-2a91aa0ae715">
+               <id root="69706e43-761a-0ef3-e053-2a91aa0ae715"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications &amp; Usage</title>
+               <text>
+                  <paragraph>Zolpidem tartrate tablets, USP are indicated for the short-term treatment of insomnia characterized by difficulties with sleep initiation. Zolpidem tartrate tablets, USP have been shown to decrease sleep latency for up to 35 days in controlled clinical studies [see CLINICAL STUDIES (14)].</paragraph>
+                  <paragraph>The clinical trials performed in support of efficacy were 4 to 5 weeks in duration with the final formal assessments of sleep latency performed at the end of treatment.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_69706e43-761d-0ef3-e053-2a91aa0ae715">
+               <id root="69706e43-761c-0ef3-e053-2a91aa0ae715"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage &amp; Administration</title>
+               <text>
+                  <paragraph>.1 Dosage in Adults</paragraph>
+                  <paragraph>Use the lowest effective dose for the patient. The recommended initial dose is 5 mg for women and either 5 or 10 mg for men, taken only once per night immediately before bedtime with at least 7 to 8 hours remaining before the planned time of awakening. If the 5 mg dose is not effective, the dose can be increased to 10 mg. In some patients, the higher morning blood levels following use of the 10 mg dose increase the risk of next day impairment of driving and other activities that require full alertness [see Warnings and Precautions (5.1)]. The total dose of zolpidem tartrate tablets should not exceed 10 mg once daily immediately before bedtime. Zolpidem tartrate tablets should be taken as a single dose and should not be readministered during the same night.</paragraph>
+                  <paragraph>The recommended initial doses for women and men are different because zolpidem clearance is lower in women.</paragraph>
+                  <paragraph>2.2 Special Populations</paragraph>
+                  <paragraph>Elderly or debilitated patients may be especially sensitive to the effects of zolpidem tartrate. The recommended dose of zolpidem tartrate in these patient is 5 mg once daily immediately before bedtime [see Warnings and Precautions (5.1), Use in Specific Populations (8.5)].</paragraph>
+                  <paragraph>Patients with mild to moderate hepatic impairment do not clear the drug as rapidly as normal subjects. The recommended dose of zolpidem tartrate tablets in these patients is 5 mg once daily immediately before bedtime. Avoid zolpidem tartrate tablets use in patients with severe hepatic impairment as it may contribute to encephalopathy [see Warnings and Precautions (5.7), Use in Specific Populations (8.7), Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>2.3 Use with CNS Depressants</paragraph>
+                  <paragraph>Dosage adjustment may be necessary when zolpidem tartrate tablets are combined with other CNS depressant drugs because of the potentially additive effects [see Warnings and Precautions (5.1)].</paragraph>
+                  <paragraph>2.4 Administration</paragraph>
+                  <paragraph>The effect of zolpidem tartrate tablets may be slowed by ingestion with or immediately after a meal.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_69707422-a1fa-7f96-e053-2991aa0a03f9">
+               <id root="69707422-a1f9-7f96-e053-2991aa0a03f9"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>Dosage Forms &amp; Strengths</title>
+               <text>
+                  <paragraph>Zolpidem tartrate tablets are available in 5 mg and 10 mg strength tablets for oral administration. Tablets are not scored.</paragraph>
+                  <paragraph>Zolpidem tartrate 5 mg tablets are red colored, capsule shaped tablets with the Torrent logo debossed on one side and '5 MG' debossed on the other side.</paragraph>
+                  <paragraph>Zolpidem tartrate 10 mg tablets are peach-yellow colored, capsule shaped tablets with the Torrent logo debossed on one side and '10 MG' debossed on the other side.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_69707422-a1fc-7f96-e053-2991aa0a03f9">
+               <id root="69707422-a1fb-7f96-e053-2991aa0a03f9"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>Contraindications</title>
+               <text>
+                  <paragraph>Zolpidem tartrate tablets are contraindicated in patients with known hypersensitivity to zolpidem. Observed reactions include anaphylaxis and angioedema [see Warnings and Precautions (5.3)].</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_697076f5-2363-423d-e053-2a91aa0a52b6">
+               <id root="697076f5-2362-423d-e053-2a91aa0a52b6"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>Warnings &amp; Precautions</title>
+               <text>
+                  <paragraph>5.1 CNS Depressant Effects and Next-Day Impairment</paragraph>
+                  <paragraph>Zolpidem tartrate tablets, like other sedative-hypnotic drugs, has central nervous system (CNS) depressant effects. Co-administration with other CNS depressants (e.g., benzodiazepines, opioids, tricyclic antidepressants, alcohol) increases the risk of CNS depression. Dosage adjustments of zolpidem tartrate tablets and of other concomitant CNS depressants may be necessary when zolpidem tartrate tablets are administered with such agents because of the potentially additive effects. The use of zolpidem tartrate tablets with other sedative-hypnotics (including other zolpidem products) at bedtime or the middle of the night is not recommended [see Dosage and Administration (2.3)].</paragraph>
+                  <paragraph>The risk of next-day psychomotor impairment, including impaired driving, is increased if zolpidem tartrate tablets are taken with less than a full night of sleep remaining (7 to 8 hours); if a higher than the recommended dose is taken; if co-administered with other CNS depressants or alcohol; or if co-administered with other drugs that increase the blood levels of zolpidem. Patients should be warned against driving and other activities requiring complete mental alertness if zolpidem tartrate tablets are taken in these circumstances [see Dosage and Administration (2) and Clinical Studies (14.3)].</paragraph>
+                  <paragraph>Vehicle drivers and machine operators should be warned that, as with other hypnotics, there may be a possible risk of adverse reactions including drowsiness, prolonged reaction time, dizziness, sleepiness, blurred/double vision, reduced alertness and impaired driving the morning after therapy. In order to minimize this risk a full night of sleep (7 to 8 hours) is recommended.</paragraph>
+                  <paragraph>5.2 Need to Evaluate for Co-morbid Diagnoses</paragraph>
+                  <paragraph>Because sleep disturbances may be the presenting manifestation of a physical and/or psychiatric disorder, symptomatic treatment of insomnia should be initiated only after a careful evaluation of the patient. The failure of insomnia to remit after 7 to 10 days of treatment may indicate the presence of a primary psychiatric and/or medical illness that should be evaluated. Worsening of insomnia or the emergence of new thinking or behavior abnormalities may be the consequence of an unrecognized psychiatric or physical disorder. Such findings have emerged during the course of treatment with sedative/hypnotic drugs, including zolpidem.</paragraph>
+                  <paragraph>5.3 Severe Anaphylactic and Anaphylactoid Reactions</paragraph>
+                  <paragraph>Cases of angioedema involving the tongue, glottis or larynx have been reported in patients after taking the first or subsequent doses of sedative-hypnotics, including zolpidem. Some patients have had additional symptoms such as dyspnea, throat closing or nausea and vomiting that suggest anaphylaxis. Some patients have required medical therapy in the emergency department. If angioedema involves the throat, glottis or larynx, airway obstruction may occur and be fatal. Patients who develop angioedema after treatment with zolpidem should not be rechallenged with the drug.</paragraph>
+                  <paragraph>5.4 Abnormal Thinking and Behavioral Changes</paragraph>
+                  <paragraph>Abnormal thinking and behavior changes have been reported in patients treated with sedative/hypnotics, including zolpidem. Some of these changes included decreased inhibition (e.g., aggressiveness and extroversion that seemed out of character), bizarre behavior, agitation and depersonalization. Visual and auditory hallucinations have been reported.</paragraph>
+                  <paragraph>In controlled trials of zolpidem 10 mg taken at bedtime &lt; 1% of adults with insomnia reported hallucinations. In a clinical trial, 7% of pediatric patients treated with zolpidem 0.25 mg/kg taken at bedtime reported hallucinations versus 0% treated with placebo [see Use in Specific Populations (8.4)].</paragraph>
+                  <paragraph>Complex behaviors such as "sleep-driving" (i.e., driving while not fully awake after ingestion of a sedative-hypnotic, with amnesia for the event) have been reported in sedative-hypnotic-naive as well as in sedative-hypnotic-experienced persons. Although behaviors such as "sleep-driving" have occurred with zolpidem alone at therapeutic doses, the co-administration of zolpidem with alcohol and other CNS depressants increases the risk of such behaviors, as does the use of zolpidem at doses exceeding the maximum recommended dose. Due to the risk to the patient and the community, discontinuation of zolpidem should be strongly considered for patients who report a "sleep-driving" episode.</paragraph>
+                  <paragraph>Other complex behaviors (e.g., preparing and eating food, making phone calls, or having sex) have been reported in patients who are not fully awake after taking a sedative-hypnotic. As with "sleep-driving", patients usually do not remember these events. Amnesia, anxiety and other neuro-psychiatric symptoms may also occur.</paragraph>
+                  <paragraph>It can rarely be determined with certainty whether a particular instance of the abnormal behaviors listed above is drug induced, spontaneous in origin, or a result of an underlying psychiatric or physical disorder. Nonetheless, the emergence of any new behavioral sign or symptom of concern requires careful and immediate evaluation.</paragraph>
+                  <paragraph>5.5 Use in Patients with Depression</paragraph>
+                  <paragraph>In primarily depressed patients treated with sedative-hypnotics, worsening of depression, and suicidal thoughts and actions (including completed suicides), have been reported. Suicidal tendencies may be present in such patients and protective measures may be required. Intentional overdosage is more common in this group of patients; therefore, the lowest number of tablets that is feasible should be prescribed for the patient at any one time.</paragraph>
+                  <paragraph>5.6 Respiratory Depression</paragraph>
+                  <paragraph>Although studies with 10 mg zolpidem tartrate did not reveal respiratory depressant effects at hypnotic doses in healthy subjects or in patients with mild-to-moderate chronic obstructive pulmonary disease (COPD), a reduction in the Total Arousal Index, together with a reduction in lowest oxygen saturation and increase in the times of oxygen desaturation below 80% and 90%, was observed in patients with mild-to-moderate sleep apnea when treated with zolpidem compared to placebo. Since sedative-hypnotics have the capacity to depress respiratory drive, precautions should be taken if zolpidem is prescribed to patients with compromised respiratory function. Post-marketing reports of respiratory insufficiency in patients receiving 10 mg of zolpidem tartrate, most of whom had pre-existing respiratory impairment, have been reported. The risk of respiratory depression should be considered prior to prescribing zolpidem in patients with respiratory impairment including sleep apnea and myasthenia gravis.</paragraph>
+                  <paragraph>5.7 Precipitation of Hepatic Encephalopathy</paragraph>
+                  <paragraph>GABA agonists such as zolpidem tartrate have been associated with precipitation of hepatic encephalopathy in patients with hepatic insufficiency. In addition, patients with hepatic insufficiency do not clear zolpidem tartrate as rapidly as patients with normal hepatic function. Avoid zolpidem tartrate tablets use in patients with severe hepatic impairment as it may contribute to encephalopathy [see Dosage and Administration (2.2), Use in Specific Populations (8.7), Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>5.8 Withdrawal Effects</paragraph>
+                  <paragraph>There have been reports of withdrawal signs and symptoms following the rapid dose decrease or abrupt discontinuation of zolpidem. Monitor patients for tolerance, abuse, and dependence [see Drug Abuse and Dependence (9.2) and (9.3)].</paragraph>
+                  <paragraph>5.9 Severe Injuries</paragraph>
+                  <paragraph>Zolpidem can cause drowsiness and a decreased level of consciousness, which may lead to falls and consequently to severe injuries. Severe injuries such as hip fractures and intracranial hemorrhage have been reported.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_69708db5-b3fe-a31d-e053-2991aa0a9273">
+               <id root="69708db5-b3fd-a31d-e053-2991aa0a9273"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions</title>
+               <text/>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_69708db5-b400-a31d-e053-2991aa0a9273">
+               <id root="69708db5-b3ff-a31d-e053-2991aa0a9273"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>Drug Interactions</title>
+               <text>
+                  <paragraph>7.1 CNS-active Drugs</paragraph>
+                  <paragraph>Co-administration of zolpidem with other CNS depressants increases the risk of CNS depression. Concomitant use of zolpidem with these drugs may increase drowsiness and psychomotor impairment, including impaired driving ability [see Warnings and Precautions (5.1)]. Zolpidem tartrate was evaluated in healthy volunteers in single-dose interaction studies for several CNS drugs.</paragraph>
+                  <paragraph>Imipramine, Chlorpromazine</paragraph>
+                  <paragraph>Imipramine in combination with zolpidem produced no pharmacokinetic interaction other than a 20% decrease in peak levels of imipramine, but there was an additive effect of decreased alertness. Similarly, chlorpromazine in combination with zolpidem produced no pharmacokinetic interaction, but there was an additive effect of decreased alertness and psychomotor performance [see Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>Haloperidol</paragraph>
+                  <paragraph>A study involving haloperidol and zolpidem revealed no effect of haloperidol on the pharmacokinetics or pharmacodynamics of zolpidem. The lack of a drug interaction following single-dose administration does not predict the absence of an effect following chronic administration [see Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>Alcohol</paragraph>
+                  <paragraph>An additive adverse effect on psychomotor performance between alcohol and oral zolpidem was demonstrated [see Warnings and Precautions (5.1)].</paragraph>
+                  <paragraph>Sertraline</paragraph>
+                  <paragraph>Concomitant administration of zolpidem and sertraline increases exposure to zolpidem [see Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>Fluoxetine</paragraph>
+                  <paragraph>After multiple doses of zolpidem tartrate and fluoxetine an increase in the zolpidem half-life (17%) was observed. There was no evidence of an additive effect in psychomotor performance [see Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>7.2 Drugs that Affect Drug Metabolism via Cytochrome P450</paragraph>
+                  <paragraph>Some compounds known to induce or inhibit CYP3A may affect exposure to zolpidem. The effect of drugs that induce or inhibit other P450 enzymes on the exposure to zolpidem is not known.</paragraph>
+                  <paragraph>CYP3A4 Inducers</paragraph>
+                  <paragraph>Rifampin</paragraph>
+                  <paragraph>Rifampin, a CYP3A4 inducer, significantly reduced the exposure to and the pharmacodynamic effects of zolpidem. Use of Rifampin in combination with zolpidem may decrease the efficacy of zolpidem and is not recommended [see Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>St. John's wort</paragraph>
+                  <paragraph>Use of St. John's wort, a CYP3A4 inducer, in combination with zolpidem may decrease blood levels of zolpidem and is not recommended.</paragraph>
+                  <paragraph>CYP3A4 Inhibitors</paragraph>
+                  <paragraph>Ketoconazole</paragraph>
+                  <paragraph>Ketoconazole, a potent CYP3A4 inhibitor, increased the exposure to and pharmacodynamic effects of zolpidem. Consideration should be given to using a lower dose of zolpidem when a potent CYP3A4 inhibitor and zolpidem are given together [see Clinical Pharmacology (12.3)].</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6970a4c5-2f2b-6f86-e053-2a91aa0a0c70">
+               <id root="6970a4c5-2f2a-6f86-e053-2a91aa0a0c70"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>Use In Specific Populations</title>
+               <text/>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_69708db5-b402-a31d-e053-2991aa0a9273">
+               <id root="69708db5-b401-a31d-e053-2991aa0a9273"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>Drug Abuse and Dependence</title>
+               <text>
+                  <paragraph>9.1 Controlled Substance</paragraph>
+                  <paragraph>Zolpidem tartrate is classified as a Schedule IV controlled substance by federal regulation.</paragraph>
+                  <paragraph>9.2 Abuse</paragraph>
+                  <paragraph>Abuse and addiction are separate and distinct from physical dependence and tolerance. Abuse is characterized by misuse of the drug for non-medical purposes, often in combination with other psychoactive substances. Tolerance is a state of adaptation in which exposure to a drug induces changes that result in a diminution of one or more of the drug effects over time. Tolerance may occur to both desired and undesired effects of drugs and may develop at different rates for different effects.</paragraph>
+                  <paragraph>Addiction is a primary, chronic, neurobiological disease with genetic, psychosocial, and environmental factors influencing its development and manifestations. Its characterized by behaviors that include one or more of the following: impaired control over drug use, compulsive use, continued use despite harm, and craving. Drug addiction is a treatable disease, using a multidisciplinary approach, but relapse is common.</paragraph>
+                  <paragraph>Studies of abuse potential in former drug abusers found that the effects of single doses of zolpidem tartrate 40 mg were similar, but not identical, to diazepam 20 mg, while zolpidem tartrate 10 mg was difficult to distinguish from placebo.</paragraph>
+                  <paragraph>Because persons with a history of addiction to, or abuse of, drugs or alcohol are at increased risk for misuse, abuse and addiction of zolpidem, they should be monitored carefully when receiving zolpidem or any other hypnotic.</paragraph>
+                  <paragraph>9.3 Dependence</paragraph>
+                  <paragraph>Physical dependence is a state of adaptation that is manifested by a specific withdrawal syndrome that can be produced by abrupt cessation, rapid dose reduction, decreasing blood level of the drug, and/or administration of an antagonist.</paragraph>
+                  <paragraph>Sedative/hypnotics have produced withdrawal signs and symptoms following abrupt discontinuation. These reported symptoms range from mild dysphoria and insomnia to a withdrawal syndrome that may include abdominal and muscle cramps, vomiting, sweating, tremors, and convulsions. The following adverse events which are considered to meet the DSM-III-R criteria for uncomplicated sedative/hypnotic withdrawal were reported during U.S. clinical trials following placebo substitution occurring within 48 hours following last zolpidem treatment: fatigue, nausea, flushing, lightheadedness, uncontrolled crying, emesis, stomach cramps, panic attack, nervousness and abdominal discomfort. These reported adverse events occurred at an incidence of 1% or less. However, available data cannot provide a reliable estimate of the incidence, if any, of dependence during treatment at recommended doses. Post-marketing reports of abuse, dependence and withdrawal have been received.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6970ac82-2645-d4ea-e053-2991aa0a1e35">
+               <id root="6970ac82-2644-d4ea-e053-2991aa0a1e35"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>Overdosage</title>
+               <text>
+                  <paragraph>10.1 Signs and Symptoms</paragraph>
+                  <paragraph>In postmarketing experience of overdose with zolpidem tartrate alone, or in combination with CNS-depressant agents, impairment of consciousness ranging from somnolence to coma, cardiovascular and/or respiratory compromise, and fatal outcomes have been reported.</paragraph>
+                  <paragraph>10.2 Recommended Treatment</paragraph>
+                  <paragraph>General symptomatic and supportive measures should be used along with immediate gastric lavage where appropriate. Intravenous fluids should be administered as needed. Zolpidem's sedative hypnotic effect was shown to be reduced by flumazenil and therefore may be useful; however, flumazenil administration may contribute to the appearance of neurological symptoms (convulsions). As in all cases of drug overdose, respiration, pulse, blood pressure, and other appropriate signs should be monitored and general supportive measures employed. Hypotension and CNS depression should be monitored and treated by appropriate medical intervention. Sedating drugs should be withheld following zolpidem overdosage, even if excitation occurs. The value of dialysis in the treatment of overdosage has not been determined, although hemodialysis studies in patients with renal failure receiving therapeutic doses have demonstrated that zolpidem is not dialyzable.</paragraph>
+                  <paragraph>As with the management of all overdosage, the possibility of multiple drug ingestion should be considered. The physician may wish to consider contacting a poison control center for up-to-date information on the management of hypnotic drug product overdosage.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6970ac82-2648-d4ea-e053-2991aa0a1e35">
+               <id root="6970ac82-2647-d4ea-e053-2991aa0a1e35"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>Description</title>
+               <text>
+                  <paragraph>Zolpidem tartrate is a gamma-aminobutyric acid (GABA) A agonist of the imidazopyridine class and is available in 5 mg and 10 mg strength tablets for oral administration.</paragraph>
+                  <paragraph>Chemically, zolpidem is N,N,6-trimethyl-2-p-tolylimidazo[1,2-a] pyridine-3-acetamide L-(+)-tartrate (2:1). It has the following structure:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_6970ac82-2646-d4ea-e053-2991aa0a1e35"/>
+                  </paragraph>
+                  <paragraph>Zolpidem tartrate, USP is a white to off-white crystalline powder that is sparingly soluble in water, alcohol, and propylene glycol. It has a molecular weight of 764.88.</paragraph>
+                  <paragraph>Each zolpidem tartrate tablet, USP includes the following inactive ingredients: hypromellose, lactose monohydrate, microcrystalline cellulose, magnesium stearate, polyethylene glycol, sodium starch glycolate, titanium dioxide and ferric oxide red; the 10 mg tablet also contains ferric oxide yellow.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+               <component>
+                  <observationMedia ID="img_6970ac82-2646-d4ea-e053-2991aa0a1e35">
+                     <text>ZOLP.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ZOLP.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6970ac82-264b-d4ea-e053-2991aa0a1e35">
+               <id root="6970ac82-264a-d4ea-e053-2991aa0a1e35"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>Clinical Pharmacology</title>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>Zolpidem, the active moiety of zolpidem tartrate, is a hypnotic agent with a chemical structure unrelated to benzodiazepines, barbiturates, or other drugs with known hypnotic properties. It interacts with a GABA-BZ receptor complex and shares some of the pharmacological properties of the benzodiazepines. In contrast to the benzodiazepines, which non-selectively bind to and activate all BZ receptor subtypes, zolpidem in vitro binds the BZ1 receptor preferentially with a high affinity ratio of the α1/α5 subunits. This selective binding of zolpidem on the BZ1 receptor is not absolute, but it may explain the relative absence of myorelaxant and anticonvulsant effects in animal studies as well as the preservation of deep sleep (stages 3 and 4) in human studies of zolpidem tartrate at hypnotic doses.</paragraph>
+                  <paragraph>12.3 Pharmacokinetics</paragraph>
+                  <paragraph>The pharmacokinetic profile of zolpidem tartrate tablets is characterized by rapid absorption from the gastrointestinal tract and a short elimination half-life (T1/2) in healthy subjects.</paragraph>
+                  <paragraph>In a single-dose crossover study in 45 healthy subjects administered 5 and 10 mg zolpidem tartrate tablets, the mean peak concentrations (Cmax) were 59 (range: 29 to 113) and 121 (range: 58 to 272) ng/mL, respectively, occurring at a mean time (Tmax) of 1.6 hours for both. The mean zolpidem tartrate tablets elimination half-life was 2.6 (range: 1.4 to 4.5) and 2.5 (range: 1.4 to 3.8) hours, for the 5 and 10 mg tablets, respectively. Zolpidem tartrate tablets are converted to inactive metabolites that are eliminated primarily by renal excretion. Zolpidem tartrate tablets demonstrated linear kinetics in the dose range of 5 to 20 mg. Total protein binding was found to be 92.5 ± 0.1% and remained constant, independent of concentration between 40 and 790 ng/mL. Zolpidem did not accumulate in young adults following nightly dosing with 20 mg zolpidem tartrate tablets for 2 weeks.</paragraph>
+                  <paragraph>A food-effect study in 30 healthy male subjects compared the pharmacokinetics of zolpidem tartrate tablets 10 mg when administered while fasting or 20 minutes after a meal. Results demonstrated that with food, mean AUC and Cmax were decreased by 15% and 25%, respectively, while mean Tmax was prolonged by 60% (from 1.4 to 2.2 hr). The half-life remained unchanged. These results suggest that, for faster sleep onset, zolpidem tartrate tablets should not be administered with or immediately after a meal.</paragraph>
+                  <paragraph>Special Populations</paragraph>
+                  <paragraph>Elderly:</paragraph>
+                  <paragraph>In the elderly, the dose for zolpidem tartrate tablets should be 5 mg [see WARNINGS AND PRECAUTIONS (5) and DOSAGE AND ADMINISTRATION (2)]. This recommendation is based on several studies in which the mean Cmax, T1/2, and AUC were significantly increased when compared to results in young adults. In one study of eight elderly subjects (&gt;70 years), the means for Cmax, T1/2, and AUC significantly increased by 50% (255 vs. 384 ng/mL), 32% (2.2 vs. 2.9 hr), and 64% (955 vs. 1,562 ng·hr/mL), respectively, as compared to younger adults (20 to 40 years) following a single 20 mg oral dose. Zolpidem tartrate tablets did not accumulate in elderly subjects following nightly oral dosing of 10 mg for 1 week.</paragraph>
+                  <paragraph>Hepatic Impairment:</paragraph>
+                  <paragraph>The pharmacokinetics of zolpidem tartrate tablets in eight patients with chronic hepatic insufficiency were compared to results in healthy subjects. Following a single 20 mg oral zolpidem tartrate dose, mean Cmax and AUC were found to be two times (250 vs. 499 ng/mL) and five times (788 vs. 4,203 ng·hr/mL) higher, respectively, in hepatically-compromised patients. Tmax did not change. The mean half-life in cirrhotic patients of 9.9 hr (range: 4.1 to 25.8 hr) was greater than that observed in normal subjects of 2.2 hr (range: 1.6 to 2.4 hr) [see Dosage and Administration (2.2), Warnings and Precautions (5.7), Use in Specific Populations (8.7)].</paragraph>
+                  <paragraph>Renal Impairment:</paragraph>
+                  <paragraph>The pharmacokinetics of zolpidem tartrate were studied in 11 patients with end-stage renal failure (mean ClCr = 6.5 ± 1.5 mL/min) undergoing hemodialysis three times a week, who were dosed with zolpidem tartrate 10 mg orally each day for 14 or 21 days. No statistically significant differences were observed for Cmax, Tmax, half-life, and AUC between the first and last day of drug administration when baseline concentration adjustments were made. Zolpidem was not hemodialyzable. No accumulation of unchanged drug appeared after 14 or 21 days. Zolpidem pharmacokinetics were not significantly different in renally impaired patients. No dosage adjustment is necessary in patients with compromised renal function.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>CNS-depressants</paragraph>
+                  <paragraph>Co-administration of zolpidem with other CNS depressants increases the risk of CNS depression [see Warnings and Precautions (5.1)]. Zolpidem tartrate was evaluated in healthy volunteers in single-dose interaction studies for several CNS drugs. Imipramine in combination with zolpidem produced no pharmacokinetic interaction other than a 20% decrease in peak levels of imipramine, but there was an additive effect of decreased alertness. Similarly, chlorpromazine in combination with zolpidem produced no pharmacokinetic interaction, but there was an additive effect of decreased alertness and psychomotor performance.</paragraph>
+                  <paragraph>A study involving haloperidol and zolpidem revealed no effect of haloperidol on the pharmacokinetics or pharmacodynamics of zolpidem. The lack of a drug interaction following single-dose administration does not predict the absence of an effect following chronic administration.</paragraph>
+                  <paragraph>An additive adverse effect on psychomotor performance between alcohol and oral zolpidem was demonstrated [see Warnings and Precautions (5.1)].</paragraph>
+                  <paragraph>Following five consecutive nightly doses at bedtime of oral zolpidem tartrate 10 mg in the presence of sertraline 50 mg (17 consecutive daily doses, at 7:00 am, in healthy female volunteers), zolpidem Cmaxwas significantly higher (43%) and Tmax was significantly decreased (-53%). Pharmacokinetics of sertraline and N-desmethylsertraline were unaffected by zolpidem.</paragraph>
+                  <paragraph>A single-dose interaction study with zolpidem tartrate 10 mg and fluoxetine 20 mg at steady-state levels in male volunteers did not demonstrate any clinically significant pharmacokinetic or pharmacodynamic interactions. When multiple doses of zolpidem and fluoxetine were given at steady state and the concentrations evaluated in healthy females, an increase in the zolpidem half-life (17%) was observed. There was no evidence of an additive effect in psychomotor performance.</paragraph>
+                  <paragraph>Drugs that Affect Drug Metabolism via Cytochrome P450</paragraph>
+                  <paragraph>Some compounds known to inhibit CYP3A may increase exposure to zolpidem. The effect of inhibitors of other P450 enzymes on the pharmacokinetics of zolpidem is unknown.</paragraph>
+                  <paragraph>A single-dose interaction study with zolpidem tartrate 10 mg and itraconazole 200 mg at steady-state levels in male volunteers resulted in a 34% increase in AUC0 to ∞ of zolpidem tartrate. There were no pharmacodynamic effects of zolpidem detected on subjective drowsiness, postural sway, or psychomotor performance.</paragraph>
+                  <paragraph>A single-dose interaction study with zolpidem tartrate 10 mg and rifampin 600 mg at steady-state levels in female subjects showed significant reductions of the AUC (-73%), Cmax (-58%), and T1/2 (-36 %) of zolpidem together with significant reductions in the pharmacodynamic effects of zolpidem tartrate. Rifampin, a CYP3A4 inducer, significantly reduced the exposure to and the pharmacodynamic effects of zolpidem [see Drug Interactions (7.2)].</paragraph>
+                  <paragraph>Similarly, St. John's wort, a CYP3A4 inducer, may also decrease the blood levels of zolpidem.</paragraph>
+                  <paragraph>A single-dose interaction study with zolpidem tartrate 5 mg and ketoconazole, a potent CYP3A4 inhibitor, given as 200 mg twice daily for 2 days increased Cmax of zolpidem (30%) and the total AUC of zolpidem (70%) compared to zolpidem alone and prolonged the elimination half-life (30 %) along with an increase in the pharmacodynamic effects of zolpidem [see Drug Interactions (7.2)].</paragraph>
+                  <paragraph>Additionally, fluvoxamine (a strong inhibitor of CYP1A2 and a weak inhibitor of CYP3A4 and CYP2C9) and ciprofloxacin (a strong inhibitor of CYP1A2 and a moderate inhibitor of CYP3A4) are also likely to inhibit zolpidem's metabolic pathways, potentially leading to an increase in zolpidem exposure.</paragraph>
+                  <paragraph>Other Drugs with No Interactions with Zolpidem</paragraph>
+                  <paragraph>A study involving cimetidine/zolpidem tartrate and ranitidine/zolpidem tartrate combinations revealed no effect of either drug on the pharmacokinetics or pharmacodynamics of zolpidem.</paragraph>
+                  <paragraph>Zolpidem tartrate had no effect on digoxin pharmacokinetics and did not affect prothrombin time when given with warfarin in healthy subjects.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6970b80a-f7bd-9862-e053-2a91aa0a367c">
+               <id root="6970b80a-f7bc-9862-e053-2a91aa0a367c"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>Nonclinical Toxicology</title>
+               <text>
+                  <paragraph>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>Carcinogenesis:  Zolpidem was administered to mice and rats for 2 years at oral doses of 4, 18, and 80 mg base/kg. In mice, these doses are approximately 2.5, 10, and 50 times the maximum recommended human dose (MRHD) of 10 mg/day (8 mg zolpidem base) on mg/m2 basis. In rats, these doses are approximately 5, 20, and 100 times the MRHD on a mg/m2 basis. No evidence of carcinogenic potential was observed in mice. In rats, renal tumors (lipoma, liposarcoma) were seen at the mid- and high doses.</paragraph>
+                  <paragraph>Mutagenesis:  Zolpidem was negative in in vitro (bacterial reverse mutation, mouse lymphoma, and chromosomal aberration) and in vivo (mouse micronucleus) genetic toxicology assays.</paragraph>
+                  <paragraph>Impairment of fertility: Oral administration of zolpidem (doses of 4, 20, and 100 mg base/kg/day) to rats prior to and during mating, and continuing in females through postpartum day 25, resulted in irregular estrus cycles and prolonged precoital intervals at the highest dose tested. The no-effect dose for these findings is approximately 24 times the MRHD on a mg/m2basis. There was no impairment of fertility at any dose tested.</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6970ba30-9cf9-6469-e053-2a91aa0a7b6a">
+               <id root="6970ba30-9cf8-6469-e053-2a91aa0a7b6a"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>Clinical Studies</title>
+               <text>
+                  <paragraph>14.1 Transient Insomnia</paragraph>
+                  <paragraph>Normal adults experiencing transient insomnia (n = 462) during the first night in a sleep laboratory were evaluated in a double-blind, parallel group, single-night trial comparing two doses of zolpidem (7.5 and 10 mg) and placebo. Both zolpidem doses were superior to placebo on objective (polysomnographic) measures of sleep latency, sleep duration, and number of awakenings.</paragraph>
+                  <paragraph>Normal elderly adults (mean age 68) experiencing transient insomnia (n = 35) during the first two nights in a sleep laboratory were evaluated in a double-blind, crossover, 2-night trial comparing four doses of zolpidem (5, 10, 15 and 20 mg) and placebo. All zolpidem doses were superior to placebo on the two primary PSG parameters (sleep latency and efficiency) and all four subjective outcome measures (sleep duration, sleep latency, number of awakenings, and sleep quality).</paragraph>
+                  <paragraph>14.2 Chronic Insomnia</paragraph>
+                  <paragraph>Zolpidem was evaluated in two controlled studies for the treatment of patients with chronic insomnia (most closely resembling primary insomnia, as defined in the APA Diagnostic and Statistical Manual of Mental Disorders, DSM-IV™). Adult outpatients with chronic insomnia (n = 75) were evaluated in a double-blind, parallel group, 5-week trial comparing two doses of zolpidem tartrate and placebo. On objective (polysomnographic) measures of sleep latency and sleep efficiency, zolpidem 10 mg was superior to placebo on sleep latency for the first 4 weeks and on sleep efficiency for weeks 2 and 4. Zolpidem was comparable to placebo on number of awakenings at both doses studied.</paragraph>
+                  <paragraph>Adult outpatients (n=141) with chronic insomnia were also evaluated, in a double-blind, parallel group, 4-week trial comparing two doses of zolpidem and placebo. Zolpidem 10 mg was superior to placebo on a subjective measure of sleep latency for all 4 weeks, and on subjective measures of total sleep time, number of awakenings, and sleep quality for the first treatment week.</paragraph>
+                  <paragraph>Increased wakefulness during the last third of the night as measured by polysomnography has not been observed in clinical trials with zolpidem tartrate tablets.</paragraph>
+                  <paragraph>14.3 Studies Pertinent to Safety Concerns for Sedative/Hypnotic Drugs</paragraph>
+                  <paragraph>Next-day residual effects: Next-day residual effects of zolpidem tartrate tablets were evaluated in seven studies involving normal subjects. In three studies in adults (including one study in a phase advance model of transient insomnia) and in one study in elderly subjects, a small but statistically significant decrease in performance was observed in the Digit Symbol Substitution Test (DSST) when compared to placebo. Studies of zolpidem tartrate tablets in non-elderly patients with insomnia did not detect evidence of next-day residual effects using the DSST, the Multiple Sleep Latency Test (MSLT), and patient ratings of alertness.</paragraph>
+                  <paragraph>Rebound effects: There was no objective (polysomnographic) evidence of rebound insomnia at recommended doses seen in studies evaluating sleep on the nights following discontinuation of zolpidem tartrate tablets. There was subjective evidence of impaired sleep in the elderly on the first post-treatment night at doses above the recommended elderly dose of 5 mg.</paragraph>
+                  <paragraph>Memory impairment: Controlled studies in adults utilizing objective measures of memory yielded no consistent evidence of next-day memory impairment following the administration of zolpidem tartrate tablets. However, in one study involving zolpidem doses of 10 and 20 mg, there was a significant decrease in next-morning recall of information presented to subjects during peak drug effect (90 minutes post-dose), i.e., these subjects experienced anterograde amnesia. There was also subjective evidence from adverse event data for anterograde amnesia occurring in association with the administration of zolpidem tartrate tablets, predominantly at doses above 10 mg.</paragraph>
+                  <paragraph>Effects on sleep stages: In studies that measured the percentage of sleep time spent in each sleep stage, zolpidem tartrate tablets have generally been shown to preserve sleep stages. Sleep time spent in stages 3 and 4 (deep sleep) was found comparable to placebo with only inconsistent, minor changes in REM (paradoxical) sleep at the recommended dose</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6970b80a-f7bf-9862-e053-2a91aa0a367c">
+               <id root="6970b80a-f7be-9862-e053-2a91aa0a367c"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>How Supplied</title>
+               <text>
+                  <paragraph>Zolpidem tartrate 5 mg tablets, USP are red colored, capsule shaped tablets with the Torrent logo debossed on one side and '5 MG' debossed on the other side.</paragraph>
+                  <paragraph/>
+                  <paragraph>Store at 20º to 25°C (68º to 77°F); excursions permitted to 15° to 30°C (59º to 86°F) [see USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6970b80a-f7c1-9862-e053-2a91aa0a367c">
+               <id root="6970b80a-f7c0-9862-e053-2a91aa0a367c"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <title>Patient Counseling Information</title>
+               <text>
+                  <paragraph>See FDA-approved patient labeling (Medication Guide).</paragraph>
+                  <paragraph>Inform patients and their families about the benefits and risks of treatment with zolpidem. Inform patients of the availability of a Medication Guide and instruct them to read the Medication Guide prior to initiating treatment with zolpidem and with each prescription refill. Review the zolpidem tartrate tablets Medication Guide with every patient prior to initiation of treatment. Instruct patients or caregivers that zolpidem tartrate tablets should be taken only as prescribed.</paragraph>
+                  <paragraph>CNS Depressant Effects and Next-Day Impairment</paragraph>
+                  <paragraph>Tell patients that zolpidem has the potential to cause next-day impairment, and that this risk is increased if dosing instructions are not carefully followed. Tell patients to wait for at least 8 hours after dosing before driving or engaging in other activities requiring full mental alertness. Inform patients that impairment can be present despite feeling fully awake.</paragraph>
+                  <paragraph>Severe Anaphylactic and Anaphylactoid Reactions</paragraph>
+                  <paragraph>Inform patients that severe anaphylactic and anaphylactoid reactions have occurred with zolpidem. Describe the signs/symptoms of these reactions and advise patients to seek medical attention immediately if any of them occur.</paragraph>
+                  <paragraph>Sleep-driving and Other Complex Behaviors</paragraph>
+                  <paragraph>Instruct patients and their families that sedative hypnotics can cause abnormal thinking and behavior change, including "sleep driving" and other complex behaviors while not being fully awake (preparing and eating food, making phone calls, or having sex). Tell patients to call you immediately if they develop any of these symptoms.</paragraph>
+                  <paragraph>Suicide</paragraph>
+                  <paragraph>Tell patients to immediately report any suicidal thoughts.</paragraph>
+                  <paragraph>Alcohol and Other Drugs</paragraph>
+                  <paragraph>Ask patients about alcohol consumption, medicines they are taking, and drugs they may be taking without a prescription. Advise patients not to use zolpidem if they drank alcohol that evening or before bed.</paragraph>
+                  <paragraph>Tolerance, Abuse, and Dependence</paragraph>
+                  <paragraph>Tell patients not to increase the dose of zolpidem on their own, and to inform you if they believe the drug "does not work".</paragraph>
+                  <paragraph>Administration Instructions</paragraph>
+                  <paragraph>Patients should be counseled to take zolpidem right before they get into bed and only when they are able to stay in bed a full night (7 to 8 hours) before being active again. Zolpidem tartrate tablets should not be taken with or immediately after a meal. Advise patients NOT to take zolpidem if they drank alcohol that evening.</paragraph>
+                  <paragraph>[image]</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>TORRENT PHARMACEUTICALS LTD., Indrad-382 721, Dist. Mehsana, INDIA.</paragraph>
+                  <paragraph>For:</paragraph>
+                  <paragraph>TORRENT PHARMA INC., 150 Allen Road, Suite 102, Basking Ridge, NJ 07920.</paragraph>
+                  <paragraph>8063748                                                                                        Revised April 2017</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6970b80a-f7c3-9862-e053-2a91aa0a367c">
+               <id root="6970b80a-f7c2-9862-e053-2a91aa0a367c"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <title>Medication Guide</title>
+               <text>
+                  <paragraph>MEDICATION GUIDE</paragraph>
+                  <paragraph>Zolpidem Tartrate (zole-PI-dem TAR-trate) Tablets, USP C-IV</paragraph>
+                  <paragraph>Read the Medication Guide that comes with zolpidem tartrate tablets before you start taking it and each time you get a refill. There may be new information. This Medication Guide does not take the place of talking to your healthcare provider about your medical condition or treatment.</paragraph>
+                  <paragraph>What is the most important information I should know about zolpidem tartrate tablets?  </paragraph>
+                  <paragraph>  Do not take more zolpidem tartrate tablets than prescribed.
+  <br/>
+  Do not take zolpidem tartrate tablets unless you are able to stay in bed a full night (7 to 8 hours) before you must be active again.
+  <br/>
+  Take zolpidem tartrate tablets right before you get in bed, not sooner.
+ </paragraph>
+                  <paragraph>Zolpidem tartrate tablets may cause serious side effects, including:</paragraph>
+                  <paragraph>  After taking zolpidem tartrate tablets, you may get up out of bed while not being fully awake and do an activity that you do not know you are doing. The next morning, you may not remember that you did anything during the night. You have a higher chance for doing these activities if you drink alcohol or take other medicines that make you sleepy with zolpidem tartrate tablets. Reported activities include:</paragraph>
+                  <paragraph>o   driving a car ("sleep-driving")</paragraph>
+                  <paragraph>o   making and eating food</paragraph>
+                  <paragraph>o   talking on the phone</paragraph>
+                  <paragraph>o   having sex</paragraph>
+                  <paragraph>o   sleep-walking</paragraph>
+                  <paragraph>Call your healthcare provider right away if you find out that you have done any of the above activities after taking zolpidem tartrate tablets.</paragraph>
+                  <paragraph>Do not take zolpidem tartrate tablets if you:</paragraph>
+                  <paragraph>  drank alcohol that evening or before bed
+  <br/>
+  took another medicine to help you sleep.
+ </paragraph>
+                  <paragraph>What are zolpidem tartrate tablets?</paragraph>
+                  <paragraph>Zolpidem tartrate tablets are sedative-hypnotic (sleep) medicine. Zolpidem tartrate tablets are used in adults for the short-term treatment of a sleep problem called insomnia (trouble falling asleep).</paragraph>
+                  <paragraph>It is not known if zolpidem tartrate tablets are safe and effective in children under the age of 18 years.</paragraph>
+                  <paragraph>Zolpidem tartrate is a federally controlled substance (C-IV) because it can be abused or lead to dependence. Keep zolpidem tartrate tablets in a safe place to prevent misuse and abuse. Selling or giving away zolpidem tartrate tablets may harm others, and is against the law. Tell your healthcare provider if you have ever abused or have been dependent on alcohol, prescription medicines or street drugs.  </paragraph>
+                  <paragraph>Who should not take zolpidem tartrate tablets?</paragraph>
+                  <paragraph>Do not take zolpidem tartrate tablets if you are allergic to zolpidem or any other ingredients in zolpidem tartrate tablets. See the end of this Medication Guide for a complete list of ingredients in zolpidem tartrate tablets.
+  <br/>
+Do not take zolpidem tartrate tablets if you have had an allergic reaction to drugs containing zolpidem, such as zolpidem tartrate CR tablets, Edluar, Zolpimist, or Intermezzo.
+ </paragraph>
+                  <paragraph>Symptoms of a serious allergic reaction to zolpidem can include:</paragraph>
+                  <paragraph>swelling of your face, lips, and throat that may cause difficulty breathing or swallowing</paragraph>
+                  <paragraph>What should I tell my healthcare provider before taking zolpidem tartrate tablets?</paragraph>
+                  <paragraph>Zolpidem tartrate tablets may not be right for you. Before starting zolpidem tartrate tablets, tell your healthcare provider about all of your health conditions, including if you:</paragraph>
+                  <paragraph>  have a history of depression, mental illness, or suicidal thoughts
+  <br/>
+  have a history of drug or alcohol abuse or addiction
+  <br/>
+  have kidney or liver disease
+  <br/>
+  have a lung disease or breathing problems
+  <br/>
+  are pregnant, planning to become pregnant. It is not known if zolpidem tartrate tablets will harm your unborn baby.
+  <br/>
+  are breastfeeding or plan to breastfeed.
+ </paragraph>
+                  <paragraph>Zolpidem tartrate tablets can pass into your breast milk. It is not known if zolpidem tartrate tablets will harm your baby. Talk to your healthcare provider about the best way to feed your baby while you take zolpidem tartrate tablets.</paragraph>
+                  <paragraph>Tell your healthcare provider about all of the medicines you take, including prescription and nonprescription medicines, vitamins and herbal supplements.</paragraph>
+                  <paragraph>Medicines can interact with each other, sometimes causing serious side effects. Do not take zolpidem tartrate tablets with other medicines that can make you sleepy unless your healthcare provider tells you to.</paragraph>
+                  <paragraph>Know the medicines you take. Keep a list of your medicines with you to show your healthcare provider and pharmacist each time you get a new medicine.</paragraph>
+                  <paragraph>How should I take zolpidem tartrate tablets?</paragraph>
+                  <paragraph>  See"What is the most important information I should know about zolpidem tartrate tablets?"
+  <br/>
+  Take zolpidem tartrate tablets exactly as prescribed. Only take 1 zolpidem tartrate tablet a night if needed.
+  <br/>
+  Do not take zolpidem tartrate tablets if you drank alcohol that evening or before bed.
+  <br/>
+  You should not take zolpidem tartrate tablets with or right after a meal. Zolpidem tartrate tablets may help you fall asleep faster if you take it on an empty stomach.
+  <br/>
+  Call your healthcare provider if your insomnia worsens or is not better within 7 to 10 days. This may mean that there is another condition causing your sleep problem.
+  <br/>
+  If you take too much zolpidem tartrate tablets or overdose, get emergency treatment.
+ </paragraph>
+                  <paragraph>What are the possible side effects of zolpidem tartrate tablets?</paragraph>
+                  <paragraph>Zolpidem tartrate tablets may cause serious side effects, including:</paragraph>
+                  <paragraph>  getting out of bed while not being fully awake and do an activity that you do not know you are doing. See "What is the most important information I should know about zolpidem tartrate tablets? "
+  <br/>
+  abnormal thoughts and behavior. Symptoms include more outgoing or aggressive behavior than normal, confusion, agitation, hallucinations, worsening of depression, and suicidal thoughts or actions.
+  <br/>
+  memory loss
+  <br/>
+  anxiety
+ </paragraph>
+                  <paragraph>severe allergic reactions. Symptoms include swelling of the tongue or throat, and trouble breathing. Get emergency medical help if you get these symptoms after taking zolpidem tartrate tablets.</paragraph>
+                  <paragraph>falls, which may lead to severe injuries</paragraph>
+                  <paragraph>Call your healthcare provider right away if you have any of the above side effects or any other side effects that worry you while using zolpidem tartrate tablets.</paragraph>
+                  <paragraph>The most common side effects of zolpidem tartrate tablets are:</paragraph>
+                  <paragraph>  drowsiness
+  <br/>
+  dizziness
+  <br/>
+  diarrhea
+  <br/>
+  grogginess or feeling as if you have been drugged
+ </paragraph>
+                  <paragraph>After you stop taking a sleep medicine, you may have symptoms for 1 to 2 days such as:</paragraph>
+                  <paragraph>•   trouble sleeping</paragraph>
+                  <paragraph>•   nausea</paragraph>
+                  <paragraph>•   flushing</paragraph>
+                  <paragraph>•   lightheadedness</paragraph>
+                  <paragraph>•   uncontrolled crying</paragraph>
+                  <paragraph>•   vomiting</paragraph>
+                  <paragraph>•   stomach cramps</paragraph>
+                  <paragraph>•   panic attack</paragraph>
+                  <paragraph>•   nervousness</paragraph>
+                  <paragraph>•   stomach area pain</paragraph>
+                  <paragraph>These are not all the side effects of zolpidem tartrate tablets. Ask your healthcare provider or pharmacist for more information.</paragraph>
+                  <paragraph>Call your healthcare provider for medical advice about side effects. You may report side effects to FDA at 1–800–FDA–1088.</paragraph>
+                  <paragraph>How should I store zolpidem tartrate tablets?</paragraph>
+                  <paragraph>  Store at 20° to 25°C (68° to 77°F); excursions permitted to 15° to 30°C (59° to 86°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Keep zolpidem tartrate tablets and all medicines out of reach of children.</paragraph>
+                  <paragraph>General Information about the safe and effective use of zolpidem tartrate tablets</paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use zolpidem tartrate tablets for a condition for which it was not prescribed. Do not share zolpidem tartrate tablets with other people, even if they have the same symptoms that you have. It may harm them and it is against the law.</paragraph>
+                  <paragraph>This Medication Guide summarizes the most important information about zolpidem tartrate tablets. If you would like more information, talk with your healthcare provider. You can ask your healthcare provider or pharmacist for information about zolpidem tartrate tablets that are written for healthcare professionals.</paragraph>
+                  <paragraph>For more information, call 1-269-544-2299.</paragraph>
+                  <paragraph>What are the ingredients in zolpidem tartrate tablets?</paragraph>
+                  <paragraph>Active Ingredient: Zolpidem tartrate, USP</paragraph>
+                  <paragraph>Inactive Ingredients: hypromellose, lactose monohydrate, microcrystalline cellulose, magnesium stearate, polyethylene glycol, sodium starch glycolate, titanium dioxide and ferric oxide red; the 10 mg tablet also contains ferric oxide yellow.</paragraph>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Trademarks are the property of their respective owners.</paragraph>
+                  <paragraph>[Logo]</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>TORRENT PHARMACEUTICALS LTD., Indrad-382 721, Dist. Mehsana, INDIA.</paragraph>
+                  <paragraph>For:</paragraph>
+                  <paragraph>TORRENT PHARMA INC., 150 Allen Road, Suite 102, Basking Ridge, NJ 07920.</paragraph>
+                  <paragraph>8063101                                                                                     Revised February 2017</paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_6970ac82-264f-d4ea-e053-2991aa0a1e35">
+               <id root="6970ac82-264e-d4ea-e053-2991aa0a1e35"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package Label. Principal Display Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_6970ac82-264d-d4ea-e053-2991aa0a1e35"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20171116"/>
+               <component>
+                  <observationMedia ID="img_6970ac82-264d-d4ea-e053-2991aa0a1e35">
+                     <text>52959 0879.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="52959 0879.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

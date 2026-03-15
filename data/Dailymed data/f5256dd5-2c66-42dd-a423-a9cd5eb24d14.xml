@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f5256dd5-2c66-42dd-a423-a9cd5eb24d14"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20190122"/>
+   <setId root="eec9848f-56b0-428c-becd-4f9c7100faed"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="063790265" root="1.3.6.1.4.1.519.1"/>
+            <name>Mylan Technologies Inc.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="91727954-4a86-4233-8cc3-239bd72f96af"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20190122"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59490-4190" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FENTANYL</name>
+                        <formCode code="C42968" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>FENTANYL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="12"/>
+                              <denominator unit="h" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="UF599785JZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FENTANYL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="UF599785JZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FENTANYL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="h" value="72"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="5"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="59490-4190-9" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190101"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73590" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Export only"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59490-4191" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FENTANYL</name>
+                        <formCode code="C42968" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>FENTANYL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="25"/>
+                              <denominator unit="h" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="UF599785JZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FENTANYL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="UF599785JZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FENTANYL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="h" value="72"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="5"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="59490-4191-9" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190101"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73590" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Export only"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59490-4192" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FENTANYL</name>
+                        <formCode code="C42968" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>FENTANYL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="50"/>
+                              <denominator unit="h" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="UF599785JZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FENTANYL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="UF599785JZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FENTANYL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="h" value="72"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="5"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="59490-4192-9" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190101"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73590" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Export only"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59490-4193" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FENTANYL</name>
+                        <formCode code="C42968" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>FENTANYL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="75"/>
+                              <denominator unit="h" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="UF599785JZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FENTANYL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="UF599785JZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FENTANYL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="h" value="72"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="5"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="59490-4193-9" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190101"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73590" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Export only"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59490-4194" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FENTANYL</name>
+                        <formCode code="C42968" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>FENTANYL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="100"/>
+                              <denominator unit="h" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="UF599785JZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FENTANYL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="UF599785JZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FENTANYL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="h" value="72"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="5"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="59490-4194-9" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20190101"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73590" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Export only"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_81532eb7-cb00-4074-aa80-5022465d9027">
+               <id root="bf01ac7d-c603-452c-96e0-3c58c1ae666e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL – 12 microgram/hour </title>
+               <text>
+                  <renderMultiMedia ID="id-1378392406" referencedObject="ID_5715372e-8120-419c-b740-525ea80e185f"/>
+                  <renderMultiMedia ID="id115886505" referencedObject="ID_00edb8bb-8525-40dc-be6c-62a1ea7ffc40"/>
+                  <renderMultiMedia ID="id-1081908035" referencedObject="ID_068fb981-93a7-43f4-be15-952b74b097ef"/>
+                  <renderMultiMedia ID="id-25108951" referencedObject="ID_72a3f39a-867c-4117-aec1-3a342d1fd577"/>
+                  <renderMultiMedia ID="id650262462" referencedObject="ID_41a4f346-5f48-4e02-b24f-e1c4d659438d"/>
+                  <renderMultiMedia ID="id-1094857714" referencedObject="ID_2bc83e69-196d-4314-9814-ce95a7953f89"/>
+                  <renderMultiMedia ID="id-1440755893" referencedObject="ID_6ea29fff-c002-40ed-918e-fcbe11229516"/>
+                  <renderMultiMedia ID="id-719820940" referencedObject="ID_4afc29f2-f23c-47d6-9312-388e37b6206c"/>
+                  <renderMultiMedia ID="id689488656" referencedObject="D5EF5651-675B-4EBA-9ECE-53D151020A4E"/>
+               </text>
+               <effectiveTime value="20190122"/>
+               <component>
+                  <observationMedia ID="ID_5715372e-8120-419c-b740-525ea80e185f">
+                     <text>12 microgram/hour Carton Label - UK</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_00edb8bb-8525-40dc-be6c-62a1ea7ffc40">
+                     <text>12 microgram/hour Carton Label - Belgium</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_068fb981-93a7-43f4-be15-952b74b097ef">
+                     <text>12 microgram/hour Carton Label - Sweden</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_72a3f39a-867c-4117-aec1-3a342d1fd577">
+                     <text>12 microgram/hour Carton Label - Czech</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_41a4f346-5f48-4e02-b24f-e1c4d659438d">
+                     <text>12 microgram/hour Carton Label - Greece</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_2bc83e69-196d-4314-9814-ce95a7953f89">
+                     <text>12 microgram/hour Carton Label - Denmark</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_6ea29fff-c002-40ed-918e-fcbe11229516">
+                     <text>12 microgram/hour Carton Label - Netherlands</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-12.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_4afc29f2-f23c-47d6-9312-388e37b6206c">
+                     <text>12 microgram/hour Carton Label - France</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-13.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="D5EF5651-675B-4EBA-9ECE-53D151020A4E">
+                     <text>12 microgram/hour Carton Label - Portugal</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-14.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ad82093f-f7e1-4058-9354-e2d61e107060">
+               <id root="0b75f880-6ad3-4195-b4be-18aac6275f20"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL – 25 microgram/hour </title>
+               <text>
+                  <renderMultiMedia ID="id1909567198" referencedObject="ID_45240e8e-1915-48b2-b51e-15b52edb4cf8"/>
+                  <renderMultiMedia ID="id-1103652453" referencedObject="F4813F87-3785-452F-A17E-06C8FB5C65EB"/>
+                  <renderMultiMedia ID="id589350503" referencedObject="ID_4bd7775d-e042-4a8c-afdc-37fbbeadcb84"/>
+                  <renderMultiMedia ID="id-877855151" referencedObject="D4A874FE-F219-4BCC-9D08-CE3A77280EB8"/>
+                  <renderMultiMedia ID="id-948776930" referencedObject="ID_4b46a787-930b-4b02-8b0e-baa8e2a6290d"/>
+                  <renderMultiMedia ID="id-1621601283" referencedObject="FB9E6C47-4454-41AE-987B-7E6A035461BC"/>
+                  <renderMultiMedia ID="id1809892714" referencedObject="B6E04A1C-AB38-42E5-A8D2-11941C82EAC1"/>
+                  <renderMultiMedia ID="id-409532630" referencedObject="ID_0b86f7cd-ed8d-42b5-9bf2-0441f43a157f"/>
+                  <renderMultiMedia ID="id364644106" referencedObject="ID_6d249909-6125-425c-b003-7a31af334063"/>
+                  <renderMultiMedia ID="id1519274500" referencedObject="ID_96dad087-ee76-4820-a4f7-f24018629ab2"/>
+                  <renderMultiMedia ID="id-857812542" referencedObject="ID_843faacd-cbab-4c57-a0fd-b828eaac768d"/>
+               </text>
+               <effectiveTime value="20190122"/>
+               <component>
+                  <observationMedia ID="ID_45240e8e-1915-48b2-b51e-15b52edb4cf8">
+                     <text>25 microgram/hour Carton Label - UK</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="F4813F87-3785-452F-A17E-06C8FB5C65EB">
+                     <text>25 microgram/hour Carton Label - Belgium</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-15.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_4bd7775d-e042-4a8c-afdc-37fbbeadcb84">
+                     <text>25 microgram/hour Carton Label - Germany</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-16.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="D4A874FE-F219-4BCC-9D08-CE3A77280EB8">
+                     <text>25 microgram/hour Carton Label - Sweden</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-17.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_4b46a787-930b-4b02-8b0e-baa8e2a6290d">
+                     <text>25 microgram/hour Carton Label - Czech</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-18.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="FB9E6C47-4454-41AE-987B-7E6A035461BC">
+                     <text>25 microgram/hour Carton Label - Greece</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-19.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="B6E04A1C-AB38-42E5-A8D2-11941C82EAC1">
+                     <text>25 microgram/hour Carton Label - Denmark</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-20.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_0b86f7cd-ed8d-42b5-9bf2-0441f43a157f">
+                     <text>25 microgram/hour Carton Label - Netherlands</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-21.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_6d249909-6125-425c-b003-7a31af334063">
+                     <text>25 microgram/hour Carton Label - France</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-22.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_96dad087-ee76-4820-a4f7-f24018629ab2">
+                     <text>25 microgram/hour Carton Label - Portugal</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-23.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_843faacd-cbab-4c57-a0fd-b828eaac768d">
+                     <text>25 microgram/hour Carton Label - Spain</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-24.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_42069267-1a49-4458-b279-aebaa38458b0">
+               <id root="b91b9a17-bf8e-4128-ad23-af628eb523ba"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL – 50 microgram/hour </title>
+               <text>
+                  <renderMultiMedia ID="id-492103839" referencedObject="ID_07449afc-59e5-4a05-9a09-074363217141"/>
+                  <renderMultiMedia ID="id608713018" referencedObject="CF437B07-9333-45B9-8E4D-5D7668150132"/>
+                  <renderMultiMedia ID="id-1426265295" referencedObject="ID_53039771-dd16-4d22-ba6a-7a1f433571ca"/>
+                  <renderMultiMedia ID="id878135065" referencedObject="A8B7CB0A-52FF-4041-8F49-226C6519A86F"/>
+                  <renderMultiMedia ID="id-502897726" referencedObject="ID_5fcc6994-a09d-4345-a0f9-4d081ff9c19b"/>
+                  <renderMultiMedia ID="id1795325444" referencedObject="ID_1240810b-98f4-4471-9357-4c71f8af976d"/>
+                  <renderMultiMedia ID="id-1244256954" referencedObject="CD0ABA6A-DB73-4D81-87B8-4CF4422499F8"/>
+                  <renderMultiMedia ID="id819700454" referencedObject="DE2F474B-8E0E-4E12-BF56-7840BC262B81"/>
+                  <renderMultiMedia ID="id-1204865548" referencedObject="ID_3f493015-fef2-49d4-9251-149a224a5a7d"/>
+                  <renderMultiMedia ID="id703443849" referencedObject="ID_6f221fb9-1c11-4f27-aa8a-1d3c1858ee63"/>
+                  <renderMultiMedia ID="id-2063554553" referencedObject="C22CCC1D-2361-4831-B5AC-A026A4767ECD"/>
+               </text>
+               <effectiveTime value="20190122"/>
+               <component>
+                  <observationMedia ID="ID_07449afc-59e5-4a05-9a09-074363217141">
+                     <text>50 microgram/hour Carton Label - UK</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="CF437B07-9333-45B9-8E4D-5D7668150132">
+                     <text>50 microgram/hour Carton Label - Belgium</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-25.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_53039771-dd16-4d22-ba6a-7a1f433571ca">
+                     <text>50 microgram/hour Carton Label - Germany</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-26.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="A8B7CB0A-52FF-4041-8F49-226C6519A86F">
+                     <text>50 microgram/hour Carton Label - Sweden</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-27.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_5fcc6994-a09d-4345-a0f9-4d081ff9c19b">
+                     <text>50 microgram/hour Carton Label - Czech</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-28.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_1240810b-98f4-4471-9357-4c71f8af976d">
+                     <text>50 microgram/hour Carton Label - Greece</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-29.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="CD0ABA6A-DB73-4D81-87B8-4CF4422499F8">
+                     <text>50 microgram/hour Carton Label - Denmark</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-30.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="DE2F474B-8E0E-4E12-BF56-7840BC262B81">
+                     <text>50 microgram/hour Carton Label - Netherlands</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-31.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_3f493015-fef2-49d4-9251-149a224a5a7d">
+                     <text>50 microgram/hour Carton Label - France</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-32.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_6f221fb9-1c11-4f27-aa8a-1d3c1858ee63">
+                     <text>50 microgram/hour Carton Label - Portugal</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-33.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="C22CCC1D-2361-4831-B5AC-A026A4767ECD">
+                     <text>50 microgram/hour Carton Label - Spain</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-34.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_de1cbf0e-ee08-49d3-acdf-6d26eaffc248">
+               <id root="6f403795-7a1a-45bb-87c7-9652f3de9f02"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL – 75 microgram/hour </title>
+               <text>
+                  <renderMultiMedia ID="id905191173" referencedObject="D186302C-6F8C-44B8-A65F-555C6F66F4CB"/>
+                  <renderMultiMedia ID="id-316342078" referencedObject="ID_52bae5b7-2dfd-4364-b850-2690ddbaf92d"/>
+                  <renderMultiMedia ID="id1354388373" referencedObject="ID_198b4082-867c-48e8-9a58-add306b33488"/>
+                  <renderMultiMedia ID="id-849249921" referencedObject="C3132CFD-A04B-4010-99EE-80106E3BD049"/>
+                  <renderMultiMedia ID="id1678230491" referencedObject="ID_221e07a6-4b70-47cb-8cd4-9cc1de958c0d"/>
+                  <renderMultiMedia ID="id412512322" referencedObject="ID_8389b0d7-8b8d-4171-a666-8356c1c14c87"/>
+                  <renderMultiMedia ID="id-520930407" referencedObject="ID_9b4f9b15-3b49-43fc-b8e2-31fd2184bd7c"/>
+                  <renderMultiMedia ID="id-390041572" referencedObject="ID_9f1e2bad-aabc-4bb4-af41-b4daf7fd75e3"/>
+                  <renderMultiMedia ID="id2021891960" referencedObject="ID_9eb18941-cca8-4f44-adf5-16436cf39892"/>
+                  <renderMultiMedia ID="id217328584" referencedObject="C59E471E-7512-4AE6-801E-FF8B857B77B0"/>
+                  <renderMultiMedia ID="id-593167168" referencedObject="ID_99db516a-6369-4a7c-8cd2-f8c4b20fad04"/>
+               </text>
+               <effectiveTime value="20190122"/>
+               <component>
+                  <observationMedia ID="D186302C-6F8C-44B8-A65F-555C6F66F4CB">
+                     <text>75 microgram/hour Carton Label - UK</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_52bae5b7-2dfd-4364-b850-2690ddbaf92d">
+                     <text>75 microgram/hour Carton Label - Belgium</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-35.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_198b4082-867c-48e8-9a58-add306b33488">
+                     <text>75 microgram/hour Carton Label - Germany</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-36.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="C3132CFD-A04B-4010-99EE-80106E3BD049">
+                     <text>75 microgram/hour Carton Label - Sweden</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-37.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_221e07a6-4b70-47cb-8cd4-9cc1de958c0d">
+                     <text>75 microgram/hour Carton Label - Czech</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-38.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_8389b0d7-8b8d-4171-a666-8356c1c14c87">
+                     <text>75 microgram/hour Carton Label - Greece</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-39.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_9b4f9b15-3b49-43fc-b8e2-31fd2184bd7c">
+                     <text>75 microgram/hour Carton Label - Denmark</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-40.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_9f1e2bad-aabc-4bb4-af41-b4daf7fd75e3">
+                     <text>75 microgram/hour Carton Label - Netherlands</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-41.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_9eb18941-cca8-4f44-adf5-16436cf39892">
+                     <text>75 microgram/hour Carton Label - France</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-42.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="C59E471E-7512-4AE6-801E-FF8B857B77B0">
+                     <text>75 microgram/hour Carton Label - Portugal</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-43.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_99db516a-6369-4a7c-8cd2-f8c4b20fad04">
+                     <text>75 microgram/hour Carton Label - Spain</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-44.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f836a9c9-f811-4268-aca3-bd94111049b4">
+               <id root="bbe2197d-465d-4013-a98b-9364654bdd2c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL – 100 microgram/hour </title>
+               <text>
+                  <renderMultiMedia ID="id1674074419" referencedObject="ID_3117790f-df4e-4ddf-98b7-7d50799495ca"/>
+                  <renderMultiMedia ID="id-1936042098" referencedObject="ID_0f1da2cb-6960-4762-ade2-5f6ad348313b"/>
+                  <renderMultiMedia ID="id775984687" referencedObject="ID_6983b0af-aff0-4d33-a6ab-3e72eab7a7d6"/>
+                  <renderMultiMedia ID="id-679358348" referencedObject="ID_0da9e49e-effe-4226-bb12-684fbe422adb"/>
+                  <renderMultiMedia ID="id1360705533" referencedObject="ID_9b5b90f0-856f-408f-8576-8a7b90691653"/>
+                  <renderMultiMedia ID="id-612985583" referencedObject="F2B4361A-D8D6-41D4-A97F-51F31F82D202"/>
+                  <renderMultiMedia ID="id509107650" referencedObject="ID_198e0c71-4f4d-4f99-a15f-466fb26ec26e"/>
+                  <renderMultiMedia ID="id716252738" referencedObject="B486AF8B-FDD9-4723-BB64-5899A57883CC"/>
+                  <renderMultiMedia ID="id700602457" referencedObject="A776599E-44C2-4730-906C-37EEB3556D4C"/>
+                  <renderMultiMedia ID="id-1563713590" referencedObject="ID_54eb449f-df2b-40e5-9173-428373681826"/>
+                  <renderMultiMedia ID="id1964079227" referencedObject="ID_89369cb3-b7ba-44dd-b4c0-45d5dcd7f0c2"/>
+               </text>
+               <effectiveTime value="20190122"/>
+               <component>
+                  <observationMedia ID="ID_3117790f-df4e-4ddf-98b7-7d50799495ca">
+                     <text>100 microgram/hour Carton Label - UK</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_0f1da2cb-6960-4762-ade2-5f6ad348313b">
+                     <text>100 microgram/hour Carton Label - Belgium</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-45.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_6983b0af-aff0-4d33-a6ab-3e72eab7a7d6">
+                     <text>100 microgram/hour Carton Label - Germany</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-46.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_0da9e49e-effe-4226-bb12-684fbe422adb">
+                     <text>100 microgram/hour Carton Label - Sweden</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-47.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_9b5b90f0-856f-408f-8576-8a7b90691653">
+                     <text>100 microgram/hour Carton Label - Czech</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-48.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="F2B4361A-D8D6-41D4-A97F-51F31F82D202">
+                     <text>100 microgram/hour Carton Label - Greece</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-49.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_198e0c71-4f4d-4f99-a15f-466fb26ec26e">
+                     <text>100 microgram/hour Carton Label - Denmark</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-50.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="B486AF8B-FDD9-4723-BB64-5899A57883CC">
+                     <text>100 microgram/hour Carton Label - Netherlands</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-51.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="A776599E-44C2-4730-906C-37EEB3556D4C">
+                     <text>100 microgram/hour Carton Label - France</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-52.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_54eb449f-df2b-40e5-9173-428373681826">
+                     <text>100 microgram/hour Carton Label - Portugal</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-53.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_89369cb3-b7ba-44dd-b4c0-45d5dcd7f0c2">
+                     <text>100 microgram/hour Carton Label - Spain</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-54.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,2057 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="10bba7af-957c-4cc6-ba44-5569fca4f885"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20210615"/>
+   <setId root="bd0f5322-a1d3-79c3-e053-2995a90acd70"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="220514820"/>
+            <name>Porton Biopharma Limited</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="220514820"/>
+                        <name>Porton Biopharma Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="81561-413" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="95463059-0eb8-4adc-a60b-d0ce5a7249d6"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20210503"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="81561-413" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ERWINASE</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>asparaginase</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="10000" unit="[iU]"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="D733ET3F9O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ASPARAGINASE ERWINIA CHRYSANTHEMI</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="G4FQ3CKY5R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ASPARAGINASE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="5" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.5" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="81561-413-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43209" displayName="VIAL, GLASS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="5" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="81561-413-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210601"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L3cab6835-3230-4295-bf48-b398ddca21bb">
+               <id root="8062d156-1f57-447e-b0e5-f5c02dfd563d"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <title>HEALTH CARE PROVIDER LETTER</title>
+               <text>
+                  <paragraph styleCode="Default">25 May 2021</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">IMPORTANT PRESCRIBING INFORMATION</content>
+                  </paragraph>
+                  <paragraph>Subject:        Temporary importation of Erwinase<sup>®</sup> (crisantaspase) injection, powder, lyophilized, for solution to address a drug shortage in the United States (U.S.)</paragraph>
+                  <paragraph styleCode="Default"/>
+                  <paragraph>
+                     <content styleCode="bold">Dear Healthcare Professional,</content>
+                  </paragraph>
+                  <paragraph>In order to alleviate a critical shortage of U.S.-licensed asparaginase erwinia chrysanthemi injection, powder, lyophilized, for solution in the US market, Porton Biopharma Limited (PBL) is coordinating with the U.S. Food and Drug Administration (FDA) to make available in the U.S. the non-FDA licensed Erwinase (crisantaspase) 10,000 IU/vial powder for solution for injection/infusion.</paragraph>
+                  <paragraph>At this time, no other entity except PBL (via its distributor Clinigen Inc.) is authorized by the FDA to import and distribute Erwinase in the U.S. However, this does not represent a formal FDA approval of Erwinase in the U.S.</paragraph>
+                  <paragraph>Effective immediately, PBL (via its distributor Clinigen Inc.) will distribute the following presentation of Erwinase (Batch number: W060172) to address the critical shortage:</paragraph>
+                  <table width="60%" border="1" cellspacing="0" cellpadding="2">
+                     <col width="30%" align="left" valign="top"/>
+                     <col width="10%" align="left" valign="top"/>
+                     <col width="30%" align="left" valign="top"/>
+                     <col width="15%" align="left" valign="top"/>
+                     <col width="15%" align="left" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Product Name</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Pack Size</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Description</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">U.K. Marketing Authorization Number</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">NDC</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>Erwinase, 10,000 IU/vial, Powder for solution for injection/infusion.</paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>5 vials</paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>Powder for solution for injection/infusion. White lyophilised powder in a vial.</paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>PL 44403/0002</paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>NDC 81561-413-05*</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>*This NDC code has been assigned by PBL. The code is presented on the carton. It should be noted that the importer and distributor in the U.S. will be Clinigen Inc. The same NDC code will be used throughout the distribution chain of the product in the U.S.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">It is important to note the following:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">Erwinase is available in the U.S. only by prescription.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">There is no barcode on this product for use with U.S. barcode scanning systems.</content>
+                        <br/>Alternative procedures should be followed to assure that the correct drug product is being used and administered to individual patients.</item>
+                     <item>
+                        <content styleCode="bold">Contraindications to use of Erwinase include:</content>
+                        <list>
+                           <item>Serious hypersensitivity reactions to asparaginase erwinia chrysanthemi, including anaphylaxis</item>
+                           <item>Serious pancreatitis with any prior asparaginase therapy</item>
+                           <item>Serious thrombosis with any prior asparaginase therapy</item>
+                           <item>Serious hemorrhagic events with any prior asparaginase therapy</item>
+                        </list>
+                     </item>
+                     <item>
+                        <content styleCode="bold">There are differences between the U.S.-licensed asparaginase erwinia chrysanthemi Prescribing Information and the Erwinase Summary of Product Characteristics (Appendix 2).  Use the recommended dosage for U.S.-licensed asparaginase erwinia chrysanthemi</content>
+                        <list>
+                           <item>To substitute for each planned dose of pegaspargase, the recommended dosage of Erwinase is 25,000 International Units/m<sup>2</sup> administered intramuscularly or intravenously three times a week (Monday/Wednesday/Friday) for two consecutive weeks (total six doses). </item>
+                           <item>When administering Erwinase intravenously, the desired NSAA levels may not be achieved; consider monitoring nadir (pre-dose) serum asparaginase activity (NSAA) levels and switching to intramuscular administration if desired NSAA levels are not achieved with intravenous dosing.</item>
+                        </list>
+                     </item>
+                     <item>
+                        <content styleCode="bold">There are differences between the U.S.-licensed product and Erwinase in the Preparation and Handling Instructions (Appendix 2). Use the recommended handling instruction for U.S.-licensed asparaginase erwinia chrysanthemi.</content>
+                        <list>
+                           <item>Do not freeze or refrigerate reconstituted solution and administer within 4 hours or discard.</item>
+                        </list>
+                     </item>
+                     <item>
+                        <content styleCode="bold">There are differences between the U.S.-licensed product and Erwinase in the format and content of the container and carton labelling.</content>
+                        <list>
+                           <item>The Erwinase carton includes an insert providing both the U.K. prescribing information (Summary of Product Characteristics) and information for the patient (package leaflet). See the bullet above regarding the recommended dosage instructions for Erwinase.</item>
+                           <item>The vial label will display the text used and approved for marketing the product in U.K. Please see the product comparison tables at the end of this letter (Appendix 1).</item>
+                           <item>The packaging of Erwinase does not include serialization information and does not meet the product identifier requirements of section 582(b)(2) of the Federal Food, Drug and Cosmetic Act.</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph styleCode="Default">Ensure that your staff and others in your office and/or pharmacy who may be involved in the prescribing and/or dispensing of Erwinase- asparaginase injection, powder, lyophilized, for solution receive a copy of this letter, review the information and instruct patients on the differences between Erwinase and U.S.-licensed asparaginase erwinia chrysanthemi<content styleCode="bold">.</content>
+                  </paragraph>
+                  <paragraph styleCode="Default">
+                     <content>This letter and the attachments are not intended as a complete description of the benefits and risks related to the use of Erwinase.  See the full prescribing information on the UK MHRA website at </content>
+                     <linkHtml href="https://products.mhra.gov.uk/product/?product=ERWINASE%2010%20000%20UNITS%2FVIAL%20%20LYOPHILISATE%20FOR%20SOLUTION%20FOR%20INJECTION">https://products.mhra.gov.uk/product/?product=ERWINASE%2010%20000%20UNITS%2FVIAL%20%20LYOPHILISATE%20FOR%20SOLUTION%20FOR%20INJECTION</linkHtml>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Contact Information:</content>
+                  </paragraph>
+                  <paragraph styleCode="Default">
+                     <content styleCode="bold">If you have any questions </content>about the information contained in this letter, any quality related problems, or questions on the use of Erwinase, please contact Porton Biopharma Limited via email <linkHtml href="mailto:medinfo@portonbiopharma.com">medinfo@portonbiopharma.com</linkHtml> or contact directly at 1-855-209-2652.</paragraph>
+                  <paragraph styleCode="Default">
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To place an order,</content> contact McKesson Plasma and Biologics (MPB) directly at 1-877-625-2566.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adverse Events and Product Quality Complaints:</content>
+                  </paragraph>
+                  <paragraph>Report adverse events associated with the use of Erwinase to <linkHtml href="mailto:drugsafety@portonbiopharma.com">drugsafety@portonbiopharma.com</linkHtml> via email or contact directly at 1-855-209-2652.</paragraph>
+                  <paragraph>Adverse events, medication errors or quality problems experienced with the use of Erwinase may also be reported to the FDA’s MedWatch Adverse Event Reporting Program either online, regular mail, or by fax:</paragraph>
+                  <list listType="unordered">
+                     <item>Complete and submit the report Online: <linkHtml href="http://www.fda.gov/medwatch/report.htm">www.fda.gov/medwatch/report.htm</linkHtml>
+                     </item>
+                     <item>Regular Mail or Fax: Download form <linkHtml href="http://www.fda.gov/medwatch/getforms.htm">www.fda.gov/medwatch/getforms.htm</linkHtml> or call 1-800-332-1088 to request a reporting form, then complete and return to the address on the pre-addressed form, or submit by fax to 1-800-FDA-0178 (1-800-332-0178).</item>
+                  </list>
+                  <paragraph>We remain at your disposal to answer any questions you may have about our product and to provide more information if needed.</paragraph>
+                  <paragraph>Yours sincerely,</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <table width="99%" cellspacing="0" cellpadding="2" styleCode="Noautorules">
+                     <col width="50%" align="left" valign="top"/>
+                     <col width="50%" align="left" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Dr. Elizabeth Madichie</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Dr. Henno Welgemoed</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Director of Regulatory Affairs &amp; Pharmacovigilance</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Director of Medical Affairs</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Porton Biopharma Limited, U.K.</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Clinigen Group plc, U.K.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>Enclosures:</paragraph>
+                  <paragraph>Appendix 1 – Product Label and Product Characteristics Side-by-Side Comparison Table</paragraph>
+                  <paragraph>Appendix 2 – Prescribing Information Side-by-Side Comparison Table</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Appendix 1 – Product Label and Product Characteristics Side-by-Side Comparison Table </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <table width="99%" border="1" cellspacing="0" cellpadding="3">
+                     <col width="10%" align="left" valign="top"/>
+                     <col width="45%" align="left" valign="top"/>
+                     <col width="45%" align="left" valign="top"/>
+                     <thead>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">U.S. FDA Licensed Product</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Imported Product</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Product Name</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Erwinaze<sup>®</sup>- asparaginase injection, powder, lyophilized, for solution</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Erwinase<sup>®</sup> 10,000 IU/vial Powder for solution for injection/infusion</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Strength</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">10,000 International Units in a single-dose vial</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">10,000 IU/vial</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Carton Label Image</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="us-crt"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="uk-crt-sm"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Vial Label Image</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="us-vial"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="uk-vial"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Route of Administration</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>Erwinaze can be administered intramuscularly or intravenously.</paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>Erwinase solution can be given by intravenous infusion or intramuscular injection.</paragraph>
+                              <paragraph/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Ingredients</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>Erwinaze is supplied as a sterile, lyophilized, white powder in vials. Each vial contains 10,000 International Units of asparaginase Erwinia chrysanthemi, and the following inactive ingredients: glucose monohydrate (5.0 mg), sodium chloride (0.5 mg).</paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>Crisantaspase (L-asparaginase from Erwinia chrysanthemi), 10,000 International units/vial.</paragraph>
+                              <paragraph>List of excipients</paragraph>
+                              <paragraph>Sodium Chloride</paragraph>
+                              <paragraph>Glucose Monohydrate</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Storage Conditions</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>Store unused or unopened vials and cartons at 36°F to 46°F (2°C to 8°C). Protect from light. Do not use Erwinaze after the expiration date on the vial.</paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>Store in a refrigerator (+2°C to +8°C).</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Appendix 2 – Prescribing Information Side-by-Side Comparison Table</content>
+                  </paragraph>
+                  <paragraph>A side-by-side comparison of the Erwinaze U.S. Prescribing Information (USPI) and Erwinase U.K. Summary of Product Characteristics (SmPC) is provided below. It is important to note that there are no significant differences in the indications, dosage and administration between the two products.</paragraph>
+                  <paragraph>Side-by-Side Comparison Table:</paragraph>
+                  <table border="1" cellspacing="0" cellpadding="4">
+                     <col width="10%" align="left" valign="top"/>
+                     <col width="45%" align="left" valign="top"/>
+                     <col width="45%" align="left" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph/>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">U.S. FDA Licensed Product</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Imported Product</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Product name</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Erwinaze®- asparaginase injection, powder, lyophilized, for solution</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Erwinase® 10,000 IU/vial Powder for solution for injection/infusion</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Indication</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">1 Indications and Usage</content>
+                              </paragraph>
+                              <paragraph>ERWINAZE is indicated as a component of a multi-agent chemotherapeutic regimen for the treatment of patients with acute lymphoblastic leukemia (ALL) who have developed hypersensitivity to <content styleCode="italics">E. coli </content>derived asparaginase.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">4 Clinical Particulars</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">4.1 Therapeutic indications</content>
+                              </paragraph>
+                              <paragraph>Erwinase is indicated as a component of a chemotherapeutic regimen for the treatment of patients with acute lymphoblastic leukaemia (ALL) who have developed hypersensitivity to <content styleCode="italics">E. coli</content>-derived asparaginase.</paragraph>
+                              <br/>
+                              <paragraph>Erwinase is indicated in paediatric patients from the age of 4 months and in adults.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Dosage and administration</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">2 Dosage and administration</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">2.1 Recommended Dosage</content>
+                              </paragraph>
+                              <paragraph>To substitute for a dose of pegaspargase:</paragraph>
+                              <br/>
+                              <paragraph>The recommended dose for each planned dose of pegaspargase is 25,000 International Units/m<sup>2</sup> administered intramuscularly or intravenously three times a week (Monday/Wednesday/Friday) for six doses.</paragraph>
+                              <paragraph/>
+                              <paragraph>To substitute for a dose of native <content styleCode="italics">E. coli </content>asparaginase:</paragraph>
+                              <br/>
+                              <paragraph>The recommended dose is 25,000 International Units/m<sup>2</sup> administered intramuscularly or intravenously for each scheduled dose of native <content styleCode="italics">E. coli </content>asparaginase within a treatment.</paragraph>
+                              <br/>
+                              <paragraph>When administering ERWINAZE intravenously, consider monitoring nadir (pre-dose) serum asparaginase activity (NSAA) levels and switching to intramuscular administration if desired NSAA levels are not achieved <content styleCode="italics">[see Clinical Pharmacology (12.3)]</content>.</paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">4.2 Posology and method of administration</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">Posology<content styleCode="bold"/>
+                                 </content>
+                              </paragraph>
+                              <paragraph>The recommended dosage is 20,000 or 25,000 IU/m<sup>2</sup> body surface area administered three times a week (e.g., Monday/Wednesday/Friday).</paragraph>
+                              <br/>
+                              <paragraph>Therapy should be adjusted according to local treatment protocols.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">2.2 Preparation and Handling Instructions</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>Visually inspect the ERWINAZE powder for foreign particulate matter and discoloration prior to reconstitution. Discard vial if present.</item>
+                                 <item>Reconstitute the contents of each vial by slowly injecting 1 or 2 mL of preservative free sterile sodium chloride (0.9%) injection (USP) against the inner vial wall.</item>
+                                 <item>Do not forcefully inject solution for reconstitution directly onto or into the powder. When reconstituted with 1 mL the resultant concentration is 10,000 International Units per mL. When reconstituted with 2 mL the resultant concentration is 5,000 International Units per mL.</item>
+                                 <item>Dissolve contents by gentle mixing or swirling. <content styleCode="bold">Do not shake or invert vial.</content>
+                                 </item>
+                                 <item>When reconstituted, ERWINAZE should be a clear, colorless solution. Inspect the solution after reconstitution and discard if any visible particles or protein aggregates are present.</item>
+                              </list>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">6.6 Special precautions for disposal and other handling</content>
+                              </paragraph>
+                              <paragraph>The contents of each vial should be reconstituted in 1 mL to 2 mL of sodium chloride (0.9%) solution for injection.</paragraph>
+                              <paragraph>When reconstituted with 1 mL the resultant concentration is 10,000 IU/mL. When reconstituted with 2 mL the resultant concentration is 5,000 IU/mL</paragraph>
+                              <br/>
+                              <paragraph>Slowly add the sodium chloride (0.9%) solution for injection. against the inner vial wall, do not squirt directly onto or into the powder.</paragraph>
+                              <br/>
+                              <paragraph>Allow the contents to dissolve by gentle mixing or swirling maintaining the vial in an upright position, avoiding contact of the solution with the stopper. Avoid froth formation due to excessive or vigorous shaking.</paragraph>
+                              <br/>
+                              <paragraph>The solution should be clear without any visible particles. Fine crystalline or thread-like wisps of protein aggregates may be visible if shaking is excessive. If there are any visible particles or protein aggregates present the reconstituted solution should be rejected.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <br/>
+                              <br/>
+                              <br/>
+                              <list listType="unordered">
+                                 <item>Calculate the dose needed and the volume needed to obtain the calculated dose.</item>
+                                 <item>Withdraw the volume containing the calculated dose from the vial into a polypropylene syringe within 15 minutes of reconstitution. For intravenous use, slowly inject the reconstituted ERWINAZE into an IV infusion bag containing 100 mL of normal saline acclimatized to room temperature. Do not shake or squeeze the IV bag.</item>
+                                 <item>If partial vial is used, do not save or reuse the unused drug for later administration. Discard unused portions.</item>
+                                 <item>Do not freeze or refrigerate reconstituted solution and administer within 4 hours or discard <content styleCode="italics">[see How Supplied/Storage and Handling (16)]</content>.</item>
+                              </list>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>Erwinase is not a cytotoxic medicinal product (such as vincristine or methotrexate) and does not require the special precautions needed for manipulating such agents. It should be handled in the same way as other therapeutic enzymes such as hyaluronidase.</paragraph>
+                              <br/>
+                              <paragraph>The solution should be administered within 15 minutes of reconstitution. If a delay of more than 15 minutes between reconstitution and administration is unavoidable, the solution should be withdrawn into a glass or polypropylene syringe for the period of the delay.</paragraph>
+                              <br/>
+                              <paragraph/>
+                              <paragraph>Any unused product or waste material should be disposed of in accordance with local requirements.</paragraph>
+                              <paragraph>The solution should be used within 8 hours.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">2.3 Administration Instructions</content>
+                              </paragraph>
+                              <paragraph>Administer ERWINAZE in a setting with resuscitation equipment and other agents necessary to treat anaphylaxis.</paragraph>
+                              <br/>
+                              <paragraph>ERWINAZE solution can be administered by intramuscular injection or by intravenous infusion.</paragraph>
+                              <list listType="unordered">
+                                 <item>For intramuscular use, limit the volume of reconstituted ERWINAZE at a single injection site to 2 mL; if reconstituted dose to be administered is greater than 2 mL, use multiple injection sites.</item>
+                                 <item>For intravenous use, infuse ERWINAZE in 100 mL of normal saline over 1 to 2 hours. Do not infuse other intravenous drugs through the same intravenous line while infusing ERWINAZE.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>Method of administration</paragraph>
+                              <paragraph>Erwinase solution can be given by intravenous infusion or intramuscular injection.</paragraph>
+                              <br/>
+                              <paragraph>For IM injection the volume of reconstituted solution administered at a single injection site should not exceed 2 mL. Multiple injection sites should be used if this volume is exceeded.</paragraph>
+                              <br/>
+                              <paragraph>For IV infusion, the reconstituted solution should be further diluted in 100 mL of normal saline and administered over 1 to 2 hours.</paragraph>
+                              <br/>
+                              <paragraph>For further instructions on reconstitution of the medicinal product before administration, see section 6.6.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Description</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">3 DOSAGE </content>
+                                 <content styleCode="bold">FORMS AND STRENGTHS</content>
+                              </paragraph>
+                              <paragraph>For injection: 10,000 International Units as a lyophilized powder in a single-dose vial for reconstitution</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">11 DESCRIPTION</content>
+                              </paragraph>
+                              <paragraph>ERWINAZE (asparaginase <content styleCode="italics">Erwinia chrysanthemi</content>) contains an asparagine specific enzyme derived from <content styleCode="italics">Erwinia chrysanthemi</content>. L-asparaginase is a tetrameric enzyme consisting of four identical subunits, each having a molecular weight of about 35 kDa. The activity of ERWINAZE is expressed in terms of International Units.</paragraph>
+                              <paragraph/>
+                              <br/>
+                              <paragraph>ERWINAZE is supplied as a sterile, lyophilized, white powder in vials. Each vial contains 10,000 International Units of asparaginase <content styleCode="italics">Erwinia chrysanthemi</content>, and the following inactive ingredients: glucose monohydrate (5.0 mg), sodium chloride (0.5 mg).<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">2 QUALITATIVE AND QUANTITATIVE COMPOSITION</content>
+                              </paragraph>
+                              <paragraph>Crisantaspase (L-asparaginase from <content styleCode="italics">Erwinia chrysanthemi</content>), 10,000 International units/vial.</paragraph>
+                              <paragraph/>
+                              <paragraph>For a full list of excipients, see section 6.1.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">3. PHARMACEUTICAL FORM</content>
+                              </paragraph>
+                              <paragraph>Powder for solution for injection/infusion.</paragraph>
+                              <br/>
+                              <br/>
+                              <br/>
+                              <br/>
+                              <paragraph>White lyophilised powder in a vial.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">6.1 List of excipients </content>
+                              </paragraph>
+                              <paragraph>Sodium Chloride (0.5 mg)</paragraph>
+                              <paragraph>Glucose Monohydrate (5.0 mg)<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Contraindications</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">4 CONTRAINDICATIONS</content>
+                              </paragraph>
+                              <paragraph>ERWINAZE is contraindicated in patients with a history of:</paragraph>
+                              <list listType="unordered">
+                                 <item>Serious hypersensitivity reactions to ERWINAZE, including anaphylaxis</item>
+                                 <item>Serious pancreatitis with prior L-asparaginase therapy</item>
+                                 <item>Serious thrombosis with prior L-asparaginase therapy</item>
+                                 <item>Serious hemorrhagic events with prior L-asparaginase therapy<content styleCode="bold"/>
+                                 </item>
+                              </list>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">4.3 Contraindications </content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>History of severe hypersensitivity to the active substance or to any of the excipients listed in section 6.1</item>
+                                 <item>Current or past severe pancreatitis associated with L‑asparaginase therapy</item>
+                                 <item>Current pancreatitis not associated with L‑asparaginase therapy<content styleCode="bold"/>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Precautions</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">5 WARNINGS AND PRECAUTIONS</content>
+                              </paragraph>
+                              <paragraph/>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">4.4 Special warnings and precautions for use</content>
+                              </paragraph>
+                              <paragraph>In order to improve traceability of biological medicinal products, the tradename and batch number of the administered product should be clearly recorded (or stated) in the patient file.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">5.1 Hypersensitivity Reactions</content>
+                              </paragraph>
+                              <paragraph>Grade 3 and 4 hypersensitivity reactions after the use of ERWINAZE have occurred in 5% of patients in clinical trials <content styleCode="italics">[see Adverse Reactions (6.1)]</content>.</paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="underline">Hypersensitivity reactions</content>
+                              </paragraph>
+                              <paragraph>Administration of Erwinase can cause hypersensitivity reactions (infusion/injection reactions), including reactions presenting as anaphylaxis.</paragraph>
+                              <paragraph>Severe reactions are common.</paragraph>
+                              <paragraph>Reactions have occurred following the first or subsequent administrations.</paragraph>
+                              <paragraph>There is little or no cross-reactivity between crisantaspase and E. coli-derived L-asparaginase.</paragraph>
+                              <paragraph>Reactions include</paragraph>
+                              <list listType="unordered">
+                                 <item>reactions limited to the area at or near the site of IM or IV administration, and</item>
+                                 <item>other reactions, including<list listType="unordered">
+                                       <item>reactions with symptoms consistent with an anaphylactic reaction, and</item>
+                                       <item>reactions accompanied by fever (see section 4.8).</item>
+                                    </list>
+                                 </item>
+                              </list>
+                              <paragraph/>
+                              <paragraph>Reactions can begin during or immediately following administration. In the majority of patients, local and non-local reactions occur within the first 24 hours. Later onset of reactions has been reported two days or later after IM administration.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>Administer this product in a setting with resuscitation equipment and other agents necessary to treat anaphylaxis. If a serious hypersensitivity reaction occurs, discontinue ERWINAZE and initiate appropriate therapy.
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>Facilities should be made available for management of an anaphylactic reaction, should it occur, during administration. If a severe reaction occurs, Erwinase must be discontinued (see section 4.3).</paragraph>
+                              <br/>
+                              <paragraph>Careful observation is required on re-exposure to L-asparaginase after any time interval (e.g. between induction and consolidation), which may increase the risk of anaphylactic and hypersensitivity reactions occurring.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">5.2 Pancreatitis</content>
+                              </paragraph>
+                              <paragraph>Pancreatitis has been reported in 4% of patients in clinical trials <content styleCode="italics">[</content>see <content styleCode="italics">Adverse Reactions (6.1)]</content>.</paragraph>
+                              <br/>
+                              <paragraph>Evaluate patients with symptoms compatible with pancreatitis to establish a diagnosis. Discontinue ERWINAZE for severe or hemorrhagic pancreatitis manifested by abdominal pain &gt; 72 hours and amylase elevation ≥ 2.0 x ULN. Severe pancreatitis is a contraindication to additional asparaginase administration. In the case of mild pancreatitis, hold ERWINAZE until the signs and symptoms subside and amylase levels return to normal. After resolution, treatment with ERWINAZE may be resumed.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="underline">Pancreatitis</content>
+                              </paragraph>
+                              <paragraph>Treatment with L-asparaginase, including Erwinase, can cause pancreatitis. L-asparaginase-induced pancreatitis can be limited to biochemical and/or radiologic manifestations, progress to pancreatitis with clinical symptoms, and be severe (see section 4.8).</paragraph>
+                              <br/>
+                              <paragraph>Fatal outcome of pancreatitis due to L-asparaginase products, including Erwinase, has been reported.</paragraph>
+                              <br/>
+                              <paragraph>Patients must be closely monitored for signs and symptoms of pancreatic toxicity and instructed to promptly report potential symptoms of pancreatitis. If pancreatitis is suspected based on clinical symptoms, serum amylase and lipase should be determined. In patients treated with L-asparaginase, increases of serum amylase and lipase may be delayed, mild or absent.</paragraph>
+                              <br/>
+                              <paragraph>Erwinase must be permanently discontinued in case of severe pancreatitis (see section 4.3). Hypertriglyceridemia, if marked, can contribute to the development of pancreatitis (see section 4.8).</paragraph>
+                              <br/>
+                              <paragraph>There have been isolated reports of first onset of clinical pancreatitis and detection of pancreatic pseudocyst formation several months after the last administration of L-asparaginase. Patients must be monitored for late-occurring signs of pancreatitis.</paragraph>
+                              <br/>
+                              <paragraph>Development of chronic pancreatitis as well as persistent pancreatic insufficiency (exocrine insufficiency with, e.g., malabsorption; persistent glucose intolerance/diabetes mellitus) has been reported with L- asparaginase treatment.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">5.3 Glucose Intolerance</content>
+                              </paragraph>
+                              <paragraph>Glucose intolerance has been reported in 5% of patients receiving ERWINAZE in clinical trials <content styleCode="italics">[see Adverse Reactions (6.1)]</content>. In some cases, glucose intolerance may be irreversible. Monitor glucose levels in patients at baseline and periodically during treatment. Administer insulin therapy as necessary in patients with hyperglycemia.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="underline">Glucose Intolerance </content>
+                              </paragraph>
+                              <paragraph>Treatment with L-asparaginase, including Erwinase, can cause glucose intolerance and potentially severe hyperglycemia.</paragraph>
+                              <br/>
+                              <paragraph>In some patients, ketoacidosis has been reported.</paragraph>
+                              <br/>
+                              <paragraph>Patients must be monitored for developing hyperglycemia and potential complications.</paragraph>
+                              <br/>
+                              <paragraph>Administration of insulin and possibly discontinuation of L‑asparaginase treatment may be necessary to manage hyperglycemia.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">5.4 Thrombosis and Hemorrhage</content>
+                              </paragraph>
+                              <paragraph>Serious thrombotic events, including sagittal sinus thrombosis and pulmonary embolism have been reported with both <content styleCode="italics">E. coli </content>and <content styleCode="italics">Erwinia</content>-derived L-asparaginase therapy. The following coagulation proteins were decreased in the majority of patients after a 2-week course of ERWINAZE by intramuscular administration: fibrinogen, protein C activity, protein S activity, and anti-thrombin III.</paragraph>
+                              <paragraph>Discontinue ERWINAZE for a thrombotic or hemorrhagic event until symptoms resolve; after resolution, treatment with ERWINAZE may be resumed.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="underline">Coagulation Disorders </content>
+                              </paragraph>
+                              <paragraph>Administration of L-asparaginase, including Erwinase, leads to decreased synthesis of coagulant, anticoagulant, and fibrinolytic proteins, abnormal coagulation times, and clinical coagulation abnormalities that can cause serious thromboembolic and bleeding events (see section 4.8).</paragraph>
+                              <paragraph>Routine clotting screening should be performed before treatment initiation and monitored during treatment. Preventive measures must be considered.</paragraph>
+                              <br/>
+                              <paragraph>If significant symptomatic coagulopathy occurs in addition to other clinically indicated interventions withhold Erwinase treatment until resolved. Treatment may then continue according to protocol, if the benefit of continued administration is considered to outweigh the risk from re-exposure.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Adverse reactions</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">6 ADVERSE REACTIONS</content>
+                              </paragraph>
+                              <paragraph>The following clinically significant adverse reactions are discussed in greater detail in other sections of the label:</paragraph>
+                              <list listType="unordered">
+                                 <item>Hypersensitivity reactions <content styleCode="italics">[see Warnings and Precautions (5.1)]</content>
+                                 </item>
+                                 <item>Pancreatitis <content styleCode="italics">[see Warnings and Precautions (5.2)]</content>
+                                 </item>
+                                 <item>Glucose intolerance <content styleCode="italics">[see Warnings and Precautions (5.3)]</content>
+                                 </item>
+                                 <item>Thrombosis and hemorrhage <content styleCode="italics">[see Warnings and Precautions (5.4)]</content>
+                                    <content styleCode="bold"/>
+                                 </item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">4.8 Undesirable effects</content>
+                              </paragraph>
+                              <paragraph>a. Summary of the safety profile</paragraph>
+                              <paragraph>The two most frequent adverse reactions are:</paragraph>
+                              <paragraph>• Hypersensitivity, including urticaria, fever, arthralgia angioedema, bronchospasm, hypotension or even anaphylactic shock. In case of severe systemic hypersensitivity reaction, treatment should be discontinued immediately and withdrawn.</paragraph>
+                              <paragraph>• Coagulation abnormalities (e.g. thromboses), due to protein synthesis impairment, are the second most frequent class of adverse reactions. Thromboses of peripheral, pulmonary or central nervous system blood vessels have been reported, potentially fatal or with residual delayed affects dependent upon the location of the occlusion. Other risk factors contributing to coagulation abnormalities include the disease itself, concomitant steroid therapy and central venous catheters.</paragraph>
+                              <br/>
+                              <paragraph>Undesirable effects are generally reversible.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">6.1 Clinical Trials Experience</content>
+                              </paragraph>
+                              <paragraph>Because clinical trials are conducted under controlled, but widely varying conditions, adverse reaction rates observed in clinical trials of ERWINAZE cannot be directly compared to rates in the clinical trials of other drugs and may not reflect the rates observed in practice.</paragraph>
+                              <br/>
+                              <paragraph>The data presented below are based on information collected from Study 1, a single-arm, multi-center, open-label, safety and clinical pharmacology trial (intramuscular administration), the ERWINAZE Master Treatment Protocol (EMTP), an expanded access program (both intramuscular, intravenous, and other or unknown administration), and Study 2, a single-arm, multi-center, open-label, pharmacokinetic (PK) study trial of intravenous administration of ERWINAZE.</paragraph>
+                              <br/>
+                              <paragraph>Study 1 enrolled 58 patients treated on National Cancer Institute (NCI)-sponsored cooperative group ALL protocols who were unable to continue to receive pegaspargase due to hypersensitivity reactions.</paragraph>
+                              <paragraph>Patients received 6 doses of ERWINAZE 25,000 International Units/m<sup>2</sup> intramuscularly on a Monday, Wednesday, and Friday schedule as a replacement for each scheduled dose of pegaspargase remaining on their original treatment protocol. The Study 1 population included patients with a median age of 11 years (2 to 18 years); 59% were male, 78% were White, 10% were Black/African American, 5% were Asian, and 7% were other or unknown. A total of 35% were Hispanic or Latino. In Study 1, the number of ERWINAZE courses ranged from 1 to 9. In this study, 76% (44 of 58) completed all planned therapy.</paragraph>
+                              <paragraph>Fourteen (24%) patients stopped therapy prior to completion; seven due to allergic reactions, five due to physician or patient choice, one due to disease progression, and one due to discontinuation during frontline protocol. All other chemotherapy was continued according to the patient’s prescribed treatment regimen <content styleCode="italics">[see Clinical Studies (14)]</content>.</paragraph>
+                              <br/>
+                              <paragraph>Study 2 enrolled 30 patients [29 were being treated for ALL and one for lymphoblastic lymphoma (LBL)] following allergy to native <content styleCode="italics">E. coli </content>asparaginase or pegaspargase. Patients received ERWINAZE 25,000 International Unit/m /dose, administered by intravenous infusion on a Monday, Wednesday, and Friday schedule (6 doses) as a replacement for doses remaining on their original treatment plan. The Study 2 population included patients with a median age of 7 years (1 to 17 years); 63% were male, 27% were Hispanic or Latino, 83% were White, 3% were Black/African American, 7% were Asian, and 7% were other (American Indian, Alaska Native or Indian) <content styleCode="italics">[see Clinical Studies (14)]</content>.<br/>
+                              </paragraph>
+                              <paragraph>The EMTP trial enrolled 1368 patients with ALL or lymphoblastic lymphoma who received ERWINAZE after developing systemic hypersensitivity to an <content styleCode="italics">E. coli</content>-derived asparaginase. Of these 1368 patients, safety data were received for 940 patients with a median age of 9 years (0 to 76 years), 63% were male, 91% with leukemia, 3% with lymphoma, and 6% with unknown disease information.</paragraph>
+                              <paragraph>Patients received ERWINAZE according to several schedules, and treatment center specifications with doses that ranged from 20,000 to 25,000 International Units/m<sup>2</sup>. The route of administration was intramuscular n=852, intravenous n=29, other or unknown n=59. In the EMTP trial, the planned number of doses of ERWINAZE ranged from 3 to 48 doses. Seventy-eight percent of patients (693 of 893) were able to receive all planned doses to complete their prescribed treatment regimen.</paragraph>
+                              <br/>
+                              <paragraph>In Study 1 and Study 2, safety information was prospectively and systematically collected. In Study 1, all Grades of adverse events were reported for the following adverse events of special interest: allergy, pancreatitis, coagulopathy (hemorrhage, thrombosis or infarct), hyperbilirubinemia, hyperglycemia, hyperlipidemia, ketoacidosis, and CNS events (hemorrhage, thrombosis or infarction, and cerebral venous thrombosis) and only Grade 3 and 4 events were reported for other adverse events. In Study 2 all adverse events of all Grades were prospectively collected. In the EMTP trial, safety data were derived from case report forms that collected adverse event information. The forms specifically requested information on occurrence of allergic reactions, thrombotic events, hemorrhagic events, hepatobiliary disorders, pancreatic disorders, and hyperglycemia.</paragraph>
+                              <br/>
+                              <paragraph>The most common adverse reactions (incidence 1% or greater) with ERWINAZE treatment are systemic hypersensitivity, hyperglycemia, transaminases abnormal, fever, pancreatitis, local reactions, vomiting, nausea, thrombosis, hyperbilirubinemia, abdominal pain/discomfort, and diarrhea.</paragraph>
+                              <br/>
+                              <paragraph>The incidence of non-hematologic, non-infectious, adverse events (all Grades) in Study 1, Study 2, and the EMTP trial is provided in Table 1.</paragraph>
+                              <paragraph/>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="us-t1"/>
+                              </paragraph>
+                              <paragraph/>
+                              <paragraph>The incidence of Grade 3 or greater non-hematologic, non-infectious adverse reactions occurring with ERWINAZE in Study 1, Study 2 and EMTP trial is provided in Table 2.</paragraph>
+                              <paragraph/>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="us-t2"/>
+                              </paragraph>
+                              <paragraph/>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>b. Tabulated list of adverse reactions</paragraph>
+                              <paragraph>The adverse reaction data presented in Table 1 have been identified from 3 clinical studies (100EUSA12, ALL07P2, and Erwinase Master Treatment Protocol [EMTP]) with Erwinase in 1028 patients (primarily pediatric patients), the majority having acute lymphoblastic leukemia, as well as post-marketing experience with Erwinase and other L‑asparaginase preparations in pediatric and adult patients.</paragraph>
+                              <br/>
+                              <paragraph>Some of the adverse reactions listed below are known to be associated with multi-agent chemotherapeutic regimens (e.g., reactions resulting from bone marrow depression, and infections), and the contributory role of Erwinase is not clear. In individual cases of other adverse reactions, other medicinal products of the regimen may have contributed.</paragraph>
+                              <br/>
+                              <paragraph>Frequency definitions: very common (≥1/10), common (≥1/100 to &lt;1/10), uncommon (≥1/1000 to &lt;1/100), rare (≥1/10000 to &lt;1/1000) and very rare (&lt;1/10000).When no valid estimate of the incidence rate for an adverse event from available data can be calculated, the frequency of such ADR has been classified as “Not known”.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="uk-t1"/>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Posterior reversible encephalopathy syndrome </content>
+                              </paragraph>
+                              <paragraph>In rare cases, a posterior reversible encephalopathy syndrome (PRES) has been observed during therapy with asparaginase-containing regimens.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">6.2 Immunogenicity</content>
+                              </paragraph>
+                              <paragraph>As with all therapeutic proteins, there is potential for immunogenicity. The detection of antibody formation is highly dependent on the sensitivity and specificity of the assay. Additionally, the observed incidence of antibody (including neutralizing antibody) positivity in an assay may be influenced by several factors including assay methodology, sample handling, timing of sample collection, concomitant medications, and underlying disease. For these reasons, comparison of the incidence of antibodies in other studies or to other asparaginase <content styleCode="italics">Erwinia chrysanthemi </content>products may be misleading.</paragraph>
+                              <br/>
+                              <br/>
+                              <br/>
+                              <paragraph>In a study with ERWINAZE treatment by intramuscular administration (Study 1), 6 of 56 (11%) patients treated with ERWINAZE developed antibodies to ERWINAZE. Of these 6 anti-drug antibody (ADA) positive patients, one experienced a hypersensitivity reaction during Study 1 (2%, 1 of 56). None of these 6 patients had neutralizing antibodies.</paragraph>
+                              <br/>
+                              <paragraph>In a study with ERWINAZE treatment by intravenous administration (Study 2), 4 of 30 (13.3%) patients treated with ERWINAZE developed anti-ERWINAZE antibodies. Of these 4 patients who developed anti-ERWINAZE antibodies, 3 experienced hypersensitivity reactions (10%, 3 of 30) during the study. None of these 4 patients had neutralizing antibodies.</paragraph>
+                              <br/>
+                              <paragraph>The presence of ADA to ERWINAZE is associated with a higher risk of hypersensitivity reactions in patients who received ERWINAZE through intravenous infusion compared to intramuscular administration of ERWINAZE.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="italics">Immunogenicity </content>
+                              </paragraph>
+                              <paragraph>As with most therapeutic proteins, patients may potentially develop anti-drug antibodies (ADA) to crisantaspase.</paragraph>
+                              <br/>
+                              <paragraph>Immunogenicity assays are highly dependent on the sensitivity and specificity of the assay and may be influenced by several factors such as: assay methodology, sample handling, timing of sample collection, concomitant medications, and underlying disease. For these reasons, comparison of the incidence of antibodies to crisantaspase with the incidence of antibodies to other products may be misleading.</paragraph>
+                              <br/>
+                              <br/>
+                              <paragraph>In a study with Erwinase treatment by IM administration (Study ALL07P2), 6 of 56 (11%) patients treated with Erwinase developed antibodies to crisantaspase. Of these 6 ADA positive patients, one experienced a hypersensitivity reaction (2%, 1 of 56). None of these 6 patients had neutralising antibodies.</paragraph>
+                              <br/>
+                              <br/>
+                              <paragraph>In a study with Erwinase treatment by IV administration (Study 100EUSA12), 4 of 30 (13.3%) patients treated with Erwinase developed anti-crisantaspase antibodies. Of these 4 patients, 3 experienced hypersensitivity reactions (10%, 3 of 30). None of these 4 patients had neutralising antibodies</paragraph>
+                              <br/>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Neutralising antibodies</content>
+                              </paragraph>
+                              <paragraph>As with other L-asparaginase preparations, development of specific neutralising antibodies has been reported with repeated dosing and is associated with reduced L-asparaginase activity.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Reporting of suspected adverse reactions </content>
+                              </paragraph>
+                              <paragraph>Reporting suspected adverse reactions after authorisation of the medicinal product is important. It allows continued monitoring of the benefit/risk balance of the medicinal product. Healthcare professionals are asked to report any suspected adverse reactions via Yellow Card Scheme Website: www.mhra.gov.uk/yellowcard or search for MHRA Yellow Card in the Google Play or Apple App Store.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Drug interactions</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="italics">Note: The following information is provided in the USPI under section 12.3 Pharmacokinetics</content>
+                              </paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Drug Interaction Studies</content>
+                              </paragraph>
+                              <paragraph>No formal drug interaction studies between ERWINAZE and other drugs have been performed<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">4.5 Interaction with other medicinal products and other forms of interaction </content>
+                              </paragraph>
+                              <br/>
+                              <paragraph>No formal medicinal product interaction studies have been performed.</paragraph>
+                              <br/>
+                              <paragraph>Asparaginase must not be mixed with any other medicinal products prior to administration.</paragraph>
+                              <br/>
+                              <paragraph>In addition concomitant use of L-asparaginase and medicinal products affecting liver function may increase the risk of a change in liver parameters (e.g. increase of ASAT, ALAT, bilirubin).</paragraph>
+                              <br/>
+                              <paragraph>Since an indirect interaction between components of the oral contraception and asparaginase cannot be ruled out, oral contraceptives are not considered sufficiently safe in such clinical situation. Another method than oral contraception should be used in women of childbearing potential (see section 4.6).</paragraph>
+                              <br/>
+                              <paragraph>• Methotrexate, cytarabine</paragraph>
+                              <paragraph>L-asparaginase may diminish or abolish methotrexate’s and cytarabine’s effect on malignant cells; this effect persists as long as plasma asparagine levels are suppressed. Accordingly, do not use methotrexate or cytarabine with, or following L-asparaginase, while asparagine levels are below normal.</paragraph>
+                              <br/>
+                              <paragraph>Alternatively, administration of L-asparaginase after methotrexate or cytarabine results in a synergistic effect. The extent to which these affect the overall effectiveness of established treatment protocols is not known.</paragraph>
+                              <br/>
+                              <paragraph>• Prednisone</paragraph>
+                              <paragraph>Concomitant use of prednisone and L-asparaginase may increase the risk of a change in clotting parameters (e.g. a decrease in fibrinogen and ATIII levels).</paragraph>
+                              <br/>
+                              <paragraph>• Vincristine</paragraph>
+                              <paragraph>Administration of vincristine concurrently with or immediately before treatment with L-asparaginase may be associated with increased toxicity and increased risk of anaphylaxis.
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Special populations</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">8 USE IN SPECIFIC POPULATIONS</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">8.1 Pregnancy</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>Based on findings from animal reproduction studies, ERWINAZE can cause fetal harm when administered to a pregnant woman. In animal reproduction studies, intramuscular administration of asparaginase <content styleCode="italics">Erwinia chrysanthemi </content>to pregnant rats and rabbits during organogenesis at doses approximately 0.005-0.5 times the maximum recommended human dose resulted in structural abnormalities and embryo-fetal mortality <content styleCode="italics">(see Data). </content>There are no available data on ERWINAZE use in pregnant women to evaluate the drug-associated risk of major birth defects, miscarriage or adverse maternal or fetal outcomes. Advise pregnant women of the potential risk to the fetus.</paragraph>
+                              <br/>
+                              <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. Adverse outcomes in pregnancy occur regardless of the health of the mother or the use of medications. In the U.S. general population, the estimated background risks of major birth defects and miscarriage in clinically recognized pregnancies are 2 to 4% and 15 to 20%, respectively.</paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">4.6 Fertility, pregnancy and lactation </content>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">Pregnancy </content>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                              <paragraph>There are no adequate data from the use of crisantaspase (<content styleCode="italics">Erwinia </content>L-asparaginase) in pregnant women. Limited reports in humans of the use of E. coli asparaginase in combination with other antineoplastics during pregnancy did not provide sufficient data to conclude. However, based on effects on embryonal/foetal development shown in pre-clinical studies (see section 5.3),</paragraph>
+                              <paragraph>Erwinase should not be used during pregnancy unless the potential benefit justifies the potential risk to the fetus.</paragraph>
+                              <paragraph/>
+                              <paragraph/>
+                              <paragraph/>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Animal Data</content>
+                              </paragraph>
+                              <paragraph>In embryofetal development studies, asparaginase <content styleCode="italics">Erwinia chrysanthemi </content>was administered intramuscularly every other day during the period of organogenesis to pregnant rats (at 3000, 6000, or 12000 IU/m<sup>2</sup>) and rabbits (at 120, 300, or 480 IU/m<sup>2</sup>). In rats given 12000 IU/m<sup>2</sup> (approximately 0.5 times the maximum recommended human dose), maternal toxicity of decreased body weight gain was observed, as well as a fetal finding of increased incidence of partially undescended thymic tissue.</paragraph>
+                              <br/>
+                              <paragraph>In rabbits, maternal toxicity consisting of decreased body weight was observed at 480 IU/m<sup>2</sup> (approximately 0.02 times the maximum recommended human dose). Increased post-implantation loss, a decrease in the number of live fetuses, and gross abnormalities (e.g., absent kidney, absent accessory lung lobe, additional subclavian artery, and delayed ossification) were observed at doses of ≥120 IU/m<sup>2</sup> (approximately 0.005 times the maximum recommended human dose).</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="underline">Fertility </content>
+                              </paragraph>
+                              <paragraph/>
+                              <paragraph>There are no human data on the effect of crisantaspase on fertility. In rats, crisantaspase did not affect male and female fertility. However, a decrease in sperm count was observed in male rats (see section 5.3). The relevance of this finding to humans is not known.</paragraph>
+                              <paragraph>
+                                 <content styleCode="underline"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">8.2 Lactation</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>There are no data on the presence of asparaginase <content styleCode="italics">Erwinia chrysanthemi </content>in human or animal milk, the effects on the breastfed child, or the effects on milk production. Because of the potential for serious adverse reactions in the breastfed child, advise patients that breastfeeding is not recommended during treatment with ERWINAZE, and for 3 months after the last dose.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="underline">Breast feeding </content>
+                              </paragraph>
+                              <paragraph>It is not known whether crisantaspase (<content styleCode="italics">Erwinia</content> L-asparaginase) is excreted in human breast milk. Potential serious adverse reactions may occur in nursing infants, therefore Erwinase should be discontinued during breast-feeding.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">8.3 Females and Males of Reproductive Potential</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">Pregnancy Testing</content>
+                              </paragraph>
+                              <paragraph>Pregnancy testing is recommended for females of reproductive potential before starting ERWINAZE treatment.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Contraception</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Females</content>
+                              </paragraph>
+                              <paragraph>ERWINAZE can cause embryo-fetal harm when administered to pregnant women <content styleCode="italics">[see Use in Specific Populations (8.1)]</content>. Advise females of reproductive potential to use effective contraception during treatment with ERWINAZE and for 3 months after the final dose. Since an indirect interaction between oral contraceptives and ERWINAZE cannot be ruled out, a method of contraception other than oral contraceptives should be used in women of childbearing potential.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="underline">Women of childbearing potential/Contraception in males and females </content>
+                              </paragraph>
+                              <paragraph>Women of childbearing potential should use effective contraception and avoid becoming pregnant while being treated with asparaginase-containing chemotherapy.</paragraph>
+                              <br/>
+                              <paragraph>Since an indirect interaction between components of the oral contraception and asparaginase cannot be ruled out, oral contraceptives are not considered sufficiently safe in such clinical situation. A method other than oral contraceptives should be used in women of childbearing potential.</paragraph>
+                              <br/>
+                              <paragraph>Men should use effective contraceptive measures and be advised to not father a child while receiving asparaginase.</paragraph>
+                              <br/>
+                              <paragraph>The time period following treatment with asparaginase when it is safe to become pregnant or father a child is unknown. As a precautionary measure it is recommended to wait for three months after completion of treatment. However, treatment with other chemotherapeutic agents should also be taken into consideration.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">8.4 Pediatric Use</content>
+                              </paragraph>
+                              <paragraph>The safety and effectiveness of ERWINAZE have been established in pediatric patients ages1 year and older as a component of a multi-agent chemotherapeutic regimen for the treatment of patients with acute lymphoblastic leukemia (ALL) who have developed hypersensitivity to E. coli-derived asparaginase and the information on this use is discussed throughout the labeling.</paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>d. Pediatric population</paragraph>
+                              <paragraph>Compared with children, the incidence of hepatic and pancreatic toxicities and of venous thromboembolic events may be increased in adolescents and young adults.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">8.5 Geriatric Use</content>
+                              </paragraph>
+                              <paragraph>Clinical studies of ERWINAZE did not include geriatric patients.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>e. Other special populations</paragraph>
+                              <paragraph>No special individual populations of patients have been identified in which the safety profile differs from that defined above.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Overdosage</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">There are no corresponding clinical data for Erwinaze USPI</content>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">4.9 Overdose </content>
+                              </paragraph>
+                              <paragraph>There is no known antidote for asparaginase overdoses. No data are available on the elimination (peritoneal or by haemodialysis) of the product. Patients who accidentally receive an overdose of L-asparaginase should be monitored closely and receive any appropriate symptomatic and supportive treatment.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">12 CLINICAL PHARMACOLOGY</content>
+                              </paragraph>
+                              <paragraph/>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">5. PHARMACOLOGICAL PROPERTIES </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">5.1 Pharmacodynamic properties </content>
+                              </paragraph>
+                              <paragraph>Pharmacotherapeutic group: other antineoplastic agents ATC code: L01XX02</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">12.1 Mechanism of Action</content>
+                              </paragraph>
+                              <paragraph>Asparaginase <content styleCode="italics">Erwinia chrysanthemi </content>catalyzes the deamidation of asparagine to aspartic acid and ammonia, resulting in a reduction in circulating levels of asparagine. The mechanism of action of ERWINAZE is thought to be based on the inability of leukemic cells to synthesize asparagine due to lack of asparagine synthetase activity, resulting in cytotoxicity specific for leukemic cells that depend on an exogenous source of amino acid asparagine for their protein metabolism and survival.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="underline">Mechanism of action</content>
+                              </paragraph>
+                              <paragraph>L-asparaginase catalyses the deamination of asparagine to aspartic acid with the release of ammonia.</paragraph>
+                              <br/>
+                              <paragraph>Asparagine is an amino acid found incorporated into most proteins, and protein synthesis is halted in its absence, thereby inhibiting RNA and DNA synthesis with a resulting halt to cellular proliferation.</paragraph>
+                              <br/>
+                              <paragraph>As lymphoblastic cells are lacking asparagine synthetase activity they are dependent upon exogenous asparagine. The anti-tumour activity of L-asparaginase is a result of the sustained depletion of exogenous asparagine.</paragraph>
+                              <br/>
+                              <paragraph>It has also been noted that asparaginase, in addition to its asparaginase activity, has significant glutaminase activity. It catalyses the deamination of glutamine in glutamic acid with the release of ammonia.</paragraph>
+                              <br/>
+                              <paragraph>Glutamine may lead to alternative asparagine synthesis and therefore glutamine depletion may complement asparagine depletion. However, exact potential of this glutaminase activity remains unknown.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">12.3 Pharmacokinetics</content>
+                              </paragraph>
+                              <paragraph>Based on a population PK model, the mean (%CV) half-life of intravenous ERWINAZE was 7.51 (23.9%) hours in contrast to a mean (%CV) half-life of 15.6 (20%) hours reported for intramuscular ERWINAZE. These differences in PK between intravenous and intramuscular ERWINAZE are reflected in the proportion of patients with 2-day and 3-day nadir serum asparaginase activity (NSAA) levels of asparaginase <content styleCode="italics">Erwinia chrysanthemi </content>≥ 0.1 or 0.4 IU/mL <content styleCode="italics">[see Clinical Studies (14)]</content>.</paragraph>
+                              <br/>
+                              <paragraph>Following administration of ERWINAZE 25,000 International Units/m<sup>2</sup> intramuscularly to 48 ALL patients aged ≥ 2 years to ≤ 18 years in Study 1 on a Monday, Wednesday, and Friday schedule for 6 doses, 100% of patients who completed Course 1 achieved NSAA levels ≥ 0.1 International Units/mL at either 48 hours (n=35) or 72 hours (n=13) post dose 3. Eighty percent (28/35) of those evaluated at 48 hours and 38% (5/13) evaluated at 72 hours had nadir serum asparaginase activity levels ≥ 0.4 International Units/mL <content styleCode="italics">[see Clinical Studies (14)]</content>.</paragraph>
+                              <br/>
+                              <paragraph>Following intravenous administration of ERWINAZE 25,000 International Units/m<sup>2</sup> to 24 evaluable patients (aged ≥ 1 year to ≤ 17 years) in Study 2 on a Monday, Wednesday, and Friday schedule, 83% (20/24) and 43% (9/21) of patients who completed Course 1 achieved NSAA levels ≥ 0.1 International Units/mL at 48 hours post-dose 5 and 72 hours post dose 6, respectively. Twenty-nine percent (7/24) of those evaluated at 48 hours and no patients (0/21) evaluated at 72 hours had nadir serum asparaginase activity levels ≥ 0.4 International Units/mL <content styleCode="italics">[see Clinical Studies (14)]</content>.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Drug Interaction Studies</content>
+                              </paragraph>
+                              <paragraph>No formal drug interaction studies between ERWINAZE and other drugs have been performed<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">5.2       Pharmacokinetic properties</content>
+                              </paragraph>
+                              <paragraph>Based on a population PK model, the mean (%CV) half-life of crisantaspase is 7.5 (24%) hours after intravenous infusion in contrast to 15.6 (20%) hours after intramuscular injection. L-asparaginase penetrates through to the cerebrospinal fluid to a small degree and is also found in lymph.</paragraph>
+                              <br/>
+                              <paragraph>Serum trough asparaginase activity ≥ 0.1 U/mL has been demonstrated to correlate with asparagine depletion (asparagine &lt; 0.4 mcg/mL or 3 μM) and to serum levels that predict clinical efficacy.</paragraph>
+                              <br/>
+                              <paragraph/>
+                              <paragraph>
+                                 <content styleCode="underline">Clinical trials</content>
+                              </paragraph>
+                              <paragraph>Study 1 (AALL07P2) was a single-arm, multicentre, open-label, safety and clinical pharmacology trial, which enrolled ALL patients who were unable to continue to receive pegaspargase due to hypersensitivity reactions. The main outcome measure was the proportion of patients who achieved a serum trough asparaginase level      ≥ 0.1 IU/mL, which correlates with asparagine depletion and predicts clinical efficacy. Patients received Erwinase 25,000 IU/m<sup>2</sup> intramuscularly for two weeks (total 6 doses) as a replacement for each scheduled dose of pegaspargase.</paragraph>
+                              <br/>
+                              <paragraph>Out of 58 patients enrolled, 48 were evaluable for the main outcome measure in the first treatment course. The median age was 11 years (2 to 18 years) and 59% were male.</paragraph>
+                              <br/>
+                              <paragraph>Study 2 (100EUSA12) was a single-arm, multicentre pharmacokinetic study in patients with ALL/LBL who had developed hypersensitivity to native E. coli asparaginase, pegaspargase, or calaspargase pegol. Patients received Erwinase 25,000 IU/m<sup>2 </sup>intravenously 3 days per week for up to 30 weeks. The main outcome measure was the proportion of patients with 2-day nadir serum asparaginase activity (NSAA) levels after the fifth dose ≥ 0.1 IU/mL.</paragraph>
+                              <br/>
+                              <paragraph>Out of 30 patients enrolled, 24 were evaluable for the main outcome measure in the first treatment course. The median age was 7 years (1-17 years) and 63% were male.</paragraph>
+                              <paragraph/>
+                              <paragraph>The results of the two studies are presented in the table below.</paragraph>
+                              <paragraph>Proportion of patients with sustained asparaginase activity</paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="uk-t2"/>
+                              </paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Neutralising antibodies</content>
+                              </paragraph>
+                              <paragraph>As with other L-asparaginase preparations, development of specific neutralising antibodies has been reported with repeated dosing and is associated with reduced L-asparaginase activity.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Cerebrospinal fluid activity</content>
+                              </paragraph>
+                              <paragraph>After IM administration of 25,000 IU/m<sup>2</sup> Erwinase per week for 16 weeks, CSF L-asparagine levels were undetectable 3 days after last administration in 5 of 8 children (62.5%), and in 2 of 8 children (25%) after both the 5th and 6th administration during reinforced re-induction therapy.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility </content>
+                              </paragraph>
+                              <paragraph/>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">13 NONCLINICAL TOXICOLOGY</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                              </paragraph>
+                              <paragraph>No long-term carcinogenicity studies in animals have been performed with asparaginase <content styleCode="italics">Erwinia chrysanthemi</content>. No studies that assess the mutagenic potential of asparaginase <content styleCode="italics">Erwinia chrysanthemi </content>have been conducted.</paragraph>
+                              <br/>
+                              <paragraph>In a fertility and early embryonic development study in rats, asparaginase <content styleCode="italics">Erwinia chrysanthemi </content>had no effect on male or female fertility when administered intramuscularly at doses of up to 12000 IU/m<sup>2</sup> (approximately 0.50 times the maximum recommended human dose) every other day for a total of 35 doses. Findings in males included decreased sperm count at doses of more than 3000 IU/m<sup>2</sup> (approximately 0.12 times the maximum recommended human dose).<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">5.3 Preclinical safety data </content>
+                              </paragraph>
+                              <paragraph>Adverse reactions not observed in clinical studies, but seen in animals at exposure levels similar to clinical exposure levels and with possible relevance to clinical use were as follows:</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Reproduction and development toxicity </content>
+                              </paragraph>
+                              <paragraph>Embryotoxicity studies with <content styleCode="italics">Erwinia </content>L-asparaginase have given evidence of teratogenic potential in rabbits. In addition, pre-clinical experience with other asparaginase preparations has shown teratogenic potential in rats, mice and rabbits with doses in the therapeutic ranges.</paragraph>
+                              <br/>
+                              <paragraph>In a fertility and early embryonic development study in rats, IM administration of crisantaspase had no effect on male and female fertility at doses approximately 50% of the recommended human dose (based on body surface area). However, a 12 to 15% decrease in sperm count was observed at doses approximately 12 to 50% of the recommended human dose.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Carcinogenicity </content>
+                              </paragraph>
+                              <paragraph>Non-clinical studies have not been conducted to evaluate the carcinogenic or mutagenic potential of crisantaspase. Crisantaspase is an enzyme for which the structure and well documented activity do not suggest any carcinogenic or mutagenic potential.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Clinical data</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">14 CLINICAL STUDIES</content>
+                              </paragraph>
+                              <paragraph>The efficacy of ERWINAZE for the treatment of patients with acute lymphoblastic leukemia (ALL) who have developed hypersensitivity to <content styleCode="italics">E. Coli</content>-derived asparaginase as a component of a multi-agent chemotherapeutic regimen was established in Study 1, a single-arm, multi-center, open-label, safety and clinical pharmacology trial. Additional safety data were obtained in the ERWINAZE Master Treatment Protocol (EMTP), an expanded access program <content styleCode="italics">[see Adverse Reactions (6)]</content>. Study 1 enrolled patients treated on National Cancer Institute (NCI)-sponsored cooperative group ALL protocols who were unable to continue to receive pegaspargase due to hypersensitivity reactions. The main outcome measure was determination of the proportion of patients who achieved a serum trough asparaginase level greater than or equal to 0.1 International Units/mL. Serum trough asparaginase activity ≥ 0.1 International Units/mL has been demonstrated to correlate with asparagine depletion (asparagine &lt; 0.4 mcg/mL or 3 μM) and to serum levels that predict clinical efficacy. Patients received ERWINAZE 25,000 International Units/m<sup>2</sup> intramuscularly for two weeks (total 6 doses) as a replacement for each scheduled dose of pegaspargase remaining on their original treatment protocol.</paragraph>
+                              <br/>
+                              <paragraph>Fifty-eight patients were enrolled in Study 1, of these 48 were evaluable for the main outcome measure based on availability of pharmacokinetic samples in Course 1. The median age was 11 years (2 to 18 years); 59% were male, 78% were White, 10% were Black/African American, 5% were Asian, and 7% were other or unknown. A total of 35% were Hispanic or Latino.</paragraph>
+                              <br/>
+                              <paragraph>Study 1 met its main outcome measure of demonstrating that greater than 50% of the patients achieved the pre-specified trough asparaginase activity level of ≥ 0.1 International Units/mL at 48 or 72 hours following the third dose. Results for the main outcome measure and for an exploratory analysis using a higher cut-off (trough serum asparaginase activity levels ≥ 0.4 International Units/mL are presented in Table 3 <content styleCode="italics">[see Clinical Pharmacology (12.3)]</content>.</paragraph>
+                              <br/>
+                              <paragraph>The safety and efficacy of intravenous administration were determined in Study 2 by characterizing the PK of a 25,000 International Units/m<sup>2</sup> ERWINAZE dose given 3 days per week on a Monday, Wednesday, and Friday schedule for up to 30 weeks. This open-label, single-arm, multicenter PK study enrolled 30 patients. The main outcome measure was determination of the proportion of patients with 2-day NSAA levels (48-hour levels taken after the fifth dose) ≥ 0.1 International Unit/mL in the first 2 weeks of ERWINAZE treatment.</paragraph>
+                              <br/>
+                              <paragraph>Of the thirty patients enrolled, 24 were evaluable for the main outcome measure based on the pharmacokinetic samples in Course 1. The median age was 7 years (1-17 years), 63% were male, 27% were Hispanic or Latino, 83% were White, 3% were Black/African American, 7% were Asian, and 7% were other (American Indian, Alaska Native, or Indian).</paragraph>
+                              <br/>
+                              <paragraph>In Study 2, serum asparaginase activity of asparaginase <content styleCode="italics">Erwinia chrysanthemi </content>was determined in 24 evaluable patients (aged ≥ 1 year to ≤17 years) following intravenous administration of ERWINAZE 25,000 International Units/m<sup>2</sup>. Five minutes after the 60-minute infusion in Course 1, the mean asparaginase activity level was 12.65 ± 3.16 International Unit/mL post-dose 1 and 12.11 ± 3.11 International Unit/mL post dose 4. The main study objective was met with an asparaginase activity level of ≥ 0.1 International Units/mL 48 hours after the fifth dose observed in 83% of patients. The 72-hour post dose 6 asparaginase activity level of ≥ 0.1 International Unit/mL was the secondary endpoint, with 43% of patients achieving this endpoint. Results are presented in Table 3 [see Clinical Pharmacology (12.3)].</paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="us-t3"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">5.2       Pharmacokinetic properties</content>
+                              </paragraph>
+                              <paragraph>Based on a population PK model, the mean (%CV) half-life of crisantaspase is 7.5 (24%) hours after intravenous infusion in contrast to 15.6 (20%) hours after intramuscular injection. L-asparaginase penetrates through to the cerebrospinal fluid to a small degree and is also found in lymph.</paragraph>
+                              <br/>
+                              <paragraph>Serum trough asparaginase activity ≥ 0.1 U/mL has been demonstrated to correlate with asparagine depletion (asparagine &lt; 0.4 mcg/mL or 3 μM) and to serum levels that predict clinical efficacy.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Clinical trials</content>
+                              </paragraph>
+                              <paragraph>Study 1 (AALL07P2) was a single-arm, multicentre, open-label, safety and clinical pharmacology trial, which enrolled ALL patients who were unable to continue to receive pegaspargase due to hypersensitivity reactions. The main outcome measure was the proportion of patients who achieved a serum trough asparaginase level      ≥ 0.1 IU/mL, which correlates with asparagine depletion and predicts clinical efficacy. Patients received Erwinase 25,000 IU/m<sup>2</sup> intramuscularly for two weeks (total 6 doses) as a replacement for each scheduled dose of pegaspargase.</paragraph>
+                              <br/>
+                              <paragraph>Out of 58 patients enrolled, 48 were evaluable for the main outcome measure in the first treatment course. The median age was 11 years (2 to 18 years) and 59% were male.</paragraph>
+                              <br/>
+                              <paragraph>Study 2 (100EUSA12) was a single-arm, multicentre pharmacokinetic study in patients with ALL/LBL who had developed hypersensitivity to native E. coli asparaginase, pegaspargase, or calaspargase pegol. Patients received Erwinase 25,000 IU/m<sup>2 </sup>intravenously 3 days per week for up to 30 weeks. The main outcome measure was the proportion of patients with 2-day nadir serum asparaginase activity (NSAA) levels after the fifth dose ≥ 0.1 IU/mL.</paragraph>
+                              <br/>
+                              <paragraph>Out of 30 patients enrolled, 24 were evaluable for the main outcome measure in the first treatment course. The median age was 7 years (1-17 years) and 63% were male.</paragraph>
+                              <br/>
+                              <paragraph>The results of the two studies are presented in the table below.</paragraph>
+                              <paragraph>Proportion of patients with sustained asparaginase activity</paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="uk-t2"/>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="underline"/>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">Cerebrospinal fluid activity</content>
+                              </paragraph>
+                              <paragraph>After IM administration of 25,000 IU/m<sup>2</sup> Erwinase per week for 16 weeks, CSF L-asparagine levels were undetectable 3 days after last administration in 5 of 8 children (62.5%), and in 2 of 8 children (25%) after both the 5th and 6th administration during reinforced re-induction therapy.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Supply, storage and handling</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">16 HOW SUPPLIED/STORAGE AND HANDLING</content>
+                              </paragraph>
+                              <paragraph>ERWINAZE is a sterile, white lyophilized powder supplied in a clear 3 mL glass vial. Each carton of ERWINAZE (NDC 57902-249-05) contains 5 vials. Each single vial (NDC 57902-249-01) contains 10,000 International Units asparaginase <content styleCode="italics">Erwinia chrysanthemi</content>.</paragraph>
+                              <br/>
+                              <paragraph>Store unused or unopened vials and cartons at 36°F to 46°F (2°C to 8°C). Protect from light. Do not use ERWINAZE after the expiration date on the vial.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">6.5      </content>
+                                 <content styleCode="bold">Nature and contents of container</content>
+                              </paragraph>
+                              <paragraph>Type 1 clear neutral glass vials of 3 ml nominal capacity, closed with 13 mm halobutyl freeze-drying stoppers and aluminium overseals, containing a white lyophilised solid.</paragraph>
+                              <paragraph>Pack size: 5 vials.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">6.4     Special precautions for storage</content>
+                              </paragraph>
+                              <paragraph>Store in a refrigerator (+2°C to +8°C).</paragraph>
+                              <paragraph/>
+                              <paragraph>For storage conditions of the reconstituted medicinal product, see section 6.3.<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph/>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">17 PATIENT COUNSELING INFORMATION</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="underline">Hypersensitivity</content>
+                              </paragraph>
+                              <paragraph>Inform patients of the risk of allergic reactions, including anaphylaxis. Instruct patients on the symptoms of allergic reactions and to seek medical advice immediately if they experience such symptoms <content styleCode="italics">[see Warnings and Precautions (5.1)]</content>.</paragraph>
+                              <br/>
+                              <paragraph/>
+                              <paragraph>
+                                 <content styleCode="underline">Pancreatitis</content>
+                              </paragraph>
+                              <paragraph>Instruct patients on the risk of pancreatitis and to seek medical advice immediately if they experience abdominal pain <content styleCode="italics">[see Warnings and Precautions (5.2)]</content>.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Glucose Intolerance</content>
+                              </paragraph>
+                              <paragraph>Instruct patients on the risk of hyperglycemia and glucose intolerance. Advise patients to seek medical advice if they experience excessive thirst or any increase in the volume or frequency of urination <content styleCode="italics">[see Warnings and Precautions (5.3)]</content>.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Thrombosis</content>
+                              </paragraph>
+                              <paragraph>Instruct patients on the risk of thrombosis and hemorrhage and to seek medical advice immediately if they experience headache, arm or leg swelling, shortness of breath, and chest pain <content styleCode="italics">[see Warnings and Precautions (5.4)]</content>.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="underline">Pregnancy and Lactation</content>
+                              </paragraph>
+                              <paragraph>Advise female patients of reproductive potential to use effective contraceptive methods while receiving ERWINAZE and for at least 3 months after the last dose. Advise patients to notify their healthcare provider immediately in the event of a pregnancy or if pregnancy is suspected during ERWINAZE treatment <content styleCode="italics">[see Use in Specific Populations (8.3)]</content>. Advise lactating women not to breastfeed during treatment with ERWINAZE and for at least 3 months after the last dose <content styleCode="italics">[see Use in Specific Populations (8.2)]</content>.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">There is no corresponding section for Erwinase SmPC</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">Company information</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>Manufactured by:</paragraph>
+                              <paragraph>Jazz Pharmaceuticals, Inc.</paragraph>
+                              <paragraph>3170 Porter Drive, Palo Alto, CA 94304</paragraph>
+                              <paragraph>U.S. License No. 1901</paragraph>
+                              <br/>
+                              <paragraph>Erwinaze<sup>®</sup> is a registered trademark of Porton Biopharma Limited used under license by Jazz Pharmaceuticals.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">5 Vials NDC 57902-249-05</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">asparaginase <content styleCode="italics">Erwinia chrysanthemi </content>Erwinaze®</content>
+                              </paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">For injection, Intramuscular or Intravenous Use</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">10,000 International Units per Vial</content>
+                              </paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">Rx Only Single Dose Vial. Discard unused portion.</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top" styleCode="Lrule Rrule Botrule">
+                              <paragraph>
+                                 <content styleCode="bold">7. MARKETING AUTHORISATION HOLDER </content>
+                              </paragraph>
+                              <paragraph>Porton Biopharma Limited Manor Farm Road</paragraph>
+                              <paragraph>Porton Down, Salisbury, SP4 0JG United Kingdom</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">8. MARKETING AUTHORISATION NUMBER(S) </content>
+                              </paragraph>
+                              <paragraph>PL 44403/0002</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">9. DATE OF FIRST AUTHORISATION/RENEWAL OF THE AUTHORISATION </content>
+                              </paragraph>
+                              <paragraph>First authorisation: 19 July 1985</paragraph>
+                              <paragraph>Latest renewal: 25 May 2006</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">10. DATE OF REVISION OF THE TEXT </content>
+                              </paragraph>
+                              <paragraph>06/2020<content styleCode="bold"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20210430"/>
+               <component>
+                  <observationMedia ID="us-crt">
+                     <text>Erwinaze Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="us-crt.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="us-vial">
+                     <text>Erwinaze Vial</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="us-vial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="uk-crt-sm">
+                     <text>Erwinase Vial</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="uk-crt-sm.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="uk-t1">
+                     <text>UK SmPC Table 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="uk-t1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="uk-t2">
+                     <text>UK SmPC Table 2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="uk-t2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="us-t1">
+                     <text>USPI Table 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="us-t1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="us-t2">
+                     <text>USPI Table 2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="us-t2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="us-t3">
+                     <text>USPI Table 3</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="us-t3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L0963a953-caa3-45e7-bb97-351a98652037">
+               <id root="04d366d7-2518-42c3-868d-8cb57e8cb40f"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Erwinase U.K. Package Leaflet, Information for the Patient</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Package leaflet: Information for the patient Erwinase</content>
+                  </paragraph>
+                  <paragraph>10,000 IU, Powder for solution for injection/infusion Crisantaspase (L-asparaginase from <content styleCode="italics">Erwinia chrysanthemi</content>)</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Read all of this leaflet carefully before you start receiving this medicine because it contains important information for you.</content>
+                  </paragraph>
+                  <list>
+                     <item>
+                        <caption>-</caption>Keep this leaflet. You may need to read it again.</item>
+                     <item>
+                        <caption>-</caption>If you have any further questions, ask your doctor or your pharmacist.</item>
+                     <item>
+                        <caption>-</caption>If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side effects not listed in this leaflet. See section 4.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What is in this leaflet</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>What Erwinase is and what it is used for</item>
+                     <item>What you need to know before you are given Erwinase.</item>
+                     <item>How Erwinase is given</item>
+                     <item>Possible side effects</item>
+                     <item>How to store Erwinase</item>
+                     <item>Contents of pack and other information</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">1. What Erwinase is and what it is used for</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How does Erwinase work</content>
+                  </paragraph>
+                  <paragraph>Erwinase is an anti-blood-cell-cancer treatment from the pharmacotherapeutic group: Antineoplastic and immunomodulating agents. It works by lowering the levels of asparagine in your body, a substance the cancer cells need to survive.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What this medicine is used for</content>
+                  </paragraph>
+                  <paragraph>Erwinase is used for the treatment of a cancer of the white blood cells called Acute Lymphoblastic Leukaemia, in patients aged 4 months and above, who have developed allergic reactions to E.coli derived asparaginase.</paragraph>
+                  <paragraph>Erwinase may be used alone or with other treatments.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2.              </content>
+                     <content styleCode="bold">What you need to know before you are given Erwinase</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">You should not be given Erwinase if:</content>
+                  </paragraph>
+                  <paragraph>■        you have previously had a severe allergic reaction to the active substance (Crisantapase- L- asparaginase from <content styleCode="italics">Erwinia chrysanthemi</content>) or are allergic to any of the other ingredients of this medicine (see section 6).</paragraph>
+                  <paragraph>■        You have, or have previously, had serious problems with your pancreas (severe pancreatitis) from using a medicine containing L-asparaginase</paragraph>
+                  <paragraph>■        You have serious problems with your pancreas (severe pancreatitis)</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Warnings and precautions</content>
+                  </paragraph>
+                  <paragraph>Talk to your doctor or pharmacist or nurse before taking Erwinase.</paragraph>
+                  <paragraph>The following complications may arise during treatment with Erwinase:</paragraph>
+                  <list listType="unordered">
+                     <item>Serious life threatening allergic reactions. The hospital will have the necessary precautions in place to deal with such situations.</item>
+                     <item>Inflammation of the pancreas. If you experience abdominal pain this may be a sign of pancreatitis and should be reported to your doctor immediately. Fatal outcomes associated with pancreatitis have occurred.</item>
+                     <item>Increases in your blood sugar levels (Hyperglycemia). This can be controlled by receiving insulin sometimes even to fatal amounts (Hyperglycemia). This can be controlled by receiving insulin.</item>
+                     <item>Bleeding and blood clot disorders. During treatment your body’s ability to prevent excessive bleeding may be affected. In the case you experience any significant bleeding your treatment will be stopped. Your doctor will determine if, and when, treatment can be restarted.</item>
+                     <item>Liver dysfunctions can be caused or worsened. Discontinuation of Erwinase will be considered in the event of a severe reaction. Treatment can be restarted under close monitoring, but only once at least near complete recovery is achieved.</item>
+                     <item>Neurological disorders have been reported with fatal outcomes. Posterior reversible encephalopathy syndrome (characterised by headache, confusion, seizures and visual loss) may require blood- pressure lowering medicines and in case of seizure, anti-epileptic treatment.</item>
+                     <item>Kidney impairment due to high levels of a substance called uric acid in your blood from the chemotherapy.</item>
+                     <item>Reduced immune system that may increase your chances of an infection.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Monitoring during treatment with Erwinase</content>
+                  </paragraph>
+                  <paragraph>You will be monitored closely during and after treatment with Erwinase for:</paragraph>
+                  <list listType="unordered">
+                     <item>Allergic reactions</item>
+                     <item>Pancreas, kidney and liver functions</item>
+                     <item>Normal blood content</item>
+                  </list>
+                  <paragraph>For traceability purposes your health care professional will record the product name and batch number for each dose of Erwinase you receive.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other medicines and Erwinase</content>
+                  </paragraph>
+                  <paragraph>Tell your doctor or your pharmacist if you are taking or have recently taken any other medicines, including medicines obtained without a prescription, particularly any of the following:</paragraph>
+                  <list listType="unordered">
+                     <item>Types of medicines used to treat cancer called ‘methotrexate’ or ‘cytarabine’ as they can affect the way Erwinase works.</item>
+                     <item>Prednisone which is used in cancer treatment may increase the risk of a change in clotting.</item>
+                     <item>Vincristine which is used in cancer treatment, this can increase the toxic effects of both medicinal products and increase the risk of anaphylaxis.</item>
+                     <item>Oral contraceptives.</item>
+                  </list>
+                  <paragraph>Your doctor or your nurse will not mix Erwinase with other medicines in the same infusion.</paragraph>
+                  <paragraph>However you will probably be given other medicines before, during or after Erwinase treatment as part of your course of therapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy</content>
+                  </paragraph>
+                  <paragraph>If you are pregnant, think you may be pregnant, or are planning to have a baby, ask your doctor or pharmacist for advice before taking this medicine.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Breastfeeding</content>
+                  </paragraph>
+                  <paragraph>You must not breast-feed your baby during your treatment with Erwinase, there may be a risk to the feeding child.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Fertility &amp; Family planning</content>
+                  </paragraph>
+                  <paragraph>Potential for a decrease in male fertility cannot be out ruled.</paragraph>
+                  <paragraph>When appropriate both men and women should use necessary contraceptive measures before, and for at least three months after treatment with Erwinase. Women should use a form of contraception other than oral contraceptives.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Driving and using machines</content>
+                  </paragraph>
+                  <paragraph>Erwinase can cause dizziness and drowsiness. This can affect your coordination and therefore your ability to drive and operate machinery.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Erwinase contains sodium and glucose</content>
+                  </paragraph>
+                  <paragraph>Erwinase contains the following ingredients:</paragraph>
+                  <paragraph>■  <content styleCode="bold">sodium </content>(less than 23 mg per dose). You can consider this medicine as essentially sodium free if you are on a salt-free or low-salt diet.</paragraph>
+                  <paragraph>■  <content styleCode="bold">glucose</content>. If you are diabetic, please note that each bottle of Erwinase contains 5 mg glucose.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3.           </content>
+                     <content styleCode="bold">How Erwinase is given</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dosage</content>
+                  </paragraph>
+                  <paragraph>Erwinase will only be given to you by health care professionals who are experienced in giving chemotherapy.</paragraph>
+                  <paragraph>Your doctor will decide what dose to administer, how often you will be given Erwinase and for how long. It varies according to your body weight, your specific condition being treated, and your response to therapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Method of administration</content>
+                  </paragraph>
+                  <paragraph>Erwinase can be given to you in one of the following ways:</paragraph>
+                  <paragraph>a)   Into a vein (intravenous use). This may be given over 1 to 2 hours.</paragraph>
+                  <paragraph>b)  Into a muscle (intramuscular use).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If you are given more Erwinase than you should</content>
+                  </paragraph>
+                  <paragraph>If you are concerned that you have been given too much Erwinase, contact your doctor or another healthcare professional immediately.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If you think you have missed a dose of Erwinase</content>
+                  </paragraph>
+                  <paragraph>If you are concerned that you have missed a dose, contact your doctor or another healthcare professional immediately.</paragraph>
+                  <paragraph>If you have any further questions on this product, ask your doctor, pharmacist or nurse.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4.           </content>
+                     <content styleCode="bold">Possible side effects</content>
+                  </paragraph>
+                  <paragraph>Like all medicines, Erwinase can cause side effects, although not everybody gets them. Erwinase will be given under strict medical supervision and your doctor may give you other medicines to treat these side effects. Most of the side effects will stop once you stop taking Erwinase.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Serious side effects</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tell your doctor immediately if you experience:</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Severe allergic reactions including blue discolouration of the lips and extremities (possible symptoms of hypoxia), swelling of the face and/or, shortness of breath, increased heart rate; wheezing, difficulty swallowing, hay fever like symptoms, rash, chills, flushing, high or low blood pressure, vomiting</item>
+                     <item>Redness, pain, swelling, bruising, or hardening of the skin at the site of the injection</item>
+                     <item>Damage to the Central Nervous System symptoms may include coma, encephalopathy, hallucinations, muscle weakness, confusion, dizziness, drowsiness, agitation, difficulty speaking</item>
+                     <item>Arm, leg or calf pain with or without swelling (symptoms of blood clots in the arm or leg), abdominal pain (symptoms of a blood clot in the area of the stomach, intestines, and kidneys) chest pain spreading to the arms, neck, jaw, back or stomach, feeling sweaty and breathless (which may be symptoms of a heart attack/myocardial infarction)</item>
+                     <item>Pain near your stomach or in your back (this may be inflammation of your pancreas)</item>
+                     <item>High blood sugar levels (hyperglycemia)</item>
+                     <item>Increased frequency of bleeding events including bruising even if you have not been injured</item>
+                     <item>Changes in liver functions (identified by laboratory testing)</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Other side effects</content>
+                  </paragraph>
+                  <paragraph>Talk to your doctor if you get any of the following:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Very common </content>side effects (may affect more than 1 in 10 people):</paragraph>
+                  <list>
+                     <item>
+                        <caption>-</caption>Infections, including blood infections caused by bacteria (sepsis). This may be due to low levels of white cells in your blood. You may experience fever, a rapid heart rate, confusion or a rash.</item>
+                     <item>
+                        <caption>-</caption>Decreases in normal blood content. Some of which may be due to reduced bone marrow activity.</item>
+                     <item>
+                        <caption>-</caption>Increase in blood fats, bilirubin, creatinine, urea levels and certain liver enzymes- your doctor will monitor these.</item>
+                     <item>
+                        <caption>-</caption>Weight loss</item>
+                     <item>
+                        <caption>-</caption>Generalised pain/Muscle pains</item>
+                     <item>
+                        <caption>-</caption>Nausea</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Common </content>(may affect up to 1 in 10 people) side effects include:</paragraph>
+                  <list>
+                     <item>
+                        <caption>-</caption>Difficulty breathing or stopping breathing</item>
+                     <item>
+                        <caption>-</caption>Mucositis (inflammation of the digestive tract)</item>
+                     <item>
+                        <caption>-</caption>Diarrhoea</item>
+                     <item>
+                        <caption>-</caption>Abdominal pain/discomfort</item>
+                     <item>
+                        <caption>-</caption>tiredness or headache</item>
+                     <item>
+                        <caption>-</caption>High temperature</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Uncommon </content>(may affect up to 1 in 100 people) side effects include:</paragraph>
+                  <list>
+                     <item>
+                        <caption>-</caption>life threatening complications of uncontrolled diabetes</item>
+                     <item>
+                        <caption>-</caption>High blood levels of ammonia</item>
+                     <item>
+                        <caption>-</caption>Fits (convulsions)</item>
+                     <item>
+                        <caption>-</caption>Build up of fats in the liver</item>
+                     <item>
+                        <caption>-</caption>Kidney dysfunction</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Rare </content>(may affect up to 1 in 1,000 people) side effects include:</paragraph>
+                  <list>
+                     <item>
+                        <caption>-</caption>Posterior reversible encephalopathy syndrome (a condition characterised by headache, confusion, seizures and visual loss).</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Not known </content>(frequency cannot be estimated from the available data)</paragraph>
+                  <list>
+                     <item>
+                        <caption>-</caption>Inflammation of the salivary gland at the back of the throat</item>
+                     <item>
+                        <caption>-</caption>Liver failure, increased mass of liver, jaundice</item>
+                     <item>
+                        <caption>-</caption>Decreased albumin levels in the blood causing water retention</item>
+                     <item>
+                        <caption>-</caption>Blistering and peeling of the skin (Toxic epidermal necrolysis)</item>
+                     <item>
+                        <caption>-</caption>Joint pain</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Additional side effects in children and adolescents</content>
+                  </paragraph>
+                  <paragraph>Liver, pancreas and blood clotting side effects may be higher in adults compared to children.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Reporting of side effects</content>
+                  </paragraph>
+                  <paragraph>If you get any side effects, talk to your doctor or,pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via MHRA Yellow Card in Google Play or Apple App Store.</paragraph>
+                  <paragraph>By reporting side effects you can help provide more information on the safety of this medicine.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5.              </content>
+                     <content styleCode="bold">How to store Erwinase</content>
+                  </paragraph>
+                  <paragraph>Keep this medicine out of the sight and reach of children.</paragraph>
+                  <paragraph>Erwinase will not be used after the expiry date printed on the label after “EXP”. The expiry date refers to the last day of the month.</paragraph>
+                  <paragraph>The unopened Erwinase vials will be stored in a refrigerator (between +2°C to +8°C) by the hospital.</paragraph>
+                  <paragraph>After reconstitution, the product should be used within 15 minutes. If the delay is more than 15 minutes, the solution should be withdrawn into a glass or polypropylene syringe and used within 8 hours. The reconstituted product should be stored below 25°C.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">6.              </content>
+                     <content styleCode="bold">Contents of the pack and other information</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What Erwinase contains</content>
+                  </paragraph>
+                  <paragraph>The active substance is crisantaspase (L-asparaginase from <content styleCode="italics">Erwinia chrysanthemi</content>). Each vial contains 10,000 International units of cristanaspase (L-asparaginase from <content styleCode="italics">Erwinia chrysanthemi</content>).</paragraph>
+                  <paragraph>The other excipients are sodium chloride (See section 2) and glucose monohydrate (See section 2).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What Erwinase looks like and contents of the pack</content>
+                  </paragraph>
+                  <paragraph>Erwinase is provided as a powder for solution for injection/infusion</paragraph>
+                  <paragraph>It comes as a white lyophilized powder in a clear glass bottle with a rubber stopper and an aluminium seal. Each pack contains 5 glass bottles of powder.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Marketing Authorisation Holder and Manufacturer</content>
+                  </paragraph>
+                  <paragraph>Porton Biopharma Limited, Manor Farm Road,</paragraph>
+                  <paragraph>Porton Down, Salisbury, SP4 0JG United Kingdom</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">This leaflet was last revised in June 2020</content>
+                  </paragraph>
+                  <paragraph>Erwinase is a registered trademark of Porton Biopharma Limited.</paragraph>
+               </text>
+               <effectiveTime value="20210526"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L74cf0d24-cd65-4d05-a928-8a5ee32a7e49">
+               <id root="a157b299-6c45-4a39-bee8-0d3e6af0cd50"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Erwinase Carton</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="uk-crt"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Erwinase Vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="uk-vial"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210430"/>
+               <component>
+                  <observationMedia ID="uk-crt">
+                     <text>Erwinase Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="uk-crt.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="uk-vial">
+                     <text>Erwinase Vial</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="uk-vial.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

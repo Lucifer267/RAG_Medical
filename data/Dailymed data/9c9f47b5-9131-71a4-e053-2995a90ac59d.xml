@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9c9f47b5-9131-71a4-e053-2995a90ac59d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20200120"/>
+   <setId root="4fbacd52-ae57-208b-e054-00144ff8d46c"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="828374897"/>
+            <name>RedPharm Drug, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="828374897"/>
+                        <name>RedPharm Drug, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67296-1280" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67296-1280" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9c9f5ac1-9252-e88c-e053-2a95a90ad103"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200120"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67296-1280" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Hyoscyamine Sulfate SL</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Hyoscyamine Sulfate SL</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="76439-309" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.125"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F2R8V82B84" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYOSCYAMINE SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="PX44XO846X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYOSCYAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67296-1280-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20110904"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20110904"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">644</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="5" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb67a1-bf3c-28e5-e054-00144ff88e88">
+               <id root="9c9f47b5-9132-71a4-e053-2995a90ac59d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>SPL UNCLASSIFIED SECTION</title>
+               <text>
+                  <paragraph>Rx Only.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb3166-c626-6936-e054-00144ff88e88">
+               <id root="9c9f47b5-9133-71a4-e053-2995a90ac59d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Hyoscyamine Sulfate Sublingual Tablets 0.125 mg are white, round, flat beveled edge tablets debossed "644" on one side. Plain on the other side.</paragraph>
+                  <paragraph>Hyoscyamine Sulfate Sublingual tablets contain 0.125 mg hyoscyamine sulfate formulated for oral administration. Hyoscyamine sulfate is one of the principal anticholinergic/antispasmodic components of belladonna alkaloids. The molecular formula is (C17H23 NO3)2•H2SO4•2H2O and the molecular weight is 712.85. Chemically, it is benzeneacetic acid, α-(hydroxymethyl)-, 8-methyl-8-azabicyclo [3.2.1] oct-3-yl ester, [3(S)-endo]-, sulfate (2:1), dihydrate with the following structural formula:</paragraph>
+                  <paragraph>[Chemical Structure]</paragraph>
+                  <paragraph>Each tablet also contains as inactive ingredients: mannitol, croscarmellose sodium and magnesium stearate.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb67a1-bf3f-28e5-e054-00144ff88e88">
+               <id root="9c9f47b5-9135-71a4-e053-2995a90ac59d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Hyoscyamine sulfate inhibits specifically the actions of acetylcholine on structures innervated by postganglionic cholinergic nerves and on smooth muscles that respond to acetylcholine but lack cholinergic innervation. These peripheral cholinergic receptors are present in the autonomic effector cells of the smooth muscle, cardiac muscle, the sinoatrial node, the atrioventricular node, and the exocrine glands. At therapeutic doses, it is completely devoid of any action on autonomic ganglia. Hyoscyamine sulfate inhibits gastrointestinal propulsive motility and decreases gastric acid secretion. Hyoscyamine sulfate also controls excessive pharyngeal, tracheal and bronchial secretions. Hyoscyamine sulfate is absorbed totally and completely by sublingual administration as well as oral administration. Once absorbed, hyoscyamine sulfate disappears rapidly from the blood and is distributed throughout the entire body. The half-life of hyoscyamine sulfate is 2 to 3½ hours. Hyoscyamine sulfate is partly hydrolyzed to tropic acid and tropine but the majority of the drug is excreted in the urine unchanged within the first 12 hours. Only traces of this drug are found in breast milk. Hyoscyamine sulfate passes the blood brain barrier and the placental barrier.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb29cc-463b-1e85-e054-00144ff88e88">
+               <id root="9c9f47b5-9137-71a4-e053-2995a90ac59d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Hyoscyamine sulfate is indicated whenever antispasmodic or anticholinergic therapy is desired. The high degree of purity allows effective action at very low dosage, with a minimal incidence of unwanted side effects.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb29cc-463d-1e85-e054-00144ff88e88">
+               <id root="9c9f47b5-9138-71a4-e053-2995a90ac59d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>May be contraindicated in glaucoma, prostatic hypertrophy and some cases of cardiac disease.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb29cc-463f-1e85-e054-00144ff88e88">
+               <id root="9c9f47b5-9139-71a4-e053-2995a90ac59d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>SIDE EFFECTS</title>
+               <text>
+                  <paragraph>Excessive dryness of the mouth, blurred vision, urinary difficulty and tachycardia may indicate overdosage.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb29cc-4641-1e85-e054-00144ff88e88">
+               <id root="9c9f47b5-913a-71a4-e053-2995a90ac59d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>In the presence of high environmental temperature, heat prostration can occur with drug use (fever and heat stroke due to decreased sweating). Diarrhea may be an early symptom of incomplete intestinal obstruction especially in patients with ileostomy or colostomy. In this instance, treatment with this drug would be inappropriate and possibly harmful. Like other anticholinergic agents, hyoscyamine sulfate may produce drowsiness, dizziness or blurred vision. In this event, the patient should be warned not to engage in activities requiring mental alertness such as operating a motor vehicle or other machinery or to perform hazardous work while taking this drug.</paragraph>
+                  <paragraph>Psychosis has been reported in sensitive individuals given anticholinergic drugs including hyoscyamine sulfate. CNS signs and symptoms include confusion, disorientation, short term memory loss, hallucinations, dysarthria, ataxia, euphoria, anxiety, fatigue, insomnia, agitation and mannerisms, and inappropriate affect. These CNS signs and symptoms usually resolve within 12 to 48 hours after discontinuation of the drug.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb67a1-bf41-28e5-e054-00144ff88e88">
+               <id root="9c9f47b5-9136-71a4-e053-2995a90ac59d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>Use with caution in patients with: autonomic neuropathy, hyperthyroidism, coronary heart disease, congestive heart failure, cardiac arrhythmias, hypertension, and renal disease. Investigate any tachycardia before giving any anticholinergic drug since they may increase the heart rate. Use with caution in patients with hiatal hernia associated with reflux esophagitis.</paragraph>
+                  <paragraph>Information for Patients</paragraph>
+                  <paragraph>Like other anticholinergic agents, hyoscyamine sulfate may produce drowsiness, dizziness, or blurred vision. In this event, the patient should be warned not to engage in activities requiring mental alertness such as operating a motor vehicle or other machinery or to perform hazardous work while taking this drug.</paragraph>
+                  <paragraph>Use of hyoscyamine sulfate may decrease sweating resulting in heat prostration, fever or heat stroke; febrile patients or those who may be exposed to elevated environmental temperatures should use caution.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>Additive adverse effects resulting from cholinergic blockade may occur when hyoscyamine sulfate is administered concomitantly with other antimuscarinics, amantadine, haloperidol, phenothiazines, monoamine oxidase (MAO) inhibitors, tricyclic antidepressants or some antihistamines.</paragraph>
+                  <paragraph>Antacids may interfere with the absorption of hyoscyamine sulfate. Administer hyoscyamine sulfate before meals; antacids after meals.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>No long-term studies in animals have been performed to determine the carcinogenic, mutagenic or impairment of fertility potential of hyoscyamine sulfate.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Category C</paragraph>
+                  <paragraph>Animal reproduction studies have not been conducted with hyoscyamine sulfate. It is also not known whether hyoscyamine sulfate can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Hyoscyamine sulfate should be given to a pregnant woman only if clearly needed.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>Hyoscyamine sulfate is excreted in human milk. Caution should be exercised when hyoscyamine sulfate is administered to a nursing woman.</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>Reported clinical experience has not identified differences in safety between patients aged 65 and over and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                  <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb67a1-bf43-28e5-e054-00144ff88e88">
+               <id root="9c9f47b5-9134-71a4-e053-2995a90ac59d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>All of the following adverse reactions have been reported with hyoscyamine sulfate. Adverse reactions may include dryness of the mouth; urinary hesitancy and retention; blurred vision; tachycardia; palpitations; mydriasis; increased ocular tension; loss of taste; headache; nervousness; drowsiness; weakness; fatigue; dizziness; insomnia; nausea; vomiting; impotence; constipation; bloated feeling; abdominal pain; diarrhea; allergic reactions or drug idiosyncrasies; urticaria and other dermal manifestations; ataxia; speech disturbance; some degree of mental confusion and/or excitement (especially in elderly persons); short-term memory loss; hallucinations; and decreased sweating.</paragraph>
+                  <paragraph>To report suspected adverse reactions, contact Virtus Pharmaceuticals, OPCO II, LLC at 1-855-255-6076 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb67a1-bf45-28e5-e054-00144ff88e88">
+               <id root="9c9f47b5-913b-71a4-e053-2995a90ac59d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>The signs and symptoms of overdose are headache, nausea, vomiting, blurred vision, dilated pupils, hot dry skin, dizziness, dryness of the mouth, difficulty in swallowing, and CNS stimulation. Measures to be taken are immediate lavage of the stomach and injection of physostigmine 0.5 to 2 mg intravenously and repeated as necessary up to a total of 5 mg. Fever may be treated symptomatically (tepid water sponge baths, hypothermic blanket). Excitement to a degree of which demands attention may be managed with sodium thiopental 2% solution given slowly intravenously or chloral hydrate (100-200 mL of a 2% solution) by rectal infusion. In the event of progression of the curare-like effect to paralysis of the respiratory muscles, artificial respiration should be instituted and maintained until effective respiratory action returns.</paragraph>
+                  <paragraph>In rats, the LD50 for hyoscyamine is 375 mg/kg. Hyoscyamine sulfate is dialyzable.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb29cc-4643-1e85-e054-00144ff88e88">
+               <id root="9c9f47b5-913c-71a4-e053-2995a90ac59d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Dosage may be adjusted according to the conditions and severity of symptoms. Hyoscyamine Sulfate Sublingual Tablets, 0.125 mg must be placed under the tongue when it will dissolve in seconds, then swallow with saliva. Administering with liquid is not necessary.</paragraph>
+                  <paragraph>Adults and pediatric patients 12 years of age and older</paragraph>
+                  <paragraph>1 to 2 tablets every four hours or as needed. Do not exceed 12 tablets in 24 hours.</paragraph>
+                  <paragraph>Pediatric patients 2 to under 12 years of age</paragraph>
+                  <paragraph>½ to 1 tablet every four hours or as needed. Do not exceed 6 tablets in 24 hours.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb67a1-bf47-28e5-e054-00144ff88e88">
+               <id root="9c9f47b5-913f-71a4-e053-2995a90ac59d"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Bottles of 100
+  <br/>
+NDC 76439-0309-10
+ </paragraph>
+                  <paragraph>Store at controlled room temperature 20°-25°C (68°-77°F); excursions permitted to 15°-30°C (59°-86°F). [See USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Dispense in tight, light-resistant containers as defined in USP/NF with a child-resistant closure.</paragraph>
+                  <paragraph>KEEP THIS AND ALL DRUGS OUT OF THE REACH OF CHILDREN.</paragraph>
+                  <paragraph>Call your doctor about side effects. You may report side effects by calling (813)283-1344.</paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb29cc-4645-1e85-e054-00144ff88e88">
+               <id root="9c9f47b5-913d-71a4-e053-2995a90ac59d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>SPL UNCLASSIFIED SECTION</title>
+               <text>
+                  <paragraph>Manufactured for:
+  <br/>
+Virtus Pharmaceuticals OPCO II, LLC.
+  <br/>
+Nashville, TN 37217
+  <br/>
+1-855-255-6076
+ </paragraph>
+                  <paragraph>L26I-VIR
+  <br/>
+Rev. 10/15
+ </paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fbb3166-c629-6936-e054-00144ff88e88">
+               <id root="9c9f47b5-913e-71a4-e053-2995a90ac59d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 0.125 MG TABLET BOTTLE LABEL</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4fbb3166-c627-6936-e054-00144ff88e88"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20110904"/>
+               <component>
+                  <observationMedia ID="img_4fbb3166-c627-6936-e054-00144ff88e88">
+                     <text>hyoscamine 0.125mg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="doc20170517113634_001.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="dcf2178c-cef8-4123-962d-e972189b3dbe"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Levothyroxine</title>
+   <effectiveTime value="20141104"/>
+   <setId root="5ada7c99-cb63-4b68-8dd2-e0f4fafdf4f6"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals, LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+                        <name>Northwind Pharmaceuticals, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-293" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="82d5cdc9-703f-489b-9a06-49c5acae3a04"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20141104"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-293" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Levothyroxine Sodium</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Levothyroxine Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0527-1345" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIR">
+                           <quantity>
+                              <numerator value="0.1" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9J765S329G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LEVOTHYROXINE SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q51BO43MG4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEVOTHYROXINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <asEquivalentSubstance>
+                                 <definingSubstance>
+                                    <code code="054I36CPMN" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEVOTHYROXINE SODIUM ANHYDROUS</name>
+                                 </definingSubstance>
+                              </asEquivalentSubstance>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-293-52" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20141103"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA021210" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="7" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">JSP;516</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L34421e77-29e9-4b6c-a040-4909b4ad26b7">
+               <id root="dc2d7577-8969-4481-b4c7-2d34b5acd479"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Levothyroxine Sodium Tablets, USP contain synthetic crystalline L-3,3',5,5'-tetraiodothyronine sodium salt [levothyroxine (T4) sodium]. Synthetic T4 is identical to that produced in the human thyroid gland. Levothyroxine (T4) sodium has an empirical formula of C15H10I4N NaO4 • H2O, molecular weight of 798.86 g/mol (anhydrous).</paragraph>
+                  <paragraph>Inactive Ingredients</paragraph>
+                  <paragraph>Colloidal silicon dioxide, lactose, magnesium stearate, microcrystalline cellulose, corn starch, acacia and sodium starch glycolate, D&amp;C Yellow No. 10 Aluminum Lake, FD&amp;C Yellow No. 6 Aluminum Lake.</paragraph>
+               </text>
+               <effectiveTime value="20141104"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf14c1bf5-fa35-443d-953d-2bef336fee5c">
+               <id root="b4d32781-36a7-480d-96d7-668417684eec"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS &amp; USAGE</title>
+               <text>
+                  <paragraph>Levothyroxine sodium is used for the following indications:</paragraph>
+                  <paragraph>Hypothyroidism - As replacement or supplemental therapy in congenital or acquired hypothyroidism of any etiology, except transient hypothyroidism during the recovery phase of subacute thyroiditis. Specific indications include: primary (thyroidal), secondary (pituitary), and tertiary (hypothalamic) hypothyroidism and subclinical hypothyroidism. Primary hypothyroidism may result from functional deficiency, primary atrophy, partial or total congenital absence of the thyroid gland, or from the effects of surgery, radiation, or drugs, with or without the presence of goiter.</paragraph>
+                  <paragraph>Pituitary TSH Suppression - In the treatment or prevention of various types of euthyroid goiters (see WARNINGS and PRECAUTIONS), including thyroid nodules (see WARNINGS and PRECAUTIONS), subacute or chronic Iymphocytic thyroiditis (Hashimoto's thyroiditis), multinodular goiter (see WARNINGS and PRECAUTIONS), and, as an adjunct to surgery and radioiodine therapy in the management of thyrotropin-dependent well-differentiated thyroid cancer.</paragraph>
+               </text>
+               <effectiveTime value="20141104"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb516f9cd-3c2c-4d14-9a78-329d3c61e3f6">
+               <id root="e6f88589-425a-40f3-9f40-ef75515f17f4"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Levothyroxine is contraindicated in patients with untreated subclinical (suppressed serum TSH level with normal T3 and T4 levels) or overt thyrotoxicosis of any etiology and in patients with acute myocardial infarction. Levothyroxine is contraindicated in patients with uncorrected adrenal insufficiency since thyroid hormones may precipitate an acute adrenal crisis by increasing the metabolic clearance of glucocorticoids (see PRECAUTIONS). Levothyroxine Sodium Tablets, USP is contraindicated in patients with hypersensitivity to any of the inactive ingredients in Levothyroxine Sodium Tablets, USP. (See DESCRIPTION, Inactive Ingredients).</paragraph>
+               </text>
+               <effectiveTime value="20141104"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L86567f99-2a41-490c-b3c5-4aaf403ae917">
+               <id root="d5a3b327-3950-4018-9d94-fe386047e1cc"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: Thyroid hormones, including Levothyroxine Sodium Tablets, USP, either alone or with other therapeutic agents, should not be used for the treatment of obesity for weight loss. In euthyroid patients, doses within the range of daily hormonal requirements are ineffective for weight reduction. Larger doses may produce serious or even life threatening manifestations of toxicity, particularly when given in association with sympathomimetic amines such as those used for their anorectic effects.</content>
+                  </paragraph>
+                  <paragraph>Levothyroxine sodium should not be used in the treatment of male or female infertility unless this condition is associated with hypothyroidism.</paragraph>
+                  <paragraph>In patients with nontoxic diffuse goiter or nodular thyroid disease, particularly the elderly or those with underlying cardiovascular disease, levothyroxine sodium therapy is contraindicated if the serum TSH level is already suppressed due to the risk of precipitating overt thyrotoxicosis (see CONTRAINDICATIONS). If the serum TSH level is not suppressed, Levothyroxine Sodium Tablets, USP should be used with caution in conjunction with careful monitoring of thyroid function for evidence of hyperthyroidism and clinical monitoring for potential associated adverse cardiovascular signs and symptoms of hyperthyroidism.</paragraph>
+               </text>
+               <effectiveTime value="20141104"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L28944502-3459-4125-95c2-460bdc4bd4b4">
+               <id root="c6f5c783-6815-4b89-b837-fd44bf04e338"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>Levothyroxine has a narrow therapeutic index. Regardless of the indication for use, careful dosage titration is necessary to avoid the consequences of over- or under-treatment. These consequences include, among others, effects on growth and development, cardiovascular function, bone metabolism, reproductive function, cognitive function, emotional state, gastrointestinal function, and on glucose and lipid metabolism. Many drugs interact with levothyroxine sodium necessitating adjustments in dosing to maintain therapeutic response (see Drug Interactions).</paragraph>
+                  <paragraph>Effects on bone mineral density - In women, long-term levothyroxine sodium therapy has been associated with increased bone resorption, thereby decreasing bone mineral density, especially in post-menopausal women on greater than replacement doses or in women who are receiving suppressive doses of levothyroxine sodium. The increased bone resorption may be associated with increased serum levels and urinary excretion of calcium and phosphorous, elevations in bone alkaline phosphatase and suppressed serum parathyroid hormone levels. Therefore, it is recommended that patients receiving levothyroxine sodium be given the minimum dose necessary to achieve the desired clinical and biochemical response.</paragraph>
+                  <paragraph>Patients with underlying cardiovascular disease - Exercise caution when administering levothyroxine to patients with cardiovascular disorders and to the elderly in whom there is an increased risk of occult cardiac disease. In these patients, levothyroxine therapy should be initiated at lower doses than those recommended in younger individuals or in patients without cardiac disease (see WARNINGS; PRECAUTIONS, Geriatric Use; and DOSAGE AND ADMINISTRATION). If cardiac symptoms develop or worsen, the levothyroxine dose should be reduced or withheld for one week and then cautiously restarted at a lower dose. Overtreatment with levothyroxine sodium may have adverse cardiovascular effects such as an increase in heart rate, cardiac wall thickness, and cardiac contractility and may precipitate angina or arrhythmias. Patients with coronary artery disease who are receiving levothyroxine therapy should be monitored closely during surgical procedures, since the possibility of precipitating cardiac arrhythmias may be greater in those treated with levothyroxine. Concomitant administration of levothyroxine and sympathomimetic agents to patients with coronary artery disease may precipitate coronary insufficiency.</paragraph>
+                  <paragraph>Patients with nontoxic diffuse goiter or nodular thyroid disease- Exercise caution when administering levothyroxine to patients with nontoxic diffuse goiter or nodular thyroid disease in order to prevent precipitation of thyrotoxicosis (see WARNINGS). If the serum TSH is already suppressed, levothyroxine sodium should not be administered (see Contraindications).</paragraph>
+                  <paragraph>Associated endocrine disorders</paragraph>
+                  <paragraph>Hypothalamic/pituitary hormone deficiencies - In patients with secondary or tertiary hypothyroidism, additional hypothalamic/pituitary hormone deficiencies should be considered, and, if diagnosed, treated (see PRECAUTIONS, Autoimmune polyglandular syndrome for adrenal insufficiency).</paragraph>
+                  <paragraph>Autoimmune polyglandular syndrome - Occasionally, chronic autoimmune thyroiditis may occur in association with other autoimmune disorders such as adrenal insufficiency, pernicious anemia, and insulin-dependent diabetes mellitus. Patients with concomitant adrenal insufficiency should be treated with replacement glucocorticoids prior to initiation of treatment with levothyroxine sodium. Failure to do so may precipitate an acute adrenal crisis when thyroid hormone therapy is initiated, due to increased metabolic clearance of glucocorticoids by thyroid hormone. Patients with diabetes mellitus may require upward adjustments of their antidiabetic therapeutic regimens when treated with levothyroxine (see PRECAUTIONS, Drug Interactions).</paragraph>
+                  <paragraph>Other associated medical conditions</paragraph>
+                  <paragraph>Infants with congenital hypothyroidism appear to be at increased risk for other congenital anomalies, with cardiovascular anomalies (pulmonary stenosis, atrial septal defect, and ventricular septal defect,) being the most common association.</paragraph>
+                  <paragraph>Information for Patients</paragraph>
+                  <paragraph>Patients should be informed of the following information to aid in the safe and effective use of Levothyroxine Sodium Tablets, USP:</paragraph>
+                  <paragraph>Notify your physician if you are allergic to any foods or medicines, are pregnant or intend to become pregnant, are breast-feeding or are taking any other medications, including prescription and over-the-counter preparations.<br/>Notify your physician of any other medical conditions you may have, particularly heart disease, diabetes, clotting disorders, and adrenal or pituitary gland problems. Your dose of medications used to control these other conditions may need to be adjusted while you are taking Levothyroxine Sodium Tablets, USP. If you have diabetes, monitor your blood and/or urinary glucose levels as directed by your physician and immediately report any changes to your physician. If you are taking anticoagulants (blood thinners), your clotting status should be checked frequently.<br/>Use Levothyroxine Sodium Tablets, USP only as prescribed by your physician. Do not discontinue or change the amount you take or how often you take it, unless directed to do so by your physician.<br/>The levothyroxine in Levothyroxine Sodium Tablets, USP is intended to replace a hormone that is normally produced by your thyroid gland. Generally, replacement therapy is to be taken for life, except in cases of transient hypothyroidism, which is usually associated with an inflammation of the thyroid gland (thyroiditis).<br/>Take Levothyroxine Sodium Tablets, USP in the morning on an empty stomach, at least one-half hour to one hour before eating any food.<br/>It may take several weeks before you notice an improvement in your symptoms.<br/>Notify your physician if you experience any of the following symptoms: rapid or irregular heartbeat, chest pain, shortness of breath, leg cramps, headache, nervousness, irritability, sleeplessness, tremors, change in appetite, weight gain or loss, vomiting, diarrhea, excessive sweating, heat intolerance, fever, changes in menstrual periods, hives or skin rash, or any other unusual medical event.<br/>Notify your physician if you become pregnant while taking Levothyroxine Sodium Tablets, USP. It is likely that your dose of Levothyroxine Sodium Tablets, USP will need to be increased while you are pregnant.<br/>Notify your physician or dentist that you are taking Levothyroxine Sodium Tablets, USP prior to any surgery.<br/>Partial hair loss may occur rarely during the first few months of Levothyroxine Sodium Tablets, USP therapy, but this is usually temporary.<br/>Levothyroxine Sodium Tablets, USP should not be used as a primary or adjunctive therapy in a weight control program.<br/>Keep Levothyroxine Sodium Tablets, USP out of the reach of children. Store Levothyroxine Sodium Tablets, USP away from heat, moisture, and light.<br/>Agents such as iron and calcium supplements and antacids can decrease the absorption of levothyroxine sodium tablets. Therefore, levothyroxine sodium tablets should not be administered within 4 hrs of these agents.</paragraph>
+                  <paragraph>Laboratory Tests</paragraph>
+                  <paragraph>General</paragraph>
+                  <paragraph>The diagnosis of hypothyroidism is confirmed by measuring TSH levels using a sensitive assay (second generation assay sensitivity ≤ 0.1 mlU/L or third generation assay sensitivity ≤ 0.01 mlU/L) and measurement of free-T4.</paragraph>
+                  <paragraph>The adequacy of therapy is determined by periodic assessment of appropriate laboratory tests and clinical evaluation. The choice of laboratory tests depends on various factors including the etiology of the underlying thyroid disease, the presence of concomitant medical conditions, including pregnancy, and the use of concomitant medications (see PRECAUTIONS, Drug Interactions and Drug-Laboratory Test Interactions). Persistent clinical and laboratory evidence of hypothyroidism despite an apparent adequate replacement dose of Levothyroxine Sodium Tablets, USP may be evidence of inadequate absorption, poor compliance, drug interactions, or decreased T4 potency of the drug product.</paragraph>
+                  <paragraph>Adults</paragraph>
+                  <paragraph>In adult patients with primary (thyroidal) hypothyroidism, serum TSH levels (using a sensitive assay) alone may be used to monitor therapy. The frequency of TSH monitoring during levothyroxine dose titration depends on the clinical situation but it is generally recommended at 6-8 week intervals until normalization. For patients who have recently initiated levothyroxine therapy and whose serum TSH has normalized or in patients who have had their dosage of levothyroxine changed, the serum TSH concentration should be measured after 8-12 weeks. When the optimum replacement dose has been attained, clinical (physical examination) and biochemical monitoring may be performed every 6-12 months, depending on the clinical situation, and whenever there is a change in the patient's status. It is recommended that a physical examination and a serum TSH measurement be performed at least annually in patients receiving Levothyroxine Sodium Tablets, USP. (see WARNINGS, PRECAUTIONS and DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Pediatrics</paragraph>
+                  <paragraph>In patients with congenital hypothyroidism, the adequacy of replacement therapy should be assessed by measuring both serum TSH (using a sensitive assay) and total- or free-T4. During the first three years of life, the serum total- or free-T4 should be maintained at all times in the upper half of the normal range. While the aim of therapy is to also normalize the serum TSH level, this is not always possible in a small percentage of patients, particularly in the first few months of therapy. TSH may not normalize due to a resetting of the pituitary-thyroid feedback threshold as a result of in utero hypothyroidism. Failure of the serum T4 to increase into the upper half of the normal range within 2 weeks of initiation of Levothyroxine Sodium Tablets, USP therapy and/or of the serum TSH to decrease below 20 mU/L within 4 weeks should alert the physician to the possibility that the child is not receiving adequate therapy. Careful inquiry should then be made regarding compliance, dose of medication administered, and method of administration prior to raising the dose of Levothyroxine Sodium Tablets, USP.</paragraph>
+                  <paragraph>The recommended frequency of monitoring of TSH and total or free T4 in children is as follows: at 2 and 4 weeks after the initiation of treatment; every 1-2 months during the first year of life; every 2-3 months between 1 and 3 years of age; and every 3 to 12 months thereafter until growth is completed. More frequent intervals of monitoring may be necessary if poor compliance is suspected or abnormal values are obtained. It is recommended that TSH and T4 levels, and a physical examination, if indicated, be performed 2 weeks after any change in Levothyroxine Sodium Tablets, USP dosage. Routine clinical examination, including assessment of mental and physical growth and development, and bone maturation should be performed at regular intervals (see PRECAUTIONS, Pediatric Use and DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Secondary (pituitary) and tertiary (hypothalamic) hypothyroidism</paragraph>
+                  <paragraph>Adequacy of therapy should be assessed by measuring serum free-T4 levels, which should be maintained in the upper half of the normal range in these patients.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>Many drugs affect thyroid hormone pharmacokinetics and metabolism (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the therapeutic response to Levothyroxine Sodium Tablets, USP. In addition, thyroid hormones and thyroid status have varied effects on the pharmacokinetics and action of other drugs.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">PLEASE VIEW THE DRUG MANUFACTURER'S LISTING OF DRUG-THYROIDAL AXIS INTERACTIONS ONLINE:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">http://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=99aebc74-0e34-4ab3-bb59-d9fb2b9a4444</content>
+                  </paragraph>
+                  <paragraph>Oral anticoagulants - Levothyroxine increases the response to oral anticoagulant therapy. Therefore, a decrease in the dose of anticoagulant may be warranted with correction of the hypothyroid state or when the Levothyroxine Sodium Tablets, USP dose is increased. Prothrombin time should be closely monitored to permit appropriate and timely dosage adjustments (see Table 2).</paragraph>
+                  <paragraph>Digitalis glycosides - The therapeutic effects of digitalis glycosides may be reduced by levothyroxine. Serum digitalis glycoside levels may be decreased when a hypothyroid patient becomes euthyroid, necessitating an increase in the dose of digitalis glycosides (see Table 2).</paragraph>
+                  <paragraph>Drug-Food Interactions</paragraph>
+                  <paragraph>Consumption of certain foods may affect levothyroxine absorption thereby necessitating adjustments in dosing. Soybean flour (infant formula), cotton seed meal, walnuts, and dietary fiber may bind and decrease the absorption of levothyroxine sodium from the GI tract.</paragraph>
+                  <paragraph>Drug-Laboratory Test Interactions</paragraph>
+                  <paragraph>Changes in TBG concentration must be considered when interpreting T4 and T3 values, which necessitates measurement and evaluation of unbound (free) hormone and/or determination of the free T4 index (FT4I). Pregnancy, infectious hepatitis, estrogens, estrogen-containing oral contraceptives, and acute intermittent porphyria increase TBG concentrations. Decreases in TBG concentrations are observed in nephrosis, severe hypoproteinemia, severe liver disease, acromegaly, and after androgen or corticosteroid therapy (see also Table 2). Familial hyper- or hypo-thyroxine binding globulinemias have been described, with the incidence of TBG deficiency approximating 1 in 9000.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, and Impairment of Fertility</paragraph>
+                  <paragraph>Animal studies have not been performed to evaluate the carcinogenic potential, mutagenic potential or effects on fertility of levothyroxine. The synthetic T4 in Levothyroxine Sodium Tablets, USP is identical to that produced naturally by the human thyroid gland. Although there has been a reported association between prolonged thyroid hormone therapy and breast cancer, this has not been confirmed. Patients receiving Levothyroxine Sodium Tablets, USP for appropriate clinical indications should be titrated to the lowest effective replacement dose.</paragraph>
+                  <paragraph>Pregnancy - Category A</paragraph>
+                  <paragraph>Studies in women taking levothyroxine sodium during pregnancy have not shown an increased risk of congenital abnormalities. Therefore, the possibility of fetal harm appears remote. Levothyroxine Sodium Tablets, USP should not be discontinued during pregnancy and hypothyroidism diagnosed during pregnancy should be promptly treated.</paragraph>
+                  <paragraph>Hypothyroidism during pregnancy is associated with a higher rate of complications, including spontaneous abortion, pre-eclampsia, stillbirth and premature delivery. Maternal hypothyroidism may have an adverse effect on fetal and childhood growth and development. During pregnancy, serum T4 levels may decrease and serum TSH levels increase to values outside the normal range. Since elevations in serum TSH may occur as early as 4 weeks gestation, pregnant women taking Levothyroxine Sodium Tablets, USP should have their TSH measured during each trimester. An elevated serum TSH level should be corrected by an increase in the dose of Levothyroxine Sodium Tablets, USP. Since postpartum TSH levels are similar to preconception values, the Levothyroxine Sodium Tablets, USP dosage should return to the pre-pregnancy dose immediately after delivery. A serum TSH level should be obtained 6-8 weeks postpartum.</paragraph>
+                  <paragraph>Thyroid hormones cross the placental barrier to some extent as evidenced by levels in cord blood of athyroceotic fetuses being approximately one third maternal levels. Transfer of thyroid hormone from the mother to the fetus, however, may not be adequate to prevent in utero, hypothyroidism.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>Although thyroid hormones are excreted only minimally in human milk, caution should be exercised when Levothyroxine Sodium Tablets, USP is administered to a nursing woman. However, adequate replacement doses of levothyroxine are generally needed to maintain normal lactation.</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>General</paragraph>
+                  <paragraph>The goal of treatment in pediatric patients with hypothyroidism is to achieve and maintain normal intellectual and physical growth and development.</paragraph>
+                  <paragraph>The initial dose of levothyroxine varies with age and body weight (see DOSAGE AND ADMINISTRATION, Table 3). Dosing adjustments are based on an assessment of the individual patient's clinical and laboratory parameters (see PRECAUTIONS, Laboratory Tests).</paragraph>
+                  <paragraph>In children in whom a diagnosis of permanent hypothyroidism has not been established, it is recommended that levothyroxine administration be discontinued for a 30-day trial period, but only after the child is at least 3 years of age. Serum T4 and TSH levels should then be obtained. If the T4 is low and the TSH high, the diagnosis of permanent hypothyroidism is established, and levothyroxine therapy should be reinstituted. If the T4 and TSH levels are normal, euthyroidism may be assumed and, therefore, the hypothyroidism can be considered to have been transient. In this instance, however, the physician should carefully monitor the child and repeat the thyroid function tests if any signs or symptoms of hypothyroidism develop. In this setting, the clinician should have a high index of suspicion of relapse. If the results of the levothyroxine withdrawal test are inconclusive, careful follow-up and subsequent testing will be necessary.</paragraph>
+                  <paragraph>Since some more severely affected children may become clinically hypothyroid when treatment is discontinued for 30 days, an alternate approach is to reduce the replacement dose of levothyroxine by half during the 30-day trial period. If, after 30 days, the serum TSH is elevated above 20 mU/L, the diagnosis of permanent hypothyroidism is confirmed, and full replacement therapy should be resumed. However, if the serum TSH has not risen to greater than 20 mU/L, levothyroxine treatment should be discontinued for another 30-day trial period followed by repeat serum T4 and TSH.</paragraph>
+                  <paragraph>The presence of concomitant medical conditions should be considered in certain clinical circumstances and, if present, appropriately treated (see PRECAUTIONS).</paragraph>
+                  <paragraph>Congenital Hypothyroidism (see PRECAUTIONS, Laboratory Tests and DOSAGE AND ADMINISTRATION)</paragraph>
+                  <paragraph>Rapid restoration of normal serum T4 concentrations is essential for preventing the adverse effects of congenital hypothyroidism on intellectual development as well as on overall physical growth and maturation. Therefore, Levothyroxine Sodium Tablets, USP therapy should be initiated immediately upon diagnosis and is generally continued for life.</paragraph>
+                  <paragraph>During the first 2 weeks of Levothyroxine Sodium Tablets, USP therapy, infants should be closely monitored for cardiac overload, arrhythmias, and aspiration from avid suckling.</paragraph>
+                  <paragraph>The patient should be monitored closely to avoid undertreatment or overtreatment. Undertreatment may have deleterious effects on intellectual development and linear growth. Overtreatment has been associated with craniosynostosis in infants, and may adversely affect the tempo of brain maturation and accelerate the bone age with resultant premature closure of the epiphyses and compromised adult stature.</paragraph>
+                  <paragraph>Acquired Hypothyroidism in Pediatric Patients</paragraph>
+                  <paragraph>The patient should be monitored closely to avoid undertreatment and overtreatment. Undertreatment may result in poor school performance due to impaired concentration and slowed mentation and in reduced adult height. Overtreatment may accelerate the bone age and result in premature epiphyseal closure and compromised adult stature.</paragraph>
+                  <paragraph>Treated children may manifest a period of catch-up growth, which may be adequate in some cases to normalize adult height. In children with severe or prolonged hypothyroidism, catch-up growth may not be adequate to normalize adult height.</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>Because of the increased prevalence of cardiovascular disease among the elderly, levothyroxine therapy should not be initiated at the full replacement dose (see WARNINGS, PRECAUTIONS and DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141104"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc505a5cb-cbcb-4921-905b-da8434a93eef">
+               <id root="74e46136-a144-4084-b5ca-293022efe0c3"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Adverse reactions associated with levothyroxine therapy are primarily those of hyperthyroidism due to therapeutic overdosage (see PRECAUTIONS and OVERDOSAGE). They include the following:</paragraph>
+                  <paragraph>General: fatigue, increased appetite, weight loss, heat intolerance, fever, excessive sweating;</paragraph>
+                  <paragraph>Central nervous system: headache, hyperactivity, nervousness, anxiety, irritability, emotional lability, insomnia;</paragraph>
+                  <paragraph>Musculoskeletal: tremors, muscle weakness;</paragraph>
+                  <paragraph>Cardiovascular: palpitations, tachycardia, arrhythmias, increased pulse and blood pressure, heart failure, angina, myocardial infarction, cardiac arrest;</paragraph>
+                  <paragraph>Respiratory: dyspnea;</paragraph>
+                  <paragraph>Gastrointestinal: diarrhea, vomiting, abdominal cramps and elevation in liver function tests;</paragraph>
+                  <paragraph>Dermatologic: hair loss; flushing;</paragraph>
+                  <paragraph>Endocrine: decreased bone mineral density;</paragraph>
+                  <paragraph>Reproductive: menstrual irregularities, impaired fertility.</paragraph>
+                  <paragraph>Pseudotumor cerebri and slipped capital femoral epiphysis have been reported in children receiving levothyroxine therapy. Overtreatment may result in craniosynostosis in infants and premature closure of the epiphyses in children with resultant compromised height.</paragraph>
+                  <paragraph>Seizures have been reported rarely with the institution of levothyroxine therapy.</paragraph>
+                  <paragraph>Inadequate levothyroxine dosage will produce or fail to ameliorate the signs and symptoms of hypothyroidism.</paragraph>
+                  <paragraph>Hypersensitivity reactions to inactive ingredients have occurred in patients treated with thyroid hormone products. These include urticaria, pruritus, skin rash, flushing, angioedema, various Gl symptoms (abdominal pain, nausea, vomiting and diarrhea), fever, arthralgia, serum sickness and wheezing. Hypersensitivity to levothyroxine itself is not known to occur.</paragraph>
+               </text>
+               <effectiveTime value="20141104"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La44f5abd-8bdf-4274-95c8-6a5801eded2a">
+               <id root="3b1c5674-dc14-4c8d-a82d-899403262a77"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>The signs and symptoms of overdosage are those of hyperthyroidism (see PRECAUTIONS and ADVERSE REACTIONS). In addition, confusion and disorientation may occur. Cerebral embolism, shock, coma, and death have been reported. Seizures have occurred in a child ingesting 18 mg of levothyroxine. Symptoms may not necessarily be evident or may not appear until several days after ingestion of levothyroxine sodium.</paragraph>
+                  <paragraph>Treatment of Overdosage</paragraph>
+                  <paragraph>Levothyroxine sodium should be reduced in dose or temporarily discontinued if signs or symptoms of overdosage occur.</paragraph>
+                  <paragraph>Acute Massive Overdosage - This may be a life-threatening emergency, therefore, symptomatic and supportive therapy should be instituted immediately. If not contraindicated (e.g., by seizures, coma, or loss of the gag reflex), the stomach should be emptied by emesis or gastric lavage to decrease gastrointestinal absorption. Activated charcoal or cholestyramine may also be used to decrease absorption. Central and peripheral increased sympathetic activity may be treated by administering β-receptor antagonists, e.g., propranolol, provided there are no medical contraindications to their use. Provide respiratory support as needed; control congestive heart failure and arrhythmia; control fever, hypoglycemia, and fluid loss as necessary. Large doses of antithyroid drugs (e.g., methimazole or propylthiouracil) followed in one to two hours by large doses of iodine may be given to inhibit synthesis and release of thyroid hormones. Glucocorticoids may be given to inhibit the conversion of T4 to T3. Plasmapheresis, charcoal hemoperfusion and exchange transfusion have been reserved for cases in which continued clinical deterioration occurs despite conventional therapy. Because T4 is highly protein bound, very little drug will be removed by dialysis.</paragraph>
+               </text>
+               <effectiveTime value="20141104"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L031e7069-926f-4433-b2c1-ffe04a5680d8">
+               <id root="75d16537-9c5b-4b76-a668-d755478f5354"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC: 51655-293-52</paragraph>
+                  <paragraph>MFG: 0527-1345-10</paragraph>
+                  <paragraph>Levothyroxine Sodium 100mcg</paragraph>
+                  <paragraph>30 Tablets</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>Lot#</paragraph>
+                  <paragraph>Exp. Date</paragraph>
+                  <paragraph>Each tablet contains 100 mcg of levothyroxine sodium</paragraph>
+                  <paragraph>Dosage: See package insert</paragraph>
+                  <paragraph>Store at 68-77 degrees F.</paragraph>
+                  <paragraph>Store in this tight, light-resistant container. Keep out of the reach of children.</paragraph>
+                  <paragraph>Medication guide is found at www.fda.gov/drugs/drugsafety/ucm085729</paragraph>
+                  <paragraph>Mfg by JErome Stevens Pharmaceuticals, Bohemia, NY 11716</paragraph>
+                  <paragraph>Mfg forL Lannett Co, Philadelphia, PA 19136 Lot#</paragraph>
+                  <paragraph>Repackaged by Northwind Pharmaceuticals, Indianapolis, IN 46256</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L51018448-931b-4e46-bd30-28ecdb0c1bf5"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141104"/>
+               <component>
+                  <observationMedia ID="L51018448-931b-4e46-bd30-28ecdb0c1bf5">
+                     <text>51655-293-52</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51655-293-52.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

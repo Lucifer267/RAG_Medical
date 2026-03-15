@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7b0350b5-ca48-4aef-8b10-ebd9f51967d0"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title mediaType="text/x-hl7-title+xml"/>
+   <effectiveTime value="20180319"/>
+   <setId root="40b16844-bc1c-485e-aad3-2cb86e2eb009"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="004417520" root="1.3.6.1.4.1.519.1"/>
+            <name>Complete Pharmacy and Medical Solutions</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="004417520" root="1.3.6.1.4.1.519.1"/>
+                        <name>Complete Pharmacy and Medical Solutions</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C112113" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="HUMAN DRUG COMPOUNDING OUTSOURCING FACILITY"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69364-3143" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="429914286" root="1.3.6.1.4.1.519.1"/>
+                        <name>S.a.l.a.r.s. Societaá Azionaria Laboratori Alcaloidi Rifornimenti Sanitari S.p.A.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="API MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69364-3143" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="047919147" root="1.3.6.1.4.1.519.1"/>
+                        <name>Professional Compounding Centers of America dba PCCA</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="69364-3143" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="b326da8f-3749-4ffe-9f73-9d13c7d2954d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20180319"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="69364-3143" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Naltrexone</name>
+                        <formCode code="C42942" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="IMPLANT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>naltrexone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="200" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5S6W795CQM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NALTREXONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5S6W795CQM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NALTREXONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="6.5" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1ZK20VI6TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIAMCINOLONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1ZK20VI6TY" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRIAMCINOLONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PQ6CK8PD0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ASCORBIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="U725QWY32X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE K30</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="6" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="69364-3143-6" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20180201"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180201"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText>white to off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText>tablet-shaped</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="11" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s_description">
+               <id root="e16189db-1dbd-4dc0-a854-67cd69067e05"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Description</title>
+               <text>
+                  <paragraph>Naltrexone Implant
+							<br/>Formula:17-(Cyclopropilmethil)-4,5ª-Epoxy-3,14-dihidroximorfinan-6-ona</paragraph>
+                  <paragraph>Formula molecular C<sub>20</sub>H<sub>23</sub>NO<sub>4</sub>C<sub>20</sub>H<sub>23</sub>NO<sub>4</sub>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_01"/>
+                  </paragraph>
+                  <paragraph>Naltrexone Implants are supplied in a kit containing 6 X 200mg pellets, to be administered via a 4.5mm diameter trocar subcutaneously.</paragraph>
+                  <paragraph>Additionally, each implant contains 3% triamcinolone as an active ingredient, as well as ascorbic acid, stearic acid, and polyvinylpyrrolidone as inactive ingredients.</paragraph>
+                  <paragraph>Naltrexone implants are white, biconvex, with an elongated shape. Each Naltrexone 200mg implant is 0.215gm, with a diameter of 4.5mm and a length of 11mm.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+               <component>
+                  <observationMedia ID="img_01">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="naltrexone-implant-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_clinical_pharmacology">
+               <id root="3ec3895a-fe3e-4ff7-afca-a0ed57cd031b"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Clinical Pharmacology</title>
+               <effectiveTime value="20180319"/>
+               <component>
+                  <section ID="s_mechanism_of_action">
+                     <id root="0cb57b3f-24ba-45ff-bfbd-683522eddc8c"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Mechanism of Action</content>
+                     </title>
+                     <text>
+                        <paragraph>Naltrexone is an opioid antagonist with highest affinity for the mµ opioid receptor. Naltrexone has few, if any, intrinsic actions besides its opioid blocking properties. However, it does produce some pupillary constriction, by an unknown mechanism.</paragraph>
+                        <paragraph>The administration of naltrexone is not associated with the development of tolerance or dependence. In subjects physically dependent on opioids, naltrexone will precipitate withdrawal symptomatology.</paragraph>
+                        <paragraph>Occupation of opioid receptors by naltrexone may block the effects of endogenous opioid peptides. The neurobiological mechanisms responsible for the reduction in alcohol consumption observed in alcohol-dependent patients treated with naltrexone are not entirely understood. However, involvement of the endogenous opioid system is suggested by preclinical data.</paragraph>
+                        <paragraph>Naltrexone blocks the effects of opioids by competitive binding at opioid receptors. This makes the blockade produced potentially surmountable, but overcoming full naltrexone blockade by administration of opioids may result in non-opioid receptor mediated symptoms such as histamine release.</paragraph>
+                        <paragraph>Naltrexone is not aversive therapy and does not cause a disulfiram-like reaction either as a result of opiate use or ethanol ingestion.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_pharmacokinetics">
+               <id root="a43f6d29-56c2-43f6-813e-366611d9102e"/>
+               <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Pharmacokinetics</title>
+               <effectiveTime value="20180319"/>
+               <component>
+                  <section ID="s_absorption">
+                     <id root="aae73c22-208d-4105-a667-2cb6ba8de025"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Absorption</content>
+                     </title>
+                     <text>
+                        <paragraph>Naltrexone Implants are intended to release over a 10-12 week period when administered subcutaneously. After implantation, the naltrexone plasma concentration time profile is characterized by an initial peak. Levels begin to decline slowly after dosing, with measurable levels for greater than 10-12weeks.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_distribution">
+                     <id root="94fbe175-0e1d-48bb-b47c-63414368f51b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Distribution</content>
+                     </title>
+                     <text>
+                        <paragraph>In vitro data demonstrate that naltrexone plasma protein binding is low (21%).</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_metabolism">
+                     <id root="fe196870-0c91-40eb-8055-d78c09aa0116"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Metabolism</content>
+                     </title>
+                     <text>
+                        <paragraph>Naltrexone is extensively metabolized in humans. Production of the primary metabolite, 6β-naltrexol, is mediated by dihydrodiol dehydrogenase, a cytosolic family of enzymes. The cytochrome P450 system is not involved in naltrexone metabolism. Two other minor metabolites are 2-hydroxy-3-methoxy-6β-naltrexol and 2-hydroxy-3-methoxy-naltrexone. Naltrexone and its metabolites are also conjugated to form glucuronide products.</paragraph>
+                        <paragraph>Significantly less 6β-naltrexol is generated following subcutaneous administration of naltrexone compared to administration of oral naltrexone due to a reduction in first-pass hepatic metabolism.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_elimination">
+                     <id root="bf325d43-31ce-4441-b998-a2e665adb4b9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Elimination</content>
+                     </title>
+                     <text>
+                        <paragraph>Elimination of naltrexone and its metabolites occurs primarily via urine, with minimal excretion of unchanged naltrexone.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_race">
+                     <id root="599e3b2b-c711-43fc-9f2c-da2ea4995c39"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold italics">Race:</content> The effect of race on the pharmacokinetics of naltrexone implants has not been studied.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_pediatrics">
+                     <id root="6865b869-0a98-4784-8c4d-d7883286993a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold italics">Pediatrics:</content> The pharmacokinetics of naltrexone have not been evaluated in a pediatric population.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_drug_drug_interactions">
+                     <id root="f3f73895-2a83-4b07-bd8a-ae732cb8df29"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Drug-Drug Interactions</content>
+                     </title>
+                     <text>
+                        <paragraph>Clinical drug interaction studies with naltrexone implants have not been performed.
+									<br/>Naltrexone antagonizes the effects of opioid-containing medicines, such as cough and cold remedies, antidiarrheal preparations and opioid analgesics (see <linkHtml href="#s_warnings_and_precautions">PRECAUTIONS</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_clinical_studies">
+               <id root="54e7baa6-b280-4869-b910-f76d4de769f5"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Clinical Studies</title>
+               <text>
+                  <paragraph>Multiple studies have demonstrated an increase of adherence to drug and alcohol detox programs with extended release formulations.</paragraph>
+                  <paragraph>The efficacy of naltrexone implants in the treatment of alcohol and various drug addiction was evaluated in a 12 week, placebo-controlled, multi-center, randomized trial in Mexico. Twenty-five subjects were treated with an implantation of 1200mg (6 X 200mg) Naltrexone. Oral naltrexone was not administered prior to the initial implantation. Psychological support was provided to all subjects on a weekly basis in addition to medication.</paragraph>
+                  <paragraph>Subjects treated with naltrexone 1200mg implants demonstrated a greater reduction in days of heavy drinking and other substance abuse than those treated with placebo.</paragraph>
+                  <paragraph>In another study published in the British Journal of Psychiatry, 56 patients at an addiction research center in Norway were given a naltrexone implant for treatment of heroin dependence. Researchers found that study participants who used the naltrexone implant for 180 days had an average of 45 fewer days of heroin use than members of the control group – and 60 fewer days of opioid use than members of the control group.</paragraph>
+                  <paragraph>Similarly, a 2014 systematic review published in the Drug and Alcohol Review examined a variety of research results from 9 studies comparing naltrexone implant treatment to either oral naltrexone or to no treatment at all (a placebo).
+							<br/>Across the 9 studies, naltrexone implants were found to be:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Significantly more effective than oral naltrexone.</item>
+                     <item>Significantly more effective than having no treatment at all.</item>
+                  </list>
+                  <paragraph>Since the quality of these studies was evaluated as being “moderate to very low,” more research is still needed to better determine the effectiveness of naltrexone implants. However, the data so far suggests that naltrexone implants appear to improve addiction recovery success compared to taking naltrexone pills and compared to attempting to quit an addiction without any medication help.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_indications_and_usage">
+               <id root="3814316b-ef13-4388-a088-fbd17ec2ef7f"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Indications and Usage</title>
+               <text>
+                  <paragraph>Treatment with naltrexone implants should be part of a comprehensive management program that includes psychological and psychosocial support.</paragraph>
+                  <paragraph>Naltrexone tablets were initially approved by the FDA in 1985 for the treatment of abuse and addiction of opioids.</paragraph>
+                  <paragraph>Naltrexone in oral and extended release injection forms have been approved by the FDA for the treatment and abuse of alcohol.</paragraph>
+                  <paragraph>Naltrexone implants may be useful for the treatment of alcohol or opioid dependence in patients who are able to abstain from opioid or alcohol in an outpatient setting prior to initiation of treatment.</paragraph>
+                  <paragraph>Patients should not be actively drinking or be on any opioids at the time of initial naltrexone implant administration.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_dosage_and_administration">
+               <id root="9aab5eb2-14a2-4fb2-948b-50ec44ba63c5"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Dosage and Administration</title>
+               <text>
+                  <paragraph>Naltrexone implants must be administered by a physician.</paragraph>
+                  <paragraph>To prevent occurrence of an acute abstinence syndrome (withdrawal) in patients dependent on opioids, or exacerbation of a pre-existing subclinical abstinence syndrome, opioid-dependent patients, including those being treated for alcohol dependence, must be opioid-free for a minimum of 7–10 days before starting Naltrexone Implant treatment. Since the absence of an opioid drug in the urine is often not sufficient proof that a patient is opioid-free, a naloxone challenge test should be employed if the prescribing physician feels there is a risk of precipitating a withdrawal reaction following administration of Naltrexone Implants. Patients treated for alcohol dependence with Naltrexone Implants should be assessed for underlying opioid dependence and for any recent use of opioids prior to initiation of treatment with Naltrexone Implants. Precipitated opioid withdrawal has been observed in alcohol-dependent patients in circumstances where the prescriber had been unaware of the additional use of opioids or dependence on opioids.</paragraph>
+                  <paragraph>The aluminum (back) part of the blister packs should be wiped with sterile 70% isopropyl alcohol pads prior to opening. Implants should be handled via aseptic technique and should be used immediately.</paragraph>
+                  <paragraph>The recommended dose of Naltrexone implants is 1200mg delivered subcutaneously every 10-12 weeks.</paragraph>
+                  <paragraph>Reemergence of cravings should be screened and may be used as a gauge for the need for re-implantation schedule.</paragraph>
+                  <paragraph>Healthcare providers should tailor the length of treatment to individual patients. Naltrexone has been administered to patients who are alcohol dependent for 6 months to 1 year with no additional safety concerns. Many scientists claim that treatment duration should last at least 1 year since this is the amount of time it can take to change the brain’s addiction pathways.</paragraph>
+                  <paragraph>Treatment with Naltrexone should be part of a psychological and psychosocial program.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_laboratory_tests">
+               <id root="383b6a57-9842-4f4f-bc7b-ae5030c8d22e"/>
+               <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Laboratory Tests</title>
+               <effectiveTime value="20180319"/>
+               <component>
+                  <section ID="s_hepatic_enzymes">
+                     <id root="d19865e7-4548-4f9a-b252-35606e45a65b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Hepatic Enzymes</content>
+                     </title>
+                     <text>
+                        <paragraph>In short-term, controlled trials, in alcohol-dependent patients, the incidence of AST elevations associated with Naltrexone Injection treatment was similar to that observed with oral naltrexone treatment (1.5% each) and slightly higher than observed with placebo treatment (0.9%).</paragraph>
+                        <paragraph>In the 6-month controlled trial conducted in opioid dependent subjects, 89% had a baseline diagnosis of hepatitis C infection, and 41% had a baseline diagnosis of HIV infection. There were frequently observed elevated liver enzyme levels (ALT, AST, and GGT); these were more commonly reported as adverse events in the naltrexone injection 380 mg group than in the placebo group. Patients could not enroll in this trial if they had a baseline ALT or AST value that was more than three times the upper limit of normal. More patients treated with naltrexone injection in this study experienced treatment-emergent elevations in transaminases to more than three times the upper limit of normal than patients treated with placebo. Shifts to more than three times the upper limit of normal occurred in 20% of patients treated with naltrexone injection as compared with 13% of placebo patients. Shifts in values of AST to more than three times the upper limit were also more common in the naltrexone injection (14%) arm compared with the placebo (11%) arm.</paragraph>
+                        <paragraph>Opioid-dependent patients treated with naltrexone injection experienced a mean maximal increase from baseline ALT levels of 61 IU/L compared with 48 IU/L in placebo patients. Similarly for AST, opioid-dependent patients treated with naltrexone injection experienced a mean maximal increase from baseline AST levels of 40 IU/L compared with 31 IU/L in placebo patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_platelet_count">
+               <id root="60e316a5-3bea-4477-bff0-12ca49df7e63"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Platelet Count.</title>
+               <text>
+                  <paragraph>Extended release Naltrexone formulations have reported a decrease in platelet count, although these reports were not associated with an increase in bleeding-related adverse events.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+               <component>
+                  <section ID="s_creatinine_phosphokinase">
+                     <id root="7df6463a-b67b-481c-935d-e600b7055451"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Creatinine Phosphokinase.</content>
+                     </title>
+                     <text>
+                        <paragraph>In short-term controlled trials in alcohol-dependent patients, more patients treated with Naltrexone Injection 380 mg (11%) and oral naltrexone (17%) shifted from normal creatinine phosphokinase (CPK) levels before treatment to abnormal CPK levels at the end of the trials, compared to placebo patients (8%). In open-label trials, 16% of patients dosed for more than 6 months had increases in CPK. For both the oral naltrexone and Naltrexone Injection 380 mg groups, CPK abnormalities were most frequently in the range of 1–2 x ULN. However, there were reports of CPK abnormalities as high as 4x ULN for the oral naltrexone group, and 35 x ULN for the Naltrexone Injection 380 mg group. Overall, there were no differences between the placebo and naltrexone (oral or injectable) groups with respect to the proportions of patients with a CPK value at least three times the upper limit of normal. No factors other than naltrexone exposure were associated with the CPK elevations.</paragraph>
+                        <paragraph>More opioid-dependent patients treated with Naltrexone Injection 380 mg (39%) shifted from normal creatinine phosphokinase (CPK) levels before treatment to abnormal CPK levels during the study as compared to patients treated with placebo (32%). There were reports of CPK abnormalities as high as 41.8 x ULN for the placebo group, and 22.1 x ULN for the Naltrexone Injection 380 mg group.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_eosinophils">
+                     <id root="9acd85a4-19d4-48eb-ac83-ad8e52479890"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Eosinophils.</content>
+                     </title>
+                     <text>
+                        <paragraph>Other extended release naltrexone formulations clinical trials have reported an increase in eosinophil counts, although continued use of these formulations reverted to normal over a period of several months.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_pharmacogenetics">
+                     <id root="007d6cc3-9ddb-490e-9044-d74897b594d8"/>
+                     <code code="66106-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOGENOMICS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Pharmacogenetics</content>
+                     </title>
+                     <text>
+                        <paragraph>A naltrexone treatment study by Anton et al., released by the National Institutes of Health in February 2008 and published in the Archives of General Psychiatry, has shown that alcoholics having a certain variant of the opioid receptor gene (G polymorphism of SNP Rs1799971 in the gene OPRM1), known as Asp40, demonstrated strong response to naltrexone and were far more likely to experience success at cutting back or discontinuing their alcohol intake altogether, while for those lacking the gene variant, naltrexone appeared to be no different from placebo. The G allele of OPRM1 is most common in individuals of Asian descent, with 60% to 70% of people of Chinese, Japanese, and Indian ancestry having at least one copy, as opposed to 30% of Europeans and few Africans.</paragraph>
+                        <paragraph>Because of the characteristics of the patient group in the US, the first study was done on white patients and the next without regard for ethnicity. Anton et al. found that patients of African descent did not have much success with naltrexone in treatment for alcohol dependence because of lacking the relevant gene.</paragraph>
+                        <paragraph>As white patients with the gene had a five times greater rate of success in reducing drinking when given naltrexone than did patients without the gene, when used in a protocol of Medical Management (MM), Anton et al. concluded,</paragraph>
+                        <paragraph>"Because almost 25% of the treatment-seeking population carries the Asp40 allele, genetic testing of individuals before naltrexone treatment might be worth the cost and effort, especially if structured behavioral treatment were not being considered."[30] This would enable treatment to be targeted by genetics to patients for whom it would be most effective. They noted, "Naltrexone is relatively easy to administer and free of serious adverse effects and, as we observed in the Asp40 carriers we studied, it appears to be highly effective."</paragraph>
+                        <paragraph>Studies have found naltrexone to be more efficacious among certain white subjects, because of the genetic basis, than among black subjects, who generally do not carry the relevant gene variant. A 2009 study of naltrexone as an alcohol dependence treatment among African Americans failed to find any statistically significant differences between naltrexone and a placebo. Studies have suggested that carriers of the G allele may experience higher levels of craving and stronger "high" upon alcohol consumption, compared to carriers of the dominant allele, and naltrexone somewhat blunts these responses, leading to a reduction in alcohol use in some studies.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_warnings_and_precautions">
+               <id root="480c04b8-8999-46c2-b543-49257ea9bb7f"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Warnings and Precautions</title>
+               <effectiveTime value="20180319"/>
+               <component>
+                  <section ID="s_hepatoxicity">
+                     <id root="97628c03-5aa8-40e6-89ad-f0b700ac3dde"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Hepatoxicity</content>
+                     </title>
+                     <text>
+                        <paragraph>Naltrexone has the capacity to cause hepatocellular injury when given in excessive doses.
+									<br/>Naltrexone is contraindicated in acute hepatitis or liver failure, and its use in patients with active liver disease must be carefully considered in light of its hepatotoxic effects.</paragraph>
+                        <paragraph>The margin of separation between the apparently safe dose of naltrexone and the dose causing hepatic injury appears to be only five-fold or less. Naltrexone implants do not appear to be a hepatotoxin at the recommended doses.</paragraph>
+                        <paragraph>Patients should be warned of the risk of hepatic injury and advised to seek medical attention if they experience symptoms of acute hepatitis. Use of Naltrexone implants should be discontinued in the event of symptoms and/or signs of acute hepatitis.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_implant_site_reactions">
+                     <id root="9e25fc26-b0c5-472d-9174-f62e9b6fde86"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Implant Site Reactions</content>
+                     </title>
+                     <text>
+                        <paragraph>Infection and pellet extrusion are possible. Patients should be advised to avoid bath tubs and hot tubs, swimming, or exercise for 7 days after implantation to minimize extrusion risks. Infections must be reported to physicians and be treated with antibiotics.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_unintended_opiate_withdrawal">
+                     <id root="6646fede-aa87-4ea4-9477-88dc08bc4556"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Unintended Opiate Withdrawal</content>
+                     </title>
+                     <text>
+                        <paragraph>To prevent occurrence of an acute abstinence syndrome (withdrawal) in patients dependent on opioids, or exacerbation of a pre-existing subclinical abstinence syndrome, opioid-dependent patients, including those being treated for alcohol dependence, must be opioid-free for a minimum of 7–10 days before starting Naltrexone Implant treatment. Since the absence of an opioid drug in the urine is often not sufficient proof that a patient is opioid-free, a naloxone challenge test should be employed if the prescribing physician feels there is a risk of precipitating a withdrawal reaction following administration of Naltrexone Implants. Patients treated for alcohol dependence with Naltrexone Implants should be assessed for underlying opioid dependence and for any recent use of opioids prior to initiation of treatment with Naltrexone Implants. Precipitated opioid withdrawal has been observed in alcohol-dependent patients in circumstances where the prescriber had been unaware of the additional use of opioids or dependence on opioids.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_opioid_withdrawal_at_end_of_a_dosing_interval">
+                     <id root="93db359a-eb6f-4ae2-8b10-4a8e31b4b821"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Opioid Withdrawal at End of a Dosing Interval, After Missing a dose and Following an Attempt to Overcome Opioid Blockade</content>
+                     </title>
+                     <text>
+                        <paragraph>After opioid detoxification, patients are likely to have reduced tolerance to opioids. Although Naltrexone Implants blocks the effects of exogenous opioids for 10-12 weeks after administration, cases of opioid overdose with fatal outcomes have been reported in patients who used opioids at the end of a dosing interval with longer acting Naltrexone dosage forms or when missing a dose. Patients who have been treated with Naltrexone Implants may respond to lower doses of opioids than previously used. This could result in potentially life-threatening opioid intoxication (respiratory compromise or arrest, circulatory collapse, etc.).</paragraph>
+                        <paragraph>Patients should be aware that they may be more sensitive to lower doses of opioids after Naltrexone Implant treatment is discontinued. Reduced tolerance is especially of concern at the end of a dosing interval, that is, near the end of the dosing cycle after the Naltrexone Implant was administered, or after a dose of Naltrexone Implant is missed. It is important that patients inform family members and the people closest to the patient of this increased sensitivity to opioids and the risk of overdose.</paragraph>
+                        <paragraph>There is also the possibility that a patient who is treated with Naltrexone Implants could overcome the opioid blockade effect of Naltrexone. Although Naltrexone is a potent antagonist with a prolonged pharmacological effect, the blockade produced by Naltrexone is surmountable. This poses a potential risk to individuals who attempt, on their own, to overcome the blockade by administering large amounts of exogenous opioids. Any attempt by a patient to overcome the antagonism by taking opioids is very dangerous and may lead to fatal overdose. Injury may arise because the plasma concentration of exogenous opioids attained immediately following their acute administration may be sufficient to overcome the competitive receptor blockade. As a consequence, the patient may be in immediate danger of suffering life-endangering opioid intoxication (e.g., respiratory arrest, circulatory collapse). Patients should be told of the serious consequences of trying to overcome the opioid blockade.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_depression_and_suicidality">
+                     <id root="3f8395ab-f276-4a10-a6fd-6a535ab32eff"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Depression and Suicidality</content>
+                     </title>
+                     <text>
+                        <paragraph>Alcohol and opioid-dependent patients, including those taking Naltrexone Implants, should be monitored for the development of depression or suicidal thinking. Families and caregivers of patients being treated with Naltrexone Implants should be alerted to the need to monitor patients for the emergence of symptoms of depression or suicidality, and to report such symptoms to the patient’s healthcare professional.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_subdermal_implants">
+                     <id root="12533e5d-c5bc-4ae7-95dc-58ae0f0eb0a9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Subdermal Implants</content>
+                     </title>
+                     <text>
+                        <paragraph>As with any procedure, Naltrexone Implants should be administered with caution to patients with thrombocytopenia or any coagulation disorder (e.g., hemophilia and severe hepatic failure).</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_when_reversal_of_naltrexone_implants_is_required_for_pain_management">
+                     <id root="d3e5477e-9cd8-41eb-ad29-c0c2b8c082e7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">When Reversal of Naltrexone Implants is Required for Pain Management</content>
+                     </title>
+                     <text>
+                        <paragraph>In an emergency situation in patients receiving Naltrexone Implants, suggestions for pain management include regional analgesia or use of non-opioid analgesics. If opioid therapy is required as part of anesthesia or analgesia, patients should be continuously monitored in an anesthesia care setting by persons not involved in the conduct of the surgical or diagnostic procedure. The opioid therapy must be provided by individuals specifically trained in the use of anesthetic drugs and the management of the respiratory effects of potent opioids, specifically the establishment and maintenance of a patent airway and assisted ventilation.</paragraph>
+                        <paragraph>Irrespective of the drug chosen to reverse the Naltrexone blockade, the patient should be monitored closely by appropriately trained personnel in a setting equipped and staffed for cardiopulmonary resuscitation.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_substance_use_withdrawal">
+                     <id root="e247582d-91a5-4ea1-bd62-d62fe559235c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Substance Use Withdrawal</content>
+                     </title>
+                     <text>
+                        <paragraph>Use of Naltrexone Implants does not eliminate or diminish substance abuse withdrawal symptoms.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_interference_with_laboratory_tests">
+                     <id root="f4e7a91f-bfe3-4728-a83d-655537f47a10"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">
+                        <content styleCode="italics">Interference with Laboratory Tests</content>
+                     </title>
+                     <text>
+                        <paragraph>Naltrexone may be cross-reactive with certain immunoassay methods for the detection of drugs of abuse (specifically opioids) in urine.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_contraindications">
+               <id root="5fefc96c-197f-4405-83fe-c788fa858443"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Contraindications</title>
+               <text>
+                  <paragraph>Naltrexone is contraindicated in:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Patients receiving opioid analgesics (see <linkHtml href="#s_warnings_and_precautions">PRECAUTIONS</linkHtml>).</item>
+                     <item>Patients with current physiologic opioid dependence (see <linkHtml href="#s_warnings_and_precautions">WARNINGS</linkHtml>).</item>
+                     <item>Patients in acute opiate withdrawal (see <linkHtml href="#s_warnings_and_precautions">WARNINGS</linkHtml>).</item>
+                     <item>Any individual who has failed the naloxone challenge test or has a positive urine screen for opioids.</item>
+                     <item>Patients who have previously exhibited hypersensitivity to naltrexone, PVP, triamcinolone, or any other components of the diluent.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_adverse_effects">
+               <id root="82a3f670-d93a-4839-b03a-8ea2d9e35be8"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Adverse Effects</title>
+               <text>
+                  <paragraph>Naltrexone may cause side effects including:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>A reaction at the implant site. The reaction could be pain, tenderness, swelling, redness, and/or itching.</item>
+                     <item>Nausea</item>
+                  </list>
+                  <paragraph>The other common side effects of Naltrexone are:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Headache</item>
+                     <item>Fatigue</item>
+                     <item>Dizziness</item>
+                     <item>Vomiting</item>
+                     <item>Decreased appetite</item>
+                     <item>Painful joints</item>
+                     <item>Muscle cramps</item>
+                  </list>
+                  <paragraph>These are not all of the side effects of naltrexone.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_drug_interactions">
+               <id root="e2dbcb6b-4714-4499-bbde-c1caabe33d2f"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Drug Interactions</title>
+               <text>
+                  <paragraph>Patients taking naltrexone may not benefit from opioid-containing medicines (see <linkHtml href="#s_when_reversal_of_naltrexone_implants_is_required_for_pain_management">PRECAUTIONS, Pain Management</linkHtml>).</paragraph>
+                  <paragraph>Because naltrexone is not a substrate for CYP drug metabolizing enzymes, inducers or inhibitors of these enzymes are unlikely to change the clearance of naltrexone. No clinical drug interaction studies have been performed with naltrexone to evaluate drug interactions, therefore prescribers should weigh the risks and benefits of concomitant drug use.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_carcinogenesis_mutagenesis_impairment_of_fertility">
+               <id root="f7a5d75c-76ac-431a-a3eb-6ff97eecf4b7"/>
+               <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+               <text>
+                  <paragraph>Carcinogenicity studies have not been conducted with naltrexone implants.</paragraph>
+                  <paragraph>Carcinogenicity studies of oral naltrexone hydrochloride (administered via the diet) have been conducted in rats and mice. In rats, there were small increases in the numbers of testicular mesotheliomas in males and tumors of vascular origin in males and females. The clinical significance of these findings is not known.</paragraph>
+                  <paragraph>Naltrexone was negative in the following in vitro genotoxicity studies: bacterial reverse mutation assay (Ames test), the heritable translocation assay, CHO cell sister chromatid exchange assay, and the mouse lymphoma gene mutation assay. Naltrexone was also negative in an in vivo mouse micronucleus assay. In contrast, naltrexone tested positive in the following assays: Drosophila recessive lethal frequency assay, non-specific DNA damage in repair tests with E. coli and WI-38 cells, and urinalysis for methylated histidine residues.</paragraph>
+                  <paragraph>Naltrexone given orally caused a significant increase in pseudopregnancy and a decrease in pregnancy rates in rats at 100 mg/kg/day (600 mg/m2/day). There was no effect on male fertility at this dose level. The relevance of these observations to human fertility is not known.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_pregnancy_category_c">
+               <id root="93ec5e05-3c9f-4fe8-ba1f-77f10a050d34"/>
+               <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Pregnancy Category C</title>
+               <text>
+                  <paragraph>Reproduction and developmental studies have not been conducted for naltrexone implants.
+							<br/>Studies with naltrexone administered via the oral route have been conducted in pregnant rats and rabbits.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+               <component>
+                  <section ID="s_teratogenic_effects">
+                     <id root="f1594afb-d379-400e-9a33-a0d7c18e3901"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml"/>
+                     <text>
+                        <paragraph>Teratogenic Effects: Oral naltrexone has been shown to increase the incidence of early fetal loss in rats administered ≥ 30 mg/kg/day (180 mg/m2/day) and rabbits administered ≥ 60 mg/kg/day (720 mg/m2/day).</paragraph>
+                        <paragraph>There are no adequate and well-controlled studies of either naltrexone or naltrexone implants in pregnant women.</paragraph>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_labor_and_delivery">
+               <id root="3a20afb3-866b-4d05-8f5b-ac73cfc7bf11"/>
+               <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Labor and Delivery</title>
+               <text>
+                  <paragraph>The potential effect of naltrexone implants on duration of labor and delivery in humans is unknown.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_nursing_mothers">
+               <id root="a18c5537-7541-44ce-bdd6-d9c65e64b84b"/>
+               <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Nursing Mothers</title>
+               <text>
+                  <paragraph>Transfer of naltrexone and 6β-naltrexol into human milk has been reported with oral naltrexone. Because of the potential for tumorigenicity shown for naltrexone in animal studies, and because of the potential for serious adverse reactions in nursing infants from naltrexone, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_pediatric_use">
+               <id root="862770eb-f878-412b-b801-2595be01a27b"/>
+               <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Pediatric Use</title>
+               <text>
+                  <paragraph>The safety and efficacy of naltrexone implants have not been established in the pediatric population.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_geriatric_use">
+               <id root="47ac8db6-1245-4630-8fac-f18085018cf4"/>
+               <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Geriatric use</title>
+               <text>
+                  <paragraph>Clinical studies of naltrexone implants did not include sufficient numbers of subjects age 65 and over to determine whether they respond differently from younger subjects.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_how_supplied">
+               <id root="b8135b9b-b1af-4621-a784-8cacf063925e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">How Supplied</title>
+               <text>
+                  <paragraph>Naltrexone implants are available in a box of 6 X 200mg Naltrexone implants. Each implant is individually blister packed.</paragraph>
+               </text>
+               <effectiveTime value="20180319"/>
+               <component>
+                  <section ID="s_storage">
+                     <id root="0163d7dc-7f4f-4c18-8005-342ca1643ab7"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">Storage</title>
+                     <text>
+                        <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted to 15° to 30°C (59° to 86°F). Naltrexone implants should be implanted before their date of expiration to assure sterility requirements.</paragraph>
+                        <br/>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20180319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_ppi">
+               <id root="f3ce089c-56b0-4828-83e2-da69c9dc8759"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">Naltrexone Implant Patient Information</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">What is Naltrexone Implant?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Naltrexone blocks the effects of narcotic medicines and alcohol.</item>
+                     <item>Naltrexone implants are used to treat addiction to alcohol or narcotic drugs. It is also used to prevent narcotic addiction relapse.</item>
+                     <item>Naltrexone Implants prevents the reward effects of opioids and alcohol with subsequent use.</item>
+                     <item>Craving decrease substantially in those people on naltrexone, and that this craving reduction occurs very quickly, from the beginning of treatment (first 2-3 weeks) and doesn’t seem to return after that. There are certainly people who continue to have cravings, but this is a rather small proportion and usually occurs only after coming off medication. Those who maintain treatment with naltrexone have no cravings, and some believe that combining naltrexone with personal recovery work in a 12-step based program is especially effective.</item>
+                     <item>Naltrexone implants may also be used for purposes not listed in this medication guide.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of naltrexone implant?</content>
+                  </paragraph>
+                  <paragraph>Get emergency medical help if you have any of these signs of an allergic reaction: hives; difficulty breathing; swelling of your face, lips, tongue, or throat.</paragraph>
+                  <paragraph>Call your doctor at once if you have any of these serious side effects:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Blurred vision or eye problems</item>
+                     <item>Fast heartbeat</item>
+                     <item>Wheezing, difficulty breathing</item>
+                     <item>Mood changes, hallucinations (seeing or hearing things), confusion, thoughts of hurting yourself</item>
+                     <item>Nausea, stomach pain, low fever, loss of appetite, dark urine, clay-colored stools, jaundice (yellowing of the skin or eyes)</item>
+                     <item>Ear pain, ringing in your ears</item>
+                     <item>Feeling light-headed, fainting</item>
+                     <item>Skin rash or itching</item>
+                     <item>Pain, redness, bruising, itching, swelling, oozing, skin changes, or a hard lump where the medication was implanted</item>
+                  </list>
+                  <paragraph>Less serious side effects may include:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Feeling anxious, nervous, restless, or irritable</item>
+                     <item>Increased thirst</item>
+                     <item>Muscle or joint aches</item>
+                     <item>Weakness or tiredness</item>
+                     <item>Sleep problems (insomnia)</item>
+                     <item>Decreased sex drive, impotence, or difficulty having an orgasm.</item>
+                  </list>
+                  <paragraph>This is not a complete list of side effects and others may occur. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about naltrexone implants?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>
+                        <content styleCode="underline">Do not use narcotic drugs or alcohol while you are being treated with naltrexone implants</content>. Never try to overcome the effects of the medication by using large doses of narcotic drugs or alcohol. Doing so could result in dangerous effects, including coma and death. Ask your doctor before using any prescription or over-the-counter medicine to treat a cold, cough, diarrhea, or pain during your treatment with naltrexone injection. These medicines may contain narcotics or alcohol.</item>
+                     <item>Use of Naltrexone Implants does not eliminate or diminish substance abuse withdrawal symptoms.</item>
+                     <item>Naltrexone implants may impair your thinking or reactions. Be careful if you drive or do anything that requires you to be alert.</item>
+                     <item>You may notice pain, redness, bruising, swelling, or a hard lump where the medication was implanted. Call your doctor if you have this type of reaction to the implant, especially if it does not clear up or gets worse within 2 weeks.</item>
+                     <item>Wear a medical alert tag or carry an ID card stating that you use naltrexone implants. Any medical care provider who treats you should know that you are receiving this medication.</item>
+                     <item>Alert your healthcare professional right away if you develop serious bouts of depression or suicidal thinking.</item>
+                     <item>Families and caregivers of patients being treated with Naltrexone Implants should be alerted to the need to monitor patients for the emergence of symptoms of depression or suicidality, and to report such symptoms to the patient’s healthcare professional.</item>
+                     <item>Additional forms of counseling and/or monitoring may be recommended during treatment with naltrexone implants.</item>
+                     <item>You may be more sensitive to lower doses of opioids after Naltrexone Implant treatment is discontinued. Reduced tolerance is especially of concern at the end of a dosing interval, that is, near the end of the dosing cycle after the Naltrexone Implant was administered, or after a dose of Naltrexone Implant is missed. It is also important that you inform family members and the people closest to you of this increased sensitivity to opioids and the risk of overdose.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What should I discuss with my healthcare provider before receiving naltrexone implants?</content>
+                  </paragraph>
+                  <paragraph>Do not receive this implant if you are allergic to naltrexone, polyvinylpyrrolidone, stearic acid, ascorbic acid, triamcinolone or if you have:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>A history of alcohol or narcotic drug use within the past 7-10 days; or</item>
+                     <item>Drug or alcohol withdrawal symptoms.</item>
+                  </list>
+                  <paragraph>To make sure you can safely use naltrexone implant, tell your doctor if you have any of these other conditions:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Kidney disease</item>
+                     <item>Liver disease</item>
+                     <item>A bleeding disorder such as hemophilia</item>
+                     <item>FDA pregnancy category C. It is not known whether naltrexone implant will harm an unborn baby. Tell your doctor if you are pregnant or plan to become pregnant while using this medication.</item>
+                     <item>It is not known whether naltrexone implant passes into breast milk or if it could harm a nursing baby. Do not use this medication without telling your doctor if you are breast-feeding a baby.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">How is the Naltrexone Implant Used?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Naltrexone implants are placed under the skin. The implants are usually given once every 3 months (every 10-12 weeks) and can be given only by a doctor in a clinic.</item>
+                     <item>It is important to receive your naltrexone implants regularly to get the most benefit.</item>
+                     <item>Avoid bath tubs and hot tubs, swimming or exercise for 7 days after implantation to minimize risk of the implant coming out.</item>
+                     <item>You may notice pain, redness, bruising, swelling, or a hard lump where the medication was implanted. Call your doctor if you have this type of reaction to the implant, especially if it does not clear up or gets worse within 2 weeks.</item>
+                     <item>Wear a medical alert tag or carry an ID card stating that you use naltrexone implants. Any medical care provider who treats you should know that you are receiving this medication.</item>
+                     <item>Additional forms of counseling and/or monitoring may be recommended during treatment with naltrexone injection.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What happens if I miss a dose?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Call your doctor for instructions if you miss an appointment to receive your naltrexone implant.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What happens if I overdose?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Seek emergency medical attention or call the Poison Help line at 1-800-222-1222.</item>
+                     <item>Overdose symptoms may include nausea, stomach pain, dizziness, or seizure (convulsions).</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What should I avoid while using Naltrexone Implants?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Naltrexone may impair your thinking or reactions. Be careful if you drive or do anything that requires you to be alert.</item>
+                     <item>Do not use narcotic drugs or alcohol while receiving naltrexone implants. Never try to overcome the effects of the medication by using large doses of narcotic drugs or alcohol. Doing so could result in dangerous effects, including coma and death. Ask your doctor before using any prescription or over-the-counter medicine to treat a cold, cough, diarrhea, or pain while you are being treated with naltrexone implants. These medicines may contain narcotics or alcohol.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What other drugs will affect naltrexone implants?</content>
+                  </paragraph>
+                  <paragraph>The pain-relieving effects of any narcotic pain medications you use will be blocked if you use them during your treatment with naltrexone implants. Harmful side effects could also occur.</paragraph>
+                  <paragraph>Tell your doctor about all other medicines you use, especially:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Buprenorphine (Buprenex, Subutex)</item>
+                     <item>Butorphanol (Stadol)</item>
+                     <item>Codeine (Tylenol with Codeine)</item>
+                     <item>Hydrocodone (Lortab, Vicodin)</item>
+                     <item>Hydromorphone (Dilaudid)</item>
+                     <item>Levorphanol (Levo-Dromoran)</item>
+                     <item>Meperidine (Demerol)</item>
+                     <item>Methadone (Dolophine, Methadose)</item>
+                     <item>Morphine (Kadian, MS Contin, Roxanol)</item>
+                     <item>Nalbuphine (Nubain)</item>
+                     <item>Naloxone (Narcan)</item>
+                     <item>Oxycodone (Oxycontin, Roxicodone, Percocet)</item>
+                     <item>Oxymorphone (Numorphan)</item>
+                     <item>Propoxyphene (Darvon, Darvocet)</item>
+                  </list>
+                  <paragraph>This list is not complete and other drugs may interact with naltrexone implants. Tell your doctor about all medications you use. This includes prescription, over-the-counter, vitamin, and herbal products. Do not start a new medication without telling your doctor.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Where can I get more information?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Your doctor can provide more information about naltrexone implants.</item>
+                  </list>
+                  <br/>
+               </text>
+               <effectiveTime value="20180319"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="39e14a84-27b0-4c2c-bb78-e81dbd896cf8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title mediaType="text/x-hl7-title+xml">PRINCIPAL DISPLAY PANEL - NDC: 69364-3143-6 - 6-count Box Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="pdp_01"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20180319"/>
+               <component>
+                  <observationMedia ID="pdp_01">
+                     <text>6-count Box Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="naltrexone-implant-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

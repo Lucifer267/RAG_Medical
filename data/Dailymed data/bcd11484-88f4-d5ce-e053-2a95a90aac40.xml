@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="bcd11484-88f4-d5ce-e053-2a95a90aac40"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20210305"/>
+   <setId root="bc41103a-920d-a118-e053-2a95a90aeeab"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+            <name>Central Packaging</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+                        <name>Central Packaging, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="80175-0124" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="bcd1077e-1585-3d99-e053-2995a90a0ec0"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20210305"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="80175-0124" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Meloxicam</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Meloxicam</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="29300-124" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="7.5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="VG2QF83CGL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MELOXICAM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="VG2QF83CGL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MELOXICAM</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="80175-0124-6" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20070307"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA077927" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20070307"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">U;L;7;5</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="7" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bc413fda-2f30-077e-e053-2a95a90aaf0b">
+               <id root="bc413fda-2f2f-077e-e053-2a95a90aaf0b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Juvenile idiopathic arthritis</paragraph>
+                  <paragraph>Relief of the signs and symptoms of pauciarticular or polyarticular course juvenile idiopathic arthritis in patients 2 years and older (suspension) and in pediatric patients weighing at least 60 kg (orally-disintegrating tablet).</paragraph>
+                  <paragraph/>
+                  <paragraph>Osteoarthritis</paragraph>
+                  <paragraph>Relief of the signs and symptoms of osteoarthritis (OA); management of OA pain.</paragraph>
+                  <paragraph/>
+                  <paragraph>Rheumatoid arthritis (orally-disintegrating tablet, tablet, and suspension only)</paragraph>
+                  <paragraph>Relief of the signs and symptoms of rheumatoid arthritis.</paragraph>
+               </text>
+               <effectiveTime value="20070307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bc418425-87c9-e06a-e053-2a95a90a05b3">
+               <id root="bc418425-87c8-e06a-e053-2a95a90a05b3"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <paragraph>Medication Guide for Nonsteroidal Anti-inflammatory Drugs (NSAIDs)
+  <br/>
+What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?
+  <br/>
+NSAIDs can cause serious side effects, including:
+  <br/>
+•  Increased risk of a heart attack or stroke that can lead to death . This risk may happen early in treatment and may increase:
+  <br/>
+o    with increasing doses of NSAIDs
+  <br/>
+o    with longer use of NSAIDs
+  <br/>
+•  Do not take NSAIDs right before or after a heart surgery called a "coronary artery bypass graft (CABG)."
+  <br/>
+•  Avoid taking NSAIDs after a recent heart attack, unless your healthcare provider tells you to. You may have an increased risk of another heart attack if you take NSAIDs after a recent heart attack.
+  <br/>
+•  Increased risk of bleeding, ulcers, and tears (perforation) of the esophagus (tube leading from the mouth to the stomach), stomach and intestines:
+  <br/>
+o    anytime during use
+  <br/>
+o    without warning symptoms
+  <br/>
+o    that may cause death
+  <br/>
+The risk of getting an ulcer or bleeding increases with:
+  <br/>
+o    past history of stomach ulcers, or stomach or intestinal bleeding with use of NSAIDs
+  <br/>
+o    taking medicines called "corticosteroids", "anticoagulants", "SSRIs", or "SNRIs"
+  <br/>
+o    increasing doses of NSAIDs
+  <br/>
+o    longer use of NSAIDs
+  <br/>
+o    smoking
+  <br/>
+o    drinking alcohol
+  <br/>
+o    older age
+  <br/>
+o    poor health
+  <br/>
+o    advanced liver disease
+  <br/>
+o    bleeding problems
+  <br/>
+NSAIDs should only be used:
+  <br/>
+o exactly as prescribed
+  <br/>
+o at the lowest dose possible for your treatment
+  <br/>
+o for the shortest time needed
+  <br/>
+What are NSAIDs?
+  <br/>
+NSAIDs are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as different types of arthritis, menstrual cramps, and other types of short-term pain.
+  <br/>
+Who should not take NSAIDs?
+  <br/>
+Do not take NSAIDs:
+  <br/>
+•  if you have had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAIDs.
+  <br/>
+•  right before or after heart bypass surgery.
+  <br/>
+Before taking NSAIDs, tell your healthcare provider about all of your medical conditions, including if you:
+  <br/>
+•  have liver or kidney problems
+  <br/>
+•  have high blood pressure
+  <br/>
+•  have asthma
+  <br/>
+•  are pregnant or plan to become pregnant. Talk to your healthcare provider if you are    considering taking NSAIDs during pregnancy. You should not take NSAIDs after 29 weeks of pregnancy.
+  <br/>
+•  are breastfeeding or plan to breast feed.
+  <br/>
+Tell your healthcare provider about all of the medicines you take, including prescription or over-the-counter medicines, vitamins or herbal supplements. NSAIDs and some other medicines can interact with each other and cause serious side effects. Do not start taking any new medicine without talking to your healthcare provider first.
+  <br/>
+What are the possible side effects of NSAIDs?
+  <br/>
+NSAIDs can cause serious side effects, including:
+  <br/>
+See "What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?"
+  <br/>
+•  new or worse high blood pressure
+  <br/>
+•  heart failure
+  <br/>
+•  liver problems including liver failure
+  <br/>
+•  kidney problems including kidney failure
+  <br/>
+•  low red blood cells (anemia)
+  <br/>
+•  life-threatening skin reactions
+  <br/>
+•  life-threatening allergic reactions
+  <br/>
+•  Other side effects of NSAIDs include: stomach pain, constipation, diarrhea, gas, heartburn, nausea, vomiting, and dizziness.
+  <br/>
+Get emergency help right away if you get any of the following symptoms:
+  <br/>
+•  shortness of breath or trouble breathing
+  <br/>
+•  chest pain
+  <br/>
+•  weakness in one part or side of your body
+  <br/>
+•  slurred speech
+  <br/>
+•  swelling of the face or throat
+  <br/>
+                     <br/>
+Stop taking your NSAID and call your healthcare provider right away if you get any of the following symptoms:
+  <br/>
+•  Nausea
+  <br/>
+•  more tired or weaker than usual
+  <br/>
+•  diarrhea
+  <br/>
+•  itching
+  <br/>
+•  your skin or eyes look yellow
+  <br/>
+•  indigestion or stomach pain
+  <br/>
+•  flu-like symptoms
+  <br/>
+•  vomit blood
+  <br/>
+•  there is blood in your bowel movement or it is  black and sticky like tar
+  <br/>
+•  unusual weight gain
+  <br/>
+•  skin rash or blisters with fever
+  <br/>
+•  swelling of the arms, legs, hands and feet
+  <br/>
+                     <br/>
+If you take too much of your NSAID, call your healthcare provider or get medical help right away.
+  <br/>
+These are not all the possible side effects of NSAIDs. For more information, ask your healthcare provider or pharmacist about NSAIDs.
+  <br/>
+                     <br/>
+Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.
+  <br/>
+Other information about NSAIDs:
+  <br/>
+•  Aspirin is an NSAID but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.
+  <br/>
+•  Some NSAIDs are sold in lower doses without a prescription (over-the-counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days.
+  <br/>
+General information about the safe and effective use of NSAIDs
+  <br/>
+Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use NSAIDs for a condition for which it was not prescribed. Do not give NSAIDs to other people, even if they have the same symptoms that you have. It may harm them.
+  <br/>
+If you would like more information about NSAIDs, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about NSAIDs that is written for health professionals.
+  <br/>
+Additional Medication Guides can be obtained by calling Unichem at 1-866-562-4616.
+  <br/>
+The other trademarks referenced are owned by third parties not affiliated with Unichem Laboratories Limited
+  <br/>
+Manufactured by:
+  <br/>
+UNICHEM LABORATORIES LTD.
+  <br/>
+Pilerne Ind. Estate,
+  <br/>
+Pilerne, Bardez, Goa 403511, India
+  <br/>
+Manufactured for:
+  <br/>
+East Brunswick, NJ 08816
+  <br/>
+08-R-11/2020
+  <br/>
+13012881
+ </paragraph>
+               </text>
+               <effectiveTime value="20070307"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bc4131ff-ffb4-f157-e053-2a95a90a0714">
+               <id root="bc4131ff-ffb3-f157-e053-2a95a90a0714"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_bc413163-ed6f-1ad0-e053-2a95a90a109d"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20070307"/>
+               <component>
+                  <observationMedia ID="img_bc413163-ed6f-1ad0-e053-2a95a90a109d">
+                     <text>Meloxicam - Bottle</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Screenshot 2021-02-26 102514.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

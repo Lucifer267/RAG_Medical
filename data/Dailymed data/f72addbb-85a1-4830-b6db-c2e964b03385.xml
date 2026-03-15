@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f72addbb-85a1-4830-b6db-c2e964b03385"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>EpiPen<sup>® </sup>
+      <br/>(epinephrine) Auto-Injector 0.3 mg<br/>EpiPen<sup>®</sup> = one dose of 0.30 mg epinephrine (USP, 1:1000, 0.3 mL)<br/>EpiPen<sup>®</sup> JR<br/>(epinephrine) Auto-Injector 0.15 mg<br/>EpiPen<sup>®</sup> Jr = one dose of 0.15 mg epinephrine (USP, 1:2000, 0.3 mL)
+</title>
+   <effectiveTime value="20120925"/>
+   <setId root="f3f1a483-e29a-4e3e-b677-16fa87fe5e5a"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="066070785" root="1.3.6.1.4.1.519.1"/>
+            <name>Dispensing Solutions, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="101822682" root="1.3.6.1.4.1.519.1"/>
+                  <name>PSS World Medical, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="066070785" root="1.3.6.1.4.1.519.1"/>
+                        <name>Dispensing Solutions, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="relabel"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55045-3207" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="repack"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55045-3207" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="82fd7ebe-35dd-45ff-9ac7-a005a7c7786b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20120131"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55045-3207" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>EpiPen</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Epinephrine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="49502-500" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="0.3" unit="mg"/>
+                              <denominator value="0.3" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Epinephrine</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Epinephrine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4VON5FNS3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Metabisulfite</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Hydrochloric Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="N762921K75" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Nitrogen</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="0.3" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43203" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1">
+                                       <translation code="C48540" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="1" unit="1">
+                                             <translation code="C48484" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                                          </numerator>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="55045-3207-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19871222"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA019430" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="f1f82560-74a3-4d7d-b00b-0426bf8244d8"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Each EpiPen<sup>®</sup> Auto-Injector delivers a <content styleCode="bold">single dose</content> of 0.3 mg epinephrine injection, USP, 1:1000 (0.3 mL) in a sterile solution.
+</paragraph>
+                  <paragraph>Each EpiPen<sup>®</sup> Jr Auto-Injector delivers a <content styleCode="bold">single dose</content> of 0.15 mg epinephrine injection, USP, 1:2000 (0.3 mL) in a sterile solution.
+</paragraph>
+                  <paragraph>The EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injectors each contain 2 mL epinephrine solution. Approximately 1.7 mL remains in the auto-injector after activation and cannot be used.
+</paragraph>
+                  <paragraph>Each 0.3 mL in the EpiPen<sup>®</sup> Auto-Injector contains 0.3 mg epinephrine, 1.8 mg sodium chloride, 0.5 mg sodium metabisulfite, hydrochloric acid to adjust pH, and Water for Injection.<br/>The pH range is 2.2-5.0. Each 0.3 mL in the EpiPen<sup>®</sup> Jr Auto-Injector contains 0.15 mg epinephrine, 1.8 mg sodium chloride, 0.5 mg sodium metabisulfite, hydrochloric acid to adjust pH, and Water for Injection. The pH range is 2.2-5.0.
+</paragraph>
+                  <paragraph>Epinephrine is a sympathomimetic catecholamine. Chemically, epinephrine is B-(3, 4-dihydroxyphenyl)-a-methyl-aminoethanol, with the following structure:
+</paragraph>
+                  <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                  <paragraph>Epinephrine solution deteriorates rapidly on exposure to air or light, turning pink from oxidation to adrenochrome and brown from the formation of melanin. Replace EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injectors if the epinephrine solution appears discolored.
+</paragraph>
+                  <paragraph>EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injectors do not contain latex.
+</paragraph>
+               </text>
+               <effectiveTime value="20120925"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Epinephrine structure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="epi00-0006-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="eefc8abb-cfd2-4dbb-bee1-65be992a7752"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <text>
+                  <paragraph>Epinephrine is the drug of choice for the emergency treatment of severe allergic reactions (Type I) to insect stings or bites, foods, drugs, and other allergens. It can also be used in the treatment of anaphylaxis of unknown cause (idiopathic anaphylaxis) or exercise-induced anaphylaxis. When given intramuscularly or subcutaneously it has a rapid onset and short duration of action. Epinephrine acts on both alpha and beta adrenergic receptors. Through its action on alpha adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension. Through its action on beta-adrenergic receptors, epinephrine causes bronchial smooth muscle relaxation that helps alleviate bronchospasm, wheezing and dyspnea that may occur during anaphylaxis. Epinephrine also alleviates pruritus, urticaria, and angioedema and may be effective in relieving gastrointestinal and genitourinary symptoms associated with anaphylaxis because of its relaxer effects on the smooth muscle of the stomach, intestine, uterus, and urinary bladder.
+</paragraph>
+               </text>
+               <effectiveTime value="20100610"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="544799e2-febe-473d-b85c-366008dc7174"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injectors are indicated in the emergency treatment of allergic reactions (Type I) including anaphylaxis to stinging insects (e.g., order Hymenoptera, which include bees, wasps, hornets, yellow jackets and fire ants) and biting insects (e.g., triatoma, mosquitos), allergen immunotherapy, foods, drugs, diagnostic testing substances (e.g., radiocontrast media) and other allergens, as well as idiopathic anaphylaxis or exercise-induced anaphylaxis. EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injectors are intended for immediate administration in patients, who are determined to be at increased risk for anaphylaxis, including individuals with a history of anaphylactic reactions. Selection of the appropriate dosage strength is determined according to patient body weight (see <content styleCode="bold">
+                        <linkHtml href="#s14">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content> section).
+</paragraph>
+                  <paragraph>Such reactions may occur within minutes after exposure and consist of flushing, apprehension, syncope, tachycardia, thready or unobtainable pulse associated with a fall in blood pressure, convulsions, vomiting, diarrhea and abdominal cramps, involuntary voiding, wheezing, dyspnea due to laryngeal spasm, pruritus, rashes, urticaria or angioedema.
+</paragraph>
+                  <paragraph>EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injectors are intended for immediate self-administration as emergency supportive therapy only and are not a substitute for immediate medical care.
+</paragraph>
+               </text>
+               <effectiveTime value="20100610"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="bf81c3e4-a608-415d-8015-072c649190fe"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>There are no absolute contraindications to the use of epinephrine in a life-threatening situation.
+</paragraph>
+               </text>
+               <effectiveTime value="20100610"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="6879765d-9e33-4b0d-bfb9-56af0563ab39"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <text>
+                  <paragraph>EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injectors should <content styleCode="bold">only</content> be injected into the anterolateral aspect of the thigh. DO NOT INJECT INTO BUTTOCK. Injection into the buttock may not provide effective treatment of anaphylaxis. Advise the patient to go immediately to the nearest emergency room for further treatment of anaphylaxis.
+</paragraph>
+                  <paragraph>Since epinephrine is a strong vasoconstrictor, accidental injection into the digits, hands or feet may result in loss of blood flow to the affected area. Treatment should be directed at vasodilation in addition to further treatment of anaphylaxis (see <content styleCode="bold">
+                        <linkHtml href="#s12">ADVERSE REACTIONS</linkHtml>
+                     </content>). Advise the patient to go immediately to the nearest emergency room and to inform the healthcare provider in the emergency room of the location of the accidental injection.
+</paragraph>
+                  <paragraph>DO NOT INJECT INTRAVENOUSLY. Large doses or accidental intravenous injection of epinephrine may result in cerebral hemorrhage due to sharp rise in blood pressure. Rapidly acting vasodilators can counteract the marked pressor effects of epinephrine if there is such inadvertent administration.
+</paragraph>
+                  <paragraph>Epinephrine is the preferred treatment for serious allergic reactions or other emergency situations even though this product contains sodium metabisulfite, a sulfite that may, in other products, cause allergic-type reactions including anaphylactic symptoms or life-threatening or less severe asthmatic episodes in certain susceptible persons. The alternatives to using epinephrine in a life-threatening situation may not be satisfactory. The presence of a sulfite in this product should not deter administration of the drug for treatment of serious allergic or other emergency situations even if the patient is sulfite-sensitive.
+</paragraph>
+                  <paragraph>Epinephrine should be administered with caution in patients who have heart disease, including patients with cardiac arrhythmias, coronary artery or organic heart disease, or hypertension. In such patients, or in patients who are on drugs that may sensitize the heart to arrhythmias, e.g., digitalis, diuretics, or anti-arrhythmics, epinephrine may precipitate or aggravate angina pectoris as well as produce ventricular arrhythmias. It should be recognized that the presence of these conditions is not a contraindication to epinephrine administration in an acute, life-threatening situation.
+</paragraph>
+                  <paragraph>Epinephrine is light sensitive and should be stored in the carrier tube provided. Store at 25°C (77°F); excursions permitted to 15°C-30°C (59°F-86°F) (See USP Controlled Room Temperature). Do not refrigerate. Before using, check to make sure the solution in the auto-injector is not discolored. Replace the auto-injector if the solution is discolored or contains a precipitate.
+</paragraph>
+               </text>
+               <effectiveTime value="20100610"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="676700f2-4003-41d2-8c73-0dddd4955804"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20100610"/>
+               <component>
+                  <section ID="s7">
+                     <id root="efea5560-0a45-4c67-9381-fd7538aeca48"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>(1) General
+</title>
+                     <text>
+                        <paragraph>EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injectors are not intended as a substitute for immediate medical care. In conjunction with the administration of epinephrine, the patient should seek immediate medical or hospital care. More than two sequential doses of epinephrine should only be administered under direct medical supervision.
+</paragraph>
+                        <paragraph>Epinephrine is essential for the treatment of anaphylaxis. Patients with a history of severe allergic reactions (anaphylaxis) to insect stings or bites, foods, drugs, and other allergens as well as idiopathic and exercise-induced anaphylaxis should be carefully instructed about the circumstances under which epinephrine should be used. It must be clearly determined that the patient is at risk of future anaphylaxis, since the following risks may be associated with epinephrine administration (see <content styleCode="bold">
+                              <linkHtml href="#s14">DOSAGE and ADMINISTRATION</linkHtml>
+                           </content>).
+</paragraph>
+                        <paragraph>Epinephrine should be used with caution in patients who have cardiac arrhythmias, coronary artery or organic heart disease, hypertension, or in patients who are on drugs that may sensitize the heart to arrhythmias, e.g., digitalis, diuretics, quinidine, or other antiarrhythmics. In such patients, epinephrine may precipitate or aggravate angina pectoris as well as produce ventricular arrhythmias.
+</paragraph>
+                        <paragraph>The effects of epinephrine may be potentiated by tricyclic antidepressants and monoamine oxidase inhibitors.
+</paragraph>
+                        <paragraph>Some patients may be at greater risk of developing adverse reactions after epinephrine administration. These include: hyperthyroid individuals, individuals with cardiovascular disease, hypertension, or diabetes, elderly individuals, pregnant women, pediatric patients under 30 kg (66 lbs.) body weight using EpiPen<sup>®</sup> Auto-Injector, and pediatric patients under 15 kg (33 lbs.) body weight using EpiPen<sup>®</sup> J r Auto-Injector.
+</paragraph>
+                        <paragraph>Despite these concerns, epinephrine is essential for the treatment of anaphylaxis. Therefore, patients with these conditions, and/or any other person who might be in a position to administer EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector to a patient experiencing anaphylaxis should be carefully instructed in regard to the circumstances under which epinephrine should be used.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20100610"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8">
+                     <id root="0f542cde-fdfa-44a2-99c5-6f6221af17f1"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>(2) Information for Patients
+</title>
+                     <text>
+                        <paragraph>Complete patient information, including dosage, direction for proper administration and precautions can be found inside each EpiPen<sup>®</sup>/EpiPen<sup>®</sup> Jr Auto-Injector carton.
+</paragraph>
+                        <paragraph>Epinephrine may produce symptoms and signs that include an increase in heart rate, the sensation of a more forceful heartbeat, palpitations, sweating, nausea and vomiting, difficulty breathing, pallor, dizziness, weakness or shakiness, headache, apprehension, nervousness, or anxiety. These symptoms and signs usually subside rapidly, especially with rest, quiet and recumbency. Patients with hypertension or hyperthyroidism may develop more severe or persistent effects, and patients with coronary artery disease could experience angina. Patients with diabetes may develop increased blood glucose levels following epinephrine administration. Patients with Parkinson's disease may notice a temporary worsening of symptoms.
+</paragraph>
+                        <paragraph>In case of accidental injection, the patient should be advised to immediately go to the emergency room for treatment. Since the epinephrine in the EpiPen<sup>®</sup> Auto-Injector is a strong vasoconstrictor when injected into the digits, hands or feet, treatment should be directed at vasodilation if there is such an inadvertent administration to these areas (see <content styleCode="bold">
+                              <linkHtml href="#s12">ADVERSE REACTIONS</linkHtml>
+                           </content>).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20100610"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="e69774a2-09e5-4d3a-9b1a-119e755d6698"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>(3) Drug Interactions
+</title>
+                     <text>
+                        <paragraph>Patients who receive epinephrine while concomitantly taking cardiac glycosides or diuretics should be observed carefully for the development of cardiac arrhythmias.
+</paragraph>
+                        <paragraph>The effects of epinephrine may be potentiated by tricyclic antidepressants, monoamine oxidase inhibitors, levothyroxine sodium, and certain antihistamines, notably chlorpheniramine, tripe-lennamine and diphenhydramine.
+</paragraph>
+                        <paragraph>The cardiostimulating and bronchodilating effects of epinephrine are antagonized by beta-adrenergic blocking drugs, such as propranolol. The vasoconstricting and hypertensive effects of epinephrine are antagonized by alpha-adrenergic blocking drugs, such as phentoloamine. Ergot alkaloids may also reverse the pressor effects of epinephrine.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20100610"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="369c2024-ade1-4a1b-827d-232b7d7c32c5"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>(4) Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>Epinephrine and other catecholamines have been shown to have mutagenic potential <content styleCode="italics">in vitro</content> and to be an oxidative mutagen in a <content styleCode="italics">WP2</content> bacterial reverse mutation assay. Epinephrine had a moderate degree of mutagenicity, and was positive in the DNA Repair test with <content styleCode="italics">B. subtilis</content> (REC) assay, but was not mutagenic in the <content styleCode="italics">Salmonella</content> bacterial reverse mutation assay.<br/>Studies of epinephrine after repeated exposure in animals to evaluate the carcinogenic and mutagenic potential or the effect on fertility have not been conducted. This should not prevent the use of epinephrine under the conditions noted under <content styleCode="bold">
+                              <linkHtml href="#s3">INDICATIONS AND USAGE</linkHtml>
+                           </content>.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20100610"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="0d28a2b1-4e41-4549-87e9-5eee80925ffa"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>(5) Usage in Pregnancy
+</title>
+                     <text>
+                        <paragraph>Pregnancy Category C: There is no study on the acute effect of epinephrine on pregnancy. Epinephrine has been shown to have developmental effects when administered subcutaneously in rabbits at a dose of 1.2 mg/kg daily for two to three days (approximately 30 times the maximum recommended daily subcutaneous or intramuscular dose on a mg/m<sup>2</sup> basis), in mice at a subcutaneous dose of 1 mg/kg daily for 10 days (approximately 7 times the maximum daily subcutaneous or intramuscular dose on a mg/m<sup>2</sup> basis) and in hamsters at a subcutaneous dose of 0.5 mg/kg daily for 4 days (approximately 5 times the maximum recommended daily subcutaneous or intramuscular dose on a mg/m<sup>2</sup> basis). These effects were not seen in mice at a subcutaneous dose of 0.5 mg/kg daily for 10 days (approximately 3 times the maximum recommended daily subcutaneous or intramuscular dose on a mg/m<sup>2</sup> basis). Although, there are no adequate and well-controlled studies in pregnant women, epinephrine should be used in pregnancy only if the potential benefit justifies the potential risk to the fetus.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20100610"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s12">
+               <id root="bd49305e-db6e-4508-b7ae-e72f86d5f2e1"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <text>
+                  <paragraph>Adverse reactions to epinephrine include transient, moderate anxiety; apprehensiveness; restlessness; tremor; weakness; dizziness; sweating; palpitations; pallor; nausea and vomiting; headache; and/or respiratory difficulties. These symptoms occur in some persons receiving therapeutic doses of epinephrine, but are more likely to occur in patients with hypertension or hyperthyroidism. Arrhythmias, including fatal ventricular fibrillation, have been reported in patients with underlying cardiac disease or certain drugs (see <content styleCode="bold">
+                        <linkHtml href="#s9">PRECAUTIONS, Drug Interactions</linkHtml>
+                     </content>). Rapid rises in blood pressure have produced cerebral hemorrhage, particularly in elderly patients with cardiovascular disease. Angina may occur in patients with coronary artery disease. The potential for epinephrine to produce these types of adverse reactions does not contraindicate its use in an acute life-threatening allergic reaction.
+</paragraph>
+                  <paragraph>Accidental injection into the digits, hands or feet may result in loss of blood flow to the affected area (see <content styleCode="bold">
+                        <linkHtml href="#s5">WARNINGS</linkHtml>
+                     </content>). Adverse events experienced as a result of accidental injections may include increased heart rate, local reactions including injection site pallor, coldness and hypoaesthesia or injury at the injection site resulting in bruising, bleeding, discoloration, erythema or skeletal injury.
+</paragraph>
+               </text>
+               <effectiveTime value="20100610"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s13">
+               <id root="dfd0317d-6022-4a95-a6d3-5cecfa3783b3"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE
+</title>
+               <text>
+                  <paragraph>Epinephrine is rapidly inactivated in the body and treatment following overdose with epinephrine is primarily supportive. If necessary, pressor effects may be counteracted by rapidly acting vasodilators or alpha-adrenergic blocking drugs. If prolonged hypotension follows such measure, it may be necessary to administer another pressor drug.
+</paragraph>
+                  <paragraph>Overdosage of epinephrine may produce extremely elevated arterial pressure, which may result in cerebrovascular hemorrhage, particularly in elderly patients.
+</paragraph>
+                  <paragraph>Overdosage may also result in pulmonary edema because of peripheral vascular constriction together with cardiac stimulation. Treatment consists of a rapidly acting alpha-adrenergic blocking drug and/or respiratory support.
+</paragraph>
+                  <paragraph>Epinephrine overdosage can also cause transient bradycardia followed by tachycardia and these may be accompanied by potentially fatal cardiac arrhythmias. Premature ventricular contractions may appear within one minute after injection and may be followed by multifocal ventricular tachycardia (prefibrillation rhythm). Subsidence of the ventricular effects may be followed by atrial tachycardia and occasionally by atrioventricular block. Treatment of arrhythmias consists of administration of a beta-blocking drug such as propranolol.
+</paragraph>
+                  <paragraph>Overdosage sometimes results in extreme pallor and coldness of the skin, metabolic acidosis and kidney failure. Suitable corrective measures must be taken in such situations.
+</paragraph>
+               </text>
+               <effectiveTime value="20100610"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s14">
+               <id root="7c714d44-16fa-47fd-b9cd-08feae3ebca4"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <text>
+                  <paragraph>EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector prescribers should ensure that the patient or caregiver understands the indications and use of this product. A health care provider should review the patient instructions and operation of the EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector, in detail, with the patient or caregiver. Inject EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr intramuscularly or subcutaneously into the anterolateral aspect of the thigh, through clothing if necessary. See detailed Directions for Use on the accompanying Patient Instructions.
+</paragraph>
+                  <paragraph>Selection of the appropriate dosage strength is determined according to patient body weight.
+</paragraph>
+                  <paragraph>EpiPen<sup>®</sup> Auto-Injector delivers 0.3 mg epinephrine injection (0.3 mL, 1:1000) and is intended for patients who weigh 30 kg or more (approximately 66 pounds or more).
+</paragraph>
+                  <paragraph>EpiPen<sup>®</sup> Jr Auto-Injector delivers 0.15 mg epinephrine injection (0.3 mL, 1:2000) and is intended for patients who weigh 15 to 30 kg (33 - 66 pounds).
+</paragraph>
+                  <paragraph>Each EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector contains a single dose of epinephrine. Since the doses of epinephrine delivered from EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector are fixed, consider using other forms of injectable epinephrine if doses lower than 0.15 mg are deemed necessary. The prescriber should carefully assess each patient to determine the most appropriate dose of epinephrine, recognizing the life-threatening nature of the reactions for which this drug is indicated. With severe persistent anaphylaxis, repeat injections with an additional EpiPen<sup>®</sup> Auto-Injector may be necessary.
+</paragraph>
+                  <paragraph>Patients should be instructed to periodically visually inspect the epinephrine solution for particulate matter and discoloration. If the solution contains particulate matter or develops a pinkish color or becomes darker than slightly yellow, the patient should immediately contact their physician for a replacement, since these changes indicate that the effectiveness of the drug product may be decreased.
+</paragraph>
+               </text>
+               <effectiveTime value="20100610"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s15">
+               <id root="50bee31c-9e67-4eef-9f30-18e653924379"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>EpiPen<sup>®</sup> Auto-Injectors (epinephrine injections, USR 1:1000, 0.3 mL) are available in individual cartons, NDC 49502-500-01, and as EpiPen 2-Pak<sup>®</sup>, NDC 49502-500-02, a pack that contains two EpiPen<sup>®</sup> Auto-Injectors (epinephrine injections, USP, 1:1000, 0.3 mL) and one EpiPen<sup>®</sup> Auto-Injector trainer device.
+</paragraph>
+                  <paragraph>EpiPen<sup>®</sup> Jr Auto-Injectors (epinephrine injection, USP, 1:2000, 0.3 mL) are available in individual cartons, NDC 49502-501-01, and as EpiPen Jr 2-Pak<sup>®</sup>, NDC 49502-501-02, a pack that contains two EpiPen<sup>®</sup> Jr Auto-Injectors (epinephrine injections, USP, 1:2000, 0.3 mL) and one EpiPen<sup>®</sup> Auto-Injector trainer device.
+</paragraph>
+                  <paragraph>EpiPen 2-Pak<sup>®</sup> and EpiPen Jr 2-Pak<sup>®</sup> also includes a S-clip to clip two cases together.
+</paragraph>
+                  <paragraph>Store at 25°C (77°F); excursions permitted to 15°C-30°C (59°F-86°F) (See USP Controlled Room Temperature).<br/>Contains no latex. Protect from light.
+</paragraph>
+                  <paragraph>Rx only.
+</paragraph>
+                  <paragraph>MANUFACTURED FOR Dey, LP.,<br/>NAPA, CALIFORNIA 94558, U.S.A.<br/>by Meridian Medical Technologies, Inc.,<br/>a subsidiary of King Pharmaceuticals<sup>®</sup>, Inc.,<br/>Columbia, MD 21046, U.S.A.
+</paragraph>
+                  <paragraph>EpiPen<sup>®</sup>, EpiPen<sup>®</sup> Jr, EpiPen 2-Pak<sup>®</sup>, and EpiPen Jr 2-Pak<sup>®</sup> are registered trademarks of Mylan, Inc. licensed exclusively to its wholly-owned affiliate, Dey, LP. of Napa California, USA.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">09/08</content>
+                     <br/>0001497<br/>03-914-00
+</paragraph>
+               </text>
+               <effectiveTime value="20100610"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s16">
+               <id root="9a37df72-0cdc-49f2-ba9d-f8bf7e72fab5"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title>PATIENT INSERT
+</title>
+               <text>
+                  <paragraph>EpiPen<sup>® </sup>
+                     <br/>(epinephrine) Auto-Injector 0.3 mg<br/>EpiPen<sup>®</sup> = one dose of 0.30 mg epinephrine (USP, 1:1000, 0.3 mL)
+</paragraph>
+                  <paragraph>EpiPen<sup>®</sup> JR<br/>(epinephrine) Auto-Injector 0.15 mg<br/>EpiPen<sup>®</sup> Jr = one dose of 0.15 mg epinephrine (USP, 1:2000, 0.3 mL)
+</paragraph>
+                  <paragraph>Pharmacist - Please Dispense this Leaflet with Product
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">IMPORTANT INFORMATION</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The patient and caregiver should read this information carefully before using EpiPen</content>
+                     <sup>®</sup>
+                     <content styleCode="bold">or EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Jr Auto-Injector. Please be prepared! Read the entire insert before an emergency occurs! EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">and EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Jr Auto-Injectors</content> are disposable, prefilled automatic injection devices for use during allergic emergencies. They contain a single dose of epinephrine which you inject into your outer thigh. EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injector contain <content styleCode="bold">no latex.</content> The EpiPen<sup>®</sup> and EpiPen<sup>®</sup>Jr Auto-Injectors are intended for people who have been prescribed this medication by their physician.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">It's important</content> that you have this emergency medicine with you at all times. If you need additional units to keep at work, school, etc, please talk to your doctor. This information does not take the place of talking with your doctor about your medical condition or your treatment.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">and EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Jr Auto-Injector?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">When you have allergic reaction (anaphylaxis) use the EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">or EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Jr Auto-Injector right away and immediately go to your doctor or emergency room for more medical treatment.</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc" ID="i902148ed-7dd2-4faa-8aea-41dc6fd99c48">
+                     <item>It is important not to be afraid to use the EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector for emergency treatment of allergic reactions (anaphylaxis). For most people, injection of the EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector in the thigh does not hurt, and use of the EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector early at the start of such allergic reactions is important to help prevent the allergic reaction from becoming worse.
+</item>
+                     <item>Inject EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector into the middle of the outer side of the thigh (upper leg).
+</item>
+                     <item>Epinephrine, the active ingredient in EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injectors is used to treat life-threatening allergic reactions (anaphylaxis). You should use this medication only if your doctor has prescribed it for allergic emergencies. Such emergencies may occur from insect stings or bites, foods, drugs, latex, other allergens, exercise induced anaphylaxis, or unknown causes.
+</item>
+                     <item>Make sure to tell your doctor about all your medical conditions and allergies.
+</item>
+                     <item>Always get medical treatment immediately after using EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector.
+</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Since you cannot predict when a life-threatening allergic reaction may occur, carry the EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">or EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Jr Auto-Injector with you at all times.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is EpiPen</content>
+                     <sup>®</sup>
+                     <content styleCode="bold">/EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Jr Auto-Injector?</content>
+                  </paragraph>
+                  <paragraph>The EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injectors are products used for the emergency injection of epinephrine. Epinephrine is a medicine used for life-threatening allergic reactions such as severe swelling, breathing problems, or loss of blood pressure. Allergic reactions can be caused by stinging and biting insects, allergy injections, food, medicines, exercise, or unknown causes.
+</paragraph>
+                  <paragraph>Life-threatening allergic reactions may show up as closing of your breathing airways, wheezing, sneezing, hoarseness, hives, itching, swelling, skin redness, fast heartbeat, weak pulse, feeling very anxious, confusion, stomach pain, losing control of urine or bowel movements (incontinence), faintness, or "passing out" (unconsciousness).
+</paragraph>
+                  <paragraph>The EpiPen<sup>®</sup> Auto-Injector (0.3 mg) is generally intended for patients who weigh 66 pounds or more (30 kilograms or more).
+</paragraph>
+                  <paragraph>The EpiPen<sup>®</sup> Jr Auto-Injector (0.15 mg) is generally intended for patients who weigh approximately 33 to 66 pounds (15 to 30 kilograms).
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Who should not use EpiPen</content>
+                     <sup>®</sup>
+                     <content styleCode="bold">/EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Jr Auto-Injector?</content>
+                  </paragraph>
+                  <paragraph>There are no absolute contraindications to the use of EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injector in a life-threatening allergic reaction. People with certain medical conditions have a higher chance of having serious side effects from EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tell your doctor and pharmacist about all your medical conditions, but especially if you:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc" ID="ib30b21b6-580b-4d7f-8db4-069bc69fc587">
+                     <item>
+                        <content styleCode="bold">Have heart disease or high blood pressure</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Have diabetes</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Have thyroid conditions</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Are pregnant</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your doctor about all the medicines you take, including prescription and non-prescription medicines, vitamins and herbal supplements. Inform your doctor of all known allergies.</content> Some medicines may cause serious side effects if taken while you use EpiPen<sup>®</sup>/EpiPen<sup>®</sup> Jr Auto-Injector. Some medicines may affect how EpiPen<sup>®</sup>/EpiPen<sup>®</sup> Jr Auto-Injector works.
+</paragraph>
+                  <paragraph>EpiPen<sup>®</sup> or EpiPen" Jr Auto-Injector may affect how your other medicines work.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What should I avoid while using EpiPen</content>
+                     <sup>®</sup>
+                     <content styleCode="bold">/EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Jr Auto-Injector?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc" ID="i58d94dc0-67f5-4d39-8ae8-0a77cdc59702">
+                     <item>
+                        <content styleCode="bold">NEVER PUT THUMB, FINGERS OR HAND OVER ORANGE TIP. NEVER PRESS OR PUSH ORANGE TIP WITH THUMB, FINGERS OR HAND.</content> The needle comes out of orange tip. Accidental injection into finger, hands or feet may result in loss of blood flow to these areas. If this happens, go immediately to the nearest emergency room.
+</item>
+                     <item>Do not inject EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector into the buttock or any other part of the body, other than the middle of the outer side of your thigh (upper leg).
+</item>
+                     <item>Do not inject EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector into a vein.
+</item>
+                     <item>Do not drop carrier tube or auto-injector.   If carrier tube or auto-injector is dropped, inspect for damage and leakage. Discard auto-injector and carrier tube, and replace if damage or leakage is noticed or suspected.
+</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of EpiPen</content>
+                     <sup>®</sup>
+                     <content styleCode="bold">/ EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Jr Auto-Injector?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Too much epinephrine can cause dangerous high blood pressure or stroke.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If you take certain medicines, you may develop serious life-threatening side effects from the epinephrine in EpiPen</content>
+                     <sup>®</sup>
+                     <content styleCode="bold">/ EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Jr Auto-Injector.</content> Be sure to tell your doctor all the medicines you take, especially medicines for asthma.
+</paragraph>
+                  <paragraph>Patients with certain medical conditions, or who take certain medicines, may get more side effects from EpiPen<sup>®</sup>/ EpiPen<sup>®</sup> Jr Auto-Injector or the side effects may last longer. This includes patients who take certain types of medicines for asthma, allergies, depression, low thyroid, high blood pressure, and heart disease. Patients with heart disease may feel chest pain (angina).
+</paragraph>
+                  <paragraph>EpiPen<sup>®</sup>/EpiPen<sup>®</sup> Jr Auto-Injector (epinephrine) can cause the following reactions. Some reactions can be serious. They usually go away with rest. <content styleCode="bold italics">Please notify your doctor if you experience any of these.</content>
+                  </paragraph>
+                  <paragraph>Common side effects of EpiPen<sup>®</sup>/EpiPen<sup>®</sup> Jr Auto-Injector include:
+</paragraph>
+                  <list listType="unordered" styleCode="disc" ID="i3a06007c-5ba6-4de9-884a-163d1a2ce7f5">
+                     <item>Faster, irregular (wrong) or "pounding" heartbeat
+</item>
+                     <item>Sweating
+</item>
+                     <item>Nausea and vomiting
+</item>
+                     <item>Breathing problems
+</item>
+                     <item>Paleness
+</item>
+                     <item>Dizziness
+</item>
+                     <item>Weakness or shakiness
+</item>
+                     <item>Headache
+</item>
+                     <item>Feelings of over excitement, nervousness or anxiety
+</item>
+                  </list>
+                  <paragraph>These are not all the possible side effects of<br/>EpiPen<sup>®</sup>/EpiPen<sup>®</sup> Jr Auto-Injector.<br/>For more information, ask your doctor or pharmacist.<br/>Call your doctor for medical advice about side effects.<br/>You may report side effects to FDA at 1-800-FDA-1088.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I store EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">/EpiPen</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Jr Auto-Injector?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc" ID="ie7b572cb-a6b7-4a61-8084-b94c229f7cd7">
+                     <item>Keep the EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injector nearby and ready for use at all times.
+</item>
+                     <item>Store at 25°C (77°F); excursions permitted to 15°C-30°C (59°F-86°F) (See USP Controlled Room Temperature). Contains no latex. Protect from light.
+</item>
+                     <item>
+                        <content styleCode="bold">Do NOT</content> store in refrigerator.
+</item>
+                     <item>
+                        <content styleCode="bold">Do NOT</content> expose to extreme cold or heat. For example, do <content styleCode="bold">NOT</content> store in your vehicle's glove box.
+</item>
+                     <item>Examine contents in clear window of auto-injector periodically. If the solution is discolored or contains solid particles (precipitate), replace the unit. Solution should be clear.
+</item>
+                     <item>
+                        <content styleCode="bold italics">Always keep your EpiPen
+</content>
+                        <sup>®
+</sup>
+                        <content styleCode="bold italics">or EpiPen
+</content>
+                        <sup>®</sup>
+                        <content styleCode="bold italics">Jr Auto- Injector in the carrier tube with the blue safety release on until you need to use it.<br/>
+                        </content>
+                        <content styleCode="bold">Your auto-injector has an expiration date</content>
+                     </item>
+                     <item>Example:"DEC 08" = December 31, 2008
+</item>
+                     <item>Replace it before the expiration date.
+</item>
+                  </list>
+                  <paragraph>SEE OTHER SIDE FOR "DIRECTIONS FOR USE" AND FOR EPIPEN<sup>®</sup> CENTER FOR ANAPHYLACTIC SUPPORT™
+</paragraph>
+                  <paragraph>FREE ENROLLMENT FORM.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold underline">DIRECTIONS FOR USE</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc" ID="id1f418c0-6fc1-40d8-8008-23eecbbfa652">
+                     <item>
+                        <content styleCode="bold underline">REMOVE AUTO-INJECTOR FROM CARRIER TUBE BEFORE USE.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">NEVER PUT THUMB, FINGERS OR HAND OVER ORANGE TIP.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">NEVER PRESS OR PUSH ORANGE TIP WITH THUMB, FINGERS OR HAND.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">THE NEEDLE COMES OUT OF ORANGE TIP.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">DO NOT REMOVE BLUE SAFETY RELEASE UNTIL READY TO USE.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">DO NOT USE IF SOLUTION IS DISCOLORED.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">DO NOT PLACE PATIENT INSERT OR ANY OTHER FOREIGN OBJECTS IN CARRIER WITH AUTO-INJECTOR, AS THIS MAY PREVENT YOU FROM REMOVING THE AUTO-INJECTOR FOR USE.</content>
+                        <renderMultiMedia ID="f02" referencedObject="mm02"/>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold underline">TO REMOVE AUTO-INJECTOR FROM THE CARRIER TUBE:</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f03" referencedObject="mm03"/>
+                  <list listType="ordered" styleCode="Arabic" ID="i8398a1de-e42b-48a4-8bf9-d19c4cfe3017">
+                     <item>Flip open the yellow cap of the EpiPen<sup>®</sup> or the green cap of theEpiPen<sup>®</sup> Jr Auto-Injector carrier tube.<renderMultiMedia ID="f04" referencedObject="mm04"/>
+                     </item>
+                     <item>Remove the EpiPen<sup>®</sup> or EpiPen<sup>®</sup> Jr Auto-Injector by tipping and sliding it out of the carrier tube.
+</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold underline">TO USE AUTO-INJECTOR:</content>
+                  </paragraph>
+                  <list listType="ordered" styleCode="Arabic" ID="i9673cc93-2e00-487e-867f-04376bef9ebd">
+                     <item>Grasp unit with the orange tip pointing downward.
+</item>
+                     <item>Form fist around the unit (orange tip down).<renderMultiMedia ID="f05" referencedObject="mm05"/>
+                     </item>
+                     <item>With your other hand, pull off the blue safety release.<renderMultiMedia ID="f06" referencedObject="mm06"/>
+                     </item>
+                     <item>Hold orange tip near outer thigh.<br/>
+                        <content styleCode="bold">DO NOT INJECT INTO BUTTOCK.</content>
+                        <renderMultiMedia ID="f07" referencedObject="mm07"/>
+                     </item>
+                     <item>Swing and <content styleCode="bold">firmly push</content> against outer thigh until it clicks so that unit is perpendicular (at 90° angle) to the thigh.<br/>
+                        <content styleCode="bold">(Auto-injector is designed to work through clothing.)</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold"/> Hold <content styleCode="bold">firmly against thigh</content> for approximately 10 seconds to deliver drug. (The injection is now complete. The window on auto-injector will be obscured.)<renderMultiMedia ID="f08" referencedObject="mm08"/>
+                     </item>
+                     <item>Remove unit from thigh (the orange needle cover will extend to cover needle) and massage injection area for 10 seconds.
+</item>
+                     <item>Call 911 and seek immediate medical attention.
+</item>
+                     <item>Take the used auto-injector with you to the hospital emergency room.
+</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Note: Most of the liquid (about 85%) stays in the auto-injector and cannot be reused. However, you have received the correct dose of the medication if the orange needle tip is extended and the window is obscured. Trainer label has blue background color. Blue background labeled trainer contains no needle and no drug.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">!
+</content>
+                     <content styleCode="bold underline">WARNING
+</content>
+                     <content styleCode="bold">!</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc" ID="icdb80802-44c6-4df5-82ec-0d8e9c9abd6d">
+                     <item>
+                        <content styleCode="bold">NEVER</content> put thumb, fingers or hand over orange tip. <content styleCode="bold">NEVER</content> press or push orange tip with thumb, fingers or hand. The needle comes out of orange tip. Accidental injection into hands or feet may result in loss of blood flow to these areas. If this happens, go immediately to the nearest emergency room.
+</item>
+                     <item>EpiPen<sup>®</sup> and EpiPen<sup>®</sup> Jr Auto-Injector should be injected only into the outer thigh (see "Directions for Use"). DO NOT INJECT INTO BUTTOCK.
+</item>
+                     <item>Do <content styleCode="underline">NOT</content> remove blue safety release until ready to use.
+</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">To dispose of expired units</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc" ID="id7c2e808-379b-433c-83a2-6b3e0e9a7ee8">
+                     <item>Expired auto-injectors must be disposed of properly.
+</item>
+                     <item>To dispose of an expired auto-injector and carrier tube, take them to your doctor's office or to a hospital for proper disposal.
+</item>
+                     <item>Used auto-injector with extended needle cover will not fit in carrier tube.
+</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold underline">IMMEDIATELY AFTER USE</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc" ID="i73b26616-5c07-45aa-8aa7-af61102d29b9">
+                     <item>
+                        <content styleCode="bold">Go immediately to the nearest hospital emergency room or call 911.</content>
+                        <br/>You may need further medical attention. Take your used auto-injector with you.
+</item>
+                     <item>Tell the doctor that you have received an injection of epinephrine in your thigh.
+</item>
+                     <item>Give your used EpiPen<sup>®</sup>/EpiPen<sup>®</sup> Jr Auto-Injector to the doctor for inspection and proper disposal.
+</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Do not attempt to take the auto-injector apart.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for Dey, L.P., Napa, CA 94558 USA.<br/>by Meridian Medical Technologies™, Inc.<br/>Columbia, MD 21046 USA.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">A subsidiary of King Pharmaceuticals</content>
+                     <sup>®
+</sup>
+                     <content styleCode="bold">Inc.</content>
+                  </paragraph>
+                  <paragraph>EpiPen<sup>®</sup> is a registered trademark of Mylan, Inc. licensed exclusively to its wholly-owned affiliate, Dey, LP. of Napa California, USA
+</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Design and Utility patents applied for Carrier Tube and Auto-Injector design platform.<br/>©2008 by Meridian Medical Technologies™, Inc.<br/>04/2008<br/>03-855-00<br/>0001496</content>
+                  </paragraph>
+                  <paragraph>SEE OTHER SIDE FOR MORE INFORMATION.
+</paragraph>
+                  <renderMultiMedia ID="f09" referencedObject="mm09"/>
+               </text>
+               <effectiveTime value="20100610"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="epi00-0006-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm03">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="epi00-0006-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm04">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="epi00-0006-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm05">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="epi00-0006-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm06">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="epi00-0006-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm07">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="epi00-0006-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm08">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="epi00-0006-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="mm09">
+                     <text>Figure
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="epi00-0006-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s21">
+               <id root="5bb21dc3-afc0-49fc-a2af-4508c39ce3d1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – EpiPen 2-Pak 0.3 mg CARTON
+</title>
+               <text>
+                  <br/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM10"/>
+                  </paragraph>
+                  <paragraph>NDC 55045-3207-02<br/>
+                  </paragraph>
+                  <paragraph>
+Rx only.
+</paragraph>
+               </text>
+               <effectiveTime value="20100610"/>
+               <component>
+                  <observationMedia ID="MM10">
+                     <text>NDC 55045-3207-02</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="NDC 55045-3207-02 ------ MERIDIAN.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

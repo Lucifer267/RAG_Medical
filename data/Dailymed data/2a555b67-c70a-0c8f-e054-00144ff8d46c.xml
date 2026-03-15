@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2a555b67-c70a-0c8f-e054-00144ff8d46c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20160127"/>
+   <setId root="2a555b67-c709-0c8f-e054-00144ff8d46c"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079124340"/>
+            <name>EPM Packaging Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079124340"/>
+                  <name>EPM Packaging Inc</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079124340"/>
+                        <name>EPM Packaging Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61502-903" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2a57427f-dd0e-6a30-e054-00144ff8d46c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20160127"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61502-903" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ACETAMINOPHEN AND CODEINE PHOSPHATE</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ACETAMINOPHEN AND CODEINE PHOSPHATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0093-0150" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="300"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETAMINOPHEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETAMINOPHEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="30"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="GSL05Y1MN6" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CODEINE PHOSPHATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="UX6OWY2V7J" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CODEINE ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-903-97" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-903-96" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-903-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-903-20" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-903-15" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-903-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="6" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-903-06" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA088627" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160127"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="10" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">3;TV;150</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48676" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CIII"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a56b686-d2ed-4cda-e054-00144ff8d46c">
+               <id root="2a56b686-d2ec-4cda-e054-00144ff8d46c"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <text>
+                  <paragraph>Hepatotoxicity
+  <br/>
+Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver
+  <br/>
+transplant and death. Most of the cases of liver injury are associated with the use of
+  <br/>
+acetaminophen at doses that exceed 4000 milligrams per day, and often involve more than one
+  <br/>
+acetaminophen-containing product.
+  <br/>
+WARNING: Death Related to Ultra-Rapid Metabolis m of Codeine to Morphine
+  <br/>
+Respiratory depression and death have occurred in children who received codeine following
+  <br/>
+tonsillectomy and/or adenoidectomy and had evidence of being ultra-rapid metabolizers of
+  <br/>
+codeine due to a CYP2D6 polymorphism.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a56fd2c-099d-5e55-e054-00144ff8d46c">
+               <id root="2a56fd2c-099c-5e55-e054-00144ff8d46c"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>ACETAMINOPHEN AND CODEINE PHOSPHATE TABLETS, USP CIII
+  <br/>
+Rx only
+ </paragraph>
+                  <paragraph>Acetaminophen and codeine are supplied in tablet form for oral administration.
+  <br/>
+Acetaminophen, USP, 4'-hydroxyacetanilide, a slightly bitter, white, odorless, crystalline powder, is a
+  <br/>
+non-opiate, non-salicylate analgesic and antipyretic. It has the following structural formula:
+  <br/>
+C H NO M.W. 151.16
+  <br/>
+Codeine phosphate, USP, 7,8-didehydro-4,5α-epoxy-3-methoxy-17-methylmorphinan-6α-ol phosphate
+  <br/>
+(1:1) (salt) hemihydrate, a white crystalline powder, is a narcotic analgesic and antitussive. It has the
+  <br/>
+following structural formula:
+  <br/>
+8 9 2
+  <br/>
+C H NO •H PO •1/2H O M.W. 406.37
+  <br/>
+Each tablet contains:
+  <br/>
+acetaminophen, USP...........................300 mg
+  <br/>
+codeine phosphate, USP.......................15 mg
+  <br/>
+(Warning: May be habit forming)
+  <br/>
+OR
+  <br/>
+acetaminophen, USP...........................300 mg
+  <br/>
+codeine phosphate, USP....................... 30 mg
+  <br/>
+(Warning: May be habit forming)
+  <br/>
+OR
+  <br/>
+acetaminophen, USP...........................300 mg
+  <br/>
+codeine phosphate, USP....................... 60 mg
+  <br/>
+(Warning: May be habit forming)
+  <br/>
+In addition, each tablet contains the following inactive ingredients: corn starch, colloidal silicon
+  <br/>
+dioxide, croscarmellose sodium, magnesium stearate, and microcrystalline cellulose. The 300 mg/60
+  <br/>
+mg strength tablets also contain crospovidone, povidone, pregelatinized starch, and stearic acid.
+  <br/>
+CLINICAL PHARMACOLOGY
+  <br/>
+This product combines the analgesic effects of a centrally acting analgesic, codeine, with a
+  <br/>
+peripherally acting analgesic, acetaminophen.
+  <br/>
+Pharmacokinetics
+  <br/>
+The behavior of the individual components is described below.
+  <br/>
+Codeine
+  <br/>
+Codeine is readily absorbed from the gastrointestinal tract. It is rapidly distributed from the
+  <br/>
+intravascular spaces to the various body tissues, with preferential uptake by parenchymatous organs
+  <br/>
+such as the liver, spleen and kidney. Codeine crosses the blood-brain barrier, and is found in fetal tissue
+  <br/>
+and breast milk. The plasma concentration does not correlate with brain concentration or relief of pain;
+  <br/>
+however, codeine is not bound to plasma proteins and does not accumulate in body tissues.
+  <br/>
+The plasma half-life is about 2.9 hours. The elimination of codeine is primarily via the kidneys, and
+  <br/>
+about 90% of an oral dose is excreted by the kidneys within 24 hours of dosing. The urinary secretion
+  <br/>
+products consist of free and glucuronide conjugated codeine (about 70%), free and conjugated
+  <br/>
+norcodeine (about 10%), free and conjugated morphine (about 10%), normorphine (4%), and
+  <br/>
+hydrocodone (1%). The remainder of the dose is excreted in the feces.
+  <br/>
+18 21 3 3 4 2
+  <br/>
+At therapeutic doses, the analgesic effect reaches a peak within 2 hours and persists between 4 and 6
+  <br/>
+hours.
+  <br/>
+See OVERDOSAGE for toxicity information.
+  <br/>
+Acetaminophen
+  <br/>
+Acetaminophen is rapidly absorbed from the gastrointestinal tract and is distributed throughout most
+  <br/>
+body tissues. The plasma half-life is 1.25 to 3 hours, but may be increased by liver damage and
+  <br/>
+following overdosage. Elimination of acetaminophen is principally by liver metabolism (conjugation)
+  <br/>
+and subsequent renal excretion of metabolites. Approximately 85% of an oral dose appears in the urine
+  <br/>
+within 24 hours of administration, most as the glucuronide conjugate, with small amounts of other
+  <br/>
+conjugates and unchanged drug.
+  <br/>
+See OVERDOSAGE for toxicity information.
+  <br/>
+INDICATIONS AND USAGE
+  <br/>
+Acetaminophen and codeine phosphate tablets are indicated for the relief of mild to moderately severe
+  <br/>
+pain.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a56fd2c-099f-5e55-e054-00144ff8d46c">
+               <id root="2a56fd2c-099e-5e55-e054-00144ff8d46c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Codeine-containing products are contraindicated for postoperative pain management in children who
+  <br/>
+have undergone tonsillectomy and/or adenoidectomy.
+  <br/>
+This product should not be administered to patients who have previously exhibited hypersensitivity to
+  <br/>
+codeine or acetaminophen.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a56fff3-16f6-5e2e-e054-00144ff8d46c">
+               <id root="2a56fff3-16f5-5e2e-e054-00144ff8d46c"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>In the presence of head injury or other intracranial lesions, the respiratory depressant effects of codeine
+  <br/>
+and other narcotics may be markedly enhanced, as well as their capacity for elevating cerebrospinal
+  <br/>
+fluid pressure. Narcotics also produce other CNS depressant effects, such as drowsiness, that may
+  <br/>
+further obscure the clinical course of the patients with head injuries.
+  <br/>
+Codeine or other narcotics may obscure signs on which to judge the diagnosis or clinical course of
+  <br/>
+patients with acute abdominal conditions.
+  <br/>
+Codeine is habit-forming and potentially abusable. Consequently, the extended use of this product is not
+  <br/>
+recommended.
+  <br/>
+Hepatotoxicity
+  <br/>
+Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver
+  <br/>
+transplant and death. Most of the cases of liver injury are associated with the use of acetaminophen at
+  <br/>
+doses that exceed 4000 milligrams per day, and often involve more than one acetaminophen-containing
+  <br/>
+product. The excessive intake of acetaminophen may be intentional to cause self-harm or unintentional
+  <br/>
+as patients attempt to obtain more pain relief or unknowingly take other acetaminophen-containing
+  <br/>
+products.
+  <br/>
+The risk of acute liver failure is higher in individuals with underlying liver disease and in individuals
+  <br/>
+who ingest alcohol while taking acetaminophen.
+  <br/>
+Instruct patients to look for acetaminophen or APAP on package labels and not to use more than one
+  <br/>
+product that contains acetaminophen. Instruct patients to seek medical attention immediately upon
+  <br/>
+ingestion of more than 4000 milligrams of acetaminophen per day, even if they feel well.
+  <br/>
+Serious Skin Reactions
+  <br/>
+Rarely, acetaminophen may cause serious skin reactions such as acute generalized exanthematous
+  <br/>
+pustulosis (AGEP), Stevens-Johnson syndrome (SJS), and toxic epidermal necrolysis (TEN), which can
+  <br/>
+be fatal. Patients should be informed about the signs of serious skin reactions, and use of the drug
+  <br/>
+should be discontinued at the first appearance of skin rash or any other sign of hypersensitivity.
+  <br/>
+Death Related to Ultra-Rapid Metabolis m of Codeine to Morphine
+  <br/>
+Respiratory depression and death have occurred in children who received codeine in the post-operative
+  <br/>
+period following tonsillectomy and/or adenoidectomy and had evidence of being ultra-rapid
+  <br/>
+metabolizers of codeine (i.e., multiple copies of the gene for cytochrome P450 isoenzyme 2D6 or high
+  <br/>
+morphine concentrations). Deaths have also occurred in nursing infants who were exposed to high
+  <br/>
+levels of morphine in breast milk because their mothers were ultra-rapid metabolizers of codeine [see
+  <br/>
+PRECAUTIONS, Nurs ing Mothers ].
+  <br/>
+Some individuals may be ultra-rapid metabolizers because of a specific CYP2D6 genotype (gene
+  <br/>
+duplications denoted as *1/*1xN or *1/*2xN). The prevalence of this CYP2D6 phenotype varies widely
+  <br/>
+and has been estimated at 0.5 to 1% in Chinese and Japanese, 0.5 to 1% in Hispanics, 1 to 10% in
+  <br/>
+Caucasians, 3% in African Americans, and 16 to 28% in North Africans, Ethiopians, and Arabs. Data are
+  <br/>
+not available for other ethnic groups. These individuals convert codeine into its active metabolite,
+  <br/>
+morphine, more rapidly and completely than other people. This rapid conversion results in higher than
+  <br/>
+expected serum morphine levels. Even at labeled dosage regimens, individuals who are ultra-rapid
+  <br/>
+metabolizers may have life-threatening or fatal respiratory depression or experience signs of overdose
+  <br/>
+(such as extreme sleepiness, confusion, or shallow breathing) [see OVERDOSAGE].
+  <br/>
+Children with obstructive sleep apnea who are treated with codeine for post-tonsillectomy and/or
+  <br/>
+adenoidectomy pain may be particularly sensitive to the respiratory depressant effects of codeine that
+  <br/>
+has been rapidly metabolized to morphine. Codeine-containing products are contraindicated for postoperative
+  <br/>
+pain management in all pediatric patients undergoing tonsillectomy and/or adenoidectomy [see
+ </paragraph>
+                  <paragraph>CONTRAINDICATIONS].
+  <br/>
+When prescribing codeine-containing products, healthcare providers should choose the lowest
+  <br/>
+effective dose for the shortest period of time and inform patients and caregivers about these risks and
+  <br/>
+the signs of morphine overdose [see OVERDOSAGE].
+  <br/>
+Hypers ens itivity/Anaphylaxis
+  <br/>
+There have been postmarketing reports of hypersensitivity and anaphylaxis associated with use of
+  <br/>
+acetaminophen. Clinical signs included swelling of the face, mouth, and throat, respiratory distress,
+  <br/>
+urticaria, rash, pruritus, and vomiting. There were infrequent reports of life-threatening anaphylaxis
+  <br/>
+requiring emergency medical attention. Instruct patients to discontinue acetaminophen and codeine
+  <br/>
+phosphate tablets, USP immediately and seek medical care if they experience these symptoms. Do not
+  <br/>
+prescribe acetaminophen and codeine phosphate tablets, USP for patients with acetaminophen allergy.
+  <br/>
+Alcohol Information
+  <br/>
+Chronic heavy alcohol abusers may be at increased risk of liver toxicity from excessive acetaminophen
+  <br/>
+use, although reports of this event are rare. Reports almost invariably involve cases of severe chronic
+  <br/>
+alcoholics and the dosages of acetaminophen most often exceed recommended doses and often involve
+  <br/>
+substantial overdose. Professionals should alert their patients who regularly consume large amounts of
+  <br/>
+alcohol not to exceed recommended doses of acetaminophen.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a56fff3-16f8-5e2e-e054-00144ff8d46c">
+               <id root="2a56fff3-16f7-5e2e-e054-00144ff8d46c"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>In the presence of head injury or other intracranial lesions, the respiratory depressant effects of codeine
+  <br/>
+and other narcotics may be markedly enhanced, as well as their capacity for elevating cerebrospinal
+  <br/>
+fluid pressure. Narcotics also produce other CNS depressant effects, such as drowsiness, that may
+  <br/>
+further obscure the clinical course of the patients with head injuries.
+  <br/>
+Codeine or other narcotics may obscure signs on which to judge the diagnosis or clinical course of
+  <br/>
+patients with acute abdominal conditions.
+  <br/>
+Codeine is habit-forming and potentially abusable. Consequently, the extended use of this product is not
+  <br/>
+recommended.
+  <br/>
+Hepatotoxicity
+  <br/>
+Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver
+  <br/>
+transplant and death. Most of the cases of liver injury are associated with the use of acetaminophen at
+  <br/>
+doses that exceed 4000 milligrams per day, and often involve more than one acetaminophen-containing
+  <br/>
+product. The excessive intake of acetaminophen may be intentional to cause self-harm or unintentional
+  <br/>
+as patients attempt to obtain more pain relief or unknowingly take other acetaminophen-containing
+  <br/>
+products.
+  <br/>
+The risk of acute liver failure is higher in individuals with underlying liver disease and in individuals
+  <br/>
+who ingest alcohol while taking acetaminophen.
+  <br/>
+Instruct patients to look for acetaminophen or APAP on package labels and not to use more than one
+  <br/>
+product that contains acetaminophen. Instruct patients to seek medical attention immediately upon
+  <br/>
+ingestion of more than 4000 milligrams of acetaminophen per day, even if they feel well.
+  <br/>
+Serious Skin Reactions
+  <br/>
+Rarely, acetaminophen may cause serious skin reactions such as acute generalized exanthematous
+  <br/>
+pustulosis (AGEP), Stevens-Johnson syndrome (SJS), and toxic epidermal necrolysis (TEN), which can
+  <br/>
+be fatal. Patients should be informed about the signs of serious skin reactions, and use of the drug
+  <br/>
+should be discontinued at the first appearance of skin rash or any other sign of hypersensitivity.
+  <br/>
+Death Related to Ultra-Rapid Metabolis m of Codeine to Morphine
+  <br/>
+Respiratory depression and death have occurred in children who received codeine in the post-operative
+  <br/>
+period following tonsillectomy and/or adenoidectomy and had evidence of being ultra-rapid
+  <br/>
+metabolizers of codeine (i.e., multiple copies of the gene for cytochrome P450 isoenzyme 2D6 or high
+  <br/>
+morphine concentrations). Deaths have also occurred in nursing infants who were exposed to high
+  <br/>
+levels of morphine in breast milk because their mothers were ultra-rapid metabolizers of codeine [see
+  <br/>
+PRECAUTIONS, Nurs ing Mothers ].
+  <br/>
+Some individuals may be ultra-rapid metabolizers because of a specific CYP2D6 genotype (gene
+  <br/>
+duplications denoted as *1/*1xN or *1/*2xN). The prevalence of this CYP2D6 phenotype varies widely
+  <br/>
+and has been estimated at 0.5 to 1% in Chinese and Japanese, 0.5 to 1% in Hispanics, 1 to 10% in
+  <br/>
+Caucasians, 3% in African Americans, and 16 to 28% in North Africans, Ethiopians, and Arabs. Data are
+  <br/>
+not available for other ethnic groups. These individuals convert codeine into its active metabolite,
+  <br/>
+morphine, more rapidly and completely than other people. This rapid conversion results in higher than
+  <br/>
+expected serum morphine levels. Even at labeled dosage regimens, individuals who are ultra-rapid
+  <br/>
+metabolizers may have life-threatening or fatal respiratory depression or experience signs of overdose
+  <br/>
+(such as extreme sleepiness, confusion, or shallow breathing) [see OVERDOSAGE].
+  <br/>
+Children with obstructive sleep apnea who are treated with codeine for post-tonsillectomy and/or
+  <br/>
+adenoidectomy pain may be particularly sensitive to the respiratory depressant effects of codeine that
+  <br/>
+has been rapidly metabolized to morphine. Codeine-containing products are contraindicated for postoperative
+  <br/>
+pain management in all pediatric patients undergoing tonsillectomy and/or adenoidectomy [see
+ </paragraph>
+                  <paragraph>CONTRAINDICATIONS].
+  <br/>
+When prescribing codeine-containing products, healthcare providers should choose the lowest
+  <br/>
+effective dose for the shortest period of time and inform patients and caregivers about these risks and
+  <br/>
+the signs of morphine overdose [see OVERDOSAGE].
+  <br/>
+Hypers ens itivity/Anaphylaxis
+  <br/>
+There have been postmarketing reports of hypersensitivity and anaphylaxis associated with use of
+  <br/>
+acetaminophen. Clinical signs included swelling of the face, mouth, and throat, respiratory distress,
+  <br/>
+urticaria, rash, pruritus, and vomiting. There were infrequent reports of life-threatening anaphylaxis
+  <br/>
+requiring emergency medical attention. Instruct patients to discontinue acetaminophen and codeine
+  <br/>
+phosphate tablets, USP immediately and seek medical care if they experience these symptoms. Do not
+  <br/>
+prescribe acetaminophen and codeine phosphate tablets, USP for patients with acetaminophen allergy.
+  <br/>
+Alcohol Information
+  <br/>
+Chronic heavy alcohol abusers may be at increased risk of liver toxicity from excessive acetaminophen
+  <br/>
+use, although reports of this event are rare. Reports almost invariably involve cases of severe chronic
+  <br/>
+alcoholics and the dosages of acetaminophen most often exceed recommended doses and often involve
+  <br/>
+substantial overdose. Professionals should alert their patients who regularly consume large amounts of
+  <br/>
+alcohol not to exceed recommended doses of acetaminophen.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a56fff3-16fa-5e2e-e054-00144ff8d46c">
+               <id root="2a56fff3-16f9-5e2e-e054-00144ff8d46c"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>The most frequently reported adverse reactions are drowsiness, lightheadedness, dizziness, sedation,
+  <br/>
+shortness of breath, nausea and vomiting. These effects seem to be more prominent in ambulatory than in
+  <br/>
+non-ambulatory patients, and some of these adverse reactions may be alleviated if the patient lies down.
+  <br/>
+Other adverse reactions include allergic reactions, euphoria, dysphoria, constipation, abdominal pain,
+  <br/>
+pruritus, rash, thrombocytopenia, agranulocytosis.
+  <br/>
+At higher doses codeine has most of the disadvantages of morphine including respiratory depression.
+  <br/>
+DRUG ABUSE AND DEPENDENCE
+  <br/>
+Controlled Subs tance
+  <br/>
+Acetaminophen and codeine phosphate tablets are classified as a Schedule III controlled substance.
+  <br/>
+Abus e and Dependence
+  <br/>
+Codeine can produce drug dependence of the morphine type and, therefore, has the potential for being
+  <br/>
+abused. Psychological dependence, physical dependence, and tolerance may develop upon repeated
+  <br/>
+administration and it should be prescribed and administered with the same degree of caution appropriate
+  <br/>
+to the use of other oral narcotic medications.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a56fff3-16fc-5e2e-e054-00144ff8d46c">
+               <id root="2a56fff3-16fb-5e2e-e054-00144ff8d46c"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>Following an acute overdosage, toxicity may result from codeine or acetaminophen.
+  <br/>
+Signs and Symptoms
+  <br/>
+Toxicity from codeine poisoning includes the opioid triad of: pinpoint pupils, depression of respiration,
+  <br/>
+and loss of consciousness. Convulsions may occur.
+  <br/>
+In acetaminophen overdosage: dose-dependent, potentially fatal hepatic necrosis is the most serious
+  <br/>
+adverse effect. Renal tubular necrosis, hypoglycemic coma and coagulation defects may also occur.
+  <br/>
+Early symptoms following a potentially hepatotoxic overdose may include: nausea, vomiting,
+  <br/>
+diaphoresis and general malaise. Clinical and laboratory evidence of hepatic toxicity may not be
+  <br/>
+apparent until 48 to 72 hours post-ingestion.
+  <br/>
+Treatment
+  <br/>
+A single or multiple drug overdose with acetaminophen and codeine is a potentially lethal polydrug
+  <br/>
+overdose, and consultation with a regional poison control center is recommended. Immediate treatment
+  <br/>
+includes support of cardiorespiratory function and measures to reduce drug absorption.
+  <br/>
+Oxygen, intravenous fluids, vasopressors, and other supportive measures should be employed as
+  <br/>
+indicated. Assisted or controlled ventilation should also be considered. For respiratory depression due
+  <br/>
+to overdosage or unusual sensitivity to codeine, parenteral naloxone is a specific and effective
+  <br/>
+antagonist.
+  <br/>
+Gastric decontamination with activated charcoal should be administered just prior to N-acetylcysteine
+  <br/>
+(NAC) to decrease systemic absorption if acetaminophen ingestion is known or suspected to have
+  <br/>
+occurred within a few hours of presentation. Serum acetaminophen levels should be obtained
+  <br/>
+immediately if the patient presents 4 hours or more after ingestion to assess potential risk of
+  <br/>
+hepatotoxicity; acetaminophen levels drawn less than 4 hours post-ingestion may be misleading. To
+  <br/>
+obtain the best possible outcome, NAC should be administered as soon as possible where impending or
+  <br/>
+evolving liver injury is suspected. Intravenous NAC may be administered when circumstances preclude
+  <br/>
+oral administration.
+  <br/>
+Vigorous supportive therapy is required in severe intoxication. Procedures to limit the continuing
+  <br/>
+absorption of the drug must be readily performed since the hepatic injury is dose dependent and occurs
+  <br/>
+early in the course of intoxication.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a5730bb-0145-1ea8-e054-00144ff88e88">
+               <id root="2a5730bb-0144-1ea8-e054-00144ff88e88"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Dosage should be adjusted according to severity of pain and response of the patient.
+  <br/>
+The usual adult dosage is:
+  <br/>
+Single Doses (range) Maximum 24 Hour Dose
+  <br/>
+Codeine Phosphate 15 mg to 60 mg 360 mg
+  <br/>
+Acetaminophen 300 mg to 1000 mg 4000 mg
+  <br/>
+The usual dose of codeine phosphate in children is 0.5 mg/kg.
+  <br/>
+Doses may be repeated up to every 4 hours.
+  <br/>
+The prescriber must determine the number of tablets per dose, and the maximum number of tablets per
+  <br/>
+24 hours based upon the above dosage guidance. This information should be conveyed in the
+  <br/>
+prescription.
+  <br/>
+It should be kept in mind, however, that tolerance to codeine can develop with continued use and that the
+  <br/>
+incidence of untoward effects is dose related. Adult doses of codeine higher than 60 mg fail to give
+  <br/>
+commensurate relief of pain but merely prolong analgesia and are associated with an appreciably
+  <br/>
+increased incidence of undesirable side effects. Equivalently high doses in children would have similar
+  <br/>
+effects.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a56fff3-1700-5e2e-e054-00144ff8d46c">
+               <id root="2a56fff3-16ff-5e2e-e054-00144ff8d46c"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>HOW SUPPLIED
+  <br/>
+Acetaminophen and codeine phosphate tablets USP (white, round, unscored):
+  <br/>
+Acetaminophen and codeine phosphate tablets USP (white, round, unscored):
+  <br/>
+List No. 0050, acetaminophen 300 mg and codeine phosphate 15 mg, debossed “2” on one side and
+  <br/>
+“TV”-“50” on the other side of tablet is available in bottles of 100 (NDC 0093-0050-01) tablets.
+  <br/>
+List No. 0150, acetaminophen 300 mg and codeine phosphate 30 mg, debossed “3” on one side and
+  <br/>
+“TV”-“150” on the other side of tablet is available in bottles of 100 (NDC 0093-0150-01) and 1000
+  <br/>
+(NDC 0093-0150-10) tablets.
+  <br/>
+List No. 0350, acetaminophen 300 mg and codeine phosphate 60 mg, debossed “4” on one side and
+  <br/>
+“93”-“350” on the other side of tablet is available in bottles of 100 (NDC 0093-0350-01), 500 (NDC
+  <br/>
+0093-0350-05), and 1000 (NDC 0093-0350-10) tablets.
+  <br/>
+Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature]. Protect from moisture.
+  <br/>
+PROTECT FROM LIGHT
+  <br/>
+Dispense in a tight, light-resistant container as defined in the USP, with a child-resistant closure (as
+  <br/>
+required).
+  <br/>
+KEEP THIS AND ALL MEDICATIONS OUT OF THE REACH OF CHILDREN.
+  <br/>
+Distributed By:
+  <br/>
+TEVA PHARMACEUTICALS USA, INC.
+  <br/>
+North Wales, PA 19454
+  <br/>
+Rev. AI 8/2015
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a56fff3-1704-5e2e-e054-00144ff8d46c">
+               <id root="2a56fff3-1703-5e2e-e054-00144ff8d46c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2a56fff3-1702-5e2e-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+               <component>
+                  <observationMedia ID="img_2a56fff3-1702-5e2e-e054-00144ff8d46c">
+                     <text>BTL LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Scan0002.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

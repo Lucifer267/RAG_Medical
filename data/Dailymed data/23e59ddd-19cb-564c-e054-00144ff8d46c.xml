@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="23e59ddd-19cb-564c-e054-00144ff8d46c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Oxygen, USP</title>
+   <effectiveTime value="20151106"/>
+   <setId root="23e59ddd-19c9-564c-e054-00144ff8d46c"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="785180758"/>
+            <name>OxyAir Medical LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="785180758"/>
+                        <name>OxyAirMedical LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="25251-123" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="23e5c5b7-9930-387f-e054-00144ff88e88"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20151106"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="25251-123" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Oxygen</name>
+                        <formCode code="C42933" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GAS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Oxygen</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="L" value="99"/>
+                              <denominator unit="L" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OXYGEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="S88TT14065" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>OXYGEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="41" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="25251-123-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43190" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DEWAR"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20030515"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73613" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved medical gas"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20030515"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_228ed557-38da-66e1-e054-00144ff88e88">
+               <id root="23e5c271-3d04-5a63-e054-00144ff8d46c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal for Oxygen Product</title>
+               <text>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_23e5c271-3d03-5a63-e054-00144ff8d46c"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">OXYGEN, </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">REFRIGERATED </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">LIQUID USP </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">UN 1073</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CONTENTS ________________LITERS</content>
+                  </paragraph>
+                  <paragraph>CAS NO: 7782-44-7</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DANGER:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">REFRIGERATED LIQUEFIED OXIDIZING GAS.</content> ALWAYS
+ </paragraph>
+                  <paragraph>KEEP CONTAINER IN UPRIGHT POSITION. DO NOT</paragraph>
+                  <paragraph>CHANGE OR FORCE FIT CONNECTIONS. 
+  <content styleCode="underline">MAY CAUSE OR INTENSIFY</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">FIRE; OXIDIZER, CONTAINS REFRIGERATED GAS: MAY CAUSE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">CRYOGENIC BURNS OR INJURY.</content> COMBUSTIBLES IN CONTACT WITH
+ </paragraph>
+                  <paragraph>LIQUID OXYGEN MAY EXPLODE ON IGNITION OR IMPACT.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Do not get in eyes, on skin, or on clothing.</content>
+                     <content styleCode="underline">Keep reduction valves free </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">from grease and oil. In case of fire, stop leak if safe to do so.</content> Avoid
+ </paragraph>
+                  <paragraph>spills. Do not walk or roll equipment over spills. 
+  <content styleCode="underline">Store and use in a well</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">ventilated place.</content>
+                     <content styleCode="underline">Use only with equipment of compatible materials</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">of construction and rated for cylinder pressure.</content>
+                     <content styleCode="underline">Wear cold insulating</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">gloves/face sheild/eye protection.</content>
+                     <content styleCode="underline">Protect from sunlight when ambient</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">temperature exceeds 52 ºC/125 ºF.</content>
+                     <content styleCode="underline">Container</content> temperature should
+ </paragraph>
+                  <paragraph>not exceed 52 ºC/125 ºF. Close valve after each use and when</paragraph>
+                  <paragraph>empty. Use a back flow preventative device in the piping. 
+  <content styleCode="underline">Do not</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">handle until all safety precautions have been read and understood.</content>
+                  </paragraph>
+                  <paragraph>Use only with equipment cleaned for oxygen service. 
+  <content styleCode="underline">Keep/store away</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">from combustible materials.</content> Do not drop. Use suitable hand truck for
+ </paragraph>
+                  <paragraph>container movement.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FIRST AID:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">IN CASE OF FROSTBITE:</content>
+                     <content styleCode="underline">Thaw frosted parts with lukewarm water.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Do not rub affected area. Get immediate medical advice/attention.</content>
+                  </paragraph>
+                  <paragraph>DO NOT REMOVE THIS PRODUCT LABEL.</paragraph>
+                  <paragraph>For emergency use only when administered by properly trained</paragraph>
+                  <paragraph>personnel for oxygen deficiency and resuscitation. For all other medical</paragraph>
+                  <paragraph>applications, 
+  <content styleCode="bold">Rx only</content>. Uninterrupted use of high concentrations of
+ </paragraph>
+                  <paragraph>oxygen over a long duration, without monitoring its effect on oxygen</paragraph>
+                  <paragraph>content of arterial blood, may be harmful. Use only with pressure</paragraph>
+                  <paragraph>reducing equipment and apparatus designed for oxygen. Do not</paragraph>
+                  <paragraph>attempt to use on patients who have stopped breathing unless used in</paragraph>
+                  <paragraph>conjunction with resuscitative equipment. Produced by Air Liquefaction.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ALWAYS KEEP CONTAINER IN UPRIGHT POSITION</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20030515"/>
+               <component>
+                  <observationMedia ID="img_23e5c271-3d03-5a63-e054-00144ff8d46c">
+                     <text>Representative Liquid Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="LoxLabel.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

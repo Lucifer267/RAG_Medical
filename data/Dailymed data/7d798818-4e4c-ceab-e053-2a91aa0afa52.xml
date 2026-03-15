@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7d798818-4e4c-ceab-e053-2a91aa0afa52"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20181220"/>
+   <setId root="7d798818-4e4b-ceab-e053-2a91aa0afa52"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="587619958"/>
+            <name>MediLink A/S</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="7d8e15d7-ef63-17b0-e053-2991aa0a79cc"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20181220"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72604-032" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Marplan</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Isocarboxacid</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="34237V843T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOCARBOXAZID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="34237V843T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ISOCARBOXAZID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="56" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="72604-032-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20181220"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20181220"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">CL;3M3</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48328" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pink" xsi:type="CE">
+                              <originalText>Dull Pink</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="8" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7d7a9ff1-d6a8-ea0b-e053-2991aa0a4f1f">
+               <id root="7d7a9ff1-d6a7-ea0b-e053-2991aa0a4f1f"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <title>Temporary Importation of Marplan (iscarboxacid) Tablets to Address Critical Drug Shortage</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">IMPORTANT PRESCRIBING INFORMATION</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>December 20, 2018</paragraph>
+                  <paragraph/>
+                  <paragraph>Subject: Temporary Importation of Marplan® (isocarboxacid) Tablets to Address Critical Drug Shortage</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Dear Healthcare Professional,</paragraph>
+                  <paragraph/>
+                  <paragraph>In order to address the critical shortage of Marplan® (isocarboxazid) 10 mg Tablets in the United States (US) market, Validus Pharmaceuticals LLC is coordinating with the U.S. Food and Drug Administration (FDA) to make Marplan available to our patients. Validus has initiated temporary importation of another manufacturer’s Marplan (isocarboxacid) into the U.S. market. This product is manufactured and marketed in Denmark by MediLink.</paragraph>
+                  <paragraph/>
+                  <paragraph>At this time, no other entity except Validus Pharmaceuticals LLC is authorized by the FDA to import and distribute MediLink’s Marplan (isocarboxacid) 10 mg Tablets in the United States. FDA has not approved MediLink’s Marplan (isocarboxacid) 10 mg Tablets but does not object to its importation into the United States. Effective immediately, and during this temporary period, Validus will offer the following product:</paragraph>
+                  <paragraph/>
+                  <paragraph>Product Name and Description Bottle Count NDC Code Manufacturer Marplan (isocarboxacid) 10 mg Tablets 56 tablets 72604-032-01 MediLink</paragraph>
+                  <paragraph/>
+                  <paragraph>It is important to note the following:</paragraph>
+                  <paragraph>• The labeling is in Danish. MediLink’s Marplan (isocarboxacid) 10 mg Tablets’ labeling, with the exception of the product name “Marplan”, will appear in Danish. There are key differences in the labeling between Validus’ Marplan and Medilink’s Marplan. A side by side comparison of the FDA approved Marplan (isocarboxazid) Prescribing Information and the imported Marplan (isocarboxacid) product information is included at the end of this letter.</paragraph>
+                  <paragraph>• The tablets have different appearance. MediLink’s Marplan (isocarboxacid) 10 mg tablets are “dull pink” in color whereas Validus’ Marplan (isocarboxazid) 10 mg tablets are “peach-colored.” MediLink’s Marplan 10 mg tablets are imprinted with “CL 3M3” whereas Validus’ Marplan 10 mg tablets are imprinted with “Marplan” and “10” on one side. Please refer to the “Product Comparison” table at the end of this letter for details and images.</paragraph>
+                  <paragraph>• The barcode may not register accurately in the U.S. scanning systems. Institutions should manually input the product into their systems and confirm that the barcode Marplan DHCP Letter Page 1 of 22 systems do not provide incorrect information when the product is scanned. Alternative procedures should be followed to assure that the correct drug product is being used and administered to individual patients.</paragraph>
+                  <paragraph/>
+                  <paragraph>To order, or if you have any questions about MediLink’s Marplan, please contact Validus Customer Service by phone at 1-866-982-5438 or by e-mail at info@validuspharma.com.</paragraph>
+                  <paragraph/>
+                  <paragraph>To report Adverse Events or Quality Problems among patients who have received - MediLink’s Marplan, please contact Validus at 1-866-982-5438 or by e-mail at info@validuspharma.com. Adverse events or quality problems may also be reported to FDA’s MedWatch Adverse reporting Program either online, by regular mail, or by fax:</paragraph>
+                  <paragraph>• Complete and submit the report Online: www.fda.gov/medwatch/report.htm</paragraph>
+                  <paragraph>• Regular Mail or Fax: Download form www.fda.gov/Medwatch/getforms.htm or call 1- 800-332-1088 to request a reporting form. Complete and return the form to the address on the pre-addressed form, or submit it by fax to 1-800-FDA-0178 (1-800- 332-1078).</paragraph>
+                  <paragraph/>
+                  <paragraph>If you have any questions about the information contained in this letter or the safe and effective use of MediLink’s Marplan (isocarboxacid) 10mg Tablets, please contact Validus at 1-866-982- 5438 or by e-mail at info@validuspharma.com.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Sincerely,</paragraph>
+                  <paragraph>Gina Walljasper</paragraph>
+                  <paragraph>Sr. Director Regulatory and Quality Operations</paragraph>
+                  <paragraph>Validus Pharmaceuticals LLC</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20181220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7d7ae2fa-4ae0-7f9c-e053-2991aa0ab967">
+               <id root="7d7ae2fa-4adf-7f9c-e053-2991aa0ab967"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - Marplan (isocarboxacid) 10mg Tablets</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>Marplan 10 mg is a round and flat, pink tablet with a break line on one side and labeled CL 3M3 on the other side.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_7d7ae2fa-4ade-7f9c-e053-2991aa0ab967"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20181220"/>
+               <component>
+                  <observationMedia ID="img_7d7ae2fa-4ade-7f9c-e053-2991aa0ab967">
+                     <text>Primary Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Untitled.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

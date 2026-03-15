@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="28c7a185-4081-1448-e054-00144ff8d46c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Dicopanol</title>
+   <effectiveTime value="20160107"/>
+   <setId root="271bfbb6-4996-500a-e054-00144ff8d46c"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="021420944"/>
+            <name>California Pharmaceuticals LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="021420944"/>
+                  <name>California Pharmaceuticals LLC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="021420944"/>
+                        <name>California Pharmaceuticals LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="70332-103" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="28c7aac1-288f-1c80-e054-00144ff8d46c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20160107"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70332-103" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dicopanol</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Diphenhydramine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70332-103-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="0.86" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Diphenhydramine Hydrochloride</name>
+                              <formCode code="C42975" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SUSPENSION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Diphenhydramine Hydrochloride</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="g" value="0.86"/>
+                                    <denominator unit="g" value="0.86"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="TC2D6JAD40" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DIPHENHYDRAMINE HYDROCHLORIDE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="8GTS82S83M" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>DIPHENHYDRAMINE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="0.75" unit="g"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43172" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, GLASS"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="150" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Oral Suspension Vehicle</name>
+                              <formCode code="C42953" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LIQUID"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Suspension</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CITRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCERIN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="VCQ006KQ1E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>XYLITOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3VRD35U26C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLYCYRRHIZIN, AMMONIATED</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2A88ZO081O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PINEAPPLE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>XANTHAN GUM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="OJ245FE5EU" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM BENZOATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="5EVU04N5QU" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ORANGE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CITRIC ACID MONOHYDRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="JL5DK93RCL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MELATONIN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1VPU26JZZ4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POTASSIUM SORBATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="6TC6NN0876" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>STEVIA LEAF</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="150" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160101"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_271d3bac-1d11-1c8a-e054-00144ff8d46c">
+               <id root="27a9e916-74bc-5985-e054-00144ff8d46c"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title>Dicopanol, Instructions for Use, Page 2</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_27a9e916-74bb-5985-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160101"/>
+               <component>
+                  <observationMedia ID="img_27a9e916-74bb-5985-e054-00144ff8d46c">
+                     <text>Dicopanol - Instructions 2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Dicopanol CS67-A1 - Insert Dicopanol Front - California Pharma LLC 2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_271ce560-ba81-6dcf-e054-00144ff8d46c">
+               <id root="27aa2d8c-d081-6cd6-e054-00144ff88e88"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title>Instructions for Preparation - page 1</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_27a9e916-74bd-5985-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160101"/>
+               <component>
+                  <observationMedia ID="img_27a9e916-74bd-5985-e054-00144ff8d46c">
+                     <text>Dicopanol - Instructions Page 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Dicopanol CS67-A1 - Insert Dicopanol Front - California Pharma LLC 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_27351a84-c83b-0e34-e054-00144ff8d46c">
+               <id root="27351a84-c83a-0e34-e054-00144ff8d46c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Diphenhydramine - label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2734a77a-24bb-3780-e054-00144ff88e88"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160101"/>
+               <component>
+                  <observationMedia ID="img_2734a77a-24bb-3780-e054-00144ff88e88">
+                     <text>Diphen  label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Dicopanol CS65-A1 rev 3 (Label Diphen HCI .86 g) California Pharma LLC.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_271c8647-45d6-71cc-e054-00144ff88e88">
+               <id root="27a9e916-74bf-5985-e054-00144ff8d46c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Dicopanol. Package Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_27a9e916-74be-5985-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160101"/>
+               <component>
+                  <observationMedia ID="img_27a9e916-74be-5985-e054-00144ff8d46c">
+                     <text>Dicopanol - Principal display label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Dicopanol CS119-A1 - Principle Display Label  Dicopanol Kit - California Pharma LLC.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_27a9e916-74c3-5985-e054-00144ff8d46c">
+               <id root="27a9e916-74c2-5985-e054-00144ff8d46c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Dicopanol - Flavor Suspension label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_27a9e916-74c1-5985-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160101"/>
+               <component>
+                  <observationMedia ID="img_27a9e916-74c1-5985-e054-00144ff8d46c">
+                     <text>Dicopanol - Flavor Suspension label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Dicopanol CS66-A1 - Flavor Label Suspension - California Pharma LLC.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

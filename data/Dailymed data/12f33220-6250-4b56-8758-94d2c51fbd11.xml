@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl" ?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="12f33220-6250-4b56-8758-94d2c51fbd11"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20110801"/>
+   <setId root="11690b28-5509-496a-9648-349158770ec2"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="831995316" root="1.3.6.1.4.1.519.1"/>
+            <name>Unit Dose Services</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="831995316" root="1.3.6.1.4.1.519.1"/>
+                  <name>Unit Dose Services</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="831995316" root="1.3.6.1.4.1.519.1"/>
+                        <name>Unit Dose Services</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50436-4856" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="7959660f-7cc5-4075-8c15-71414586de81"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20110812"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="50436-4856"/>
+                        <name>butalbital, acetaminophen and caffeine</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>butalbital, acetaminophen and caffeine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="46672-053" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="50"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="KHS0AZ4JVK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTALBITAL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="KHS0AZ4JVK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BUTALBITAL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="325"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETAMINOPHEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETAMINOPHEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="40"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3G6A5W338E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CAFFEINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3G6A5W338E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CAFFEINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4ELV7Z65AP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STEARIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50436-4856-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="50436-4856-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA089175" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19870121"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="14" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText>CAPSULE SHAPED</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">MIA;110</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_3462dcb5-d006-4c38-8129-4866f845092f">
+               <id root="e68d5fb6-b3d0-4c21-b1ae-bd8c9267d2c5"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNING</title>
+               <effectiveTime value="20110812"/>
+               <component>
+                  <section ID="id_9d7b949b-d88d-4f32-b5b7-2ab95da7d94d">
+                     <id root="c414bdc3-df3e-48f3-9f67-a444e7de20bf"/>
+                     <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">HEPATOTOXICITY</content>
+                        </paragraph>
+                        <paragraph>ACETAMINOPHEN HAS BEEN ASSOCIATED WITH CASES OF ACUTE LIVER FAILURE, AT TIMES RESULTING IN LIVER TRANSPLANT AND DEATH. MOST OF THE CASES OF LIVER INJURY ARE ASSOCIATED WITH THE USE OF ACETAMINOPHEN AT DOSES THAT EXCEED 4000 MILLIGRAMS PER DAY, AND OFTEN INVOLVE MORE THAN ONE ACETAMINOPHEN-CONTAINING PRODUCT.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_90b0bee0-e336-48b9-9863-c62c4819e014">
+               <id root="62f255db-a829-42a2-9091-8f1d6096dbef"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Butalbital, acetaminophen and caffeine are supplied in tablet form for oral administration.</paragraph>
+                  <paragraph>Each tablet contains the following active ingredients:</paragraph>
+                  <paragraph>Butalbital ...................50 mg</paragraph>
+                  <paragraph>  May be habit-forming.
+                            <content styleCode="bold">Warning:</content>
+                  </paragraph>
+                  <paragraph>Acetaminophen ........325 mg</paragraph>
+                  <paragraph>Caffeine ......................40 mg</paragraph>
+                  <paragraph>In addition, each tablet contains the following inactive ingredients: colloidal silicon dioxide, croscarmellose sodium, crospovidone, microcrystalline cellulose, povidone, pregelatinized corn starch and stearic acid.</paragraph>
+                  <paragraph>Butalbital (5-allyl-5-isobutylbarbituric acid), is a short to intermediate acting barbiturate. It has the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="id_b7d25b03-12e4-4789-84f2-045b27975da1">
+                     <caption ID="id_6672d50d-a836-4736-a03d-2892fccd3f66">C H N O MW = 224.26
+                                <sub>11</sub>
+                        <sub>16</sub>
+                        <sub>2</sub>
+                        <sub>3</sub>
+                     </caption>
+                  </renderMultiMedia>
+                  <paragraph>Acetaminophen (4'-hydroxyacetanilide), is a non-opiate, non-salicylate analgesic and antipyretic. It has the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="id_5916385a-c5e3-417c-b4d5-92f9ec270ff9">
+                     <caption ID="id_ac2c5f34-e794-48f1-8d13-a49ede9a69e8">C H NO MW = 151.16
+                                <sub>8</sub>
+                        <sub>9</sub>
+                        <sub>2</sub>
+                     </caption>
+                  </renderMultiMedia>
+                  <paragraph>Caffeine (1,3,7-trimethylxanthine), is a central nervous system stimulant. It has the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="id_0cf985c7-01eb-4e21-84c2-f91265204706">
+                     <caption ID="id_6f09693d-a517-440d-911a-9d374a8afb4b">C H N O MW = 194.19
+                                <sub>8</sub>
+                        <sub>10</sub>
+                        <sub>4</sub>
+                        <sub>2</sub>
+                     </caption>
+                  </renderMultiMedia>
+               </text>
+               <effectiveTime value="20110812"/>
+               <component>
+                  <observationMedia ID="id_b7d25b03-12e4-4789-84f2-045b27975da1">
+                     <text>butalbital chemical structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="968a72e0-d21c-4350-8c80-4d82323fd2ff-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_5916385a-c5e3-417c-b4d5-92f9ec270ff9">
+                     <text>acetaminophen chemical structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="968a72e0-d21c-4350-8c80-4d82323fd2ff-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_0cf985c7-01eb-4e21-84c2-f91265204706">
+                     <text>caffeine chemical structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="968a72e0-d21c-4350-8c80-4d82323fd2ff-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_ea63898f-334b-456f-8803-3777f84f2bc8">
+               <id root="ece4eb24-78ff-4fdd-9a7e-8f31521574df"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>This combination drug product is intended as a treatment for tension headache.</paragraph>
+                  <paragraph>It consists of a fixed combination of butalbital, acetaminophen and caffeine. The role each component plays in the relief of the complex of symptoms known as tension headache is incompletely understood.</paragraph>
+               </text>
+               <effectiveTime value="20110812"/>
+               <component>
+                  <section ID="i4i_section_id_197f1eee-53f1-4a62-add6-644aff47f001">
+                     <id root="14865057-d058-4e8a-9df4-4d58b1bc9e8d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>The behavior of the individual components is described below.</paragraph>
+                        <paragraph>: Butalbital is well absorbed from the gastrointestinal tract and is expected to distribute to most tissues in the body. Barbiturates in general may appear in breast milk and readily cross the placental barrier. They are bound to plasma and tissue proteins to a varying degree and binding increases directly as a function of lipid solubility.
+                                    <content styleCode="underline">Butalbital</content>
+                        </paragraph>
+                        <paragraph>Elimination of butalbital is primarily via the kidney (59% to 88% of the dose) as unchanged drug or metabolites. The plasma half-life is about 35 hours. Urinary excretion products include parent drug (about 3.6% of the dose), 5-isobutyl-5-(2,3-dihydroxypropyl) barbituric acid (about 24% of the dose), 5-allyl-5(3-hydroxy-2-methyl-1-propyl) barbituric acid (about 4.8% of the dose), products with the barbituric acid ring hydrolyzed with excretion of urea (about 14% of the dose), as well as unidentified materials. Of the material excreted in the urine, 32% is conjugated.</paragraph>
+                        <paragraph>The plasma protein binding of butalbital is 45% over the concentration range of 0.5 to 20 mcg/mL. This falls within the range of plasma protein binding (20% to 45%) reported with other barbiturates such as phenobarbital, pentobarbital, and secobarbital sodium. The plasma-to-blood concentration ratio was almost unity indicating that there is no preferential distribution of butalbital into either plasma or blood cells. (See for toxicity information.)
+                                    <content styleCode="italics">in vitro</content>
+                           <linkHtml href="#i4i_overdosage_id_9c90badd-115a-411a-8905-9d3204a53edf">OVERDOSAGE</linkHtml>
+                        </paragraph>
+                        <paragraph>: Acetaminophen is rapidly absorbed from the gastrointestinal tract and is distributed throughout most body tissues. The plasma half-life is 1.25 to 3 hours, but may be increased by liver damage and following overdosage. Elimination of acetaminophen is principally by liver metabolism (conjugation) and subsequent renal excretion of metabolites. Approximately 85% of an oral dose appears in the urine within 24 hours of administration, most as the glucuronide conjugate, with small amounts of other conjugates and unchanged drug. (See for toxicity information.)
+                                    <content styleCode="underline">Acetaminophen</content>
+                           <linkHtml href="#i4i_overdosage_id_9c90badd-115a-411a-8905-9d3204a53edf">OVERDOSAGE</linkHtml>
+                        </paragraph>
+                        <paragraph>: Like most xanthines, caffeine is rapidly absorbed and distributed in all body tissues and fluids, including the CNS, fetal tissues, and breast milk.
+                                    <content styleCode="underline">Caffeine</content>
+                        </paragraph>
+                        <paragraph>Caffeine is cleared through metabolism and excretion in the urine. The plasma half-life is about 3 hours. Hepatic biotransformation prior to excretion, results in about equal amounts of 1-methylxanthine and 1-methyluric acid. Of the 70% of the dose that is recovered in the urine, only 3% is unchanged drug. (See for toxicity information.)
+                                    <linkHtml href="#i4i_overdosage_id_9c90badd-115a-411a-8905-9d3204a53edf">OVERDOSAGE</linkHtml>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_18373dc3-e4e2-4bd6-b893-fcd731dd41cb">
+               <id root="541efd6d-73c0-4716-a886-66750a9042c6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Butalbital, acetaminophen and caffeine tablets are indicated for the relief of the symptom complex of tension (or muscle contraction) headache.</paragraph>
+                  <paragraph>Evidence supporting the efficacy and safety of this combination product in the treatment of multiple recurrent headaches is unavailable. Caution in this regard is required because butalbital is habit-forming and potentially abusable.</paragraph>
+               </text>
+               <effectiveTime value="20110812"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_a8de98b3-77f8-473a-99b8-4ffc6eb6b828">
+               <id root="b5956602-0fe7-4cc3-8a6e-90d2952b6263"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>This product is contraindicated under the following conditions:</paragraph>
+                  <list listType="unordered">
+                     <item>Hypersensitivity or intolerance to any component of this product.</item>
+                     <item>Patients with porphyria.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20110812"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_0996ce26-348e-4e68-a03a-66c445c9d454">
+               <id root="3a5390ae-97ca-4ade-978d-ad3e655177c4"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Butalbital is habit-forming and potentially abusable. Consequently, the extended use of this product is not recommended.</paragraph>
+               </text>
+               <effectiveTime value="20110812"/>
+               <component>
+                  <section ID="i4i_section_id_ded8d55c-e3da-4bca-b641-de79c665d08f">
+                     <id root="40a43021-bf66-4dd2-b675-3b30b320649d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hepatotoxicity</title>
+                     <text>
+                        <paragraph>Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver transplant and death. Most of the cases of liver injury are associated with the use of acetaminophen at doses that exceed 4000 milligrams per day, and often involve more than one acetaminophen-containing product. The excessive intake of acetaminophen may be intentional to cause self-harm or unintentional as patients attempt to obtain more pain relief or unknowingly take other acetaminophen-containing products.</paragraph>
+                        <paragraph>The risk of acute liver failure is higher in individuals with underlying liver disease and in individuals who ingest alcohol while taking acetaminophen.</paragraph>
+                        <paragraph>Instruct patients to look for acetaminophen or APAP on package labels and not to use more than one product that contains acetaminophen. Instruct patients to seek medical attention immediately upon ingestion of more than 4000 milligrams of acetaminophen per day, even if they feel well.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_1e2c2ae2-c29d-4e6a-9b00-9db427a2debf">
+                     <id root="2d5a3836-fe33-4397-9f9c-f67492233581"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypersensitivity/anaphylaxis</title>
+                     <text>
+                        <paragraph>There have been post-marketing reports of hypersensitivity and anaphylaxis associated with use of acetaminophen. Clinical signs included swelling of the face, mouth, and throat, respiratory distress, urticaria, rash, pruritus, and vomiting. There were infrequent reports of life-threatening anaphylaxis requiring emergency medical attention. Instruct patients to discontinue butalbital, acetaminophen and caffeine tablets immediately and seek medical care if they experience these symptoms. Do not prescribe butalbital, acetaminophen and caffeine tablets for patients with acetaminophen allergy.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_b1a5a3d3-5805-4e28-8604-17cf73dfb14d">
+               <id root="c19cd97f-5ca2-4ccf-a34b-9fe18ada32dd"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20110812"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_dc94e0d1-5b4e-4c09-b540-f1f43a9c976d">
+                     <id root="d86ebd59-3b7e-4ee3-979c-9abc52b1d5e7"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Butalbital, acetaminophen and caffeine tablets should be prescribed with caution in certain special-risk patients, such as the elderly or debilitated, and those with severe impairment of renal or hepatic function, or acute abdominal conditions.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_info_patients_id_5a09061f-bb09-4333-831e-154b2cd4c8f6">
+                     <id root="fc6c0b62-c753-4f66-a447-fe26bc29679e"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients/Caregivers</title>
+                     <text>
+                        <list listType="unordered">
+                           <item>Do not take butalbital, acetaminophen and caffeine tablets if you are allergic to any of its ingredients.</item>
+                           <item>If you develop signs of allergy such as a rash or difficulty breathing, stop taking butalbital, acetaminophen and caffeine tablets and contact your healthcare provider immediately.</item>
+                           <item>Do not take more than 4000 milligrams of acetaminophen per day. Call your doctor if you took more than the recommended dose.</item>
+                        </list>
+                        <paragraph>This product may impair mental and/or physical abilities required for the performance of potentially hazardous tasks such as driving a car or operating machinery. Such tasks should be avoided while taking this product.</paragraph>
+                        <paragraph>Alcohol and other CNS depressants may produce an additive CNS depression when taken with this combination product, and should be avoided.</paragraph>
+                        <paragraph>Butalbital may be habit-forming. Patients should take the drug only for as long as it is prescribed, in the amounts prescribed, and no more frequently than prescribed.</paragraph>
+                        <paragraph>For more information on use in geriatric patients, (see / .)
+                                    <linkHtml href="#i4i_precautions_id_b1a5a3d3-5805-4e28-8604-17cf73dfb14d" title="PRECAUTIONS">PRECAUTIONS</linkHtml>
+                           <linkHtml href="#i4i_geriatric_use_id_946832b0-9278-4a85-9866-ed5c210670c2" title="Geriatric Use">Geriatric Use</linkHtml>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_lab_tests_id_66148e36-eb09-4451-8d48-7d868ca9b326">
+                     <id root="c6c39335-b96b-445e-bfea-08755b0695f5"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>In patients with severe hepatic or renal disease, effects of therapy should be monitored with serial liver and/or renal function tests.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_drug_interaction_id_a0df8336-e107-47fa-bbda-6d97a5c7b76b">
+                     <id root="15a21072-0ede-4d3d-ab0a-aa23246b031d"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>The CNS effects of butalbital may be enhanced by monoamine oxidase (MAO) inhibitors.</paragraph>
+                        <paragraph>Butalbital, acetaminophen and caffeine may enhance the effects of: other narcotic analgesics, alcohol, general anesthetics, tranquilizers such as chlordiazepoxide, sedative-hypnotics, or other CNS depressants, causing increased CNS depression.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_drug_lab_interaction_id_c2c227a1-54ae-4a23-a71b-6d43bc37dbe9">
+                     <id root="56125751-1ccb-47aa-8b2c-b607f63b4cb3"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions</title>
+                     <text>
+                        <paragraph>Acetaminophen may produce false-positive test results for urinary 5-hydroxyindoleacetic acid.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_3e8a39e5-965d-483c-86cf-fc745eccfe5f">
+                     <id root="d9da6fce-7d5f-46fb-90e6-b40fe193ef46"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No adequate studies have been conducted in animals to determine whether acetaminophen or butalbital have a potential for carcinogenesis, mutagenesis or impairment of fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_d98e1c1a-cffe-41a5-976e-a2f232e275cb">
+                     <id root="c3e2cbe8-2680-4e12-8fcb-6264688a156b"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy </title>
+                     <effectiveTime value="20110812"/>
+                     <component>
+                        <section ID="i4i_teratogenic_id_889c0646-ddf0-4e71-9a8a-f5f370fc20be">
+                           <id root="680240bc-0763-46bb-b62e-f15d481d417b"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects</title>
+                           <effectiveTime value="20110812"/>
+                           <component>
+                              <section ID="i4i_pregnancy_C_id_17bebeb4-5bb4-4fe8-8c37-e4b34070382e">
+                                 <id root="57b30e45-ba26-4b26-a0df-d92341c1c7ee"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Pregnancy Category C</title>
+                                 <text>
+                                    <paragraph>Animal reproduction studies have not been conducted with this combination product. It is also not known whether butalbital, acetaminophen and caffeine can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. This product should be given to a pregnant woman only when clearly needed.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20110812"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="i4i_non_teratogenic_id_2c83adab-e56b-4ca9-95b1-d79e6b64c28b">
+                           <id root="92a61423-b23f-4b23-9f2e-01c85bd7296d"/>
+                           <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                           <title>Nonteratogenic Effects</title>
+                           <text>
+                              <paragraph>Withdrawal seizures were reported in a two-day-old male infant whose mother had taken a butalbital-containing drug during the last two months of pregnancy. Butalbital was found in the infant’s serum. The infant was given phenobarbital 5 mg/kg, which was tapered without further seizure or other withdrawal symptoms.</paragraph>
+                           </text>
+                           <effectiveTime value="20110812"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_d3208265-5102-46b3-b3a6-74185a55010e">
+                     <id root="787eb0cd-7ab5-4cc7-b6a5-4202140cd3c2"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Caffeine, barbiturates and acetaminophen are excreted in breast milk in small amounts, but the significance of their effects on nursing infants is not known. Because of potential for serious adverse reactions in nursing infants from butalbital, acetaminophen and caffeine, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_9f9c800b-5f2a-46da-95c9-741ddfbd4977">
+                     <id root="8fa85c41-245b-4eac-947e-4baf08d28184"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients below the age of 12 have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_geriatric_use_id_946832b0-9278-4a85-9866-ed5c210670c2">
+                     <id root="fbd0fdaf-f394-4101-9b85-d8c6b0ede1b9"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of butalbital, acetaminophen and caffeine tablets did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>Butalbital is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_4ce12d5b-e9e4-4b94-a75c-a8618b56908d">
+               <id root="b8d5aa35-b558-4fb5-92d2-cae9bac35ee0"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <effectiveTime value="20110812"/>
+               <component>
+                  <section ID="i4i_section_id_6a197b8d-dac3-4a7b-9d73-9086d4ef13b1">
+                     <id root="e53b241b-2d9c-44a2-8dc7-2f38cb589021"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Frequently Observed</title>
+                     <text>
+                        <paragraph>The most frequently reported adverse reactions are drowsiness, lightheadedness, dizziness, sedation, shortness of breath, nausea, vomiting, abdominal pain, and intoxicated feeling.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_2acd6eee-a762-4efa-b7bc-30158b499681">
+                     <id root="ca9258db-a73c-4bae-8d48-2086086a3f87"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Infrequently Observed</title>
+                     <text>
+                        <paragraph>All adverse events tabulated below are classified as infrequent.</paragraph>
+                        <paragraph>headache, shaky feeling, tingling, agitation, fainting, fatigue, heavy eyelids, high energy, hot spells, numbness, sluggishness, seizure. Mental confusion, excitement or depression can also occur due to intolerance, particularly in elderly or debilitated patients, or due to overdosage of butalbital.
+                                    <content styleCode="italics">Central Nervous System:</content>
+                        </paragraph>
+                        <paragraph>dry mouth, hyperhidrosis.
+                                    <content styleCode="italics">Autonomic Nervous System:</content>
+                        </paragraph>
+                        <paragraph>difficulty swallowing, heartburn, flatulence, constipation.
+                                    <content styleCode="italics">Gastrointestinal:</content>
+                        </paragraph>
+                        <paragraph>tachycardia.
+                                    <content styleCode="italics">Cardiovascular:</content>
+                        </paragraph>
+                        <paragraph>leg pain, muscle fatigue.
+                                    <content styleCode="italics">Musculoskeletal:</content>
+                        </paragraph>
+                        <paragraph>diuresis.
+                                    <content styleCode="italics">Genitourinary:</content>
+                        </paragraph>
+                        <paragraph>pruritus, fever, earache, nasal congestion, tinnitus, euphoria, allergic reactions.
+                                    <content styleCode="italics">Miscellaneous:</content>
+                        </paragraph>
+                        <paragraph>Several cases of dermatological reactions, including toxic epidermal necrolysis and erythema multiforme, have been reported.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">The following adverse drug events may be borne in mind as potential effects of the components of this product. Potential effects of high dosage are listed in the section.
+                                        <linkHtml href="#i4i_overdosage_id_9c90badd-115a-411a-8905-9d3204a53edf" title="OVERDOSAGE">OVERDOSAGE</linkHtml>
+                           </content>
+                        </paragraph>
+                        <paragraph>allergic reactions, rash, thrombocytopenia, agranulocytosis.
+                                    <content styleCode="italics">Acetaminophen:</content>
+                        </paragraph>
+                        <paragraph>cardiac stimulation, irritability, tremor, dependence, nephrotoxicity, hyperglycemia.
+                                    <content styleCode="italics">Caffeine:</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_abuse_dependence_id_f6d8dae7-2f18-4734-87ec-c63742260b76">
+               <id root="ad6d00c4-2bc2-4ad8-91a1-a308dfd21b2f"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE:</title>
+               <effectiveTime value="20110812"/>
+               <component>
+                  <section ID="i4i_abuse_id_c99a3749-6b2c-4ded-80f7-f4800fab24f7">
+                     <id root="b3890ac2-c364-43f8-8eaf-e3072ef430a7"/>
+                     <code code="34086-9" codeSystem="2.16.840.1.113883.6.1" displayName="ABUSE SECTION"/>
+                     <title>Abuse and Dependence</title>
+                     <text>
+                        <paragraph>Tolerance, psychological dependence, and physical dependence may occur especially following prolonged use of high doses of barbiturates. The average daily dose for the barbiturate addict is usually about 1500 mg. As tolerance to barbiturates develops, the amount needed to maintain the same level of intoxication increases; tolerance to a fatal dosage, however, does not increase more than two-fold. As this occurs, the margin between an intoxication dosage and fatal dosage becomes smaller. The lethal dose of a barbiturate is far less if alcohol is also ingested. Major withdrawal symptoms (convulsions and delirium) may occur within 16 hours and last up to 5 days after abrupt cessation of these drugs. Intensity of withdrawal symptoms gradually declines over a period of approximately 15 days. Treatment of barbiturate dependence consists of cautious and gradual withdrawal of the drug. Barbiturate-dependent patients can be withdrawn by using a number of different withdrawal regimens. One method involves initiating treatment at the patient’s regular dosage level and gradually decreasing the daily dosage as tolerated by the patient.
+                                    <content styleCode="underline">Butalbital:</content>
+                           <content styleCode="italics">Barbiturates may be habit-forming:</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_9c90badd-115a-411a-8905-9d3204a53edf">
+               <id root="22622764-7ca9-4417-a417-d43fe9c6f75d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Following an acute overdosage of butalbital, acetaminophen and caffeine, toxicity may result from the barbiturate or the acetaminophen. Toxicity due to caffeine is less likely, due to the relatively small amounts in this formulation.</paragraph>
+               </text>
+               <effectiveTime value="20110812"/>
+               <component>
+                  <section ID="i4i_section_id_3808c4b8-c053-41ff-b518-0ff66b7279bf">
+                     <id root="01814672-f468-471c-bdac-34450ae535a1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Signs and Symptoms</title>
+                     <text>
+                        <paragraph>Toxicity from poisoning includes drowsiness, confusion, and coma; respiratory depression; hypotension; and hypovolemic shock.
+                                    <content styleCode="bold">
+                              <content styleCode="italics">barbiturate</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>In overdosage: dose-dependent, potentially fatal hepatic necrosis is the most serious adverse effect. Renal tubular necroses, hypoglycemic coma and coagulation defects may also occur. Early symptoms following a potentially hepatotoxic overdose may include: nausea, vomiting, diaphoresis and general malaise. Clinical and laboratory evidence of hepatic toxicity may not be apparent until 48 to 72 hours post-ingestion.
+                                    <content styleCode="bold">
+                              <content styleCode="italics">acetaminophen</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Acute poisoning may cause insomnia, restlessness, tremor, and delirium, tachycardia and extrasystoles.
+                                    <content styleCode="bold">
+                              <content styleCode="italics">caffeine</content>
+                           </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_6e209781-e513-4f48-8630-4cf73c6515ea">
+                     <id root="edd14ba3-4711-4012-9e20-ab19391d5154"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment</title>
+                     <text>
+                        <paragraph>A single or multiple drug overdose with this combination product is a potentially lethal polydrug overdose, and consultation with a regional poison control center is recommended.  Immediate treatment includes support of cardiorespiratory function and measures to reduce drug absorption.</paragraph>
+                        <paragraph>Oxygen, intravenous fluids, vasopressors, and other supportive measures should be employed as indicated. Assisted or controlled ventilation should also be considered</paragraph>
+                        <paragraph>Gastric decontamination with activated charcoal should be administered just prior to N-acetylcysteine (NAC) to decrease systemic absorption if acetaminophen ingestion is known or suspected to have occurred within a few hours of presentation.  Serum acetaminophen levels should be obtained immediately if the patient presents 4 hours or more after ingestion to assess potential risk of hepatotoxicity; acetaminophen levels drawn less than 4 hours post-ingestion may be misleading.  To obtain the best possible outcome, NAC should be administered as soon as possible where impending or evolving liver injury is suspected.  Intravenous NAC may be administered when circumstances preclude oral administration.</paragraph>
+                        <paragraph>Vigorous supportive therapy is required in severe intoxication.  Procedures to limit the continuing absorption of the drug must be readily performed since the hepatic injury is dose dependent and occurs early in the course of intoxication.</paragraph>
+                     </text>
+                     <effectiveTime value="20110812"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_f718dd4a-ee90-4cdb-90ca-138855b0b2f8">
+               <id root="721a2c51-6cbf-48b9-9a2a-8a8cea198b71"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>One or two tablets every four hours as needed. Total daily dosage should not exceed 6 tablets.</paragraph>
+                  <paragraph>Extended and repeated use of this product is not recommended because of the potential for physical dependence.</paragraph>
+               </text>
+               <effectiveTime value="20110812"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_1358cf26-6d50-4a25-9c43-fa4c4ec0f8e6">
+               <id root="fc5ab4db-6048-443e-b913-a9c1d6cc4f1e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MIKART, INC.</content>
+                  </paragraph>
+                  <paragraph>Atlanta, GA 30318</paragraph>
+                  <paragraph>Code 687Z00</paragraph>
+                  <paragraph>Rev. 05/11</paragraph>
+               </text>
+               <effectiveTime value="20110812"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_79d7210d-2ebf-4f9e-b75a-25c9efde1135">
+               <id root="9359486d-e208-4de3-9322-61714e9ca872"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>BUTALBITAL, ACETAMINOPHEN AND CAFFEINE TABLET</title>
+               <text>
+                  <renderMultiMedia referencedObject="lbl504364856"/>
+               </text>
+               <effectiveTime value="20110801"/>
+               <component>
+                  <observationMedia ID="lbl504364856">
+                     <text>Label Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="50436-4856.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

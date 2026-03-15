@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ac453d98-2adb-d140-e053-2995a90a754e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>30 ml Vial Label</title>
+   <effectiveTime value="20200807"/>
+   <setId root="784c3855-0d5d-36e7-e053-2a91aa0ac1a6"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="116709032"/>
+            <name>Northland Nuclear Medicine</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="116709032"/>
+                        <name>Northland Nuclear Medicine</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72634-001" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ac4564be-af9d-1d75-e053-2995a90a384b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200807"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72634-001" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Fludeoxyglucose F 18</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Fludeoxyglucose F 18 Injection</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="Ci" value="0.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0Z5B2CJX4D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FLUDEOXYGLUCOSE F-18</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="0Z5B2CJX4D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLUDEOXYGLUCOSE F-18</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72634-001-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190131"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA203994" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190131"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df96c50-c184-551c-e053-2a91aa0af2cb">
+               <id root="7f88c1ab-d1da-2967-e053-2991aa0a79c4"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Fludeoxyglucose F18 Injection, USP is a positron emitting radiopharmaceutical containing no-carrier added radioactive 2-deoxy-2-[18F]fluoro-D-glucose that is used for diagnostic purposes in conjunction with Positron Emission Tomography (PET). It is administered by intravenous injection.</paragraph>
+                  <paragraph/>
+                  <paragraph>The active ingredient 2-deoxy-2-[18F]fluoro-D-glucose, abbreviated [18F]FDG, has a molecular formula of C8H1118F08 with a molecular weight of 181.26 daltons, and has the following chemical structure.
+  <renderMultiMedia referencedObject="img_7e025b42-b9af-a24e-e053-2991aa0a58ee"/>
+                  </paragraph>
+                  <paragraph>Fludeoxyglucose F18 Injection, USP is provided as a ready to use sterile, pyrogen free, clear, colorless solution. Each milliliter contain between 150 to 1850 MBq (4 — 500 mCi) of 2-deoxy-2-[18F]fluoro-D-glucose at the end of synthesis (EOS), and 9 mg of sodium chloride in citrate buffer. The pH of the solution is between 4.5 to 7.5. The solution is packaged in a multiple-dose glass vial and does not contain any preservative.</paragraph>
+               </text>
+               <effectiveTime value="20190116"/>
+               <component>
+                  <observationMedia ID="img_7e025b42-b9af-a24e-e053-2991aa0a58ee">
+                     <text>FDG</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="fdg.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df90af6-981e-2132-e053-2a91aa0a31bb">
+               <id root="7f88eece-e652-3764-e053-2a91aa0ab50d"/>
+               <code code="69718-5" codeSystem="2.16.840.1.113883.6.1" displayName="STATEMENT OF IDENTITY SECTION"/>
+               <title>
+                  <content styleCode="bold">PHYSICAL CHARACTERISTICS</content>
+               </title>
+               <text>
+                  <paragraph>Fluorine F 18 decays by positron ( +) emission and has a half life of 110 minutes. The principal photons useful for diagnostic imaging are the 511 keV gamma photons, resulting from the interaction of the emitted positron with an electron (Table 1)</paragraph>
+                  <paragraph/>
+                  <table border="0" cellspacing="1" width="100%">
+                     <caption>Table 1. Principle Emission Data for Fluorine F-18</caption>
+                     <tbody>
+                        <tr>
+                           <td>Radiation/Emission</td>
+                           <td>% Per Disintigration</td>
+                           <td>Mean Energy</td>
+                        </tr>
+                        <tr>
+                           <td>Positron (+)</td>
+                           <td>96.73</td>
+                           <td>249.8 keV</td>
+                        </tr>
+                        <tr>
+                           <td>Gamma (+/-)*</td>
+                           <td>193.46</td>
+                           <td>511.0 keV</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>*Produced by positron annihilation</paragraph>
+                  <paragraph/>
+                  <paragraph>From: Kocher, D.C. "Radioactive Dacay Tables" DOE/TIC-11026, 89 (1981).</paragraph>
+               </text>
+               <effectiveTime value="20190116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df9929e-f4da-35e9-e053-2991aa0ae38b">
+               <id root="7f88eece-e653-3764-e053-2a91aa0ab50d"/>
+               <code code="50741-8" codeSystem="2.16.840.1.113883.6.1" displayName="SAFE HANDLING WARNING SECTION"/>
+               <title>
+                  <content styleCode="bold">EXTERNAL RADIATION</content>
+               </title>
+               <text>
+                  <paragraph>The specific gamma ray constant for Fluorine F 18 is 6.0 R/hr/mCi (0.3 Gy/hr/kBq) at 1cm. The half-value layer (HVL) for the 511 keV photons is 4.1 mm lead (Pb). A range of values for the attenuation of radiation results from the interposition of various thicknesses of Pb.</paragraph>
+                  <paragraph/>
+                  <paragraph>The range of attenuation coefficients for this radionuclide is shown in Table 2. For example the interposition of an 8.3 mm thickness of Pb, with a coefficient of attenuation of 0.25, will decrease the external radiation by 75%.</paragraph>
+                  <table border="0" width="100%">
+                     <caption>Table 2. Radiation Attenuation of 511 keV Photons by lead (Pb) Shielding</caption>
+                     <tbody>
+                        <tr>
+                           <td>Shield Thickness (Pb) mm</td>
+                           <td>Coefficient of Attenuation</td>
+                        </tr>
+                        <tr>
+                           <td>0</td>
+                           <td>0.00</td>
+                        </tr>
+                        <tr>
+                           <td>4.1</td>
+                           <td>0.50</td>
+                        </tr>
+                        <tr>
+                           <td>8.3</td>
+                           <td>0.25</td>
+                        </tr>
+                        <tr>
+                           <td>13.2</td>
+                           <td>0.10</td>
+                        </tr>
+                        <tr>
+                           <td>26.4</td>
+                           <td>0.01</td>
+                        </tr>
+                        <tr>
+                           <td>52.8</td>
+                           <td>0.001</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>For use in correcting for physical decay of this radionuclide, the fractions remaining at selected intervals after calibration are shown in table 3.</paragraph>
+               </text>
+               <effectiveTime value="20190116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df9929e-f4dc-35e9-e053-2991aa0ae38b">
+               <id root="7f88eece-e654-3764-e053-2a91aa0ab50d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <effectiveTime value="20190116"/>
+               <component>
+                  <section ID="id_link_7df98785-87a9-323c-e053-2991aa0aaf29">
+                     <id root="7f88eece-e655-3764-e053-2a91aa0ab50d"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>
+                        <content styleCode="bold">General</content>
+                     </title>
+                     <text>
+                        <paragraph>[18F]FDG, a radiolabeled analog of glucose, rapidly distributes, after intravenous injection, to all organs of the body. After background clearance, peak imaging is at 30 - 40 minutes after injection.</paragraph>
+                        <table border="0" width="100%">
+                           <caption>Table 3. Physical Decay Chart for Fluorine F 18</caption>
+                           <tbody>
+                              <tr>
+                                 <td>Minutes</td>
+                                 <td>Fraction Remaining</td>
+                              </tr>
+                              <tr>
+                                 <td>0*</td>
+                                 <td>1.00</td>
+                              </tr>
+                              <tr>
+                                 <td>15</td>
+                                 <td>0.909</td>
+                              </tr>
+                              <tr>
+                                 <td>30</td>
+                                 <td>0.826</td>
+                              </tr>
+                              <tr>
+                                 <td>60</td>
+                                 <td>0.683</td>
+                              </tr>
+                              <tr>
+                                 <td>110</td>
+                                 <td>0.500</td>
+                              </tr>
+                              <tr>
+                                 <td>220</td>
+                                 <td>0.250</td>
+                              </tr>
+                              <tr>
+                                 <td>440</td>
+                                 <td>0.060</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>*Calibration Time</paragraph>
+                     </text>
+                     <effectiveTime value="20190116"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_7df9929e-f4de-35e9-e053-2991aa0ae38b">
+                     <id root="7f88eece-e656-3764-e053-2a91aa0ab50d"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pharmacokinetics</content>
+                     </title>
+                     <text>
+                        <paragraph>In 4 normal male volunteers, after an intravenous dose given over 30 seconds, the arterial blood level profile for [18F]FDG can be described by a triexponential decay curve. The half-lives for the different distribution and elimination phases are 0.2-0.3 min, 10-13 min (mean ± s.d.; 11.6 ± 1.1 min), and 80-95 min (88 ± 4 min).</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Within 33 minutes, a mean of 3.9% of the injected dose can be measured in the urine. Bladder activity two hours after injection indicates that a mean of 20.6% of the injected dose is present. See the Metabolism Section for additional clearance times.</paragraph>
+                     </text>
+                     <effectiveTime value="20190116"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_7df98785-87ab-323c-e053-2991aa0aaf29">
+                     <id root="7f88eece-e657-3764-e053-2a91aa0ab50d"/>
+                     <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Metabolism</content>
+                     </title>
+                     <text>
+                        <paragraph>[18F]FDG is taken up by cells and phosphorylated to [18F]FDG-6-phosphate at a rate proportional to the rate of glucose utilization within a given tissue. [18F]FDG-6-phosphate presumably is metabolized to 2- deoxy-2-[18F]fluoro-6-phospho-D-mannose ([18F]FDM-6-phosphate).</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>[18F]FDG may contain 2-deoxy-2-chloro-D-glucose (C1DG) as an impurity. Distribution and metabolism of C1DG are presumably similar to that of [18F]FDG, and would be expected to result in intracellular formation of 2-deoxy-2-chloro-6-phospho-D-g14icose (C1DG-6-phosphate) and 2-deoxy-2-chloro-6- phospho-D-mannose (CIDM-6-phosphate). The phosphorylated deoxyglucose compounds are dephosphorylated, and the resulting compounds, (FDG, FDM, C1DG and C1DM) presumably leave cells by passive diffusion.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>FDG and related compounds are cleared from non-cardiac tissues within 3 to 24 hours after administration; clearance from the heart may require more than 96 hours. [18F]FDG that is not involved in glucose metabolism is excreted unchanged in the urine.</paragraph>
+                     </text>
+                     <effectiveTime value="20190116"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_7df9929e-f4e0-35e9-e053-2991aa0ae38b">
+                     <id root="7f88eece-e658-3764-e053-2a91aa0ab50d"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pharmacodynamics</content>
+                     </title>
+                     <text>
+                        <paragraph>[18F]FDG is a glucose analogue which concentrates in cells that rely upon glucose as a primary energy source. Once in the cell it is phosphorylated and can not exit until dephosphorylation has occurred. Regions of “increased [18F]FDG uptake" correlate with increased glucose metabolism. Regions of decreased/absent uptake reflect the absence of glucose metabolism. Background activity reflects uptake by normal cells. [18F]FDG uptake in inflammatory cells is inconsistent and may be increased, normal or decreased. Whether or not [18F]FDG, CIDG, or their metabolites can inhibit glucose metabolism is not known.</paragraph>
+                     </text>
+                     <effectiveTime value="20190116"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df98785-87ad-323c-e053-2991aa0aaf29">
+               <id root="7f88eece-e659-3764-e053-2a91aa0ab50d"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL TRIALS</content>
+               </title>
+               <text>
+                  <paragraph>In a prospective, open label trial, [18F]FDG was evaluated in 86 patients with epilepsy. Each patient received a dose of [18F]FDG in the range of 185-370 MBq (5-10) mCi. Demographic characteristics of race and gender are not available. The mean age was 16.4 years (range: 4 months - 58 years; of these, 42 patients were &lt; 12 years and 16 patients were &lt;2 years old). Patients had a known diagnosis of complex partial epilepsy and were under evaluation as surgical candidates for treatment of their seizure disorder. Seizure foci had been previously identified on ictal EEGs and sphenoidal EEGs. In 16% (14/87) of patients, the pre-[18F]FDG findings were confirmed by [18F]FDG; 34% (30/87) of patients, [18F]FDG scans provided new findings. In 32% (27/87), [18F]FDG scans were not definitive. The influence of these findings on surgical outcome; medical management or behavior is not known.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>In several other studies comparing [18F]FDG scan results to subsphenoidal EEG, MRI and/or surgical findings, the degree of hypometabolism corresponded to areas of confirmed epileptogenic foci.</paragraph>
+               </text>
+               <effectiveTime value="20190116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df9d56a-9d21-cadd-e053-2991aa0a82de">
+               <id root="7f88eece-e65a-3764-e053-2a91aa0ab50d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>Fludeoxyglucose F 18 Injection,USP is indicated in PET (positron emission tomography) for:</paragraph>
+                  <paragraph/>
+                  <paragraph>1. Identification of regions of abnormal glucose metabolism associated with foci of epileptic seizures.</paragraph>
+                  <paragraph>2. Assessment of abnormal glucose metabolism to assist in the evaluation of malignancy in patients with known or suspected abnormalities found by other testing modalities, or in patients with an existing diagnosis of cancer.</paragraph>
+                  <paragraph/>
+                  <paragraph>3. Assessment of patients with coronary artery disease and left ventricular dysfunction, when used together with myocardial perfusion imaging, for the identification of left ventricular myocardium with residual glucose metabolism and reversible loss of systolic function.</paragraph>
+                  <paragraph/>
+                  <paragraph>Fludeoxyglucose F 18 Injection, USP is not indicated for distinguishing epileptogenic foci from brain tumors or other brain lesions which may cause seizures.</paragraph>
+               </text>
+               <effectiveTime value="20190116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df9db48-281a-2b9a-e053-2991aa0ab2cf">
+               <id root="7f88eece-e65b-3764-e053-2a91aa0ab50d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <text>
+                  <paragraph>None known</paragraph>
+               </text>
+               <effectiveTime value="20190116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df9d56a-9d23-cadd-e053-2991aa0a82de">
+               <id root="7f88eece-e65c-3764-e053-2a91aa0ab50d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>None known</paragraph>
+               </text>
+               <effectiveTime value="20190116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df9db48-281c-2b9a-e053-2991aa0ab2cf">
+               <id root="7f88f119-ee11-91dd-e053-2a91aa0a612d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <effectiveTime value="20190116"/>
+               <component>
+                  <section ID="id_link_7df9db48-281e-2b9a-e053-2991aa0ab2cf">
+                     <id root="7f88eece-e65d-3764-e053-2a91aa0ab50d"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">General</content>
+                     </title>
+                     <text>
+                        <paragraph>[18F]FDG uptake may be changed by fasting or by blood sugar changes associated with diabetic mellitus. Blood glucose levels should be stabilized in non-diabetic patients by fasting before [18F]FDG injection. Diabetic patients may need stabilization of blood glucose on the day preceding, and on the day of the [18F]FDG scan.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Patients should be monitored for arrhythmias and other manifestations of ischemia. [18F]FDG, CIDG and their metabolites theoretically could inhibit glucose metabolism. Their ability to potentiate the arrhythmogenic effects of ischemia has not been studied.</paragraph>
+                        <paragraph/>
+                        <paragraph>The contents of each vial are sterile and non-pyrogenic. To maintain sterility, aseptic technique must be used during all operations involved in the manipulation and administration of [18F]FDG.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>[18F]FDG should be used within 12 hours of the end of synthesis (EOS).</paragraph>
+                        <paragraph>As with any other radioactive material, appropriate shielding should be used to avoid unnecessary radiation exposure to the patient, occupational workers, and other persons.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Radiopharmaceuticals should be used only by physicians who are qualified by specific training in the safe use and handling of radionuclides.</paragraph>
+                     </text>
+                     <effectiveTime value="20190116"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_7df9d56a-9d25-cadd-e053-2991aa0a82de">
+                     <id root="7f88fdc9-9aa8-6cd3-e053-2a91aa0a2ac6"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>Studies with [18F]FDG have not been performed to evaluate carcinogenic potential, mutagenic potential or effects on fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20190116"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_7df9d56a-9d29-cadd-e053-2991aa0a82de">
+                     <id root="7f88eece-e65e-3764-e053-2a91aa0ab50d"/>
+                     <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Teratogenic Effects: Pregnancy Category C</content>
+                     </title>
+                     <text>
+                        <paragraph>Animal reproduction studies have not been conducted with [18F]FDG. It is not known whether [18F]FDG can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Therefore, [18F]FDG should not be administered to a pregnant woman unless the potential benefit justifies the potential risk to the fetus.</paragraph>
+                     </text>
+                     <effectiveTime value="20190116"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_7df9d56a-9d2b-cadd-e053-2991aa0a82de">
+                     <id root="7f88eece-e65f-3764-e053-2a91aa0ab50d"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Nursing Mothers</content>
+                     </title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when [18F]FDG is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20190116"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_7df9db48-2822-2b9a-e053-2991aa0ab2cf">
+                     <id root="7f88eece-e660-3764-e053-2a91aa0ab50d"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pediatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>See Clinical Trials Section.</paragraph>
+                     </text>
+                     <effectiveTime value="20190116"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df9d56a-9d36-cadd-e053-2991aa0a82de">
+               <id root="7f88fdc9-9a9e-6cd3-e053-2a91aa0a2ac6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>The [18F]FDG safety data base was evaluated for 374 patients. Of these, 245 were male and 105 were female. For 24 patients, gender was not specified. The mean age was 47.8 years (range under 2 to over 65 years). Eighteen patients were between the age of 0 and 2 years; 42 patients were between the ages of 2 and 21 years old; 213 patients were between 21 and 65 years old and 98 patients were older than 65 years and the ages of 3 male patients were not specified. A racial distribution is not available. In this database, adverse drug reactions that required medical intervention were not reported.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>In a small, 42 patient subset of the 374 patients studied, 4 patients had transient hypotension, 6 had hypo- or hyperglycemia and 3 had transient increases in alkaline phosphatase.</paragraph>
+               </text>
+               <effectiveTime value="20190116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df9db48-2826-2b9a-e053-2991aa0ab2cf">
+               <id root="7f88fdc9-9a9f-6cd3-e053-2a91aa0a2ac6"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>[18F]FDG uptake may be changed by fasting or by blood sugar changes associated with diabetic mellitus. Blood glucose levels should be stabilized in non-diabetic patients by fasting before [18F]FDG injection. Diabetic patients may need stabilization of blood glucose on the day preceding and on the day of the [18F]FDG scan.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>The recommended dose of [18F]FDG for an adult (70 kg) is within the range 185-370 MBq (5-10 mCi), intravenous injection. In children doses as low as 2.6 mCi have been given. Optimal dose reductions for children have not been confirmed.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>The optimum rate of administration and upper safe dose for [18F]FDG have not been established. The time interval between doses of [18F]FDG should be long enough to allow substantial decay (physical and biological) of previous administrations.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>It is recommended that PET imaging be initiated within 40 minutes of [18F]FDG injection.</paragraph>
+                  <paragraph/>
+                  <paragraph>The final dose for the patient should be calculated using proper decay factors from the time of the EOS, and measured by a suitable radioactivity calibration system before administration. See decay factors in Table 3.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>[18F]FDG, like other parenteral drug products, should be inspected visually for particulate matter and discoloration before administration, whenever solution and container permit. Preparations containing particulate matter or discoloration should not be administered. They should be disposed of in a safe manner, in compliance with applicable regulations.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>[18F]FDG should be stored upright in a lead shielded environment at controlled room temperature.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Aseptic techniques and effective shielding should be employed in withdrawing doses for administration to patients. Waterproof gloves and effective shielding should be worn when handling the product.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20190116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df9db48-2828-2b9a-e053-2991aa0ab2cf">
+               <id root="7f88fdc9-9aa0-6cd3-e053-2a91aa0a2ac6"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSE</content>
+               </title>
+               <text>
+                  <paragraph>Overdoses of [18F]FDG have not been-reported. See Radiation Dosimetry Section for related information.</paragraph>
+               </text>
+               <effectiveTime value="20190116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df9db48-282a-2b9a-e053-2991aa0ab2cf">
+               <id root="7f88fdc9-9aa1-6cd3-e053-2a91aa0a2ac6"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">RADIATION DOSIMETRY</content>
+               </title>
+               <text>
+                  <paragraph>The estimated absorbed radiation doses to an average human adult (70 kg) from intravenous injection of 185 MBq (5 mCi) and 370 MBq (10 mCi) of [18F]FDG are shown is Table 4. These estimates were calculated based on human1 data and using the data published by the International Commission on Radiological Protection2 for [18F]FDG.</paragraph>
+                  <table border="0" width="100%">
+                     <caption>Table 4. Estimated Absorbed Radiation Doses after intravenous administration of 2-deoxy-2-[18F]fluoro-D-glucose, [18F]FDG to a 70 kg patient.</caption>
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>Organ</paragraph>
+                           </td>
+                           <td>MgY/185MBq</td>
+                           <td>Rads/5mCi</td>
+                           <td>mGy/370MBq</td>
+                           <td>rads/10mCi</td>
+                        </tr>
+                        <tr>
+                           <td>Bladder Wall</td>
+                           <td>31.45</td>
+                           <td>3.15</td>
+                           <td>62.90</td>
+                           <td>6.29</td>
+                        </tr>
+                        <tr>
+                           <td>Bladder*</td>
+                           <td>11.00</td>
+                           <td>1.10</td>
+                           <td>22.00</td>
+                           <td>2.20</td>
+                        </tr>
+                        <tr>
+                           <td>Bladder**</td>
+                           <td>22.00</td>
+                           <td>2.20</td>
+                           <td>44.00</td>
+                           <td>4.40</td>
+                        </tr>
+                        <tr>
+                           <td>Heart</td>
+                           <td>12.03</td>
+                           <td>1.20</td>
+                           <td>24.05</td>
+                           <td>2.41</td>
+                        </tr>
+                        <tr>
+                           <td>Brain</td>
+                           <td>4.81</td>
+                           <td>.48</td>
+                           <td>9.62</td>
+                           <td>0.96</td>
+                        </tr>
+                        <tr>
+                           <td>Kidneys</td>
+                           <td>3.88</td>
+                           <td>0.39</td>
+                           <td>7.77</td>
+                           <td>0.78</td>
+                        </tr>
+                        <tr>
+                           <td>Uterus</td>
+                           <td>3.70</td>
+                           <td>3.7</td>
+                           <td>7.40</td>
+                           <td>0.74</td>
+                        </tr>
+                        <tr>
+                           <td>Ovaries</td>
+                           <td>2.78</td>
+                           <td>0.28</td>
+                           <td>5.55</td>
+                           <td>0.56</td>
+                        </tr>
+                        <tr>
+                           <td>Testes</td>
+                           <td>2.78</td>
+                           <td>0.28</td>
+                           <td>5.55</td>
+                           <td>0.56</td>
+                        </tr>
+                        <tr>
+                           <td>Adrenals</td>
+                           <td>2.59</td>
+                           <td>0.26</td>
+                           <td>5.18</td>
+                           <td>0.52</td>
+                        </tr>
+                        <tr>
+                           <td>Sm Intestine</td>
+                           <td>2.40</td>
+                           <td>0.24</td>
+                           <td>4.81</td>
+                           <td>0.48</td>
+                        </tr>
+                        <tr>
+                           <td>ULI wall</td>
+                           <td>2.40</td>
+                           <td>0.24</td>
+                           <td>4.81</td>
+                           <td>0.48</td>
+                        </tr>
+                        <tr>
+                           <td>LLI wall</td>
+                           <td>2.96</td>
+                           <td>0.30</td>
+                           <td>5.92</td>
+                           <td>0.59</td>
+                        </tr>
+                        <tr>
+                           <td>Stomach wall</td>
+                           <td>2.22</td>
+                           <td>0.22</td>
+                           <td>4.44</td>
+                           <td>0.44</td>
+                        </tr>
+                        <tr>
+                           <td>Liver</td>
+                           <td>
+                              <paragraph>2.22</paragraph>
+                           </td>
+                           <td>0.22</td>
+                           <td>4.44</td>
+                           <td>0.44</td>
+                        </tr>
+                        <tr>
+                           <td>Pancreas</td>
+                           <td>2.22</td>
+                           <td>0.22</td>
+                           <td>4.44</td>
+                           <td>0.44</td>
+                        </tr>
+                        <tr>
+                           <td>Spleen</td>
+                           <td>2.22</td>
+                           <td>0.22</td>
+                           <td>4.44</td>
+                           <td>0.44</td>
+                        </tr>
+                        <tr>
+                           <td>Breast</td>
+                           <td>2.04</td>
+                           <td>0.20</td>
+                           <td>4.07</td>
+                           <td>0.41</td>
+                        </tr>
+                        <tr>
+                           <td>Lungs</td>
+                           <td>2.04</td>
+                           <td>0.20</td>
+                           <td>4.07</td>
+                           <td>0.41</td>
+                        </tr>
+                        <tr>
+                           <td>Red marrow</td>
+                           <td>2.04</td>
+                           <td>0.20</td>
+                           <td>4.07</td>
+                           <td>0.41</td>
+                        </tr>
+                        <tr>
+                           <td>Other Tissue</td>
+                           <td>2.04</td>
+                           <td>0.20</td>
+                           <td>4.07</td>
+                           <td>0.41</td>
+                        </tr>
+                        <tr>
+                           <td>Bone Surfaces</td>
+                           <td>1.85</td>
+                           <td>0.18</td>
+                           <td>3.70</td>
+                           <td>0.37</td>
+                        </tr>
+                        <tr>
+                           <td>Thyroid</td>
+                           <td>1.70</td>
+                           <td>0.18</td>
+                           <td>3.59</td>
+                           <td>0.36</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>*With void 1 hour after administration **With void 2 hours after administration.</paragraph>
+                  <paragraph/>
+                  <paragraph>The [18F]FDG Effective dose equivalent (Adult)2 is 0.027 mSv/MBq.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <sup>1</sup>Jones, S.C. , Alavi, A., Christman, D., Montanez, I., Wolf, A.P., and Reivich, M. (1982). The Radiation Dosimetry of 2-F-18 fluoro-2-deoxy-D-glucose in man. J. Nucl. Med. 23, 613-617.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <sup>2</sup>ICRP Publication 53, Volume 18, No. 1-4, 1987, page 76.
+ </paragraph>
+               </text>
+               <effectiveTime value="20190116"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7df9db48-282c-2b9a-e053-2991aa0ab2cf">
+               <id root="a82eea4b-c94d-a12b-e053-2a95a90acd9c"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>NDC 72634-001-30</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Fludeoxyglucose F18 Injection, USP is supplied in a multi-dose, septum capped 30 mL glass vial containing between 148 - 1480 MBq/mL (4 — 500 mCi/mL) of no carrier added 2-deoxy-2-[18F]fluoro-D-glucose at end of synthesis, in approximately 13 mL.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>This radiopharmaceutical is licensed by the North Dakota Department of Health for distribution to persons authorized to receive the licensed material pursuant to the terms and conditions of a specific license issued by the U.S. Nuclear Regulatory Commission or an Agreement State.</paragraph>
+               </text>
+               <effectiveTime value="20200705"/>
+               <component>
+                  <section ID="id_link_7dfa47ba-db44-0fd9-e053-2a91aa0a3f7f">
+                     <id root="7f88fdc9-9aa7-6cd3-e053-2a91aa0a2ac6"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>
+                        <content styleCode="bold">Storage</content>
+                     </title>
+                     <text>
+                        <paragraph>[18F]FDG should be stored upright in a lead shielded container at controlled room temperature.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Storage and disposal of [18F]FDG should be in accordance with the regulations and a specific license issued by the U.S. Nuclear Regulatory Commission or an Agreement State.</paragraph>
+                     </text>
+                     <effectiveTime value="20190116"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="id_link_7dfa47ba-db46-0fd9-e053-2a91aa0a3f7f">
+                     <id root="7f88fdc9-9aa5-6cd3-e053-2a91aa0a2ac6"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>
+                        <content styleCode="bold">Expiration Date and Time</content>
+                     </title>
+                     <text>
+                        <paragraph>Fludeoxyglucose F18 Injection, USP should be used within 12 hours from the end of synthesis, which is provided on the container label.</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Caution: Federal Law Prohibits Dispensing Without Prescription</paragraph>
+                        <paragraph/>
+                        <paragraph/>
+                        <paragraph>Manufactured by:</paragraph>
+                        <paragraph>Northland Nuclear Medicine</paragraph>
+                        <paragraph>1815 Michigan Ave</paragraph>
+                        <paragraph>Bismarck, ND 58504</paragraph>
+                     </text>
+                     <effectiveTime value="20190116"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_7dfa47ba-db49-0fd9-e053-2a91aa0a3f7f">
+               <id root="a82f3254-a8d1-67f9-e053-2a95a90acec1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">LABELING</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_a82f1f65-ad0b-f1c3-e053-2995a90a687c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200705"/>
+               <component>
+                  <observationMedia ID="img_a82f1f65-ad0b-f1c3-e053-2995a90a687c">
+                     <text>Product Labels</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Labels.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

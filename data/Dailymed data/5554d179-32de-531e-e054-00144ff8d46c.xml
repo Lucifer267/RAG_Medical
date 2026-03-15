@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5554d179-32de-531e-e054-00144ff8d46c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20170727"/>
+   <setId root="5554d179-32dd-531e-e054-00144ff8d46c"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+            <name>H.J. Harkins Company Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="147681894"/>
+                        <name>H.J. Harkins Company Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="76519-1130" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="55a19865-1edf-14bf-e054-00144ff88e88"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20170727"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="76519-1130" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ISENTRESS</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>RALTEGRAVIR</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="400"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="43Y000U234" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>RALTEGRAVIR POTASSIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="22VKV8053U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RALTEGRAVIR</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="6" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76519-1130-6" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20170731"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA022145" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170731"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value nullFlavor="OTH" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48328" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pink" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">227</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="16" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_555512e9-1f6e-0e55-e054-00144ff88e88">
+               <id root="555512e9-1f6d-0e55-e054-00144ff88e88"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications &amp; Usage</title>
+               <text>
+                  <paragraph>Adult Patients:</paragraph>
+                  <paragraph>ISENTRESS® and ISENTRESS® HD are indicated in combination with other antiretroviral agents for the treatment of human immunodeficiency virus (HIV-1) infection in adult patients.</paragraph>
+                  <paragraph>Pediatric Patients:</paragraph>
+                  <paragraph>ISENTRESS is indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection in pediatric patients 4 weeks of age and older.</paragraph>
+                  <paragraph>ISENTRESS HD is indicated in combination with other antiretroviral agents for the treatment of HIV-1 infection in pediatric patients weighing at least 40 kg.</paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5554dbc4-0147-68c4-e054-00144ff88e88">
+               <id root="5554dbc4-0146-68c4-e054-00144ff88e88"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage and Administration</title>
+               <text>
+                  <paragraph>2.1 General Dosing Recommendations</paragraph>
+                  <paragraph>Because the formulations have different pharmacokinetic profiles, do not substitute ISENTRESS chewable tablets or ISENTRESS for oral suspension for the ISENTRESS 400 mg film-coated tablet or the ISENTRESS HD 600 mg film-coated tablet. See specific dosing guidance for chewable tablets and the formulation for oral suspension.
+  <br/>
+Because the extent to which ISENTRESS may be dialyzable is unknown, dosing before a dialysis session should be avoided [see CLINICAL PHARMACOLOGY (12.3)]. 
+  <br/>
+ISENTRESS film-coated tablets must be swallowed whole.
+  <br/>
+ISENTRESS chewable tablets may be chewed or swallowed whole. Maximum daily dose is 300 mg taken by mouth twice daily.
+  <br/>
+ISENTRESS for oral suspension: 
+ </paragraph>
+                  <paragraph>Pour packet contents of ISENTRESS for oral suspension into 5 mL of water and mix. Each single-use packet for oral suspension contains 100 mg of raltegravir which is suspended in 5 mL of water giving a final concentration of 20 mg per mL. Maximum daily dose is 100 mg taken by mouth twice daily.
+  <br/>
+Once mixed, measure the recommended volume (dose) of suspension with a syringe and administer the dose orally. The dose of suspension should be administered orally within 30 minutes of mixing.
+  <br/>
+Discard any remaining suspension.
+  <br/>
+For more details on preparation and administration of the suspension, see INSTRUCTIONS FOR USE.
+ </paragraph>
+                  <paragraph>2.2 Adults</paragraph>
+                  <paragraph>The recommended adult dosage of ISENTRESS film-coated tablets is displayed in Table 1. ISENTRESS and ISENTRESS HD should be taken by mouth and may be taken with or without food [see CLINICAL PHARMACOLOGY (12.3)]. </paragraph>
+                  <paragraph>Table 1: Dosing Recommendations for ISENTRESS and ISENTRESS HD in Adult Patients
+  <br/>
+Population Recommended Dose
+  <br/>
+Treatment-naïve patients or patients who are virologically suppressed on an initial regimen of ISENTRESS 400 mg twice daily 1200 mg (2 × 600mg) once daily or 400 mg twice daily
+  <br/>
+Treatment-experienced  400 mg twice daily 
+  <br/>
+Treatment-naïve or treatment-experienced when coadministered with rifampin [see DRUG INTERACTIONS (7.1)] 800 mg (2 × 400 mg) twice daily
+ </paragraph>
+                  <paragraph>2.3 Pediatrics</paragraph>
+                  <paragraph>The recommended pediatric dosage of ISENTRESS is displayed in Table 2. ISENTRESS film-coated tablets, chewable tablets and for oral suspension should be taken by mouth and may be taken with or without food [see CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>Table 2: Dosing Recommendations for ISENTRESS and ISENTRESS HD in Pediatric Patients
+  <br/>
+Recommended Pediatric Dosage and Formulation
+  <br/>
+Population/Weight  Film-Coated Tablets 400 mg Film-Coated Tablets 600 mg Chewable Tablets 100 mg and 25 mg For Oral Suspension 100 mg 
+ </paragraph>
+                  <paragraph>*
+  <br/>
+If able to swallow a tablet
+ </paragraph>
+                  <paragraph>If at least 40 kg and either</paragraph>
+                  <paragraph>treatment-naïve or 
+  <br/>
+virologically suppressed on an initial regimen of ISENTRESS 400 mg twice daily
+ </paragraph>
+                  <paragraph>400 mg twice daily 1200 mg (2 × 600mg) once daily 300 mg twice daily (see TABLE 3) NA
+  <br/>
+If at least 25 kg  400 mg twice daily* NA Weight-based dosing twice daily (see TABLE 3) NA
+  <br/>
+If at least 4 weeks of age and weighing 3 kg to less than 25 kg  NA NA Weight-based dosing twice daily (see TABLE 4) Weight-based dosing twice daily up to 20 kg (see TABLE 4)
+ </paragraph>
+                  <paragraph>Table 3: Alternative Dosage* with ISENTRESS Chewable Tablets for Pediatric Patients Weighing at Least 25 kg
+  <br/>
+Body Weight 
+  <br/>
+(kg) Dose Number of Chewable Tablets
+ </paragraph>
+                  <paragraph>*
+  <br/>
+The weight-based dosing recommendation for the chewable tablet is based on approximately 6 mg/kg/dose twice daily [see CLINICAL PHARMACOLOGY (12.3)].
+  <br/>
+†
+  <br/>
+The 100 mg chewable tablet can be divided into equal halves.
+ </paragraph>
+                  <paragraph>25 to less than 28 150 mg twice daily 1.5 × 100 mg† twice daily
+  <br/>
+28 to less than 40 200 mg twice daily 2 × 100 mg twice daily
+  <br/>
+At least 40 300 mg twice daily 3 × 100 mg twice daily
+ </paragraph>
+                  <paragraph>Table 4: Recommended Dosage* for ISENTRESS For Oral Suspension and Chewable Tablets in Pediatric Patients at Least 4 weeks of Age and Weighing Less than 25 kg
+  <br/>
+Body Weight 
+  <br/>
+(kg) Volume (Dose) of Suspension to be Administered Number of Chewable Tablets
+  <br/>
+Note: The chewable tablets are available as 25 mg and 100 mg tablets.
+  <br/>
+Patients can remain on ISENTRESS for oral suspension formulation as long as their weight is below 20 kg.
+ </paragraph>
+                  <paragraph>*
+  <br/>
+The weight-based dosing recommendation for the chewable tablet and for oral suspension is based on approximately 6 mg/kg/dose twice daily [see CLINICAL PHARMACOLOGY (12.3)].
+  <br/>
+†
+  <br/>
+For weight between 11 and 20 kg either formulation can be used.
+  <br/>
+‡
+  <br/>
+The 100 mg chewable tablet can be divided into equal halves.
+ </paragraph>
+                  <paragraph>3 to less than 4 1 mL (20 mg) twice daily
+  <br/>
+4 to less than 6 1.5 mL (30 mg) twice daily
+  <br/>
+6 to less than 8 2 mL (40 mg) twice daily
+  <br/>
+8 to less than 11 3 mL (60 mg) twice daily
+  <br/>
+11 to less than 14† 4 mL (80 mg) twice daily 3 × 25 mg twice daily
+  <br/>
+14 to less than 20† 5 mL (100 mg) twice daily 1 × 100 mg twice daily
+  <br/>
+20 to less than 25 1.5 × 100 mg‡ twice daily
+ </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5554dbc4-0149-68c4-e054-00144ff88e88">
+               <id root="5554dbc4-0148-68c4-e054-00144ff88e88"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>Dosage &amp; Forms</title>
+               <text>
+                  <paragraph>Film-coated Tablets </paragraph>
+                  <paragraph>400 mg pink, oval-shaped, film-coated tablets with "227" on one side (ISENTRESS).
+  <br/>
+600 mg yellow, oval-shaped, film-coated tablets with Merck logo and "242" on one side and plain on the other side (ISENTRESS HD).
+ </paragraph>
+                  <paragraph>Chewable Tablets </paragraph>
+                  <paragraph>100 mg pale orange, oval-shaped, orange-banana flavored, chewable tablets scored on both sides and imprinted on one face with the Merck logo and "477" on opposite sides of the score.
+  <br/>
+25 mg pale yellow, round, orange-banana flavored, chewable tablets with the Merck logo on one side and "473" on the other side.
+ </paragraph>
+                  <paragraph>For Oral Suspension </paragraph>
+                  <paragraph>100 mg white to off-white, banana flavored, granular powder that may contain yellow or beige to tan particles in a child resistant single-use foil packet.</paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5554d179-32e0-531e-e054-00144ff8d46c">
+               <id root="5554d179-32df-531e-e054-00144ff8d46c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>Contraindications</title>
+               <text>
+                  <paragraph>none</paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5554d179-32e2-531e-e054-00144ff8d46c">
+               <id root="5554d179-32e1-531e-e054-00144ff8d46c"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>Warnings and Precautions</title>
+               <text>
+                  <paragraph>5.1 Severe Skin and Hypersensitivity Reactions</paragraph>
+                  <paragraph>Severe, potentially life-threatening, and fatal skin reactions have been reported. These include cases of Stevens-Johnson syndrome and toxic epidermal necrolysis. Hypersensitivity reactions have also been reported and were characterized by rash, constitutional findings, and sometimes, organ dysfunction, including hepatic failure. Discontinue ISENTRESS or ISENTRESS HD and other suspect agents immediately if signs or symptoms of severe skin reactions or hypersensitivity reactions develop (including, but not limited to, severe rash or rash accompanied by fever, general malaise, fatigue, muscle or joint aches, blisters, oral lesions, conjunctivitis, facial edema, hepatitis, eosinophilia, angioedema). Clinical status including liver aminotransferases should be monitored and appropriate therapy initiated. Delay in stopping ISENTRESS or ISENTRESS HD treatment or other suspect agents after the onset of severe rash may result in a life-threatening reaction.</paragraph>
+                  <paragraph>5.2 Immune Reconstitution Syndrome</paragraph>
+                  <paragraph>Immune reconstitution syndrome has been reported in patients treated with combination antiretroviral therapy, including ISENTRESS. During the initial phase of combination antiretroviral treatment, patients whose immune systems respond may develop an inflammatory response to indolent or residual opportunistic infections (such as Mycobacterium avium infection, cytomegalovirus, Pneumocystis jiroveci pneumonia, tuberculosis), which may necessitate further evaluation and treatment.</paragraph>
+                  <paragraph>Autoimmune disorders (such as Graves' disease, polymyositis, and Guillain-Barré syndrome) have also been reported to occur in the setting of immune reconstitution; however, the time to onset is more variable, and can occur many months after initiation of treatment.</paragraph>
+                  <paragraph>5.3 Phenylketonurics</paragraph>
+                  <paragraph>ISENTRESS Chewable Tablets contain phenylalanine, a component of aspartame. Each 25 mg ISENTRESS Chewable Tablet contains approximately 0.05 mg phenylalanine. Each 100 mg ISENTRESS Chewable Tablet contains approximately 0.10 mg phenylalanine. Phenylalanine can be harmful to patients with phenylketonuria.</paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5554dbc4-0155-68c4-e054-00144ff88e88">
+               <id root="5554dbc4-0154-68c4-e054-00144ff88e88"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse reactions</title>
+               <text>
+                  <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                  <paragraph>6.1 Clinical Trials Experience</paragraph>
+                  <paragraph>Treatment-Naïve Adults </paragraph>
+                  <paragraph>The safety of ISENTRESS was evaluated in HIV-infected treatment-naïve subjects in 2 Phase III studies: STARTMRK evaluated ISENTRESS 400 mg twice daily versus efavirenz, both in combination with emtricitabine (+) tenofovir disoproxil fumarate (TDF), and ONCEMRK evaluated ISENTRESS HD 1200 mg (2 × 600 mg) once daily versus ISENTRESS 400 mg twice daily, both in combination with emtricitabine (+) tenofovir disoproxil fumarate. Safety data from these two studies are presented side-by-side in Tables 5 and 6 to simplify presentation; direct comparisons across trials should not be made due to differing duration of follow-up and study design.</paragraph>
+                  <paragraph>STARTMRK (ISENTRESS 400 mg twice daily)</paragraph>
+                  <paragraph>In STARTMRK, subjects received ISENTRESS 400 mg twice daily (N=281) or efavirenz (EFV) 600 mg at bedtime (N=282) both in combination with emtricitabine (+) tenofovir disoproxil fumarate, (N=282). During double-blind treatment, the total follow-up for subjects receiving ISENTRESS 400 mg twice daily + emtricitabine (+) tenofovir disoproxil fumarate was 1104 patient-years and 1036 patient-years for subjects receiving efavirenz 600 mg at bedtime + emtricitabine (+) tenofovir disoproxil fumarate.</paragraph>
+                  <paragraph>In STARTMRK, the rate of discontinuation of therapy due to adverse events through Week 240 was 5% in subjects receiving ISENTRESS + emtricitabine (+) tenofovir disoproxil fumarate and 10% in subjects receiving efavirenz + emtricitabine (+) tenofovir disoproxil fumarate. </paragraph>
+                  <paragraph>ONCEMRK (ISENTRESS HD 1200 mg [2 × 600 mg] once daily)</paragraph>
+                  <paragraph>In ONCEMRK, subjects received ISENTRESS HD 1200 mg once daily (n=531) or ISENTRESS 400 mg twice daily (n=266) both in combination with emtricitabine (+) tenofovir disoproxil fumarate. During double-blind treatment, the total follow-up for subjects with ISENTRESS HD 1200 mg once daily was 516 patient-years and for ISENTRESS 400 mg twice daily was 258 patient-years. </paragraph>
+                  <paragraph>In ONCEMRK, the rate of discontinuation of therapy due to adverse events through Week 48 was 1% in subjects receiving ISENTRESS HD 1200 mg (2 × 600 mg) once daily and 2% in subjects receiving ISENTRESS 400 mg twice daily.</paragraph>
+                  <paragraph>Clinical adverse reactions of moderate to severe intensity occurring in ≥2% of treatment-naïve subjects treated with ISENTRESS 400 mg twice daily or efavirenz in STARTMRK through Week 240 or ISENTRESS HD 1200 mg once daily or ISENTRESS 400 mg twice daily in ONCEMRK through Week 48 are presented in Table 5.</paragraph>
+                  <paragraph>In STARTMRK, clinical adverse reactions of all intensities (mild, moderate and severe) occurring in ≥2% of subjects on ISENTRESS 400 mg twice daily through Week 240 also include diarrhea, flatulence, asthenia, decreased appetite, abnormal dreams, depression and nightmare. In ONCEMRK, clinical adverse reactions of all intensities (mild, moderate and severe) occurring in ≥2% of subjects on ISENTRESS HD or ISENTRESS 400 mg twice daily through Week 48 also include abdominal pain, diarrhea, vomiting, and decreased appetite.</paragraph>
+                  <paragraph>Table 5: Adverse Reactions* of Moderate to Severe Intensity† Occurring in ≥2% of Treatment-Naïve Adult Subjects Receiving ISENTRESS and ISENTRESS HD
+  <br/>
+System Organ Class, Preferred Term STARTMRK 
+  <br/>
+Week 240 ONCEMRK 
+  <br/>
+Week 48
+  <br/>
+ISENTRESS 400 mg Twice Daily
+  <br/>
+(N= 281) Efavirenz 600 mg At Bedtime
+  <br/>
+(N= 282) ISENTRESS HD 1200 mg Once Daily
+  <br/>
+(N=531) ISENTRESS 400 mg Twice Daily
+  <br/>
+(N=266)
+  <br/>
+Note: ISENTRESS BID, ISENTRESS HD and efavirenz were administered with emtricitabine (+) tenofovir disoproxil fumarate
+  <br/>
+N= total number of subjects per treatment group 
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Includes adverse experiences considered by investigators to be at least possibly, probably, or definitely related to the drug. 
+  <br/>
+†
+  <br/>
+Intensities are defined as follows: Moderate (discomfort enough to cause interference with usual activity); Severe (incapacitating with inability to work or do usual activity).
+ </paragraph>
+                  <paragraph>Headache 4% 5% 1% &lt;1%
+  <br/>
+Insomnia 4% 4% &lt;1% &lt;1%
+  <br/>
+Nausea 3% 4% 1% 0%
+  <br/>
+Dizziness 2% 6% &lt;1% 0%
+  <br/>
+Fatigue 2% 3% 0% 0%
+ </paragraph>
+                  <paragraph>Laboratory Abnormalities</paragraph>
+                  <paragraph>The percentages of adult subjects with selected Grade 2 to 4 laboratory abnormalities (that represent a worsening Grade from baseline) who were treated with ISENTRESS 400 mg twice daily or efavirenz in STARTMRK or ISENTRESS HD 1200 mg once daily or ISENTRESS 400 mg twice daily in ONCEMRK are presented in Table 6.</paragraph>
+                  <paragraph>Table 6: Selected Grade 2 to 4 Laboratory Abnormalities Reported in Treatment-Naïve Subjects
+  <br/>
+STARTMRK
+  <br/>
+Week 240 ONCEMRK
+  <br/>
+Week 48
+  <br/>
+Laboratory Parameter Preferred Term
+  <br/>
+(Unit) Limit ISENTRESS
+  <br/>
+400 mg Twice Daily 
+  <br/>
+(N = 281) Efavirenz
+  <br/>
+600 mg At Bedtime 
+  <br/>
+(N = 282) ISENTRESS HD
+  <br/>
+1200 mg Once Daily
+  <br/>
+(N=531) ISENTRESS
+  <br/>
+400 mg Twice Daily
+  <br/>
+(N=266) 
+  <br/>
+ULN = Upper limit of normal range
+  <br/>
+Notes: ISENTRESS BID, ISENTRESS HD and Efavirenz were administered with emtricitabine (+) tenofovir disoproxil fumarate
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Test not done in ONCEMRK
+  <br/>
+†
+  <br/>
+Test not done in STARTMRK
+ </paragraph>
+                  <paragraph>Hematology
+  <br/>
+Absolute neutrophil count (103/µL)
+  <br/>
+  Grade 2 0.75 - 0.999 3% 5% 1% 1%
+  <br/>
+  Grade 3 0.50 - 0.749 3% 1% 1% 1%
+  <br/>
+  Grade 4 &lt;0.50 1% 1% 0% 0%
+  <br/>
+Hemoglobin (gm/dL)
+  <br/>
+  Grade 2 7.5 - 8.4 1% 1% 0% 0%
+  <br/>
+  Grade 3 6.5 - 7.4 1% 1% 0% 0%
+  <br/>
+  Grade 4 &lt;6.5 &lt;1% 0% 0% 0%
+  <br/>
+Platelet count (103/µL)
+  <br/>
+  Grade 2 50 - 99.999 1% 0% 1% &lt;1%
+  <br/>
+  Grade 3 25 - 49.999 &lt;1% &lt;1% 0% 0%
+  <br/>
+  Grade 4 &lt;25 0% 0% 0% &lt;1%
+  <br/>
+Blood chemistry
+  <br/>
+Fasting (non-random) serum glucose test (mg/dL)*
+  <br/>
+  Grade 2 126 - 250  7% 6% - -
+  <br/>
+  Grade 3 251 - 500  2% 1% - -
+  <br/>
+  Grade 4 &gt;500  0% 0% - -
+  <br/>
+Total serum bilirubin
+  <br/>
+  Grade 2 1.6 - 2.5 × ULN 5% &lt;1% 1% 1%
+  <br/>
+  Grade 3 2.6 - 5.0 × ULN  1% 0% 1% 0%
+  <br/>
+  Grade 4 &gt;5.0 × ULN  &lt;1% 0% &lt;1% 0%
+  <br/>
+Creatinine
+  <br/>
+  Grade 2 1.4-1.8 × ULN  1% 1% 0% &lt;1%
+  <br/>
+  Grade 3 1.9-3.4 × ULN  0% &lt;1% 0% 0%
+  <br/>
+  Grade 4 ≥3.5 × ULN  0% 0% 0% 0%
+  <br/>
+Serum aspartate aminotransferase
+  <br/>
+  Grade 2 2.6 - 5.0 × ULN  8% 10% 3% 2%
+  <br/>
+  Grade 3 5.1 - 10.0 × ULN  5% 3% 1% &lt;1%
+  <br/>
+  Grade 4 &gt;10.0 × ULN 1% &lt;1% &lt;1% 0%
+  <br/>
+Serum alanine aminotransferase
+  <br/>
+  Grade 2 2.6 - 5.0 × ULN  11% 12% 3% 1%
+  <br/>
+  Grade 3 5.1 - 10.0 × ULN  2% 2% 1% &lt;1%
+  <br/>
+  Grade 4 &gt;10.0 × ULN 2% 1% &lt;1% 0%
+  <br/>
+Serum alkaline phosphatase
+  <br/>
+  Grade 2 2.6 - 5.0 × ULN  1% 3% 1% 0%
+  <br/>
+  Grade 3 5.1 - 10.0 × ULN 0% 1% 0% 0%
+  <br/>
+  Grade 4 &gt;10.0 × ULN  &lt;1% &lt;1% 0% 0%
+  <br/>
+Lipase†
+  <br/>
+  Grade 2 1.6-3.0 x ULN - - 5% 5%
+  <br/>
+  Grade 3 3.1-5.0 × ULN - - 2% &lt;1%
+  <br/>
+  Grade 4 &gt;5.0 × ULN - - 1% 0%
+  <br/>
+Creatine kinase†
+  <br/>
+  Grade 2 6.0-9.9 × ULN - - 3% 2%
+  <br/>
+  Grade 3 10.0-19.9 × ULN - - 1% 3%
+  <br/>
+  Grade 4 ≥20.0 × ULN - - 2% 2%
+ </paragraph>
+                  <paragraph>Lipids, Change from Baseline </paragraph>
+                  <paragraph>Changes from baseline in fasting lipids are shown in Table 7.</paragraph>
+                  <paragraph>Table 7: Lipid Values, Mean Change from Baseline, STARTMRK Study
+  <br/>
+Laboratory Parameter Preferred Term ISENTRESS 400 mg
+  <br/>
+Twice Daily + Emtricitabine (+) Tenofovir Disoproxil Fumarate
+  <br/>
+N = 207 Efavirenz 600 mg
+  <br/>
+At Bedtime + Emtricitabine (+) Tenofovir Disoproxil Fumarate
+  <br/>
+N = 187
+  <br/>
+Change from Baseline at
+  <br/>
+Week 240 Change from Baseline at
+  <br/>
+Week 240
+  <br/>
+Baseline
+  <br/>
+Mean Week 240
+  <br/>
+Mean Mean Change Baseline
+  <br/>
+Mean Week 240
+  <br/>
+Mean Mean Change
+  <br/>
+(mg/dL) (mg/dL) (mg/dL) (mg/dL) (mg/dL) (mg/dL)
+  <br/>
+Notes:
+  <br/>
+N = total number of subjects per treatment group with at least one lipid test result available. The analysis is based on all available data.
+  <br/>
+If subjects initiated or increased serum lipid-reducing agents, the last available lipid values prior to the change in therapy were used in the analysis. If the missing data was due to other reasons, subjects were censored thereafter for the analysis. At baseline, serum lipid-reducing agents were used in 5% of subjects in the group receiving ISENTRESS and 3% in the efavirenz group. Through Week 240, serum lipid-reducing agents were used in 9% of subjects in the group receiving ISENTRESS and 15% in the efavirenz group.
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Fasting (non-random) laboratory tests at Week 240.
+ </paragraph>
+                  <paragraph>LDL-Cholesterol* 96 106 10 93 118 25
+  <br/>
+HDL-Cholesterol* 38 44 6 38 51 13
+  <br/>
+Total Cholesterol* 159 175 16 157 201 44
+  <br/>
+Triglyceride* 128 130 2 141 178 37
+ </paragraph>
+                  <paragraph>Treatment-Experienced Adults</paragraph>
+                  <paragraph>The safety assessment of ISENTRESS in treatment-experienced subjects is based on the pooled safety data from the randomized, double-blind, placebo-controlled trials, BENCHMRK 1 and BENCHMRK 2 in antiretroviral treatment-experienced HIV-1 infected adult subjects. A total of 462 subjects received the recommended dose of ISENTRESS 400 mg twice daily in combination with optimized background therapy (OBT) compared to 237 subjects taking placebo in combination with OBT. The median duration of therapy in these trials was 96 weeks for subjects receiving ISENTRESS and 38 weeks for subjects receiving placebo. The total exposure to ISENTRESS was 708 patient-years versus 244 patient-years on placebo. The rates of discontinuation due to adverse events were 4% in subjects receiving ISENTRESS and 5% in subjects receiving placebo.</paragraph>
+                  <paragraph>Clinical ADRs were considered by investigators to be causally related to ISENTRESS + OBT or placebo + OBT. Clinical ADRs of moderate to severe intensity occurring in ≥2% of subjects treated with ISENTRESS and occurring at a higher rate compared to placebo are presented in Table 8.</paragraph>
+                  <paragraph>Table 8: Adverse Drug Reactions* of Moderate to Severe Intensity† Occurring in ≥2% of Treatment-Experienced Adult Subjects Receiving ISENTRESS and at a Higher Rate Compared to Placebo (96 Week Analysis)
+  <br/>
+System Organ Class, Adverse Reactions Randomized Studies BENCHMRK 1 and BENCHMRK 2
+  <br/>
+ISENTRESS 400 mg Twice Daily + OBT
+  <br/>
+(n = 462) Placebo + OBT
+  <br/>
+(n = 237)
+  <br/>
+Nervous System Disorders
+  <br/>
+n=total number of subjects per treatment group.
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Includes adverse reactions at least possibly, probably, or definitely related to the drug.
+  <br/>
+†
+  <br/>
+Intensities are defined as follows: Moderate (discomfort enough to cause interference with usual activity); Severe (incapacitating with inability to work or do usual activity).
+ </paragraph>
+                  <paragraph>Headache 2% &lt;1%</paragraph>
+                  <paragraph>Laboratory Abnormalities</paragraph>
+                  <paragraph>The percentages of adult subjects treated with ISENTRESS 400 mg twice daily or placebo in Studies BENCHMRK 1 and BENCHMRK 2 with selected Grade 2 to 4 laboratory abnormalities representing a worsening Grade from baseline are presented in Table 9.</paragraph>
+                  <paragraph>Table 9: Selected Grade 2 to 4 Laboratory Abnormalities Reported in Treatment-Experienced Subjects (96 Week Analysis)
+  <br/>
+Randomized Studies BENCHMRK 1 and BENCHMRK 2
+  <br/>
+Laboratory Parameter Preferred Term
+  <br/>
+(Unit) Limit ISENTRESS 400 mg Twice Daily + OBT
+  <br/>
+(N = 462) Placebo + OBT
+  <br/>
+(N = 237)
+  <br/>
+ULN = Upper limit of normal range
+  <br/>
+Hematology 
+  <br/>
+Absolute neutrophil count (103/µL)
+  <br/>
+  Grade 2 0.75 - 0.999 4% 5%
+  <br/>
+  Grade 3 0.50 - 0.749 3% 3%
+  <br/>
+  Grade 4 &lt;0.50 1% &lt;1%
+  <br/>
+Hemoglobin (gm/dL)
+  <br/>
+  Grade 2 7.5 - 8.4 1% 3%
+  <br/>
+  Grade 3 6.5 - 7.4 1% 1%
+  <br/>
+  Grade 4 &lt;6.5 &lt;1% 0%
+  <br/>
+Platelet count (103/µL)
+  <br/>
+  Grade 2 50 - 99.999 3% 5%
+  <br/>
+  Grade 3 25 - 49.999 1% &lt;1%
+  <br/>
+  Grade 4 &lt;25 1% &lt;1%
+  <br/>
+Blood chemistry
+  <br/>
+Fasting (non-random) serum glucose test (mg/dL)
+  <br/>
+  Grade 2 126 - 250 10% 7%
+  <br/>
+  Grade 3 251 - 500 3% 1%
+  <br/>
+  Grade 4 &gt;500 0% 0%
+  <br/>
+Total serum bilirubin
+  <br/>
+  Grade 2 1.6 - 2.5 × ULN 6% 3%
+  <br/>
+  Grade 3 2.6 - 5.0 × ULN 3% 3%
+  <br/>
+  Grade 4 &gt;5.0 × ULN 1% 0%
+  <br/>
+Serum aspartate aminotransferase
+  <br/>
+  Grade 2 2.6 - 5.0 × ULN 9% 7%
+  <br/>
+  Grade 3 5.1 - 10.0 × ULN 4% 3%
+  <br/>
+  Grade 4 &gt;10.0 × ULN 1% 1%
+  <br/>
+Serum alanine aminotransferase
+  <br/>
+  Grade 2 2.6 - 5.0 × ULN 9% 9%
+  <br/>
+  Grade 3 5.1 - 10.0 × ULN 4% 2%
+  <br/>
+  Grade 4 &gt;10.0 × ULN 1% 2%
+  <br/>
+Serum alkaline phosphatase
+  <br/>
+  Grade 2 2.6 - 5.0 × ULN 2% &lt;1%
+  <br/>
+  Grade 3 5.1 - 10.0 × ULN &lt;1% 1%
+  <br/>
+  Grade 4 &gt;10.0 × ULN 1% &lt;1%
+  <br/>
+Serum pancreatic amylase test
+  <br/>
+  Grade 2 1.6 - 2.0 × ULN 2% 1%
+  <br/>
+  Grade 3 2.1 - 5.0 × ULN 4% 3%
+  <br/>
+  Grade 4 &gt;5.0 × ULN &lt;1% &lt;1%
+  <br/>
+Serum lipase test
+  <br/>
+  Grade 2 1.6 - 3.0 × ULN 5% 4%
+  <br/>
+  Grade 3 3.1 - 5.0 × ULN 2% 1%
+  <br/>
+  Grade 4 &gt;5.0 × ULN 0% 0%
+  <br/>
+Serum creatine kinase
+  <br/>
+  Grade 2 6.0 - 9.9 × ULN 2% 2%
+  <br/>
+  Grade 3 10.0 - 19.9 × ULN 4% 3%
+  <br/>
+  Grade 4 ≥20.0 × ULN 3% 1%
+ </paragraph>
+                  <paragraph>Less Common Adverse Reactions Observed in Treatment-Naïve and Treatment-Experienced Studies</paragraph>
+                  <paragraph>The following ADRs occurred in &lt;2% of treatment-naïve or treatment-experienced subjects receiving ISENTRESS or ISENTRESS HD in a combination regimen. These events have been included because of their seriousness, increased frequency compared with efavirenz or placebo, or investigator's assessment of potential causal relationship.</paragraph>
+                  <paragraph>Gastrointestinal Disorders: abdominal pain, gastritis, dyspepsia, vomiting</paragraph>
+                  <paragraph>General Disorders and Administration Site Conditions: asthenia</paragraph>
+                  <paragraph>Hepatobiliary Disorders: hepatitis</paragraph>
+                  <paragraph>Immune System Disorders: hypersensitivity</paragraph>
+                  <paragraph>Infections and Infestations: genital herpes, herpes zoster</paragraph>
+                  <paragraph>Psychiatric Disorders: depression (particularly in subjects with a pre-existing history of psychiatric illness), including suicidal ideation and behaviors</paragraph>
+                  <paragraph>Renal and Urinary Disorders: nephrolithiasis, renal failure</paragraph>
+                  <paragraph>Selected Adverse Events - Adults</paragraph>
+                  <paragraph>In studies of ISENTRESS 400 mg twice daily, cancers were reported in treatment-experienced subjects who initiated ISENTRESS or placebo, both with OBT, and in treatment-naïve subjects who initiated ISENTRESS or efavirenz, both with emtricitabine (+) tenofovir disoproxil fumarate; several were recurrent. The types and rates of specific cancers were those expected in a highly immunodeficient population (many had CD4+ counts below 50 cells/mm3 and most had prior AIDS diagnoses). The risk of developing cancer in these studies was similar in the group receiving ISENTRESS and the group receiving the comparator.</paragraph>
+                  <paragraph>Grade 2-4 creatine kinase laboratory abnormalities were observed in subjects treated with ISENTRESS and ISENTRESS HD (see TABLES 6 and 8). Myopathy and rhabdomyolysis have been reported with ISENTRESS. Use with caution in patients at increased risk of myopathy or rhabdomyolysis, such as patients receiving concomitant medications known to cause these conditions and patients with a history of rhabdomyolysis, myopathy or increased serum creatine kinase.</paragraph>
+                  <paragraph>Rash occurred more commonly in treatment-experienced subjects receiving regimens containing ISENTRESS + darunavir/ritonavir compared to subjects receiving ISENTRESS without darunavir/ritonavir or darunavir/ritonavir without ISENTRESS. However, rash that was considered drug related occurred at similar rates for all three groups. These rashes were mild to moderate in severity and did not limit therapy; there were no discontinuations due to rash.</paragraph>
+                  <paragraph>Patients with Co-existing Conditions - Adults</paragraph>
+                  <paragraph>Patients Co-infected with Hepatitis B and/or Hepatitis C Virus</paragraph>
+                  <paragraph>In Phase III studies of ISENTRESS, patients with chronic (but not acute) active hepatitis B and/or hepatitis C virus co-infection were permitted to enroll provided that baseline liver function tests did not exceed 5 times the upper limit of normal (ULN). In the treatment-experienced studies, BENCHMRK 1 and BENCHMRK 2, 16% of all patients (114/699) were co-infected; in the treatment-naïve studies, STARTMRK and ONCEMRK, 6% (34/563) and 3% (23/797), respectively, were co-infected. In general the safety profile of ISENTRESS in subjects with hepatitis B and/or hepatitis C virus co-infection was similar to that in subjects without hepatitis B and/or hepatitis C virus co-infection, although the rates of AST and ALT abnormalities were higher in the subgroup with hepatitis B and/or hepatitis C virus co-infection for all treatment groups. </paragraph>
+                  <paragraph>At 96 weeks, in treatment-experienced subjects receiving ISENTRESS 400 mg twice daily, Grade 2 or higher laboratory abnormalities that represent a worsening Grade from baseline of AST, ALT or total bilirubin occurred in 29%, 34% and 13%, respectively, of co-infected subjects treated with ISENTRESS as compared to 11%, 10% and 9% of all other subjects treated with ISENTRESS. At 240 weeks, in treatment-naïve subjects receiving ISENTRESS 400 mg twice daily, Grade 2 or higher laboratory abnormalities that represent a worsening Grade from baseline of AST, ALT or total bilirubin occurred in 22%, 44% and 17%, respectively, of co-infected subjects treated with ISENTRESS as compared to 13%, 13% and 5% of all other subjects treated with ISENTRESS.</paragraph>
+                  <paragraph>At 48 weeks, in treatment-naïve subjects receiving ISENTRESS HD 1200 mg (2 × 600 mg) once daily, Grade 2 or higher laboratory abnormalities that represent a worsening Grade from baseline of AST, ALT or total bilirubin occurred in 13%, 33% and 13%, respectively, of co-infected subjects treated with ISENTRESS HD 1200 mg once daily as compared to 4%, 3% and 2% of all other subjects treated with ISENTRESS HD 1200 mg once daily. </paragraph>
+                  <paragraph>Pediatrics</paragraph>
+                  <paragraph>2 to 18 Years of Age</paragraph>
+                  <paragraph>ISENTRESS has been studied in 126 antiretroviral treatment-experienced HIV-1 infected children and adolescents 2 to 18 years of age, in combination with other antiretroviral agents in IMPAACT P1066 [see USE IN SPECIFIC POPULATIONS (8.4) and CLINICAL STUDIES (14.3)]. Of the 126 patients, 96 received the recommended dose of ISENTRESS.</paragraph>
+                  <paragraph>In these 96 children and adolescents, frequency, type and severity of drug related adverse reactions through Week 24 were comparable to those observed in adults.</paragraph>
+                  <paragraph>One patient experienced drug related clinical adverse reactions of Grade 3 psychomotor hyperactivity, abnormal behavior and insomnia; one patient experienced a Grade 2 serious drug related allergic rash.</paragraph>
+                  <paragraph>One patient experienced drug related laboratory abnormalities, Grade 4 AST and Grade 3 ALT, which were considered serious.</paragraph>
+                  <paragraph>4 Weeks to less than 2 Years of Age</paragraph>
+                  <paragraph>ISENTRESS has also been studied in 26 HIV-1 infected infants and toddlers 4 weeks to less than 2 years of age, in combination with other antiretroviral agents in IMPAACT P1066 [see USE IN SPECIFIC POPULATIONS (8.4) and CLINICAL STUDIES (14.3)]. </paragraph>
+                  <paragraph>In these 26 infants and toddlers, the frequency, type and severity of drug-related adverse reactions through Week 48 were comparable to those observed in adults.</paragraph>
+                  <paragraph>One patient experienced a Grade 3 serious drug-related allergic rash that resulted in treatment discontinuation.</paragraph>
+                  <paragraph>6.2 Postmarketing Experience</paragraph>
+                  <paragraph>The following adverse reactions have been identified during postapproval use of ISENTRESS. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>Blood and Lymphatic System Disorders: thrombocytopenia</paragraph>
+                  <paragraph>Gastrointestinal Disorders: diarrhea</paragraph>
+                  <paragraph>Hepatobiliary Disorders: hepatic failure (with and without associated hypersensitivity) in patients with underlying liver disease and/or concomitant medications</paragraph>
+                  <paragraph>Musculoskeletal and Connective Tissue Disorders: rhabdomyolysis</paragraph>
+                  <paragraph>Nervous System Disorders: cerebellar ataxia</paragraph>
+                  <paragraph>Psychiatric Disorders: anxiety, paranoia</paragraph>
+                  <paragraph>CLOSE</paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_55553e23-45a9-6e08-e054-00144ff8d46c">
+               <id root="55553e23-45a8-6e08-e054-00144ff8d46c"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>Drug Interactions</title>
+               <text>
+                  <paragraph>7.1 Effect of Other Agents on the Pharmacokinetics of Raltegravir </paragraph>
+                  <paragraph>Raltegravir is not a substrate of cytochrome P450 (CYP) enzymes. Based on in vivo and in vitro studies, raltegravir is eliminated mainly by metabolism via a UGT1A1-mediated glucuronidation pathway. Coadministration of ISENTRESS with drugs that inhibit UGT1A1 may increase plasma levels of raltegravir and coadministration of ISENTRESS with drugs that induce UGT1A1, such as rifampin, may reduce plasma levels of raltegravir (see TABLE 10). </paragraph>
+                  <paragraph>Selected drug interactions are presented in Table 10 [see CLINICAL PHARMACOLOGY (12.3)]. In some cases, recommendations differ for ISENTRESS versus ISENTRESS HD.</paragraph>
+                  <paragraph>Table 10: Selected Drug Interactions in Adults
+  <br/>
+Concomitant Drug Class:
+  <br/>
+Drug Name Effect on Concentration of Raltegravir Clinical Comment for ISENTRESS Clinical Comment for ISENTRESS HD
+  <br/>
+Metal-Containing Antacids
+  <br/>
+Aluminum and/or magnesium-containing antacids ↓ Coadministration or staggered administration is not recommended.
+  <br/>
+Calcium carbonate antacid ↓ No dose adjustment  Co-administration is not recommended
+  <br/>
+Other Agents
+  <br/>
+Rifampin  ↓ The recommended dosage is 800 mg twice daily during coadministration with rifampin. There are no data to guide co-administration of ISENTRESS with rifampin in patients below 18 years of age [see DOSAGE AND ADMINISTRATION (2.1)]. Coadministration is not recommended.
+  <br/>
+Tipranavir/ritonavir No dose adjustment  Coadministration is not recommended
+  <br/>
+Etravirine ↓ No dose adjustment Coadministration is not recommended.
+  <br/>
+Strong inducers of drug metabolizing enzymes not mentioned above e.g., Carbamazepine
+  <br/>
+Phenobarbital
+  <br/>
+Phenytoin ↓↔ The impact of other strong inducers of drug metabolizing enzymes on raltegravir is unknown. Coadministration is not recommended.
+ </paragraph>
+                  <paragraph>7.2 Drugs without Clinically Significant Interactions with ISENTRESS or ISENTRESS HD</paragraph>
+                  <paragraph>ISENTRESS</paragraph>
+                  <paragraph>In drug interaction studies performed using ISENTRESS film-coated tablets 400 mg twice daily dose, raltegravir did not have a clinically meaningful effect on the pharmacokinetics of the following: ethinyl estradiol/norgestimate, methadone, midazolam, lamivudine, tenofovir disoproxil fumarate, etravirine, darunavir/ritonavir, or boceprevir. Moreover, atazanavir, atazanavir/ritonavir, boceprevir, calcium carbonate antacids, darunavir/ritonavir, efavirenz, etravirine, omeprazole, or tipranavir/ritonavir did not have a clinically meaningful effect on the pharmacokinetics of 400 mg twice daily raltegravir. No dose adjustment is required when ISENTRESS 400 mg twice daily is coadministered with these drugs. </paragraph>
+                  <paragraph>ISENTRESS HD</paragraph>
+                  <paragraph>In drug interaction studies, efavirenz did not have a clinically meaningful effect on the pharmacokinetics of ISENTRESS HD 1200 mg (2 × 600 mg) once daily. No dose adjustment is recommended when ISENTRESS HD 1200 mg once daily is coadministered with atazanavir, atazanavir/ritonavir, hormonal contraceptives, methadone, lamivudine, tenofovir disoproxil fumarate, darunavir/ritonavir, boceprevir, efavirenz and omeprazole.</paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_55552972-3cf4-6a03-e054-00144ff8d46c">
+               <id root="55552972-3cf3-6a03-e054-00144ff8d46c"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>Use in Specific Populations</title>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph>Pregnancy Exposure Registry</paragraph>
+                  <paragraph>There is a pregnancy exposure registry that monitors pregnancy outcomes in women. Healthcare providers are encouraged to register patients by calling the Antiretroviral Pregnancy Registry (APR) at 1-800-258-4263.</paragraph>
+                  <paragraph>Risk Summary </paragraph>
+                  <paragraph>Available data from the APR show no difference in the rate of overall birth defects for raltegravir compared to the background rate for major birth defects of 2.7% in the U.S. reference population of the Metropolitan Atlanta Congenital Defects Program (MACDP) [see DATA]. The rate of miscarriage is not reported in the APR. The estimated background rate of miscarriage in clinically recognized pregnancies in the U.S. general population is 15-20%. The background risk for major birth defects and miscarriage for the indicated population is unknown. Methodological limitations of the APR include the use of MACDP as the external comparator group. The MACDP population is not disease-specific, evaluates women and infants from a limited geographic area, and does not include outcomes for births that occurred at &lt;20 weeks gestation [see DATA].</paragraph>
+                  <paragraph>In animal reproduction studies in rats and rabbits, no evidence of adverse developmental outcomes was observed with oral administration of raltegravir during organogenesis at doses that produced exposures up to approximately 4 times the maximal recommended human dose (MRHD) of 1200 mg [see DATA].</paragraph>
+                  <paragraph>Data</paragraph>
+                  <paragraph>Human Data</paragraph>
+                  <paragraph>Based on prospective reports from the APR of over 400 exposures to raltegravir during pregnancy resulting in live births (including over 200 exposures in the first trimester), there was no difference between the overall risk of birth defects for raltegravir compared with the background birth defect rate of 2.7% in the U.S. reference population of the MACDP. The prevalence of defects in live births was 2.8% (95% CI: 1.1% to 5.8%) following first trimester exposure to raltegravir-containing regimens and 3.4% (95% CI: 1.5% to 6.6%) following second and third trimester exposure to raltegravir-containing regimens.</paragraph>
+                  <paragraph>Animal Data</paragraph>
+                  <paragraph>In a combined embryo/fetal and pre/postnatal development study, raltegravir was administered orally to rats at doses of 100, 300, 600 mg/kg/day on gestation day 6 to 20 or from gestation day 6 to lactation day 20. No effects on pre/postnatal development were observed up to the highest dose tested. Embryo-fetal findings were limited to an increase in the incidence of supernumerary ribs in the 600 mg/kg/day group. Systemic exposure (AUC) at 600 mg/kg/day was approximately 3 times higher than exposure at the MRHD of 1200 mg. </paragraph>
+                  <paragraph>In pregnant rabbits, raltegravir was administered orally at doses of 100, 500, or 1000 mg/kg/day during the gestation days 7 to 20. No embryo/fetal effects were noted up to the highest dose of 1000 mg/kg/day. Systemic exposures (AUC) at 1000 mg/kg/day was approximately 4 times higher than exposures at the MRHD of 1200 mg. In both species, raltegravir has been shown to cross the placenta, with fetal plasma concentrations observed in rats approximately 1.5 to 2.5 times greater than in maternal plasma and fetal plasma concentrations in rabbits approximately 2% that of maternal concentrations on gestation day 20.</paragraph>
+                  <paragraph>8.2 Lactation</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>The Centers for Disease Control and Prevention recommend that HIV-1 infected mothers in the United States not breastfeed their infants to avoid risking postnatal transmission of HIV-1 infection. There are no data on the presence of raltegravir in human milk, the effects on the breastfed infant, or the effects on milk production. When administered to lactating rats, raltegravir was present in milk [see DATA].Because of the potential for: 1) HIV transmission (in HIV-negative infants), 2) developing viral resistance (in HIV-positive infants), and 3) adverse reactions in a breastfed infant, instruct mothers not to breastfeed if they are receiving ISENTRESS/ISENTRESS HD.</paragraph>
+                  <paragraph>Data</paragraph>
+                  <paragraph>Raltegravir was excreted into the milk of lactating rats following oral administration (600 mg/kg/day) from gestation day 6 to lactation day 14, with milk concentrations approximately 3 times that of maternal plasma concentrations observed 2 hours postdose on lactation day 14.</paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>The safety, tolerability, pharmacokinetic profile, and efficacy of twice daily ISENTRESS were evaluated in HIV-1 infected infants, children and adolescents 4 weeks to 18 years of age in an open-label, multicenter clinical trial, IMPAACT P1066 [see CLINICAL PHARMACOLOGY (12.3) and CLINICAL STUDIES (14.3)]. The safety profile was comparable to that observed in adults [see ADVERSE REACTIONS (6.1)]. See DOSAGE AND ADMINISTRATION (2.3) for dosing recommendations for children 4 weeks of age and older. The safety and dosing information for ISENTRESS have not been established in infants less than 4 weeks of age.</paragraph>
+                  <paragraph>ISENTRESS HD once daily has not been studied in pediatric patients. However population PK modeling and simulation support the use of 1200 mg (2 × 600 mg) once daily in pediatric patients weighing at least 40 kg [see CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>Clinical studies of ISENTRESS/ISENTRESS HD did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger subjects. In general, dose selection for an elderly patient should be cautious, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                  <paragraph>8.6 Use in Patients with Hepatic Impairment</paragraph>
+                  <paragraph>No dosage adjustment of ISENTRESS is necessary for patients with mild to moderate (Child-Pugh A and B) hepatic impairment. No hepatic impairment study has been conducted with ISENTRESS HD and therefore administration in subjects with hepatic impairment is not recommended. The effect of severe hepatic impairment on the pharmacokinetics of raltegravir has not been studied [see CLINICAL PHARMACOLOGY (12.3)].</paragraph>
+                  <paragraph>8.7 Use in Patients with Renal Impairment</paragraph>
+                  <paragraph>No dosage adjustment of ISENTRESS or ISENTRESS HD is necessary in patients with any degree of renal impairment [see CLINICAL PHARMACOLOGY (12.3)]. The extent to which ISENTRESS may be dialyzable is unknown. </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_55553e23-45ed-6e08-e054-00144ff8d46c">
+               <id root="55553e23-45ec-6e08-e054-00144ff8d46c"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>Overdosage</title>
+               <text>
+                  <paragraph>In the event of an overdose, it is reasonable to employ the standard supportive measures, e.g., remove unabsorbed material from the gastrointestinal tract, employ clinical monitoring (including obtaining an electrocardiogram), and institute supportive therapy if required. The extent to which ISENTRESS may be dialyzable is unknown.</paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_55553e23-45f1-6e08-e054-00144ff8d46c">
+               <id root="55553e23-45f0-6e08-e054-00144ff8d46c"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>Description</title>
+               <text>
+                  <paragraph>ISENTRESS contains raltegravir potassium, a human immunodeficiency virus integrase strand transfer inhibitor. The chemical name for raltegravir potassium is N-[(4-Fluorophenyl) methyl]-1,6-dihydro-5-hydroxy-1-methyl-2-[1-methyl-1-[[(5-methyl-1,3,4-oxadiazol-2-yl)carbonyl]amino]ethyl]-6-oxo-4-pyrimidinecarboxamide monopotassium salt.</paragraph>
+                  <paragraph>The empirical formula is C20H20FKN6O5 and the molecular weight is 482.51. The structural formula is:</paragraph>
+                  <paragraph>[Chemical Structure]</paragraph>
+                  <paragraph>Raltegravir potassium is a white to off-white powder. It is soluble in water, slightly soluble in methanol, very slightly soluble in ethanol and acetonitrile and insoluble in isopropanol.</paragraph>
+                  <paragraph>Each 400 mg film-coated tablet of ISENTRESS for oral administration contains 434.4 mg of raltegravir (as potassium salt), equivalent to 400 mg of raltegravir free phenol and the following inactive ingredients: calcium phosphate dibasic anhydrous, hypromellose 2208, lactose monohydrate, magnesium stearate, microcrystalline cellulose, poloxamer 407 (contains 0.01% butylated hydroxytoluene as antioxidant), sodium stearyl fumarate. In addition, the film coating contains the following inactive ingredients: black iron oxide, polyethylene glycol 3350, polyvinyl alcohol, red iron oxide, talc and titanium dioxide.</paragraph>
+                  <paragraph>Each 600 mg film-coated tablet of ISENTRESS HD for oral administration contains 651.6 mg of raltegravir (as potassium salt), equivalent to 600 mg of raltegravir free phenol and the following inactive ingredients: croscarmellose sodium, hypromellose 2910, magnesium stearate, microcrystalline cellulose. The film coating contains the following inactive ingredients: ferrosoferric oxide, hypromellose 2910, iron oxide yellow, lactose monohydrate, triacetin and titanium dioxide. The tablet may also contain trace amount of carnauba wax. </paragraph>
+                  <paragraph>Each 100 mg chewable tablet of ISENTRESS for oral administration contains 108.6 mg of raltegravir (as potassium salt), equivalent to 100 mg of raltegravir free phenol and the following inactive ingredients: ammonium hydroxide, crospovidone, ethylcellulose 20 cP, fructose, hydroxypropyl cellulose, hypromellose 2910/6cP, magnesium stearate, mannitol, medium chain triglycerides, monoammonium glycyrrhizinate, natural and artificial flavors (orange, banana, and masking that contains aspartame), oleic acid, PEG 400, red iron oxide, saccharin sodium, sodium citrate dihydrate, sodium stearyl fumarate, sorbitol, sucralose and yellow iron oxide.</paragraph>
+                  <paragraph>Each 25 mg chewable tablet of ISENTRESS for oral administration contains 27.16 mg of raltegravir (as potassium salt), equivalent to 25 mg of raltegravir free phenol and the following inactive ingredients: ammonium hydroxide, crospovidone, ethylcellulose 20 cP, fructose, hydroxypropyl cellulose, hypromellose 2910/6cP, magnesium stearate, mannitol, medium chain triglycerides, monoammonium glycyrrhizinate, natural and artificial flavors (orange, banana, and masking that contains aspartame), oleic acid, PEG 400, saccharin sodium, sodium citrate dihydrate, sodium stearyl fumarate, sorbitol, sucralose and yellow iron oxide.</paragraph>
+                  <paragraph>Each packet of ISENTRESS for oral suspension 100 mg, contains 108.6 mg of raltegravir (as potassium salt), equivalent to 100 mg of raltegravir free phenol and the following inactive ingredients: ammonium hydroxide, banana with other natural flavors, carboxymethylcellulose sodium, crospovidone, ethylcellulose 20 cP, fructose, hydroxypropyl cellulose, hypromellose 2910/6cP, macrogol/PEG 400, magnesium stearate, maltodextrin, mannitol, medium chain triglycerides, microcrystalline cellulose, monoammonium glycyrrhizinate, oleic acid, sorbitol, sucralose and sucrose.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_55553e23-45ef-6e08-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+               <component>
+                  <observationMedia ID="img_55553e23-45ef-6e08-e054-00144ff8d46c">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Isentess.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_555512e9-1f7a-0e55-e054-00144ff88e88">
+               <id root="555512e9-1f79-0e55-e054-00144ff88e88"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>Clinical Pharmacology</title>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>Raltegravir is an HIV-1 antiviral drug [see MICROBIOLOGY (12.4)].</paragraph>
+                  <paragraph>12.2 Pharmacodynamics</paragraph>
+                  <paragraph>In a monotherapy study raltegravir (400 mg twice daily) demonstrated rapid antiviral activity with mean viral load reduction of 1.66 log10 copies/mL by Day 10. </paragraph>
+                  <paragraph>Cardiac Electrophysiology</paragraph>
+                  <paragraph>At a dose 1.33 times the maximum approved recommended dose (and peak concentrations 1.25-fold higher than the maximum approved dose), raltegravir does not prolong the QT interval or PR interval to any clinically relevant extent. </paragraph>
+                  <paragraph>12.3 Pharmacokinetics</paragraph>
+                  <paragraph>Adults</paragraph>
+                  <paragraph>Absorption</paragraph>
+                  <paragraph>Raltegravir, given 400 mg twice daily, is absorbed with a Tmax of approximately 3 hours postdose in the fasted state in healthy subjects. Raltegravir 1200 mg once daily is rapidly absorbed with median Tmaxof ~1.5 to 2 hours in the fasted state.</paragraph>
+                  <paragraph>Raltegravir increases dose proportionally (AUC and Cmax) or slightly less than dose proportionally (C12hr) over the dose range 100 mg to 1600 mg. </paragraph>
+                  <paragraph>The absolute bioavailability of raltegravir has not been established. The chewable tablet and oral suspension have higher oral bioavailability compared to the 400 mg film-coated tablet.</paragraph>
+                  <paragraph>Relative to the raltegravir 400 mg formulation, the raltegravir 600 mg formulation has higher relative bioavailability.</paragraph>
+                  <paragraph>Steady-state is generally reached in 2 days, with little to no accumulation with multiple dose administration for the 400 mg twice daily and 1200 once daily formulation.</paragraph>
+                  <paragraph>Effect of Food on Oral Absorption</paragraph>
+                  <paragraph>The food effect of various formulations are presented in Table 11.</paragraph>
+                  <paragraph>Table 11: Effect of Food on the Pharmacokinetics of Raltegravir Formulations
+  <br/>
+PK parameter ratio (fed/fasted)
+  <br/>
+Formulation Meal Type AUC Ratio
+  <br/>
+(90% CI)  Cmax Ratio
+  <br/>
+(90% CI) Cmin Ratio
+  <br/>
+(90% CI)
+  <br/>
+Low-fat meal: 300 Kcal, 2.5 g fat
+  <br/>
+Moderate-fat meal: 600 Kcal, 21 g fat
+  <br/>
+High-fat meal: 825 Kcal, 52 g fat
+  <br/>
+400 mg twice daily Low Fat 0.54 (0.41-0.71) 0.48 (0.35-0.67) 0.86 (0.54-1.36)
+  <br/>
+Moderate Fat  1.13 (0.85-1.49) 1.05 (0.75-1.46) 1.66 (1.04-2.64)
+  <br/>
+High Fat 2.11 (1.60-2.80) 1.96 (1.41-2.73) 4.13 (2.60-6.57)
+  <br/>
+1200 mg once daily Low Fat 0.58 (0.46-0.74) 0.48 (0.37-0.62) 0.84 (0.63-1.10)
+  <br/>
+High Fat 1.02 (0.86-1.21) 0.72 (0.58-0.90) 0.88 (0.66-1.18)
+  <br/>
+Chewable tablet High Fat 0.94 (0.78-1.14) 0.38 (0.28-0.52) 2.88 (2.21-3.75)
+  <br/>
+Oral suspension The effect of food on oral suspension was not studied.
+ </paragraph>
+                  <paragraph>Distribution</paragraph>
+                  <paragraph>Raltegravir is approximately 83% bound to human plasma protein over the concentration range of 2 to 10 µM. </paragraph>
+                  <paragraph>In one study of HIV-1 infected subjects who received raltegravir 400 mg twice daily, raltegravir was measured in the cerebrospinal fluid. In the study (n=18), the median cerebrospinal fluid concentration was 5.8% (range 1 to 53.5%) of the corresponding plasma concentration. This median proportion was approximately 3-fold lower than the free fraction of raltegravir in plasma. The clinical relevance of this finding is unknown.</paragraph>
+                  <paragraph>Metabolism and Excretion</paragraph>
+                  <paragraph>The apparent terminal half-life of raltegravir is approximately 9 hours, with a shorter α-phase half-life (~1 hour) accounting for much of the AUC. Following administration of an oral dose of radiolabeled raltegravir, approximately 51 and 32% of the dose was excreted in feces and urine, respectively. In feces, only raltegravir was present, most of which is likely derived from hydrolysis of raltegravir-glucuronide secreted in bile as observed in preclinical species. Two components, namely raltegravir and raltegravir-glucuronide, were detected in urine and accounted for approximately 9 and 23% of the dose, respectively. The major circulating entity was raltegravir and represented approximately 70% of the total radioactivity; the remaining radioactivity in plasma was accounted for by raltegravir-glucuronide. The major mechanism of clearance of raltegravir in humans is UGT1A1-mediated glucuronidation.</paragraph>
+                  <paragraph>Table 12: Multiple-Dose Pharmacokinetic Parameters of Raltegravir Following the Administration of 400 mg Twice Daily and 1200 mg Once Daily in HIV-infected Subjects
+  <br/>
+Parameter 400 mg BID
+  <br/>
+Geometric Mean (%CV)
+  <br/>
+N=6 1200 mg QD
+  <br/>
+Geometric Mean (%CV)
+  <br/>
+N=524
+  <br/>
+AUC (µM∙hr) AUC0-12= 14.3 (88.6) AUC0-24 = 55.3 (41.5)
+  <br/>
+Cmax (µM) 4.5 (128) 15.7 (45.8)
+  <br/>
+Cmin (nM) C12 = 142 (63.8) C24 = 107 (97.5)
+ </paragraph>
+                  <paragraph>Special Populations</paragraph>
+                  <paragraph>Pediatric</paragraph>
+                  <paragraph>ISENTRESS</paragraph>
+                  <paragraph>Two pediatric formulations were evaluated in healthy adult volunteers, where the chewable tablet and oral suspension were compared to the 400 mg tablet. The chewable tablet and oral suspension demonstrated higher oral bioavailability, thus higher AUC, compared to the 400 mg tablet. In the same study, the oral suspension resulted in higher oral bioavailability compared to the chewable tablet. These observations resulted in proposed pediatric doses targeting 6 mg/kg/dose for the chewable tablets and oral suspension. As displayed in Table 13, the doses recommended for HIV-infected infants, children and adolescents 4 weeks to 18 years of age [see DOSAGE AND ADMINISTRATION (2.3)]resulted in a pharmacokinetic profile of raltegravir similar to that observed in adults receiving 400 mg twice daily.</paragraph>
+                  <paragraph>Overall, dosing in pediatric patients achieved exposures (Ctrough) above 45 nM in the majority of subjects, but some differences in exposures between formulations were observed. Pediatric patients above 25 kg administered the chewable tablets had lower trough concentrations (113 nM) compared to pediatric patients above 25 kg administered the 400 mg tablet formulation (233 nM) [see CLINICAL STUDIES (14.3)]. As a result, the 400 mg film-coated tablet is the recommended dose in patients weighing at least 25 kg; however, the chewable tablet offers an alternative regimen in patients weighing at least 25 kg who are unable to swallow the film-coated tablet [see DOSAGE AND ADMINISTRATION (2.3)]. In addition, pediatric patients weighing 11 to 25 kg who were administered the chewable tablets had the lowest trough concentrations (82 nM) compared to all other pediatric subgroups.</paragraph>
+                  <paragraph>Table 13: Raltegravir Steady State Pharmacokinetic Parameters in Pediatric Patients Following Administration of Recommended Twice-Daily Doses
+  <br/>
+Body Weight Formulation Dose N* Geometric Mean
+  <br/>
+(%CV†)
+  <br/>
+AUC0-12hr(µM∙hr) Geometric Mean
+  <br/>
+(%CV†) 
+  <br/>
+C12hr (nM)
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Number of patients with intensive pharmacokinetic (PK) results at the final recommended dose.
+  <br/>
+†
+  <br/>
+Geometric coefficient of variation.
+ </paragraph>
+                  <paragraph>≥25 kg Film-coated tablet 400 mg twice daily 18 14.1 (121%) 233 (157%)
+  <br/>
+≥25 kg Chewable tablet Weight based dosing, see TABLE 3 9 22.1 (36%) 113 (80%)
+  <br/>
+11 to less than 25 kg Chewable tablet Weight based dosing, see TABLE 4 13 18.6 (68%) 82 (123%)
+  <br/>
+3 to less than 20 kg Oral suspension Weight based dosing, see TABLE 4 19 24.5 (43%) 113 (69%)
+ </paragraph>
+                  <paragraph>The pharmacokinetics of raltegravir in infants under 4 weeks of age has not been established.</paragraph>
+                  <paragraph>ISENTRESS HD</paragraph>
+                  <paragraph>ISENTRESS HD 1200 mg (2 × 600 mg) was not evaluated in a pediatric clinical study. Exposures for pediatric subjects weighing at least 40 kg administered ISENTRESS HD are predicted to be comparable to adult exposures observed from Phase III ONCEMRK. </paragraph>
+                  <paragraph>Age/Race/Gender</paragraph>
+                  <paragraph>There is no clinically meaningful effect of age (18 years and older), race, or gender on the pharmacokinetics of raltegravir.</paragraph>
+                  <paragraph>Hepatic Impairment</paragraph>
+                  <paragraph>Raltegravir is eliminated primarily by glucuronidation in the liver. The pharmacokinetics of a single 400-mg dose of raltegravir were not altered in patients with moderate (Child-Pugh Score 7 to 9) hepatic impairment.</paragraph>
+                  <paragraph>No hepatic impairment study has been conducted with ISENTRESS HD 1200 mg (2 × 600 mg) once daily.The effect of severe hepatic impairment on the pharmacokinetics of raltegravir has not been studied.</paragraph>
+                  <paragraph>Renal Impairment</paragraph>
+                  <paragraph>Renal clearance of unchanged drug is a minor pathway of elimination. The pharmacokinetics of a single 400-mg dose of raltegravir were not altered in patients with severe (24-hour creatinine clearance of &lt;30 mL/min/1.73 m2) renal impairment.</paragraph>
+                  <paragraph>No renal impairment study was conducted with ISENTRESS HD 1200 mg (2 × 600 mg) once daily.</paragraph>
+                  <paragraph>The extent to which ISENTRESS may be dialyzable is unknown.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>In vitro, raltegravir does not inhibit (IC50&gt;100 µM) CYP1A2, CYP2B6, CYP2C8, CYP2C9, CYP2C19, CYP2D6 or CYP3A. In vivo, raltegravir does not inhibit CYP3A4. Moreover, in vitro, raltegravir did not induce CYP1A2, CYP2B6 or CYP3A4. Similarly, raltegravir is not an inhibitor (IC50&gt;50 µM) of UGT1A1 or UGT2B7, and raltegravir does not inhibit P-glycoprotein-mediated transport. </paragraph>
+                  <paragraph>Raltegravir drug interaction study results are shown in Tables 14 and 15. For information regarding clinical recommendations [see DRUG INTERACTIONS (7)].</paragraph>
+                  <paragraph>Table 14: Effect of Other Agents on the Pharmacokinetics of Raltegravir in Adults
+  <br/>
+Coadministered Drug Coadministered Drug Dose/Schedule Raltegravir
+  <br/>
+Dose/Schedule Ratio (90% Confidence Interval) of Raltegravir Pharmacokinetic Parameters with/without Coadministered Drug;
+  <br/>
+No Effect = 1.00
+  <br/>
+n Cmax AUC Cmin
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Study conducted in HIV-infected subjects.
+ </paragraph>
+                  <paragraph>aluminum and magnesium hydroxide antacid* 20 mL single dose given with raltegravir 400 mg twice daily 25 0.56
+  <br/>
+(0.42, 0.73) 0.51
+  <br/>
+(0.40, 0.65) 0.37
+  <br/>
+(0.29, 0.48)
+  <br/>
+20 mL single dose given 2 hours before raltegravir 23 0.49
+  <br/>
+(0.33, 0.71) 0.49
+  <br/>
+(0.35, 0.67) 0.44
+  <br/>
+(0.34, 0.55)
+  <br/>
+20 mL single dose given 2 hours after raltegravir 23 0.78
+  <br/>
+(0.53, 1.13) 0.70
+  <br/>
+(0.50, 0.96) 0.43
+  <br/>
+(0.34, 0.55)
+  <br/>
+20 mL single dose given 4 hours before raltegravir 17 0.78
+  <br/>
+(0.55, 1.10) 0.81
+  <br/>
+(0.63, 1.05) 0.40
+  <br/>
+(0.31, 0.52)
+  <br/>
+20 mL single dose given 4 hours after raltegravir 18 0.70
+  <br/>
+(0.48, 1.04) 0.68
+  <br/>
+(0.50, 0.92) 0.38
+  <br/>
+(0.30, 0.49)
+  <br/>
+20 mL single dose given 6 hours before raltegravir 16 0.90
+  <br/>
+(0.58, 1.40) 0.87
+  <br/>
+(0.64, 1.18) 0.50
+  <br/>
+(0.39, 0.65)
+  <br/>
+20 mL single dose given 6 hours after raltegravir 16 0.90
+  <br/>
+(0.58, 1.41) 0.89
+  <br/>
+(0.64, 1.22) 0.51
+  <br/>
+(0.40, 0.64)
+  <br/>
+aluminum and magnesium hydroxide antacid* 20 mL single dose given 12 hours after raltegravir 1200 mg single dose 19 0.86
+  <br/>
+(0.65, 1.15) 0.86
+  <br/>
+(0.73, 1.03) 0.42 
+  <br/>
+(0.34, 0.52)
+  <br/>
+atazanavir 400 mg daily 100 mg single dose 10 1.53 (1.11, 2.12) 1.72 (1.47, 2.02) 1.95 (1.30, 2.92)
+  <br/>
+atazanavir 400 mg daily 1200 mg single dose 14 1.16 (1.01, 1.33) 1.67 (1.34, 2.10) 1.26 (1.08, 1.46)
+  <br/>
+atazanavir/ritonavir 300 mg/100 mg daily 400 mg twice daily 10 1.24 (0.87, 1.77) 1.41 (1.12, 1.78) 1.77 (1.39, 2.25)
+  <br/>
+boceprevir 800 mg three times daily 400 mg single dose 22 1.11
+  <br/>
+(0.91-1.36) 1.04
+  <br/>
+(0.88-1.22) 0.75
+  <br/>
+(0.45-1.23)
+  <br/>
+calcium carbonate antacid* 3000 mg single dose given with raltegravir 400 mg twice daily 24 0.48
+  <br/>
+(0.36, 0.63) 0.45
+  <br/>
+(0.35, 0.57) 0.68
+  <br/>
+(0.53, 0.87)
+  <br/>
+calcium carbonate antacid* 3000 mg single dose given with raltegravir 1200 mg single dose 19 0.26 
+  <br/>
+(0.21, 0.32) 0.28
+  <br/>
+(0.24, 0.32) 0.52
+  <br/>
+(0.45, 0.61)
+  <br/>
+3000 mg single dose given 12 hours after raltegravir 0.98 
+  <br/>
+(0.81, 1.17) 0.90 
+  <br/>
+(0.80, 1.03) 0.43 
+  <br/>
+(0.36, 0.51)
+  <br/>
+efavirenz 600 mg daily 400 mg single dose 9 0.64
+  <br/>
+(0.41, 0.98) 0.64
+  <br/>
+(0.52, 0.80) 0.79 
+  <br/>
+(0.49, 1.28)
+  <br/>
+efavirenz 600 mg daily 1200 mg single dose 21 0.91
+  <br/>
+(0.70, 1.17) 0.86
+  <br/>
+(0.73, 1.01) 0.94
+  <br/>
+(0.76, 1.17)
+  <br/>
+etravirine 200 mg twice daily 400 mg twice daily 19 0.89
+  <br/>
+(0.68, 1.15) 0.90
+  <br/>
+(0.68, 1.18) 0.66
+  <br/>
+(0.34, 1.26)
+  <br/>
+omeprazole* 20 mg daily 400 mg twice daily 18 1.51
+  <br/>
+(0.98, 2.35) 1.37
+  <br/>
+(0.99, 1.89) 1.24
+  <br/>
+(0.95, 1.62)
+  <br/>
+rifampin 600 mg daily 400 mg single dose 9 0.62 
+  <br/>
+(0.37, 1.04) 0.60
+  <br/>
+(0.39, 0.91) 0.39
+  <br/>
+(0.30, 0.51)
+  <br/>
+rifampin 600 mg daily 400 mg twice daily when administered alone; 800 mg twice daily when administered with rifampin 14 1.62
+  <br/>
+(1.12, 2.33) 1.27
+  <br/>
+(0.94, 1.71) 0.47
+  <br/>
+(0.36, 0.61)
+  <br/>
+ritonavir 100 mg twice daily 400 mg single dose 10 0.76 (0.55, 1.04) 0.84 (0.70, 1.01) 0.99 (0.70, 1.40)
+  <br/>
+tenofovir disoproxil fumarate  300 mg daily 400 mg twice daily 9 1.64
+  <br/>
+(1.16, 2.32) 1.49
+  <br/>
+(1.15, 1.94) 1.03
+  <br/>
+(0.73, 1.45)
+  <br/>
+tipranavir/ritonavir 500 mg/200 mg twice daily 400 mg twice daily 15
+  <br/>
+(14 for Cmin) 0.82
+  <br/>
+(0.46, 1.46) 0.76
+  <br/>
+(0.49, 1.19) 0.45
+  <br/>
+(0.31, 0.66)
+ </paragraph>
+                  <paragraph>Table 15: Effect of Raltegravir on the Pharmacokinetics of Other Agents in Adults
+  <br/>
+Substrate Drug Raltegravir
+  <br/>
+Dose/Schedule Ratio (90% Confidence Interval) of Substrate Pharmacokinetic Parameters with/without Coadministered Drug;
+  <br/>
+No Effect = 1.00
+  <br/>
+n Cmax AUC Cmin
+  <br/>
+Tenofovir disoproxil fumarate 300 mg 400 mg 9 0.77 (0.69, 0.85) 0.90 (0.82, 0.99) C24hr
+  <br/>
+0.87 (0.74, 1.02)
+  <br/>
+Etravirine 200 mg 400 mg 19 1.04 (0.97, 1.12) 1.10 (1.03, 1.16) 1.17 (1.10, 1.26)
+ </paragraph>
+                  <paragraph>In drug interaction studies, there was no effect of raltegravir on the PK of ethinyl estradiol, methadone, midazolam or boceprevir.</paragraph>
+                  <paragraph>12.4 Microbiology</paragraph>
+                  <paragraph>Mechanism of Action</paragraph>
+                  <paragraph>Raltegravir inhibits the catalytic activity of HIV-1 integrase, an HIV-1 encoded enzyme that is required for viral replication. Inhibition of integrase prevents the covalent insertion, or integration, of unintegrated linear HIV-1 DNA into the host cell genome preventing the formation of the HIV-1 provirus. The provirus is required to direct the production of progeny virus, so inhibiting integration prevents propagation of the viral infection. Raltegravir did not significantly inhibit human phosphoryltransferases including DNA polymerases α, β, and γ.</paragraph>
+                  <paragraph>Antiviral Activity in Cell Culture</paragraph>
+                  <paragraph>Raltegravir at concentrations of 31 ± 20 nM resulted in 95% inhibition (EC95) of viral spread (relative to an untreated virus-infected culture) in human T-lymphoid cell cultures infected with the cell-line adapted HIV-1 variant H9IIIB. In addition, 5 clinical isolates of HIV-1 subtype B had EC95 values ranging from 9 to 19 nM in cultures of mitogen-activated human peripheral blood mononuclear cells. In a single-cycle infection assay, raltegravir inhibited infection of 23 HIV-1 isolates representing 5 non-B subtypes (A, C, D, F, and G) and 5 circulating recombinant forms (AE, AG, BF, BG, and cpx) with EC50values ranging from 5 to 12 nM. Raltegravir also inhibited replication of an HIV-2 isolate when tested in CEMx174 cells (EC95 value = 6 nM). No antagonism was observed when human T-lymphoid cells infected with the H9IIIB variant of HIV-1 were incubated with raltegravir in combination with non-nucleoside reverse transcriptase inhibitors (delavirdine, efavirenz, or nevirapine); nucleoside analog reverse transcriptase inhibitors (abacavir, didanosine, lamivudine, stavudine, tenofovir, or zidovudine); protease inhibitors (amprenavir, atazanavir, indinavir, lopinavir, nelfinavir, ritonavir, or saquinavir); or the entry inhibitor enfuvirtide.</paragraph>
+                  <paragraph>Resistance </paragraph>
+                  <paragraph>The mutations observed in the HIV-1 integrase coding sequence that contributed to raltegravir resistance (evolved either in cell culture or in subjects treated with raltegravir) generally included an amino acid substitution at either Y143 (changed to C, H, or R) or Q148 (changed to H, K, or R) or N155 (changed to H) plus one or more additional substitutions (i.e., L74M, E92Q, Q95K/R, T97A, E138A/K, G140A/S, V151I, G163R, H183P, Y226C/D/F/H, S230R, and D232N). E92Q and F121C are occasionally seen in the absence of substitutions at Y143, Q148, or N155 in raltegravir-treatment failure subjects.</paragraph>
+                  <paragraph>Treatment-Naïve Adult Subjects: By Week 240 in the STARTMRK trial, the primary raltegravir resistance-associated substitutions were observed in 4 (2 with Y143H/R and 2 with Q148H/R) of the 12 virologic failure subjects with evaluable genotypic data from paired baseline and raltegravir treatment-failure isolates. By Week 48 in the ONCEMRK trial, primary resistance substitutions were observed in on-treatment isolates obtained from 4 (N155H/I203M, N155H/V151I/D232N, N155H, E92Q/L74M) of the 14 virologic failure subjects with evaluable genotypic data. These isolates exhibited 9.3- to 19-fold reductions in susceptibility to raltegravir. </paragraph>
+                  <paragraph>Treatment-Experienced Adult Subjects: By Week 96 in the BENCHMRK trials, at least one of the primary raltegravir resistance-associated substitutions, Y143C/H/R, Q148H/K/R, and N155H, was observed in 76 of the 112 virologic failure subjects with evaluable genotypic data from paired baseline and raltegravir treatment-failure isolates. The emergence of the primary raltegravir resistance-associated substitutions was observed cumulatively in 70 subjects by Week 48 and 78 subjects by Week 96, 15.2% and 17% of the raltegravir recipients, respectively. Some (n=58) of those HIV-1 isolates harboring one or more of the primary raltegravir resistance-associated substitutions were evaluated for raltegravir susceptibility yielding a median decrease of 26.3-fold (mean 48.9 ± 44.8-fold decrease, ranging from 0.8- to 159-fold) compared to the wild-type reference.</paragraph>
+                  <paragraph>Cross Resistance</paragraph>
+                  <paragraph>Cross resistance has been observed among HIV-1 integrase strand transfer inhibitors (INSTIs). Amino acid substitutions in HIV-1 integrase conferring resistance to raltegravir generally also confer resistance to elvitegravir. Substitutions at amino acid Y143 confer greater reductions in susceptibility to raltegravir than to elvitegravir, and the E92Q substitution confers greater reductions in susceptibility to elvitegravir than to raltegravir. Viruses harboring a substitution at amino acid Q148, along with one or more other raltegravir resistance substitutions, may also have clinically significant resistance to dolutegravir.</paragraph>
+                  <paragraph>12.5 Pharmacogenomics</paragraph>
+                  <paragraph>UGT1A1 Polymorphism</paragraph>
+                  <paragraph>There is no evidence that common UGT1A1 polymorphisms alter raltegravir pharmacokinetics to a clinically meaningful extent. In a comparison of 30 adult subjects with *28/*28 genotype (associated with reduced activity of UGT1A1) to 27 adult subjects with wild-type genotype, the geometric mean ratio (90% CI) of AUC was 1.41 (0.96, 2.09).</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_55552c93-c705-5d5d-e054-00144ff8d46c">
+               <id root="55552c93-c704-5d5d-e054-00144ff8d46c"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>Nonclinical toxicology</title>
+               <text>
+                  <paragraph>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>Carcinogenicity studies of raltegravir in mice did not show any carcinogenic potential. At the highest dose levels, 400 mg/kg/day in females and 250 mg/kg/day in males, systemic exposure was 1.8-fold (females) or 1.2-fold (males) greater than the AUC (54 µM∙hr) at the 400-mg twice daily human dose. Treatment-related squamous cell carcinoma of nose/nasopharynx was observed in female rats dosed with 600 mg/kg/day raltegravir for 104 weeks. These tumors were possibly the result of local irritation and inflammation due to local deposition and/or aspiration of drug in the mucosa of the nose/nasopharynx during dosing. No tumors of the nose/nasopharynx were observed in rats dosed with 150 mg/kg/day (males) and 50 mg/kg/day (females) and the systemic exposure in rats was 1.7-fold (males) to 1.4-fold (females) greater than the AUC (54 µM∙hr) at the 400-mg twice daily human dose. </paragraph>
+                  <paragraph>No evidence of mutagenicity or genotoxicity was observed in in vitro microbial mutagenesis (Ames) tests, in vitro alkaline elution assays for DNA breakage, and in vitro and in vivo chromosomal aberration studies.</paragraph>
+                  <paragraph>No effect on fertility was seen in male and female rats at doses up to 600 mg/kg/day which resulted in a 3-fold exposure above the exposure at the recommended human dose.</paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_55552c93-c707-5d5d-e054-00144ff8d46c">
+               <id root="55552c93-c706-5d5d-e054-00144ff8d46c"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>Clinical Studies</title>
+               <text>
+                  <paragraph>14.1 Description of Clinical Studies</paragraph>
+                  <paragraph>The evidence of durable efficacy of ISENTRESS 400 mg twice daily is based on the analyses of 240-week data from a randomized, double-blind, active-controlled trial, STARTMRK evaluating ISENTRESS 400 mg twice daily in antiretroviral treatment-naïve HIV-1 infected adult subjects, the analysis of 48-week data from a randomized, double-blind, active-control trial, ONCEMRK evaluating ISENTRESS HD 1200 mg (2 × 600 mg) once daily in treatment-naïve adult subjects, and 96-week data from 2 randomized, double-blind, placebo-controlled studies, BENCHMRK 1 and BENCHMRK 2, evaluating ISENTRESS 400 mg twice daily in antiretroviral treatment-experienced HIV-1 infected adult subjects. See TABLE 16.</paragraph>
+                  <paragraph>Table 16: Trials Conducted with ISENTRESS and ISENTRESS HD in Subjects with HIV-1 Infection
+  <br/>
+Trial Study Type Population Study Arms (N) Dose/Formulation  Timepoint
+  <br/>
+STARTMRK Randomized, double-blind, active-controlled Treatment-Naïve Adults ISENTRESS 400 mg Twice Daily (281) 
+  <br/>
+Efavirenz 600 mg At Bedtime (282) 
+  <br/>
+Both in combination with emtricitabine (+) tenofovir disoproxil fumarate 400 mg film-coated tablet Week 240
+  <br/>
+ONCEMRK Randomized, double-blind, active-controlled Treatment-Naïve Adults ISENTRESS HD 1200 mg Once Daily (531)  600 mg film-coated tablet Week 48
+  <br/>
+ISENTRESS 400 mg Twice Daily (266) 
+  <br/>
+Both in combination with emtricitabine (+) tenofovir disoproxil fumarate 400 mg film-coated tablet
+  <br/>
+BENCHMRK 1 Randomized, double-blind, placebo-controlled Treatment-Experienced Adults ISENTRESS 400 mg Twice Daily (232) 
+  <br/>
+Placebo (118) 
+  <br/>
+Both in combination with optimized background therapy 400 mg film-coated tablet Week 240 (Week 156 on double-blind plus Week 84 on open-label)
+  <br/>
+BENCHMRK 2 Randomized, double-blind, placebo-controlled Treatment-Experienced Adults ISENTRESS 400 mg Twice Daily (230) 
+  <br/>
+Placebo (119) 
+  <br/>
+Both in combination with optimized background therapy 400 mg film-coated tablet Week 240 (Week 156 on double-blind plus Week 84 on open-label)
+ </paragraph>
+                  <paragraph>14.2 Treatment-Naïve Adult Subjects </paragraph>
+                  <paragraph>STARTMRK (ISENTRESS 400 mg twice daily)</paragraph>
+                  <paragraph>STARTMRK is a Phase 3 randomized, international, double-blind, active-controlled trial to evaluate the safety and efficacy of ISENTRESS 400 mg twice daily versus efavirenz 600 mg at bedtime both with emtricitabine (+) tenofovir disoproxil fumarate in treatment-naïve HIV-1-infected subjects with HIV-1 RNA &gt;5000 copies/mL. Randomization was stratified by screening HIV-1 RNA level (≤50,000 copies/mL; or &gt;50,000 copies/mL) and by hepatitis status. In STARTMRK, 563 subjects were randomized and received at least 1 dose of either raltegravir 400 mg twice daily or efavirenz 600 mg at bedtime, both in combination with emtricitabine (+) tenofovir disoproxil fumarate. There were 563 subjects included in the efficacy and safety analyses. At baseline, the median age of subjects was 37 years (range 19-71), 19% female, 58% non-white, 6% had hepatitis B and/or C virus co-infection, 20% were CDC Class C (AIDS), 53% had HIV-1 RNA greater than 100,000 copies per mL, and 47% had CD4+ cell count less than 200 cells per mm3; the frequencies of these baseline characteristics were similar between treatment groups. </paragraph>
+                  <paragraph>ONCEMRK (ISENTRESS HD 1200 mg [2 × 600 mg] once daily) </paragraph>
+                  <paragraph>ONCEMRK is a Phase 3 randomized, international, double-blind, active-controlled trial to evaluate the safety and efficacy of ISENTRESS HD 1200 mg (2 × 600 mg) once daily versus ISENTRESS 400 mg twice daily, both in combination with emtricitabine (+) tenofovir disoproxil fumarate, in treatment-naïve HIV-1-infected subjects with HIV-1 RNA ≥1000 copies/mL. Randomization was stratified by screening HIV-1 RNA level (≤100,000 or &gt;100,000 copies/mL) and by hepatitis B and C infection status.</paragraph>
+                  <paragraph>In ONCEMRK, 797 subjects were randomized and received at least 1 dose of either raltegravir 1200 mg once daily or raltegravir 400 mg twice daily, both in combination with emtricitabine (+) tenofovir disoproxil fumarate. There were 797 subjects included in the efficacy and safety analyses. At baseline, the median age of subjects was 34 years (range 18-84), 15% female, 41% non-white, 3% had hepatitis B and/or C virus co-infection, 13% were CDC Class C (AIDS), 28% had HIV-1 RNA greater than 100,000 copies per mL, and 13% had CD4+ cell count less than 200 cells per mm3; the frequencies of these baseline characteristics were similar between treatment groups.</paragraph>
+                  <paragraph>Table 17 shows the virologic outcomes in both studies. Side-by-side tabulation is to simplify presentation; direct comparisons across trials should not be made due to differing duration of follow-up.</paragraph>
+                  <paragraph>Table 17: Virologic Outcomes of Randomized Treatment in STARTMRK and ONCEMRK (Snapshot Algorithm) in HIV Treatment-Naïve Adults
+  <br/>
+STARTMRK
+  <br/>
+Week 240 ONCEMRK
+  <br/>
+Week 48
+  <br/>
+ISENTRESS
+  <br/>
+400 mg Twice Daily
+  <br/>
+(N=281) Efavirenz
+  <br/>
+600 mg At Bedtime
+  <br/>
+(N=282) ISENTRESS HD
+  <br/>
+1200 mg Once Daily 
+  <br/>
+(N=531) ISENTRESS
+  <br/>
+400 mg Twice Daily 
+  <br/>
+(N=266)
+  <br/>
+Notes: ISENTRESS BID, ISENTRESS HD and Efavirenz were administered with emtricitabine (+) tenofovir disoproxil fumarate
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Lower Limit of Quantitation: STARTMRK &lt;50 copies/mL; ONCEMRK &lt; 40 copies/mL.
+  <br/>
+†
+  <br/>
+Includes subjects who discontinued because of adverse event (AE) or death at any time point from Day 1 through the time window if this resulted in no virologic data on treatment during the specified window.
+  <br/>
+‡
+  <br/>
+Other Reasons includes: lost to follow-up, moved, non-compliance with study drug, physician decision, pregnancy, withdrawal by subject.
+ </paragraph>
+                  <paragraph>HIV RNA &lt; Lower Limit of Quantitation* 66% 60% 89% 88%
+  <br/>
+  Treatment Difference 6.6% (95% CI: -1.4%, 14.5%) 0.5% (95% CI: -4.2%, 5.2%)
+  <br/>
+HIV RNA ≥ Lower Limit of Quantitation 8% 15% 5% 6%
+  <br/>
+No Virologic Data at Analysis Timepoint 26% 26% 6% 6%
+  <br/>
+  Reasons
+  <br/>
+    Discontinued trial due to AE or Death† 5% 10% 1% 2%
+  <br/>
+    Discontinued trial for Other Reasons‡ 15% 14% 4% 3%
+  <br/>
+    On trial but missing data at timepoint 6% 2% 1% 1%
+ </paragraph>
+                  <paragraph>In the ONCEMRK trial, ISENTRESS HD 1200 mg (2 × 600 mg) once daily demonstrated consistent virologic and immunologic efficacy relative to ISENTRESS 400 mg twice daily, both in combination with emtricitabine (+) tenofovir disoproxil fumarate, across demographic and baseline prognostic factors, including: baseline HIV RNA levels &gt;100,000 copies/mL and demographic groups (including age, gender, race, ethnicity and region), concomitant proton pump inhibitors/H2 blockers use and viral subtypes (comparing non-clade B as a group to clade B).</paragraph>
+                  <paragraph>Consistent efficacy in subjects receiving ISENTRESS HD 1200 mg (2 × 600 mg) once daily was observed across HIV subtypes with 88.4% (296/335) and 90.2% (175/194) of subjects with B and non-B subtypes respectively, achieving HIV RNA &lt;40 copies/mL at week 48 (Snapshot approach).</paragraph>
+                  <paragraph>14.3 Treatment-Experienced Adult Subjects</paragraph>
+                  <paragraph>BENCHMRK 1 and BENCHMRK 2 are Phase 3 studies to evaluate the safety and antiretroviral activity of ISENTRESS 400 mg twice daily in combination with an optimized background therapy (OBT), versus OBT alone, in HIV-1-infected subjects, 16 years or older, with documented resistance to at least 1 drug in each of 3 classes (NNRTIs, NRTIs, PIs) of antiretroviral therapies. Randomization was stratified by degree of resistance to PI (1PI vs. &gt;1PI) and the use of enfuvirtide in the OBT. Prior to randomization, OBT was selected by the investigator based on genotypic/phenotypic resistance testing and prior ART history.</paragraph>
+                  <paragraph>Table 18 shows the demographic characteristics of subjects in the group receiving ISENTRESS 400 mg twice daily and subjects in the placebo group.</paragraph>
+                  <paragraph>Table 18: Trials BENCHMRK 1 and BENCHMRK 2 Baseline Characteristics
+  <br/>
+Randomized Studies
+  <br/>
+BENCHMRK 1 and BENCHMRK 2 ISENTRESS 400 mg Twice Daily + OBT
+  <br/>
+(N = 462) Placebo + OBT
+  <br/>
+(N = 237)
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Hepatitis B virus surface antigen positive or hepatitis C virus antibody positive.
+ </paragraph>
+                  <paragraph>Gender 
+  <br/>
+Male 88% 89%
+  <br/>
+Female 12% 11%
+  <br/>
+Race 
+  <br/>
+White 65% 73%
+  <br/>
+Black 14% 11%
+  <br/>
+Asian 3% 3%
+  <br/>
+Hispanic 11% 8%
+  <br/>
+Others 6% 5%
+  <br/>
+Age (years)
+  <br/>
+Median (min, max) 45 (16 to 74) 45 (17 to 70)
+  <br/>
+CD4+ Cell Count 
+  <br/>
+Median (min, max), cells/mm3 119 (1 to 792) 123 (0 to 759)
+  <br/>
+≤50 cells/mm3 32% 33%
+  <br/>
+&gt;50 and ≤200 cells/mm3 37% 36%
+  <br/>
+Plasma HIV-1 RNA
+  <br/>
+Median (min, max), log10copies/mL 4.8 (2 to 6) 4.7 (2 to 6)
+  <br/>
+&gt;100,000 copies/mL 36% 33%
+  <br/>
+History of AIDS 
+  <br/>
+Yes 92% 91%
+  <br/>
+Prior Use of ART, Median (1st Quartile, 3rd Quartile)
+  <br/>
+Years of ART Use 10 (7 to 12) 10 (8 to 12)
+  <br/>
+Number of ART 12 (9 to 15) 12 (9 to 14)
+  <br/>
+Hepatitis Co-infection*
+  <br/>
+No Hepatitis B or C virus 83% 84%
+  <br/>
+Hepatitis B virus only 8% 3%
+  <br/>
+Hepatitis C virus only 8% 12%
+  <br/>
+Co-infection of Hepatitis B and C virus 1% 1%
+  <br/>
+Stratum 
+  <br/>
+Enfuvirtide in OBT 38% 38%
+  <br/>
+Resistant to ≥2 PI 97% 95%
+ </paragraph>
+                  <paragraph>Table 19 compares the characteristics of optimized background therapy at baseline in the group receiving ISENTRESS 400 mg twice daily and subjects in the control group.</paragraph>
+                  <paragraph>Table 19: Trials BENCHMRK 1 and BENCHMRK 2 Characteristics of Optimized Background Therapy at Baseline
+  <br/>
+Randomized Studies
+  <br/>
+BENCHMRK 1 and BENCHMRK 2 ISENTRESS 400 mg Twice Daily + OBT
+  <br/>
+(N = 462) Placebo + OBT
+  <br/>
+(N = 237)
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Darunavir use in OBT in darunavir-naïve subjects was counted as one active PI.
+  <br/>
+†
+  <br/>
+The Phenotypic Sensitivity Score (PSS) and the Genotypic Sensitivity Score (GSS) were defined as the total oral ARTs in OBT to which a subject's viral isolate showed phenotypic sensitivity and genotypic sensitivity, respectively, based upon phenotypic and genotypic resistance tests. Enfuvirtide use in OBT in enfuvirtide-naïve subjects was counted as one active drug in OBT in the GSS and PSS. Similarly, darunavir use in OBT in darunavir-naïve subjects was counted as one active drug in OBT.
+ </paragraph>
+                  <paragraph>Number of ARTs in OBT
+  <br/>
+Median (min, max) 4 (1 to 7) 4 (2 to 7)
+  <br/>
+Number of Active PI in OBT by Phenotypic Resistance Test*
+  <br/>
+0 36% 41%
+  <br/>
+1 or more 60% 58%
+  <br/>
+Phenotypic Sensitivity Score (PSS)†
+  <br/>
+0 15%  18%
+  <br/>
+1 31% 30%
+  <br/>
+2 31% 28%
+  <br/>
+3 or more 18% 20%
+  <br/>
+Genotypic Sensitivity Score (GSS)†
+  <br/>
+0 25% 27%
+  <br/>
+1 38% 40%
+  <br/>
+2 24% 21%
+  <br/>
+3 or more 11% 10%
+ </paragraph>
+                  <paragraph>Week 96 outcomes for the 699 subjects randomized and treated with the recommended dose of ISENTRESS 400 mg twice daily or placebo in the pooled BENCHMRK 1 and 2 studies are shown in Table 20.</paragraph>
+                  <paragraph>Table 20: Virologic Outcomes of Randomized Treatment of BENCHMRK 1 and BENCHMRK 2 Trials at 96 Weeks (Pooled Analysis)
+  <br/>
+ISENTRESS 400 mg Twice Daily + OBT
+  <br/>
+(N = 462) Placebo + OBT
+  <br/>
+(N = 237)
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Includes subjects who switched to open-label raltegravir after Week 16 due to the protocol-defined virologic failure, subjects who discontinued prior to Week 96 for lack of efficacy, subjects changed OBT due to lack of efficacy prior to Week 96, or subjects who were ≥50 copies in the 96 week window.
+  <br/>
+†
+  <br/>
+Includes subjects who discontinued due to AE or death at any time point from Day 1 through the Week 96 window if this resulted in no virologic data on treatment during the Week 96 window.
+  <br/>
+‡
+  <br/>
+Other includes: withdrew consent, loss to follow-up, moved etc., if the viral load at the time of discontinuation was &lt;50 copies/mL.
+ </paragraph>
+                  <paragraph>Subjects with HIV-1 RNA less than 50 copies/mL 55% 27%
+  <br/>
+Virologic Failure* 35% 66%
+  <br/>
+No virologic data at Week 96 Window
+  <br/>
+Reasons
+  <br/>
+  Discontinued study due to AE or death† 3% 3%
+  <br/>
+  Discontinued study for other reasons‡ 4% 4%
+  <br/>
+  Missing data during window but on study 4% &lt;1%
+ </paragraph>
+                  <paragraph>The mean changes in CD4 count from baseline were 118 cells/mm3 in the group receiving ISENTRESS 400 mg twice daily and 47 cells/mm3 for the control group.</paragraph>
+                  <paragraph>Treatment-emergent CDC Category C events occurred in 4% of the group receiving ISENTRESS 400 mg twice daily and 5% of the control group.</paragraph>
+                  <paragraph>Virologic responses at Week 96 by baseline genotypic and phenotypic sensitivity score are shown in Table 21.</paragraph>
+                  <paragraph>Table 21: Virologic Response at 96 Week Window by Baseline Genotypic/Phenotypic Sensitivity Score
+  <br/>
+Percent with HIV-1 RNA &lt;50 copies/mL At Week 96
+  <br/>
+n ISENTRESS 400 mg Twice Daily + OBT
+  <br/>
+(N = 462) n Placebo + OBT
+  <br/>
+(N = 237)
+ </paragraph>
+                  <paragraph>*
+  <br/>
+The Phenotypic Sensitivity Score (PSS) and the Genotypic Sensitivity Score (GSS) were defined as the total oral ARTs in OBT to which a subject's viral isolate showed phenotypic sensitivity and genotypic sensitivity, respectively, based upon phenotypic and genotypic resistance tests. Enfuvirtide use in OBT in enfuvirtide-naïve subjects was counted as one active drug in OBT in the GSS and PSS. Similarly, darunavir use in OBT in darunavir-naïve subjects was counted as one active drug in OBT.
+ </paragraph>
+                  <paragraph>Phenotypic Sensitivity Score (PSS)*
+  <br/>
+0 67 43 43 5
+  <br/>
+1 144 58 71 23
+  <br/>
+2 142 61 66 32
+  <br/>
+3 or more 85 48 48 42
+  <br/>
+Genotypic Sensitivity Score (GSS)*
+  <br/>
+0 116 39 65 5
+  <br/>
+1 177 62 95 26
+  <br/>
+2 111 61 49 53
+  <br/>
+3 or more 51 49 23 35
+ </paragraph>
+                  <paragraph>Switch of Suppressed Subjects from Lopinavir (+) Ritonavir to Raltegravir</paragraph>
+                  <paragraph>The SWITCHMRK 1 &amp; 2 Phase 3 studies evaluated HIV-1 infected subjects receiving suppressive therapy (HIV-1 RNA &lt;50 copies/mL on a stable regimen of lopinavir 200 mg (+) ritonavir 50 mg 2 tablets twice daily plus at least 2 nucleoside reverse transcriptase inhibitors for &gt;3 months) and randomized them 1:1 to either continue lopinavir (+) ritonavir (n=174 and n=178, SWITCHMRK 1 &amp; 2, respectively) or replace lopinavir (+) ritonavir with ISENTRESS 400 mg twice daily (n=174 and n=176, respectively). The primary virology endpoint was the proportion of subjects with HIV-1 RNA less than 50 copies/mL at Week 24 with a prespecified non-inferiority margin of -12% for each study; and the frequency of adverse events up to 24 weeks.</paragraph>
+                  <paragraph>Subjects with a prior history of virological failure were not excluded and the number of previous antiretroviral therapies was not limited.</paragraph>
+                  <paragraph>These studies were terminated after the primary efficacy analysis at Week 24 because they each failed to demonstrate non-inferiority of switching to ISENTRESS versus continuing on lopinavir (+) ritonavir. In the combined analysis of these studies at Week 24, suppression of HIV-1 RNA to less than 50 copies/mL was maintained in 82.3% of the ISENTRESS group versus 90.3% of the lopinavir (+) ritonavir group. Clinical and laboratory adverse events occurred at similar frequencies in the treatment groups.</paragraph>
+                  <paragraph>14.4 Pediatric Subjects</paragraph>
+                  <paragraph>2 to 18 Years of Age</paragraph>
+                  <paragraph>IMPAACT P1066 is a Phase I/II open label multicenter trial to evaluate the pharmacokinetic profile, safety, tolerability, and efficacy of raltegravir in HIV infected children. This study enrolled 126 treatment experienced children and adolescents 2 to 18 years of age. Subjects were stratified by age, enrolling adolescents first and then successively younger children. Subjects were enrolled into cohorts according to age and received the following formulations: Cohort I (12 to less than 18 years old), 400 mg film-coated tablet; Cohort IIa (6 to less than 12 years old), 400 mg film-coated tablet; Cohort IIb (6 to less than 12 years old), chewable tablet; Cohort III (2 to less than 6 years), chewable tablet. Raltegravir was administered with an optimized background regimen.</paragraph>
+                  <paragraph>The initial dose finding stage included intensive pharmacokinetic evaluation. Dose selection was based upon achieving similar raltegravir plasma exposure and trough concentration as seen in adults, and acceptable short term safety. After dose selection, additional subjects were enrolled for evaluation of long term safety, tolerability and efficacy. Of the 126 subjects, 96 received the recommended dose of ISENTRESS [see DOSAGE AND ADMINISTRATION (2.3)].</paragraph>
+                  <paragraph>These 96 subjects had a median age of 13 (range 2 to 18) years, were 51% Female, 34% Caucasian, and 59% Black. At baseline, mean plasma HIV-1 RNA was 4.3 log10 copies/mL, median CD4 cell count was 481 cells/mm3 (range: 0 – 2361) and median CD4% was 23.3% (range: 0 – 44). Overall, 8% had baseline plasma HIV-1 RNA &gt;100,000 copies/mL and 59% had a CDC HIV clinical classification of category B or C. Most subjects had previously used at least one NNRTI (78%) or one PI (83%).</paragraph>
+                  <paragraph>Ninety-three (97%) subjects 2 to 18 years of age completed 24 weeks of treatment (3 discontinued due to non-compliance). At Week 24, 54% achieved HIV RNA &lt;50 copies/mL; 66% achieved HIV RNA &lt;400 copies/mL. The mean CD4 count (percent) increase from baseline to Week 24 was 119 cells/mm3 (3.8%).</paragraph>
+                  <paragraph>4 Weeks to Less Than 2 Years of Age</paragraph>
+                  <paragraph>IMPAACT P1066 also enrolled HIV-infected, infants and toddlers 4 weeks to less than 2 years of age (Cohorts IV and V) who had received prior antiretroviral therapy either as prophylaxis for prevention of mother-to-child transmission (PMTCT) and/or as combination antiretroviral therapy for treatment of HIV infection. Raltegravir was administered as an oral suspension without regard to food in combination with an optimized background regimen.</paragraph>
+                  <paragraph>The 26 subjects had a median age of 28 weeks (range: 4 -100), were 35% female, 85% Black and 8% Caucasian. At baseline, mean plasma HIV-1 RNA was 5.7 log10 copies/mL (range: 3.1 – 7), median CD4 cell count was 1400 cells/mm3 (range: 131 – 3648) and median CD4% was 18.6% (range: 3.3 – 39.3). Overall, 69% had baseline plasma HIV-1 RNA exceeding 100,000 copies/mL and 23% had a CDC HIV clinical classification of category B or C. None of the 26 subjects were completely treatment naïve. All infants under 6 months of age had received nevirapine or zidovudine for prevention of mother-to-infant transmission, and 43% of subjects greater than 6 months of age had received two or more antiretrovirals.</paragraph>
+                  <paragraph>Of the 26 treated subjects, 23 subjects were included in the Week 24 and 48 efficacy analyses, respectively. All 26 treated subjects were included for safety analyses.</paragraph>
+                  <paragraph>At Week 24, 39% achieved HIV RNA &lt;50 copies/mL and 61% achieved HIV RNA &lt;400 copies/mL. The mean CD4 count (percent) increase from baseline to Week 24 was 500 cells/mm3 (7.5%).</paragraph>
+                  <paragraph>At Week 48, 44% achieved HIV RNA &lt;50 copies/mL and 61% achieved HIV RNA &lt;400 copies/mL. The mean CD4 count (percent) increase from baseline to Week 48 was 492 cells/mm3 (7.8%).</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_555512e9-1f7c-0e55-e054-00144ff88e88">
+               <id root="555512e9-1f7b-0e55-e054-00144ff88e88"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>ISENTRESS tablets 400 mg are pink, oval-shaped, film-coated tablets with "227" on one side. They are supplied as follows:</paragraph>
+                  <paragraph>
+                     <br/>
+NDC 0006-0227-61 unit-of-use bottles of 60.
+  <br/>
+                     <br/>
+No. 3894
+ </paragraph>
+                  <paragraph>ISENTRESS HD tablets 600 mg are yellow, oval-shaped, film-coated tablets with Merck logo and "242" on one side and plain on the other side. They are supplied as follows:</paragraph>
+                  <paragraph>
+                     <br/>
+NDC 0006-3080-01 unit-of-use bottles of 60.
+  <br/>
+                     <br/>
+No. 3080
+ </paragraph>
+                  <paragraph>ISENTRESS tablets 100 mg are pale orange, oval-shaped, orange-banana flavored, chewable tablets scored on both sides and imprinted on one face with the Merck logo and "477" on opposite sides of the score. They are supplied as follows:</paragraph>
+                  <paragraph>
+                     <br/>
+NDC 0006-0477-61 unit-of-use bottles of 60.
+  <br/>
+                     <br/>
+No. 3972 
+ </paragraph>
+                  <paragraph>ISENTRESS tablets 25 mg are pale yellow, round, orange-banana flavored, chewable tablets with the Merck logo on one side and "473" on the other side. They are supplied as follows:</paragraph>
+                  <paragraph>
+                     <br/>
+NDC 0006-0473-61 unit-of-use bottles of 60.
+  <br/>
+                     <br/>
+No. 3965
+ </paragraph>
+                  <paragraph>ISENTRESS for oral suspension 100 mg is a white to off-white granular powder that may contain yellow or beige to tan particles, in child resistant single-use foil packets, packaged as a kit with two 5 mL dosing syringes and two mixing cups. It is supplied as follows:</paragraph>
+                  <paragraph>
+                     <br/>
+NDC 0006-3603-60 unit of use carton with 60 packets.
+  <br/>
+                     <br/>
+NDC 0006-3603-01 individual packet.
+  <br/>
+                     <br/>
+No. 3603
+ </paragraph>
+                  <paragraph>Storage and Handling</paragraph>
+                  <paragraph>400 mg Film-coated Tablets, 600 mg Film-coated Tablets, Chewable Tablets and For Oral Suspension</paragraph>
+                  <paragraph>Store at 20-25°C (68-77°F); excursions permitted to 15-30°C (59-86°F). See USP Controlled Room Temperature.</paragraph>
+                  <paragraph>400 mg Film-coated Tablets, 600 mg Film-coated Tablets and Chewable Tablets</paragraph>
+                  <paragraph>Store in the original package with the bottle tightly closed. Keep the desiccant in the bottle to protect from moisture.</paragraph>
+                  <paragraph>For Oral Suspension</paragraph>
+                  <paragraph>Store in the original container. Do not open foil packet until ready for use.</paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_55553e23-45f5-6e08-e054-00144ff8d46c">
+               <id root="55553e23-45f4-6e08-e054-00144ff8d46c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>istributed by:
+  <br/>
+Merck Sharp &amp; Dohme Corp., a subsidiary of Merck &amp; Co., Inc. 
+  <br/>
+Whitehouse Station, NJ 08889, USA
+ </paragraph>
+                  <paragraph>For patent information: www.merck.com/product/patent/home.html</paragraph>
+                  <paragraph>Copyright © 2014-2017 Merck Sharp &amp; Dohme Corp., a subsidiary of Merck &amp; Co., Inc. 
+  <br/>
+All rights reserved.
+ </paragraph>
+                  <paragraph>uspi-mk0518-mf-1705r031</paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_55552c93-c709-5d5d-e054-00144ff8d46c">
+               <id root="55552c93-c708-5d5d-e054-00144ff8d46c"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <paragraph>ISENTRESS® (eye sen tris)
+  <br/>
+(raltegravir)
+  <br/>
+for oral suspension
+ </paragraph>
+                  <paragraph>Read this Instructions for Use before you mix and give a dose of ISENTRESS for oral suspension to your child for the first time, and each time you get a refill. There may be new information. These instructions will help you to correctly mix and give a dose of ISENTRESS for oral suspension to your child.</paragraph>
+                  <paragraph>See the PATIENT INFORMATION leaflet that comes with ISENTRESS for oral suspension for more information about ISENTRESS.</paragraph>
+                  <paragraph>Your doctor will decide the right dose based on your child's weight.</paragraph>
+                  <paragraph>Ask your doctor or pharmacist if you have any questions about how to mix or give ISENTRESS for oral suspension to your child.</paragraph>
+                  <paragraph>Each ISENTRESS for oral suspension kit contains the following supplies (see FIGURE A):</paragraph>
+                  <paragraph>2 reusable mixing cups with attached lids
+  <br/>
+2 reusable 5 mL dosing syringes
+  <br/>
+60 foil packets containing ISENTRESS for oral suspension
+ </paragraph>
+                  <paragraph>[Figure A]</paragraph>
+                  <paragraph>For each dose of ISENTRESS for oral suspension you will need the following:</paragraph>
+                  <paragraph>1 mixing cup with attached lid
+  <br/>
+1 dosing syringe (5mL)
+  <br/>
+1 foil packet containing the medicine
+  <br/>
+Drinking water (not included in kit)
+ </paragraph>
+                  <paragraph>How do I prepare a dose of ISENTRESS for oral suspension?
+  <br/>
+Step 1. Fill mixing cup about half-way with drinking water (see FIGURE B).
+ </paragraph>
+                  <paragraph>[Figure B]</paragraph>
+                  <paragraph>Step 2. Fill the dosing syringe. Start with the plunger pushed all the way inside the barrel of the syringe. Insert the tip of the syringe into the water and pull back on the plunger to the 5 mL marking on the barrel of the syringe (see FIGURE C).</paragraph>
+                  <paragraph>[Figure C]</paragraph>
+                  <paragraph>Step 3. Pour out remaining water from mixing cup (see FIGURE D).</paragraph>
+                  <paragraph>[Figure D]</paragraph>
+                  <paragraph>Step 4. Add the 5 mL of water from the dosing syringe back into the mixing cup by pressing down on the plunger (see FIGURE E).</paragraph>
+                  <paragraph>[Figure E]</paragraph>
+                  <paragraph>Step 5. Open 1 foil packet. There is a notch that you can use to tear open the foil packet, or you may use scissors to cut along the dotted line. Pour entire contents into mixing cup (see FIGURE F).</paragraph>
+                  <paragraph>[Figure F]</paragraph>
+                  <paragraph>Step 6. Close the attached lid to seal the mixing cup (see FIGURE G). It will snap shut.</paragraph>
+                  <paragraph>[Figure G]</paragraph>
+                  <paragraph>Step 7. Swirl the mixing cup to mix using a gentle circular motion for 30-60 seconds (see FIGURE H). Do not turn the mixing cup upside down. The liquid will be cloudy.</paragraph>
+                  <paragraph>[Figure H]</paragraph>
+                  <paragraph>Step 8. Open the mixing cup. Put the tip of the syringe into the liquid and pull back the plunger to the mL marking that matches your child's prescribed dose (see FIGURE I). Your child's dose may be different from the one shown in the figure.</paragraph>
+                  <paragraph>[Figure I]</paragraph>
+                  <paragraph>How should I give a dose of ISENTRESS for oral suspension?
+  <br/>
+Step 9. Place the tip of the dosing syringe in your child's mouth and turn it toward either cheek. Gently push down on the plunger to give the medicine (see FIGURE J). Give the dose of ISENTRESS oral suspension to your child within 30 minutes of mixing. If you are not able to give your child's dose within 30 minutes of mixing, pour the unused medicine into the trash. You will need to mix a new dose.
+ </paragraph>
+                  <paragraph>[Figure J]</paragraph>
+                  <paragraph>How should I dispose of leftover ISENTRESS for oral suspension?
+  <br/>
+Step 10. Pour any leftover medicine from the mixing cup into the trash (see FIGURE K).
+ </paragraph>
+                  <paragraph>[Figure K]</paragraph>
+                  <paragraph>Step 11. Remove plunger from the barrel of the dosing syringe. Hand wash the dosing syringe and mixing cup with warm water and dish soap. Rinse with water and air dry (see FIGURE L).</paragraph>
+                  <paragraph>[Figure L]</paragraph>
+                  <paragraph>How should I store ISENTRESS for oral suspension?</paragraph>
+                  <paragraph>Store ISENTRESS for oral suspension at room temperature between 68°F to 77°F (20°C to 25°C).
+  <br/>
+Store in the original container. Do not open the foil packets until ready for use.
+ </paragraph>
+                  <paragraph>Keep ISENTRESS for oral suspension and all medicines out of the reach of children.</paragraph>
+                  <paragraph>For more information go to www.ISENTRESS.com or call 1-800-622-4477.</paragraph>
+                  <paragraph>This Instructions for Use has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20170731"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_55a0484f-f3a2-5d96-e054-00144ff88e88">
+               <id root="55a196c5-f2d0-2e37-e054-00144ff8d46c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package Label. Prinicpal Display Panel</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_55a196c5-f2cf-2e37-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170731"/>
+               <component>
+                  <observationMedia ID="img_55a196c5-f2cf-2e37-e054-00144ff8d46c">
+                     <text>76519 1130 06</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="76519 1130 06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

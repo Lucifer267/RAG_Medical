@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="7c531c8c-3bab-4a7c-a9a6-1942bc397cfd"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>P-Care K40</title>
+   <effectiveTime value="20200131"/>
+   <setId root="89e97f59-9329-4943-a00a-2b8685fc5993"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="962149634" root="1.3.6.1.4.1.519.1"/>
+            <name>RX PHARMA-PACK, INC.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="962149634" root="1.3.6.1.4.1.519.1"/>
+                        <name>RX PHARMA-PACK, INC.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="49836-006" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="6935d0fd-6de0-48cd-a9cd-0c78dcf607f5"/>
+               <code code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20200131"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="49836-006" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>P-Care K40</name>
+                        <formCode code="C47916" displayName="KIT" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>triamcinolone acetonide, povidone-iodine, isopropyl alcohol</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="49836-006-17" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43198" displayName="PACKAGE, COMBINATION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" displayName="Type 1: Convenience Kit of Co-Package" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20170616"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Kenalog 40</name>
+                              <formCode code="C42995" displayName="INJECTION, SUSPENSION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>triamcinolone acetonide</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <asEquivalentEntity classCode="EQUIV">
+                                 <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <definingMaterialKind>
+                                    <code code="0003-0293" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </definingMaterialKind>
+                              </asEquivalentEntity>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="40"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="F446C597KA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRIAMCINOLONE ACETONIDE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="F446C597KA" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>TRIAMCINOLONE ACETONIDE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CHLORIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BENZYL ALCOHOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POLYSORBATE 80</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM HYDROXIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROCHLORIC ACID</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="N762921K75" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NITROGEN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARBOXYMETHYLCELLULOSE SODIUM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43215" displayName="VIAL, SINGLE-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code/>
+                                          <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA014901" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20090601"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38223" displayName="INTRA-ARTICULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="6.5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Aplicare Povidone-Iodine Triples</name>
+                              <formCode code="C42986" displayName="SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>povidone-iodine</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <asEquivalentEntity classCode="EQUIV">
+                                 <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <definingMaterialKind>
+                                    <code code="52380-3101" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </definingMaterialKind>
+                              </asEquivalentEntity>
+                              <ingredient classCode="ACTIM">
+                                 <quantity>
+                                    <numerator unit="mg" value="10"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="85H0HZU99M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POVIDONE-IODINE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="9679TC07X4" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>IODINE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM PHOSPHATE, DIBASIC</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CITRIC ACID MONOHYDRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM HYDROXIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="48Q180SH9T" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NONOXYNOL-9</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="6.5"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43199" displayName="PACKET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="part333A" root="2.16.840.1.113883.3.149"/>
+                                 <code code="C73604" displayName="OTC MONOGRAPH NOT FINAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19980301"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" displayName="TOPICAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="2.75"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>Sterile Alcohol Prep Pads</name>
+                              <formCode code="C47898" displayName="SWAB" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>isopropyl alcohol</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <asEquivalentEntity classCode="EQUIV">
+                                 <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <definingMaterialKind>
+                                    <code code="67777-121" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </definingMaterialKind>
+                              </asEquivalentEntity>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mL" value="0.7"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ISOPROPYL ALCOHOL</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ISOPROPYL ALCOHOL</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="0.55"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" displayName="POUCH" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="part333A" root="2.16.840.1.113883.3.149"/>
+                                 <code code="C73604" displayName="OTC MONOGRAPH NOT FINAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20100701"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" displayName="TOPICAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA014901" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170616"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d4936682-a784-42a9-8edc-c0a83fd5d1d2">
+               <id root="29767b70-9593-4801-8c02-e5e710e80f86"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">KENALOG-40 Injection - triamcinolone acetonide injection, suspension</content>
+                  <br/>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">KENALOG<sup>®</sup>-40  INJECTION<br/>(triamcinolone acetonide injectable suspension, USP)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">E.R. Squibb &amp; Sons, L.L.C.<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NOT FOR USE IN NEONATES CONTAINS BENZYL ALCOHOL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular or Intra-articular Use Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NOT FOR INTRAVENOUS, INTRADERMAL, INTRAOCULAR, EPIDURAL, OR INTRATHECAL USE</content>
+                  </paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f6c0e0c9-73d1-43c9-9af1-476a5fa05ad8">
+               <id root="eec8257e-cd79-4a49-bd99-492afacb46e9"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Kenalog<sup>®</sup>-40 Injection and Kenalog<sup>®</sup>-80 Injection (triamcinolone acetonide injectable suspension, USP) are a synthetic glucocorticoid corticosteroid with anti-inflammatory action. THESE FORMULATIONS ARE SUITABLE FOR INTRAMUSCULAR AND INTRA-ARTICULAR USE ONLY. THESE FORMULATIONS ARE NOT FOR INTRADERMAL INJECTION.</paragraph>
+                  <paragraph>Kenalog<sup>®</sup>-40 Injection: Each mL of the sterile aqueous suspension provides 40 mg triamcinolone acetonide, with 0.66% sodium chloride for isotonicity, 0.99% (w/v) benzyl alcohol as a preservative, 0.63% carboxymethylcellulose sodium, and 0.04% polysorbate 80. Sodium hydroxide or hydrochloric acid may be present to adjust pH to 5.0 to 7.5. At the time of manufacture, the air in the container is replaced by nitrogen.</paragraph>
+                  <paragraph>Kenalog<sup>®</sup>-80 Injection: Each mL of the sterile aqueous suspension provides 80 mg triamcinolone acetonide, with 0.66% sodium chloride for isotonicity, 0.99% (w/v) benzyl alcohol as a preservative, 0.63% carboxymethylcellulose sodium, and 0.04% polysorbate 80. Sodium hydroxide or hydrochloric acid may be present to adjust pH to 5.0 to 7.5. At the time of manufacture, the air in the container is replaced by nitrogen.</paragraph>
+                  <paragraph>The chemical name for triamcinolone acetonide is 9-Fluoro-11β,16α,17,21-tetrahydroxypregna-1,4-diene-3,20-dione cyclic 16,17-acetal with acetone. Its structural formula is:<br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM1">
+                     <caption>Kenalog-40 Structural Formula</caption>
+                  </renderMultiMedia>
+                  <paragraph>MW 434.50</paragraph>
+                  <paragraph>Triamcinolone acetonide occurs as a white to cream-colored, crystalline powder having not more than a slight odor and is practically insoluble in water and very soluble in alcohol.</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Kenalog-40 Structural Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="p-care-k40-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fe783f3c-4b4c-44b8-8790-ba3506e01124">
+               <id root="3cbaa0b7-d60b-4fb2-8335-f43837b0c647"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>Glucocorticoids, naturally occurring and synthetic, are adrenocortical steroids that are readily absorbed from the gastrointestinal tract. </paragraph>
+                  <paragraph>Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Synthetic analogs such as triamcinolone are primarily used for their anti-inflammatory effects in disorders of many organ systems.<br/>
+                  </paragraph>
+                  <paragraph>Kenalog-40 Injection and Kenalog-80 Injection have an extended duration of effect which may be sustained over a period of several weeks. Studies indicate that following a single intramuscular dose of 60 mg to 100 mg of triamcinolone acetonide, adrenal suppression occurs within 24 to 48 hours and then gradually returns to normal, usually in 30 to 40 days. This finding correlates closely with the extended duration of therapeutic action achieved with the drug.</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4eafa647-911b-4e40-bdb0-d8f9ec381a05">
+               <id root="e6117d32-adc2-46f7-9347-d8e1d01a8c19"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Intramuscular</content>
+                  </paragraph>
+                  <paragraph>Where oral therapy is not feasible, injectable corticosteroid therapy, including Kenalog-40 Injection and Kenalog-80 Injection (triamcinolone acetonide injectable suspension, USP) are indicated <content styleCode="bold">for intramuscular use </content>as follows:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Allergic states</content>: Control of severe or incapacitating allergic conditions intractable to adequate trials of conventional treatment in asthma, atopic dermatitis, contact dermatitis, drug hypersensitivity reactions, perennial or seasonal allergic rhinitis, serum sickness, transfusion reactions.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Dermatologic diseases</content>: Bullous dermatitis herpetiformis, exfoliative erythroderma, mycosis fungoides, pemphigus, severe erythema multiforme (Stevens-Johnson syndrome).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Endocrine disorders</content>: Primary or secondary adrenocortical insufficiency (hydrocortisone or cortisone is the drug of choice; synthetic analogs may be used in conjunction with mineralocorticoids where applicable; in infancy, mineralocorticoid supplementation is of particular importance), congenital adrenal hyperplasia, hypercalcemia associated with cancer, nonsuppurative thyroiditis.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal diseases</content>: To tide the patient over a critical period of the disease in regional enteritis and ulcerative colitis.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hematologic disorders</content>: Acquired (autoimmune) hemolytic anemia, Diamond-Blackfan anemia, pure red cell aplasia, selected cases of secondary thrombocytopenia.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Miscellaneous</content>: Trichinosis with neurologic or myocardial involvement, tuberculous meningitis with subarachnoid block or impending block when used with appropriate antituberculous chemotherapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Neoplastic diseases</content>: For the palliative management of leukemias and lymphomas.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Nervous system</content>: Acute exacerbations of multiple sclerosis; cerebral edema associated with primary or metastatic brain tumor or craniotomy.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Ophthalmic diseases</content>: Sympathetic ophthalmia, temporal arteritis, uveitis, and ocular inflammatory conditions unresponsive to topical corticosteroids.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Renal diseases</content>: To induce diuresis or remission of proteinuria in idiopathic nephrotic syndrome or that due to lupus erythematosus.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory diseases</content>: Berylliosis, fulminating or disseminated pulmonary tuberculosis when used concurrently with appropriate antituberculous chemotherapy, idiopathic eosinophilic pneumonias, symptomatic sarcoidosis.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Rheumatic disorders</content>: As adjunctive therapy for short-term administration (to tide the patient over an acute episode or exacerbation) in acute gouty arthritis; acute rheumatic carditis; ankylosing spondylitis; psoriatic arthritis; rheumatoid arthritis, including juvenile rheumatoid arthritis (selected cases may require low-dose maintenance therapy). For the treatment of dermatomyositis, polymyositis, and systemic lupus erythematosus.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Intra-Articular</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The intra-articular or soft tis sue administration </content>of Kenalog-40 Injection and Kenalog-80 Injection are indicated as adjunctive therapy for short-term administration (to tide the patient over an acute episode or exacerbation) in acute gouty arthritis, acute and subacute bursitis, acute nonspecific<br/>tenosynovitis, epicondylitis, rheumatoid arthritis, synovitis of osteoarthritis.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_22d2827a-c076-431e-bf07-a6452077f48f">
+               <id root="a6de9493-3f4d-493a-87d4-aec6404436b0"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <table>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td>Kenalog-40 Injection and Kenalog-80 Injection are contraindicated in patients who are hypersensitive to any components of this product (see <content styleCode="bold">WARNINGS: General</content>).</td>
+                        </tr>
+                        <tr>
+                           <td>Intramuscular corticosteroid preparations are contraindicated for idiopathic thrombocytopenic purpura.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1e19e8ba-934c-4bca-89f4-b90d8dee1e95">
+               <id root="9d697e85-d665-4a10-9c5d-4ab9f5b70bfa"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Serious Neurologic Adverse Reactions with Epidural Administration</content>
+                  </paragraph>
+                  <paragraph>Serious neurologic events, some resulting in death, have been reported with epidural injection of corticosteroids (see <content styleCode="bold">WARNINGS: Neurologic</content>). Specific events reported include, but are not limited to, spinal cord infarction, paraplegia, quadriplegia, cortical blindness, and stroke. These serious neurologic events have been reported with and without use of fluoroscopy. The safety and effectiveness of epidural administration of corticosteroids have not been established, and corticosteroids are not approved for this use.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                  </paragraph>
+                  <paragraph>Exposure to excessive amounts of benzyl alcohol has been associated with toxicity (hypotension, metabolic acidosis), particularly in neonates, and an increased incidence of kernicterus, particularly in small preterm infants. There have been rare reports of deaths, primarily in preterm infants, associated with exposure to excessive amounts of benzyl alcohol. The amount of benzyl alcohol from medications is usually considered negligible compared to that received in flush solutions containing benzyl alcohol. Administration of high dosages of medications containing this preservative must take into account the total amount of benzyl alcohol administered. The amount of benzyl alcohol at which toxicity may occur is not known. If the patient requires more than the <br/>recommended dosages or other medications containing this preservative, the practitioner must consider the daily metabolic load of benzyl alcohol from these combined sources (see <content styleCode="bold">PRECAUTIONS: Pediatric Use</content>).</paragraph>
+                  <paragraph>Rare instances of anaphylaxis have occurred in patients receiving corticosteroid therapy (see <content styleCode="bold">ADVERSE REACTIONS</content>). Cases of serious anaphylaxis, including death, have been reported in individuals receiving triamcinolone acetonide injection, regardless of the route of administration.<br/>
+                  </paragraph>
+                  <paragraph>Because Kenalog-40 Injection and Kenalog-80 Injection (triamcinolone acetonide injectable suspension, USP) are suspensions, they should not be administered intravenously.<br/>
+                  </paragraph>
+                  <paragraph>Unless a<content styleCode="bold"> deep </content>intramuscular injection is given, local atrophy is likely to occur. (For recommendations on injection techniques, see <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>.) Due to the significantly higher incidence of local atrophy when the material is injected into the deltoid area, this injection site should be avoided in favor of the gluteal area.<br/>
+                  </paragraph>
+                  <paragraph>Increased dosage of rapidly acting corticosteroids is indicated in patients on corticosteroid therapy subjected to any unusual stress before, during, and after the stressful situation. Kenalog-40 Injection and Kenalog-80 Injection are long-acting preparations, and are not suitable for use in acute stress situations.<br/>To avoid drug-induced adrenal insufficiency, supportive dosage may be required in times of stress (such as trauma, surgery, or severe illness) both during treatment with Kenalog-40 Injection or Kenalog-80 Injection and for a year afterwards.<br/>
+                  </paragraph>
+                  <paragraph>Results from one multicenter, randomized, placebo-controlled study with methylprednisolone hemisuccinate, an intravenous corticosteroid, showed an increase in early (at 2 weeks) and late (at 6 months) mortality in patients with cranial trauma who were determined not to have other clear indications for corticosteroid treatment. High doses of systemic corticosteroids, including Kenalog-40 Injection and Kenalog-80 Injection, should not be used for the treatment of traumatic brain injury.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardio-Renal</content>
+                  </paragraph>
+                  <paragraph>Average and large doses of corticosteroids can cause elevation of blood pressure, salt and water retention, and increased excretion of potassium. These effects are less likely to occur with the synthetic derivatives except when they are used in large doses. Dietary salt restriction and potassium supplementation may be necessary (see <content styleCode="bold">PRECAUTIONS</content>). All corticosteroids increase calcium excretion.</paragraph>
+                  <paragraph>Literature reports suggest an apparent association between use of corticosteroids and left ventricular free wall rupture after a recent myocardial infarction; therefore, therapy with corticosteroids should be used with great caution in these patients.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Endocrine</content>
+                  </paragraph>
+                  <paragraph>Corticosteroids can produce reversible hypothalamic-pituitary-adrenal (HPA) axis suppression with the potential for glucocorticosteroid insufficiency after withdrawal of treatment.<br/>
+                  </paragraph>
+                  <paragraph>Metabolic clearance of corticosteroids is decreased in hypothyroid patients and increased in hyperthyroid patients. Changes in thyroid status of the patient may necessitate adjustment in dosage.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Infections</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                  </paragraph>
+                  <paragraph>Patients who are on corticosteroids are more susceptible to infections than are healthy individuals.There may be decreased resistance and inability to localize infection when corticosteroids are used. Infection with any pathogen (viral, bacterial, fungal, protozoan, or helminthic) in any location of the  body may be associated with the use of corticosteroids alone or in combination with other immunosuppressive agents. These infections may be mild to severe. With increasing doses of corticosteroids, the rate of occurrence of infectious complications increases. Corticosteroids may also mask some signs of current infection.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Fungal Infections</content>
+                  </paragraph>
+                  <paragraph>Corticosteroids may exacerbate systemic fungal infections and therefore should not be used in the presence of such infections unless they are needed to control drug reactions. There have been cases reported in which concomitant use of amphotericin B and hydrocortisone was followed by cardiac enlargement and congestive heart failure (see <content styleCode="bold">PRECAUTIONS: Drug Interactions </content>: <content styleCode="italics">Amphotericin B injection and potassium-depleting agents</content>).<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Pathogens</content>
+                  </paragraph>
+                  <paragraph>Latent disease may be activated or there may be an exacerbation of intercurrent infections due to pathogens, including those caused by <content styleCode="italics">Amoeba, Candida, Cryptococcus, Mycobacterium, Nocardia, Pneumocystis, or Toxoplasma</content>.<br/>
+                  </paragraph>
+                  <paragraph>It is recommended that latent amebiasis or active amebiasis be ruled out before initiating corticosteroid therapy in any patient who has spent time in the tropics or in any patient with unexplained diarrhea.</paragraph>
+                  <paragraph>Similarly, corticosteroids should be used with great care in patients with known or suspected <content styleCode="italics">Strongyloides</content> (threadworm) infestation. In such patients, corticosteroid-induced immunosuppression may lead to <content styleCode="italics">Strongyloides</content> hyperinfection and dissemination with widespread larval migration, often accompanied by severe enterocolitis and potentially fatal gram-negative septicemia. </paragraph>
+                  <paragraph>Corticosteroids should not be used in cerebral malaria.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tuberculosis</content>
+                  </paragraph>
+                  <paragraph>The use of corticosteroids in patients with active tuberculosis should be restricted to those cases of fulminating or disseminated tuberculosis in which the corticosteroid is used for the management of the disease in conjunction with an appropriate anti-tuberculosis regimen. If corticosteroids are indicated in patients with latent tuberculosis or tuberculin reactivity, close observation is necessary as reactivation of the disease may occur. During prolonged corticosteroid therapy, these patients should receive chemoprophylaxis.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Vaccination</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Administration of live or live, attenuated vaccines is contraindicated in patients receiving immunosuppressive doses of corticosteroids. Killed or inactivated vaccines may be administered. However, the response to such vaccines cannot be predicted</content>. Immunization procedures may be <br/>undertaken in patients who are receiving corticosteroids as replacement therapy, <content styleCode="italics">e.g</content>., for Addison’s disease.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Viral Infections</content>
+                  </paragraph>
+                  <paragraph>Chicken pox and measles can have a more serious or even fatal course in pediatric and adult patients on corticosteroids. In pediatric and adult patients who have not had these diseases, particular care should be taken to avoid exposure. The contribution of the underlying disease and/or prior corticosteroid treatment to the risk is also not known. If exposed to chicken pox, prophylaxis with varicella zoster immune globulin (VZIG) may be indicated. If exposed to measles, prophylaxis with immunoglobulin (IG) may be indicated. (See the respective package inserts for complete VZIG and IG prescribing information.) If chicken pox develops, treatment with antiviral agents should be considered.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Neurologic</content>
+                  </paragraph>
+                  <paragraph>Epidural and intrathecal administration of this product is not recommended. Reports of serious medical events, including death, have been associated with epidural and intrathecal routes of corticosteroid administration (see <content styleCode="bold">ADVERSE REACTIONS</content>: <content styleCode="italics">Gastrointestinal and Neurologic/Psychiatric</content>).<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ophthalmic</content>
+                  </paragraph>
+                  <paragraph>Use of corticosteroids may produce posterior subcapsular cataracts, glaucoma with possible damage to the optic nerves, and may enhance the establishment of secondary ocular infections due to bacteria, fungi, or viruses. The use of oral corticosteroids is not recommended in the treatment of optic <br/>neuritis and may lead to an increase in the risk of new episodes. Corticosteroids should not be used in active ocular herpes simplex.<br/>
+                  </paragraph>
+                  <paragraph>Adequate studies to demonstrate the safety of Kenalog-40 Injection and Kenalog-80 Injection use by intraturbinal, subconjunctival, sub-Tenons, retrobulbar, and intraocular (intravitreal) injections have not been performed. Endophthalmitis, eye inflammation, increased intraocular pressure, and visual disturbances including vision loss have been reported with intravitreal administration. Administration of Kenalog-40 Injection and Kenalog-80 Injection intraocularly or into the nasal turbinates is not recommended.</paragraph>
+                  <paragraph>Intraocular injection of corticosteroid formulations containing benzyl alcohol, such as Kenalog-40 Injection, is not recommended because of potential toxicity from the benzyl alcohol.</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_42372a34-b3fd-44c9-bb79-2da38f253c19">
+               <id root="f00fb125-da18-4d5c-b982-26cdd4414406"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                  </paragraph>
+                  <paragraph>This product, like many other steroid formulations, is sensitive to heat. Therefore, it should not be autoclaved when it is desirable to sterilize the exterior of the vial.</paragraph>
+                  <paragraph>The lowest possible dose of corticosteroid should be used to control the condition under treatment. When reduction in dosage is possible, the reduction should be gradual.</paragraph>
+                  <paragraph>Since complications of treatment with glucocorticoids are dependent on the size of the dose and the duration of treatment, a risk/benefit decision must be made in each individual case as to dose and duration of treatment and as to whether daily or intermittent therapy should be used.</paragraph>
+                  <paragraph>Kaposi’s sarcoma has been reported to occur in patients receiving corticosteroid therapy, most often for chronic conditions. Discontinuation of corticosteroids may result in clinical improvement.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardio-Renal</content>
+                  </paragraph>
+                  <paragraph>As sodium retention with resultant edema and potassium loss may occur in patients receiving corticosteroids, these agents should be used with caution in patients with congestive heart failure, hypertension, or renal insufficiency.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Endocrine</content>
+                  </paragraph>
+                  <paragraph>Drug-induced secondary adrenocortical insufficiency may be minimized by gradual reduction of dosage. This type of relative insufficiency may persist for months after discontinuation of therapy; therefore, in any situation of stress occurring during that period, hormone therapy should be reinstituted. Since mineralocorticoid secretion may be impaired, salt and/or a mineralocorticoid should be administered concurrently.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal</content>
+                  </paragraph>
+                  <paragraph>Steroids should be used with caution in active or latent peptic ulcers, diverticulitis, fresh intestinal anastomoses, and nonspecific ulcerative colitis, since they may increase the risk of a perforation. </paragraph>
+                  <paragraph>Signs of peritoneal irritation following gastrointestinal perforation in patients receiving corticosteroids may be minimal or absent.<br/>
+                  </paragraph>
+                  <paragraph>There is an enhanced effect of corticosteroids in patients with cirrhosis.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Intra-Articular and Soft Tissue Administration</content>
+                  </paragraph>
+                  <paragraph>Intra-articularly injected corticosteroids may be systemically absorbed.<br/>
+                  </paragraph>
+                  <paragraph>Appropriate examination of any joint fluid present is necessary to exclude a septic process.<br/>
+                  </paragraph>
+                  <paragraph>A marked increase in pain accompanied by local swelling, further restriction of joint motion, fever, and malaise are suggestive of septic arthritis. If this complication occurs and the diagnosis of sepsis is confirmed, appropriate antimicrobial therapy should be instituted.</paragraph>
+                  <paragraph>Injection of a steroid into an infected site is to be avoided. Local injection of a steroid into a previously infected joint is not usually recommended.<br/>
+                  </paragraph>
+                  <paragraph>Corticosteroid injection into unstable joints is generally not recommended.</paragraph>
+                  <paragraph>Intra-articular injection may result in damage to joint tissues (see <content styleCode="bold">ADVERSE REACTIONS</content>: <content styleCode="italics">Musculoskeletal</content>).<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Musculoskeletal</content>
+                  </paragraph>
+                  <paragraph>Corticosteroids decrease bone formation and increase bone resorption both through their effect on calcium regulation (<content styleCode="italics">i.e</content>., decreasing absorption and increasing excretion) and inhibition of osteoblast function. This, together with a decrease in the protein matrix of the bone secondary to an increase in protein catabolism, and reduced sex hormone production, may lead to inhibition of bone growth in pediatric patients and the development of osteoporosis at any age. Special consideration should be given to patients at increased risk of osteoporosis (<content styleCode="italics">i.e</content>., postmenopausal women) before initiating corticosteroid therapy.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Neuro-Psychiatric</content>
+                  </paragraph>
+                  <paragraph>Although controlled clinical trials have shown corticosteroids to be effective in speeding the resolution of acute exacerbations of multiple sclerosis, they do not show that they affect the ultimate outcome or natural history of the disease. The studies do show that relatively high doses of corticosteroids are necessary to demonstrate a significant effect. (See <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>.)<br/>
+                  </paragraph>
+                  <paragraph>An acute myopathy has been observed with the use of high doses of corticosteroids, most often occurring in patients with disorders of neuromuscular transmission (<content styleCode="italics">e.g</content>., myasthenia gravis), or in patients receiving concomitant therapy with neuromuscular blocking drugs (<content styleCode="italics">e.g</content>., pancuronium). This acute myopathy is generalized, may involve ocular and respiratory muscles, and may result in quadriparesis. Elevation of creatinine kinase may occur. Clinical improvement or recovery after stopping corticosteroids may require weeks to years.</paragraph>
+                  <paragraph>Psychiatric derangements may appear when corticosteroids are used, ranging from euphoria, insomnia, mood swings, personality changes, and severe depression to frank psychotic manifestations.  Also, existing emotional instability or psychotic tendencies may be aggravated by corticosteroids.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ophthalmic</content>
+                  </paragraph>
+                  <paragraph>Intraocular pressure may become elevated in some individuals. If steroid therapy is continued for more than 6 weeks, intraocular pressure should be monitored.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients</content>
+                  </paragraph>
+                  <paragraph>Patients should be warned not to discontinue the use of corticosteroids abruptly or without medical supervision, to advise any medical attendants that they are taking corticosteroids, and to seek medical advice at once should they develop fever or other signs of infection.<br/>
+                  </paragraph>
+                  <paragraph>Persons who are on corticosteroids should be warned to avoid exposure to chicken pox or measles. Patients should also be advised that if they are exposed, medical advice should be sought without delay.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug Interactions</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Aminoglutethimide</content>: Aminoglutethimide may lead to a loss of corticosteroid-induced adrenal suppression.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Amphotericin B injection and potassium-depleting agents</content>: When corticosteroids are administered concomitantly with potassium-depleting agents (<content styleCode="italics">i.e</content>., amphotericin B, diuretics), patients should be observed closely for development of hypokalemia. There have been cases reported in which concomitant use of amphotericin B and hydrocortisone was followed by cardiac enlargement and congestive heart failure.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Antibiotics</content>: Macrolide antibiotics have been reported to cause a significant decrease in corticosteroid clearance.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Anticholinesterases</content>: Concomitant use of anticholinesterase agents and corticosteroids may produce severe weakness in patients with myasthenia gravis. If possible, anticholinesterase agents should be withdrawn at least 24 hours before initiating corticosteroid therapy.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Anticoagulants, oral</content>: Coadministration of corticosteroids and warfarin usually results in inhibition of response to warfarin, although there have been some conflicting reports. Therefore, coagulation indices should be monitored frequently to maintain the desired anticoagulant effect.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Antidiabetics</content>: Because corticosteroids may increase blood glucose concentrations, dosage adjustments of antidiabetic agents may be required.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Antitubercular drugs</content>: Serum concentrations of isoniazid may be decreased.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cholestyramine</content>: Cholestyramine may increase the clearance of corticosteroids.</paragraph>
+                  <paragraph>Cyclosporine: Increased activity of both cyclosporine and corticosteroids may occur when the two are used concurrently. Convulsions have been reported with this concurrent use.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">CYP3A4 inhibitors</content>: Triamcinolone acetonide is a substrate of CYP3A4. Ketoconazole has been reported to decrease the metabolism of certain corticosteroids by up to 60%, leading to an increased risk of corticosteroid side effects. Co-administration of other strong CYP3A4 inhibitors (e.g., ritonavir, <br/>atazanavir, clarithromycin, indinavir, itraconazole, nefazodone, nelfinavir, saquinavir, telithromycin, cobicistat-containing products) with Kenalog-40 Injection may cause increased plasma concentration of triamcinolone leading to adverse reactions. (See <content styleCode="bold">ADVERSE REACTIONS</content>.) During postmarketing use, there have been reports of clinically significant drug interactions in patients receiving triamcinolone acetonide and strong CYP3A4 inhibitors (e.g., ritonavir). (See <content styleCode="bold">WARNINGS, Endocrine </content>and <content styleCode="bold">PRECAUTIONS, Endocrine</content>.) Consider the benefit-risk of concomitant use and monitor for systemic corticosteroid side effects.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Digitalis glycosides</content>: Patients on digitalis glycosides may be at increased risk of arrhythmias due to hypokalemia.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Estrogens, including oral contraceptives</content>: Estrogens may decrease the hepatic metabolism of certain corticosteroids, thereby increasing their effect.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hepatic enzyme inducers (e.g., barbiturates, phenytoin, carbamazepine, rifampin</content>): Drugs which induce hepatic microsomal drug metabolizing enzyme activity may enhance the metabolism of corticosteroids and require that the dosage of the corticosteroid be increased.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Nonsteroidal anti-inflammatory drugs (NSAIDs): </content>Concomitant use of aspirin (or other nonsteroidal anti-inflammatory drugs) and corticosteroids increases the risk of gastrointestinal side effects. Aspirin should be used cautiously in conjunction with corticosteroids in hypoprothrombinemia. The clearance of salicylates may be increased with concurrent use of corticosteroids.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin tests</content>: Corticosteroids may suppress reactions to skin tests.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Vaccines</content>: Patients on prolonged corticosteroid therapy may exhibit a diminished response to toxoids and live or inactivated vaccines due to inhibition of antibody response. Corticosteroids may also potentiate the replication of some organisms contained in live attenuated vaccines. Routine administration of vaccines or toxoids should be deferred until corticosteroid therapy is discontinued if possible (see <content styleCode="bold">WARNINGS: Infections: Vaccination</content>).<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>No adequate studies have been conducted in animals to determine whether corticosteroids have a potential for carcinogenesis or mutagenesis.<br/>
+                  </paragraph>
+                  <paragraph>Steroids may increase or decrease motility and number of spermatozoa in some patients.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Teratogenic Effects<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>Corticosteroids have been shown to be teratogenic in many species when given in doses equivalent to the human dose. Animal studies in which corticosteroids have been given to pregnant mice, rats, and rabbits have yielded an increased incidence of cleft palate in the offspring. There are no adequate and well-controlled studies in pregnant women. Corticosteroids should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Infants born to mothers who have received corticosteroids during pregnancy should be carefully observed for signs of hypoadrenalism.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nursing Mothers</content>
+                  </paragraph>
+                  <paragraph>Systemically administered corticosteroids appear in human milk and could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. Caution should be exercised when corticosteroids are administered to a nursing woman.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use</content>
+                  </paragraph>
+                  <paragraph>This product contains benzyl alcohol as a preservative. Benzyl alcohol, a component of this product, has been associated with serious adverse events and death, particularly in pediatric patients. The “gasping syndrome” (characterized by central nervous system depression, metabolic acidosis, gasping <br/>respirations, and high levels of benzyl alcohol and its metabolites found in the blood and urine) has been associated with benzyl alcohol dosages &gt;99 mg/kg/day in neonates and low-birth-weight neonates. Additional symptoms may include gradual neurological deterioration, seizures, intracranial hemorrhage, hematologic abnormalities, skin breakdown, hepatic and renal failure, hypotension, bradycardia, and cardiovascular collapse. Although normal therapeutic doses of this product deliver amounts of benzyl alcohol that are substantially lower than those reported in association with the “gasping syndrome,” the minimum amount of benzyl alcohol at which toxicity may occur is not known. Premature and low-birth- weight infants, as well as patients receiving high dosages, may be more likely to develop toxicity. Practitioners administering this and other medications containing benzyl alcohol should consider the combined daily metabolic load of benzyl alcohol from all sources.<br/>
+                  </paragraph>
+                  <paragraph>The efficacy and safety of corticosteroids in the pediatric population are based on the well-established course of effect of corticosteroids which is similar in pediatric and adult populations. Published studies provide evidence of efficacy and safety in pediatric patients for the treatment of nephrotic syndrome (&gt;2 years of age), and aggressive lymphomas and leukemias (&gt;1 month of age). Other indications for pediatric use of corticosteroids, e.g., severe asthma and <br/>wheezing, are based on adequate and well-controlled trials conducted in adults, on the premises that the course of the diseases and their pathophysiology are considered to be substantially similar in both populations.<br/>
+                  </paragraph>
+                  <paragraph>The adverse effects of corticosteroids in pediatric patients are similar to those in adults (see <content styleCode="bold">ADVERSE REACTIONS</content>). Like adults, pediatric patients should be carefully observed with frequent measurements of blood pressure, weight, height, intraocular pressure, and clinical evaluation for the presence of infection, psychosocial disturbances, thromboembolism, peptic ulcers, cataracts, and osteoporosis. Pediatric patients who are treated with corticosteroids by any route, including systemically administered corticosteroids, may experience a decrease in their growth velocity. This negative impact of corticosteroids on growth has been observed at low systemic doses and in the absence of laboratory evidence of HPA axis suppression (i.e., cosyntropin stimulation and basal <br/>cortisol plasma levels). Growth velocity may therefore be a more sensitive indicator of systemic corticosteroid exposure in pediatric patients than some commonly used tests of HPA axis function. The linear growth of pediatric patients treated with corticosteroids should be monitored, and the potential growth effects of prolonged treatment should be weighed against clinical benefits obtained and the availability of treatment alternatives. In order to minimize the potential growth effects of corticosteroids, pediatric patients should be titrated to the lowest effective dose.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Geriatric Use</content>
+                  </paragraph>
+                  <paragraph>No overall differences in safety or effectiveness were observed between elderly subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_aef6cfde-6af9-441a-8b76-480b197eb849">
+               <id root="927b9f28-6747-49f6-9b91-55fa0d73b64f"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+                  <content styleCode="bold">
+                     <br/>
+                  </content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">(listed alphabetically under each subsection)</content>
+                  </paragraph>
+                  <paragraph>The following adverse reactions may be associated with corticosteroid therapy:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Allergic reactions</content>: Anaphylaxis including death, angioedema.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular</content>: Bradycardia, cardiac arrest, cardiac arrhythmias, cardiac enlargement, circulatory collapse, congestive heart failure, fat embolism, hypertension, hypertrophic cardiomyopathy in premature infants, myocardial rupture following recent myocardial infarction (see <content styleCode="bold">WARNINGS</content>), pulmonary edema, syncope, tachycardia, thromboembolism, thrombophlebitis, vasculitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Dermatologic</content>: Acne, allergic dermatitis, cutaneous and subcutaneous atrophy, dry scaly skin, ecchymoses and petechiae, edema, erythema, hyperpigmentation, hypopigmentation, impaired wound healing, increased sweating, lupus erythematosus-like lesions, purpura, rash, sterile abscess, striae, suppressed reactions to skin tests, thin fragile skin, thinning scalp hair, urticaria.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Endocrine</content>: Decreased carbohydrate and glucose tolerance, development of cushingoid state, glycosuria, hirsutism, hypertrichosis, increased requirements for insulin or oral hypoglycemic agents in diabetes, manifestations of latent diabetes mellitus, menstrual irregularities, postmenopausal vaginal hemorrhage, secondary adrenocortical and pituitary unresponsiveness (particularly in times of stress, as in trauma, surgery, or illness), suppression of growth in pediatric patients.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Fluid and electrolyte disturbances</content>: Congestive heart failure in susceptible patients, fluid retention, hypokalemic alkalosis, potassium loss, sodium retention.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal</content>: Abdominal distention, bowel/bladder dysfunction (after intrathecal administration [see <content styleCode="bold">WARNINGS: Neurologic</content>]), elevation in serum liver enzyme levels (usually reversible upon discontinuation), hepatomegaly, increased appetite, nausea, pancreatitis, peptic ulcer with possible perforation and hemorrhage, perforation of the small and large intestine (particularly in patients with inflammatory bowel disease), ulcerative esophagitis.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Metabolic</content>: Negative nitrogen balance due to protein catabolism.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Musculoskeletal</content>: Aseptic necrosis of femoral and humeral heads, calcinosis (following intra-articular or intralesional use), Charcot-like arthropathy, loss of muscle mass, muscle weakness, osteoporosis, pathologic fracture of long bones, post injection flare (following intra-articular use), steroid myopathy, tendon rupture, vertebral compression fractures.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Neurologic/Psychiatric</content>: Convulsions, depression, emotional instability, euphoria, headache, increased intracranial pressure with papilledema (pseudotumor cerebri) usually following discontinuation of treatment, insomnia, mood swings, neuritis, neuropathy, paresthesia, personality changes, psychiatric disorders, vertigo. Arachnoiditis, meningitis, paraparesis/paraplegia, and sensory disturbances have occurred after intrathecal administration. Spinal cord infarction, <br/>paraplegia, quadriplegia, cortical blindness, and stroke (including brainstem) have been reported after epidural administration of corticosteroids (see <content styleCode="bold">WARNINGS: Serious Neurologic Adverse </content>
+                     <content styleCode="bold">Reactions with Epidural Administration </content>and <content styleCode="bold">WARNINGS: Neurologic</content>).<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Ophthalmic</content>: Exophthalmos, glaucoma, increased intraocular pressure, posterior subcapsular cataracts, rare instances of blindness associated with periocular injections.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Other</content>: Abnormal fat deposits, decreased resistance to infection, hiccups, increased or decreased motility and number of spermatozoa, malaise, moon face, weight gain.</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b5d3b534-5de4-49b9-9a10-ae477fe5cecc">
+               <id root="319ac34d-9e13-4aca-818d-f112dfd65650"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <table>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td>Treatment of acute overdosage is by supportive and symptomatic therapy.  </td>
+                        </tr>
+                        <tr>
+                           <td> For chronic overdosage in the face of severe disease requiring continuous steroid therapy, the dosage of the corticosteroid may be reduced only temporarily, or alternate day treatment may be introduced.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d9e6e9c1-5fe6-485d-8e4f-47980d2b05f1">
+               <id root="1d670551-f9f0-4117-841c-31da98f8390b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NOTE: CONTAINS BENZYL ALCOHOL (see PRECAUTIONS).<content styleCode="bold">
+                           <br/>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>The initial dose of Kenalog-40 Injection and Kenalog-80 Injection may vary from 2.5 mg to 100 mg per day depending on the specific disease entity being treated (see <content styleCode="bold">Dosage</content> section below). However, in certain overwhelming, acute, life-threatening situations, administration in dosages exceeding the <br/>usual dosages may be justified and may be in multiples of the oral dosages.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">IT SHOULD BE EMPHASIZED THAT DOSAGE REQUIREMENTS ARE VARIABLE AND MUST BE INDIVIDUALIZED ON THE BASIS OF THE DISEASE UNDER TREATMENT AND THE RESPONSE OF THE PATIENT. </content>After a favorable response is noted, the proper maintenance dosage should be determined by decreasing the initial drug dosage in small decrements at appropriate time intervals until the lowest dosage which will maintain an adequate clinical response is reached. Situations which may make dosage adjustments necessary are changes in clinical status secondary to remissions or exacerbations in the disease process, the patient’s individual drug responsiveness, and the effect of patient exposure to stressful situations not directly <br/>related to the disease entity under treatment. In this latter situation it may be necessary to increase the dosage of the corticosteroid for a period of time consistent with the patient’s condition. If after long-term therapy the drug is to be stopped, it is recommended that it be withdrawn gradually rather than abruptly.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dosage</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">SYSTEMIC</content>
+                  </paragraph>
+                  <paragraph>The suggested initial dose is 60 mg, <content styleCode="bold">injected deeply into the gluteal muscle</content>. Atrophy of subcutaneous fat may occur if the injection is not properly given. Dosage is usually adjusted within the range of 40 mg to 80 mg, depending upon patient response and duration of relief. However, some patients may be well controlled on doses as low as 20 mg or less.<br/>
+                  </paragraph>
+                  <paragraph>Hay fever or pollen asthma: Patients with hay fever or pollen asthma who are not responding to pollen administration and other conventional therapy may obtain a remission of symptoms lasting throughout the pollen season after a single injection of 40 mg to 100 mg.<br/>
+                  </paragraph>
+                  <paragraph>In the treatment of acute exacerbations of multiple sclerosis, daily doses of 160 mg of triamcinolone for a week followed by 64 mg every other day for one month are recommended (see <content styleCode="bold">PRECAUTIONS: Neuro-Psychiatric</content>).<br/>
+                  </paragraph>
+                  <paragraph>In pediatric patients, the initial dose of triamcinolone may vary depending on the specific disease entity being treated. The range of initial doses is 0.11 mg/kg/day to 1.6 mg/kg/day in 3 or 4 divided doses (3.2 mg/m<sup>2</sup>bsa/day to 48 mg/m<sup>2</sup>bsa/day).<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">For the purpose of comparison, the following is the equivalent milligram dosage of the various glucocorticoids:</content>
+                     <content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <table width="405px">
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td valign="top">
+                              <content styleCode="italics">Cortisone, 25</content>
+                           </td>
+                           <td valign="top">
+                              <content styleCode="italics">Triamcinolone, 4 </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <content styleCode="italics">Hydrocortisone, 20 </content>
+                           </td>
+                           <td valign="top">
+                              <content styleCode="italics">Paramethasone, 2 </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <content styleCode="italics">Prednisolone, 5 </content>
+                           </td>
+                           <td valign="top">
+                              <content styleCode="italics">Betamethasone, 0.75 </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <content styleCode="italics">Prednisone, 5 </content>
+                           </td>
+                           <td valign="top">
+                              <content styleCode="italics">Dexamethasone, 0.75 </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <content styleCode="italics">Methylprednisolone, 4 </content>
+                           </td>
+                           <td valign="top">
+                              <content styleCode="italics"> </content>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="italics">These dose relationships apply only to oral or intravenous administration of these compounds. When these substances or their derivatives are injected intramuscularly or into joint spaces, their relative properties may be greatly altered.<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">LOCAL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Intra-articular administration</content>: A single local injection of triamcinolone acetonide is frequently sufficient, but several injections may be needed for adequate relief of symptoms.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Initial dose</content>: 2.5 mg to 5 mg for smaller joints and from 5 mg to 15 mg for larger joints, depending on the specific disease entity being treated. For adults, doses up to 10 mg for smaller areas and up to 40 mg for larger areas have usually been sufficient. Single injections into several joints, up to a total of 80 mg,<br/>have been given.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Administration</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">GENERAL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STRICT ASEPTIC TECHNIQUE IS MANDATORY. </content>The vial should be shaken before use to ensure a uniform suspension. Prior to withdrawal, the suspension should be inspected for clumping or granular appearance (agglomeration). An agglomerated product results from exposure to freezing <br/>temperatures and should not be used. After withdrawal, Kenalog-40 Injection and Kenalog-80 Injection should be injected without delay to prevent settling in the syringe. Careful technique should be employed to avoid the possibility of entering a blood vessel or introducing infection.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">SYSTEMIC</content>
+                  </paragraph>
+                  <paragraph>For systemic therapy, injection should be made <content styleCode="bold">deeply into the gluteal muscle </content>(see <content styleCode="bold">WARNINGS</content>). For adults, a minimum needle length of 1½ inches is recommended. In obese patients, a longer needle may be required. Use alternative sites for subsequent injections.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">LOCAL</content>
+                  </paragraph>
+                  <paragraph>For treatment of joints, the usual intra-articular injection technique should be followed. If an excessive amount of synovial fluid is present in the joint, some, but not all, should be aspirated to aid in the relief of pain and to prevent undue dilution of the steroid.<br/>
+                  </paragraph>
+                  <paragraph>With intra-articular administration, prior use of a local anesthetic may often be desirable. Care should be taken with this kind of injection, particularly in the deltoid region, to avoid injecting the suspension into the tissues surrounding the site, since this may lead to tissue atrophy.<br/>
+                  </paragraph>
+                  <paragraph>In treating acute nonspecific tenosynovitis, care should be taken to ensure that the injection of the corticosteroid is made into the tendon sheath rather than the tendon substance. Epicondylitis may be treated by infiltrating the preparation into the area of greatest tenderness.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c9f382ca-dfba-4eef-80c6-46e2c6719ddb">
+               <id root="546a64df-5e67-46bf-b29c-ac9bcf030229"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>
+                  <content styleCode="bold">STORAGE</content>
+               </title>
+               <text>
+                  <paragraph>Store at controlled room temperature, 20° to 25°C (68° to 77°F); protect from temperatures below 20°C (68°F). </paragraph>
+                  <paragraph>Store vial in carton to protect from light. </paragraph>
+                  <paragraph>Store vial upright.</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f2e671a1-c549-4589-902f-072f788170ed">
+               <id root="91c13ecf-2de0-4525-a55e-88fd1d33e9b0"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>Kenalog<sup>®</sup>-40 Injection (triamcinolone acetonide injectable suspension, USP) is supplied in vials providing 40 mg triamcinolone acetonide per mL.<br/>
+                  </paragraph>
+                  <table width="486px">
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td>40 mg/mL, 1 mL vial</td>
+                           <td>NDC 0003-0293-05 </td>
+                        </tr>
+                        <tr>
+                           <td>40 mg/mL, 5 mL vial </td>
+                           <td>NDC 0003-0293-20 </td>
+                        </tr>
+                        <tr>
+                           <td>40 mg/mL, 10 mL vial </td>
+                           <td>NDC 0003-0293-28 </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Kenalog<sup>®</sup>-80 Injection (triamcinolone acetonide injectable suspension, USP) is supplied in vials providing 80 mg triamcinolone acetonide per mL.<br/>
+                  </paragraph>
+                  <table width="491px">
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td>80 mg/mL, 1 mL vial</td>
+                           <td>NDC 0003-0315-05 </td>
+                        </tr>
+                        <tr>
+                           <td>80 mg/mL, 5 mL vial </td>
+                           <td>NDC 0003-0315-20 </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Bristol-Myers Squibb Company </content>
+                  </paragraph>
+                  <paragraph>Princeton, NJ 08543 USA<br/>
+                  </paragraph>
+                  <paragraph>1374114A0<br/>
+                  </paragraph>
+                  <paragraph>Revised: April 2019</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9c1f0522-5d12-4175-bb39-1bfaa56cf0ae">
+               <id root="9eef2bd5-e9a6-4716-9405-e63814b4bc2d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">POVIDONE-IODINE</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">APLICARE POVIDONE-IODINE TRIPLES- povidone-iodine solution</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Aplicare Products, LLC<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Disclaimer: Most OTC drugs are not reviewed and approved by FDA, however they may be marketed if they comply with applicable regulations and policies. FDA has not evaluated whether this product complies.</content>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_03b0f04a-b9d3-4bf7-b6c3-8bb7b7b9f5e3">
+               <id root="fbd1018e-ba6b-47f2-946e-127f03ab9313"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="bold">ACTIVE INGREDIENT</content>
+               </title>
+               <text>
+                  <paragraph>Povidone-iodine USP</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d20a530d-4520-4589-a7e2-bd6b13636ae4">
+               <id root="4a667573-819b-446a-ab70-970abc1090af"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>
+                  <content styleCode="bold">PURPOSE</content>
+               </title>
+               <text>
+                  <paragraph>Antiseptic</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7b42dccf-d990-4a65-909f-a01bc8fc1a81">
+               <id root="e4b5bbff-dc8c-4f73-a953-cc459bd237f1"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">USE</content>
+               </title>
+               <text>
+                  <table>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td>Antiseptic skin preparation</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e8925ab1-5e82-492f-bbb8-60a17cfe002a">
+               <id root="0d1a9ea9-a2b8-4566-a03f-0b4051929f46"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Do not use</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>if allergic to iodine</item>
+                     <item>in the eyes</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">For external use only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Avoid pooling beneath patient</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Avoid excessive heat. </content>Store at room temperature.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ask a doctor before use if injuries are</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>deep or puncture wounds</item>
+                     <item>serious burns</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content>
+                  </paragraph>
+                  <paragraph>In case of accidental ingestion, seek professional assistance or consult a poison control center immediately.</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0a300cb1-9005-441d-991f-12aafcc0908b">
+               <id root="c4bdf53c-20b1-4ec7-9145-dc30b829d28c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DIRECTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Apply locally as needed</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2ca3f56a-dd25-420a-ba47-ab5ac8976703">
+               <id root="403cf374-caf2-4358-9d4c-a25f5f5c734b"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="bold">INACTIVE INGREDIENTS</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>citric acid, </item>
+                     <item>disodium phosphate, </item>
+                     <item>nonoxynol-9, </item>
+                     <item>sodium hydroxide,</item>
+                     <item>water</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9556d04d-7acb-496d-8c52-fcba456d9f52">
+               <id root="b46c4fb2-a447-4cb0-b8d5-5eb7cfc8331a"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <title>
+                  <content styleCode="bold">OTHER INFORMATION</content>
+               </title>
+               <text>
+                  <paragraph>Other information</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>1% titratable iodine</item>
+                     <item>Not made with natural rubber latex</item>
+                     <item>For hospital or professional use only</item>
+                  </list>
+                  <paragraph>Applicator is STERILE if package is intact.</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>Aplicare Products, LLC</paragraph>
+                  <paragraph>550 Research Parkway </paragraph>
+                  <paragraph>Meriden, CT 06450 </paragraph>
+                  <paragraph>Made in USA</paragraph>
+                  <paragraph>For questions or comments:<br/>800-633-5463<br/>
+                  </paragraph>
+                  <paragraph>Revised 12/2019</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_338bdc1e-f983-4d9e-a3aa-4b80d8cfa15a">
+               <id root="63dbbce2-5435-4cd1-bafc-c7984b8f7850"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">ALCOHOL PREP PAD</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ALCOHOL PREP- isopropyl alcohol swab<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dynarex Corporation</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Disclaimer: Most OTC drugs are not reviewed and approved by FDA, however they may be marketed if they comply with applicable regulations and policies. FDA has not evaluated whether this product complies.</content>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_998d205e-05bd-4d10-a46c-64d212e5520a">
+               <id root="a8387d19-f5d6-4a44-aebc-e2857458faf2"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="bold">ACTIVE INGREDIENT</content>
+               </title>
+               <text>
+                  <paragraph>Isopropyl Alcohol, 70 % v/v</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8393dc2b-a6c3-4c6d-9584-a72f1d2bebd8">
+               <id root="86a4a6f1-0529-47dd-abf9-aef0bac75ec0"/>
+               <code code="55105-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - PURPOSE SECTION"/>
+               <title>
+                  <content styleCode="bold">PURPOSE</content>
+               </title>
+               <text>
+                  <paragraph>Antiseptic</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b988a47f-3678-4223-94f1-68edf2c3e60b">
+               <id root="90542fa4-0ac6-48da-a3d4-29c9c3557de5"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">USE</content>
+               </title>
+               <text>
+                  <table>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td>For preparation of the skin prior to injection.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4e121340-fbe6-42a2-9831-fe2d86c8d8bf">
+               <id root="2d40dfb6-3737-4043-b1db-1c148ea43a71"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>For external use only</item>
+                     <item>Flammable, keep away from flame or fire</item>
+                     <item>Not for use with electrocautinary devices or procedures </item>
+                     <item>Do not use in eyes</item>
+                     <item>Sterile unless package is damaged or open.<br/>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Stop use and ask a doctor if:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Irritation or redness develops</item>
+                     <item>conditions persist for more than 72 hours </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Keep out of reach of children.</content>
+                  </paragraph>
+                  <paragraph>In case of accidental ingestion, seek professional assistance or consult a poison control center immediately.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9903555a-912a-4c75-aded-e8ed05023bd7">
+               <id root="a970122d-017f-453e-8286-7e824fcd5684"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DIRECTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Wipe injection site vigorously and discard.</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0b49d406-3abe-46c5-93c4-113cbb713706">
+               <id root="d3810741-b37c-4d84-a5ca-ca94c630dd8c"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>
+                  <content styleCode="bold">INACTIVE INGREDIENTS</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Water</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c2100bf2-2b49-4398-b385-06c5c32c7f2c">
+               <id root="9682a776-ef1c-4fb2-a121-379f88cfcfe3"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>
+                  <content styleCode="bold">OTHER INFORMATION</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Store at room temperature: 15 deg C to 30 deg C   59 deg F to 86 deg F</item>
+                     <item>avoid excessive heat<br/>
+                     </item>
+                  </list>
+                  <paragraph>Reorder No. 1113</paragraph>
+                  <paragraph>Made in China</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>Dynarex Corporation</paragraph>
+                  <paragraph>Orangeburg, NY 10962</paragraph>
+                  <paragraph>
+                     <linkHtml href="#www.dynarex.com">www.dynarex.com</linkHtml>
+                  </paragraph>
+                  <paragraph>Revised: 11/2019</paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9fa10e43-7282-49dc-ba17-c1f97fa92057">
+               <id root="5e2e2349-3780-47d4-a8f8-0a82dfbf82ec"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>
+                  <content styleCode="bold">PRINCIPAL DISPLAY PANEL: P-Care K40</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 49836-006-17</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">RX-Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">P-Care K40<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Kit Contains:</content>
+                     <br/>1 KENALOG<sup>†</sup>-40  Single Dose Vial (1 mL) <br/>1 Sterile Povidone-Iodine Swabsticks (3 Swabs)<br/>1 Sterile Pair Nitrile Powder-Free Gloves (Size 7.5)<br/>1 Sterile Towel Drape<br/>1 Sterile Fenestrated Towel Drape<br/>2 Sterile Adhesive Bandage<br/>2 Sterile Adhesive Spot Bandage<br/>3 Sterile Packs of 4x4 Gauze (6 Gauzes)<br/>5 Sterile Isopropyl Alcohol 70% Prep Pad</paragraph>
+                  <paragraph>Needles and Syringes Not Included</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 Dose</content>
+                  </paragraph>
+                  <table>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">1 ONE <content styleCode="bold">NEEDLE,</content>
+                              <br/>    ONE <content styleCode="bold">SYRINGE,</content>
+                              <br/>    ONLY ONE <content styleCode="bold">TIME.<br/>
+                              </content>Safe Injection Practices Coalition<br/>www.ONEandONLYcampaign.org </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Members of One &amp; Only Campaign</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">P-Care K40</content>
+                  </paragraph>
+                  <paragraph>DISTRIBUTED BY:<br/>
+                     <content styleCode="bold">SCHMIGS</content>
+                     <br/>HAUPPAUGE, NY 11788<br/>
+                     <content styleCode="bold">NDC 49836-006-17</content>
+                  </paragraph>
+                  <paragraph>MANUFACTURED BY:<br/>
+                     <content styleCode="bold">Rx </content>
+                     <content styleCode="bold">Pharma Pack<br/>
+                     </content>HAUPPAUGE, NY 11788</paragraph>
+                  <paragraph>Questions/Comments 1-844-632-7898</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Kit Contents:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">KENALOG<sup>†</sup>-40* </content>(Bristol-Myers Squibb)<br/>Triamcinolone Acetonide Injectable Suspension, USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile APLICARE<sup>† </sup>Povidone-lodine Swabsticks*</content> (Clorox Professional Products Company)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Nitrile Powder-Free Gloves*</content> (Dynarex) - Size 7.5</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Towel Drape*</content> (Dynarex)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Fenestrated Towel Drape*</content> (Dynarex)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Adhesive Bandage*</content> (Dynarex)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Adhesive Spot Bandage*</content> (Dynarex)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile 4x4 Gauze*</content> (Dynarex)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Alcohol Prep Pad 70% by Volume*</content> (Dynarex)</paragraph>
+                  <paragraph>† All trademarks and registered trademarks noted herein are the property of their respective owners.<br/>* Internal package components remain sterile when stated as long as items are unopened and undamaged.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: </content>KEEP THIS AND ALL MEDICATION <br/>OUT OF THE REACH OF CHILDREN. IN CASE OF<br/>ACCIDENTAL OVERDOSE, SEEK PROFESSIONAL<br/>ASSISTANCE OR CONTACT A POISON CONTROL<br/>CENTER IMMEDIATELY.</paragraph>
+                  <paragraph>PROTECT FROM LIGHT <content styleCode="italics">I </content>AVOID FREEZING</paragraph>
+                  <paragraph>STORE AT CONTROLLED ROOM TEMPERATURE<br/>20º-25ºC (68º-77º F) [SEE USP CONTROLLED<br/>ROOM TEMPERATURE]</paragraph>
+                  <paragraph>DO NOT REFRIGERATE.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Single use Only.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Directions for Use:</content> See enclosed inserts.</paragraph>
+                  <table>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">SUSTAINABLE        Certified Sourcing<br/>FORESTRY             www.sfiprogram.org<br/>INITIATIVE               SFI-01376</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">ORG 04/2017</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">This product is not eligible for Medicare or Medicaid reimbursement.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM2">
+                           <caption>P-Care K40</caption>
+                        </renderMultiMedia>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200131"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>P-Care K40</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="p-care-k40-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

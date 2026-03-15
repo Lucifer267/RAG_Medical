@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f81393a1-0bb9-47de-bab6-0c06c0daab8d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20140618"/>
+   <setId root="3197e424-ac97-4667-b64d-503581f5edc1"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="036986393"/>
+            <name>Northwind Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="036986393" root="1.3.6.1.4.1.519.1"/>
+                  <name>Northwind Pharmaceuticals</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079124340"/>
+                        <name>EPM Packaging</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51655-376" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="bc8e3e9a-f1b0-4958-b236-be5cb284f8ce"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140618"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51655-376" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Carisoprodol</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Carisoprodol</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="62756-446" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="350" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="21925K482H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARISOPRODOL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="21925K482H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARISOPRODOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51655-376-52" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43170" displayName="BOTTLE, DISPENSING" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040755" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="12" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">446</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Oral"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L16a4b7e8-5db8-4c06-a29e-376156a51443">
+               <id root="ac865ad2-dcaa-4152-8c93-1e8959fc6b17"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>Indications and Usage</title>
+               <text>
+                  <paragraph>Carisoprodol is indicated for the relief of discomfort associated with acute, painful musculoskeletal conditions in adults.</paragraph>
+                  <paragraph>Carisoprodol tablets, USP should only be used for short periods (up to two or three weeks) because adequate evidence of effectiveness for more prolonged use has not been established and because acute, painful musculoskeletal conditions are generally of short duration [see Dosage and Administration (2)].</paragraph>
+               </text>
+               <effectiveTime value="20140618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L19a6892d-d149-4378-b817-ad3c3f6b6d3a">
+               <id root="188e478c-4970-49c6-aa64-0156df1f69a2"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage and Administration</title>
+               <text>
+                  <paragraph>The recommended dose of carisoprodol is 350 mg three times a day and at bedtime. The recommended maximum duration of carisoprodol tablets use is up to two or three weeks.</paragraph>
+               </text>
+               <effectiveTime value="20140618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcc71eb49-f1e4-41b2-9c2d-d4e2c4dfa3fd">
+               <id root="b6bee33d-2356-43ff-842b-bc7b38e77a68"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>Dosage Forms and Strengths</title>
+               <text>
+                  <paragraph>
+                     <br/>350 mg Tablets: round, convex, white tablets, inscribed with “446” on one side and plain on other side</paragraph>
+               </text>
+               <effectiveTime value="20140618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5a7e1027-e39b-4ae6-b157-f9f2b62ddacc">
+               <id root="5cca93da-99ff-49be-8a07-f5fd72a073ee"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>Contraindications</title>
+               <text>
+                  <paragraph>Carisoprodol tablets are contraindicated in patients with a history of acute intermittent porphyria or a hypersensitivity reaction to a carbamate such as meprobamate.</paragraph>
+               </text>
+               <effectiveTime value="20140618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7f1805ad-9b55-412e-87f8-de90b088de1b">
+               <id root="4b05ea15-140e-4c09-8fe7-fc264bec228c"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>Warnings and Precautions</title>
+               <text>
+                  <paragraph>5.1 Sedation</paragraph>
+                  <paragraph>Carisoprodol has sedative properties (in the low back pain trials, 13% to 17% of patients who received carisoprodol experienced sedation compared to 6% of patients who received placebo) [see ADVERSE REACTIONS (6.1)] and may impair the mental and/or physical abilities required for the performance of potentially hazardous tasks such as driving a motor vehicle or operating machinery. There have been postmarketing reports of motor vehicle accidents associated with the use of carisoprodol.</paragraph>
+                  <paragraph>Since the sedative effects of carisoprodol and other CNS depressants (e.g., alcohol, benzodiazepines, opioids, tricyclic antidepressants) may be additive, appropriate caution should be exercised with patients who take more than one of these CNS depressants simultaneously.5.2 Drug Dependence, Withdrawal, and Abuse</paragraph>
+                  <paragraph>In the postmarketing experience with carisoprodol, cases of dependence, withdrawal, and abuse have been reported with prolonged use. Most cases of dependence, withdrawal, and abuse occurred in patients who have had a history of addiction or who used carisoprodol in combination with other drugs with abuse potential. However, there have been postmarketing adverse event reports of carisoprodol-associated abuse when used without other drugs with abuse potential. Withdrawal symptoms have been reported following abrupt cessation after prolonged use. To reduce the chance of carisoprodol dependence, withdrawal, or abuse, carisoprodol should be used with caution in addiction-prone patients and in patients taking other CNS depressants including alcohol, and carisoprodol should not be used more than two to three weeks for the relief of acute musculoskeletal discomfort.</paragraph>
+                  <paragraph>Carisoprodol, and one of its metabolites, meprobamate (a controlled substance), may cause dependence [see Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>5.3 Seizures</paragraph>
+                  <paragraph>There have been postmarketing reports of seizures in patients who received carisoprodol. Most of these cases have occurred in the setting of multiple drug overdoses (including drugs of abuse, illegal drugs, and alcohol) [see Overdosage (10)].</paragraph>
+               </text>
+               <effectiveTime value="20140618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L35d8b87e-a900-4f73-ae9c-a2f689b73866">
+               <id root="08699204-71bd-4e39-a7d8-f9ede5cc6ef0"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions</title>
+               <text>
+                  <paragraph>6.1 Clinical Studies Experience</paragraph>
+                  <paragraph>Because clinical studies are conducted under widely varying conditions, adverse reaction rates observed in clinical studies of a drug cannot be directly compared to rates in the clinical studies of another drug and may not reflect rates observed in practice.</paragraph>
+                  <paragraph>The data described below are based on 839 patients pooled from a double blind, randomized, multicenter, placebo controlled, one-week trial in adult patients with acute, mechanical, lower back pain [see Clinical Studies (14)]. In the study, patients were treated with 350 mg of carisoprodol, or placebo three times a day and at bedtime for seven days. The mean age was about 41 years old with 54% females and 46% males and 74 % Caucasian, 16 % Black, 9% Asian, and 2% other.</paragraph>
+                  <paragraph>There were no deaths and there were no serious adverse reactions in the trial. In the study, 2.7%, and 5.4%, of patients treated with placebo, and 350 mg of carisoprodol, respectively, discontinued due to adverse events; and 0.5%, and 1.8% of patients treated with placebo, and 350 mg of carisoprodol, respectively, discontinued due to central nervous system adverse reactions.</paragraph>
+                  <paragraph>6.2 Postmarketing Experience</paragraph>
+                  <paragraph>The following events have been reported during postapproval use of carisoprodol. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>Cardiovascular: Tachycardia, postural hypotension, and facial flushing [see Overdosage (10)].</paragraph>
+                  <paragraph>Central Nervous System: Drowsiness, dizziness, vertigo, ataxia, tremor, agitation, irritability, headache, depressive reactions, syncope, insomnia, and seizures [see Overdosage (10)].</paragraph>
+                  <paragraph>Gastrointestinal: Nausea, vomiting, and epigastric discomfort.</paragraph>
+                  <paragraph>Hematologic: Leukopenia, pancytopenia</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20140618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc37e34a0-2ac9-45dd-b90d-d5a21d80f9e4">
+               <id root="14b6b102-0e02-4d1a-9932-36b051cb2faa"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>Drug Interactions</title>
+               <text>
+                  <paragraph>7.1 CNS Depressants</paragraph>
+                  <paragraph>The sedative effects of carisoprodol and other CNS depressants (e.g., alcohol, benzodiazepines, opioids, tricyclic antidepressants) may be additive. Therefore, caution should be exercised with patients who take more than one of these CNS depressants simultaneously. Concomitant use of carisoprodol and meprobamate, a metabolite of carisoprodol, is not recommended [see Warnings and Precautions (5.1)].</paragraph>
+                  <paragraph>7.2 CYP2C19 Inhibitors and Inducers</paragraph>
+                  <paragraph>Carisoprodol is metabolized in the liver by CYP2C19 to form meprobamate [see Clinical Pharmacology (12.3)]. Coadministration of CYP2C19 inhibitors, such as omeprazole or fluvoxamine, with carisoprodol could result in increased exposure of carisoprodol and decreased exposure of meprobamate. Coadministration of CYP2C19 inducers, such as rifampin or St. John’s Wort, with carisoprodol could result in decreased exposure of carisoprodol and increased exposure of meprobamate. Low dose aspirin also showed an induction effect on CYP2C19. The full pharmacological impact of these potential alterations of exposures in terms of either efficacy or safety of carisoprodol is unknown.</paragraph>
+               </text>
+               <effectiveTime value="20140618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6359e959-a7c0-4a9a-9ff5-b8159b3aa444">
+               <id root="0f1ef202-5971-4942-8dc9-61a1d4ba8a01"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>Use in specific populations</title>
+               <text>
+                  <paragraph>8.1 Pregnancy: Pregnancy Category C.</paragraph>
+                  <paragraph>There are no data on the use of carisoprodol during human pregnancy. Animal studies indicate that carisoprodol crosses the placenta and results in adverse effects on fetal growth and postnatal survival. The primary metabolite of carisoprodol, meprobamate, is an approved anxiolytic. Retrospective, postmarketing studies do not show a consistent association between maternal use of meprobamate and an increased risk for particular congenital malformations.</paragraph>
+                  <paragraph>Teratogenic effects: Animal studies have not adequately evaluated the teratogenic effects of carisoprodol. There was no increase in the incidence of congenital malformations noted in reproductive studies in rats, rabbits, and mice treated with meprobamate. Retrospective, postmarketing studies of meprobamate during human pregnancy were equivocal for demonstrating an increased risk of congenital malformations following first trimester exposure. Across studies that indicated an increased risk, the types of malformations were inconsistent.</paragraph>
+                  <paragraph>Nonteratogenic effects: In animal studies, carisoprodol reduced fetal weights, postnatal weight gain, and postnatal survival at maternal doses equivalent to 1 to 1.5 times the human dose (based on a body surface area comparison). Rats exposed to meprobamate in-utero showed behavioral alterations that persisted into adulthood. For children exposed to meprobamate in-utero, one study found no adverse effects on mental or motor development or IQ scores. Carisoprodol should be used during pregnancy only if the potential benefit justifies the risk to the fetus.8.2 Labor and Delivery</paragraph>
+                  <paragraph>There is no information about the effects of carisoprodol on the mother and the fetus during labor and delivery.</paragraph>
+                  <paragraph>8.3 Nursing Mothers</paragraph>
+                  <paragraph>Very limited data in humans show that carisoprodol is present in breast milk and may reach concentrations two to four times the maternal plasma concentrations. In one case report, a breast-fed infant received about 4 to 6% of the maternal daily dose through breast milk and experienced no adverse effects. However, milk production was inadequate and the baby was supplemented with formula. In lactation studies in mice, female pup survival and pup weight at weaning were decreased. This information suggests that maternal use of carisoprodol may lead to reduced or less effective infant feeding (due to sedation) and/or decreased milk production. Caution should be exercised when carisoprodol is administered to a nursing woman.</paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>The efficacy, safety, and pharmacokinetics of carisoprodol in pediatric patients less than 16 years of age have not been established.</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>The efficacy, safety, and pharmacokinetics of carisoprodol in patients over 65 years old have not been established.</paragraph>
+                  <paragraph>8.6 Renal Impairment</paragraph>
+                  <paragraph>The safety and pharmacokinetics of carisoprodol in patients with renal impairment have not been evaluated. Since carisoprodol is excreted by the kidney, caution should be exercised if carisoprodol is administered to patients with impaired renal function. Carisoprodol is dialyzable by hemodialysis and peritoneal dialysis.</paragraph>
+                  <paragraph>8.7 Hepatic Impairment</paragraph>
+                  <paragraph>The safety and pharmacokinetics of carisoprodol in patients with hepatic impairment have not been evaluated. Since carisoprodol is metabolized in the liver, caution should be exercised if carisoprodol is administered to patients with impaired hepatic function.</paragraph>
+                  <paragraph>8.8 Patients with Reduced CYP2C19 Activity</paragraph>
+                  <paragraph>Patients with reduced CYP2C19 activity have higher exposure to carisoprodol. Therefore, caution should be exercised in administration of carisoprodol to these patients [see Clinical Pharmacology (12.3)].</paragraph>
+               </text>
+               <effectiveTime value="20140618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9a5869b9-440a-4fb0-b1c8-b3713fe809bb">
+               <id root="7cdf1fce-49c3-4d92-8e59-15b1190c73af"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>Drug abuse and dependence</title>
+               <text>
+                  <paragraph>Carisoprodol is not a controlled substance [see Warnings and Precautions (5.2)]. Discontinuation of carisoprodol in animals or in humans after chronic administration can produce withdrawal signs, and there are published case reports of human carisoprodol dependence.</paragraph>
+                  <paragraph>In vitro studies demonstrate that carisoprodol elicits barbiturate-like effects. Animal behavioral studies indicate that carisoprodol produces rewarding effects. Monkeys self administer carisoprodol. Drug discrimination studies using rats indicate that carisoprodol has positive reinforcing and discriminative effects similar to barbital, meprobamate, and chlordiazepoxide.</paragraph>
+               </text>
+               <effectiveTime value="20140618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L34f15bf1-3b70-4e16-ac35-b08364c8f3cb">
+               <id root="c9c3cd67-a7ce-493d-b4c5-89310cedf006"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>Overdosage</title>
+               <text>
+                  <paragraph>Overdosage of carisoprodol commonly produces CNS depression. Death, coma, respiratory depression, hypotension, seizures, delirium, hallucinations, dystonic reactions, nystagmus, blurred vision, mydriasis, euphoria, muscular incoordination, rigidity, and/or headache have been reported with carisoprodol overdosage. Many of the carisoprodol overdoses have occurred in the setting of multiple drug overdoses (including drugs of abuse, illegal drugs, and alcohol). The effects of an overdose of carisoprodol and other CNS depressants (e.g., alcohol, benzodiazepines, opioids, tricyclic antidepressants) can be additive even when one of the drugs has been taken in the recommended dosage. Fatal accidental and non-accidental overdoses of carisoprodol have been reported alone or in combination with CNS depressants.</paragraph>
+                  <paragraph>Treatment of Overdosage: Basic life support measures should be instituted as dictated by the clinical presentation of the carisoprodol overdose. Induced emesis is not recommended due to the risk of CNS and respiratory depression, which may increase the risk of aspiration pneumonia. Gastric lavage should be considered soon after ingestion (within one hour). Circulatory support should be administered with volume infusion and vasopressor agents if needed. Seizures should be treated with intravenous benzodiazepines and the reoccurrence of seizures may be treated with phenobarbital. In cases of severe CNS depression, airway protective reflexes may be compromised and tracheal intubation should be considered for airway protection and respiratory support.</paragraph>
+                  <paragraph>The following types of treatment have been used successfully with an overdose of meprobamate, a metabolite of carisoprodol: activated charcoal (oral or via nasogastric tube), forced diuresis, peritoneal dialysis, and hemodialysis (carisoprodol is also dialyzable). Careful monitoring of urinary output is necessary and overhydration should be avoided. Observe for possible relapse due to incomplete gastric emptying and delayed absorption. For more information on the management of an overdose of carisoprodol, contact a Poison Control Center.</paragraph>
+               </text>
+               <effectiveTime value="20140618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L85309bb9-7f78-4623-bb30-7811b0982b0a">
+               <id root="9fcc6c09-7700-4aa7-b46a-470d2c0a8aa5"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <title>Patient information</title>
+               <text>
+                  <paragraph>Patients should be advised to contact their physician if they experience any adverse reactions to carisoprodol tablets.17.1 Sedation</paragraph>
+                  <paragraph>Patients should be advised that carisoprodol tablets may cause drowsiness and/or dizziness, and has been associated with motor vehicle accidents. Patients should be advised to avoid taking carisoprodol tablets before engaging in potentially hazardous activities such as driving a motor vehicle or operating machinery [see Warnings and Precautions (5.1)].</paragraph>
+                  <paragraph>17.2 Avoidance of Alcohol and Other CNS Depressants</paragraph>
+                  <paragraph>Patients should be advised to avoid alcoholic beverages while taking carisoprodol tablets and to check with their doctor before taking other CNS depressants such as benzodiazepines, opioids, tricyclic antidepressants, sedating antihistamines, or other sedatives [see Warnings and Precautions (5.1)].</paragraph>
+                  <paragraph>17.3 Carisoprodol Tablets Should Only Be Used for Short-Term Treatment</paragraph>
+                  <paragraph>Patients should be advised that treatment with carisoprodol tablets should be limited to acute use (up to two or three weeks) for the relief of acute, musculoskeletal discomfort. In the postmarketing experience with carisoprodol tablets, cases of dependence, withdrawal, and abuse have been reported with prolonged use. If the musculoskeletal symptoms still persist, patients should contact their healthcare provider for further evaluation.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact CARACO Pharmaceutical Laboratories Ltd. at 1-800-818-4555 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+                  <paragraph>For the manufacturer's complete drug information please visit the FDA:</paragraph>
+                  <paragraph>http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=79ee419f-59ce-495b-8ec9-d1c6bb070d91 </paragraph>
+               </text>
+               <effectiveTime value="20140618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L939adaed-6282-489d-856e-c8d3b7e3b6a5">
+               <id root="1bd91ced-877d-4a5e-9036-c554c04c5947"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Label Display</title>
+               <text>
+                  <paragraph>NDC: 51655-376-52</paragraph>
+                  <paragraph>Carisoprodol 350MG             <content styleCode="bold">C IV</content>
+                  </paragraph>
+                  <paragraph>30 Tablets</paragraph>
+                  <paragraph>Lot:            Exp:                   Rx Only</paragraph>
+                  <paragraph>Store at 20C to 25C (68-77F)</paragraph>
+                  <paragraph>Keep out of reach of children. Dosage: See package insert</paragraph>
+                  <paragraph>Manufactured by Sun Pharmaceuticals India Ltd</paragraph>
+                  <paragraph>Manufacture address: Mumbai 400 059 India</paragraph>
+                  <paragraph>Manufacture NDC: 62756-446-04    Mfg Lot: </paragraph>
+                  <paragraph>Distributed by: Northwind Pharmaceutials Indianapolis, IN 46256</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lbb3b0461-7f6c-4db6-8f6a-0d4da57d5aba"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140618"/>
+               <component>
+                  <observationMedia ID="Lbb3b0461-7f6c-4db6-8f6a-0d4da57d5aba">
+                     <text>51655-376-52</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51655-376-52.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

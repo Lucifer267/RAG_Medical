@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="61d8c50d-47a7-409d-a3bb-b74d2a745487"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20111227"/>
+   <setId root="c1adf643-ee59-4251-bbf8-49f54265f833"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="194123980" root="1.3.6.1.4.1.519.1"/>
+            <name>Physicians Total Care, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="194123980" root="1.3.6.1.4.1.519.1"/>
+                        <name>Physicians Total Care, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="relabel"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="repack"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="9b93f9eb-d248-48d4-95aa-c0bd5023783d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20111227"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54868-6062" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BENZACLIN<suffix/>
+                        </name>
+                        <formCode code="C42934" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GEL"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>clindamycin phosphate and benzoyl peroxide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0066-0494" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="10" unit="mg"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="EH6D7113I8" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>clindamycin phosphate</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3U02EL437C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>clindamycin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="W9WZN9A0GM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>benzoyl peroxide</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="W9WZN9A0GM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>benzoyl peroxide</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium hydroxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="6" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43195" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="JAR"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1">
+                                       <translation code="C48502" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="JAR"/>
+                                    </numerator>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="54868-6062-0" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA050756" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20090827"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d879c678-65da-4a82-9309-c0453ace5a6f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Topical Gel: clindamycin  (1%) as clindamycin phosphate, benzoyl peroxide (5%)<br/>For Dermatological Use Only - Not for Ophthalmic Use<br/>*SAMPLE. NO RECONSTITUTION NECESSARY*</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20090629"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d579caa9-52ef-4487-af7c-7a44bc4ced18"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">DESCRIPTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">BenzaClin<sup>®</sup> Topical Gel</content> contains clindamycin phosphate, (7(S)-chloro-7-deoxylincomycin-2-phosphate). Clindamycin phosphate is a water soluble ester of the semi-synthetic antibiotic produced by a 7(S)-chloro-substitution of the 7(R)-hydroxyl group of the parent antibiotic lincomycin.</paragraph>
+                  <paragraph>Chemically, clindamycin phosphate is (C<sub>18</sub>H<sub>34</sub>ClN<sub>2</sub>O<sub>8</sub>PS).  The structural formula for clindamycin is represented below:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>Clindamycin phosphate has molecular weight of 504.97 and its chemical name is Methyl 7-chloro-6,7,8-trideoxy-6-(1-methyl-trans-4-propyl-L-2-pyrrolidinecarboxamido)-1-thio-L-threo-alpha-D-galacto-octopyranoside 2-(dihydrogen phosphate). </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BenzaClin Topical Gel</content> also contains benzoyl peroxide, for topical use.<br/>Chemically, benzoyl peroxide is (C<sub>14</sub>H<sub>10</sub>O<sub>4</sub>). It has the following structural formula: </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM2"/>
+                  </paragraph>
+                  <paragraph>Benzoyl peroxide has a molecular weight of 242.23.</paragraph>
+                  <paragraph>Each gram of <content styleCode="bold">BenzaClin Topical Gel</content> contains, as dispensed, 10 mg (1%) clindamycin as phosphate and 50 mg (5%) benzoyl peroxide in a base of carbomer, sodium hydroxide, dioctyl sodium sulfosuccinate, and purified water.</paragraph>
+               </text>
+               <effectiveTime value="20090629"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="benzaclin-sample-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="benzaclin-sample-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6f2cc894-10a1-43a2-82fa-a6b77600fcc5"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>An <content styleCode="italics">in vitro</content> percutaneous penetration study comparing <content styleCode="bold">BenzaClin Topical Gel</content> and topical 1% clindamycin gel alone, demonstrated there was no statistical difference in penetration between the two drugs.  Mean systemic bioavailability of topical clindamycin in <content styleCode="bold">BenzaClin Topical Gel</content> is suggested to be less than 1%.</paragraph>
+                  <paragraph>Benzoyl peroxide has been shown to be absorbed by the skin where it is converted to benzoic acid.  Less than 2% of the dose enters systemic circulation as benzoic acid. It is suggested that the lipophilic nature of benzoyl peroxide acts to concentrate the compound into the lipid-rich sebaceous follicle.</paragraph>
+               </text>
+               <effectiveTime value="20090629"/>
+               <component>
+                  <section>
+                     <id root="340fbb37-1d8f-4d49-aaa3-63b3932e35ac"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">Microbiology</title>
+                     <text>
+                        <paragraph>The clindamycin and benzoyl peroxide components individually have been shown to have <content styleCode="italics">in vitro</content> activity against <content styleCode="italics">Propionibacterium acnes</content> an organism which has been associated with acne vulgaris; however, the clinical significance of this activity against <content styleCode="italics">P. acnes</content> was not examined in clinical trials with this product.</paragraph>
+                     </text>
+                     <effectiveTime value="20090629"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7ac4ef88-84d5-4ed6-90f9-6509eeafddfd"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>In two adequate and well controlled clinical studies of 758 patients, 214 used BenzaClin, 210 used benzoyl peroxide, 168 used clindamycin, and 166 used vehicle. BenzaClin applied twice daily for 10 weeks was significantly more effective than vehicle in the treatment of moderate to moderately severe facial acne vulgaris.   Patients were evaluated and acne lesions counted at each clinical visit; weeks 2, 4, 6, 8 and 10.  The primary efficacy measures were the lesion counts and the investigator's global assessment evaluated at week 10. Patients were instructed to wash the face with a mild soap, using only the hands.  Fifteen minutes after the face was thoroughly dry, application was made to the entire face.  Non-medicated make-up could be applied at one hour after the BenzaClin application.  If a moisturizer was required, the patients were provided a moisturizer to be used as needed.  Patients were instructed to avoid sun exposure.  Percent reductions in lesion counts after treatment for 10 weeks in these two studies are shown below:</paragraph>
+                  <table width="50%" ID="i09e84be6-bdc9-4f55-8b64-9b01668b894d">
+                     <caption>Study 1</caption>
+                     <col align="center" valign="bottom" width="25%"/>
+                     <col align="center" valign="bottom" width="25%"/>
+                     <col align="center" valign="bottom" width="25%"/>
+                     <col align="center" valign="bottom" width="25%"/>
+                     <thead>
+                        <tr>
+                           <th styleCode="Lrule">BenzaClin</th>
+                           <th styleCode="Lrule">Benzoyl peroxide</th>
+                           <th styleCode="Lrule">Clindamycin</th>
+                           <th styleCode="Lrule Rrule">Vehicle</th>
+                        </tr>
+                        <tr>
+                           <th styleCode="Lrule">n=120</th>
+                           <th styleCode="Lrule">n=120</th>
+                           <th styleCode="Lrule">n=120</th>
+                           <th styleCode="Lrule Rrule">n=120</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td colspan="4" styleCode="Lrule Rrule">Mean percent reduction in inflammatory lesion counts</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">46%</td>
+                           <td styleCode="Lrule">32%</td>
+                           <td styleCode="Lrule">16%</td>
+                           <td styleCode="Lrule Rrule">+ 3%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="4" styleCode="Lrule Rrule">Mean percent reduction in non-inflammatory lesion counts</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">22%</td>
+                           <td styleCode="Lrule">22%</td>
+                           <td styleCode="Lrule">9%</td>
+                           <td styleCode="Lrule Rrule">+1%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="4" styleCode="Lrule Rrule Botrule">Mean percent reduction in total lesion counts</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule">36%</td>
+                           <td styleCode="Lrule">28%</td>
+                           <td styleCode="Lrule">15%</td>
+                           <td styleCode="Lrule Rrule">0.2%</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="50%" ID="i5294524a-385c-43d8-8a61-6f3183ef72d3">
+                     <caption>Study 2</caption>
+                     <col align="center" valign="bottom" width="25%"/>
+                     <col align="center" valign="bottom" width="25%"/>
+                     <col align="center" valign="bottom" width="25%"/>
+                     <col align="center" valign="bottom" width="25%"/>
+                     <thead>
+                        <tr>
+                           <th styleCode="Lrule">BenzaClin</th>
+                           <th styleCode="Lrule">Benzoyl peroxide</th>
+                           <th styleCode="Lrule">Clindamycin</th>
+                           <th styleCode="Lrule Rrule">Vehicle</th>
+                        </tr>
+                        <tr>
+                           <th styleCode="Lrule">n=95</th>
+                           <th styleCode="Lrule">n=95</th>
+                           <th styleCode="Lrule">n=49</th>
+                           <th styleCode="Lrule Rrule">n=48</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td colspan="4" styleCode="Lrule Rrule">Mean percent reduction in inflammatory lesion counts</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">63%</td>
+                           <td styleCode="Lrule">53%</td>
+                           <td styleCode="Lrule">45%</td>
+                           <td styleCode="Lrule Rrule">42%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="4" styleCode="Lrule Rrule">Mean percent reduction in non-inflammatory lesion counts</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">54%</td>
+                           <td styleCode="Lrule">50%</td>
+                           <td styleCode="Lrule">39%</td>
+                           <td styleCode="Lrule Rrule">36%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="4" styleCode="Lrule Rrule">Mean percent reduction in total lesion counts</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule">58%</td>
+                           <td styleCode="Lrule">52%</td>
+                           <td styleCode="Lrule">42%</td>
+                           <td styleCode="Lrule Rrule">39%</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The BenzaClin group showed greater overall improvement than the benzoyl peroxide, clindamycin and vehicle groups as rated by the investigator.</paragraph>
+               </text>
+               <effectiveTime value="20090629"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6d3b8013-cdfc-4357-82aa-2db36d5de8cc"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">BenzaClin Topical Gel</content> is indicated for the topical treatment of acne vulgaris.</paragraph>
+               </text>
+               <effectiveTime value="20090629"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b971e3f3-81d1-4dc6-b360-be3f093f3db0"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">BenzaClin Topical Gel</content> is contraindicated in those individuals who have shown hypersensitivity to any of its components or to lincomycin.  It is also contraindicated in those having a history of regional enteritis, ulcerative colitis, or antibiotic-associated colitis.</paragraph>
+               </text>
+               <effectiveTime value="20090629"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="48dad906-441b-4fb8-9b7a-0aba6bcc1cc1"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ORALLY AND PARENTERALLY ADMINISTERED CLINDAMYCIN HAS BEEN ASSOCIATED WITH SEVERE COLITIS WHICH MAY RESULT IN PATIENT DEATH.  USE OF THE TOPICAL FORMULATION OF CLINDAMYCIN RESULTS IN ABSORPTION OF THE ANTIBIOTIC FROM THE SKIN SURFACE.  DIARRHEA, BLOODY DIARRHEA, AND COLITIS (INCLUDING PSEUDOMEMBRANOUS COLITIS) HAVE BEEN REPORTED WITH THE USE OF TOPICAL AND SYSTEMIC CLINDAMYCIN.  STUDIES INDICATE A TOXIN(S) PRODUCED BY CLOSTRIDIA IS ONE PRIMARY CAUSE OF ANTIBIOTIC-ASSOCIATED COLITIS.  THE COLITIS IS USUALLY CHARACTERIZED BY SEVERE PERSISTENT DIARRHEA AND SEVERE ABDOMINAL CRAMPS AND MAY BE ASSOCIATED WITH THE PASSAGE OF BLOOD AND MUCUS. ENDOSCOPIC EXAMINATION MAY REVEAL PSEUDOMEMBRANOUS COLITIS.  STOOL CULTURE FOR <content styleCode="italics">Clostridium Difficile</content> AND STOOL ASSAY FOR <content styleCode="italics">C. difficile</content> TOXIN MAY BE HELPFUL DIAGNOSTICALLY.  WHEN SIGNIFICANT DIARRHEA OCCURS, THE DRUG SHOULD BE DISCONTINUED. LARGE BOWEL ENDOSCOPY SHOULD BE CONSIDERED TO ESTABLISH A DEFINITIVE DIAGNOSIS IN CASES OF SEVERE DIARRHEA.  ANTIPERISTALTIC AGENTS SUCH AS OPIATES AND DIPHENOXYLATE WITH ATROPINE MAY PROLONG AND/OR WORSEN THE CONDITION. DIARRHEA, COLITIS, AND PSEUDOMEMBRANOUS COLITIS HAVE BEEN OBSERVED TO BEGIN UP TO SEVERAL WEEKS FOLLOWING CESSATION OF ORAL AND PARENTERAL THERAPY WITH CLINDAMYCIN.</content>
+                  </paragraph>
+                  <paragraph>Mild cases of pseudomembranous colitis usually respond to drug discontinuation alone.  In moderate to severe cases, consideration should be given to management with fluids and electrolytes, protein supplementation and treatment with an antibacterial drug clinically effective against <content styleCode="italics">C. difficile</content> colitis.</paragraph>
+               </text>
+               <effectiveTime value="20090629"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0a1fa83e-82ac-40a4-aec4-5b88f947f04d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">PRECAUTIONS</title>
+               <effectiveTime value="20090629"/>
+               <component>
+                  <section>
+                     <id root="f8ab03e2-8790-4dbd-9ed9-7fe355865371"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">General</title>
+                     <text>
+                        <paragraph>For dermatological use only; not for ophthalmic use.  Concomitant topical acne therapy should be used with caution because a possible cumulative irritancy effect may occur, especially with the use of peeling, desquamating, or abrasive agents.</paragraph>
+                        <paragraph>The use of antibiotic agents may be associated with the overgrowth of nonsusceptible organisms including fungi.  If this occurs, discontinue use of this medication and take appropriate measures.</paragraph>
+                        <paragraph>Avoid contact with eyes and mucous membranes.</paragraph>
+                        <paragraph>Clindamycin and erythromycin containing products should not be used in combination.  <content styleCode="italics">In vitro</content> studies have shown antagonism between these two antimicrobials.  The clinical significance of this <content styleCode="italics">in vitro</content> antagonism is not known.</paragraph>
+                     </text>
+                     <effectiveTime value="20090629"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="89180209-1018-4fbc-be76-61c32ebdcefe"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">Information for Patients</title>
+                     <text>
+                        <paragraph>Patients using <content styleCode="bold">BenzaClin Topical Gel</content> should receive the following information and instructions:</paragraph>
+                        <list listType="ordered" ID="i31bab4cc-a2b2-46c0-806c-c25f33a9308c">
+                           <item>
+                              <content styleCode="bold">BenzaClin Topical Gel</content> is to be used as directed by the physician.  It is for external use only.  Avoid contact with eyes, and inside the nose, mouth, and all mucous membranes, as this product may be irritating.</item>
+                           <item>This medication should not be used for any disorder other than that for which it was prescribed.</item>
+                           <item>Patients should not use any other topical acne preparation unless otherwise directed by physician.</item>
+                           <item>Patients should minimize or avoid exposure to natural or artificial sunlight (tanning beds or UVA/B treatment) while using BenzaClin Topical Gel. To minimize exposure to sunlight, a wide-brimmed hat or other protective clothing should be worn, and a sunscreen with SPF 15 rating or higher should be used.</item>
+                           <item>Patients who develop allergic symptoms such as severe swelling or shortness of breath should discontinue <content styleCode="bold">BenzaClin Topical Gel</content> and contact their physician immediately. In addition, patients should report any signs of local adverse reactions to their physician.</item>
+                           <item>
+                              <content styleCode="bold">BenzaClin Topical Gel</content> may bleach hair or colored fabric.</item>
+                           <item>
+                              <content styleCode="bold">BenzaClin Topical Gel</content> can be stored at room temperature 25°C (77°F).  Do not freeze.  Discard any unused product after expiration date on sample. </item>
+                           <item>Before applying <content styleCode="bold">BenzaClin Topical Gel</content> to affected areas wash the skin gently, then rinse with warm water and pat dry.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20090629"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="6b2d95f0-c31b-4958-a4db-ed01e02ca292"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Benzoyl peroxide has been shown to be a tumor promoter and progression agent in a number of animal studies.  The clinical significance of this is unknown.</paragraph>
+                        <paragraph>Benzoyl peroxide in acetone at doses of 5 and 10 mg administered twice per week induced skin tumors in transgenic Tg.AC mice in a study using 20 weeks of topical treatment.</paragraph>
+                        <paragraph>In a 52 week dermal photocarcinogenicity study in hairless mice, the median time to onset of skin tumor formation was decreased and the number of tumors per mouse increased following chronic concurrent topical administration of BenzaClin Topical Gel with exposure to ultraviolet radiation (40 weeks of treatment followed by 12 weeks of observation). </paragraph>
+                        <paragraph>In a 2-year dermal carcinogenicity study in rats, treatment with BenzaClin Topical Gel at doses of 100, 500 and 2000 mg/kg/day caused a dose-dependent increase in the incidence of keratoacanthoma at the treated skin site of male rats.  The incidence of keratoacanthoma at the treated site of males treated with 2000 mg/kg/day (8 times the highest recommended adult human dose of 2.5 g BenzaClin Topical Gel, based on mg/m<sup>2</sup>) was statistically significantly higher than that in the sham- and vehicle-controls.</paragraph>
+                        <paragraph>Genotoxicity studies were not conducted with BenzaClin Topical Gel.  Clindamycin phosphate was not genotoxic in <content styleCode="italics">Salmonella typhimurium</content> or in a rat micronucleus test.  Clindamycin phosphate sulfoxide, an oxidative degradation product of clindamycin phosphate and benzoyl peroxide, was not clastogenic in a mouse micronucleus test.  Benzoyl peroxide has been found to cause DNA strand breaks in a variety of mammalian cell types, to be mutagenic in <content styleCode="italics">S. typhimurium</content> tests by some but not all investigators, and to cause sister chromatid exchanges in Chinese hamster ovary cells. Studies have not been performed with <content styleCode="bold">BenzaClin Topical Gel</content> or benzoyl peroxide to evaluate the effect on fertility. Fertility studies in rats treated orally with up to 300 mg/kg/day of clindamycin (approximately 120 times the amount of clindamycin in the highest recommended adult human dose of 2.5 g BenzaClin Topical Gel, based on mg/m<sup>2</sup>) revealed no effects on fertility or mating ability.</paragraph>
+                     </text>
+                     <effectiveTime value="20090629"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a6790acb-47eb-45e0-aeef-6094572b7702"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">Pregnancy</title>
+                     <effectiveTime value="20090629"/>
+                     <component>
+                        <section>
+                           <id root="89443557-b1e9-4a3b-b124-0d36c26df544"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title mediaType="text/x-hl7-title+xml">Teratogenic Effects</title>
+                           <effectiveTime value="20090629"/>
+                           <component>
+                              <section>
+                                 <id root="236553ae-99fd-4716-a2e7-7cb57bae3607"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title mediaType="text/x-hl7-title+xml">Pregnancy Category C</title>
+                                 <text>
+                                    <paragraph>Animal reproductive/developmental toxicity studies have not been conducted with BenzaClin Topical Gel or benzoyl peroxide.  Developmental toxicity studies performed in rats and mice using oral doses of clindamycin up to 600 mg/kg/day (240 and 120 times amount of clindamycin in the highest recommended adult human dose based on mg/m<sup>2</sup>, respectively) or subcutaneous doses of clindamycin up to 250 mg/kg/day (100 and 50 times the amount of clindamycin in the highest recommended adult human dose based on mg/m<sup>2</sup>, respectively) revealed no evidence of teratogenicity.</paragraph>
+                                    <paragraph>There are no well-controlled trials in pregnant women treated with <content styleCode="bold">BenzaClin Topical Gel</content>.  It also is not known whether <content styleCode="bold">BenzaClin Topical Gel</content> can cause fetal harm when administered to a pregnant woman.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20090629"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="1c8ebc58-6d30-42a2-a812-9414ff99fbc2"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">Nursing Women</title>
+                     <text>
+                        <paragraph>It is not known whether <content styleCode="bold">BenzaClin Topical Gel</content> is excreted in human milk after topical application.  However, orally and parenterally administered clindamycin has been reported to appear in breast milk.  Because of the potential for serious adverse reactions in nursing infants, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20090629"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="e8d14b36-f8c6-4fdf-a75a-fd8a32082b37"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of this product in pediatric patients below the age of 12 have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20090629"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ca395b69-a94e-43e2-980b-9a4d1d2fb843"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>During clinical trials, the most frequently reported adverse event in the BenzaClin treatment group was dry skin (12%).  The Table below lists local adverse events reported by at least 1% of patients in the BenzaClin and vehicle groups.</paragraph>
+                  <table width="50%" ID="i5da797a2-ee64-424c-87b5-88ec182f0369">
+                     <caption>Local Adverse Events - all causalities in &gt;/= 1% of patients </caption>
+                     <col align="center" width="40%"/>
+                     <col align="center" width="30%"/>
+                     <col align="center" width="30%"/>
+                     <thead>
+                        <tr>
+                           <th styleCode="Lrule"/>
+                           <th styleCode="Lrule">BenzaClin</th>
+                           <th styleCode="Lrule Rrule">Vehicle</th>
+                        </tr>
+                        <tr>
+                           <th styleCode="Lrule"/>
+                           <th styleCode="Lrule">n = 420</th>
+                           <th styleCode="Lrule Rrule">n = 168</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Application site reaction</td>
+                           <td styleCode="Lrule">13 (3%)</td>
+                           <td styleCode="Lrule Rrule">1 (&lt;1%)</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Dry skin</td>
+                           <td styleCode="Lrule">50 (12%)</td>
+                           <td styleCode="Lrule Rrule">10 (6%)</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Pruritus</td>
+                           <td styleCode="Lrule">8 (2%)</td>
+                           <td styleCode="Lrule Rrule">1 (&lt;1%)</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Peeling</td>
+                           <td styleCode="Lrule">9 (2%)</td>
+                           <td styleCode="Lrule Rrule">-</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule">Erythema</td>
+                           <td styleCode="Lrule">6 (1%)</td>
+                           <td styleCode="Lrule Rrule">1 (&lt;1%)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule">Sunburn</td>
+                           <td styleCode="Lrule">5 (1%)</td>
+                           <td styleCode="Lrule Rrule">-</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The actual incidence of dry skin might have been greater were it not for the use of a moisturizer in these studies.</paragraph>
+                  <paragraph>Anaphylaxis, as well as allergic reactions leading to hospitalization, have been reported during post-marketing use of clindamycin/benzoyl peroxide products. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+               </text>
+               <effectiveTime value="20090629"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fa7b9e88-6e95-473d-9b8f-b59f96cb7778"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">BenzaClin Topical Gel</content> should be applied twice daily, morning and evening, or as directed by a physician, to affected areas after the skin is gently washed, rinsed with warm water and patted dry.</paragraph>
+               </text>
+               <effectiveTime value="20090629"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b8b174fb-4d08-40ce-b60c-835e862dcb8d"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">HOW SUPPLIED</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">BenzaClin Topical Gel</content> is supplied in 6 gram plastic jars  (NDC 54868-6062-0).</paragraph>
+               </text>
+               <effectiveTime value="20110914"/>
+               <component>
+                  <section>
+                     <id root="036ef0a8-b413-4bee-927c-02cfec800709"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>Store at room temperature 25°C (77°F).<br/>
+                           <content styleCode="bold">Do not freeze.  Refrigeration is not required.  Keep tightly closed. Keep out of the reach of children.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20090629"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="55115a65-f460-4427-aad3-3ac058e4a411"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml"/>
+               <text>
+                  <paragraph>US Patents 5,446,028; 5,767,098<br/>Prescribing Information as of June 2009.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dermik Laboratories</content>
+                     <br/>a business of sanofi-aventis U.S. LLC<br/>Bridgewater, NJ 08807</paragraph>
+                  <paragraph>©2009 sanofi-aventis U.S. LLC</paragraph>
+                  <br/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Additional barcode labeling by:</content>
+                     <br/>Physicians Total Care, Inc.<br/>Tulsa, OK      74146<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20110914"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1d46186f-1ee0-4471-a519-c31deb1a5fff"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 50g Pump</title>
+               <text>
+                  <paragraph>NDC 54868-6062-0<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content>BenzaClin</content>
+                     <sup>®</sup>
+                     <br/>
+                     <content>topical gel</content>
+                  </paragraph>
+                  <paragraph>
+                     <content>clindamycin-benzoyl peroxide gel</content>
+                  </paragraph>
+                  <paragraph>FOR TOPICAL USE ONLY</paragraph>
+                  <paragraph>Reconstitute with Clinda–Pak<sup>®</sup>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">One</content> 50g <content styleCode="bold">Pump</content> (after reconstitution)</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20110914"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Principal Display Panel - 50g Pump</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="6062.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

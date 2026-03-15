@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2a57a1ee-da48-0595-e054-00144ff8d46c"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20160127"/>
+   <setId root="2a57d570-1c0b-0426-e054-00144ff8d46c"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079124340"/>
+            <name>EPM Packaging Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079124340"/>
+                  <name>EPM Packaging Inc</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079124340"/>
+                        <name>EPM Packaging Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61502-913" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2a57f18e-f507-1366-e054-00144ff8d46c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20160127"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61502-913" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>HYDROCODONE BITARTRATE AND ACETAMINOPHEN</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>HYDROCODONE BITARTRATE AND ACETAMINOPHEN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="53746-109" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="325"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETAMINOPHEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="362O9ITL9D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETAMINOPHEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="NO70W886KK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCODONE BITARTRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6YKS4Y3WQ7" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROCODONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-913-97" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-913-96" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-913-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="20" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-913-20" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-913-15" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-913-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="6" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61502-913-06" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160127"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040736" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20160127"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>OFF WHITE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="15" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">IP;109</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57a1ee-da34-0595-e054-00144ff8d46c">
+               <id root="2a57a1ee-da33-0595-e054-00144ff8d46c"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <text>
+                  <paragraph>Hepatotoxicity
+  <br/>
+Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver
+  <br/>
+transplant and death. Most of the cases of liver injury are associated with the use of
+  <br/>
+acetaminophen at doses that exceed 4000 milligrams per day, and often involve more than one
+  <br/>
+acetaminophen-containing product.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57a1ee-da36-0595-e054-00144ff8d46c">
+               <id root="2a57a1ee-da35-0595-e054-00144ff8d46c"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>HYDROCODONE BITARTRATE AND ACETAMINOPHEN TABLETS, USP
+  <br/>
+5 mg/325 mg
+  <br/>
+CS-II
+  <br/>
+Rx only
+ </paragraph>
+                  <paragraph>Hydrocodone Bitartrate and Acetaminophen Tablets, USP are supplied in tablet form for oral
+  <br/>
+administration.
+  <br/>
+Hydrocodone bitartrate is an opioid analgesic and antitussive and occurs as fine, white crystals or as a
+  <br/>
+crystalline powder. It is affected by light. The chemical name is: 4,5a-epoxy-3-methoxy-17-
+  <br/>
+methylmorphinan-6-one tartrate (1:1) hydrate (2:5). It has the following structural formula:
+  <br/>
+Acetaminophen, 4'-hydroxyacetanilide, a slightly bitter, white, odorless, crystalline powder, is a nonopiate,
+  <br/>
+non-salicylate analgesic and antipyretic. It has the following structural formula:
+  <br/>
+Each Hydrocodone Bitartrate and Acetaminophen Tablet, USP contains:
+  <br/>
+Hydrocodone Bitartrate, USP ........................... 5 mg
+  <br/>
+Acetaminophen, USP .................................... 325 mg
+  <br/>
+In addition, each tablet contains the following inactive ingredients: colloidal silicon dioxide,
+  <br/>
+crospovidone, magnesium stearate, microcrystalline cellulose, povidone, pregelatinized starch and
+  <br/>
+stearic acid.
+  <br/>
+Meets USP Dissolution Test 1.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57a1ee-da38-0595-e054-00144ff8d46c">
+               <id root="2a57a1ee-da37-0595-e054-00144ff8d46c"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Hydrocodone is a semisynthetic narcotic analgesic and antitussive with multiple actions qualitatively
+  <br/>
+similar to those of codeine. Most of these involve the central nervous system and smooth muscle. The
+  <br/>
+precise mechanism of action of hydrocodone and other opiates is not known, although it is believed to
+  <br/>
+relate to the existence of opiate receptors in the central nervous system. In addition to analgesia,
+  <br/>
+narcotics may produce drowsiness, changes in mood and mental clouding.
+  <br/>
+The analgesic action of acetaminophen involves peripheral influences, but the specific mechanism is as
+  <br/>
+yet undetermined. Antipyretic activity is mediated through hypothalamic heat regulating centers.
+  <br/>
+Acetaminophen inhibits prostaglandin synthetase. Therapeutic doses of acetaminophen have negligible
+  <br/>
+effects on the cardiovascular or respiratory systems; however, toxic doses may cause circulatory
+  <br/>
+failure and rapid, shallow breathing.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57a1ee-da3a-0595-e054-00144ff8d46c">
+               <id root="2a57a1ee-da39-0595-e054-00144ff8d46c"/>
+               <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+               <text>
+                  <paragraph>The behavior of the individual components is described below.
+  <br/>
+Hydrocodone: Following a 10 mg oral dose of hydrocodone administered to five adult male subjects,
+  <br/>
+the mean peak concentration was 23.6 ± 5.2 ng/mL. Maximum serum levels were achieved at 1.3 ± 0.3
+  <br/>
+hours and the half-life was determined to be 3.8 ± 0.3 hours. Hydrocodone exhibits a complex pattern
+  <br/>
+of metabolism including O-demethylation, N-demethylation and 6-keto reduction to the corresponding
+  <br/>
+6-a- and 6-ß-hydroxymetabolites. See OVERDOSAGE for toxicity information.
+  <br/>
+Acetaminophen: Acetaminophen is rapidly absorbed from the gastrointestinal tract and is distributed
+  <br/>
+throughout most body tissues. The plasma half-life is 1.25 to 3 hours, but may be increased by liver
+  <br/>
+damage and following overdosage. Elimination of acetaminophen is principally by liver metabolism
+  <br/>
+(conjugation) and subsequent renal excretion of metabolites. Approximately 85% of an oral dose
+  <br/>
+appears in the urine within 24 hours of administration, most as the glucuronide conjugate, with small
+  <br/>
+amounts of other conjugates and unchanged drug. See OVERDOSAGE for toxicity information.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57a1ee-da3c-0595-e054-00144ff8d46c">
+               <id root="2a57a1ee-da3b-0595-e054-00144ff8d46c"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Hydrocodone bitartrate and acetaminophen tablets, USP are indicated for the relief of moderate to
+  <br/>
+moderately severe pain.
+ </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57a1ee-da3e-0595-e054-00144ff8d46c">
+               <id root="2a57a1ee-da3d-0595-e054-00144ff8d46c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>This product should not be administered to patients who have previously exhibited hypersensitivity to
+  <br/>
+hydrocodone or acetaminophen, or any other component of this product.
+  <br/>
+Patients known to be hypersensitive to other opioids may exhibit cross sensitivity to hydrocodone.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57d570-1c06-0426-e054-00144ff8d46c">
+               <id root="2a57d570-1c05-0426-e054-00144ff8d46c"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>Hepatotoxicity
+  <br/>
+Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver
+  <br/>
+transplant and death. Most of the cases of liver injury are associated with the use of acetaminophen at
+  <br/>
+doses that exceed 4000 milligrams per day, and often involve more than one acetaminophen-containing
+  <br/>
+product. The excessive intake of acetaminophen may be intentional to cause self-harm or unintentional
+  <br/>
+as patients attempt to obtain more pain relief or unknowingly take other acetaminophen-containing
+  <br/>
+products.
+  <br/>
+The risk of acute liver failure is higher in individuals with underlying liver disease and in individuals
+  <br/>
+who ingest alcohol while taking acetaminophen.
+  <br/>
+Instruct patients to look for acetaminophen or APAP on package labels and not to use more than one
+  <br/>
+product that contains acetaminophen. Instruct patients to seek medical attention immediately upon
+  <br/>
+ingestion of more than 4000 milligrams of acetaminophen per day, even if they feel well.
+  <br/>
+Serious s kin reactions
+  <br/>
+Rarely, acetaminophen may cause serious skin reactions such as acute generalized exanthematous
+  <br/>
+pustulosis (AGEP), Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can
+  <br/>
+be fatal. Patients should be informed about the signs of serious skin reactions, and use of the drug
+  <br/>
+should be discontinued at the first appearance of skin rash or any other sign of hypersensitivity.
+  <br/>
+Hypers ens itivity/ anaphylaxis
+  <br/>
+There have been post-marketing reports of hypersensitivity and anaphylaxis associated with use of
+  <br/>
+acetaminophen. Clinical signs include swelling of the face, mouth, and throat, respiratory distress,
+  <br/>
+urticaria, rash, pruritis, and vomiting. There were infrequent reports of life-threatening anaphylaxis
+  <br/>
+requiring emergency medical attention. Instruct patients to discontinue Hydrocodone Bitartrate and
+  <br/>
+Acetaminophen Tablets, USP immediately and seek medical care if they experience these symptoms. Do
+  <br/>
+not prescribe Hydrocodone Bitartrate and Acetaminophen Tablets, USP for patients with acetaminophen
+  <br/>
+allergy.
+  <br/>
+Res piratory Depres s ion
+  <br/>
+At high doses or in sensitive patients, hydrocodone may produce dose-related respiratory depression
+  <br/>
+by acting directly on the brain stem respiratory center. Hydrocodone also affects the center that controls
+  <br/>
+respiratory rhythm, and may produce irregular and periodic breathing.
+  <br/>
+Head Injury and Increas ed Intracranial Pres s ure
+  <br/>
+The respiratory depressant effects of narcotics and their capacity to elevate cerebrospinal fluid
+  <br/>
+pressure may be markedly exaggerated in the presence of head injury, other intracranial lesions or a
+  <br/>
+preexisting increase in intracranial pressure. Furthermore, narcotics produce adverse reactions which
+  <br/>
+may obscure the clinical course of patients with head injuries.
+  <br/>
+Acute Abdominal Conditions
+  <br/>
+The administration of narcotics may obscure the diagnosis or clinical course of patients with acute
+  <br/>
+abdominal conditions.
+  <br/>
+Mis us e, Abus e, and Divers ion of Opioids
+  <br/>
+Hydrocodone bitartrate and acetaminophen tablets contain hydrocodone, an opioid agonist, and is a
+  <br/>
+Schedule II controlled substance. Opioid agonists have the potential for being abused and are sought by
+  <br/>
+abusers and people with addiction disorders, and are subject to diversion.
+  <br/>
+Hydrocodone bitartrate and acetaminophen tablets can be abused in a manner similar to other opioid
+  <br/>
+agonists, legal or illicit. This should be considered when prescribing or dispensing Hydrocodone
+  <br/>
+bitartrate and acetaminophen tablets in situations where the physician or pharmacist is concerned about
+  <br/>
+an increased risk of misuse, abuse or diversion (see DRUG ABUSE AND DEPENDENCE).
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57a1ee-da40-0595-e054-00144ff8d46c">
+               <id root="2a57a1ee-da3f-0595-e054-00144ff8d46c"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General
+  <br/>
+Special Risk Patients: As with any narcotic analgesic agent, hydrocodone bitartrate and acetaminophen
+  <br/>
+tablets should be used with caution in elderly or debilitated patients and those with severe impairment of
+  <br/>
+hepatic or renal function, hypothyroidism, Addison's disease, prostatic hypertrophy or urethral
+  <br/>
+stricture. The usual precautions should be observed and the possibility of respiratory depression
+  <br/>
+should be kept in mind.
+  <br/>
+Cough Reflex: Hydrocodone suppresses the cough reflex; as with all narcotics, caution should be
+  <br/>
+exercised when hydrocodone bitartrate and acetaminophen tablets are used postoperatively and in
+  <br/>
+patients with pulmonary disease.
+  <br/>
+Information for Patients /Careivers
+  <br/>
+•Do not take Hydrocodone Bitartrate and Acetaminophen Tablets, USP if you are allergic to any of
+  <br/>
+its ingredients.
+  <br/>
+•If you develop signs of allergy such as a rash or difficulty breathing, stop taking Hydrocodone
+  <br/>
+Bitartrate and Acetaminophen Tablets, USP and contact your healthcare provider immediately.
+  <br/>
+•Do not take more than 4000 milligrams of acetaminophen per day. Call your doctor if you took
+  <br/>
+more than the recommended dose.
+  <br/>
+Hydrocodone, like all narcotics, may impair the mental and/or physical abilities required for the
+  <br/>
+performance of potentially hazardous tasks such as driving a car or operating machinery; patients should
+  <br/>
+be cautioned accordingly.
+  <br/>
+Alcohol and other CNS depressants may produce an additive CNS depression, when taken with this
+  <br/>
+combination product, and should be avoided.
+  <br/>
+Hydrocodone may be habit-forming. Patients should take the drug only for as long as it is prescribed, in
+  <br/>
+the amounts prescribed, and no more frequently than prescribed.
+  <br/>
+Laboratory Tes ts
+  <br/>
+In patients with severe hepatic or renal disease, effects of therapy should be monitored with serial liver
+  <br/>
+and/or renal function tests.
+  <br/>
+Drug Interactions
+  <br/>
+Patients receiving other narcotic analgesics, antihistamines, antipsychotics, anti-anxiety agents, or other
+  <br/>
+CNS depressants (including alcohol) concomitantly with hydrocodone bitartrate and acetaminophen
+  <br/>
+tablets may exhibit an additive CNS depression. When combined therapy is contemplated, the dose of
+  <br/>
+one or both agents should be reduced.
+  <br/>
+The use of MAO inhibitors or tricyclic antidepressants with hydrocodone preparations may increase
+  <br/>
+the effect of either the antidepressant or hydrocodone.
+  <br/>
+Drug/Laboratory Tes t Interactions
+  <br/>
+Acetaminophen may produce false-positive test results for urinary 5-hydroxyindoleacetic acid.
+  <br/>
+Carcinogenes is , Mutagenes is , Impairment of Fertility
+  <br/>
+No adequate studies have been conducted in animals to determine whether hydrocodone or
+  <br/>
+acetaminophen have a potential for carcinogenesis, mutagenesis, or impairment of fertility.
+  <br/>
+Pregnancy
+  <br/>
+Teratogenic Effects: Pregnancy Category C: There are no adequate and well-controlled studies in
+  <br/>
+pregnant women. Hydrocodone bitartrate and acetaminophen tablets should be used during pregnancy
+  <br/>
+only if the potential benefit justifies the potential risk to the fetus.
+  <br/>
+Nonteratogenic Effects: Babies born to mothers who have been taking opioids regularly prior to
+  <br/>
+delivery will be physically dependent. The withdrawal signs include irritability and excessive crying,
+  <br/>
+tremors, hyperactive reflexes, increased respiratory rate, increased stools, sneezing, yawning,
+  <br/>
+vomiting, and fever. The intensity of the syndrome does not always correlate with the duration of
+  <br/>
+maternal opioid use or dose. There is no consensus on the best method of managing withdrawal.
+  <br/>
+Labor and Delivery
+  <br/>
+As with all narcotics, administration of this product to the mother shortly before delivery may result in
+  <br/>
+some degree of respiratory depression in the newborn, especially if higher doses are used.
+  <br/>
+Nurs ing Mothers
+  <br/>
+Acetaminophen is excreted in breast milk in small amounts, but the significance of its effects on nursing
+  <br/>
+infants is not known. It is not known whether hydrocodone is excreted in human milk. Because many
+  <br/>
+drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing
+  <br/>
+infants from hydrocodone and acetaminophen, a decision should be made whether to discontinue nursing
+  <br/>
+or to discontinue the drug, taking into account the importance of the drug to the mother.
+  <br/>
+Pediatric Us e
+  <br/>
+Safety and effectiveness in pediatric patients have not been established.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57a1ee-da42-0595-e054-00144ff8d46c">
+               <id root="2a57a1ee-da41-0595-e054-00144ff8d46c"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <text>
+                  <paragraph>Clinical studies of hydrocodone bitartrate and acetaminophen did not include sufficient numbers of
+  <br/>
+subjects aged 65 and over to determine whether they respond differently from younger subjects. Other
+  <br/>
+reported clinical experience has not identified differences in responses between the elderly and
+  <br/>
+younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at
+  <br/>
+the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac
+  <br/>
+function, and of concomitant disease or other drug therapy.
+  <br/>
+Hydrocodone and the major metabolites of acetaminophen are known to be substantially excreted by the
+  <br/>
+kidney. Thus the risk of toxic reactions may be greater in patients with impaired renal function due to the
+  <br/>
+accumulation of the parent compound and/or metabolites in the plasma. Because elderly patients are
+  <br/>
+more likely to have decreased renal function, care should be taken in dose selection, and it may be
+  <br/>
+useful to monitor renal function.
+  <br/>
+Hydrocodone may cause confusion and over-sedation in the elderly; elderly patients generally should
+  <br/>
+be started on low doses of hydrocodone bitartrate and acetaminophen tablets and observed closely.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57a1ee-da44-0595-e054-00144ff8d46c">
+               <id root="2a57a1ee-da43-0595-e054-00144ff8d46c"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>DRUG ABUSE AND DEPENDENCE
+  <br/>
+Mis us e, Abus e, and Divers ion of Opioids
+  <br/>
+Hydrocodone bitartrate and acetaminophen tablets contain hydrocodone, an opioid agonist, and is a
+  <br/>
+Schedule II controlled substance. Hydrocodone bitartrate and acetaminophen tablets, and other opioids,
+  <br/>
+used in analgesia can be abused and are subject to criminal diversion.
+  <br/>
+Addiction is a primary, chronic, neurobiologic disease, with genetic, psychosocial, and environmental
+  <br/>
+factors influencing its development and manifestations. It is characterized by behaviors that include one
+  <br/>
+or more of the following: impaired control over drug use, compulsive use, continued use despite harm,
+  <br/>
+and craving. Drug addiction is a treatable disease utilizing a multidisciplinary approach, but relapse is
+  <br/>
+common.
+  <br/>
+“Drug seeking” behavior is very common in addicts and drug abusers. Drug-seeking tactics include
+  <br/>
+emergency calls or visits near the end of office hours, refusal to undergo appropriate examination,
+  <br/>
+testing or referral, repeated “loss” of prescriptions, tampering with prescriptions and reluctance to
+  <br/>
+provide prior medical records or contact information for other treating physician(s). “Doctor shopping”
+  <br/>
+to obtain additional prescriptions is common among drug abusers and people suffering from untreated
+  <br/>
+addiction.
+  <br/>
+Abuse and addiction are separate and distinct from physical dependence and tolerance. Physical
+  <br/>
+dependence usually assumes clinically significant dimensions only after several weeks of continued
+  <br/>
+opioid use, although a mild degree of physical dependence may develop after a few days of opioid
+  <br/>
+therapy. Tolerance, in which increasingly large doses are required in order to produce the same degree
+  <br/>
+of analgesia, is manifested initially by a shortened duration of analgesic effect, and subsequently by
+  <br/>
+decreases in the intensity of analgesia. The rate of development of tolerance varies among patients.
+  <br/>
+Physicians should be aware that abuse of opioids can occur in the absence of true addiction and is
+  <br/>
+characterized by misuse for non-medical purposes, often in combination with other psychoactive
+  <br/>
+substances. Hydrocodone bitartrate and acetaminophen tablets, like other opioids, may be diverted for
+  <br/>
+non-medical use. Record-keeping of prescribing information, including quantity, frequency, and renewal
+  <br/>
+requests is strongly advised.
+  <br/>
+Proper assessment of the patient, proper prescribing practices, periodic re-evaluation of therapy, and
+  <br/>
+proper dispensing and storage are appropriate measures that help to limit abuse of opioid drugs.
+ </paragraph>
+                  <paragraph>OVERDOSAGE
+  <br/>
+Following an acute overdosage, toxicity may result from hydrocodone or acetaminophen.
+  <br/>
+Signs and Symptoms
+  <br/>
+Hydrocodone: Serious overdose with hydrocodone is characterized by respiratory depression (a
+  <br/>
+decrease in respiratory rate and/or tidal volume, Cheyne-Stokes respiration, cyanosis), extreme
+  <br/>
+somnolence progressing to stupor or coma, skeletal muscle flaccidity, cold and clammy skin, and
+  <br/>
+sometimes bradycardia and hypotension. In severe overdosage, apnea, circulatory collapse, cardiac
+  <br/>
+arrest and death may occur.
+  <br/>
+Acetaminophen: In acetaminophen overdosage: dose-dependent, potentially fatal hepatic necrosis is the
+  <br/>
+most serious adverse effect. Renal tubular necrosis, hypoglycemic coma and coagulation defects may
+  <br/>
+also occur.
+  <br/>
+Early symptoms following a potentially hepatotoxic overdose may include: nausea, vomiting,
+  <br/>
+diaphoresis and general malaise. Clinical and laboratory evidence of hepatic toxicity may not be
+  <br/>
+apparent until 48 to 72 hours post-ingestion.
+  <br/>
+Treatment
+  <br/>
+A single or multiple drug overdose with hydrocodone and acetaminophen is a potentially lethal
+  <br/>
+polydrug overdose, and consultation with a regional poison control center is recommended.
+  <br/>
+Immediate treatment includes support of cardiorespiratory function and measures to reduce drug
+  <br/>
+absorption. Oxygen, intravenous fluids, vasopressors, and other supportive measures should be
+  <br/>
+employed as indicated. Assisted or controlled ventilation should also be considered.
+  <br/>
+For hydrocodone overdose, primary attention should be given to the reestablishment of adequate
+  <br/>
+respiratory exchange through provision of a patent airway and the institution of assisted or controlled
+  <br/>
+ventilation. The narcotic antagonist naloxone hydrochloride is a specific antidote against respiratory
+  <br/>
+depression which may result from overdosage or unusual sensitivity to narcotics, including
+  <br/>
+hydrocodone. Since the duration of action of hydrocodone may exceed that of the antagonist, the patient
+  <br/>
+should be kept under continued surveillance, and repeated doses of the antagonist should be
+  <br/>
+administered as needed to maintain adequate respiration. A narcotic antagonist should not be
+  <br/>
+administered in the absence of clinically significant respiratory or cardiovascular depression.
+  <br/>
+Gastric decontamination with activated charcoal should be administered just prior to N-acetylcysteine
+  <br/>
+(NAC) to decrease systemic absorption if acetaminophen ingestion is known or suspected to have
+  <br/>
+occurred within a few hours of presentation. Serum acetaminophen levels should be obtained
+  <br/>
+immediately if the patient presents 4 hours or more after ingestion to assess potential risk of
+  <br/>
+hepatotoxicity; acetaminophen levels drawn less than 4 hours post-ingestion may be misleading. To
+  <br/>
+obtain the best possible outcome, NAC should be administered as soon as possible where impending or
+  <br/>
+evolving liver injury is suspected. Intravenous NAC may be administered when circumstances preclude
+  <br/>
+oral administration.
+  <br/>
+Vigorous supportive therapy is required in severe intoxication. Procedures to limit the continuing
+  <br/>
+absorption of the drug must be readily performed since the hepatic injury is dose dependent and occurs
+  <br/>
+early in the course of intoxication.
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57a1ee-da46-0595-e054-00144ff8d46c">
+               <id root="2a57a1ee-da45-0595-e054-00144ff8d46c"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Dosage should be adjusted according to the severity of the pain and the response of the patient.
+  <br/>
+However, it should be kept in mind that tolerance to hydrocodone can develop with continued use and
+  <br/>
+that the incidence of untoward effects is dose related.
+  <br/>
+The usual adult dosage is one or two tablets every four to six hours as needed for pain. The total daily
+  <br/>
+dose should not exceed 8 tablets.
+ </paragraph>
+                  <paragraph>HOW SUPPLIED
+  <br/>
+Hydrocodone Bitartrate and Acetaminophen Tablets, USP, contain hydrocodone bitartrate 5 mg and
+  <br/>
+acetaminophen 325 mg.
+  <br/>
+They are supplied as white to off-white, scored, oblong biconvex tablets, debossed “IP 109” on
+  <br/>
+obverse and bisected on the reverse.
+  <br/>
+They are available as follows:
+  <br/>
+Bottles of 100: NDC 53746-109-01
+  <br/>
+Bottles of 500: NDC 53746-109-05
+  <br/>
+Bottles of 1000: NDC 53746-109-10
+  <br/>
+Storage: Store at 20° to 25°C (68° to 77°F); excursions permitted to 15° to 30°C (59° to 86°F) [See
+  <br/>
+USP Controlled Room Temperature].
+  <br/>
+Dispense in a tight, light-resistant container with a child-resistant closure.
+  <br/>
+A Schedule CII Narcotic.
+  <br/>
+DEA Order Form Required.
+  <br/>
+Mfg Addres s
+  <br/>
+Manufactured by:
+  <br/>
+Amneal Pharmaceuticals of NY
+  <br/>
+Hauppauge, NY 11788
+  <br/>
+Rev. 08-2015-01
+ </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2a57b056-f01d-4dbf-e054-00144ff88e88">
+               <id root="2a57b056-f01c-4dbf-e054-00144ff88e88"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2a57b056-f01b-4dbf-e054-00144ff88e88"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160127"/>
+               <component>
+                  <observationMedia ID="img_2a57b056-f01b-4dbf-e054-00144ff88e88">
+                     <text>BTL LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Scan0004.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

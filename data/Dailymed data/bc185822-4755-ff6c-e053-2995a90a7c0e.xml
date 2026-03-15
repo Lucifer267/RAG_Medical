@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="bc185822-4755-ff6c-e053-2995a90a7c0e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20210224"/>
+   <setId root="bc185822-4754-ff6c-e053-2995a90a7c0e"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+            <name>Central Packaging</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="117617671"/>
+                        <name>Central Packaging, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="80175-1358" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="bc18db15-629c-0ad1-e053-2995a90acd89"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20210224"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="80175-1358" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Diclofenac Sodium</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Diclofenac Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="51672-1358" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="16.05"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="QTG126297Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DICLOFENAC SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="144O8QL0L1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DICLOFENAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="150" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="80175-1358-0" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20141126"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA203818" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20141126"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bc186e19-74db-f415-e053-2995a90a601b">
+               <id root="bc186e19-74da-f415-e053-2995a90a601b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Solution - A clear, homogeneous liquid1 dosage form that contains one or more chemical substances dissolved in a solvent or mixture of mutually miscible solvents.</paragraph>
+                  <paragraph/>
+                  <paragraph>Topical - Administration to a particular spot on the outer surface of the body. The E2B term TRANSMAMMARY is a subset of the term TOPICAL.</paragraph>
+               </text>
+               <effectiveTime value="20141126"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bc189ce2-3f0f-260d-e053-2a95a90ae808">
+               <id root="bc189ce2-3f0e-260d-e053-2a95a90ae808"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <paragraph>Medication Guide for Nonsteroidal Anti-inflammatory Drugs (NSAIDs) What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)? NSAIDs can cause serious side effects, including: Increased risk of a heart attack or stroke that can lead to death. This risk may happen early in treatment and may increase: with increasing doses of NSAIDs with longer use of NSAIDs Do not take NSAIDs right before or after a heart surgery called a "coronary artery bypass graft (CABG)." Avoid taking NSAIDs after a recent heart attack, unless your healthcare provider tells you to. You may have an increased risk of another heart attack if you take NSAIDs after a recent heart attack. Increased risk of bleeding, ulcers, and tears (perforation) of the esophagus (tube leading from the mouth to the stomach), stomach and intestines: anytime during use without warning symptoms that may cause death The risk of getting an ulcer or bleeding increases with: past history of stomach ulcers, or stomach or intestinal bleeding with use of NSAIDs taking medicines called "corticosteroids", "anticoagulants", "SSRIs", or "SNRIs" increasing doses of NSAIDs longer use of NSAIDs smoking drinking alcohol older age poor health advanced liver disease bleeding problems NSAIDs should only be used: exactly as prescribed at the lowest dose possible for your treatment for the shortest time needed What are NSAIDs? NSAIDs are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as different types of arthritis, menstrual cramps, and other types of short-term pain. Who should not take NSAIDs? Do not take NSAIDs: if you have had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAIDs. right before or after heart bypass surgery. Before taking NSAIDs, tell your healthcare provider about all of your medical conditions, including if you: have liver or kidney problems have high blood pressure have asthma are pregnant or plan to become pregnant. Talk to your healthcare provider if you are considering taking NSAIDs during pregnancy. You should not take NSAIDs after 29 weeks of pregnancy. are breastfeeding or plan to breast feed. Tell your healthcare provider about all of the medicines you take, including prescription or over-the-counter medicines, vitamins or herbal supplements. NSAIDs and some other medicines can interact with each other and cause serious side effects. Do not start taking any new medicine without talking to your healthcare provider first. What are the possible side effects of NSAIDs? NSAIDs can cause serious side effects, including: See "WHAT IS THE MOST IMPORTANT INFORMATION I SHOULD KNOW ABOUT MEDICINES CALLED NONSTEROIDAL ANTI-INFLAMMATORY DRUGS (NSAIDS)?" new or worse high blood pressure liver problems including liver failure low red blood cells (anemia) life-threatening allergic reactions heart failure kidney problems including kidney failure life-threatening skin reactions Other side effects of NSAIDs include: stomach pain, constipation, diarrhea, gas, heartburn, nausea, vomiting, and dizziness. Get emergency help right away if you get any of the following symptoms: shortness of breath or trouble breathing chest pain weakness in one part or side of your body slurred speech swelling of the face or throat Stop taking your NSAID and call your healthcare provider right away if you get any of the following symptoms: nausea more tired or weaker than usual diarrhea itching your skin or eyes look yellow indigestion or stomach pain flu-like symptoms vomit blood there is blood in your bowel movement or it is black and sticky like tar unusual weight gain skin rash or blisters with fever swelling of the arms, legs, hands and feet If you take too much of your NSAID, call your healthcare provider or get medical help right away. These are not all the possible side effects of NSAIDs. For more information, ask your healthcare provider or pharmacist about NSAIDs. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. Other information about NSAIDs Aspirin is an NSAID but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines. Some NSAIDs are sold in lower doses without a prescription (over-the-counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days. General information about the safe and effective use of NSAIDs Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use NSAIDs for a condition for which it was not prescribed. Do not give NSAIDs to other people, even if they have the same symptoms that you have. It may harm them. If you would like more information about NSAIDs, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about NSAIDs that is written for health professionals. Manufactured by: Taro Pharmaceuticals Inc., Brampton, Ontario, Canada L6T 1C1 Distributed by: Taro Pharmaceuticals U.S.A., Inc., Hawthorne, NY 10532 Revised: July 2019 PK-6853-2 56 For more information, call 1-866-923-4914</paragraph>
+               </text>
+               <effectiveTime value="20190701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_bc186abc-d8aa-8878-e053-2a95a90afc42">
+               <id root="bc186abc-d8a9-8878-e053-2a95a90afc42"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_bc186315-45b8-5144-e053-2a95a90ab610"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141126"/>
+               <component>
+                  <observationMedia ID="img_bc186315-45b8-5144-e053-2a95a90ab610">
+                     <text>Diclofenac Sodium</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Diclofenac Sodium - Packaging.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

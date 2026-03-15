@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="946c6eff-715b-2ca2-e053-2a95a90a1904"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>ERYTHROMYCIN</title>
+   <effectiveTime value="20191008"/>
+   <setId root="946c6eff-715a-2ca2-e053-2a95a90a1904"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>Direct_Rx</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                  <name>Direct_Rx</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>Direct_Rx</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72189-036" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="948015bf-8026-bf6f-e053-2995a90a996b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20191008"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72189-036" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ERYTHROMYCIN</name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>ERYTHROMYCIN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0574-4024" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="63937KV33D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ERYTHROMYCIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="63937KV33D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ERYTHROMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="T5L8T28FGP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-036-35" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20191008"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA062447" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20191008"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38287" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OPHTHALMIC"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_946c8b37-7d88-4c5b-e053-2995a90ac8ed">
+               <id root="946c8b37-7d87-4c5b-e053-2995a90ac8ed"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Erythromycin Ophthalmic Ointment belongs to the macrolide group of antibiotics. It is basic and readily forms a salt when combined with an acid. The base, as crystals or powder, is slightly soluble in water, moderately soluble in ether, and readily soluble in alcohol or chloroform. Erythromycin ((3R*,4S*,5S*,6R*,7R*,9R*,11R*,12R*,13S*,14R*)-4-[(2,6-dideoxy-3-C-methyl-3-0-methyl-α-L-ribo-hexopyranosyl)oxy]-14-ethyl-7,12,13-trihydroxy-3,5,7,9,11,13-hexamethyl-6-[[3,4,6-trideoxy-3-(dimethylamino)-ß-D-xylo-hexopyranosyl]oxy]oxacyclotetradecane-2,10-dione) is antibiotic produced from a strain of Streptomyces erythraeus. It has the following structural formula:</paragraph>
+                  <paragraph>[Structure Image]</paragraph>
+                  <paragraph>Each gram contains Erythromycin USP 5 mg in a sterile ophthalmic base of mineral oil and white petrolatum.</paragraph>
+               </text>
+               <effectiveTime value="20191008"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_946c8e50-08d5-755d-e053-2a95a90a84de">
+               <id root="946c8e50-08d4-755d-e053-2a95a90a84de"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Microbiology:</paragraph>
+                  <paragraph>Erythromycin inhibits protein synthesis without affecting nucleic acid synthesis. Erythromycin is usually active against the following organisms in vitro and in clinical infections:</paragraph>
+                  <paragraph>Streptococcus pyogenes (group A ß-hemolytic)</paragraph>
+                  <paragraph>Alpha-hemolytic streptococci (viridans group)</paragraph>
+                  <paragraph>Staphylococcus aureus, including penicillinase-producing strains (methicillin-resistant staphylococci are uniformly resistant to erythromycin)</paragraph>
+                  <paragraph>Streptococcus pneumonia</paragraph>
+                  <paragraph>Mycoplasma pneumoniae (Eaton Agent, PPLO)</paragraph>
+                  <paragraph>Haemophilus influenzae (not all strains of this organism are susceptible at the erythromycin concentrations ordinarily achieved)</paragraph>
+                  <paragraph>Treponema pallidum</paragraph>
+                  <paragraph>Corynebacterium diphtheriae</paragraph>
+                  <paragraph>Neisseria gonorrhoeae</paragraph>
+                  <paragraph>Chlamydia trachomatis</paragraph>
+               </text>
+               <effectiveTime value="20191008"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_946c8b37-7d8a-4c5b-e053-2995a90ac8ed">
+               <id root="946c8b37-7d89-4c5b-e053-2995a90ac8ed"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>For the treatment of superficial ocular infections involving the conjunctiva and/or cornea caused by organisms susceptible to erythromycin.</paragraph>
+                  <paragraph>For prophylaxis of ophthalmia neonatorum due to N. gonorrhoeae or C. trachomatis. The effectiveness of erythromycin in the prevention of ophthalmia caused by penicillinase-producing N. gonorrheae is not established.</paragraph>
+                  <paragraph>For infants born to mothers with clinically apparent gonorrhea, intravenous or intramuscular injections of aqueous crystalline penicillin G should be given; a single dose of 50,000 units for term infants or 20,000 units for infants of low birth weight. Topical prophylaxis alone is inadequate for these infants.</paragraph>
+               </text>
+               <effectiveTime value="20191008"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_946c6ea7-dc18-f315-e053-2995a90acdf4">
+               <id root="946c6ea7-dc17-f315-e053-2995a90acdf4"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>This drug is contraindicated in patients with a history of hypersensitivity to erythromycin.</paragraph>
+               </text>
+               <effectiveTime value="20191008"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_946c8b37-7d8c-4c5b-e053-2995a90ac8ed">
+               <id root="946c8b37-7d8b-4c5b-e053-2995a90ac8ed"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General:</paragraph>
+                  <paragraph>The use of antimicrobial agents may be associated with the overgrowth of nonsusceptible organisms including fungi; in such a case, antibiotic administration should be stopped and appropriate measures taken.</paragraph>
+                  <paragraph>Information for Patients:</paragraph>
+                  <paragraph>Avoid contaminating the applicator tip with material from the eye, fingers, or other source.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility:</paragraph>
+                  <paragraph>Two year oral studies conducted in rats with erythromycin did not provide evidence of tumorigenicity. Mutagenicity studies have not been conducted.</paragraph>
+                  <paragraph>No evidence of impaired fertility that appeared related to erythromycin was reported in animal studies.</paragraph>
+                  <paragraph>Pregnancy:</paragraph>
+                  <paragraph>Teratogenic effects -</paragraph>
+                  <paragraph>Pregnancy Category B.</paragraph>
+                  <paragraph>Reproduction studies have been performed in rats, mice, and rabbits using erythromycin and its various salts and esters, at doses that were several multiples of the usual human dose. No evidence of harm to the fetus that appeared related to erythromycin was reported in these studies. There are, however, no adequate and well controlled studies in pregnant women. Because animal reproductive studies are not always predictive of human response, the erythromycins should be used during pregnancy only if clearly needed.</paragraph>
+                  <paragraph>Nursing Mothers:</paragraph>
+                  <paragraph>Caution should be exercised when erythromycin is administered to a nursing woman.</paragraph>
+                  <paragraph>Pediatric Use:</paragraph>
+                  <paragraph>See INDICATIONS AND USAGE and DOSAGE AND ADMINISTRATION.</paragraph>
+               </text>
+               <effectiveTime value="20191008"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_946c6ac2-4a1c-17dd-e053-2a95a90a6aa2">
+               <id root="946c6ac2-4a1b-17dd-e053-2a95a90a6aa2"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>The most frequently reported adverse reactions are minor ocular irritations, redness, and hypersensitivity reactions.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Perrigo at 1-866-634-9120 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+               </text>
+               <effectiveTime value="20191008"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_946c6ac2-4a22-17dd-e053-2a95a90a6aa2">
+               <id root="946c6ac2-4a21-17dd-e053-2a95a90a6aa2"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>In the treatment of superficial ocular infections, a ribbon approximately 1 cm in length of Erythromycin Ophthalmic Ointment should be applied directly to the infected structure up to 6 times daily, depending on the severity of the infection. For prophylaxis of neonatal gonococcal or chlamydial conjunctivitis, a ribbon of ointment approximately 1 cm in length should be instilled into each lower conjunctival sac. The ointment should not be flushed from the eye following instillation. A new tube should be used for each infant.</paragraph>
+               </text>
+               <effectiveTime value="20191008"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_946c9fd6-c18a-d7a0-e053-2a95a90a8a64">
+               <id root="946c9fd6-c189-d7a0-e053-2a95a90a8a64"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Sterile Erythromycin Ophthalmic Ointment USP, 5 mg/g as follows:</paragraph>
+                  <paragraph>3.5 g (1/8 oz) tamper-evident tubes </paragraph>
+                  <paragraph>24 x 3.5 g (1/8 oz) Hospital-Pak (for hospital use only) </paragraph>
+                  <paragraph>Carton of fifty (50) Unit Dose 1 g tubes NDC 0574-4024-50</paragraph>
+                  <paragraph>Store at controlled room temperature 15°-30°C (59°-86°F). Avoid excessive heat.</paragraph>
+                  <paragraph>Protect from freezing.</paragraph>
+               </text>
+               <effectiveTime value="20191008"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_946c9fd6-c18e-d7a0-e053-2a95a90a8a64">
+               <id root="946c9fd6-c18d-d7a0-e053-2a95a90a8a64"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured For</paragraph>
+                  <paragraph>Perrigo®</paragraph>
+                  <paragraph>Minneapolis, MN 55427</paragraph>
+                  <paragraph>SW700 RC J1 Rev 09-13 A</paragraph>
+                  <paragraph>R1013</paragraph>
+                  <paragraph>Ini 0813</paragraph>
+               </text>
+               <effectiveTime value="20191008"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_946cae22-f060-02ad-e053-2a95a90a4b2a">
+               <id root="946cae22-f05f-02ad-e053-2a95a90a4b2a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_946cae22-f05e-02ad-e053-2a95a90a4b2a"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191008"/>
+               <component>
+                  <observationMedia ID="img_946cae22-f05e-02ad-e053-2a95a90a4b2a">
+                     <text>036-35</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="036-35.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

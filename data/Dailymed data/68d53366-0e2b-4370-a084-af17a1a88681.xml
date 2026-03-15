@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="68d53366-0e2b-4370-a084-af17a1a88681"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20141103"/>
+   <setId root="e98a2692-1cb9-4994-98d8-1d8d9ef1a256"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="059295980" root="1.3.6.1.4.1.519.1"/>
+            <name>Mylan Pharmaceuticals Inc.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="66aa7bae-ea99-4cd7-901d-e05424ee20fc"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20141103"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0378-9102" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nitroglycerin</name>
+                        <formCode code="C42968" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>nitroglycerin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="h" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="G59M7S0WS3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NITROGLYCERIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="G59M7S0WS3" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NITROGLYCERIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="h" value="14"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0378-9102-16" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="30"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0378-9102-93" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="19980618"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA074559" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19980618"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0378-9104" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nitroglycerin</name>
+                        <formCode code="C42968" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>nitroglycerin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.2"/>
+                              <denominator unit="h" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="G59M7S0WS3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NITROGLYCERIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="G59M7S0WS3" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NITROGLYCERIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="h" value="14"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0378-9104-16" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="30"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0378-9104-93" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="19960830"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA074559" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960830"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0378-9112" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nitroglycerin</name>
+                        <formCode code="C42968" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>nitroglycerin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.4"/>
+                              <denominator unit="h" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="G59M7S0WS3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NITROGLYCERIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="G59M7S0WS3" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NITROGLYCERIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="h" value="14"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0378-9112-16" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="30"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0378-9112-93" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="19960830"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA074559" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960830"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0378-9116" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nitroglycerin</name>
+                        <formCode code="C42968" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>nitroglycerin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.6"/>
+                              <denominator unit="h" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="G59M7S0WS3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NITROGLYCERIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="G59M7S0WS3" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NITROGLYCERIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="h" value="14"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0378-9116-16" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="30"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0378-9116-93" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="19960830"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA074559" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960830"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_548c65fd-da12-4e49-b319-015e35bab047">
+               <id root="a2ed0abc-ce13-463e-b80f-281bc898e8d8"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>  </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Prescribing Information</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_416b0e47-ddcf-4bc6-b0b7-5bdc86cc1cb0">
+               <id root="abae34e3-54d2-4736-893f-1260e4f0d72a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Nitroglycerin is 1,2,3-propanetriol, trinitrate, an organic nitrate whose structural formula is:</paragraph>
+                  <renderMultiMedia ID="id-1808313445" referencedObject="ID_695740f9-63ab-4ce9-8cef-6b29b6175689"/>
+                  <paragraph>and whose molecular weight is 227.09. The organic nitrates are vasodilators, active on both arteries and veins.</paragraph>
+                  <paragraph>The nitroglycerin transdermal system is a flat unit designed to provide continuous controlled release of nitroglycerin through intact skin.</paragraph>
+                  <paragraph>The rate of release of nitroglycerin is linearly dependent upon the area of the applied system; each cm<sup>2</sup> of applied system delivers approximately 0.026 mg of nitroglycerin per hour. Thus, the 4 cm<sup>2</sup>, 8 cm<sup>2</sup>, 16 cm<sup>2</sup> and 24 cm<sup>2</sup> systems deliver approximately 0.1 mg, 0.2 mg, 0.4 mg and 0.6 mg of nitroglycerin per hour, respectively.</paragraph>
+                  <paragraph>The remainder of the nitroglycerin in each system serves as a reservoir and is not delivered in normal use. After 12 hours, for example, each system has delivered approximately 11% of its original content of nitroglycerin.</paragraph>
+                  <paragraph>The nitroglycerin transdermal system comprises two layers as shown below. Proceeding from the visible surface towards the surface attached to the skin, these layers are: 1) a polyolefin film backing layer that is impermeable to nitroglycerin and is printed with the name of the drug and strength; 2) nitroglycerin in an acrylic pressure sensitive adhesive. Prior to use, a peelable polyester release liner, which is coated on one side with silicone, is removed from the adhesive surface. Each unit is sealed in a foil-lined pouch.</paragraph>
+                  <paragraph>Cross section of the system:</paragraph>
+                  <renderMultiMedia ID="id-1042440316" referencedObject="ID_644aa8c7-8896-4915-a12d-d4664c989089"/>
+               </text>
+               <effectiveTime value="20141103"/>
+               <component>
+                  <observationMedia ID="ID_695740f9-63ab-4ce9-8cef-6b29b6175689">
+                     <text>Nitroglycerin Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_644aa8c7-8896-4915-a12d-d4664c989089">
+                     <text>Patch Cross Section</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_046e9fb5-efc4-4119-a5f2-497c40054bb5">
+               <id root="d98e8a4d-03fa-4d74-83f7-bb825117565d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY </title>
+               <text>
+                  <paragraph>The principal pharmacological action of nitroglycerin is relaxation of vascular smooth muscle, and consequent dilatation of peripheral arteries and veins, especially the latter. Dilatation of the veins promotes peripheral pooling of blood and decreases venous return to the heart, thereby reducing left ventricular end-diastolic pressure and pulmonary capillary wedge pressure (preload). Arteriolar relaxation reduces systemic vascular resistance, systolic arterial pressure, and mean arterial pressure (afterload). Dilatation of the coronary arteries also occurs. The relative importance of preload reduction, afterload reduction, and coronary dilatation remains undefined.</paragraph>
+                  <paragraph>Dosing regimens for most chronically used drugs are designed to provide plasma concentrations that are continuously greater than a minimally effective concentration. This strategy is inappropriate for organic nitrates. Several well controlled clinical trials have used exercise testing to assess the antianginal efficacy of continuously-delivered nitrates. In the large majority of these trials, active agents were indistinguishable from placebo after 24 hours (or less) of continuous therapy. Attempts to overcome nitrate tolerance by dose escalation, even to doses far in excess of those used acutely, have consistently failed. Only after nitrates had been absent from the body for several hours was their antianginal efficacy restored.</paragraph>
+               </text>
+               <effectiveTime value="20141103"/>
+               <component>
+                  <section ID="ID_90d7a4d5-4821-4488-a04d-c7bfac599fb4">
+                     <id root="1502e5f2-ad58-4eee-8e9a-d8296e58fb37"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics </title>
+                     <text>
+                        <paragraph>The volume of distribution of nitroglycerin is about 3 L/kg, and nitroglycerin is cleared from this volume at extremely rapid rates, with a resulting serum half-life of about 3 minutes. The observed clearance rates (close to 1 L/kg/min) greatly exceed hepatic blood flow, known sites of extrahepatic metabolism include red blood cells and vascular walls.</paragraph>
+                        <paragraph>The first products in the metabolism of nitroglycerin are inorganic nitrate and the 1,2- and 1,3-dinitroglycerols. The dinitrates are less effective vasodilators than nitroglycerin but they are longer-lived in the serum, and their net contribution to the overall effect of chronic nitroglycerin regimens is not known. The dinitrates are further metabolized to (nonvasoactive) mononitrates and, ultimately, to glycerol and carbon dioxide.</paragraph>
+                        <paragraph>To avoid development of tolerance to nitroglycerin, drug-free intervals of 10 to 12 hours are known to be sufficient; shorter intervals have not been well studied. In one well controlled clinical trial, subjects receiving nitroglycerin appeared to exhibit a rebound or withdrawal effect, so that their exercise tolerance at the end of the daily drug-free interval was<content styleCode="italics"> less</content> than that exhibited by the parallel group receiving placebo.</paragraph>
+                        <paragraph>In healthy volunteers, steady-state plasma concentrations of nitroglycerin are reached by about 2 hours after application of a patch and are maintained for the duration of wearing the system (observations have been limited to 24 hours). Upon removal of the patch, the plasma concentration declines with a half-life of about an hour.</paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_2cd5fdc2-2c4a-4f5d-8d2d-4813f115ab2f">
+                     <id root="c94abdbc-c564-4669-9f5c-96dd5899ce4b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Clinical Trials </title>
+                     <text>
+                        <paragraph>Regimens in which nitroglycerin patches were worn for 12 hours daily have been studied in well controlled trials up to 4 weeks in duration. Starting about 2 hours after application and continuing until 10 to 12 hours after application, patches that deliver at least 0.4 mg of nitroglycerin per hour have consistently demonstrated greater antianginal activity than placebo. Lower dose patches have not been as well studied, but in one large, well controlled trial in which higher dose patches were also studied, patches delivering 0.2 mg/hr had significantly less antianginal activity than placebo.</paragraph>
+                        <paragraph>It is reasonable to believe that the rate of nitroglycerin absorption from patches may vary with the site of application, but this relationship has not been adequately studied.</paragraph>
+                        <paragraph>The onset of action of transdermal nitroglycerin is not sufficiently rapid for this product to be useful in aborting an acute anginal episode. </paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8000b2ab-5e15-43ff-a74b-f20ecf451be7">
+               <id root="8445f7df-eec0-466e-b548-11d639a587aa"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE </title>
+               <text>
+                  <paragraph>Transdermal nitroglycerin is indicated for the prevention of angina pectoris due to coronary artery disease. The onset of action of transdermal nitroglycerin is not sufficiently rapid for this product to be useful in aborting an acute attack.</paragraph>
+               </text>
+               <effectiveTime value="20141103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6d66e7fd-747c-4e8a-839b-7394b1417fff">
+               <id root="9815ce6e-f9b0-47da-bc17-2dd3c6196071"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS </title>
+               <text>
+                  <paragraph>Nitroglycerin is contraindicated in patients who are allergic to it. Allergy to the adhesives used in nitroglycerin patches has also been reported, and it similarly constitutes a contraindication to the use of this product.</paragraph>
+                  <paragraph>Do not use Nitroglycerin Transdermal Systems in patients who are taking phosphodiesterase inhibitors (such as sildenafil, tadalafil, or vardenafil) for erectile dysfunction or pulmonary arterial hypertension. Concomitant use can cause severe drops in blood pressure.</paragraph>
+                  <paragraph>Do not use Nitroglycerin Transdermal Systems in patients who are taking the soluble guanylate cyclase stimulator riociguat. Concomitant use can cause hypotension.</paragraph>
+               </text>
+               <effectiveTime value="20141103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7786db4e-2bed-4488-84f1-80ccfed4c9a7">
+               <id root="51c0891d-2aa4-4c5f-917c-68587fee63cd"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Amplification of the vasodilatory effects of Nitroglycerin Transdermal Systems by sildenafil may result in severe hypotension. The time course and dose dependence of this interaction have not been studied. Appropriate supportive care has not been studied, but it seems reasonable to treat this as a nitrate overdose, with elevation of the extremities and with central volume expansion.</content>
+                  </paragraph>
+                  <paragraph>The benefits of transdermal nitroglycerin in patients with acute myocardial infarction or congestive heart failure have not been established. If one elects to use nitroglycerin in these conditions, careful clinical or hemodynamic monitoring must be used to avoid the hazards of hypotension and tachycardia.</paragraph>
+                  <paragraph>A cardioverter/defibrillator should not be discharged through a paddle electrode that overlies a nitroglycerin transdermal patch. The arcing that may be seen in this situation is harmless in itself, but it may be associated with local current concentration that can cause damage to the paddles and burns to the patient.</paragraph>
+               </text>
+               <effectiveTime value="20141103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_25ac1963-ba4e-449a-b76e-99e1a7b67607">
+               <id root="afd1b4ce-5a69-4de0-9114-ea64e70d51b2"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS </title>
+               <effectiveTime value="20141103"/>
+               <component>
+                  <section ID="ID_48e5a688-1ee7-4f65-8ef7-c70a359eca6a">
+                     <id root="e5146d06-1143-4cc0-b138-291a968e30b0"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General </title>
+                     <text>
+                        <paragraph>Severe hypotension, particularly with upright posture, may occur with even small doses of nitroglycerin. This drug should therefore be used with caution in patients who may be volume depleted or who, for whatever reason, are already hypotensive. Hypotension induced by nitroglycerin may be accompanied by paradoxical bradycardia and increased angina pectoris.</paragraph>
+                        <paragraph>Nitrate therapy may aggravate the angina caused by hypertrophic cardiomyopathy.</paragraph>
+                        <paragraph>As tolerance to other forms of nitroglycerin develops, the effect of sublingual nitroglycerin on exercise tolerance, although still observable, is somewhat blunted.</paragraph>
+                        <paragraph>In industrial workers who have had long-term exposure to unknown (presumably high) doses of organic nitrates, tolerance clearly occurs. Chest pain, acute myocardial infarction, and even sudden death have occurred during temporary withdrawal of nitrates from these workers, demonstrating the existence of true physical dependence.</paragraph>
+                        <paragraph>Several clinical trials in patients with angina pectoris have evaluated nitroglycerin regimens which incorporated a 10 to 12 hour nitrate-free interval. In some of these trials, an increase in the frequency of anginal attacks during the nitrate-free interval was observed in a small number of patients. In one trial, patients demonstrated decreased exercise tolerance at the end of the nitrate-free interval. Hemodynamic rebound has been observed only rarely; on the other hand, few studies were so designed that rebound, if it had occurred, would have been detected. The importance of these observations to the routine, clinical use of transdermal nitroglycerin is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_74b41c95-c969-4831-ad9b-96a3b14dcf93">
+                     <id root="7e38c63a-ef1a-4336-81a5-1e80a2e5b60e"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients </title>
+                     <text>
+                        <paragraph>Daily headaches sometimes accompany treatment with nitroglycerin. In patients who get these headaches, the headaches may be a marker of the activity of the drug. Patients should resist the temptation to avoid headaches by altering the schedule of their treatment with nitroglycerin, since loss of headache may be associated with simultaneous loss of antianginal efficacy.</paragraph>
+                        <paragraph>Treatment with nitroglycerin may be associated with light-headedness on standing, especially just after rising from a recumbent or seated position. This effect may be more frequent in patients who have also consumed alcohol.</paragraph>
+                        <paragraph>After normal use, there is enough residual nitroglycerin in discarded patches that they are a potential hazard to children and pets.</paragraph>
+                        <paragraph>A patient leaflet is supplied with the systems.</paragraph>
+                        <paragraph>See <linkHtml href="#ID_a83bcbaf-73d7-49f8-b943-990c782c39b6">Patient Information</linkHtml> at the end of this insert.</paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_5a822d28-bf3d-487b-86b0-d300c165c820">
+                     <id root="9d9fc704-565a-4665-940b-f1be921b166d"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions </title>
+                     <text>
+                        <paragraph>The vasodilating effects of nitroglycerin may be additive with those of other vasodilators. Alcohol, in particular, has been found to exhibit additive effects of this variety.</paragraph>
+                        <paragraph>Concomitant use of Nitroglycerin Transdermal Systems with phosphodiesterase inhibitors in any form is contraindicated (see <linkHtml href="#ID_6d66e7fd-747c-4e8a-839b-7394b1417fff">CONTRAINDICATIONS</linkHtml>).</paragraph>
+                        <paragraph>Concomitant use of Nitroglycerin Transdermal Systems with riociguat, a soluble guanylate cyclase stimulator, is contraindicated (see <linkHtml href="#ID_6d66e7fd-747c-4e8a-839b-7394b1417fff">CONTRAINDICATIONS</linkHtml>).</paragraph>
+                        <paragraph>Marked symptomatic orthostatic hypotension has been reported when calcium channel blockers and organic nitrates were used in combination. Dose adjustments of either class of agents may be necessary.</paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c206a2e6-1fb2-4bc4-b6d8-d7a06ffa840e">
+                     <id root="bdaa8bc7-d076-455a-a3d7-6eaaf44f7f3f"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility </title>
+                     <text>
+                        <paragraph>Animal carcinogenesis studies with topically applied nitroglycerin have not been performed.</paragraph>
+                        <paragraph>Rats receiving up to 434 mg/kg/day of dietary nitroglycerin for 2 years developed dose related fibrotic and neoplastic changes in liver, including carcinomas, and interstitial cell tumors in testes. At high dose, the incidences of hepatocellular carcinomas in both sexes were 52% vs. 0% in controls, and incidences of testicular tumors were 52% vs. 8% in controls. Lifetime dietary administration of up to 1058 mg/kg/day of nitroglycerin was not tumorigenic in mice.</paragraph>
+                        <paragraph>Nitroglycerin was weakly mutagenic in Ames tests performed in two different laboratories. Nevertheless, there was no evidence of mutagenicity in an <content styleCode="italics">in vivo </content>dominant lethal assay with male rats treated with doses up to about 363 mg/kg/day, p.o., or in <content styleCode="italics">in vitro</content> cytogenetic tests in rat and dog tissues.</paragraph>
+                        <paragraph>In a three-generation reproduction study, rats received dietary nitroglycerin at doses up to about 434 mg/kg/day for 6 months prior to mating of the F<sub>0</sub> generation with treatment continuing through successive F<sub>1</sub> and F<sub>2</sub> generations. The high dose was associated with decreased feed intake and body weight gain in both sexes at all matings. No specific effect on the fertility of the F<sub>0</sub> generation was seen. Infertility noted in subsequent generations, however, was attributed to increased interstitial cell tissue and aspermatogenesis in the high dose males. In this three-generation study there was no clear evidence of teratogenicity.</paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f5bd22d8-13f1-4d89-bab0-bae64610dcce">
+                     <id root="3806cd2c-40a5-4920-8821-5e9859fda279"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pregnancy Category C </title>
+                     <text>
+                        <paragraph>Animal teratology studies have not been conducted with nitroglycerin transdermal systems. Teratology studies in rats and rabbits; however, were conducted with topically applied nitroglycerin ointment at doses up to 80 mg/kg/day and 240 mg/kg/day, respectively. No toxic effects on dams or fetuses were seen at any dose tested. There are no adequate and well controlled studies in pregnant women. Nitroglycerin should be given to a pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f638b83b-13c4-4088-9d27-91af782edeba">
+                     <id root="4dde635a-0de5-49fa-9e51-c5ca5ea6dceb"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers </title>
+                     <text>
+                        <paragraph>It is not known whether nitroglycerin is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when nitroglycerin is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a6a7d796-ffd6-438b-8ba7-2fdd518f44d0">
+                     <id root="abf42263-960b-4af8-a03c-0d2769ada879"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use </title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_cbc6ad30-c630-4751-a29b-da8f66b8e1bc">
+                     <id root="b907f27a-9d5d-4fe7-975e-a9c01a0885ed"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use </title>
+                     <text>
+                        <paragraph>Clinical studies of transdermal nitroglycerin did not include sufficient numbers of subjects aged 65 years and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. </paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_1551092d-c22a-4b39-9b9a-8b0bef25f83c">
+               <id root="01519e32-9f73-4496-85db-b6677a6337a8"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS </title>
+               <text>
+                  <paragraph>Adverse reactions to nitroglycerin are generally dose related, and almost all of these reactions are the result of nitroglycerin’s activity as a vasodilator. Headache, which may be severe, is the most commonly reported side effect. Headache may be recurrent with each daily dose, especially at higher doses. Transient episodes of light-headedness, occasionally related to blood pressure changes, may also occur. Hypotension occurs infrequently, but in some patients it may be severe enough to warrant discontinuation of therapy. Syncope, crescendo angina, and rebound hypertension have been reported but are uncommon.</paragraph>
+                  <paragraph>Allergic reactions to nitroglycerin are also uncommon, and the great majority of those reported have been cases of contact dermatitis or fixed drug eruptions in patients receiving nitroglycerin in ointments or patches. There have been a few reports of genuine anaphylactoid reactions, and these reactions can probably occur in patients receiving nitroglycerin by any route.</paragraph>
+                  <paragraph>Extremely rarely, ordinary doses of organic nitrates have caused methemoglobinemia in normal-seeming patients. Methemoglobinemia is so infrequent at these doses that further discussion of its diagnosis and treatment is deferred (see <linkHtml href="#ID_4e93d77b-38b1-4093-8990-c3d965ac4118">OVERDOSAGE</linkHtml>).</paragraph>
+                  <paragraph>Application-site irritation may occur but is rarely severe.</paragraph>
+                  <paragraph>In two placebo-controlled trials of intermittent therapy with nitroglycerin patches at 0.2 to 0.8 mg/hr, the most frequent adverse reactions among 307 subjects were as follows:</paragraph>
+                  <table cellpadding="0.75pt" width="100%">
+                     <col width="67%"/>
+                     <col width="19%"/>
+                     <col width="13%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="middle"/>
+                           <td styleCode="Toprule " valign="middle">
+                              <paragraph>
+                                 <content styleCode="underline">Placebo</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="middle">
+                              <paragraph>
+                                 <content styleCode="underline">Patch</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Headache</paragraph>
+                           </td>
+                           <td valign="middle">
+                              <paragraph>18%</paragraph>
+                           </td>
+                           <td valign="middle">
+                              <paragraph>63%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Light-headedness</paragraph>
+                           </td>
+                           <td valign="middle">
+                              <paragraph>4%</paragraph>
+                           </td>
+                           <td valign="middle">
+                              <paragraph>6%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="middle">
+                              <paragraph>Hypotension, and/or syncope</paragraph>
+                           </td>
+                           <td valign="middle">
+                              <paragraph>0%</paragraph>
+                           </td>
+                           <td valign="middle">
+                              <paragraph>4%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="middle">
+                              <paragraph>Increased angina</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="middle">
+                              <paragraph>2%</paragraph>
+                           </td>
+                           <td styleCode="Botrule " valign="middle">
+                              <paragraph>2%</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20141103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_4e93d77b-38b1-4093-8990-c3d965ac4118">
+               <id root="2b391345-a1cd-4370-a78b-92762a56e1e7"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE </title>
+               <effectiveTime value="20141103"/>
+               <component>
+                  <section ID="ID_dae078dd-0c3e-4ce1-a989-bc8c6883d2a7">
+                     <id root="c47d5bf3-2793-48b1-9b3a-472fc9231eb1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hemodynamic Effects </title>
+                     <text>
+                        <paragraph>The ill effects of nitroglycerin overdose are generally the result of nitroglycerin’s capacity to induce vasodilatation, venous pooling, reduced cardiac output, and hypotension. These hemodynamic changes may have protean manifestations, including increased intracranial pressure, with any or all of persistent throbbing headache, confusion, and moderate fever; vertigo; palpitations; visual disturbances; nausea and vomiting (possibly with colic and even bloody diarrhea); syncope (especially in the upright posture); air hunger and dyspnea, later followed by reduced ventilatory effort; diaphoresis, with the skin either flushed or cold and clammy; heart block and bradycardia; paralysis; coma; seizures; and death.</paragraph>
+                        <paragraph>Laboratory determinations of serum levels of nitroglycerin and its metabolites are not widely available, and such determinations have, in any event, no established role in the management of nitroglycerin overdose.</paragraph>
+                        <paragraph>No data are available to suggest physiological maneuvers (e.g., maneuvers to change the pH of the urine) that might accelerate elimination of nitroglycerin and its active metabolites. Similarly, it is not known which, if any, of these substances can usefully be removed from the body by hemodialysis.</paragraph>
+                        <paragraph>No specific antagonist to the vasodilator effects of nitroglycerin is known, and no intervention has been subject to controlled study as a therapy of nitroglycerin overdose. Because the hypotension associated with nitroglycerin overdose is the result of venodilatation and arterial hypovolemia, prudent therapy in this situation should be directed toward an increase in central fluid volume. Passive elevation of the patient’s legs may be sufficient, but intravenous infusion of normal saline or similar fluid may also be necessary.</paragraph>
+                        <paragraph>The use of epinephrine or other arterial vasoconstrictors in this setting is likely to do more harm than good.</paragraph>
+                        <paragraph>In patients with renal disease or congestive heart failure, therapy resulting in central volume expansion is not without hazard. Treatment of nitroglycerin overdose in these patients may be subtle and difficult, and invasive monitoring may be required.</paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_48a1ad17-1f4a-43de-84a5-dc19c0df6c73">
+                     <id root="568b5345-0d65-4220-9e62-fc59eaf3d4e9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Methemoglobinemia </title>
+                     <text>
+                        <paragraph>Nitrate ions liberated during metabolism of nitroglycerin can oxidize hemoglobin into methemoglobin. Even in patients totally without cytochrome b<sub>5</sub> reductase activity, however, and even assuming that the nitrate moieties of nitroglycerin are quantitatively applied to oxidation of hemoglobin, about 1 mg/kg of nitroglycerin should be required before any of these patients manifests clinically significant (≥ 10%) methemoglobinemia. In patients with normal reductase function, significant production of methemoglobin should require even larger doses of nitroglycerin. In one study in which 36 patients received 2 to 4 weeks of continuous nitroglycerin therapy at 3.1 to 4.4 mg/hr, the average methemoglobin level measured was 0.2%; this was comparable to that observed in parallel patients who received placebo.</paragraph>
+                        <paragraph>Notwithstanding these observations, there are case reports of significant methemoglobinemia in association with moderate overdoses of organic nitrates. None of the affected patients had been thought to be unusually susceptible.</paragraph>
+                        <paragraph>Methemoglobin levels are available from most clinical laboratories. The diagnosis should be suspected in patients who exhibit signs of impaired oxygen delivery despite adequate cardiac output and adequate arterial pO<sub>2</sub>. Classically, methemoglobinemic blood is described as chocolate brown, without color change on exposure to air.</paragraph>
+                        <paragraph>When methemoglobinemia is diagnosed, the treatment of choice is methylene blue, 1 to 2 mg/kg intravenously. </paragraph>
+                     </text>
+                     <effectiveTime value="20141103"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_de31efc4-943a-46b7-9f0d-c6e77eb6b204">
+               <id root="a5b57e98-0a00-45e2-8918-a267f4b80372"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION </title>
+               <text>
+                  <paragraph>The suggested starting dose is between 0.2 mg/hr and 0.4 mg/hr. Doses between 0.4 mg/hr and 0.8 mg/hr have shown continued effectiveness for 10 to 12 hours daily for at least one month (the longest period studied) of intermittent administration. Although the minimum nitrate-free interval has not been defined, data show that a nitrate-free interval of 10 to 12 hours is sufficient (see <linkHtml href="#ID_046e9fb5-efc4-4119-a5f2-497c40054bb5">CLINICAL PHARMACOLOGY</linkHtml>). Thus, an appropriate dosing schedule for nitroglycerin patches would include a daily patch-on period of 12 to 14 hours and a daily patch-off period of 10 to 12 hours.</paragraph>
+                  <paragraph>Although some well controlled clinical trials using exercise tolerance testing have shown maintenance of effectiveness when patches are worn continuously, the large majority of such controlled trials have shown the development of tolerance (i.e., complete loss of effect) within the first 24 hours after therapy was initiated. Dose adjustment, even to levels much higher than generally used, did not restore efficacy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PATIENT INSTRUCTIONS FOR APPLICATION OF SYSTEM</content>
+                  </paragraph>
+                  <paragraph>A patient leaflet is supplied with each carton.</paragraph>
+               </text>
+               <effectiveTime value="20141103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_85ff14d8-0b09-48dc-a7b3-120d9c707214">
+               <id root="22b4a079-3d07-483f-8e3f-82b7d1e0364a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED </title>
+               <text>
+                  <paragraph>Nitroglycerin Transdermal System 0.1 mg/hr is a translucent rectangular patch with rounded corners (registered imprint ‘Nitroglycerin 0.1 mg/hr’ in white ink) affixed to a clear, peelable liner, and is supplied in a foil-lined pouch.</paragraph>
+                  <paragraph>NDC 0378-9102-93<br/>Carton of 30 Systems</paragraph>
+                  <paragraph>Nitroglycerin Transdermal System 0.2 mg/hr is a translucent rectangular patch with rounded corners (registered imprint ‘Nitroglycerin 0.2 mg/hr’ in white ink) affixed to a clear, peelable liner, and is supplied in a foil-lined pouch.</paragraph>
+                  <paragraph>NDC 0378-9104-93<br/>Carton of 30 Systems</paragraph>
+                  <paragraph>Nitroglycerin Transdermal System 0.4 mg/hr is a translucent rectangular patch with rounded corners (registered imprint ‘Nitroglycerin 0.4 mg/hr’ in white ink) affixed to a clear, peelable liner, and is supplied in a foil-lined pouch.</paragraph>
+                  <paragraph>NDC 0378-9112-93<br/>Carton of 30 Systems</paragraph>
+                  <paragraph>Nitroglycerin Transdermal System 0.6 mg/hr is a translucent rectangular patch with rounded corners (registered imprint ‘Nitroglycerin 0.6 mg/hr’ in white ink) affixed to a clear, peelable liner, and is supplied in a foil-lined pouch.</paragraph>
+                  <paragraph>NDC 0378-9116-93<br/>Carton of 30 Systems</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature.]</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not refrigerate.</content>
+                  </paragraph>
+                  <paragraph>Do not store outside of the protective package. Apply immediately upon removal from the protective package.</paragraph>
+                  <paragraph>Mylan Pharmaceuticals Inc.<br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>REVISED NOVEMBER 2014<br/>NTG:R14</paragraph>
+               </text>
+               <effectiveTime value="20141103"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a83bcbaf-73d7-49f8-b943-990c782c39b6">
+               <id root="7f23dc73-30a5-4494-ba2e-0422f8730acb"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title>Patient Information  </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">How to use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NITROGLYCERIN</content>
+                     <br/>
+                     <content styleCode="bold">TRANSDERMAL SYSTEM</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">for the prevention of angina</content>
+                  </paragraph>
+                  <paragraph>The Nitroglycerin Transdermal Patch is easy to use – it has a clear peelable liner, and a special adhesive that keeps the patch firmly in place.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Where to place the</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nitroglycerin Transdermal Patch</content>
+                  </paragraph>
+                  <paragraph>Select any area of skin on the body, EXCEPT the extremities below the knee or elbow. The chest is the preferred site. The area should be clean, dry, and hairless. If hair is likely to interfere with patch adhesion or removal, it can be clipped but <content styleCode="italics">
+                        <content styleCode="underline">not</content>
+                     </content> shaved. Take care to avoid areas with cuts or irritations. Do NOT apply the patch immediately after showering or bathing. It is best to wait until you are certain the skin is completely dry. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How to apply the</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nitroglycerin Transdermal Patch</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Each Nitroglycerin Transdermal Patch is individually sealed in a protective package. Open the pouch at the tear mark. Carefully remove the patch. The patch is printed with the wording ‘<content styleCode="bold">Nitroglycerin</content>’ and the amount of nitroglycerin delivered each hour. The patch is attached to a clear peelable liner. The liner has a slit which divides it into two strips. Hold the patch with the wording facing <content styleCode="italics">away</content> from you. The slit should now be facing <content styleCode="italics">toward</content> you. Rotate the patch as necessary to place the slit in an up and down position. </item>
+                  </list>
+                  <paragraph>  </paragraph>
+                  <renderMultiMedia ID="id-460106906" referencedObject="ID_78cf8219-d4e8-4939-8847-6060fc2f36b6"/>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Bend both sides of the clear peelable liner <content styleCode="italics">away</content> from you at the slit. </item>
+                  </list>
+                  <paragraph>  </paragraph>
+                  <renderMultiMedia ID="id1047110211" referencedObject="ID_9d5ededb-ab8d-4918-bc27-4ad6d34a9023"/>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Slowly peel off only one of the strips of the clear liner. Do not touch the exposed sticky side of the patch. </item>
+                  </list>
+                  <paragraph>  </paragraph>
+                  <renderMultiMedia ID="id-103272113" referencedObject="ID_0046e563-6ca0-4f8c-a97c-aca1e7537034"/>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Using the remaining strip as a “handle”, apply the exposed sticky side of the patch to the skin. Press the sticky side on the chosen skin site and smooth down. </item>
+                  </list>
+                  <paragraph>  </paragraph>
+                  <renderMultiMedia ID="id-197788613" referencedObject="ID_663cb2c7-7f72-49a0-ba39-afb35c5548c0"/>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Fold back the unattached side of the patch. Grasp the remaining strip and remove it while applying the remainder of the patch to the skin. Press the patch on the skin and smooth down with the palm of your hand. Once the patch is in place, do not test the adhesion by pulling on it. </item>
+                  </list>
+                  <paragraph>  </paragraph>
+                  <renderMultiMedia ID="id-1313400156" referencedObject="ID_842d49df-0f06-441a-820e-0cbeb2405ebe"/>
+                  <paragraph>  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption> </caption>When Nitroglycerin Transdermal Patch is applied to your body, the nitroglycerin contained in the patch begins to flow from the adhesive surface through your skin at a uniform rate.<br/> </item>
+                  </list>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>After applying the patch, wash hands to remove any drug. </item>
+                     <item>
+                        <caption>•</caption>At the time recommended by your doctor, remove and discard the patch. </item>
+                     <item>
+                        <caption>•</caption>Place a new patch on a different skin site (following steps 1 through 6) according to your doctor’s instructions. </item>
+                  </list>
+                  <paragraph>Please note:</paragraph>
+                  <paragraph>Contact with water, as in bathing, swimming, or showering will not affect the patch. In the unlikely event that a patch falls off, discard it and put a new one on a different skin site.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Precautions:</content>
+                  </paragraph>
+                  <paragraph>The most common side effect is headache, which often decreases as therapy is continued, but may require treatment with a mild analgesic. Although uncommon, faintness, flushing, and dizziness may occur, especially when suddenly rising from the recumbent (lying horizontal) position. If these symptoms occur, remove the patch and notify your physician.</paragraph>
+                  <paragraph>Skin irritation may occur. If it persists, consult your physician.</paragraph>
+                  <paragraph>Keep these patches and all drugs out of the reach of children.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Important:</content>
+                  </paragraph>
+                  <paragraph>Your doctor may decide to increase or decrease the size of the patch, or prescribe a combination of patches, to suit your particular needs. The dose may vary depending on your individual response to the patch.</paragraph>
+                  <paragraph>This patch is to be used for preventing angina, not for treating an acute attack.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to 77°F). </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not refrigerate. </content>
+                  </paragraph>
+                  <paragraph>Do not store outside of the protective package. Apply immediately upon removal from the protective package.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</content>
+                  </paragraph>
+                  <paragraph>For more information, call Mylan Pharmaceuticals Inc. at 1-877-446-3679 (1-877-4-INFO-RX).</paragraph>
+                  <paragraph>Mylan Pharmaceuticals Inc.<br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>REVISED NOVEMBER 2014<br/>PL:NTG:R12</paragraph>
+               </text>
+               <effectiveTime value="20141103"/>
+               <component>
+                  <observationMedia ID="ID_78cf8219-d4e8-4939-8847-6060fc2f36b6">
+                     <text>Patient Information Figure 01</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_9d5ededb-ab8d-4918-bc27-4ad6d34a9023">
+                     <text>Patient Information Figure 02</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_0046e563-6ca0-4f8c-a97c-aca1e7537034">
+                     <text>Patient Information Figure 03</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_663cb2c7-7f72-49a0-ba39-afb35c5548c0">
+                     <text>Patient Information Figure 04</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_842d49df-0f06-441a-820e-0cbeb2405ebe">
+                     <text>Patient Information Figure 05</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_10342610-bebf-44b9-8b24-a25a77c2c7c2">
+               <id root="7b665e87-24ba-42b2-b137-6924ad4566e8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL – 0.1 mg/hr </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">30 Systems</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0378-9102-93     Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nitroglycerin</content>
+                     <br/>
+                     <content styleCode="bold">Transdermal System</content>
+                     <br/>
+                     <content styleCode="bold">0.1 mg/hr</content>
+                  </paragraph>
+                  <paragraph>Each 4 cm<sup>2</sup> system contains 11.2 mg of nitroglycerin. The<br/>inactive components are acrylic pressure sensitive adhesive<br/>with a cross-linking agent, polyolefin film, polyester release<br/>liner coated on one side with silicone and white ink containing<br/>titanium dioxide.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR TRANSDERMAL USE ONLY.</content>
+                  </paragraph>
+                  <paragraph>Rated release <content styleCode="italics">in vivo </content>0.1 mg/hr.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patient: See instructions on back panel.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Dosage:</content> Each 24 hour period should include a<br/>patch-on period of 12 to 14 hours, followed by a<br/>patch-free interval, unless otherwise directed by your<br/>physician.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to 77°F). [See USP</content>
+                     <br/>
+                     <content styleCode="bold">Controlled Room Temperature.]</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not refrigerate.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Instructions for Application</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Open pouch at tear mark.</item>
+                     <item>
+                        <caption>2.</caption>Carefully remove the patch.</item>
+                     <item>
+                        <caption>3.</caption>Bend both sides of clear peelable liner.</item>
+                     <item>
+                        <caption>4.</caption>Peel off one strip only of the clear liner. Avoid touching the exposed sticky side of the patch.</item>
+                     <item>
+                        <caption>5.</caption>Apply sticky side of the patch to the chosen skin site.</item>
+                     <item>
+                        <caption>6.</caption>Remove remaining strip and press patch firmly in place with the palm of the hand.</item>
+                     <item>
+                        <caption>7.</caption>APPLY IMMEDIATELY UPON REMOVAL FROM POUCH.</item>
+                  </list>
+                  <paragraph>Mylan.com</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mylan Pharmaceuticals Inc.</content>
+                     <br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>M9102:93:30C:R7</paragraph>
+                  <renderMultiMedia ID="id1496832724" referencedObject="ID_2dbec8d8-0bc4-465d-92c4-31555ef2b974"/>
+               </text>
+               <effectiveTime value="20141103"/>
+               <component>
+                  <observationMedia ID="ID_2dbec8d8-0bc4-465d-92c4-31555ef2b974">
+                     <text>Nitroglycerin Transdermal System 0.1 mg/hr Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_4019d0a1-1cee-4650-afad-98d517a1a7ec">
+               <id root="01c18c06-dbb5-49ab-b307-0024c82a44b7"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 0.2 mg/hr </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">30 Systems</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0378-9104-93     Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nitroglycerin</content>
+                     <br/>
+                     <content styleCode="bold">Transdermal System</content>
+                     <br/>
+                     <content styleCode="bold">0.2 mg/hr</content>
+                  </paragraph>
+                  <paragraph>Each 8 cm<sup>2</sup> system contains 22.4 mg of nitroglycerin. The<br/>inactive components are acrylic pressure sensitive adhesive<br/>with a cross-linking agent, polyolefin film, polyester release<br/>liner coated on one side with silicone and white ink containing<br/>titanium dioxide.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR TRANSDERMAL USE ONLY.</content>
+                  </paragraph>
+                  <paragraph>Rated release <content styleCode="italics">in vivo </content>0.2 mg/hr.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patient: See instructions on back panel.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Dosage:</content> Each 24 hour period should include a<br/>patch-on period of 12 to 14 hours, followed by a<br/>patch-free interval, unless otherwise directed by your<br/>physician.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to 77°F). [See USP</content>
+                     <br/>
+                     <content styleCode="bold">Controlled Room Temperature.]</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not refrigerate.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Instructions for Application</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Open pouch at tear mark.</item>
+                     <item>
+                        <caption>2.</caption>Carefully remove the patch.</item>
+                     <item>
+                        <caption>3.</caption>Bend both sides of clear peelable liner.</item>
+                     <item>
+                        <caption>4.</caption>Peel off one strip only of the clear liner. Avoid touching the exposed sticky side of the patch.</item>
+                     <item>
+                        <caption>5.</caption>Apply sticky side of the patch to the chosen skin site.</item>
+                     <item>
+                        <caption>6.</caption>Remove remaining strip and press patch firmly in place with the palm of the hand.</item>
+                     <item>
+                        <caption>7.</caption>APPLY IMMEDIATELY UPON REMOVAL FROM POUCH.</item>
+                  </list>
+                  <paragraph>Mylan.com</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mylan Pharmaceuticals Inc.</content>
+                     <br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>M9104:93:30C:R9</paragraph>
+                  <renderMultiMedia ID="id-204711415" referencedObject="C7B88A9B-6E3A-4C92-BA46-CB9781C5CB0C"/>
+               </text>
+               <effectiveTime value="20141103"/>
+               <component>
+                  <observationMedia ID="C7B88A9B-6E3A-4C92-BA46-CB9781C5CB0C">
+                     <text>Nitroglycerin Transdermal System 0.2 mg/hr Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_749c3d6a-35ff-4e13-a6f0-b9672357fb4e">
+               <id root="55ed2e8e-a99d-481e-9902-e3eba207e04d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 0.4 mg/hr </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">30 Systems</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0378-9112-93     Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nitroglycerin</content>
+                     <br/>
+                     <content styleCode="bold">Transdermal System</content>
+                     <br/>
+                     <content styleCode="bold">0.4 mg/hr</content>
+                  </paragraph>
+                  <paragraph>Each 16 cm<sup>2</sup> system contains 44.8 mg of nitroglycerin. The<br/>inactive components are acrylic pressure sensitive adhesive<br/>with a cross-linking agent, polyolefin film, polyester release<br/>liner coated on one side with silicone and white ink containing<br/>titanium dioxide.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR TRANSDERMAL USE ONLY.</content>
+                  </paragraph>
+                  <paragraph>Rated release <content styleCode="italics">in vivo </content>0.4 mg/hr.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patient: See instructions on back panel.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Dosage:</content> Each 24 hour period should include a<br/>patch-on period of 12 to 14 hours, followed by a patch-free <br/>interval, unless otherwise directed by your physician.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to 77°F). [See USP</content>
+                     <br/>
+                     <content styleCode="bold">Controlled Room Temperature.]</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not refrigerate.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Instructions for Application</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Open pouch at tear mark.</item>
+                     <item>
+                        <caption>2.</caption>Carefully remove the patch.</item>
+                     <item>
+                        <caption>3.</caption>Bend both sides of clear peelable liner.</item>
+                     <item>
+                        <caption>4.</caption>Peel off one strip only of the clear liner. Avoid touching the exposed sticky side of the patch.</item>
+                     <item>
+                        <caption>5.</caption>Apply sticky side of the patch to the chosen skin site.</item>
+                     <item>
+                        <caption>6.</caption>Remove remaining strip and press patch firmly in place with the palm of the hand.</item>
+                     <item>
+                        <caption>7.</caption>APPLY IMMEDIATELY UPON REMOVAL FROM POUCH.</item>
+                  </list>
+                  <paragraph>Mylan.com</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mylan Pharmaceuticals Inc.</content>
+                     <br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>M9112:93:30C:R9</paragraph>
+                  <renderMultiMedia ID="id2011720073" referencedObject="DC5475D5-C062-4E65-BAC7-6A12760EF9D7"/>
+               </text>
+               <effectiveTime value="20141103"/>
+               <component>
+                  <observationMedia ID="DC5475D5-C062-4E65-BAC7-6A12760EF9D7">
+                     <text>Nitroglycerin Transdermal System 0.4 mg/hr Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6f0ab97c-547f-4e43-87c2-8b42f1bee933">
+               <id root="2e400a2c-a372-4163-a484-7479836b6535"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 0.6 mg/hr </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">30 Systems</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0378-9116-93     Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nitroglycerin</content>
+                     <br/>
+                     <content styleCode="bold">Transdermal System</content>
+                     <br/>
+                     <content styleCode="bold">0.6 mg/hr</content>
+                  </paragraph>
+                  <paragraph>Each 24 cm<sup>2</sup> system contains 67.2 mg of nitroglycerin. <br/>The inactive components are acrylic pressure sensitive <br/>adhesive with a cross-linking agent, polyolefin film, <br/>polyester release liner coated on one side with silicone <br/>and white ink containing titanium dioxide.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR TRANSDERMAL USE ONLY.</content>
+                  </paragraph>
+                  <paragraph>Rated release <content styleCode="italics">in vivo </content>0.6 mg/hr.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patient: See instructions on back panel.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Dosage:</content> Each 24 hour period should include a<br/>patch-on period of 12 to 14 hours, followed by a patch-free <br/>interval, unless otherwise directed by your physician.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to 77°F). [See USP</content>
+                     <br/>
+                     <content styleCode="bold">Controlled Room Temperature.]</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not refrigerate.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Instructions for Application</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Open pouch at tear mark.</item>
+                     <item>
+                        <caption>2.</caption>Carefully remove the patch.</item>
+                     <item>
+                        <caption>3.</caption>Bend both sides of clear peelable liner.</item>
+                     <item>
+                        <caption>4.</caption>Peel off one strip only of the clear liner. Avoid touching the exposed sticky side of the patch.</item>
+                     <item>
+                        <caption>5.</caption>Apply sticky side of the patch to the chosen skin site.</item>
+                     <item>
+                        <caption>6.</caption>Remove remaining strip and press patch firmly in place with the palm of the hand.</item>
+                     <item>
+                        <caption>7.</caption>APPLY IMMEDIATELY UPON REMOVAL FROM POUCH.</item>
+                  </list>
+                  <paragraph>Mylan.com</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mylan Pharmaceuticals Inc.</content>
+                     <br/>Morgantown, WV 26505 U.S.A.</paragraph>
+                  <paragraph>M9116:93:30C:R9</paragraph>
+                  <renderMultiMedia ID="id-1321723034" referencedObject="ID_17d21fc3-b475-41dc-9425-a96f46985802"/>
+               </text>
+               <effectiveTime value="20141103"/>
+               <component>
+                  <observationMedia ID="ID_17d21fc3-b475-41dc-9425-a96f46985802">
+                     <text>Nitroglycerin Transdermal System 0.6 mg/hr Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:voc="urn:hl7-org:v3/voc" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="bf0a845a-fd5e-48e2-f068-1d080d97ff40"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Desmopressin Acetate Injection</content>
+   </title>
+   <effectiveTime value="20191130"/>
+   <setId root="15179e0c-f677-307f-d1e1-5910de4c212f"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="802315887" root="1.3.6.1.4.1.519.1"/>
+            <name>Dr.Reddys' Laboratories Inc</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="658871159" root="1.3.6.1.4.1.519.1"/>
+                        <name>UBI Pharma Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43598-931" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1f7168e0-33a3-6a59-0d34-08740be2603b"/>
+               <code code="48780-1" displayName="SPL PRODUCT DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20200219"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="43598-931" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>DESMOPRESSIN ACETATE</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>DESMOPRESSIN ACETATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="4"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XB13HYU18U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DESMOPRESSIN ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="ENR1LLB0FP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DESMOPRESSIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43165" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMPULE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="43598-931-09"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20200403"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA210218" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200403"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_91aee33a-7112-4a16-a74d-7a9d8bc5f940">
+               <id root="5f13ec70-9aea-a660-c5dd-e4c8d289c457"/>
+               <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <text>
+                  <paragraph>(desmopressin acetate)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4 mcg/mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_91671b1f-1f5e-45ae-9763-2188de84dd1c">
+               <id root="6976e044-177a-4466-8cad-641a53c23f9d"/>
+               <code code="34089-3" displayName="DESCRIPTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Acetate Injection USP </content> (desmopressin acetate) 4 mcg/mL is a synthetic analogue of the natural pituitary hormone8-arginine vasopressin (ADH), an antidiuretic hormone affecting renal water conservation. It is chemically defined as follows:
+ </paragraph>
+                  <paragraph>Mol. Wt. 1183.34    </paragraph>
+                  <paragraph>Empirical Formula: C 
+  <sub>46</sub>H 
+  <sub>64</sub>N 
+  <sub>14</sub>O 
+  <sub>12</sub>S 
+  <sub>2</sub>•C 
+  <sub>2</sub>H 
+  <sub>4</sub>O 
+  <sub>2</sub> •3H 
+  <sub>2</sub> O
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L975ad8dc-9ed1-4da2-9fce-82427d2871c6"/>
+                  </paragraph>
+                  <paragraph>1-(3-mercaptopropionic acid)-8-D-arginine vasopressin monoacetate (salt) trihydrate.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Acetate Injection USP</content> 4 mcg/mL is provided as a sterile, aqueous solution for injection.
+ </paragraph>
+                  <paragraph>Each mL provides:</paragraph>
+                  <paragraph>   Desmopressin acetate    4 mcg</paragraph>
+                  <paragraph>   Sodium chloride             9 mg</paragraph>
+                  <paragraph>   Hydrochloric acid to adjust pH to 4</paragraph>
+               </text>
+               <effectiveTime value="20191118"/>
+               <component>
+                  <observationMedia ID="L975ad8dc-9ed1-4da2-9fce-82427d2871c6">
+                     <text>Desmopressin Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="molecular-sequence.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_7b8593ff-9b11-4e72-90ca-bb2679534d92">
+               <id root="65f8b7a8-17c0-7041-d737-042e98bdafaa"/>
+               <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Acetate Injection</content> 4 mcg/mL contains as active substance, desmopressin acetate, a synthetic analogue of the natural hormone arginine vasopressin. One mL (4 mcg) of Desmopressin Acetate Injection(desmopressin acetate) solution has an antidiuretic activity of about 16 IU; 1 mcg of Desmopressin Acetate Injection is equivalent to 4 IU. </paragraph>
+                  <paragraph>Desmopressin Acetate Injection has been shown to be more potent than arginine vasopressin in increasing plasma levels of factor VIII activity in patients with hemophilia and von Willebrand’s disease Type I.</paragraph>
+                  <paragraph>Dose-response studies were performed in healthy persons, using doses of 0.1 to 0.4 mcg/kg body weight, infused over a 10-minute period. Maximal dose response occurred at 0.3 to 0.4 mcg/kg. The response to Desmopressin Acetate Injection of factor VIII activity and plasminogen activator is dose-related, with maximal plasma levels of 300 to 400 percent of initial concentrations obtained after infusion of 0.4 mcg/kg body weight. The increase is rapid and evident within 30 minutes, reaching a maximum at a point ranging from 90 minutes to two hours. The factor VIII related antigen and ristocetin cofactor activity were also increased to a smaller degree, but still are dose-dependent.</paragraph>
+                  <paragraph>1. The biphasic half-lives of Desmopressin Acetate Injection were 7.8 and 75.5 minutes for the fast and slow phases, respectively, compared with 2.5 and 14.5 minutes for lysine vasopressin, another form of the hormone. As a result, Desmopressin Acetate Injection provides a prompt onset of antidiuretic action with a long duration after each administration.</paragraph>
+                  <paragraph>2. The change in structure of arginine vasopressin to Desmopressin Acetate Injection has resulted in a decreased vasopressor action and decreased actions on visceral smooth muscle relative to the enhanced antidiuretic activity, so that clinically effective antidiuretic doses are usually below threshold levels for effects on vascular or visceral smooth muscle.</paragraph>
+                  <paragraph>3. When administered by injection, Desmopressin Acetate Injection has an antidiuretic effect about ten times that of an equivalent dose administered intranasally.</paragraph>
+                  <paragraph>4. The bioavailability of the subcutaneous route of administration was determined qualitatively using urine output data. The exact fraction of drug absorbed by that route of administration has not been quantitatively determined.</paragraph>
+                  <paragraph>5. The percentage increase of factor VIII levels in patients with mild hemophilia A and von Willebrand’s disease was not significantly different from that observed in normal healthy individuals when treated with 0.3 mcg/kg of Desmopressin Acetate Injection infused over 10 minutes.</paragraph>
+                  <paragraph>6. Plasminogen activator activity increases rapidly after Desmopressin Acetate Injection infusion, but there has been no clinically significant fibrinolysis in patients treated with Desmopressin Acetate Injection.</paragraph>
+                  <paragraph>7. The effect of repeated Desmopressin Acetate Injection administration when doses were given every 12 to 24 hours has generally shown a gradual diminution of the factor VIII activity increase noted with a single dose. The initial response is reproducible in any particular patient if there are 2 or 3 days between administrations.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Human Pharmacokinetics:</content> Desmopressin Acetate Injection is mainly excreted in the urine. A pharmacokinetic study conducted in healthy volunteers and patients with mild, moderate, and severe renal impairment (n=24, 6 subjects in each group) receiving single dose desmopressin acetate (2 mcg) injection demonstrated a difference in Desmopressin Acetate Injection terminal half-life. Terminal half-life significantly increased from 3 hours in normal healthy patients to 9 hours in patients with severe renal impairment. (See <content styleCode="bold">
+                        <linkHtml href="#i4i_contraindications_id_60c95b12-1b24-4243-9468-3b1e77aaa6f4">CONTRAINDICATIONS</linkHtml>.</content>) </paragraph>
+               </text>
+               <effectiveTime value="20191118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_9769dd5f-1563-4445-9f37-0a67231d3ef2">
+               <id root="c727de5c-7ea8-9b37-d584-b99761bfcf47"/>
+               <code code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Hemophilia A: Desmopressin Acetate Injection</content> 4 mcg/mL is indicated for patients with hemophilia A with factor VIII coagulant activity levels greater than 5%. </paragraph>
+                  <paragraph>Desmopressin Acetate Injection will often maintain hemostasis in patients with hemophilia A during surgical procedures and postoperatively when administered 30 minutes prior to scheduled procedure.</paragraph>
+                  <paragraph>Desmopressin Acetate Injection will also stop bleeding in hemophilia A patients with episodes of spontaneous or trauma-induced injuries such as hemarthroses, intramuscular hematomas or mucosal bleeding.</paragraph>
+                  <table width="100%">
+                     <caption/>
+                     <tbody>
+                        <tr styleCode="First Last">
+                           <td>Desmopressin Acetate Injection is not indicated for the treatment of hemophilia A with factor VIII coagulant activity levels equal to or less than 5%, or for the treatment of hemophilia B, or in patients who have factor VIII antibodies.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>In certain clinical situations, it may be justified to try Desmopressin Acetate Injection in patients with factor VIII levels between 2% to 5%; however, these patients should be carefully monitored.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">von Willebrands Disease (Type I): </content>
+                     <content styleCode="bold">Desmopressin Acetate Injection</content> 4 mcg/mL is indicated for patients with mild to moderate classic von Willebrands disease (Type I) with factor VIII levels greater than 5%. Desmopressin Acetate Injection will often maintain hemostasis in patients with mild to moderate von Willebrands disease during surgical procedures and postoperatively when administered 30 minutes prior to the scheduled procedure. </paragraph>
+                  <paragraph>Desmopressin Acetate Injection will usually stop bleeding in mild to moderate von Willebrands patients with episodes of spontaneous or trauma-induced injuries such as hemarthroses, intramuscular hematomas or mucosal bleeding.</paragraph>
+                  <paragraph>Those von Willebrands disease patients who are least likely to respond are those with severe homozygous von Willebrands disease with factor VIII coagulant activity and factor VIII von Willebrand factor antigen levels less than 1%. Other patients may respond in a variable fashion depending on the type of molecular defect they have. Bleeding time and factor VIII coagulant activity, ristocetin cofactor activity, and von Willebrand factor antigen should be checked during administration of Desmopressin Acetate Injection to ensure that adequate levels are being achieved.</paragraph>
+                  <paragraph>Desmopressin Acetate Injection is not indicated for the treatment of severe classic von Willebrands disease (Type I) and when there is evidence of an abnormal molecular form of factor VIII antigen. (See <content styleCode="bold">
+                        <linkHtml href="#i4i_warnings_id_91a79a15-16da-4e6c-bd01-598bce324ced">WARNINGS</linkHtml>.</content>) </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Diabetes Insipidus: Desmopressin Acetate Injection</content> 4 mcg/mL is indicated as antidiuretic replacement therapy in the management of central (cranial) diabetes insipidus and for the management of the temporary polyuria and polydipsia following head trauma or surgery in the pituitary region. Desmopressin Acetate Injection is ineffective for the treatment of nephrogenic diabetes insipidus. </paragraph>
+                  <paragraph>Desmopressin Acetate Injection is also available as an intranasal preparation. However, this means of delivery can be compromised by a variety of factors that can make nasal insufflation ineffective or inappropriate. These include poor intranasal absorption, nasal congestion and blockage, nasal discharge, atrophy of nasal mucosa, and severe atrophic rhinitis. Intranasal delivery may be inappropriate where there is an impaired level of consciousness. In addition, cranial surgical procedures, such as transsphenoidal hypophysectomy, create situations where an alternative route of administration is needed as in cases of nasal packing or recovery from surgery.</paragraph>
+               </text>
+               <effectiveTime value="20191118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_60c95b12-1b24-4243-9468-3b1e77aaa6f4">
+               <id root="f4b953ec-cdf6-25ba-2911-e4d2536b2a9b"/>
+               <code code="34070-3" displayName="CONTRAINDICATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Acetate Injection</content> 4 mcg/mL is contraindicated in individuals with known hypersensitivity to desmopressin acetate or to any of the components of 
+       
+ 
+  <content styleCode="bold">Desmopressin Acetate Injection</content> 4 mcg/mL.
+      
+
+ </paragraph>
+                  <paragraph>Desmopressin Acetate Injection is contraindicated in patients with moderate to severe renal impairment (defined as a creatinine clearance below 50 mL/min).</paragraph>
+                  <paragraph>Desmopressin Acetate Injection is contraindicated in patients with hyponatremia or a history of hyponatremia.</paragraph>
+               </text>
+               <effectiveTime value="20191118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_91a79a15-16da-4e6c-bd01-598bce324ced">
+               <id root="ecb36fc9-3a45-8bec-3df6-ba49cc064a56"/>
+               <code code="34071-1" displayName="WARNINGS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <effectiveTime value="20191118"/>
+               <component>
+                  <section ID="i4i_warnings_id_88c63fbf-c837-4894-b004-c0b9fa9f0e72">
+                     <id root="0c1f57db-5ff4-012f-9457-d33c31c98937"/>
+                     <code code="34071-1" displayName="WARNINGS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>1. Very rare cases of hyponatremia have been reported from world-wide postmarketing experience in patients treated with Desmopressin Acetate Injection (desmopressin acetate). Desmopressin Acetate Injection is a potent antidiuretic which, when administered, may lead to water intoxication and/or hyponatremia. Unless properly diagnosed and treated hyponatremia can be fatal. Therefore, fluid restriction is recommended and should be discussed with the patient and/ or guardian. Careful medical supervision is required.</paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_warnings_id_0e662e73-12f5-4899-b4b5-4ea4d207490f">
+                     <id root="2a19c608-b45d-bcb0-b8ed-8f1e575af184"/>
+                     <code code="34071-1" displayName="WARNINGS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>2. When Desmopressin Acetate Injection is administered to patients who do not have need of antidiuretic hormone for its antidiuretic effect, in particular in pediatric and geriatric patients, fluid intake should be adjusted downward to decrease the potential occurrence of water intoxication and hyponatremia. (See<content styleCode="bold">
+                              <linkHtml href="#i4i_precautions_id_2431c811-eefa-48eb-b58d-d3eefb80c43a"> PRECAUTIONS</linkHtml>
+                           </content>, Pediatric Use and Geriatric Use.) All patients receiving Desmopressin Acetate Injection therapy should be observed for the following signs or symptoms associated with hyponatremia: headache, nausea/vomiting, decreased serum sodium, weight gain, restlessness, fatigue, lethargy, disorientation, depressed reflexes, loss of appetite, irritability, muscle weakness, muscle spasms or cramps and abnormal mental status such as hallucinations, decreased consciousness and confusion. Severe symptoms may include one or a combination of the following: seizure, coma and/or respiratory arrest. Particular attention should be paid to the possibility of the rare occurrence of an extreme decrease in plasma osmolality that may result in seizures which could lead to coma. </paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_warnings_id_79866854-0423-4d4e-b751-189a26443f23">
+                     <id root="7d521a35-b3af-cfe3-5b1d-c2695c43b1f3"/>
+                     <code code="34071-1" displayName="WARNINGS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>3. Desmopressin Acetate Injection should not be used to treat patients with Type IIB von Willebrand’s disease since platelet aggregation may be induced.</paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_warnings_id_572988f9-7293-4cd6-bc0e-13cc10a06e22">
+                     <id root="2ace15b6-105f-2814-317b-484b702ce006"/>
+                     <code code="34071-1" displayName="WARNINGS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>4. Desmopressin Acetate Injection should be used with caution in patients with habitual or psychogenic polydipsia who may be more likely to drink excessive amounts of water, putting them at greater risk of hyponatremia.</paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_2431c811-eefa-48eb-b58d-d3eefb80c43a">
+               <id root="98a3b101-3258-24fd-d34c-f576534b5da9"/>
+               <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <effectiveTime value="20191118"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_d293a39a-bd7e-4b10-a6bc-d5c8329ce2fe">
+                     <id root="451783ca-f8c5-0866-1084-691f8b09bb90"/>
+                     <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold"/>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">General:</content> For injection use only.
+        
+
+ </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Desmopressin Acetate Injection</content> (desmopressin acetate) 4 mcg/mL has infrequently produced changes in blood pressure causing either a slight elevation in blood pressure or a transient fall in blood pressure and a compensatory increase in heart rate. The drug should be used with caution in patients with coronary artery insufficiency and/or hypertensive cardiovascular disease.
+        
+
+ </paragraph>
+                        <paragraph>Desmopressin Acetate Injection (desmopressin acetate) should be used with caution in patients with conditions associated with fluid and electrolyte imbalance, such as cystic fibrosis, heart failure and renal disorders, because these patients are prone to hyponatremia.</paragraph>
+                        <paragraph>There have been rare reports of thrombotic events following 
+         
+ 
+  <content styleCode="bold">Desmopressin Acetate Injection</content> 4 mcg/mL in patients predisposed to thrombus formation. No causality has been determined, however, the drug should be used with caution in these patients.
+        
+
+ </paragraph>
+                        <paragraph>Severe allergic reactions have been reported rarely. Anaphylaxis has been reported rarely with intravenous and intranasal Desmopressin Acetate Injection, including isolated cases of fatal anaphylaxis with intravenous Desmopressin Acetate Injection. It is not known whether antibodies to 
+         
+ 
+  <content styleCode="bold">Desmopressin Acetate Injection</content> 4 mcg/mL are produced after repeated injections.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_drug_interaction_id_018aad98-f6d2-46cd-85f4-90f24aa85fec">
+                     <id root="e9841c9c-71ad-887c-890c-e81338a72155"/>
+                     <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Hemophilia A:</content> Laboratory tests for assessing patient status include levels of factor VIII coagulant, factor VIII antigen and factor VIII ristocetin cofactor (von Willebrand factor) as well as activated partial thromboplastin time. Factor VIII coagulant activity should be determined before giving Desmopressin Acetate Injection for hemostasis. If factor VIII coagulant activity is present at less than 5% of normal, Desmopressin Acetate Injection should not be relied on.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_precautions_id_62200931-431e-4fe3-821d-6c8c589e319f">
+                     <id root="5b97de2e-c659-1b15-245b-7f23711910a7"/>
+                     <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">von Willebrand’s Disease:</content> Laboratory tests for assessing patient status include levels of factor VIII coagulant activity, factor VIII ristocetin cofactor activity, and factor VIII von Willebrand factor antigen. The skin bleeding time may be helpful in following these patients.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_precautions_id_2c897510-8b5f-49b4-a264-f8cb6e8c9652">
+                     <id root="96f3b827-7a5c-1a17-b9cc-3f86f8055628"/>
+                     <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Diabetes Insipidus:</content> Laboratory tests for monitoring the patient include urine volume and osmolality. In some cases, plasma osmolality may be required.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_precautions_id_284acf5d-80bd-4e32-aae9-9a8ff4b99923">
+                     <id root="cb12d5ad-ff34-157d-aeff-52d568b14e8e"/>
+                     <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Drug Interactions:</content> Although the pressor activity of Desmopressin Acetate Injection is very low compared with the antidiuretic activity, use of doses as large as 0.3 mcg/kg of Desmopressin Acetate Injection with other pressor agents should be done only with careful patient monitoring. The concomitant administration of drugs that may increase the risk of water intoxication with hyponatremia, (e.g., tricyclic antidepressants, selective serotonin re-uptake inhibitors, chlorpromazine, opiate analgesics, NSAIDs, lamotrigine and carbamazepine) should be performed with caution.
+        
+
+ </paragraph>
+                        <paragraph>Desmopressin Acetate Injection has been used with epsilon aminocaproic acid without adverse effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_9d2c3319-19f2-4e0d-9236-01d24e1c1067">
+                     <id root="ff0c07ab-f902-64e1-aad2-6992d866b643"/>
+                     <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility: </content>Studies with Desmopressin Acetate Injection have not been performed to evaluate carcinogenic potential, mutagenic potential or effects on fertility.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_id_778e8c17-ead0-47bf-a1a5-b2de4cf1e61c">
+                     <id root="03f23450-949a-9c10-d60a-8f705346cf75"/>
+                     <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <effectiveTime value="20191118"/>
+                     <component>
+                        <section ID="i4i_pregnancy_id_0c83fb29-c327-41c5-bfc1-3bb4fe22330c">
+                           <id root="a112ae53-c81d-930d-f603-833e6453f1f7"/>
+                           <code code="42228-7" displayName="PREGNANCY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Pregnancy:</content> Fertility studies have not been done. Teratology studies in rats and rabbits at doses from 0.05 to 10 mcg/kg/day (approximately 0.1 times the maximum systemic human exposure in rats and up to 38 times the maximum systemic human exposure in rabbits based on surface area, mg/m
+           
+ 
+  <sup>2</sup>) revealed no harm to the fetus due to Desmopressin Acetate Injection. There are, however, no adequate and well controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.
+          
+
+ </paragraph>
+                              <paragraph>Several publications of desmopressin acetate’s use in the management of diabetes insipidus during pregnancy are available; these include a few anecdotal reports of congenital anomalies and low birth weight babies. However, no causal connection between these events and desmo- pressin acetate has been established. A fifteen year, Swedish epidemiologic study of the use of desmopressin acetate in pregnant women with diabetes insipidus found the rate of birth defects to be no greater than that in the general population; however, the statistical power of this study is low. As opposed to preparations containing natural hormones, desmopressin acetate in antidiuretic doses has no uterotonic action and the physician will have to weigh the therapeutic advantages against the possible risks in each case.</paragraph>
+                           </text>
+                           <effectiveTime value="20191118"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_labour_delivery_id_3aacbc3f-3a45-41e0-baa7-6c62a95a166b">
+                     <id root="ed3710a7-111c-1059-5eed-aff231439912"/>
+                     <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Nursing Mothers:</content> There have been no controlled studies in nursing mothers. A single study in postpartum women demonstrated a marked change in plasma, but little if any change in assayable Desmopressin Acetate Injection in breast milk following an intranasal dose of 10 mcg. It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when Desmopressin Acetate Injection is admin- istered to a nursing woman.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_c8d8bd84-d484-4a34-b8cd-735d0afe8c1c">
+                     <id root="a2254a30-1cef-aa9c-2f5d-4c17c32a9763"/>
+                     <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Use:</content> Use in infants and pediatric patients will require careful fluid intake restriction to prevent possible hyponatremia and water intoxication. Fluid restriction should be discussed with the patient and/or guardian. (See 
+         
+ 
+  <content styleCode="bold">WARNINGS</content>.) 
+         
+ 
+  <content styleCode="bold">Desmopressin Acetate Injection</content> 4 mcg/mL 
+         
+ 
+  <content styleCode="italics">should not be used in infants less than three months of age</content> in the treatment of hemophilia A or von Willebrand’s disease; safety and effectiveness in pediatric patients under 12 years of age with diabetes insipidus have not been established.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_6f171950-ca31-455f-a5f7-ca563c45a117">
+                     <id root="346e9992-7375-7fd1-a9a4-d83264ff938a"/>
+                     <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Geriatric Use:</content> Clinical studies of Desmopressin Acetate Injection did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. </paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. Desmopressin Acetate Injection is contraindicated in patients with moderate to severe renal impairment (defined as a creatinine clearance below 50 mL/min). (See <content styleCode="bold">
+                              <linkHtml href="#i4i_clinical_pharmacology_id_7b8593ff-9b11-4e72-90ca-bb2679534d92">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content>, Human Pharmacokinetics and <content styleCode="bold">
+                              <linkHtml href="#i4i_contraindications_id_60c95b12-1b24-4243-9468-3b1e77aaa6f4">CONTRAINDICATIONS</linkHtml>
+                           </content>.) </paragraph>
+                        <paragraph>Use of Desmopressin Acetate Injection in geriatric patients will require careful fluid intake restrictions to prevent possible hyponatremia and water intoxication. Fluid restriction should be discussed with the patient. (See <content styleCode="bold">
+                              <linkHtml href="#i4i_warnings_id_91a79a15-16da-4e6c-bd01-598bce324ced">WARNINGS</linkHtml>
+                           </content>.) </paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_87f34c37-0de6-4a1a-bf64-64798ab2bcb1">
+               <id root="c4e2ec71-7e77-af31-c7be-dab71b8f458a"/>
+               <code code="34084-4" displayName="ADVERSE REACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Infrequently, Desmopressin Acetate Injection has produced transient headache, nausea, mild abdominal cramps and vulval pain. These symptoms disappeared with reduction in dosage. Occasionally, injection of Desmopressin Acetate Injection has produced local erythema, swelling or burning pain. Occasional facial flushing has been reported with the administration of Desmopressin Acetate Injection. <content styleCode="bold">Desmopressin Acetate Injection</content> has infrequently produced changes in blood pressure causing either a slight elevation or a transient fall and a compensatory increase in heart rate. Severe allergic reactions including anaphylaxis have been reported rarely with <content styleCode="bold"> Desmopressin Acetate Injection</content>. </paragraph>
+                  <paragraph>See <content styleCode="bold">
+                        <linkHtml href="#i4i_warnings_id_91a79a15-16da-4e6c-bd01-598bce324ced">WARNINGS</linkHtml>
+                     </content> for the possibility of water intoxication and hyponatremia. </paragraph>
+               </text>
+               <effectiveTime value="20191118"/>
+               <component>
+                  <section ID="L94f8c839-257e-4d54-a561-73a142e31412">
+                     <id root="c33dcfde-2ec6-e908-6f61-24a921c4a3ba"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Post Marketing:</content> There have been rare reports of thrombotic events (acute cerebrovascular thrombosis, acute myocardial infarction) following 
+         
+ 
+  <content styleCode="bold">Desmopressin Acetate Injection</content> in patients predisposed to thrombus formation, and rare reports of hyponatremic convulsions associated with concomitant use with the following medications: oxybutinin and imipramine.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_00d87d14-4313-43b2-bf90-9c8cf4fb697f">
+               <id root="85a8a949-4f37-85ea-1a56-f9378eeed6bb"/>
+               <code code="34088-5" displayName="OVERDOSAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Signs of overdose may include confusion, drowsiness, continuing headache, problems with passing urine and rapid weight gain due to fluid retention. (See <content styleCode="bold">
+                        <linkHtml href="#i4i_warnings_id_91a79a15-16da-4e6c-bd01-598bce324ced">WARNINGS</linkHtml>
+                     </content>.) In case of overdosage, the dosage should be reduced, frequency of administration decreased, or the drug withdrawn according to the severity of the condition. </paragraph>
+                  <paragraph>There is no known specific antidote for desmopressin acetate or <content styleCode="bold">Desmopressin Acetate Injection</content> 4 mcg/mL. </paragraph>
+                  <paragraph>An oral LD <sub>50</sub> has not been established. An intravenous dose of 2 mg/kg in mice demonstrated no effect. </paragraph>
+               </text>
+               <effectiveTime value="20191118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_5f24ceab-a279-4928-8a12-45316f479c45">
+               <id root="edf57ca7-319c-9a07-07d4-7b75b91f27c3"/>
+               <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Hemophilia A and von Willebrand’s Disease (Type I):</content>
+                     <content styleCode="bold"> Desmopressin Acetate Injection</content> 4 mcg/mL is administered as an intravenous infusion at a dose of 0.3 mcg Desmopressin Acetate Injection/kg body weight diluted in sterile physiological saline and infused slowly over 15 to 30 minutes. In adults and children weighing more than 10 kg, 50 mL of diluent is recommended; in children weighing 10 kg or less, 10 mL of diluent is recommended. Blood pressure and pulse should be monitored during infusion. If <content styleCode="bold">Desmopressin Acetate Injection</content> 4 mcg/mL is used preoperatively, it should be administered 30 minutes prior to the scheduled procedure. </paragraph>
+                  <paragraph>The necessity for repeat administration of Desmopressin Acetate Injection or use of any blood products for hemostasis should be determined by laboratory response as well as the clinical condition of the patient. The tendency toward tachyphylaxis (lessening of response) with repeated administration given more frequently than every 48 hours should be considered in treating each patient.</paragraph>
+                  <paragraph>Fluid restriction should be observed. (See <content styleCode="bold">
+                        <linkHtml href="#i4i_warnings_id_91a79a15-16da-4e6c-bd01-598bce324ced">WARNINGS, </linkHtml>
+                        <linkHtml href="#i4i_precautions_id_2431c811-eefa-48eb-b58d-d3eefb80c43a">PRECAUTIONS</linkHtml>
+                     </content>, Pediatric Use and Geriatric Use.) </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Diabetes Insipidus:</content> This formulation is administered subcutaneously or by direct intravenous injection. <content styleCode="bold">Desmopressin Acetate Injection</content> 4 mcg/mL dosage must be determined for each patient and adjusted according to the pattern of response. Response should be estimated by two parameters: adequate duration of sleep and adequate, not excessive, water turnover. </paragraph>
+                  <paragraph>The usual dosage range in adults is 0.5 mL (2.0 mcg) to 1 mL (4.0 mcg) daily, administered intravenously or subcutaneously, usually in two divided doses. The morning and evening doses should be separately adjusted for an adequate diurnal rhythm of water turnover. For patients who have been controlled on intranasal Desmopressin Acetate Injection and who must be switched to the injection form, either because of poor intranasal absorption or because of the need for surgery, the comparable antidiuretic dose of the injection is about one-tenth the intranasal dose.</paragraph>
+                  <paragraph>Fluid restriction should be observed. (See <content styleCode="bold">
+                        <linkHtml href="#i4i_warnings_id_91a79a15-16da-4e6c-bd01-598bce324ced">WARNINGS, </linkHtml>
+                        <linkHtml href="#i4i_precautions_id_2431c811-eefa-48eb-b58d-d3eefb80c43a">PRECAUTIONS</linkHtml>
+                     </content>, Pediatric Use and Geriatric Use.) </paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Geriatric Use:</content> This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. (See <content styleCode="bold">
+                        <linkHtml href="#i4i_clinical_pharmacology_id_7b8593ff-9b11-4e72-90ca-bb2679534d92">CLINICAL PHARMACOLOGY</linkHtml>
+                     </content>, Human Pharmacokinetics, <content styleCode="bold">
+                        <linkHtml href="#i4i_contraindications_id_60c95b12-1b24-4243-9468-3b1e77aaa6f4">CONTRAINDICATIONS</linkHtml>
+                     </content>, and <content styleCode="bold">
+                        <linkHtml href="#i4i_precautions_id_2431c811-eefa-48eb-b58d-d3eefb80c43a">PRECAUTIONS</linkHtml>
+                     </content>, Geriatric Use.) </paragraph>
+               </text>
+               <effectiveTime value="20191118"/>
+               <component>
+                  <section ID="Lc01ce754-5c39-4c81-8244-df3dc8f475eb">
+                     <id root="ba902fc7-4a09-682d-8283-8e3f5745d50a"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">Directions for use of One Point Cut (OPC) Ampules for Desmopressin Acetate Injection:</content>
+                     </title>
+                     <text>
+                        <paragraph>1. Use aseptic technique to clean ampule. Gently tap the top of the ampule to assist the flow of the solution from the upper portion of the ampule to the lower portion.
+         
+ 
+  <br/>2. Locate the blue dot on the upper portion of the ampule. 
+         
+ 
+  <content styleCode="bold">Below</content> this dot is a small score on the neck of the ampule. Hold the ampule with the blue dot
+         
+ 
+  <content styleCode="bold"> facing away from you</content>.
+         
+ 
+  <br/>3. Cover the vial with an appropriate wipe. Apply pressure to the top and bottom portions of the ampule to snap the ampule open away from you.
+        
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20191118"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_565f2afd-1289-4f7e-9522-89d45b67f98f">
+               <id root="692bf5b3-ac0f-b649-bb0d-5674034401cc"/>
+               <code code="34069-5" displayName="HOW SUPPLIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Desmopressin Acetate Injectio</content>
+                     <content styleCode="bold">n USP</content> 4 mcg/mL is available as a sterile solution in cartons of ten 1 mL single-dose ampules (NDC 43598-931-09) containing 4 mcg Desmopressin Acetate per mL. </paragraph>
+                  <paragraph>
+                     <br/>
+                     <br/> Store refrigerated 2 to 8°C (36 to 46°F). </paragraph>
+                  <paragraph>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">Keep out of the reach of children.</content>
+                  </paragraph>
+                  <paragraph>Manufactured by: UBI Pharma Inc.</paragraph>
+                  <paragraph> No. 45, Guangfu N. Rd., Hukou, </paragraph>
+                  <paragraph>Hsinchu 30351, Taiwan </paragraph>
+                  <paragraph>Distributed by: </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dr. Reddy’s Laboratories Inc. </content>
+                  </paragraph>
+                  <paragraph>Princeton, NJ 08540 </paragraph>
+               </text>
+               <effectiveTime value="20191118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_a8a006cd-c829-433c-8463-c3d984b254b8">
+               <id root="5b35b075-bcbe-770a-341d-3a5e19360338"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">container_label</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="L99c79ed2-2098-4954-9a35-82f8380c8737"/>
+                     </content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">carton_label</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="L4b963d76-0e16-4d45-b594-0ac57d53cd1f"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191118"/>
+               <component>
+                  <observationMedia ID="L99c79ed2-2098-4954-9a35-82f8380c8737">
+                     <text>1mL_ampule_container_label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="1-ml-amp-container-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L4b963d76-0e16-4d45-b594-0ac57d53cd1f">
+                     <text>1mL_ampule_carton_label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="1-ml-amp-carton-label1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

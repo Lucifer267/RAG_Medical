@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="b5de1a51-8312-467a-9522-2e6a4046266d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title/>
+   <effectiveTime value="20210429"/>
+   <setId root="ed98c7e1-78a6-43a5-92cd-4f085af6f09d"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="650082092" root="1.3.6.1.4.1.519.1"/>
+            <name>Aurobindo Pharma Limited</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="650918514" root="1.3.6.1.4.1.519.1"/>
+                        <name>APL HEALTHCARE LIMITED</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59651-146" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59651-146" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8143ea85-2f24-4bbc-8ebc-bcdd2fbff6f5"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20210429"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59651-146" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Carbidopa<suffix/>
+                        </name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Carbidopa</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="25" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="MNX7R8C5VO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBIDOPA</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="KR87B45RGH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARBIDOPA ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7T9FYH5QMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE 101</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="59651-146-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20191021"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA211055" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20191021"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE">
+                              <originalText>White to Off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" unit="mm" value="8"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="2"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">R;1</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_0">
+               <id root="e418b1d6-2532-4e7a-8f40-2aa8f09eb358"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Carbidopa Tablets</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>Rx Only<br/>
+                        <br/>When carbidopa is to be given to carbidopa-naive patients who are being treated with levodopa, the two drugs should be given at the same time, starting with no more than 20 to 25% of the previous daily dosage of levodopa when given without carbidopa. At least twelve hours should elapse between the last dose of levodopa and initiation of therapy with carbidopa and levodopa. See the <linkHtml href="#Section_5">WARNINGS</linkHtml> and <linkHtml href="#Section_10">DOSAGE AND ADMINISTRATION</linkHtml> sections before initiating therapy.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="d50f563c-3367-45bf-b946-e4084c9bf88b"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Carbidopa, an inhibitor of aromatic amino acid decarboxylation, is a white to yellowish white powder, slightly soluble in water, very slightly soluble in ethanol (96%), practically insoluble in methylene chloride, with a molecular weight of 244.3. It is designated chemically as (–)-L-α-hydrazino-α-methyl-β-(3,4-dihydroxybenzene) propanoic acid monohydrate. Its molecular formula is C<sub>10</sub>H<sub>14</sub>N<sub>2</sub>O<sub>4</sub>•H<sub>2</sub>O and its structural formula is: </paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Each tablet contains 25 mg of carbidopa USP (anhydrous equivalent). Inactive ingredients are magnesium stearate, microcrystalline cellulose and pregelatinized starch (maize).</paragraph>
+                  <br/>
+                  <paragraph>Tablet content is expressed in terms of anhydrous carbidopa which has a molecular weight of 226.3.</paragraph>
+               </text>
+               <effectiveTime value="20210429"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>chemical structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="carbidopa-str.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="de5e2ea6-2392-436a-b9e7-1a091c1a5316"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Parkinson’s disease is a progressive, neurodegenerative disorder of the extrapyramidal nervous system affecting the mobility and control of the skeletal muscular system. Its characteristic features include resting tremor, rigidity, and bradykinetic movements.<br/>
+                     <br/> Symptomatic treatments, such as levodopa therapies, may permit the patient better mobility.</paragraph>
+               </text>
+               <effectiveTime value="20210429"/>
+               <component>
+                  <section ID="Section_2.1">
+                     <id root="bb5d05a6-5901-40cb-a39a-72c1a5219ae7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Mechanism of Action</title>
+                     <text>
+                        <paragraph>Current evidence indicates that symptoms of Parkinson’s disease are related to depletion of dopamine in the corpus striatum. Administration of dopamine is ineffective in the treatment of Parkinson’s disease apparently because it does not cross the blood-brain barrier. However, levodopa, the metabolic precursor of dopamine, does cross the blood-brain barrier, and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson’s disease.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_2.2">
+                     <id root="f5f869d1-0c96-4814-8ff9-2a79ba7f968d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Pharmacodynamics</title>
+                     <text>
+                        <paragraph>When levodopa is administered orally it is rapidly decarboxylated to dopamine in extracerebral tissues so that only a small portion of a given dose is transported unchanged to the central nervous system. For this reason, large doses of levodopa are required for adequate therapeutic effect and these may often be accompanied by nausea and other adverse reactions, some of which are attributable to dopamine formed in extracerebral tissues.<br/>
+                           <br/> The incidence of levodopa-induced nausea and vomiting is less when carbidopa is used with levodopa than when levodopa is used without carbidopa. In many patients, this reduction in nausea and vomiting will permit more rapid dosage titration.<br/>
+                           <br/> Carbidopa inhibits decarboxylation of peripheral levodopa. Carbidopa has not been demonstrated to have any overt pharmacodynamic actions in the recommended doses. It does not appear to cross the blood-brain barrier readily and does not affect the metabolism of levodopa within the central nervous system at doses of carbidopa that are recommended for maximum effective inhibition of peripheral decarboxylation of levodopa.</paragraph>
+                        <paragraph>
+                           <br/> Since its decarboxylase-inhibiting activity is limited primarily to extracerebral tissues, administration of carbidopa with levodopa makes more levodopa available for transport to the brain. However, since levodopa and carbidopa compete with certain amino acids for transport across the gut wall, the absorption of levodopa and carbidopa may be impaired in some patients on a high protein diet.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_2.3">
+                     <id root="ed3a16d8-664f-4e0a-bc1f-ec0befe00c83"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Carbidopa reduces the amount of levodopa required to produce a given response by about 75% and, when administered with levodopa, increases both plasma levels and the plasma half-life of levodopa, and decreases plasma and urinary dopamine and homovanillic acid.<br/>
+                           <br/> In clinical pharmacologic studies, simultaneous administration of separate tablets of carbidopa and levodopa produced greater urinary excretion of levodopa in proportion to the excretion of dopamine when compared to the two drugs administered at separate times.<br/>
+                           <br/> Supplemental pyridoxine (vitamin B<sub>6</sub>) can be given to patients when they are receiving carbidopa and levodopa concomitantly or the fixed combination carbidopa-levodopa or carbidopa-levodopa extended release. Previous reports in the medical literature cautioned that high doses of vitamin B<sub>6</sub> should not be taken by patients on levodopa therapy alone because exogenously administered pyridoxine would enhance the metabolism of levodopa to dopamine. The introduction of carbidopa to levodopa therapy, which inhibits the peripheral decarboxylation of levodopa to dopamine, counteracts the metabolic-enhancing effect of pyridoxine.<br/>
+                           <br/> Carbidopa is combined with levodopa in carbidopa-levodopa and carbidopa-levodopa extended release tablets.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="6f3fde0b-8d8c-43c7-a873-ad12a21ef808"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Carbidopa tablets are indicated for use with carbidopa-levodopa or with levodopa in the treatment of the symptoms of idiopathic Parkinson’s disease (paralysis agitans), postencephalitic parkinsonism, and symptomatic parkinsonism, which may follow injury to the nervous system by carbon monoxide intoxication and/or manganese intoxication.<br/>
+                     <br/> Carbidopa tablets are for use with carbidopa-levodopa in patients for whom the dosage of carbidopa-levodopa provides less than adequate daily dosage (usually 70 mg daily) of carbidopa.<br/>
+                     <br/> Carbidopa tablets are for use with levodopa in the occasional patient whose dosage requirement of carbidopa and levodopa necessitates separate titration of each medication.<br/>
+                     <br/> Carbidopa tablets are used with carbidopa-levodopa or with levodopa to permit the administration of lower doses of levodopa with reduced nausea and vomiting, more rapid dosage titration, and with a somewhat smoother response. However, patients with markedly irregular (“on-off”) responses to levodopa have not been shown to benefit from the addition of carbidopa.<br/>
+                     <br/> Since carbidopa prevents the reversal of levodopa effects caused by pyridoxine, supplemental pyridoxine (vitamin B<sub>6</sub>), can be given to patients when they are receiving carbidopa and levodopa concomitantly or as carbidopa-levodopa.<br/>
+                     <br/> Although the administration of carbidopa tablets permits control of parkinsonism and Parkinson’s disease with much lower doses of levodopa, there is no conclusive evidence at present that this is beneficial other than in reducing nausea and vomiting, permitting more rapid titration, and providing a somewhat smoother response to levodopa.<br/>
+                     <br/> Certain patients who responded poorly to levodopa alone have improved when carbidopa and levodopa were given concurrently. This was most likely due to decreased peripheral decarboxylation of levodopa rather than to a primary effect of carbidopa on the peripheral nervous system. Carbidopa has not been shown to enhance the intrinsic efficacy of levodopa.<br/>
+                     <br/> In deciding whether to give carbidopa tablets with carbidopa-levodopa or with levodopa to patients who have nausea and/or vomiting, the physician should be aware that, while many patients may be expected to improve, some may not. Since one cannot predict which patients are likely to improve, this can only be determined by a trial of therapy. It should be further noted that in controlled trials comparing carbidopa and levodopa with levodopa alone, about half the patients with nausea and/or vomiting on levodopa alone improved spontaneously despite being retained on the same dose of levodopa during the controlled portion of the trial.</paragraph>
+               </text>
+               <effectiveTime value="20210429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="9890ac1c-4cf7-4e81-9f8c-ebe3e401c6a6"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Carbidopa tablets are contraindicated in patients with known hypersensitivity to any component of this drug. <br/>
+                     <br/> Nonselective monoamine oxidase (MAO) inhibitors are contraindicated for use with levodopa or carbidopa-levodopa combination products with or without carbidopa. These inhibitors must be discontinued at least two weeks prior to initiating therapy with levodopa. Carbidopa-levodopa or levodopa may be administered concomitantly with the manufacturer’s recommended dose of an MAO inhibitor with selectivity for MAO type B (e.g., selegiline HCl) (see <content styleCode="bold">
+                        <linkHtml href="#Section_6">PRECAUTIONS</linkHtml>
+                     </content>
+                     <content styleCode="bold">, </content>
+                     <content styleCode="bold">
+                        <linkHtml href="#Section_6.9">Drug Interactions</linkHtml>
+                     </content>). <br/>
+                     <br/> Levodopa or carbidopa-levodopa products, with or without carbidopa, are contra-indicated in patients with narrow-angle glaucoma.</paragraph>
+               </text>
+               <effectiveTime value="20210429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="3f88a42a-3693-4f15-93f8-623f53705408"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Carbidopa has no antiparkinsonian effect when given alone. It is indicated for use with carbidopa-levodopa or levodopa. Carbidopa does not decrease adverse reactions due to central effects of levodopa.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">When carbidopa is to be given to carbidopa-naive patients who are being treated with levodopa alone, the two drugs should be given at the same time.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">At least twelve hours should elapse between the last dose of levodopa and initiation of therapy with carbidopa and levodopa in combination. Start with no more than one-fifth (20%) to one-fourth (25%) of the previous daily dosage of levodopa when given without carbidopa. See the <linkHtml href="#Section_10">DOSAGE AND ADMINISTRATION</linkHtml> section before initiating therapy.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The addition of carbidopa with levodopa or carbidopa-levodopa reduces the peripheral effects (nausea, vomiting) due to decarboxylation of levodopa; however, carbidopa does not decrease the adverse reactions due to the central effects of levodopa. Because carbidopa permits more levodopa to reach the brain and more dopamine to be formed, certain adverse central nervous system (CNS) effects, e.g., dyskinesias (involuntary movements), may occur at lower dosages and sooner with levodopa in combination with carbidopa than with levodopa alone.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210429"/>
+               <component>
+                  <section ID="Section_5.1">
+                     <id root="d3157446-2394-4cb2-be3c-c1795cf6519f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Falling Asleep During Activities of Daily Living and Somnolence</title>
+                     <text>
+                        <paragraph>Patients taking carbidopa-levodopa products alone or with other dopaminergic drugs have reported suddenly falling asleep without prior warning of sleepiness while engaged in activities of daily living (includes operation of motor vehicles). Some of these episodes resulted in automobile accidents. Although many of these patients reported somnolence while on dopaminergic medications, some did perceive that they had no warning signs, such as excessive drowsiness, and believed that they were alert immediately prior to the event. Some patients reported these events one year after the initiation of treatment.</paragraph>
+                        <br/>
+                        <paragraph>Falling asleep while engaged in activities of daily living usually occurs in patients experiencing pre-existing somnolence, although some patients may not give such a history. For this reason, prescribers should continually reassess patients for drowsiness or sleepiness especially since some of the events occur after the start of treatment. Prescribers should be aware that patients may not acknowledge drowsiness or sleepiness until directly questioned about drowsiness or sleepiness during specific activities. Patients who have already experienced somnolence or an episode of sudden sleep onset should not participate in these activities during treatment with carbidopa when taking it with other carbidopa-levodopa products.</paragraph>
+                        <br/>
+                        <paragraph>Before initiating treatment with carbidopa, advise patients about the potential to develop drowsiness and ask specifically about factors that may increase the risk for somnolence with carbidopa such as the use of concomitant sedating medications and the presence of sleep disorders. Consider discontinuing carbidopa in patients who report significant daytime sleepiness or episodes of falling asleep during activities that require active participation (e.g., conversations, eating, etc.). If treatment with carbidopa continues, patients should be advised not to drive and to avoid other potentially dangerous activities that might result in harm if the patients become somnolent. There is insufficient information to establish that dose reduction will eliminate episodes of falling asleep while engaged in activities of daily living.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_5.2">
+                     <id root="d2edc043-4eae-47d8-a315-02c7ef875da8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Hyperpyrexia and Confusion:</title>
+                     <text>
+                        <paragraph>Sporadic cases of a symptom complex resembling neuroleptic malignant syndrome (NMS) have been reported in association with dose reductions or withdrawal of certain antiparkinsonian agents such as levodopa, carbidopa-levodopa, or carbidopa-levodopa extended-release. Therefore, patients should be observed carefully when the dosage of levodopa or carbidopa-levodopa is reduced abruptly or discontinued, especially if the patient is receiving neuroleptics.</paragraph>
+                        <br/>
+                        <paragraph>NMS is an uncommon but life-threatening syndrome characterized by fever or hyperthermia. Neurological findings, including muscle rigidity, involuntary movements, altered consciousness, mental status changes; other disturbances, such as autonomic dysfunction, tachycardia, tachypnea, sweating, hyper-or hypotension; laboratory findings, such as creatine phosphokinase elevation, leukocytosis, myoglobinuria, and increased serum myoglobin, have been reported.</paragraph>
+                        <br/>
+                        <paragraph>The early diagnosis of this condition is important for the appropriate management of these patients. Considering NMS as a possible diagnosis and ruling out other acute illnesses (e.g., pneumonia, systemic infection, etc.) is essential. This may be especially complex if the clinical presentation includes both serious medical illness and untreated or inadequately treated extrapyramidal signs and symptoms (EPS). Other important considerations in the differential diagnosis include central anticholinergic toxicity, heat stroke, drug fever, and primary central nervous system (CNS) pathology.</paragraph>
+                        <br/>
+                        <paragraph>The management of NMS should include: 1) intensive symptomatic treatment and medical monitoring and 2) treatment of any concomitant serious medical problems for which specific treatments are available. Dopamine agonists, such as bromocriptine, and muscle relaxants, such as dantrolene, are often used in the treatment of NMS; however, their effectiveness has not been demonstrated in controlled studies.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="f0d36775-cd49-4047-920c-95d876d3e23d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20210429"/>
+               <component>
+                  <section ID="Section_6.1">
+                     <id root="fe1448bd-71d2-4846-87aa-257372f48122"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>As with levodopa alone, periodic evaluations of hepatic, hematopoietic, cardiovascular, and renal function are recommended during extended concomitant therapy with carbidopa and levodopa, or with carbidopa and carbidopa-levodopa or any combination of these drugs.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.2">
+                     <id root="889b3f39-ecc9-48af-83eb-f21cfeab9967"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Impulse Control/Compulsive Behaviors</title>
+                     <text>
+                        <paragraph>Postmarketing reports suggest that patients treated with anti-Parkinson medications can experience intense urges to gamble, increased sexual urges, intense urges to spend money uncontrollably, binge eating, and other intense urges. Patients may be unable to control these urges while taking one or more of the medications that are used for the treatment of Parkinson’s disease and that increase central dopaminergic tone, including carbidopa taken with levodopa and carbidopa. In some cases, although not all, these urges were reported to have stopped when the dose of anti-Parkinson medications was reduced or discontinued. Because patients may not recognize these behaviors as abnormal it is important for prescribers to specifically ask patients or their caregivers about the development of new or increased gambling urges, sexual urges, uncontrolled spending or other urges while being treated with carbidopa. Physicians should consider dose reduction or stopping carbidopa or levodopa if a patient develops such urges while taking carbidopa with carbidopa/levodopa.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.3">
+                     <id root="e9c48a7d-e402-4bde-bb8c-1673e4c4dbff"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Hallucinations/Psychotic-Like Behavior</title>
+                     <text>
+                        <paragraph>Hallucinations and psychotic like behavior have been reported with dopaminergic medications. In general, hallucinations present shortly after the initiation of therapy and may be responsive to dose reduction in levodopa. Hallucinations may be accompanied by confusion and to a lesser extent sleep disorder (insomnia) and excessive dreaming. Carbidopa when taken with carbidopa-levodopa may have similar effects on thinking and behavior. This abnormal thinking and behavior may present with one or more symptoms, including paranoid ideation, delusions, hallucinations, confusion, psychotic-like behavior, disorientation, aggressive behavior, agitation, and delirium.</paragraph>
+                        <br/>
+                        <paragraph>Ordinarily, patients with a major psychotic disorder should not be treated with carbidopa and carbidopa-levodopa, because of the risk of exacerbating psychosis. In addition, certain medications used to treat psychosis may exacerbate the symptoms of Parkinson’s disease and may decrease the effectiveness of carbidopa.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.4">
+                     <id root="8faf4e40-2507-443f-ade2-d5aa0cdcc9d2"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Dyskinesia</title>
+                     <text>
+                        <paragraph>Carbidopa may potentiate the dopaminergic side effects of levodopa and may cause or exacerbate preexisting dyskinesia.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.5">
+                     <id root="acb8005f-0d8d-4e44-8526-09815e361902"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Depression</title>
+                     <text>
+                        <paragraph>Patients treated with carbidopa and carbidopa-levodopa should be observed carefully for the development of depression with concomitant suicidal tendencies.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.6">
+                     <id root="ebd29f8b-af4e-42ac-9fc5-a9d30aed0c79"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Melanoma</title>
+                     <text>
+                        <paragraph>Epidemiological studies have shown that patients with Parkinson’s disease have a higher risk (2- to approximately 6-fold higher) of developing melanoma than the general population. Whether the observed increased risk was due to Parkinson’s disease or other factors, such as drugs used to treat Parkinson’s disease, is unclear.</paragraph>
+                        <br/>
+                        <paragraph>For the reasons stated above, patients and providers are advised to monitor for melanomas frequently and on a regular basis when using carbidopa tablets for Parkinson’s disease.</paragraph>
+                        <br/>
+                        <paragraph>Ideally, periodic skin examinations should be performed by appropriately qualified individuals (e.g., dermatologists).</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.7">
+                     <id root="84f25914-6e68-48de-8c9f-8f96a5e11e1f"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>It is important that carbidopa with levodopa be taken at regular intervals according to the schedule outlined by the health care provider. Caution patients not to change the prescribed dosage regimen and not to add any additional antiparkinson medications, including other carbidopa-levodopa preparations without first consulting a physician.</paragraph>
+                        <br/>
+                        <paragraph>Advise patients that sometimes a ‘wearing-off’ effect may occur at the end of the dosing interval. Tell patients to notify the prescriber if such response poses a problem to lifestyle.</paragraph>
+                        <br/>
+                        <paragraph>Patients should be advised that occasionally dark color (red, brown, or black) may appear in saliva, urine, or sweat after ingestion of carbidopa and levodopa. Although the color appears to be clinically insignificant, garments may become discolored.</paragraph>
+                        <br/>
+                        <paragraph>The patient should be advised that a change in diet to foods that are high in protein may delay the absorption of levodopa and may reduce the amount taken up in the circulation. Excessive acidity also delays stomach emptying thus delaying the absorption of levodopa. Iron salts (such as in multivitamin tablets) may also reduce the amount of levodopa available in the body. The above factors may reduce the clinical effectiveness of the carbidopa and levodopa therapy.</paragraph>
+                        <br/>
+                        <paragraph>Alert patients to the possibility of sudden onset of sleep during daily activities, in some cases without awareness or warning signs, when they are taking dopaminergic agents, including levodopa. Advise patients to exercise caution while driving or operating machinery and that if they have experience somnolence and/or sudden sleep onset, they must refrain from these activities. (See <content styleCode="bold">
+                              <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                           </content>
+                           <content styleCode="bold">, </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#Section_5.1">Falling Asleep During Activities of Daily Living and Somnolence General</linkHtml>
+                           </content>.)</paragraph>
+                        <br/>
+                        <paragraph>There have been reports of patients experiencing intense urges to gamble, increased sexual urges, and other intense urges, and the inability to control these urges while taking one or more of the medications that increase central dopaminergic tone and that are generally used for the treatment of Parkinson’s disease, including carbidopa and levodopa. Although it is not proven that the medications caused these events, these urges were reported to have stopped in some cases when the dose was reduced or the medication was stopped. Prescribers should ask patients about the development of new or increased gambling urges, sexual urges, or other intense urges while taking carbidopa and levodopa. Physicians should consider dose reduction or stopping carbidopa and levodopa if a patient develops such urges while taking carbidopa with carbidopa/levodopa (See <content styleCode="bold">
+                              <linkHtml href="#Section_6">PRECAUTIONS</linkHtml>
+                           </content>
+                           <content styleCode="bold">, </content>
+                           <content styleCode="bold">
+                              <linkHtml href="#Section_6.2">Impulse Control/Compulsive Behaviors</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.8">
+                     <id root="5c8b1570-a270-4cee-89ad-d7e4d69272a5"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Abnormalities in laboratory tests may include elevations of liver function tests such as alkaline phosphatase, SGOT (AST), SGPT (ALT), lactic dehydrogenase, and bilirubin. Abnormalities in blood urea nitrogen and positive Coombs test have also been reported. Commonly, levels of blood urea nitrogen, creatinine, and uric acid are lower during concomitant administration of carbidopa and levodopa than with levodopa alone.</paragraph>
+                        <br/>
+                        <paragraph>Levodopa and carbidopa-levodopa combination products may cause a false-positive reaction for urinary ketone bodies when a test tape is used for determination of ketonuria. This reaction will not be altered by boiling the urine specimen. False-negative tests may result with the use of glucose-oxidase methods of testing for glucosuria.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.9">
+                     <id root="1549e76e-d701-4f9e-b18b-7cb57ed6455c"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Caution should be exercised when the following drugs are administered concomitantly with carbidopa given with levodopa or carbidopa-levodopa fixed dose combination products.</content>
+                        </paragraph>
+                        <br/>
+                        <paragraph>Symptomatic postural hypotension has occurred when carbidopa, given with levodopa or carbidopa-levodopa combination products, was added to the treatment of a patient receiving antihypertensive drugs. Therefore, when therapy with carbidopa, given with or without levodopa or carbidopa-levodopa combination products, is started, dosage adjustment of the antihypertensive drug may be required.</paragraph>
+                        <br/>
+                        <paragraph>For patients receiving monoamine oxidase inhibitors (Type A or B), see <content styleCode="bold">
+                              <linkHtml href="#Section_4">CONTRAINDICATIONS</linkHtml>.</content> Concomitant therapy with selegiline or rasigiline and carbidopa and carbidopa-levodopa may be associated with severe orthostatic hypotension not attributable to carbidopa-levodopa alone (see <content styleCode="bold">
+                              <linkHtml href="#Section_4">CONTRAINDICATIONS</linkHtml>
+                           </content>).</paragraph>
+                        <br/>
+                        <paragraph>There have been rare reports of adverse reactions, including hypertension and dyskinesia, resulting from the concomitant use of tricyclic antidepressants and carbidopa-levodopa preparations.</paragraph>
+                        <br/>
+                        <paragraph>Dopamine D<sub>2</sub> receptor antagonists (e.g., phenothiazines, butyrophenones, risperidone) and isoniazid may reduce the therapeutic effects of levodopa. In addition, the beneficial effects of levodopa in Parkinson’s disease have been reported to be reversed by phenytoin and papaverine. Patients taking these drugs with carbidopa and levodopa or carbidopa-levodopa combination products should be carefully observed for loss of therapeutic response</paragraph>
+                        <br/>
+                        <paragraph>Carbidopa and iron salts or multi vitamins containing iron salts should be co administered with caution. Iron salts can form chelates with levodopa and carbidopa and consequently reduce the bioavailability of carbidopa and levodopa.</paragraph>
+                        <br/>
+                        <paragraph>Although metoclopramide may increase the bioavailability of levodopa by increasing gastric emptying, metoclopramide may also adversely affect disease control by its dopamine receptor antagonistic properties.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.10">
+                     <id root="3f1da2e4-45da-476a-bde0-4ba6e9ec0a50"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <effectiveTime value="20210429"/>
+                     <component>
+                        <section ID="Section_6.10.1">
+                           <id root="235038b2-df37-4c4e-8328-ed592b32b064"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                           <title>
+                              <content styleCode="bold">Carcinogenesis</content>
+                           </title>
+                           <text>
+                              <paragraph>There were no significant differences between treated and control rats with respect to mortality or neoplasia in a 96-week study of carbidopa at oral doses of 25, 45, or 135 mg/kg/day. Combinations of carbidopa and levodopa (10 to 20, 10 to 50, 10 to 100 mg/kg/day) were given orally to rats for 106 weeks. No effect on mortality or incidence and type of neoplasia was seen when compared to concurrent controls.</paragraph>
+                           </text>
+                           <effectiveTime value="20210429"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Section_6.10.2">
+                           <id root="2f4d6d0a-a60e-456a-b8d5-47fd8f684acb"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                           <title>
+                              <content styleCode="bold">Mutagenesis</content>
+                           </title>
+                           <text>
+                              <paragraph>Mutagenicity studies have not been performed with either carbidopa or the combination of carbidopa and levodopa.</paragraph>
+                           </text>
+                           <effectiveTime value="20210429"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Section_6.10.3">
+                           <id root="34c2249e-6229-4368-8a61-3371f5db407b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                           <title>
+                              <content styleCode="bold">Fertility</content>
+                           </title>
+                           <text>
+                              <paragraph>Carbidopa had no effect on the mating performance, fertility, or survival of the young when administered orally to rats at doses of 30, 60, or 120 mg/kg/day. The highest dose caused a moderate decrease in body weight gain in males.</paragraph>
+                              <br/>
+                              <paragraph>The administration of carbidopa-levodopa at dose levels of 10 to 20, 10 to 50, or 10 to 100 mg/kg/day did not adversely affect the fertility of male or female rats, their reproductive performance, or the growth and survival of the young.</paragraph>
+                           </text>
+                           <effectiveTime value="20210429"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Section_6.10.4">
+                           <id root="0dd0407d-1bdb-481e-912b-a3379d07cfb5"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                           <title>
+                              <content styleCode="bold">Pregnancy</content>
+                           </title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Pregnancy Category C: </content>There are no adequate and well-controlled studies with carbidopa in pregnant women. It has been reported from individual cases that levodopa crosses the human placental barrier, enters the fetus, and is metabolized. Carbidopa concentrations in fetal tissue appeared to be minimal. Carbidopa should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                              <br/>
+                              <paragraph>Carbidopa, at doses as high as 120 mg/kg/day, was without teratogenic effects in the mouse or rabbit. In the rabbit, but not in the mouse, carbidopa-levodopa produced visceral anomalies, similar to those seen with levodopa alone, at approximately 7 times the maximum recommended human dose. The teratogenic effect of levodopa in rabbits was unchanged by the concomitant administration of carbidopa.</paragraph>
+                           </text>
+                           <effectiveTime value="20210429"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Section_6.10.5">
+                           <id root="ca4618fb-c3a4-4265-aed9-43051254226f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                           <title>
+                              <content styleCode="bold">Nursing Mothers</content>
+                           </title>
+                           <text>
+                              <paragraph>It is not known whether carbidopa is excreted in human milk. Because many drugs are excreted in human milk, and because of their potential for serious adverse reactions in nursing infants, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the nursing woman.<br/>
+                                 <br/>
+                                 <content styleCode="bold">Pediatric Use</content>
+                                 <br/>
+                                 <br/> Safety and effectiveness in pediatric patients have not been established, and use of the drug in patients below the age of 18 is not recommended.</paragraph>
+                           </text>
+                           <effectiveTime value="20210429"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.11">
+                     <id root="209a59e3-0129-4ae7-b5b7-e08a080ab86f"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of carbidopa did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting   at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and concomitant disease and other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="1bc87c9b-332e-4814-8fd7-9bdcdf0f0023"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Carbidopa has not been demonstrated to have any overt pharmacodynamic actions in the recommended doses. The only adverse reactions that have been observed have been with concomitant use of carbidopa with other drugs such as levodopa, and with carbidopa-levodopa combination products.</paragraph>
+                  <br/>
+                  <paragraph>When carbidopa is administered concomitantly with levodopa or carbidopa-levodopa combination products, the most common adverse reactions have included dyskinesias such as choreiform, dystonic, and other involuntary movements, and nausea. Other adverse reactions reported with carbidopa when administered concomitantly with levodopa alone or carbidopa-levodopa combination products were psychotic episodes including delusions, hallucinations, and paranoid ideation, depression with or without development of suicidal tendencies, and dementia. Convulsions also have occurred; however, a causal relationship with concomitant use of carbidopa and levodopa has not been established.</paragraph>
+                  <br/>
+                  <paragraph>The following other adverse reactions have been reported with levodopa and carbidopa-levodopa combination products. These same adverse reactions may also occur when carbidopa is administered with these products.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Body as a Whole: </content>abdominal pain and distress, asthenia, chest pain, fatigue.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular: </content>cardiac irregularities, hypertension, myocardial infarction, hypotension including orthostatic hypotension, palpitation, phlebitis, syncope.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal: </content>anorexia, bruxism, burning sensation of the tongue, constipation, dark saliva, development of duodenal ulcer, diarrhea, dry mouth, dyspepsia, dysphagia, flatulence, gastrointestinal bleeding, gastrointestinal pain, heartburn, hiccups, sialorrhea, taste alterations, vomiting.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Hematologic: </content>hemolytic and non-hemolytic anemia, leukopenia, thrombocytopenia, agranulocytosis.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Hypersensitivity: </content>angioedema, urticaria, pruritus, Henoch-Schonlein purpura, bullous lesions (including pemphigus-like reactions).</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Metabolic:</content> edema, weight gain, weight loss.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Musculoskeletal: </content>back pain, leg pain, muscle cramps, shoulder pain.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Nervous System/Psychiatric: </content>Psychotic episodes including delusions, hallucinations and paranoid ideation, neuroleptic malignant syndrome (NMS, see <content styleCode="bold">
+                        <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                     </content>), bradykinetic episodes (“on-off” phenomenon), confusion, agitation, dizziness, somnolence, dream abnormalities including nightmares, insomnia, paresthesia, headache, depression with or without development of suicidal tendencies, dementia, pathological gambling, increased libido including hypersexuality, impulse control symptoms. Convulsions also have occurred; however, a causal relationship with carbidopa and levodopa, has not been established.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory: </content>upper respiratory infection, dyspnea, pharyngeal pain, cough.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Skin: </content>flushing, increased sweating, malignant melanoma (see also <content styleCode="bold">
+                        <linkHtml href="#Section_4">CONTRAINDICATIONS</linkHtml>
+                     </content>), rash, alopecia, dark sweat.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Special Senses: </content>oculogyric crises, diplopia, blurred vision, dilated pupils.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Urogenital: </content>dark urine, priapism, urinary frequency, urinary incontinence, urinary retention, urinary tract infection.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Laboratory Tests: </content>abnormalities in alkaline phosphatase, SGOT (AST), SGPT (ALT), lactic dehydrogenase, bilirubin, blood urea nitrogen (BUN), Coombs test; elevated serum glucose; decreased hemoglobin and hematocrit; decreased white blood cell count and serum potassium; increased serum creatinine and uric acid; white blood cells, bacteria and blood in the urine; protein and glucose in the urine.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="italics">Miscellaneous: </content>bizarre breathing patterns, faintness, hoarseness, hot flashes, malaise, neuroleptic malignant syndrome, sense of stimulation.</paragraph>
+               </text>
+               <effectiveTime value="20210429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="dfd813c0-dc92-40df-9a02-61b80819fb4f"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>No reports of overdose with carbidopa have been received. Management of overdosage with carbidopa is the same as that with levodopa or carbidopa-levodopa preparations.</paragraph>
+                  <br/>
+                  <paragraph>In the event of overdosage, general supportive measures should be employed, along with immediate gastric lavage. Intravenous fluids should be administered judiciously, and an adequate airway maintained. Electrocardiographic monitoring should be instituted and the patient carefully observed for the development of arrhythmias; if required, appropriate antiarrhythmic therapy should be given. The possibility that the patient may have taken other drugs as well as carbidopa should be taken into consideration. To date, no experience has been reported with dialysis; hence, its value in overdosage is not known. Pyridoxine is not effective in reversing the actions of carbidopa.</paragraph>
+                  <br/>
+                  <paragraph>Based on studies in which high doses of levodopa and/or carbidopa were administered, a significant proportion of rats and mice given single oral doses of levodopa of approximately 1500 to 2000 mg/kg are expected to die. A significant proportion of infant rats of both sexes are expected to die at a dose of 800 mg/kg. A significant proportion of rats are expected to die after treatment with similar doses of carbidopa. The addition of carbidopa in a 1:10 ratio with levodopa increases the dose at which a significant proportion of mice are expected to die to 3360 mg/kg.</paragraph>
+               </text>
+               <effectiveTime value="20210429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="287e7c51-a1ad-486c-86bf-f5de955831be"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Whether given with carbidopa-levodopa or with levodopa, the optimal daily dose of carbidopa must be determined by careful titration. Most patients respond to a 1:10 proportion of carbidopa and levodopa, provided the daily dosage of carbidopa is 70 mg or more a day. The maximum daily dosage of carbidopa should not exceed 200 mg, since clinical experience with larger dosages is limited. If the patient is taking carbidopa-levodopa, the amount of carbidopa in carbidopa-levodopa should be considered when calculating the total amount of carbidopa to be administered each day.</paragraph>
+               </text>
+               <effectiveTime value="20210429"/>
+               <component>
+                  <section ID="Section_10.1">
+                     <id root="2f874d14-2929-4688-b12f-e88f5c7e0f00"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Patients Receiving Carbidopa-Levodopa Who Require Additional Carbidopa</title>
+                     <text>
+                        <paragraph>Some patients taking carbidopa-levodopa may not have adequate reduction in nausea and vomiting when the dosage of carbidopa is less than 70 mg a day, and the dosage of levodopa is less than 700 mg a day. When these patients are taking carbidopa-levodopa, 25 mg of carbidopa may be given with the first dose of carbidopa-levodopa each day. Additional doses of 12.5 mg or 25 mg may be given during the day with each dose of carbidopa-levodopa. Carbidopa may be given with any dose carbidopa-levodopa as required for optimum therapeutic response. The maximum daily dosage of carbidopa, given as carbidopa and as carbidopa-levodopa), should not exceed 200 mg.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_10.2">
+                     <id root="65c1ea94-5a0b-4c07-a9d4-e7af622e6600"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Patients Requiring Individual Titration of Carbidopa and Levodopa Dosage</title>
+                     <text>
+                        <paragraph>Although carbidopa-levodopa is the most frequently used of carbidopa and levodopa administration, there may be an occasional patient who requires individually titrated doses of these two drugs. <content styleCode="bold">In these patients, </content>
+                           <content styleCode="bold">carbidopa should be initiated at a dosage of 25 mg three or four times a day. The two drugs should be given at the same time, starting with no more than one-fifth (20%) to one-fourth (25%) of the previous or recommended daily dosage of levodopa when given without carbidopa. In patients already receiving levodopa therapy, at least twelve hours should elapse between the last dose of levodopa and initiation of therapy with carbidopa and levodopa. A convenient way to initiate therapy in these patients is in the morning following a night when the patient has not taken levodopa for at least twelve hours. </content>
+                        </paragraph>
+                        <br/>
+                        <paragraph>Health care providers who prescribe separate doses of carbidopa and levodopa should be thoroughly familiar with the directions for use of each drug.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_10.3">
+                     <id root="35ee6f42-c7c2-48c2-857b-2799ababd895"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Dosage Adjustment</title>
+                     <text>
+                        <paragraph>Dosage of carbidopa may be adjusted by adding or omitting one-half or one tablet a day. Because both therapeutic and adverse responses occur more rapidly with combined therapy than when only levodopa is given, patients should be monitored closely during the dose adjustment period. Specifically, involuntary movements will occur more rapidly when carbidopa and levodopa are given concomitantly than when levodopa is given without carbidopa. The occurrence of involuntary movements may require dosage reduction. Blepharospasm may be a useful early sign of excess dosage in some patients.</paragraph>
+                        <br/>
+                        <paragraph>Current evidence indicates other standard antiparkinsonian drugs may be continued while carbidopa and levodopa are being administered. However, the dosage of such other standard antiparkinsonian drugs may require adjustment.</paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_10.4">
+                     <id root="3faa38e1-a0b9-4690-8fc8-32edb241b82c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Interruption of Therapy</title>
+                     <text>
+                        <paragraph>Sporadic cases of hyperpyrexia and confusion have been associated with dose reductions and withdrawal of carbidopa-Levodopa) or carbidopa-levodopa Extended Release. Patients should be observed carefully if abrupt reduction or discontinuation of carbidopa-levodopa or carbidopa-levodopa Extended-Release is required, especially if the patient is receiving neuroleptics. (See <content styleCode="bold">
+                              <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                           </content>.)<content styleCode="bold"/>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold"> </content>
+                        </paragraph>
+                        <paragraph>If general anesthesia is required, therapy may be continued as long as the patient is permitted to take fluids and medication by mouth. When therapy is interrupted temporarily, the patient should be observed for symptoms resembling NMS, and the usual daily dosage may be resumed as soon as the patient is able to take medication orally.<content styleCode="bold"/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20210429"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="8a4ead73-2035-4fe7-88cd-927195c6d848"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Carbidopa Tablets, 25 mg:</content> White to off-white, round shaped, uncoated scored tablets debossed with “R” above the score line and “1” below the score line on one side and plain on other side.  </paragraph>
+                  <br/>
+                  <paragraph>They are supplied as follows:</paragraph>
+                  <br/>
+                  <paragraph>Bottles of 100’s                      NDC 59651-146-01</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Storage</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at</content> 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <br/>
+                  <br/>
+                  <paragraph>Distributed by:<br/>
+                     <content styleCode="bold">Aurobindo Pharma USA, Inc.<br/>
+                     </content>279 Princeton-Hightstown Road<br/> East Windsor, NJ 08520<br/>
+                     <br/> Manufactured by: <br/>
+                     <content styleCode="bold">Aurobindo Pharma Limited<br/>
+                     </content>Hyderabad-500 038, India<br/>
+                     <br/> Issued: June 2018</paragraph>
+               </text>
+               <effectiveTime value="20210429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="79142140-eec6-423d-a588-4b8d4ac32258"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL - 25 mg (100 Tablets Bottle)</title>
+               <text>
+                  <paragraph>NDC 59651-146-01   <br/>
+                     <br/>
+                     <content styleCode="bold">Carbidopa Tablets    <br/> 25 mg            <br/> (Anhydrous equivalent)<br/> Rx only               100 Tablets   <br/> AUROBINDO  </content>         </paragraph>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20210429"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>figure 1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="carbidopa-fig1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

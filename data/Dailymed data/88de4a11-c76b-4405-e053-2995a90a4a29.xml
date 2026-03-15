@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="88de4a11-c76b-4405-e053-2995a90a4a29"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>METRONIDAZOLE 1% / MUPIROCIN 2%</title>
+   <effectiveTime value="20190514"/>
+   <setId root="88de4a11-c76a-4405-e053-2995a90a4a29"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="080105003"/>
+            <name>Sincerus Florida, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="080105003"/>
+                        <name>Sincerus Florida, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72934-5151" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="88de6e3b-9ca7-7174-e053-2995a90a36e1"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20190514"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72934-5151" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>METRONIDAZOLE 1% /  MUPIROCIN 2% /</name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>METRONIDAZOLE 1% / MUPIROCIN 2% /</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="2"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="D0GX863OA5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MUPIROCIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="D0GX863OA5" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MUPIROCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1"/>
+                              <denominator unit="g" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="140QMO216E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METRONIDAZOLE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="140QMO216E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METRONIDAZOLE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72934-5151-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43174" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PUMP"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190514"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190514"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_88de5de3-8e4c-71f6-e053-2a95a90a160e">
+               <id root="88de5de3-8e4b-71f6-e053-2a95a90a160e"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title>Directions for use</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_88de6337-686b-7248-e053-2a95a90ae412"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190515"/>
+               <component>
+                  <observationMedia ID="img_88de6337-686b-7248-e053-2a95a90ae412">
+                     <text>e</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="-2 end.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_88de65ac-1e2f-1294-e053-2a95a90a9c3b">
+               <id root="88de65ac-1e2e-1294-e053-2a95a90a9c3b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Sincerus Florida, LLC. Adverse reactions</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_88de66ff-103b-71f4-e053-2a95a90a3fd5"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190515"/>
+               <component>
+                  <observationMedia ID="img_88de66ff-103b-71f4-e053-2a95a90a3fd5">
+                     <text>d</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="-2 end.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_88de6337-686d-7248-e053-2a95a90ae412">
+               <id root="88de6337-686c-7248-e053-2a95a90ae412"/>
+               <code code="60559-2" codeSystem="2.16.840.1.113883.6.1" displayName="COMPONENTS"/>
+               <title>Active, Inactive</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_88de5de3-8e4d-71f6-e053-2a95a90a160e"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190515"/>
+               <component>
+                  <observationMedia ID="img_88de5de3-8e4d-71f6-e053-2a95a90a160e">
+                     <text>s</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="5151-2 middle.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_88de6337-6868-7248-e053-2a95a90ae412">
+               <id root="88de6337-6867-7248-e053-2a95a90ae412"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>NDC 72934- 5151-2 METRONIDAZOLE USP 1% / MUPIROCIN USP 2%, Ointment 30gm</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_88de66ff-103a-71f4-e053-2a95a90a3fd5"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190515"/>
+               <component>
+                  <observationMedia ID="img_88de66ff-103a-71f4-e053-2a95a90a3fd5">
+                     <text>s</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="5151-2 front.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

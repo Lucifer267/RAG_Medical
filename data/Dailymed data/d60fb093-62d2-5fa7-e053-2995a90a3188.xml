@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="d60fb093-62d2-5fa7-e053-2995a90a3188"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20220120"/>
+   <setId root="4e400aef-05d0-2aea-e054-00144ff88e88"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="828374897"/>
+            <name>RedPharm Drug, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="828374897"/>
+                        <name>RedPharm Drug, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67296-1053" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d60fb045-442d-7909-e053-2995a90a3b14"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20220120"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67296-1053" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Terbutaline Sulfate</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Terbutaline Sulfate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0527-1318" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="2.5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="576PU70Y8E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TERBUTALINE SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="N8ONU3L3PG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TERBUTALINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FZ989GH94E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="6" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67296-1053-6" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20050325"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA077152" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20050325"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="7" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">LCI;1318</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e403fe2-730e-3453-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a57-e2d6-e053-2995a90a93ce"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>BOXED WARNING</title>
+               <text>
+                  <paragraph>WARNING: TOCOLYSIS</paragraph>
+                  <paragraph>Oral terbutaline sulfate has not been approved and should not be used for acute or maintenance tocolysis. In particular, terbutaline sulfate should not be used for maintenance tocolysis in the outpatient or home setting. Serious adverse reactions, including death, have been reported after administration of terbutaline sulfate to pregnant women. In the mother, these adverse reactions include increased heart rate, transient hyperglycemia, hypokalemia, cardiac arrhythmias, pulmonary edema and myocardial ischemia. Increased fetal heart rate and neonatal hypoglycemia may occur as a result of maternal administration. [see CONTRAINDICATIONS, TOCOLYSIS.]</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e400aef-05d4-2aea-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a58-e2d6-e053-2995a90a93ce"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>SPL UNCLASSIFIED SECTION</title>
+               <text>
+                  <paragraph>Rx Only</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e400aef-05d6-2aea-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a5c-e2d6-e053-2995a90a93ce"/>
+               <code code="34087-7" codeSystem="2.16.840.1.113883.6.1" displayName="DEPENDENCE SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Terbutaline sulfate USP is a beta-adrenergic agonist bronchodilator available as tablets of 2.5 mg (2.05 mg of the free base) and 5 mg (4.1 mg of the free base) for oral administration. Terbutaline sulfate is ±-α-[(tert –butylamino) methyl]-3,5-dihydroxybenzyl alcohol sulfate (2:1) (salt). The molecular formula is (C12H19NO3)2 • H2SO4 and the structural formula is</paragraph>
+                  <paragraph>[Chemical Structure]</paragraph>
+                  <paragraph>Terbutaline sulfate USP is a white to gray-white crystalline powder. It is odorless or has a faint odor of acetic acid. It is soluble in water and in 0.1N hydrochloric acid, slightly soluble in methanol, and insoluble in chloroform. Its molecular weight is 548.65.</paragraph>
+                  <paragraph>Inactive Ingredients: anhydrous lactose, pregelatinized corn starch, microcrystalline cellulose, povidone, and magnesium stearate.</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e400aef-05d8-2aea-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a5d-e2d6-e053-2995a90a93ce"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>In vitro and in vivo pharmacologic studies have demonstrated that terbutaline exerts a preferential effect on beta2-adrenergic receptors. While it is recognized that beta2-adrenergic receptors are the predominant receptors in bronchial smooth muscle, data indicate that there is a population of beta2-receptors in the human heart, existing in a concentration between 10% to 50%. The precise function of these receptors has not been established (see WARNINGS). In controlled clinical studies in patients given terbutaline sulfate orally, proportionally greater changes occurred in pulmonary function parameters than in heart rate or blood pressure. While this suggests a relative preference for the beta2-receptors in man, the usual cardiovascular effects commonly associated with other sympathomimetic agents were also observed with terbutaline sulfate.</paragraph>
+                  <paragraph>The pharmacologic effects of beta-adrenergic agonists, including terbutaline, are at least in part attributable to stimulation through beta-adrenergic receptors of intracellular adenyl cyclase, the enzyme which catalyzes the conversion of adenosine triphosphate (ATP) to cyclic 3’, 5’-adenosine monophosphate (cAMP). Increased cAMP levels are associated with relaxation of bronchial smooth muscle and inhibition of release of mediators of immediate hypersensitivity from cells, especially from mast cells.</paragraph>
+                  <paragraph>Controlled clinical studies have shown that terbutaline sulfate relieves bronchospasm in chronic obstructive pulmonary disease by significantly increasing pulmonary function (e.g., an increase of 15% or more in FEV1 and in FEF25%-75%). After administration of terbutaline sulfate tablets, a measurable change in flow rate usually occurs within 30 minutes, and a clinically significant improvement in pulmonary function occurs within 60 to 120 minutes. The maximum effect usually occurs within 120 to 180 minutes. Terbutaline sulfate also produces a clinically significant decrease in airway and pulmonary resistance, which persists for 4 hours or longer. Significant bronchodilator action (as measured by airway resistance, FEF25%-75% or PEFR) has also been demonstrated for up to 8 hours in some studies.</paragraph>
+                  <paragraph>In studies comparing the effectiveness of terbutaline sulfate with that of ephedrine for up to 3 months, both drugs maintained a significant improvement in pulmonary function throughout this period of treatment.</paragraph>
+                  <paragraph>Preclinical</paragraph>
+                  <paragraph>Studies in laboratory animals (minipigs, rodents, and dogs) have demonstrated the occurrence of cardiac arrhythmias and sudden death (with histologic evidence of myocardial necrosis) when beta-agonists and methylxanthines were administered concurrently. The clinical significance of these findings is unknown.</paragraph>
+                  <paragraph>Pharmacokinetics</paragraph>
+                  <paragraph>Oral administration of 5-mg terbutaline sulfate tablets or 5 mg terbutaline sulfate in solution in 17 healthy, adult, male subjects, resulted in mean (SD) peak plasma terbutaline concentration of 8.3 (3.9) and 8.6 (3.6) ng/mL, which were observed at median (range) times of 2 (1 to 3) and 1.5 (0.5 to 3.0) hours after dosing. The mean (SD) AUC(0-48) values were 54.6 (26.8) and 53.1 (23.5) hr•ng/mL, and corresponded to a bioavailability of 103% for the tablet relative to the solution.</paragraph>
+                  <paragraph>After oral administration of terbutaline, 51 to 62 mcg/kg of body weight, to 3 healthy male subjects, peak serum levels of 3.1 to 6.2 ng/mL were observed 1 to 3 hours later. In the same study, after 3 days only 30% to 50% of the dose was recovered from urine and the remainder from the feces, which may indicate poor absorption.</paragraph>
+                  <paragraph>After an oral dose to asthmatic patients, the elimination half-life of terbutaline was approximately 3.4 hours.</paragraph>
+                  <paragraph>In comparison to oral dosing, subcutaneous administration of 0.5 mg of terbutaline sulfate to 17 healthy, adult, male subjects resulted in a mean (SD) peak plasma terbutaline concentration of 9.6 (3.6) ng/mL, which was observed at a median (range) time of 0.5 (0.08 to 1.0) hours after dosing. The mean (SD) AUC(0-48) and total body clearance values were 29.4 (14.2) hr•ng/mL, and 311 (112) mL/min, respectively. The terminal half-life was determined in 9 of the 17 subjects and had a mean (SD) of 5.7 (2.0) hours.</paragraph>
+                  <paragraph>About 90% of the drug was excreted in the urine at 96 hours after subcutaneous administration, with about 60% of this being unchanged drug. The sulfate conjugate is a major metabolite of terbutaline, and urinary excretion is the primary route of elimination.</paragraph>
+                  <paragraph>There are no reports of any clinical pharmacokinetic studies investigating dose proportionality, effect of food, or special population studies with terbutaline.</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e400aef-05da-2aea-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a5e-e2d6-e053-2995a90a93ce"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Terbutaline sulfate is indicated for the prevention and reversal of bronchospasm in patients 12 years of age and older with asthma and reversible bronchospasm associated with bronchitis and emphysema.</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e400aef-05dc-2aea-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a59-e2d6-e053-2995a90a93ce"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>1. Tocolysis</paragraph>
+                  <paragraph>Oral terbutaline sulfate has not been approved and should not be used for acute or maintenance tocolysis. [see BOXED WARNING: TOCOLYSIS.]</paragraph>
+                  <paragraph>2. Hypersensitivity</paragraph>
+                  <paragraph>Terbutaline sulfate is contraindicated in patients known to be hypersensitive to sympathomimetic amines or any component of this drug product.</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e400aef-05de-2aea-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a5a-e2d6-e053-2995a90a93ce"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Deterioration of Asthma</paragraph>
+                  <paragraph>Asthma may deteriorate acutely over a period of hours or chronically over several days or longer. If the patient needs more doses of terbutaline sulfate than usual, this may be a marker of destabilization of asthma and requires reevaluation of the patient and the treatment regimen, giving special consideration to the possible need for anti-inflammatory treatment, e.g., corticosteroids.</paragraph>
+                  <paragraph>Use of Anti-Inflammatory Agents</paragraph>
+                  <paragraph>The use of beta-adrenergic agonist bronchodilators alone may not be adequate to control asthma in many patients. Early consideration should be given to adding anti-inflammatory agents, e.g., corticosteroids.</paragraph>
+                  <paragraph>Cardiovascular Effects</paragraph>
+                  <paragraph>Terbutaline sulfate, like all other beta-adrenergic agonists, can produce a clinically significant cardiovascular effect in some patients as measured by pulse rate, blood pressure, and/or symptoms. Although such effects are uncommon after administration of terbutaline sulfate at recommended doses, if they occur, the drug may need to be discontinued. In addition, beta-agonists have been reported to produce electrocardiogram (ECG) changes, such as flattening of the T wave, prolongation of the QTc interval, and ST segment depression. The clinical significance of these findings is unknown. Therefore, terbutaline sulfate, like all sympathomimetic amines, should be used with caution in patients with cardiovascular disorders, especially coronary insufficiency, cardiac arrhythmias, and hypertension.</paragraph>
+                  <paragraph>Seizures</paragraph>
+                  <paragraph>There have been rare reports of seizures in patients receiving terbutaline; seizures did not recur in these patients after the drug was discontinued.</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e403fe2-7311-3453-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a5f-e2d6-e053-2995a90a93ce"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>Terbutaline, as with all sympathomimetic amines, should be used with caution in patients with cardiovascular disorders, including ischemic heart disease, hypertension, and cardiac arrhythmias; hyperthyroidism; diabetes mellitus; hypersensitivity to sympathomimetic amines; and convulsive disorders. Significant changes in systolic and diastolic blood pressure have been seen and could be expected to occur in some patients after use of any beta-adrenergic bronchodilator.</paragraph>
+                  <paragraph>Immediate hypersensitivity reactions and exacerbation of bronchospasm have been reported after terbutaline administration.</paragraph>
+                  <paragraph>Beta-adrenergic agonist medications may produce significant hypokalemia in some patients, possibly through intracellular shunting, which has the potential to produce adverse cardiovascular effects. The decrease is usually transient, not requiring supplementation.</paragraph>
+                  <paragraph>Large doses of intravenous terbutaline sulfate have been reported to aggravate preexisting diabetes and ketoacidosis.</paragraph>
+                  <paragraph>Information for Patients</paragraph>
+                  <paragraph>The action of terbutaline sulfate should last up to 6 hours or longer. Terbutaline sulfate should not be used more frequently than recommended. Do not increase the dose or frequency of terbutaline sulfate without consulting your physician. If you find that treatment with terbutaline sulfate becomes less effective for symptomatic relief, your symptoms become worse, and/or you need to use the product more frequently than usual, you should seek medical attention immediately. While taking terbutaline sulfate, other inhaled drugs and asthma medications should be taken only as directed by your physician. Common adverse effects include palpitations, chest pain, rapid heart rate, tremor or nervousness. If you are pregnant or nursing, contact your physician about use of terbutaline sulfate. Effective and safe use of terbutaline sulfate includes an understanding of the way that it should be administered.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>The concomitant use of terbutaline sulfate with other sympathomimetic agents is not recommended, since the combined effect on the cardiovascular system may be deleterious to the patient. However, this does not preclude the use of an aerosol bronchodilator of the adrenergic-stimulant type for the relief of an acute bronchospasm in patients receiving chronic oral therapy with terbutaline sulfate.</paragraph>
+                  <paragraph>Monoamine Oxidase Inhibitors and Tricyclic Antidepressants</paragraph>
+                  <paragraph>Terbutaline sulfate should be administered with extreme caution to patients being treated with monoamine oxidase inhibitors or tricyclic antidepressants, or within 2 weeks of discontinuation of such agents, since the action of terbutaline sulfate on the vascular system may be potentiated.</paragraph>
+                  <paragraph>Beta-Blockers</paragraph>
+                  <paragraph>Beta-adrenergic receptor blocking agents not only block the pulmonary effect of beta-agonists, such as terbutaline sulfate, but may produce severe bronchospasm in asthmatic patients. Therefore, patients with asthma should not normally be treated with beta-blockers. However, under certain circumstances, e.g., as prophylaxis after myocardial infarction, there may be no acceptable alternatives to the use of beta-adrenergic blocking agents in patients with asthma. In this setting, cardioselective beta-blockers could be considered, although they should be administered with caution.</paragraph>
+                  <paragraph>Diuretics</paragraph>
+                  <paragraph>The ECG changes and/or hypokalemia that may result from the administration of non-potassium sparing diuretics (such as loop or thiazide diuretics) can be acutely worsened by beta-agonists, especially when the recommended dose of the beta-agonist is exceeded. Although the clinical significance of these effects is not known, caution is advised in the co-administration of beta-agonists with non-potassium sparing diuretics.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>In a 2-year study in Sprague-Dawley rats, terbutaline sulfate caused a significant and dose-related increase in the incidence of benign leiomyomas of the mesovarium at dietary doses of 50 mg/kg, and above (approximately 25 times the maximum recommended daily oral dose for adults on a mg/m2basis). In a 21-month study in CD-1 mice, terbutaline sulfate showed no evidence of tumorigenicity at dietary doses up to 200 mg/kg (approximately 55 times the maximum recommended daily oral dose for adults on a mg/m2 basis). The mutagenicity potential of terbutaline sulfate has not been determined.</paragraph>
+                  <paragraph>Reproduction studies in rats using terbutaline sulfate demonstrated no impairment of fertility at oral doses up to 50 mg/kg (approximately 25 times the maximum recommended daily oral dose for adults on a mg/m2 basis).</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Teratogenic Effects</paragraph>
+                  <paragraph>Pregnancy Category C</paragraph>
+                  <paragraph>There are no adequate and well-controlled studies of terbutaline sulfate in pregnant women. Published animal studies show that rat offspring exhibit alterations in behavior and brain development, including decreased cellular proliferation and differentiation when dams were treated subcutaneously with terbutaline during the late stage of pregnancy and lactation period. Terbutaline exposures in rat dams were approximately 6.5 times the common human dose in adults of 15 mg/day, on a mg/m2 basis.</paragraph>
+                  <paragraph>Oral terbutaline sulfate has not been approved and should not be used for acute or maintenance tocolysis. In particular, terbutaline sulfate should not be used for tocolysis in the outpatient or home setting. Serious adverse reactions, including death, have been reported after administration of terbutaline sulfate to pregnant women. In the mother, these adverse reactions include increased heart rate, transient hyperglycemia, hypokalemia, cardiac arrhythmias, pulmonary edema and myocardial ischemia. Increased fetal heart rate and neonatal hypoglycemia may occur as a result of maternal administration. [See BOXED WARNING: TOCOLYSIS and CONTRAINDICATIONS, TOCOLYSIS.]</paragraph>
+                  <paragraph>In animal embryofetal developmental studies, no teratogenic effects were observed in offspring when pregnant rats and rabbits received terbutaline sulfate at oral doses up to 50 mg/kg/day, approximately 32 and 65 times, respectively, the maximum recommended daily oral dose for adults, on a mg/m2 basis.</paragraph>
+                  <paragraph>Terbutaline sulfate should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                  <paragraph>Use in Labor and Delivery</paragraph>
+                  <paragraph>Because of the potential for beta-agonist interference with uterine contractility, use of terbutaline sulfate for relief of bronchospasm during labor should be restricted to those patients in whom the benefits clearly outweigh the risk.</paragraph>
+                  <paragraph>Terbutaline crosses the placenta. After single dose IV administration of terbutaline to 22 women in late pregnancy who were delivered by elective Cesarean section due to clinical reasons, umbilical blood levels of terbutaline were found to range from 11% to 48% of the maternal blood levels.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>It is not known whether this drug is excreted in human milk. Therefore, terbutaline sulfate should be used during nursing only if the potential benefit justifies the possible risk to the newborn.</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>Terbutaline sulfate is not recommended for patients under the age of 12 years because of insufficient clinical data to establish safety and effectiveness (see DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>Clinical studies of terbutaline sulfate did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e403fe2-7313-3453-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a60-e2d6-e053-2995a90a93ce"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Adverse reactions observed with terbutaline sulfate are similar to those commonly seen with other sympathomimetic amines. All of these reactions are generally transient in nature and usually do not require treatment. The frequency of these side effects appears to diminish with continued therapy.</paragraph>
+                  <paragraph>The following table lists the adverse reactions seen in 199 patients treated with terbutaline sulfate tablets during six double-blind crossover studies and four double-blind parallel studies (short- and long-term) performed in the United States.</paragraph>
+                  <paragraph>Percent Incidence of Adverse Reactions (Total Daily Dosage Range 5 to 15 mg) Terbutaline N=199
+  <br/>
+Reaction %
+  <br/>
+ Nervous System
+  <br/>
+ Nervousness  35.0
+  <br/>
+ Tremor  15.0
+  <br/>
+ Somnolence  5.5
+  <br/>
+ Dizziness  3.5
+  <br/>
+ Anxiety  1.0
+  <br/>
+ Insomnia  1.5
+  <br/>
+ Cardiovascular
+  <br/>
+ Palpitations  5.0
+  <br/>
+ Tachycardia  3.5
+  <br/>
+ Extrasystoles ventricular  1.5
+  <br/>
+ Vasodilations  1.0
+  <br/>
+ Digestive
+  <br/>
+ Nausea  3.0
+  <br/>
+ Dry mouth  1.5
+  <br/>
+ Body as a Whole
+  <br/>
+ Headache  7.5
+  <br/>
+ Asthenia  2.0
+  <br/>
+ Skin and Appendages
+  <br/>
+ Sweating  1.0
+ </paragraph>
+                  <paragraph>The following adverse effects each occurred in fewer than 1% of patients: hallucinations, rash, paresthesia, hypertonia, (muscle cramps), vomiting.</paragraph>
+                  <paragraph>There have been rare reports of elevations in liver enzymes and of hypersensitivity vasculitis.</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e400aef-05e0-2aea-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a62-e2d6-e053-2995a90a93ce"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Adults</paragraph>
+                  <paragraph>The usual oral dose of terbutaline sulfate for adults is 5 mg administered at approximately six-hour intervals, three times daily, during the hours the patient is usually awake. If side effects are particularly disturbing, the dose may be reduced to 2.5 mg three times daily, and still provide a clinically significant improvement in pulmonary function. The total dose within 24 hours should not exceed 15 mg.</paragraph>
+                  <paragraph>Children</paragraph>
+                  <paragraph>Terbutaline sulfate is not recommended for use in children below the age of 12 years. A dosage of 2.5 mg three times daily is recommended for children 12-15 years of age. The total dose within 24 hours should not exceed 7.5 mg.</paragraph>
+                  <paragraph>If a previously effective dosage regimen fails to provide the usual relief, medical advice should be sought immediately as this is often a sign of seriously worsening asthma that would require reassessment of therapy.</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e403fe2-7315-3453-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a5b-e2d6-e053-2995a90a93ce"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>The median subcutaneous lethal dose of terbutaline sulfate in mature rats is approximately 165 mg/kg (approximately 90 times the maximum recommended daily oral dose for adults on a mg/m2 basis). The median subcutaneous lethal dose of terbutaline sulfate in young rats is approximately 2000 mg/kg (approximately 1100 times the maximum recommended daily oral dose for adults on a mg/m2 basis).</paragraph>
+                  <paragraph>The expected symptoms with overdosage are those of excessive beta-adrenergic stimulation and/or occurrence or exaggeration of any of the symptoms listed under ADVERSE REACTIONS, e.g., seizures, angina, hypertension or hypotension, tachycardia with rates up to 200 beats per minute, arrhythmias, nervousness, headache, tremor, dry mouth, palpitation, nausea, dizziness, fatigue, malaise, and insomnia. Hypokalemia may also occur.</paragraph>
+                  <paragraph>There is no specific antidote. Treatment consists of discontinuation of terbutaline sulfate together with appropriate symptomatic therapy. The judicious use of a cardioselective beta-receptor blocker may be considered, bearing in mind that such medication can produce bronchospasm. There is insufficient evidence to determine if dialysis is beneficial for overdosage of terbutaline sulfate.</paragraph>
+                  <paragraph>In the alert patient who has taken excessive oral medication, the stomach should be emptied by induced emesis followed by lavage. In the unconscious patient, the airway should be secured with a cuffed endotracheal tube before lavage, and emesis should not be induced. Instillation of activated charcoal slurry may help reduce absorption of terbutaline. Adequate respiratory exchange should be maintained, and cardiac and respiratory support provided as needed. The patient should be monitored until signs and symptoms of overdosage have subsided.</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e400aef-05e2-2aea-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a63-e2d6-e053-2995a90a93ce"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Terbutaline sulfate tablets, USP are packaged in bottles of 100 and 1000 tablets. Descriptions of the 2.5 and 5 mg tablets follow:</paragraph>
+                  <paragraph>Tablets 2.5 mg—round, white, scored (imprinted LCI over 1318)</paragraph>
+                  <paragraph>Bottles of 100       NDC 0527-1318-01
+  <br/>
+Bottles of 1000     NDC 0527-1318-10
+ </paragraph>
+                  <paragraph>Tablets 5 mg—round, white, scored (imprinted LCI over 1311)</paragraph>
+                  <paragraph>Bottles of 100       NDC 0527-1311-01
+  <br/>
+Bottles of 1000     NDC 0527-1311-10
+ </paragraph>
+                  <paragraph>Store at 20°C to 25°C (68°F to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container as defined in the USP with a child-resistant closure</paragraph>
+                  <paragraph>Distributed By:
+  <br/>
+Lannett Company, Inc.
+  <br/>
+Philadelphia, PA 19136
+ </paragraph>
+                  <paragraph>Made in the USA</paragraph>
+                  <paragraph>CIB70314B</paragraph>
+                  <paragraph>Rev. 02/16</paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4e403fe2-7318-3453-e054-00144ff88e88">
+               <id root="9c9ed8d1-9a61-e2d6-e053-2995a90a93ce"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL — 2.5 MG</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4e403fe2-7316-3453-e054-00144ff88e88"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20050325"/>
+               <component>
+                  <observationMedia ID="img_4e403fe2-7316-3453-e054-00144ff88e88">
+                     <text>TERBUTALINE 2.5MG</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="doc20170428150748_001.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

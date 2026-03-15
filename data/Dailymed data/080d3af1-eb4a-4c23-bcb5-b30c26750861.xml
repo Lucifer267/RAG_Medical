@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl" ?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="080d3af1-eb4a-4c23-bcb5-b30c26750861"/>
+   <code codeSystem="2.16.840.1.113883.6.1" code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title ID="inv-1224795d-361b-4822-ac8b-3cf183b4c39d"/>
+   <effectiveTime value="20111122"/>
+   <setId root="92ca69d4-cdba-4789-91a9-922664d52498"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="079239644" root="1.3.6.1.4.1.519.1"/>
+            <name>Carilion Materials Management</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="079239644" root="1.3.6.1.4.1.519.1"/>
+                  <name>Carilion Materials Management</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="079239644" root="1.3.6.1.4.1.519.1"/>
+                        <name>Carilion Materials Management</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68151-2768" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f8d47ffc-6f2b-4536-8de1-ef6810770999"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20101123"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="68151-2768"/>
+                        <name>Imipramine Hydrochloride</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Imipramine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="49884-054" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code codeSystem="2.16.840.1.113883.4.9" code="BKE5Q1J60U"/>
+                              <name>IMIPRAMINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code codeSystem="2.16.840.1.113883.4.9" code="OGG85SX4E4"/>
+                                    <name>IMIPRAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1">
+                                 <translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET" value="1"/>
+                              </numerator>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68151-2768-0" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="YELLOW" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">Par;54</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48353" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRIANGLE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="5" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id root="2.16.840.1.113883.3.150" extension="ANDA088292"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19831021"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-230c103b-819a-4254-959b-b971a87ee87a">
+               <id root="dfa1f7f9-6a4e-45ff-a09b-2bb06640084f"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34066-1" displayName="BOXED WARNING SECTION"/>
+               <title ID="inv-c2ea127d-e68b-4c54-993d-b9a928f2c8a1" mediaType="text/x-hl7-title+xml"/>
+               <text ID="inv-b4582d45-5e02-4e71-89e5-2c0da1912402">
+                  <paragraph ID="inv-3b51a3cd-eaf5-43df-a1f5-cea3f79f2f06">Suicidality and Antidepressant Drugs</paragraph>
+                  <paragraph ID="inv-7fee0382-42ce-44d2-a9b9-387d1f8f11f2">
+                     <content styleCode="bold">Antidepressants increased the risk compared to placebo of suicidal thinking and behavior (suicidality) in children, adolescents, and young adults in short-term studies of major depressive disorder (MDD) and other psychiatric disorders. Anyone considering the use of imipramine hydrochloride or any other antidepressant in a child, adolescent, or young adult must balance this risk with the clinical need. Short-term studies did not show an increase in the risk of suicidality with antidepressants compared to placebo in adults beyond age 24; there was a reduction in risk with antidepressants compared to placebo in adults aged 65 and older. Depression and certain other psychiatric disorders are themselves associated with increases in the risk of suicide. Patients of all ages who are started on antidepressant therapy should be monitored appropriately and observed closely for clinical worsening, suicidality, or unusual changes in behavior. Families and caregivers should be advised of the need for close observation and communication with the prescriber.  Imipramine hydrochloride is not approved for use in pediatric patients. (See WARNINGS: Clinical Worsening and Suicide Risk, PRECAUTIONS: Information for Patients, and PRECAUTIONS: Pediatric Use)</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20101123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-d8c387a9-c107-4242-b416-6eef8dd57e85">
+               <id root="d154a642-85ed-45f3-93d1-4de719e5bba8"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title ID="inv-9ea7c0b7-02d3-4c9b-bae0-20f6d2a4e1cc" mediaType="text/x-hl7-title+xml">DESCRIPTION</title>
+               <text ID="inv-b241533b-173d-4605-bb72-a38a3b8f0f99">
+                  <paragraph ID="inv-23aadc46-5623-448e-8232-68df47510dbd">Imipramine hydrochloride is a member of the dibenzazepine group of compounds. It is designated 5-[3-(dimethylamino) propyl]-10, 11-dihydro-5H-dibenz(b,f)azepine monohydrochloride. Its structural formula is:</paragraph>
+                  <renderMultiMedia ID="ID0EXNAE" referencedObject="MM-b699a9f1-97d1-436d-8d13-a68f20f5e783"/>
+                  <paragraph ID="inv-1d79b053-aea5-43e0-8bbf-4c3ab4412069">C H N ●HCl MW: 316.87
+                            <sup>19</sup>
+                     <sup>24</sup>
+                     <sup>2</sup>
+                  </paragraph>
+                  <paragraph ID="inv-2108da3d-bb36-42be-89d8-1e463523a790">Imipramine hydrochloride is a white to off-white, odorless, or practically odorless, crystalline powder. It is freely soluble in water and in alcohol, soluble in acetone, and insoluble in ether and in benzene.</paragraph>
+                  <paragraph ID="inv-4b09820f-3ed0-47bf-baf8-393c41103d2d">Imipramine hydrochloride tablets are available for oral administration providing 10 mg, 25 mg or 50 mg of imipramine hydrochloride.</paragraph>
+                  <paragraph ID="inv-a820be22-20da-491b-9b8c-c06b6821518d">Each tablet contains the following inactive ingredients: FD&amp;C Yellow #6, hydroxypropyl cellulose, hypromellose, lactose anhydrous, lactose monohydrate, magnesium stearate, microcrystalline cellulose, sodium starch glycolate, stearic acid, titanium dioxide and triacetin. In addition, the 10 mg tablet contains D&amp;C Yellow #10; the 25 mg tablet contains FD&amp;C Red #40 and FD&amp;C Blue #2; the 50 mg tablet contains D&amp;C Yellow #10 and FD&amp;C Blue #1.</paragraph>
+               </text>
+               <effectiveTime value="20101123"/>
+               <component>
+                  <observationMedia ID="MM-b699a9f1-97d1-436d-8d13-a68f20f5e783">
+                     <text>This is the chemical structure.</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-47b9b351-427f-4807-996e-a6abedf89f7c">
+               <id root="20d1a89b-837b-42fe-8c72-cafe7d43219f"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title ID="inv-d39c1df6-089d-43aa-b1b0-79c713dff40e" mediaType="text/x-hl7-title+xml">CLINICAL PHARMACOLOGY</title>
+               <text ID="inv-2b82e6a1-36ec-4cf6-829b-6f53b3bdb498">
+                  <paragraph ID="inv-68a909e3-97ba-457e-8ff6-2876c85d3e0c">The mechanism of action of imipramine hydrochloride is not definitely known. However, it does not act primarily by stimulation of the central nervous system. The clinical effect is hypothesized as being due to potentiation of adrenergic synapses by blocking uptake of norepinephrine at nerve endings. The mode of action of the drug in controlling childhood enuresis is thought to be apart from its antidepressant effect.</paragraph>
+               </text>
+               <effectiveTime value="20101123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-16ee51c1-ae28-4a7d-a8d6-78859ce19a55">
+               <id root="72a462cc-4123-4e1f-88b8-3fd3ad9b0915"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title ID="inv-99c590f7-8477-4f45-8d4e-639c40632be5" mediaType="text/x-hl7-title+xml">INDICATIONS AND USAGE</title>
+               <text ID="inv-4c7d83de-d83b-4556-8d1b-d870961e4cf0">
+                  <paragraph ID="inv-b6cf2525-2643-4d23-8495-c8b6b2879e56">For the relief of symptoms of depression. Endogenous depression is more likely to be alleviated than other depressive states. One to three weeks of treatment may be needed before optimal therapeutic effects are evident.
+                            <content styleCode="bold">Depression:</content>
+                  </paragraph>
+                  <paragraph ID="inv-dc82dab5-2e6a-4463-a87b-d2ab5074dd7b">May be useful as temporary adjunctive therapy in reducing enuresis in children aged 6 years and older, after possible organic causes have been excludedby appropriate tests. In patients having daytime symptoms of frequency and urgency, examination should include voiding cystourethrography and cystoscopy, as necessary. The effectiveness of treatment may decrease with continued drug administration.
+                            <content styleCode="bold">Childhood Enuresis:</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20101123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-89009343-3c03-4c9a-a30d-e29aac3fe3fc">
+               <id root="bb77fd12-cd32-44a5-b773-b872066b004b"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34070-3" displayName="CONTRAINDICATIONS SECTION"/>
+               <title ID="inv-6927ede2-04e9-4027-8203-80e99bf5b477" mediaType="text/x-hl7-title+xml">CONTRAINDICATIONS</title>
+               <text ID="inv-f45c12cf-d7ed-4a78-b721-7f70383bf798">
+                  <paragraph ID="inv-037dd238-99a2-4861-86aa-419aef4b474a">The concomitant use of monoamine oxidase inhibiting compounds is contraindicated. Hyperpyretic crises or severe convulsive seizures may occur in patients receiving such combinations. The potentiation of adverse effects can be serious, or even fatal. When it is desired to substitute imipramine hydrochloride in patients receiving a monoamine oxidase inhibitor, as long an interval should elapse as the clinical situation will allow, with a minimum of 14 days. Initial dosage should be low and increases should be gradual and cautiously prescribed.</paragraph>
+                  <paragraph ID="inv-76d01dd1-df09-4be3-9d17-63a5a577b55d">The drug is contraindicated during the acute recovery period after a myocardial infarction. Patients with a known hypersensitivity to this compound should not be given the drug. The possibility of cross-sensitivity to other dibenzazepine compounds should be kept in mind.</paragraph>
+               </text>
+               <effectiveTime value="20101123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-0b4dabe3-fc36-4635-bb9a-82d79196a2f9">
+               <id root="4c0cf78b-e959-4aa2-be33-05903fddd6ee"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34071-1" displayName="WARNINGS SECTION"/>
+               <title ID="inv-042e6fb4-d69d-4663-b951-27729b5e463b" mediaType="text/x-hl7-title+xml">WARNINGS</title>
+               <text ID="inv-c002ff32-e7d9-4056-8a54-fa3acd398799">
+                  <paragraph ID="inv-5a3b8885-4afb-4d42-b8f6-dc9da9421a0f">
+                     <content styleCode="bold">Clinical Worsening and Suicide Risk</content>
+                  </paragraph>
+                  <paragraph ID="inv-9e50fc7d-b668-4d7b-9faa-491d33081e4f">Patients with major depressive disorder (MDD), both adult and pediatric, may experience worsening of their depression and/or the emergence of suicidal ideation and behavior (suicidality) or unusual changes in behavior, whether or not they are taking antidepressant medications, and this risk may persist until significant remission occurs. Suicide is a known risk of depression and certain other psychiatric disorders, and these disorders themselves are the strongest predictors of suicide. There has been a long-standing concern, however, that antidepressants may have a role in inducing worsening of depression and the emergence of suicidality in certain patients during the early phases of treatment. Pooled analyses of short-term placebo-controlled trials of antidepressant drugs (SSRIs and others) showed that these drugs increase the risk of suicidal thinking and behavior (suicidality) in children, adolescents, and young adults (ages 18-24) with major depressive disorder (MDD) and other psychiatric disorders. Short-term studies did not show an increase in the risk of suicidality with antidepressants compared to placebo in adults beyond age 24; there was a reduction with antidepressants compared to placebo in adults aged 65 and older.</paragraph>
+                  <paragraph ID="inv-58dd4d7b-9678-4bcd-ae02-13cb91f70475">The pooled analyses of placebo-controlled trials in children and adolescents with MDD, obsessive compulsive disorder (OCD), or other psychiatric disorders included a total of 24 short-term trials of 9 antidepressant drugs in over 4400 patients. The pooled analyses of placebo-controlled trials in adults with MDD or other psychiatric disorders included a total of 295 short-term trials (median duration of 2 months) of 11 antidepressant drugs in over 77,000 patients. There was considerable variation in risk of suicidality among drugs, but a tendency toward an increase in the younger patients for almost all drugs studied. There were differences in absolute risk of suicidality across the different indications, with the highest incidence in MDD. The risk differences (drug vs placebo), however, were relatively stable within age strata and across indications. These risk differences (drug-placebo difference in the number of cases of suicidality per 1000 patients treated) are provided in Table 1.</paragraph>
+                  <table ID="inv-9d9061f0-64c6-43f7-96b5-96d6f330ac62" frame="border" border="1">
+                     <col width="120px"/>
+                     <col width="316px"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" colspan="2" styleCode="Botrule Lrule Rrule">Table 1</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Botrule Lrule">Age Range</td>
+                           <td align="center" styleCode="Botrule Rrule">Drug-Placebo Difference in Number of Cases of Suicidality per 1000 Patients Treated</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Botrule Lrule"> </td>
+                           <td align="center" styleCode="Botrule Rrule">Increases Compared to Placebo</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Botrule Lrule">&lt; 18</td>
+                           <td align="center" styleCode="Botrule Rrule">14 additional cases</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Botrule Lrule">18 – 24</td>
+                           <td align="center" styleCode="Botrule Rrule">5 additional cases</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Botrule Lrule"> </td>
+                           <td align="center" styleCode="Botrule Rrule">Decreases Compared to Placebo</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Botrule Lrule">25 – 64</td>
+                           <td align="center" styleCode="Botrule Rrule">1 fewer case</td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Botrule Lrule">≥ 65</td>
+                           <td align="center" styleCode="Botrule Rrule">6 fewer cases</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="inv-f456df36-c2fa-486a-afab-5cdb5375f291">No suicides occurred in any of the pediatric trials. There were suicides in the adult trials, but the number was not sufficient to reach any conclusion about drug effect on suicide.</paragraph>
+                  <paragraph ID="inv-9e84cb08-2cbb-4788-8ed8-ff3ecbad7ab4"/>
+                  <paragraph ID="inv-bcd27182-eb5c-4eee-8851-530cf0236f23">It is unknown whether the suicidality risk extends to longer-term use, i.e., beyond several months. However, there is substantial evidence from placebo-controlled maintenance trials in adults with depression that the use of antidepressants can delay the recurrence of depression.</paragraph>
+                  <paragraph ID="inv-1da8c9f0-c2c9-47fb-b2e5-95a75524aa78">
+                     <content styleCode="bold">All patients being treated with antidepressants for any indication should be monitored appropriately and observed closely for clinical worsening, suicidality, and unusual changes in behavior, especially during the initial few months of a course of drug therapy, or at times of dose changes, either increases or decreases.</content>
+                  </paragraph>
+                  <paragraph ID="inv-0e7f0548-6e3a-44aa-bd3f-6be95fd88642">The following symptoms, anxiety, agitation, panic attacks, insomnia, irritability, hostility, aggressiveness, impulsivity, akathisia (psychomotor restlessness), hypomania, and mania, have been reported in adult and pediatric patients being treated with antidepressants for major depressive disorder as well as for other indications, both psychiatric and nonpsychiatric. Although a causal link between the emergence of such symptoms and either the worsening of depression and/or the emergence of suicidal impulses has not been established, there is concern that such symptoms may represent precursors to emerging suicidality.</paragraph>
+                  <paragraph ID="inv-1853433a-df31-40c7-bfcb-78981544979e">Consideration should be given to changing the therapeutic regimen, including possibly discontinuing the medication, in patients whose depression is persistently worse, or who are experiencing emergent suicidality or symptoms that might be precursors to worsening depression or suicidality, especially if these symptoms are severe, abrupt in onset, or were not part of the patient's presenting symptoms.</paragraph>
+                  <paragraph ID="inv-242256ec-08fd-4931-98ac-e85c0e0d233a">Prescriptions for imipramine hydrochloride should be written for the smallest quantity of tablets consistent with good patient management, in order to reduce the risk of overdose.
+                            <content styleCode="bold">Families and caregivers of patients being treated with antidepressants for major depressive disorder or other indications, both psychiatric and nonpsychiatric, should be alerted about the need to monitor patients for the emergence of agitation, irritability, unusual changes in behavior, and the other symptoms described above, as well as the emergence of suicidality, and to report such symptoms immediately to health care providers. Such monitoring should include daily observation by families and caregivers.</content>
+                  </paragraph>
+                  <paragraph ID="inv-27b59be3-f83a-42d1-8e82-b6141db00813">A major depressive episode may be the initial presentation of bipolar disorder. It is generally believed (though not established in controlled trials) that treating such an episode with an antidepressant alone may increase the likelihood of precipitation of a mixed/manic episode in patients at risk for bipolar disorder. Whether any of the symptoms described above represent such a conversion is unknown. However, prior to initiating treatment with an antidepressant, patients with depressive symptoms should be adequately screened to determine if they are at risk for bipolar disorder; such screening should include a detailed psychiatric history, including a family history of suicide, bipolar disorder, and depression. It should be noted that imipramine hydrochloride is not approved for use in treating bipolar depression.
+                            <content styleCode="bold">Screening Patients for Bipolar Disorder:</content>
+                  </paragraph>
+                  <paragraph ID="inv-1ee5caac-1c55-4240-b1cb-8e14cce268e7">: A dose of 2.5 mg/kg/day of imipramine hydrochloride should not be exceeded in childhood. ECG changes of unknown significance have been reported in pediatric patients with doses twice this amount.
+                            <content styleCode="bold">Children</content>
+                  </paragraph>
+                  <paragraph ID="inv-542bcbfb-df21-49a2-af5f-f36aa23e6344">Extreme caution should be used when this drug is given to:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>patients with cardiovascular disease because of the possibility of conduction defects, arrhythmias, congestive heart failure, myocardial infarction, strokes and tachycardia. These patients require cardiac surveillance at all dosage levels of the drug;</item>
+                     <item>patients with increased intraocular pressure, history of urinary retention, or history of narrow-angle glaucoma because of the drug’s anticholinergic properties;</item>
+                     <item>hyperthyroid patients or those on thyroid medication because of the possibility of cardiovascular toxicity;</item>
+                     <item>patients with a history of seizure disorder because this drug has been shown to lower the seizure threshold;</item>
+                     <item>patients receiving guanethidine, clonidine, or similar agents, since imipramine hydrochloride may block the pharmacologic effects of these drugs;</item>
+                     <item>patients receiving methylphenidate hydrochloride. Since methylphenidate hydrochloride may inhibit the metabolism of imipramine hydrochloride, downward dosage adjustment of imipramine hydrochloride may be required when given concomitantly with methylphenidate hydrochloride.</item>
+                  </list>
+                  <paragraph ID="inv-073ca1a6-a8a5-4a65-abdc-1cb897ce0c49">Imipramine hydrochloride may enhance the CNS depressant effects of alcohol. Therefore, it should be borne in mind that the dangers inherent in a suicide attempt or accidental overdosage with the drug may be increased for the patient who uses excessive amounts of alcohol. (See .)
+                            <content styleCode="bold">PRECAUTIONS</content>
+                  </paragraph>
+                  <paragraph ID="inv-7251f7c7-46d3-4fd3-8f5d-5123b69ba8e8">Since imipramine hydrochloride may impair the mental and/or physical abilities required for the performance of potentially hazardous tasks, such as operating an automobile or machinery, the patient should be cautioned accordingly.</paragraph>
+               </text>
+               <effectiveTime value="20101123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-4a452387-2c05-472e-8ebc-6ff390852e61">
+               <id root="57af2378-ffc0-49a5-99dd-f5876bce3859"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42232-9" displayName="PRECAUTIONS SECTION"/>
+               <title ID="inv-5fe8b74b-3180-4dcd-b7f7-54a7143c0f0d" mediaType="text/x-hl7-title+xml">GENERAL PRECAUTIONS</title>
+               <text ID="inv-01e61a55-a7e2-4504-88e5-d6e5f8a3517d">
+                  <paragraph ID="inv-cfd7d8c4-2434-49de-952c-82f6e4c61556">An ECG recording should be taken prior to the initiation of larger-than-usual doses of imipramine hydrochloride and at appropriate intervals thereafter until steady state is achieved. (Patients with any evidence of cardiovascular disease require cardiac surveillance at all dosage levels of the drug. (See ) Elderly patients and patients with cardiac disease or a prior history of cardiac disease are at special risk of developing the cardiac abnormalities associated with the use of imipramine hydrochloride.
+                            <content styleCode="bold">WARNINGS.</content>
+                  </paragraph>
+                  <paragraph ID="inv-d67ef978-a027-488b-98d2-ef10a2a5fc2c">It should be kept in mind that the possibility of suicide in seriously depressed patients is inherent in the illness and may persist until significant remission occurs. Such patients should be carefully supervised during the early phase of treatment with imipramine hydrochloride, and may require hospitalization. Prescriptions should be written for the smallest amount feasible. Hypomanic or manic episodes may occur, particularly in patients with cyclic disorders. Such reactions may necessitate discontinuation of the drug, if needed. Imipramine hydrochloride may be resumed in lower dosage when these episodes are relieved.</paragraph>
+                  <paragraph ID="inv-b2b47612-3efa-484b-ba09-f821cb988068">Administration of a tranquilizer may be useful in controlling such episodes.</paragraph>
+                  <paragraph ID="inv-a87912d2-8884-4d6a-9ef2-7b78c910f48a">An activation of the psychosis may occasionally be observed in schizophrenic patients and may require reduction of dosage and the addition of a phenothiazine.</paragraph>
+                  <paragraph ID="inv-8d0df7e3-0ddf-486c-9fb2-da7623d7d4fb">Concurrent administration of imipramine hydrochloride with electroshock therapy may increase the hazards; such treatment should be limited to those patients for whom it is essential, since there is limited clinical experience.</paragraph>
+                  <paragraph ID="inv-8b030aef-cab3-494a-b1f3-6009ee921521">Patients taking imipramine hydrochloride should avoid excessive exposure to sunlight since there have been reports of photosensitization.</paragraph>
+                  <paragraph ID="inv-30fbc91c-5a87-438d-9dc0-60410e893d23">Both elevation and lowering of blood sugar levels have been reported with imipramine hydrochloride use.</paragraph>
+                  <paragraph ID="inv-bf593304-923e-42b7-8484-2c016ba11b08">Imipramine hydrochloride should be used with caution in patients with significantly impaired renal or hepatic function.</paragraph>
+                  <paragraph ID="inv-b3cad5ea-2f2f-4934-b781-b550df04843e">Patients who develop a fever and a sore throat during therapy with imipramine hydrochloride should have leukocyte and differential blood counts performed. Imipramine hydrochloride should be discontinued if there is evidence of pathological neutrophil depression.</paragraph>
+                  <paragraph ID="inv-ba858e39-f474-4c2b-8d3a-fc55f0430d20">Prior to elective surgery, imipramine hydrochloride should be discontinued for as long as the clinical situation will allow.</paragraph>
+               </text>
+               <effectiveTime value="20101123"/>
+               <component>
+                  <section ID="inv-45a8df2a-8292-4075-9b95-d04c61ea8710">
+                     <id root="44cdc39e-59a8-4e74-a140-c2b86e25065d"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title ID="inv-c1e10ce8-48a3-4a50-b70d-58c28097f876" mediaType="text/x-hl7-title+xml">Information for Patients</title>
+                     <text ID="inv-e58f385b-c7aa-43ca-9f24-e4dd9337cfa1">
+                        <paragraph ID="inv-8a51e879-fc85-4d74-b8eb-45dcd9aa007f">Prescribers or other health professionals should inform patients, their families, and their caregivers about the benefits and risks associated with treatment with imipramine hydrochloride and should counsel them in its appropriate use. A patient Medication Guide about “Antidepressant Medicines, Depression and other Serious Mental Illness, and Suicidal Thoughts or Actions” is available for imipramine hydrochloride. The prescriber or health professional should instruct patients, their families, and their caregivers to read the Medication Guide and should assist them in understanding its contents. Patients should be given the opportunity to discuss the contents of the Medication Guide and to obtain answers to any questions they may have. The complete text of the Medication Guide is reprinted at the end of this document.</paragraph>
+                        <paragraph ID="inv-e1420f32-3863-4a4b-91bd-4d062567777e">Patients should be advised of the following issues and asked to alert their prescriber if these occur while taking imipramine hydrochloride.</paragraph>
+                        <paragraph ID="inv-abd4327d-1f75-49c7-b4b1-c128cc29c6df">Patients, their families, and their caregivers should be encouraged to be alert to the emergence of anxiety, agitation, panic attacks, insomnia, irritability, hostility, aggressiveness, impulsivity, akathisia (psychomotor restlessness), hypomania, mania, other unusual changes in behavior, worsening of depression, and suicidal ideation, especially early during antidepressant treatment and when the dose is adjusted up or down. Families and caregivers of patients should be advised to look for the emergence of such symptoms on a day-to-day basis, since changes may be abrupt. Such symptoms should be reported to the patient's prescriber or health professional, especially if they are severe, abrupt in onset, or were not part of the patient's presenting symptoms. Symptoms such as these may be associated with an increased risk for suicidal thinking and behavior and indicate a need for very close monitoring and possibly changes in the medication.
+                                    <content styleCode="bold">Clinical Worsening and Suicide Risk:</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20101123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-68b90621-83fe-4e36-8528-ca2448975dc8">
+                     <id root="2a7bd9f1-c69a-4296-8294-9d8bf09e2762"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34073-7" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title ID="inv-da2e66c1-d678-4477-96a3-3bf768a73f28" mediaType="text/x-hl7-title+xml">Drug Interactions</title>
+                     <text ID="inv-1b6ece4c-f222-4a7e-bf96-bed908396e3a">
+                        <paragraph ID="inv-a41a2d31-7c5f-4be0-a778-fd5bc0272ff7"/>
+                        <paragraph ID="inv-0c05a5ac-a799-4b79-848f-ec2796767ae9">In addition, certain drugs inhibit the activity of this isozyme and make normal metabolizers resemble poor metabolizers. An individual who is stable on a given dose of TCA may become abruptly toxic when given one of these inhibiting drugs as concomitant therapy. The drugs that inhibit cytochrome P450 2D6 include some that are not metabolized by the enzyme (quinidine; cimetidine) and many that are substrates for P450 2D6 (many other antidepressants, phenothiazines, and the Type 1C antiarrhythmics propafenone and flecainide). While all the selective serotonin reuptake inhibitors (SSRIs), e.g., fluoxetine, sertraline, and paroxetine, inhibit P450 2D6, they may vary in the extent of inhibition. The extent to which SSRI-TCA interactions may pose clinical problems will depend on the degree of inhibition and the pharmacokinetics of the SSRI involved. Nevertheless, caution is indicated in the co-administration of TCAs with any of the SSRIs and also in switching from one class to the other. Of particular importance, sufficient time must elapse before initiating TCA treatment in a patient being withdrawn from fluoxetine, given the long half-life of the parent and active metabolite (at least 5 weeks may be necessary).</paragraph>
+                        <paragraph ID="inv-48bca2d5-06cd-4f3e-8af2-eefe14f5c581">Concomitant use of tricyclic antidepressants with drugs that can inhibit cytochrome P450 2D6 may require lower doses than usually prescribed for either the tricyclic antidepressant or the other drug. Furthermore, whenever one of these other drugs is withdrawn from co-therapy, an increased dose of tricyclic antidepressant may be required. It is desirable to monitor TCA plasma levels whenever a TCA is going to be co-administered with another drug known to be an inhibitor of P450 2D6.</paragraph>
+                        <paragraph ID="inv-6130e064-a647-4b26-b9ec-b09cf3190f03">The plasma concentration of imipramine hydrochloride may increase when the drug is given concomitantly with hepatic enzyme inhibitors (e.g., cimetidine, fluoxetine) and decrease by concomitant administration of hepatic enzyme inducers (e.g., barbiturates, phenytoin), and adjustment of the dosage of imipramine hydrochloride may therefore be necessary.</paragraph>
+                        <paragraph ID="inv-8232d0d9-2c5a-46f8-89ce-ee8b39cac772">In occasional susceptible patients or in those receiving anticholinergic drugs (including antiparkinsonism agents) in addition, the atropine-like effects may become more pronounced (e.g., paralytic ileus). Close supervision and careful adjustment of dosage is required when imipramine hydrochloride is administered concomitantly with anticholinergic drugs.</paragraph>
+                        <paragraph ID="inv-a8e9d753-ffc3-45bd-8171-2c3d8d5cdaaf">Avoid the use of preparations, such as decongestants and local anesthetics, that contain any sympathomimetic amine (e.g., epinephrine, norepinephrine), since it has been reported that tricyclic antidepressants can potentiate the effects of catecholamines.</paragraph>
+                        <paragraph ID="inv-5b0ae360-2609-4167-a43e-e8cdd35a5e82">Caution should be exercised when imipramine hydrochloride is used with agents that lower blood pressure. Imipramine hydrochloride may potentiate the effects of CNS depressant drugs.</paragraph>
+                        <paragraph ID="inv-0549bc24-27b4-4a77-b06e-6eff04aabe06">Patients should be warned that imipramine hydrochloride may enhance the CNS depressant effects of alcohol. (See .)
+                                    <content styleCode="bold">WARNINGS</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20101123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-f7b2e14d-57e6-4d48-9c6f-0e805d4decce">
+                     <id root="6b77b57d-737a-4e53-9c39-5f7614d1663c"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42228-7" displayName="PREGNANCY SECTION"/>
+                     <title ID="inv-14490dbb-f737-48bb-90fb-061e87339a9e" mediaType="text/x-hl7-title+xml">Pregnancy</title>
+                     <text ID="inv-d1cab415-fa30-4d00-9078-6afc48b5db03">
+                        <paragraph ID="inv-533c3f25-5069-4fdd-84c6-8a21e4b8ac0b">Animal reproduction studies have yielded inconclusive results. (See also .)
+                                    <content styleCode="bold">ANIMAL PHARMACOLOGY AND TOXICOLOGY</content>
+                        </paragraph>
+                        <paragraph ID="inv-b9abee35-4481-4cb3-9f13-14a239270364">There have been no well-controlled studies conducted with pregnant women to determine the effect of imipramine hydrochloride on the fetus. However, there have been clinical reports of congenital malformations associated with the use of the drug. Although a causal relationship between these effects and the drug could not be established, the possibility of fetal risk from the maternal ingestion of imipramine hydrochloride cannot be excluded. Therefore, imipramine hydrochloride should be used in women who are or might become pregnant only if the clinical condition clearly justifies potential risk to the fetus</paragraph>
+                     </text>
+                     <effectiveTime value="20101123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-000fec90-9a8a-419f-a552-07520f46cf7f">
+                     <id root="92cd6ede-683d-4858-8e53-9082b4e89136"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34080-2" displayName="NURSING MOTHERS SECTION"/>
+                     <title ID="inv-edd620fb-51df-45cd-a557-bb84904c5c16" mediaType="text/x-hl7-title+xml">Nursing Mothers</title>
+                     <text ID="inv-11a8657a-fa7e-4421-aa01-f95fe5dcc5c5">
+                        <paragraph ID="inv-7492f7cb-aef0-4f78-9cc8-a1d117d05962">Limited data suggest that imipramine hydrochloride is likely to be excreted in human breast milk. As a general rule, a woman taking the drug should not nurse since the possibility exists that the drug may be excreted in breast milk and be harmful to the child.</paragraph>
+                     </text>
+                     <effectiveTime value="20101123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-049ce197-c252-4756-b1e5-dab55f6066a3">
+                     <id root="e8f7c3fd-cc26-4f84-9ae7-6c42cbdf8d55"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34081-0" displayName="PEDIATRIC USE SECTION"/>
+                     <title ID="inv-6a8f4b05-943e-4420-a70f-4fee969ced57" mediaType="text/x-hl7-title+xml">Pediatric Use</title>
+                     <text ID="inv-76c7ebd9-5b65-49fd-a1b6-4be95d143666">
+                        <paragraph ID="inv-c9010729-e4b1-423d-b175-4b3566e42eba">Safety and effectiveness in the pediatric population other than pediatric patients with nocturnal enuresis have not been established (see and ). Anyone considering the use of imipramine hydrochloride in a child or adolescent must balance the potential risks with the clinical need.
+                                    <content styleCode="bold">BOX WARNING</content>
+                           <content styleCode="bold">WARNINGS-Clinical Worsening and Suicide Risk</content>
+                        </paragraph>
+                        <paragraph ID="inv-dbded4df-0523-44c2-bb01-de4bc38d514f">The safety and effectiveness of the drug as temporary adjunctive therapy for nocturnal enuresis in pediatric patients less than 6 years of age has not been established.</paragraph>
+                        <paragraph ID="inv-027fec51-0573-4db5-955a-aee9f7f52ad8">The safety of the drug for long-term, chronic use as adjunctive therapy for nocturnal enuresis in pediatric patients 6 years of age or older has not been established; consideration should be given to instituting a drug-free period following an adequate therapeutic trial with a favorable response.</paragraph>
+                        <paragraph ID="inv-5863089f-e650-4f6c-a2ab-74e572498346">A dose of 2.5 mg/kg/day should not be exceeded in childhood. ECG changes of unknown significance have been reported in pediatric patients with doses twice this amount.</paragraph>
+                     </text>
+                     <effectiveTime value="20101123"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="inv-1fe03292-b5d0-4b21-a46e-71fe60ef19a5">
+                     <id root="e0c4ecd1-6ce7-432c-8f4c-15083423e5b5"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34082-8" displayName="GERIATRIC USE SECTION"/>
+                     <title ID="inv-5185e4cf-ebd7-4863-8ec1-bd9a43dfc88f" mediaType="text/x-hl7-title+xml">Geriatric Use</title>
+                     <text ID="inv-d49ed85c-afb3-4f76-837c-47eb89d9cee4">
+                        <paragraph ID="inv-d841d7ff-4785-46e3-adad-f7be463654bf">In the literature, there were four well-controlled, randomized, double-blind, parallel group comparison clinical studies done with imipramine in the elderly population. There was a total number of 651 subjects included in these studies. These studies did not provide a comparison to younger subjects. There were no additional adverse experiences identified in the elderly. Clinical studies of imipramine in the original application did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Post-marketing clinical experience has not identified differences in responses between the elderly and younger subjects. In general, dose selection for the elderly should be cautious, usually starting at the low end of the dosing range, reflecting greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease of other drug therapy. (See also in Adolescent and geriatric patients.) (See also General.)
+                                    <content styleCode="bold">DOSAGE and ADMINISTRATION</content>
+                           <content styleCode="bold">PRECAUTIONS</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20101123"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-1c7e75a1-4b43-430e-b1a3-43ef7a75fbc5">
+               <id root="2134e119-bd5a-45ec-a14d-7e89de2be25f"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34084-4" displayName="ADVERSE REACTIONS SECTION"/>
+               <title ID="inv-eb870720-3c0b-45ac-8e10-7864fdbabf63" mediaType="text/x-hl7-title+xml">ADVERSE REACTIONS</title>
+               <text ID="inv-a9d27b91-0598-42d7-b8ad-ddfbfc2af1f2">
+                  <paragraph ID="inv-35ffbf86-93f3-48a2-8461-3dbf8127aa3c">Although the listing which follows includes a few adverse reactions which have not been reported with this specific drug, the pharmacological similarities among the tricyclic antidepressant drugs require that each of the reactions be considered when imipramine hydrochloride is administered.
+                            <content styleCode="bold">Note:</content>
+                  </paragraph>
+                  <paragraph ID="inv-b6ae06ca-6386-4c5c-a1e3-14cb058c4e6c">Orthostatic hypotension, hypertension, tachycardia, palpitation, myocardial infarction, arrhythmias, heart block, ECG changes, precipitation of congestive heart failure, stroke.
+                            <content styleCode="bold">Cardiovascular:</content>
+                  </paragraph>
+                  <paragraph ID="inv-41c1336b-e136-4bfd-8b5d-7e44bd4da7f2">Confusional states (especially in the elderly) with hallucinations, disorientation, delusions; anxiety, restlessness, agitation; insomnia and nightmares; hypomania; exacerbation of psychosis.
+                            <content styleCode="bold">Psychiatric:</content>
+                  </paragraph>
+                  <paragraph ID="inv-888d2047-c2c4-4e63-a2eb-e14905acd03c">Numbness, tingling, paresthesias of extremities; incoordination, ataxia, tremors; peripheral neuropathy; extrapyramidal symptoms; seizures, alterations in EEG patterns; tinnitus.
+                            <content styleCode="bold">Neurological:</content>
+                  </paragraph>
+                  <paragraph ID="inv-d76cb724-be13-4dc8-a6e3-db3076a6ecc5">Dry mouth, and, rarely, associated sublingual adenitis; blurred vision, disturbances of accommodation, mydriasis; constipation, paralytic ileus; urinary retention, delayed micturition, dilation of the urinary tract.
+                            <content styleCode="bold">Anticholinergic:</content>
+                  </paragraph>
+                  <paragraph ID="inv-111ca781-6c57-4f04-98ba-54eecd1ca6f4">Skin rash, petechiae, urticaria, itching, photosensitization; edema (general or of face and tongue); drug fever; cross-sensitivity with desipramine.
+                            <content styleCode="bold">Allergic:</content>
+                  </paragraph>
+                  <paragraph ID="inv-1580c98a-6b8d-41e2-b817-2a6630e73525">Bone marrow depression including agranulocytosis; eosinophilia; purpura; thrombocytopenia.
+                            <content styleCode="bold">Hematologic:</content>
+                  </paragraph>
+                  <paragraph ID="inv-46c26072-76e1-4372-86f4-4d5b17d7b8e7">Nausea and vomiting, anorexia, epigastric distress, diarrhea; peculiar taste, stomatitis, abdominal cramps, black tongue.
+                            <content styleCode="bold">Gastrointestinal:</content>
+                  </paragraph>
+                  <paragraph ID="inv-c14e1b35-0429-4236-be74-78263b6f417b">Gynecomastia in the male; breast enlargement and galactorrhea in the female; increased or decreased libido, impotence; testicular swelling; elevation or depression of blood sugar levels; inappropriate antidiuretic hormone (ADH) secretion syndrome.
+                            <content styleCode="bold">Endocrine:</content>
+                  </paragraph>
+                  <paragraph ID="inv-03b19915-bdf2-4897-a72c-da10b8a4bd9b">Jaundice (simulating obstructive); altered liver function; weight gain or loss; perspiration; flushing, urinary frequency; drowsiness, dizziness, weakness and fatigue; headache; parotid swelling; alopecia; proneness to falling.
+                            <content styleCode="bold">Other:</content>
+                  </paragraph>
+                  <paragraph ID="inv-842aa5be-8140-418f-b9d4-d345a7522d6f">Though not indicative of addiction, abrupt cessation of treatment after prolonged therapy may produce nausea, headache and malaise.
+                            <content styleCode="bold">Withdrawal Symptoms:</content>
+                  </paragraph>
+                  <paragraph ID="inv-666fbbdf-ccbc-441e-8409-a0ee3b8fed35">In enuretic children treated with imipramine hydrochloride, the most common adverse reactions have been nervousness, sleep disorders, tiredness, and mild gastrointestinal disturbances. These usually disappear during continued drug administration or when dosage is decreased. Other reactions which have been reported include constipation, convulsions, anxiety, emotional instability, syncope, and collapse. All of the adverse effects reported with adult uses should be considered.
+                            <content styleCode="bold">Note:</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20101123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-dd7844ae-b370-4f54-acac-ba22e9d90ca1">
+               <id root="69854cb4-a25d-4e97-b868-24e133fcf85d"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34088-5" displayName="OVERDOSAGE SECTION"/>
+               <title ID="inv-0b93d3df-5fde-4863-81fe-d84b7ff3a93a" mediaType="text/x-hl7-title+xml">OVERDOSAGE</title>
+               <text ID="inv-33f06bf7-c9bd-4be9-86a6-f26d481e900e">
+                  <paragraph ID="inv-dfe5646c-751c-40c4-ad15-6f142341a27e">Deaths may occur from overdosage with this class of drugs. Multiple drug ingestion (including alcohol) is common in deliberate tricyclic overdose. As the management is complex and changing, it is recommended that the physician contact a poison control center for current information on treatment. Signs and symptoms of toxicity develop rapidly after tricyclic overdose. Therefore, hospital monitoring is required as soon as possible.</paragraph>
+                  <paragraph ID="inv-2d6eab72-d7a7-47f5-a16b-ccf321c62cc5">Children have been reported to be more sensitive than adults to an acute overdosage of imipramine hydrochloride. An acute overdose of any amount in infants or young children, especially, must be considered serious and potentially fatal.</paragraph>
+                  <paragraph ID="inv-ac7b5163-599a-4f8e-9fd0-fd5b8dcd176b">These may vary in severity depending upon factors such as the amount of drug absorbed, the age of the patient, and the interval between drug ingestion and the start of treatment. Critical manifestations of overdose include cardiac dysrhythmias, severe hypotension, convulsions, and CNS depression including coma. Changes in the electrocardiogram, particularly in QRS axis or width, are clinically significant indicators of tricyclic toxicity.
+                            <content styleCode="bold">Manifestations:</content>
+                  </paragraph>
+                  <paragraph ID="inv-9316100f-a916-4431-88af-3e400df22520">Other CNS manifestations may include drowsiness, stupor, ataxia, restlessness, agitation, hyperactive reflexes, muscle rigidity, athetoid and choreiform movements.</paragraph>
+                  <paragraph ID="inv-f79323b1-0d31-4367-884f-9b7a4a87bb3e">Cardiac abnormalities may include tachycardia and signs of congestive failure. Respiratory depression, cyanosis, shock, vomiting, hyperpyrexia, mydriasis, and diaphoresis may also be present.</paragraph>
+                  <paragraph ID="inv-e2c775c5-4bc3-4a06-b918-1a0f83c66ee6">Obtain an ECG and immediately initiate cardiac monitoring. Protect the patient’s airway, establish an intravenous line and initiate gastric decontamination. A minimum of 6 hours of observation with cardiac monitoring and observation for signs of CNS or respiratory depression, hypotension, cardiac dysrhythmias and/or conduction blocks, and seizures is necessary. If signs of toxicity occur at any time during this period, extended monitoring is required. There are case reports of patients succumbing to fatal dysrhythmias late after overdose; these patients had clinical evidence of significant poisoning prior to death and most received inadequate gastrointestinal decontamination. Monitoring of plasma drug levels should not guide management of the patient.
+                            <content styleCode="bold">Management:</content>
+                  </paragraph>
+                  <paragraph ID="inv-6ae2bf4a-7977-44d9-ab37-fe7b4fc1c40d">All patients suspected of tricyclic overdose should receive gastrointestinal decontamination. This should include large volume gastric lavage followed by activated charcoal. If consciousness is impaired, the airway should be secured prior to lavage. Emesis is contraindicated.
+                            <content styleCode="bold">Gastrointestinal Decontamination:</content>
+                  </paragraph>
+                  <paragraph ID="inv-ff04079e-3cba-4d96-8158-29ddc91d5748">A maximal limb-lead QRS duration of ≥0.10 seconds may be the best indication of the severity of the overdose. Intravenous sodium bicarbonate should be used to maintain the serum pH in the range of 7.45 to 7.55. If the pH response is inadequate, hyperventilation may also be used. Concomitant use of hyperventilation and sodium bicarbonate should be done with extreme caution, with frequent pH monitoring. A pH &gt;7.60 or a Pco &lt; 20 mmHg is undesirable. Dysrhythmias unresponsive to sodium bicarbonate therapy/ hyperventilation may respond to lidocaine, bretylium, or phenytoin. Type 1A and 1C antiarrhythmics are generally contraindicated (e.g., quinidine, disopyramide, and procainamide).
+                            <content styleCode="bold">Cardiovascular:</content>
+                     <sub>2</sub>
+                  </paragraph>
+                  <paragraph ID="inv-58b6c486-4ecb-448d-81c9-af7e93601b51">In rare instances, hemoperfusion may be beneficial in acute refractory cardiovascular instability in patients with acute toxicity. However, hemodialysis, peritoneal dialysis, exchange transfusions, and forced diuresis generally have been reported as ineffective in tricyclic poisoning.</paragraph>
+                  <paragraph ID="inv-e6ffce50-1654-4e4e-b7b4-dbccfa232cd8">In patients with CNS depression, early intubation is advised because of the potential for abrupt deterioration. Seizures should be controlled with benzodiazepines, or if these are ineffective, other anticonvulsants (e.g., phenobarbital, phenytoin). Physostigmine is not recommended except to treat life-threatening symptoms that have been unresponsive to other therapies, and then only in consultation with a poison control center.
+                            <content styleCode="bold">CNS:</content>
+                  </paragraph>
+                  <paragraph ID="inv-a8b4e62e-d6e9-41a7-b7ac-6a2174c74315">Since overdosage is often deliberate, patients may attempt suicide by other means during the recovery phase. Psychiatric referral may be appropriate.
+                            <content styleCode="bold">Psychiatric Follow-up:</content>
+                  </paragraph>
+                  <paragraph ID="inv-b77a045d-a2e2-4499-a05d-dda7bebc8bae">The principles of management of child and adult overdosages are similar. It is strongly recommended that the physician contact the local poison control center for specific pediatric treatment.
+                            <content styleCode="bold">Pediatric Management:</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20101123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-ac641c27-7366-4483-8f0b-42dcc14e030d">
+               <id root="64a3150b-5a98-4083-a83c-3ad835e2a1d8"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title ID="inv-3067d268-705b-4c8c-bb5d-51ae2e501834" mediaType="text/x-hl7-title+xml">DOSAGE AND ADMINISTRATION</title>
+               <text ID="inv-4377de87-3d79-4925-bf30-7fdd504a3709">
+                  <paragraph ID="inv-8553a95d-027d-4d5c-bd65-d37a8fb2cda4">
+                     <content styleCode="bold">Depression:</content>
+                  </paragraph>
+                  <paragraph ID="inv-04e3b855-1a0e-4cbb-a8fd-22c5a7df99e6">Lower dosages are recommended for elderly patients and adolescents. Lower dosages are also recommended for outpatients as compared to hospitalized patients who will be under close supervision. Dosage should be initiated at low level and increased gradually, noting carefully the clinical response and any evidence of intolerance. Following remission, maintenance medication may be required for a longer period of time, at the lowest dose that will maintain remission.</paragraph>
+                  <paragraph ID="inv-7e6d5ebf-78cf-43f1-8f50-fb39741e8c17">- Initially, 100 mg/day in divided doses gradually increased to 200 mg/day as required. If no response after two weeks, increase to 250 to 300 mg/day.
+                            <content styleCode="bold">Usual Adult Dose: Hospitalized patients</content>
+                  </paragraph>
+                  <paragraph ID="inv-48378daf-71f8-4c95-b07d-1f7616b595b3">Initially, 75 mg/day increased to 150 mg/day. Dosages over 200 mg/day are not recommended. Maintenance, 50 to 150 mg/day.
+                            <content styleCode="bold">Outpatients:</content>
+                  </paragraph>
+                  <paragraph ID="inv-3e96c897-7515-4029-a28d-d66554064bec">Initially, 30 to 40 mg/day; it is generally not necessary to exceed 100 mg/day
+                            <content styleCode="bold">Adolescent and geriatric patients:</content>
+                  </paragraph>
+                  <paragraph ID="inv-c5484411-4ccd-43c5-964a-767562b4ff4c">Initially, an oral dose of 25 mg/day should be tried in children aged 6 and older. Medication should be given one hour before bedtime. If a satisfactory response does not occur within one week, increase the dose to 50 mg nightly in children under 12 years; children over 12 may receive up to 75 mg nightly. A daily dose greater than 75 mg does not enhance efficacy and tends to increase side effects. Evidence suggests that in early night bedwetters, the drug is more effective given earlier and in divided amounts, i.e., 25 mg in midafternoon, repeated at bedtime. Consideration should be given to instituting a drug-free period following an adequate therapeutic trial with a favorable response. Dosage should be tapered off gradually rather than abruptly discontinued; this may reduce the tendency to relapse. Children who relapse when the drug is discontinued do not always respond to a subsequent course of treatment.
+                            <content styleCode="bold">Childhood Enuresis:</content>
+                  </paragraph>
+                  <paragraph ID="inv-30de6fb2-bd27-4592-a247-1013a4b2acd4">A dose of 2.5 mg/kg/day should not be exceeded. ECG changes of unknown significance have been reported in pediatric patients with doses twice this amount.</paragraph>
+                  <paragraph ID="inv-7b8001f4-c39e-4180-82af-a0468696f3ef">The safety and effectiveness of imipramine hydrochloride as temporary adjunctive therapy for nocturnal enuresis in children less than 6 years of age has not been established.</paragraph>
+               </text>
+               <effectiveTime value="20101123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-9be779ac-068f-4c8b-aa22-07925b0eea5d">
+               <id root="322cb91b-60ef-441b-ae86-111d488a1b81"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title ID="inv-41a89100-68d7-459b-8c89-f18668a65d4f" mediaType="text/x-hl7-title+xml">HOW SUPPLIED</title>
+               <text>
+                  <paragraph>NDC:68151-2768-0 in a PACKAGE of 1 TABLETS</paragraph>
+               </text>
+               <effectiveTime value="20140815"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-b9bf0c6f-53ba-419f-8b1b-1c6acdd0fdd8">
+               <id root="62080d88-6f42-47bc-aeae-4c178efb6941"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34091-9" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+               <title ID="inv-858f04c6-880c-4358-8b41-5c846b278e4d" mediaType="text/x-hl7-title+xml">ANIMAL PHARMACOLOGY AND/OR TOXICOLOGY</title>
+               <text ID="inv-aa78bf81-8d30-409c-9650-894b670e05df">
+                  <paragraph ID="inv-35a67528-004e-4888-865f-b38eb00e12d6">Oral LD ranges are as follows:
+                            <content styleCode="bold">Acute:</content>
+                     <sub>50</sub>
+                  </paragraph>
+                  <paragraph ID="inv-7ef37bb2-d9a8-410b-a6ba-bd6f61604a6c">Rat-355 to 682 mg/kg</paragraph>
+                  <paragraph ID="inv-7ec7dbd5-a295-41ce-be88-3a17d542899b">Dog-100 to 215 mg/kg</paragraph>
+                  <paragraph ID="inv-46b40b5b-e04d-4968-9b0b-66c91fb00c10">Depending on the dosage in both species, toxic signs proceeded progressively from depression, irregular respiration and ataxia to convulsions and death.</paragraph>
+                  <paragraph ID="inv-82e532c6-04cf-4d11-9b58-5e7c0581ff41">:
+                            <content styleCode="bold">Reproduction/Teratogenic</content>
+                  </paragraph>
+                  <paragraph ID="inv-d3c0e4d3-0fa0-4dca-a583-34537e184853">The overall evaluation may be summed up in the following manner:</paragraph>
+                  <paragraph ID="inv-5a961e14-9fbd-4f44-a114-7ab47b2de3b4">Independent studies in three species (rat, mouse, and rabbit) revealed that when imipramine hydrochloride is administered orally in doses up to approximately 2 1/2 times the maximum human dose in the first 2 species and up to 25 times the maximum human dose in the third species, the drug is essentially free from teratogenic potential. In the three species studied, only one instance of fetal abnormality occurred (in the rabbit) and in that study there was likewise an abnormality in the control group. However, evidence does exist from the rat studies that some systemic and embryotoxic potential is demonstrable. This is manifested by reduced litter size, a slight increase in the stillborn rate and a reduction in the mean birth weight.
+                            <content styleCode="bold">Oral:</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20101123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-eda132c7-522c-4005-b205-30adfe2ffc6f">
+               <id root="9f549c4a-bf34-4144-ba24-a3461d3acc65"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42231-1" displayName="SPL MEDGUIDE SECTION"/>
+               <title ID="inv-a8f1747e-5087-4485-93c2-514f3a6fb993"/>
+               <text ID="inv-b0832e2c-218d-4f99-ab1d-a204c41f9372">
+                  <paragraph ID="inv-791ff92e-0d9b-4068-a03c-46a2a8c4c12f">
+                     <content styleCode="bold">Medication Guide</content>
+                  </paragraph>
+                  <paragraph ID="inv-265e6939-e827-49b0-b4d0-28b8a7cf5bf0">
+                     <content styleCode="bold">Antidepressant Medicines, Depression and other Serious Mental Illnesses,</content>
+                  </paragraph>
+                  <paragraph ID="inv-c74821a6-f9a9-4808-b652-0fb5f9484ebc">
+                     <content styleCode="bold">and Suicidal Thoughts or Actions</content>
+                  </paragraph>
+                  <paragraph ID="inv-89d9f89b-9214-4517-a19a-2aa86bdf4899">Read the Medication Guide that comes with your or your family member’s antidepressant medicine. This Medication Guide is only about the risk of suicidal thoughts and actions with antidepressant medicines.
+                            <content styleCode="bold">Talk to your family member’s, or your healthcare provider about:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>all risks and benefits of treatment with antidepressant medicines</item>
+                     <item>all treatment choices for depression or other serious mental illness</item>
+                  </list>
+                  <paragraph ID="inv-612df34d-2196-4f54-b77d-8b00b6cc63de">
+                     <content styleCode="bold">What is the most important information I should know about antidepressant medicines, depression and other serious mental illnesses, and suicidal thoughts or actions?</content>
+                  </paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>
+                        <content styleCode="bold">Antidepressant medicines may increase suicidal thoughts or actions in some children, teenagers, and young adults within the first few months of treatment.</content>
+                     </item>
+                     <item>These include people who have (or have a family history of) bipolar illness also called manic-depressive illness or suicidal thoughts or actions.
+                                <content styleCode="bold">Depression and other serious mental illnesses are the most important causes of suicidal thoughts and actions. Some people may have a particularly high risk of having suicidal thoughts or actions.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">How can I watch for and try to prevent suicidal thoughts and actions in myself or a family member?</content>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Pay close attention to any changes, especially sudden changes, in mood, behaviors, thoughts, or feelings. This is very important when an antidepressant medicine is  started or when the dose is changed.</item>
+                           <item>Call the healthcare provider right away to report new or sudden changes in mood, behavior, thoughts, or feelings.</item>
+                           <item>Keep all follow-up visits with the healthcare provider as scheduled. Call the healthcare provider between visits as needed, especially if you have concerns about symptoms.</item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph ID="inv-01717453-436d-4786-a5e8-3d943bcfc769">
+                     <content styleCode="bold">Call a healthcare provider right away if you or your family member has any of the following symptoms, especially if they are new, worse, or worry you:</content>
+                  </paragraph>
+                  <table ID="inv-e80d90ea-42f4-4b3d-a2fc-cd01c0b0c8aa" frame="border" border="1">
+                     <col width="400px"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    thoughts about suicide or dying</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    attempts to commit suicide</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    new or worse depression</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    new or worse anxiety</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    feeling very agitated or restless</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    panic attacks</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    trouble sleeping (insomnia)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    new or worse irritability</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    acting aggressive, being angry, or violent</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    acting on dangerous impulses</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    an extreme increase in activity and talking (mania)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">·    other unusual changes in behavior or mood</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="inv-f122c67b-beee-4eeb-b835-44667d5387f3">
+                     <content styleCode="bold">What else do I need to know about antidepressant medicines?</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Stopping an antidepressant medicine suddenly can cause other symptoms.
+                                <content styleCode="bold">Never stop an antidepressant medicine without first talking to a healthcare provider.</content>
+                     </item>
+                     <item>It is important to discuss all the risks of treating depression and also the risks of not treating it. Patients and their families or other caregivers should discuss all treatment choices with the healthcare provider, not just the use of antidepressants.
+                                <content styleCode="bold">Antidepressants are medicines used to treat depression and other illnesses.</content>
+                     </item>
+                     <item>Talk to the healthcare provider about the side effects of the medicine prescribed for you or your family member.
+                                <content styleCode="bold">Antidepressant medicines have other side effects.</content>
+                     </item>
+                     <item>Know all of the medicines that you or your family member takes. Keep a list of all medicines to show the healthcare provider. Do not start new medicines without first checking with your healthcare provider.
+                                <content styleCode="bold">Antidepressant medicines can interact with other medicines.</content>
+                     </item>
+                     <item>. Talk to your child’s healthcare provider for more information.
+                                <content styleCode="bold">Not all antidepressant medicines prescribed for children are FDA approved for use in children</content>
+                     </item>
+                  </list>
+                  <paragraph ID="inv-67850cc3-e351-42f0-809f-c57bd4c1e277">Call your doctor for medical advice about side effects.  You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph ID="inv-b773a7d4-d197-4c6f-9d05-257d7304d4d6">This Medication Guide has been approved by the U.S. Food and Drug Administration for all antidepressants.</paragraph>
+                  <paragraph ID="inv-9af131e9-3e93-4c0d-ab3e-919ba19fd98f">Manufactured by:</paragraph>
+                  <paragraph ID="inv-8132480f-6b68-4544-8dcd-900e6644f656">
+                     <content styleCode="bold">PAR PHARMACEUTICAL COMPANIES, INC.</content>
+                  </paragraph>
+                  <paragraph ID="inv-af787602-ec23-44e9-8b90-827e5b606706">Spring Valley, NY 10977</paragraph>
+                  <table ID="inv-0767deb9-1e89-46a0-aef1-1d46a512e7e1" frame="void">
+                     <col width="208px"/>
+                     <col width="204px"/>
+                     <col width="208px"/>
+                     <thead valign="bottom">
+                        <tr valign="bottom">
+                           <td align="center" valign="bottom" styleCode="Botrule"/>
+                           <td align="center" valign="bottom" styleCode="Botrule"/>
+                           <td align="center" valign="bottom" styleCode="Botrule"/>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td valign="middle" styleCode="Botrule">Revised: 11/09</td>
+                           <td valign="middle" styleCode="Botrule"/>
+                           <td valign="middle" styleCode="Botrule">OS054-01-1-20</td>
+                        </tr>
+                        <tr>
+                           <td valign="middle" styleCode="Rrule"/>
+                           <td valign="middle" styleCode="Rrule"/>
+                           <td valign="middle"/>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20101123"/>
+            </section>
+         </component>
+         <component>
+            <section ID="inv-a18dba53-2c3a-4b31-8635-e7b7355b9c26">
+               <id root="a0ea93d7-213e-41f7-aca6-aba1fe9c73e6"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Imipramine HCL  10 MG TAB</title>
+               <text>
+                  <renderMultiMedia referencedObject="lbl681512768"/>
+               </text>
+               <effectiveTime value="20111122"/>
+               <component>
+                  <observationMedia ID="lbl681512768">
+                     <text>Label Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="68151-2768.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
